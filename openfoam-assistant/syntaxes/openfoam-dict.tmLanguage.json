@@ -1,0 +1,52 @@
+{
+  "name": "OpenFOAM Dictionary",
+  "scopeName": "source.openfoam-dict",
+  "patterns": [
+    {
+      "name": "comment.block",
+      "begin": "/\\*",
+      "end": "\\*/"
+    },
+    {
+      "name": "comment.line",
+      "match": "//.*$"
+    },
+    {
+      "name": "string.quoted",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "keyword.control.directive",
+      "match": "#[A-Za-z]+"
+    },
+    {
+      "name": "variable.language.macro",
+      "match": "\\$[A-Za-z_][A-Za-z0-9_]*"
+    },
+    {
+      "name": "constant.numeric.dimensions",
+      "match": "\\[[\\d\\s\\-]+\\]"
+    },
+    {
+      "name": "constant.numeric",
+      "match": "\\b[+-]?(?:\\d+\\.?\\d*|\\d*\\.?\\d+)(?:[Ee][+-]?\\d+)?\\b"
+    },
+    {
+      "name": "keyword.operator",
+      "match": ";"
+    },
+    {
+      "name": "support.type.qualifier",
+      "match": "\\b(on|off|yes|no|true|false|uniform|nonuniform)\\b"
+    },
+    {
+      "name": "entity.name.tag.openfoam",
+      "match": "\\b(Cp|E|FoamFile|LES|LESModel|PIMPLE|PISO|RAS|RASModel|SIMPLE|absorptionEmissionModel|acceleration|actions|active|addLayers|addLayersControls|adjustTimeStep|agglomerator|angularMomentum|application|axis|blocks|boundary|boundaryField|bounded01|bounds|box|cache|castellatedMesh|castellatedMeshControls|cellSet|cellZone|centre|centreOfMass|chemistryType|coeffs|combustionModel|consecutive|consistent|constraints|constructFrom|convertToMeters|cylindrical|ddtSchemes|decompose|default|delta|deltaT|deltaWet|diffusivity|dimensions|direction|divSchemes|duration|dynamicFvMesh|edges|endCalls|endTime|executeCalls|expansionRatio|extrudeModel|faceZones|features|field|fields|filmModel|fluxRequired|functions|geometry|gradSchemes|ignition|insidePoints|internalField|interpolationScheme|interpolationSchemes|k|laminar|laplacianSchemes|legacy|libs|lifeTime|locationInMesh|mass|master|matchTolerance|maxCo|maxDeltaT|maxIter|mergePatchPairs|mergeTolerance|meshQualityControls|method|minIter|mixture|momentOfInertia|momentumPredictor|motionSolver|mu|nCellsBetweenLevels|nCorr|nCorrectors|nFinestSweeps|nLayers|nNonOrthogonalCorrectors|nOuterCorrectors|nPostSweeps|nPreSweeps|nSubCycle|name|noPatches|nodeValues|nu|numberOfSubdomains|omega|operation|orientation|origin|overwrite|pRefCell|pRefValue|patchInfo|patches|phase1|phase2|phases|planeTolerance|planeType|pointAndNormalDict|pointSync|preconditioner|printCoeffs|purgeWrite|radiation|radiationModel|radius|refinementRegions|refinementSurfaces|regionType|regions|relTol|relaxationFactors|report|resetOnStartUp|residualControl|resolveFeatureAngle|restraints|rho|runTimeModifiable|scatterModel|schemesField|seedSet|selectionMode|set|setFormat|sigma|sigmaMax|simulationType|smoother|snGradSchemes|snap|snapControls|solver|solvers|sootModel|source|species|startFrom|startTime|stopAt|surfaceFormat|thermoType|timeFormat|timePrecision|timeStart|tolerance|torque|trackForward|trackLength|transportModel|turbulence|type|value|velocity|verbose|vertices|volumeMode|wallDist|waveHeight|waveLength|waveModel|wavePeriod|waveTheory|writeArea|writeCalls|writeCompression|writeControl|writeFormat|writeIds|writeInterval|writeMomentum|writePosition|writePrecision|writeVelocity)\\b"
+    },
+    {
+      "name": "entity.name.function.openfoam",
+      "match": "\\b(BirdCarreau|Casson|CourantNo|CrankNicolson|CrossPowerLaw|CuthillMcKee|DIC|DILU|DILUGaussSeidel|DarcyForchheimer|Deardorff|EDC|EDM|Euler|FDIC|FSD|GAMG|GMRES|Gauss LUST|Gauss MUSCL|Gauss QUICK|Gauss limitedLinear|Gauss linear|Gauss linearUpwind|Gauss upwind|Gauss vanLeer|GaussSeidel|HerschelBulkley|LRR|Lambda2|LaunderGibsonRSTM|LienCubicKE|LienLeschziner|MRFSource|MachNo|Newmark|Newtonian|P1|PBiCGStab|PCG|PaSR|PecletNo|Poisson|Q|RNGkEpsilon|SSG|ShihQuadraticKE|Sloan|Smagorinsky|SpalartAllmaras|SpalartAllmarasDDES|SpalartAllmarasDES|SpalartAllmarasIDDES|WALE|actuationDiskSource|add|advectionDiffusion|algebraicPair|alphaContactAngle|alphatWallFunction|backward|bounded|buoyancyEnergy|buoyancyForce|calculated|codedFixedValue|codedMixed|components|constantAlphaContactAngle|corrected|cubic|cuttingPlane|cyclic|cyclicAMI|cyclicSector|deformationEnergy|diagonal|diffusion|directionMixed|directional|displacementLaplacian|displacementSBRStress|divide|dynamicAlphaContactAngle|dynamicKEqn|dynamicLagrangian|dynamicMotionSolverFvMesh|dynamicMultiMotionSolverFvMesh|dynamicRefineFvMesh|effectivenessHeatExchangerSource|empty|ensightWrite|epsilonLowReWallFunction|epsilonWallFunction|explicitPorositySource|exponential|externalCoupled|faceAreaPair|fanPressure|fieldAverage|file|fixedCoeff|fixedFluxPressure|fixedGradient|fixedNormalSlip|fixedTemperatureConstraint|fixedValue|fixedValueConstraint|flowRateInletVelocity|flowType|forceCoeffs|forces|fvDOM|hierarchical|hydrostaticPressure|infinitelyFastChemistry|inletOutlet|interfaceHeight|inverseDistance|inversePointDistance|inverseVolume|isoSurface|kEpsilon|kEpsilonPhitF|kEqn|kLowReWallFunction|kOmega|kOmegaSST|kOmegaSSTDDES|kOmegaSSTDES|kOmegaSSTIDDES|kqRWallFunction|leastSquares|limitTemperature|limitVelocity|limited corrected|linear|linearDamper|linearDirection|linearMotion|linearNormal|linearSpring|localEuler|manual|mappedWall|meanVelocityForce|meshWave|metis|midPoint|mixed|momentum|movingWall|movingWallVelocity|multiLevel|multiRigidBodyMotion|multiply|nearWallFields|noCombustion|noSlip|none|nutLowReWallFunction|nutUSpaldingWallFunction|nutUWallFunction|nutkAtmRoughWallFunction|nutkWallFunction|offsetSurface|omegaWallFunction|opaqueSolid|oscillatingDisplacement|oscillatingLinearMotion|outletInlet|overset|partialSlip|patch|polyline|powerLaw|pressureInletOutletVelocity|pressureInletVelocity|prghPressure|prghTotalPressure|probes|processor|ptscotch|quadratic|radial|random|randomise|realizableKE|rigidBodyMotion|rotatingMotion|rotatingWallVelocity|rotorDiskSource|scalarSemiImplicitSource|scalarTransport|scotch|sector|sigma|sigmaRadial|simple|sixDoFRigidBodyMotion|slip|smoothSolver|solidBodyMotionFvMesh|solidification|sphericalAngularDamper|sphericalAngularSpring|spring|stabilityBlendingFactor|staticFvMesh|steadyState|streamFunction|streamLine|streamLines|structured|subtract|surfaceFieldValue|swirlFlowRateInletVelocity|symGaussSeidel|symmetry|symmetryPlane|symplectic|systemCall|totalPressure|totalTemperature|turbulentIntensityKineticEnergyInlet|turbulentMixingLengthDissipationRateInlet|turbulentMixingLengthFrequencyInlet|uncorrected|uniform|uniformInterstitial|upwind|v2f|vanLeer|vectorSemiImplicitSource|velocityLaplacian|viewFactor|vorticity|vtkWrite|wall|wallHeatFlux|wallShearStress|wedge|yPlus|zeroGradient)\\b"
+    }
+  ]
+}

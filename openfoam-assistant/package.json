@@ -1,0 +1,67 @@
+{
+  "name": "openfoam-dict-intellisense",
+  "displayName": "OpenFOAM Dict IntelliSense",
+  "description": "OpenFOAM IntelliSense: 78 file-type keyword mappings with fuzzy search, 43K+ words, offline C++ hints (keywords/classes/hover/snippets), and one-click OpenFOAM compile-environment setup. Enter to select, Tab disabled.",
+  "version": "1.0.9",
+  "publisher": "boyaoChen",
+  "author": { "name": "boyaoChen" },
+  "license": "MIT",
+  "icon": "icon.png",
+  "engines": { "vscode": "^1.114.0" },
+  "categories": ["Programming Languages", "Other"],
+  "keywords": ["OpenFOAM","CFD","dictionary","IntelliSense"],
+  "activationEvents": ["onStartupFinished"],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      { "command": "openfoam.toggleDict", "title": "OpenFOAM: Toggle FOAMDict Mode" },
+      { "command": "openfoam.setupCppIntelliSense", "title": "OpenFOAM: Setup C++ IntelliSense for Workspace" },
+      { "command": "openfoam.toggleEnv", "title": "OpenFOAM: Toggle Compile Environment" },
+      { "command": "openfoam.openEnvTerminal", "title": "OpenFOAM: Open Terminal with Environment" },
+      { "command": "openfoam.applyGlobalEnv", "title": "OpenFOAM: Apply Global IntelliSense Config" }
+    ],
+    "configurationDefaults": {
+      "[openfoam-dict]": {
+        "editor.quickSuggestions": { "other": true, "comments": false, "strings": false },
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.wordBasedSuggestions": false,
+        "editor.tabCompletion": "off",
+        "editor.acceptSuggestionOnEnter": "on",
+        "editor.suggestSelection": "recentlyUsed",
+        "editor.snippetSuggestions": "none",
+        "editor.inlineSuggest.enabled": false
+      }
+    },
+    "languages": [{
+      "id": "openfoam-dict",
+      "aliases": ["OpenFOAM Dictionary"],
+      "extensions": [],
+      "filenames": [
+        "U","p","p_rgh","T","k","epsilon","omega","nut","nuTilda","alphat","rho","h","e","B","R",
+        "alpha.water","alpha.liquid","alpha.air","alpha","pointDisplacement","pointMotionU",
+        "controlDict","fvSchemes","fvSolution","decomposeParDict","blockMeshDict","snappyHexMeshDict",
+        "setFieldsDict","topoSetDict","transportProperties","turbulenceProperties",
+        "thermophysicalProperties","dynamicMeshDict","fvOptions","g","reactions","phaseProperties",
+        "radiationProperties","combustionProperties","chemistryProperties","MRFProperties",
+        "SRFProperties","mechanicalProperties","porosityProperties","waveProperties",
+        "surfaceFilmProperties","kinematicCloudProperties","sprayCloudProperties","motionProperties",
+        "extrudeMeshDict","mirrorMeshDict","refineMeshDict","createPatchDict","changeDictionaryDict",
+        "mapFieldsDict","sampleDict","probesDict","streamLines","collapseDict","stitchMeshDict",
+        "createBafflesDict","meshQualityDict","surfaceFeatureExtractDict","renumberMeshDict",
+        "potentialDict","setExprFieldsDict","faSchemes","faSolution","coordinateTransform",
+        "Allrun","Allclean","Allwmake"
+      ],
+      "filenamePatterns": ["**/0/*","**/constant/*","**/system/*"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "openfoam-dict",
+      "scopeName": "source.openfoam-dict",
+      "path": "./syntaxes/openfoam-dict.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "cpp",
+      "path": "./snippets/openfoam-cpp.json"
+    }]
+  }
+}
