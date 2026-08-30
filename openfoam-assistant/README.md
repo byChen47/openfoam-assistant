@@ -14,12 +14,13 @@ VS Code IntelliSense for OpenFOAM — dictionary-file completions (78 file types
 - **Hover hints** - mouse over OpenFOAM keywords/classes shows description, defining header and usage
 - **Code snippets** - solver/PIMPLE/SIMPLE/readDict/createField templates via `foamSolver`, `foamPimple`, `foamSimple`, `foamReadDict`, `foamCreateField`, …
 - **Smart Highlighting** - 447 curated keywords highlighted
+- **Auto highlighting** - dictionary keywords from the FOAMDict database (939 tags: boundary conditions, turbulence models, solvers, schemes, function objects…) are highlighted automatically when an OpenFOAM case file is recognized
 - **Auto-detect** - Recognizes 0/, constant/, system/ directory files
 
 ## Installation
 
-- From VSIX: Extensions panel → `...` → `Install from VSIX...` → select `openfoam-dict-intellisense-1.1.0.vsix`.
-- Or from the terminal: `code --install-extension openfoam-dict-intellisense-1.1.0.vsix`.
+- From VSIX: Extensions panel → `...` → `Install from VSIX...` → select `openfoam-dict-intellisense-1.1.2.vsix`.
+- Or from the terminal: `code --install-extension openfoam-dict-intellisense-1.1.2.vsix`.
 
 The Microsoft C/C++ extension (`ms-vscode.cpptools`) is recommended for full IntelliSense when an OpenFOAM environment is available.
 
@@ -36,8 +37,8 @@ The Microsoft C/C++ extension (`ms-vscode.cpptools`) is recommended for full Int
 
 Writing OpenFOAM solvers/applications needs the full compile environment (headers, defines, wmake). Click the **`FOAMSRC`** status bar item (next to `FOAMDict`) to toggle it per workspace:
 
-- **ON**: auto-detects the OpenFOAM installation (`WM_PROJECT_DIR` → `OpenFOAM-v*/` inside the workspace → `~/OpenFOAM/`), creates source symlinks, backs up and writes `.vscode/c_cpp_properties.json` / `tasks.json` / `settings.json` with all `lnInclude` dirs and the exact wmake macros (`OPENFOAM=<ver>`, `WM_DP`/`WM_SP`, `WM_LABEL_SIZE=32/64`, `NoRepository`), plus `wmake`/`wclean` build tasks.
-- **OFF**: restores the previous `.vscode` files and removes plugin-created symlinks.
+- **ON**: auto-detects the OpenFOAM installation (`WM_PROJECT_DIR` → `OpenFOAM-v*/` inside the workspace → `~/OpenFOAM/`), backs up and writes `.vscode/c_cpp_properties.json` / `tasks.json` / `settings.json` using **absolute paths** (no source symlinks are created) with all `lnInclude` dirs and the exact wmake macros (`OPENFOAM=<ver>`, `WM_DP`/`WM_SP`, `WM_LABEL_SIZE=32/64`, `NoRepository`), plus `wmake`/`wclean` build tasks.
+- **OFF**: restores the previous `.vscode` files.
 - **OpenFOAM: Open Terminal with Environment**: opens an integrated terminal with `$WM_PROJECT_DIR/etc/bashrc` sourced.
 - The toggle state is remembered per workspace and restored on reload.
 
@@ -45,21 +46,40 @@ Requires the Microsoft C/C++ extension (`ms-vscode.cpptools`) for IntelliSense.
 
 ## Auto Global Setup
 
-On activation the extension **auto-detects** whether the machine has an OpenFOAM compile environment (`WM_PROJECT_DIR` → `OpenFOAM-v*/` in the workspace → `~/OpenFOAM/`):
+On activation the extension **auto-detects** whether the machine has an OpenFOAM compile environment (manual path → `WM_PROJECT_DIR` → `OpenFOAM-v*/` in the workspace → `~/OpenFOAM/` → `/opt/OpenFOAM` → `/usr/local/OpenFOAM`):
 
-- **Detected**: it automatically writes the global VS Code user settings (`C_Cpp.default.includePath/defines/compilerPath/...`, `files.associations` for `*.C`/`*.H`, plus user-level `wmake`/`wclean` tasks) — no manual setup needed in any project. Runs once per machine; re-run anytime with `OpenFOAM: Apply Global IntelliSense Config`.
-- **Not detected**: no global changes are made, and turning on **`FOAMSRC`** still works — it enters offline hint mode (bundled class names + header suggestions) instead of failing, so writing OpenFOAM code still gets suggestions.
+- **OpenFOAM exists**: the environment is automatically added to the **global VS Code user settings** (`C_Cpp.default.includePath/defines/forcedInclude/compilerPath`, `files.associations` for `*.C`/`*.H`, plus user-level `wmake`/`wclean` tasks) — no toggle and no manual setup needed. On every startup the global config is validated and re-applied if the compat forced-include is missing.
+- **Multiple versions**: if several OpenFOAM installs are detected (workspace, `~/OpenFOAM`, `/opt/OpenFOAM`, `/usr/local/OpenFOAM`, …), **all of them** are merged into the global `includePath` (deduplicated by real path). The defines/compiler/tasks follow the highest version.
+- **No OpenFOAM**: no global changes are made. **`FOAMSRC` stays OFF by default** and must be toggled manually — only then the bundled offline data activates (74 stub headers, keywords, classes, `#include` hints, hover).
+- **Manual path**: if OpenFOAM is installed somewhere non-standard, run `OpenFOAM: Set OpenFOAM Install Path` and pick the installation folder (the one containing `etc/bashrc`).
+
+**`FOAMDict` is unchanged**: OFF by default, toggled manually for dictionary-file completions/highlighting.
+
+## Troubleshooting on other computers
+
+If headers / keywords are not recognized on a new machine:
+
+1. Install the Microsoft **C/C++ extension** (`ms-vscode.cpptools`) — real header resolution and squiggle control depend on it.
+2. Install the latest vsix (**1.1.x**) — older packages lack the forced-include compat header — then `Reload Window`.
+3. Open the OpenFOAM case/code folder and click **`FOAMSRC`** in the status bar. The info panel shows the detected OpenFOAM root; if it says "offline mode", the install was not found.
+4. Verify `.vscode/c_cpp_properties.json` was created in the workspace (it should contain `forcedInclude` pointing at `data/foamCompat.H`).
+5. OpenFOAM at a non-standard location → use `OpenFOAM: Set OpenFOAM Install Path`.
+6. After any change: `Reload Window`, then if squiggles persist, `C/C++: Reset IntelliSense Database`.
+7. On a machine **without OpenFOAM**, offline hints + stub headers cover the common includes and keywords; real header *content* (types, functions) still needs the real source tree — either install OpenFOAM or put the source in the workspace.
 
 ## Offline Code Hints
 
 Even **without an OpenFOAM installation**, the extension ships a bundled hint database and can help while writing `.C` / `.H` solver code:
 
 - **`#include` suggestions**: type `#include "fv` and get common OpenFOAM headers (`fvCFD.H`, `fvOptions.H`, …) plus all ~3.9K headers extracted from OpenFOAM-v2206.
+- **Offline stub headers**: 74 common OpenFOAM headers (`fvCFD.H`, `fvOptions.H`, `IOdictionary.H`, …) are shipped as stubs and added to the offline include path, so `#include errors detected` disappears for them and the bundled keywords are defined.
 - **Class-name hints**: with **`FOAMSRC`** on (online or offline mode), typing an identifier suggests OpenFOAM classes (4,577) and shows which header defines it (e.g. `fvMesh` → `src/finiteVolume/fvMesh/fvMesh.H`).
 - **Code keywords**: OpenFOAM-specific keywords/macros (`Info`, `FatalErrorInFunction`, `forAll`, `nl`, `endl`, `fvc::div`, `fvm::Sp`, `IOobject::MUST_READ`, `dimensionedScalar`, …) come with descriptions and useful snippets — extend the list in `data/cpp_keywords.json`.
 - **Hover**: hovering a keyword/class shows its description, defining header and a usage snippet.
+- **Include hover**: hovering `#include "xxx.H"` shows what the header provides (description or the classes it defines).
 - **Snippets**: type `foamSolver` / `foamPimple` / `foamSimple` / `foamReadDict` / `foamCreateField` / `foamRunTime` in a `.C` file and press Enter to insert the template.
 - **No false "undefined" squiggles**: a compatibility header (`data/foamCompat.H`) is force-included while `FOAMSRC` is on, so `Info`, `nl`, `endl`, `forAll` etc. are recognized by the C/C++ extension (online and offline).
+- **Works without a folder**: with no OpenFOAM install, `FOAMSRC` can be toggled even without a workspace folder — offline hints (keywords, classes, headers, hover) still work.
 - These hints are file-type aware: dictionary completions only appear in `0/constant/system` dictionary files; C++ hints only in `.C/.H/.cpp/...` files (fixes previous cross-pollution).
 
 Full IntelliSense (go-to-definition, symbol resolution) still requires the actual OpenFOAM headers — enable the **`FOAMSRC`** environment toggle on a machine with OpenFOAM installed, or add the source tree to the workspace.
@@ -105,7 +125,7 @@ Ready-made fixtures live in the `test-case/` folder (excluded from the vsix via 
 
 - **Auto global setup**: on startup, an info message appears; check `~/.config/Code/User/settings.json` for `C_Cpp.default.includePath/defines` and `files.associations`, and the user-level `tasks.json` for wmake/wclean.
 - **FOAMDict completions**: open `test-case/0/U` or `system/controlDict`, click `FOAMDict`, type e.g. `fixed` or `Euler` — suggestions appear.
-- **FOAMSRC (env present)**: click `FOAMSRC` — symlinks `OpenFOAM-v2206` / `ThirdParty-v2206` appear in the workspace and `.vscode/c_cpp_properties.json` is written; open `test-case/code/foamHello.C` — `#include "fvCFD.H"` should resolve.
+- **FOAMSRC (env present)**: click `FOAMSRC` — `.vscode/c_cpp_properties.json` is written with absolute OpenFOAM paths (no symlinks in the workspace); open `test-case/code/foamHello.C` — `#include "fvCFD.H"` should resolve.
 - **Offline hints**: click `FOAMSRC` (offline mode), open `foamHello.C`, type `#include "fvC` for header suggestions, or type `dimensionedS` for class hints with header detail.
 - **wmake task**: with FOAMSRC on, open `test-case/code/foamHello.C`, press `Ctrl+Shift+B` → `wmake: 编译当前文件夹`.
 - **Offline (no OpenFOAM) mode**: add `"env": { "FOAM_ASSISTANT_OFFLINE": "1" }` to `launch.json`, restart F5 — FOAMSRC then enters offline hint mode instead of failing.

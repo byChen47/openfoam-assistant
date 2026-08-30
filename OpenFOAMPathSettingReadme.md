@@ -138,16 +138,9 @@ find $FOAM_SRC $FOAM_APP -type d -name lnInclude | sort
 
 本仓库(openfoam-assistant 所在的工作区)已经按方案二落地，并把 OpenFOAM 源码整合进了项目，无需再手动配置。应用内容如下：
 
-### 1. OpenFOAM 源码软链接整合
+### 1. 绝对路径接入(不创建软链接)
 
-项目根目录下新增了两个软链接，把本机 OpenFOAM 安装直接挂到工作区里（零拷贝，不占额外磁盘）：
-
-```bash
-OpenFOAM-v2206    -> /home/chen/OpenFOAM/OpenFOAM-v2206      # 2.7GB 源码树
-ThirdParty-v2206  -> /home/chen/OpenFOAM/ThirdParty-v2206    # boost / CGAL 等
-```
-
-这样在 VS Code 资源管理器里可以直接浏览 OpenFOAM 源码、搜索头文件，`${workspaceFolder}/OpenFOAM-v2206/**` 也能在 includePath 中生效。**注意：这两个软链接是 IntelliSense 路径解析的根基，不要删除或改名。**
+插件与配置一律使用 OpenFOAM 安装的**绝对路径**（如 `/home/chen/OpenFOAM/OpenFOAM-v2206/src/...`），**不会在工作区创建源码软链接**。需要浏览 OpenFOAM 源码时，直接打开真实安装目录即可；IntelliSense 通过 includePath 中的绝对路径直接引用头文件，不依赖工作区内的链接。
 
 ### 2. 工程级 `c_cpp_properties.json`
 
@@ -173,13 +166,12 @@ ThirdParty-v2206  -> /home/chen/OpenFOAM/ThirdParty-v2206    # boost / CGAL 等
 
 上述手动配置已经做成了插件功能（openfoam-assistant 当前版本）。安装插件后，状态栏会出现 **`FOAMDict`** 和 **`FOAMSRC`** 两个开关（原 `C++` 开关已取消，与 VS Code 自带 C++ 扩展重复；类名提示并入 `FOAMSRC`）。打开任一开关时，插件会**自动弹出一个说明页面**，写明该开关当前状态和功能，不再弹出大量通知：
 
-- **自动检测**：插件启动时会自动查询本机是否存在 OpenFOAM 编译环境（依次检查 `WM_PROJECT_DIR` 环境变量、工作区内 `OpenFOAM-v*/` 目录、`~/OpenFOAM/`）。检测到就**自动写入 VS Code 全局用户配置**（`C_Cpp.default.includePath/defines/compilerPath`、`files.associations` 的 `*.C/*.H`，以及用户级 `wmake`/`wclean` 任务），每台机器只自动执行一次，之后无需任何手动设置；也可随时用命令 `OpenFOAM: Apply Global IntelliSense Config` 重新应用。
+- **自动检测（行为矩阵）**：插件启动时自动查询本机是否存在 OpenFOAM 编译环境（依次检查手动路径、`WM_PROJECT_DIR`、工作区内 `OpenFOAM-v*/`、`~/OpenFOAM/`、`/opt/OpenFOAM`、`/usr/local/OpenFOAM`）。**存在 → 每次启动自动校验并补全全局用户配置**（`C_Cpp.default.includePath/defines/forcedInclude/compilerPath`、`files.associations` 的 `*.C/*.H`、用户级 `wmake`/`wclean` 任务），**多个版本时全部版本的头文件路径都会合并进全局 includePath（按真实路径去重，最高版本优先）**，无需任何开关；**不存在 → 不写全局配置，`FOAMSRC` 保持默认关闭，手动打开后才启用内置离线数据**（74 个占位头文件、关键字、类名、`#include` 提示）。`FOAMDict` 不变（默认关闭，手动开启字典补全）。也可用命令 `OpenFOAM: Apply Global IntelliSense Config` 手动重新应用。
 - **打开（默认关）**：插件自动查找 OpenFOAM 安装（优先 `WM_PROJECT_DIR` 环境变量，其次工作区内 `OpenFOAM-v*/` 目录，最后 `~/OpenFOAM/`），然后：
-  1. 在工作区创建 `OpenFOAM-v*`、`ThirdParty-v*` 源码软链接；
-  2. 备份工作区原有 `.vscode/c_cpp_properties.json`、`tasks.json`、`settings.json`，再写入自动生成的配置（全部 `lnInclude`、正确宏、wmake/wclean 任务、`.C`/`.H` 文件关联）；
-  3. 状态栏提示已开启的 lnInclude 数量。
+  1. 备份工作区原有 `.vscode/c_cpp_properties.json`、`tasks.json`、`settings.json`，再写入自动生成的配置——全部使用**绝对路径**（不创建源码软链接），包含全部 `lnInclude`、正确宏、wmake/wclean 任务、`.C`/`.H` 文件关联；
+  2. 状态栏提示已开启的 lnInclude 数量。
 - **无安装时的离线模式**：如果本机没有 OpenFOAM 编译环境，打开 `FOAMSRC` 不会报错，而是直接进入**离线代码提示模式**——写 `.C`/`.H` 时依然有类名、头文件和 `#include` 建议（数据随插件内置），解决“写 OpenFOAM 代码没有提示”的问题。
-- **关闭**：把 `.vscode` 三个文件还原为备份（无备份则删除插件生成的文件），并移除插件创建的软链接。
+- **关闭**：把 `.vscode` 三个文件还原为备份（无备份则删除插件生成的文件）。
 - **配套命令**：`OpenFOAM: Open Terminal with Environment` 打开一个已 `source` OpenFOAM bashrc 的集成终端，直接运行 wmake/foamRun 等；`OpenFOAM: Setup C++ IntelliSense for Workspace` 等价于打开开关。
 - 开关状态按工作区记忆，重启 VS Code 后自动恢复；检测不到 OpenFOAM 时会给出提示而不是静默失败。
 

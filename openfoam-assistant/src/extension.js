@@ -3,7 +3,7 @@ const path = require("path");
 const fs = require("fs");
 const os = require("os");
 
-let words=[], classes=[], FILE_KEYWORDS={}, cppHeaders={}, cppIncludes=[], cppKeywords=[], dictBar, envBar, dictOn=false, envOn=false, envStore=null, extPath="";
+let words=[], classes=[], FILE_KEYWORDS={}, cppHeaders={}, cppIncludes=[], cppKeywords=[], dictBar, envBar, dictOn=false, envOn=false, envStore=null, extPath="", foamManualRoot="";
 
 function load(ctx) {
     try{words=JSON.parse(fs.readFileSync(path.join(ctx.extensionPath,"data","tutorial_words.json"),"utf-8")).words||[];}catch(e){}
@@ -66,31 +66,47 @@ function envToggleInfoHtml(rootName) {
         "<p><b>这个按钮的功能：</b>" + envLine + "</p>" +
         "<ul>" +
         "<li>自动写入工作区 <code>.vscode</code> 配置（全部 <code>lnInclude</code> 目录、wmake 宏、文件关联）；</li>" +
-        "<li>创建 <code>OpenFOAM-v*</code> / <code>ThirdParty-v*</code> 源码软链接；</li>" +
+        "<li>使用 OpenFOAM 安装的<strong>绝对路径</strong>写入 <code>.vscode</code> 配置（不创建源码软链接）；</li>" +
         "<li>提供 <code>wmake</code> / <code>wclean</code> 任务（<code>Ctrl+Shift+B</code>）；</li>" +
         "<li>写 <code>.C</code> / <code>.H</code> 代码时提供类名、头文件与 <code>#include</code> 提示。</li>" +
         "</ul>" +
-        "<p>再次点击状态栏 <code>FOAMSRC</code> 即可关闭（自动还原配置与软链接）。</p>";
+        "<p>再次点击状态栏 <code>FOAMSRC</code> 即可关闭（自动还原 <code>.vscode</code> 配置）。</p>";
+}
+
+function foamVersionOf(root) {
+    return parseInt((path.basename(root).match(/(\d+)/) || [0, 0])[1], 10);
+}
+
+function collectOpenFOAMRoots(ws) {
+    const out = [];
+    const keys = new Set();
+    const add = r => {
+        if (!r || !fs.existsSync(path.join(r, "etc", "bashrc"))) return;
+        let key;
+        try { key = fs.realpathSync(r); } catch (e) { key = r; }
+        if (keys.has(key)) return;
+        keys.add(key);
+        out.push(r);
+    };
+    if (process.env.FOAM_ASSISTANT_OFFLINE === "1") return out;
+    add(foamManualRoot);
+    add(process.env.WM_PROJECT_DIR || (process.env.FOAM_SRC ? path.dirname(process.env.FOAM_SRC) : ""));
+    if (ws) {
+        for (const name of fs.readdirSync(ws)) {
+            if (/^OpenFOAM-v?\d/.test(name)) add(path.join(ws, name));
+        }
+    }
+    for (const base of [path.join(os.homedir(), "OpenFOAM"), "/opt/OpenFOAM", "/usr/local/OpenFOAM"]) {
+        if (!fs.existsSync(base)) continue;
+        for (const name of fs.readdirSync(base)) {
+            if (/^OpenFOAM-v?\d/.test(name)) add(path.join(base, name));
+        }
+    }
+    return out.sort((a, b) => foamVersionOf(b) - foamVersionOf(a));
 }
 
 function findOpenFOAMRoot(ws) {
-    if (process.env.FOAM_ASSISTANT_OFFLINE === "1") return null;
-    const envRoot = process.env.WM_PROJECT_DIR || (process.env.FOAM_SRC ? path.dirname(process.env.FOAM_SRC) : "");
-    if (envRoot && fs.existsSync(path.join(envRoot, "etc", "bashrc"))) return envRoot;
-    if (ws) {
-        for (const name of fs.readdirSync(ws)) {
-            const p = path.join(ws, name);
-            if (/^OpenFOAM-v?\d/.test(name) && fs.existsSync(path.join(p, "etc", "bashrc"))) return p;
-        }
-    }
-    const base = path.join(os.homedir(), "OpenFOAM");
-    if (fs.existsSync(base)) {
-        const dirs = fs.readdirSync(base)
-            .filter(n => /^OpenFOAM-v?\d/.test(n) && fs.existsSync(path.join(base, n, "etc", "bashrc")))
-            .sort((a, b) => (parseInt((b.match(/(\d+)/) || [0, 0])[1], 10)) - (parseInt((a.match(/(\d+)/) || [0, 0])[1], 10)));
-        if (dirs.length) return path.join(base, dirs[0]);
-    }
-    return null;
+    return collectOpenFOAMRoots(ws)[0] || null;
 }
 
 function collectLnInclude(root) {
@@ -130,8 +146,8 @@ function buildEnvConfig(ws, root, globalMode) {
     const ver = (path.basename(root).match(/v?(\d+)/) || [0, "2206"])[1];
     const defines = ["OPENFOAM=" + ver, "WM_DP", "WM_LABEL_SIZE=32", "NoRepository"];
     if (opt) { defines[1] = /SP/.test(opt) ? "WM_SP" : "WM_DP"; defines[2] = /Int64/.test(opt) ? "WM_LABEL_SIZE=64" : "WM_LABEL_SIZE=32"; }
-    const wsPrefix = ws.replace(/\\/g, "/");
-    const toPath = p => { p = p.replace(/\\/g, "/"); return (globalMode || !ws) ? p : (p.startsWith(wsPrefix) ? "${workspaceFolder}" + p.slice(wsPrefix.length) : p); };
+    // 一律使用绝对路径(不在工作区创建 OpenFOAM 源码软链接)
+    const toPath = p => p.replace(/\\/g, "/");
     const mode = process.platform === "darwin" ? "macos-gcc-x64" : process.platform === "win32" ? "windows-gcc-x64" : "linux-gcc-x64";
     const compiler = fs.existsSync("/usr/bin/g++") ? "/usr/bin/g++" : "g++";
     const props = {
@@ -160,18 +176,6 @@ function buildEnvConfig(ws, root, globalMode) {
     return { inc: inc, tp: tp, props: props, tasks: tasks, settings: settings, bashrc: src };
 }
 
-function ensureEnvSymlinks(ws, root, info) {
-    info.symlinks = info.symlinks || [];
-    const want = { [path.basename(root)]: root };
-    const tpRoot = path.join(path.dirname(root), path.basename(root).replace(/^OpenFOAM/, "ThirdParty"));
-    if (fs.existsSync(tpRoot)) want[path.basename(tpRoot)] = tpRoot;
-    for (const name of Object.keys(want)) {
-        const link = path.join(ws, name);
-        try { if (fs.lstatSync(link).isSymbolicLink()) continue; } catch (e) {}
-        try { fs.symlinkSync(want[name], link); info.symlinks.push(name); } catch (e) {}
-    }
-}
-
 function backupVscodeFiles(ws, info) {
     info.backups = info.backups || {};
     const vscodeDir = path.join(ws, ".vscode");
@@ -188,7 +192,6 @@ function backupVscodeFiles(ws, info) {
 }
 
 function applyOpenFOAMEnv(ws, root, info) {
-    ensureEnvSymlinks(ws, root, info);
     backupVscodeFiles(ws, info);
     const cfg = buildEnvConfig(ws, root);
     const vscodeDir = path.join(ws, ".vscode");
@@ -211,7 +214,7 @@ function writeOfflineEnvConfig(ws, info) {
             cppStandard: "c++14",
             defines: ["FOAM_ASSISTANT_OFFLINE=1"],
             forcedInclude: [path.join(extPath, "data", "foamCompat.H")],
-            includePath: ["${workspaceFolder}/**"]
+            includePath: ["${workspaceFolder}/**", path.join(extPath, "data", "stubs")]
         }],
         version: 4
     };
@@ -260,11 +263,19 @@ function mergeUserTasks(root) {
     try { fs.mkdirSync(dir, { recursive: true }); fs.writeFileSync(fp, JSON.stringify(data, null, 4) + "\n"); } catch (e) {}
 }
 
-async function applyGlobalOpenFOAMEnv(root) {
-    const cfg = buildEnvConfig("", root, true);
+async function applyGlobalOpenFOAMEnv(roots) {
+    const primary = roots[0];
+    const cfg = buildEnvConfig("", primary, true);
+    const allInc = [];
+    for (const r of roots) {
+        allInc.push(...collectLnInclude(r));
+        const tp = findThirdPartyDirs(r);
+        allInc.push(...tp.dirs);
+    }
+    const incSet = [...new Set(allInc)];
     const cpp = vscode.workspace.getConfiguration("C_Cpp");
     const oldInc = cpp.get("default.includePath") || [];
-    const mergedInc = oldInc.filter(p => p.indexOf("OpenFOAM") < 0 && p.indexOf("ThirdParty") < 0).concat(cfg.props.configurations[0].includePath);
+    const mergedInc = oldInc.filter(p => p.indexOf("OpenFOAM") < 0 && p.indexOf("ThirdParty") < 0).concat(incSet);
     await cpp.update("default.includePath", [...new Set(mergedInc)], vscode.ConfigurationTarget.Global);
     const oldDef = cpp.get("default.defines") || [];
     const mergedDef = oldDef.filter(d => !/^(OPENFOAM=|WM_|NoRepository)/.test(d)).concat(cfg.props.configurations[0].defines);
@@ -279,19 +290,26 @@ async function applyGlobalOpenFOAMEnv(root) {
     const files = vscode.workspace.getConfiguration("files");
     const assoc = files.get("associations") || {};
     await files.update("associations", Object.assign({}, assoc, { "*.C": "cpp", "*.H": "cpp" }), vscode.ConfigurationTarget.Global);
-    mergeUserTasks(root);
-    return cfg.inc.length;
+    mergeUserTasks(primary);
+    return { count: incSet.length, roots: roots };
 }
 
 function toggleOpenFOAMEnv() {
     const ws = getWorkspacePath();
-    if (!ws) { vscode.window.showWarningMessage("请先在工作区中打开一个 OpenFOAM 工程文件夹。"); return; }
     if (envOn) {
         const info = (envStore.get("openfoamEnv") || {}).info || {};
-        revertOpenFOAMEnv(ws, info);
+        if (ws) revertOpenFOAMEnv(ws, info);
         envOn = false;
         envStore.update("openfoamEnv", { on: false, info: null });
         updateBars();
+        return;
+    }
+    if (!ws) {
+        // 没有打开文件夹时,只启用内置离线提示(不写 .vscode 配置)
+        envOn = true;
+        envStore.update("openfoamEnv", { on: true, info: { symlinks: [], backups: {}, root: "" } });
+        updateBars();
+        showToggleInfoPanel("FOAMSRC 已开启", envToggleInfoHtml(null) + "<p>（未打开工作区文件夹：仅离线代码提示生效，头文件解析需打开文件夹并安装 OpenFOAM。）</p>");
         return;
     }
     const root = findOpenFOAMRoot(ws);
@@ -323,6 +341,7 @@ function openEnvTerminal() {
 async function activate(ctx) {
     load(ctx);
     extPath = ctx.extensionPath;
+    foamManualRoot = ctx.globalState.get("foamManualRoot") || "";
     envStore = ctx.workspaceState;
     const saved = envStore.get("openfoamEnv");
     if (saved && saved.on) {
@@ -421,6 +440,30 @@ async function activate(ctx) {
     ctx.subscriptions.push(vscode.languages.registerHoverProvider({scheme:"file"},{
         provideHover(doc,pos) {
             if(!envOn || !isCppFile(doc)) return null;
+            const hoverLine=doc.lineAt(pos.line).text;
+            const incMatch=hoverLine.match(/#include\s*["<]([\w./-]+)[">]/);
+            if(incMatch) {
+                const nameStart=hoverLine.indexOf(incMatch[1]);
+                if(pos.character>=nameStart && pos.character<=nameStart+incMatch[1].length) {
+                    const name=incMatch[1].split("/").pop();
+                    const md=new vscode.MarkdownString();
+                    let found=false;
+                    for(const h of cppIncludes) {
+                        if(h.name===name) { md.appendMarkdown("**OpenFOAM 头文件** `"+name+"`\n\n"+(h.desc||"")); found=true; break; }
+                    }
+                    if(!found) {
+                        const defs=[];
+                        for(const e of Object.entries(cppHeaders.classes||{})) {
+                            if(e[1].split("/").pop()===name) { defs.push(e[0]); if(defs.length>=5) break; }
+                        }
+                        if(defs.length) { md.appendMarkdown("**OpenFOAM 头文件** `"+name+"`\n\n定义了：`"+defs.join("`, `")+"`"); found=true; }
+                    }
+                    if(!found) md.appendMarkdown("**OpenFOAM 头文件** `"+name+"`");
+                    const savedRoot=((envStore.get("openfoamEnv")||{}).info||{}).root||"";
+                    if(!savedRoot) md.appendMarkdown("\n\n（离线模式：仅名称提示。头文件内容解析需要安装 OpenFOAM 或把源码放进工作区。）");
+                    return new vscode.Hover(md, new vscode.Range(pos.line,nameStart,pos.line,nameStart+incMatch[1].length));
+                }
+            }
             const range=doc.getWordRangeAtPosition(pos,/[A-Za-z_][A-Za-z0-9_:]*/);
             if(!range) return null;
             const word=doc.getText(range);
@@ -457,20 +500,40 @@ async function activate(ctx) {
         }
     }));
     ctx.subscriptions.push(vscode.commands.registerCommand("openfoam.openEnvTerminal",openEnvTerminal));
-    ctx.subscriptions.push(vscode.commands.registerCommand("openfoam.applyGlobalEnv", async () => {
-        const root = findOpenFOAMRoot(getWorkspacePath());
-        if (!root) { vscode.window.showWarningMessage("未检测到 OpenFOAM 安装。"); return; }
-        const n = await applyGlobalOpenFOAMEnv(root);
-        await ctx.globalState.update("foamGlobalApplied", ctx.extension.packageJSON.version);
-        vscode.window.showInformationMessage("已重新应用全局 OpenFOAM IntelliSense 配置(" + n + " 个 lnInclude 目录)。");
+    ctx.subscriptions.push(vscode.commands.registerCommand("openfoam.setFoamRoot", async () => {
+        const pick = await vscode.window.showOpenDialog({ canSelectFiles: false, canSelectFolders: true, canSelectMany: false, openLabel: "选择 OpenFOAM 安装目录(含 etc/bashrc)" });
+        if (!pick || !pick.length) return;
+        const root = pick[0].fsPath;
+        if (!fs.existsSync(path.join(root, "etc", "bashrc"))) { vscode.window.showWarningMessage("所选目录不是 OpenFOAM 安装目录(缺少 etc/bashrc)。"); return; }
+        foamManualRoot = root;
+        await ctx.globalState.update("foamManualRoot", root);
+        if (envOn) {
+            const ws = getWorkspacePath();
+            const info = ((envStore.get("openfoamEnv") || {}).info || {});
+            try { applyOpenFOAMEnv(ws, root, info); } catch (e) {}
+        }
+        vscode.window.showInformationMessage("已设置 OpenFOAM 安装目录：" + root);
     }));
-    const autoRoot = findOpenFOAMRoot(getWorkspacePath());
-    if (autoRoot && ctx.globalState.get("foamGlobalApplied") !== ctx.extension.packageJSON.version) {
-        try {
-            const n = await applyGlobalOpenFOAMEnv(autoRoot);
-            await ctx.globalState.update("foamGlobalApplied", ctx.extension.packageJSON.version);
-            vscode.window.showInformationMessage("检测到 OpenFOAM(" + path.basename(autoRoot) + ")，已自动写入全局 C++ IntelliSense 配置(" + n + " 个 lnInclude 目录)，无需手动设置。");
-        } catch (e) {}
+    ctx.subscriptions.push(vscode.commands.registerCommand("openfoam.applyGlobalEnv", async () => {
+        const roots = collectOpenFOAMRoots(getWorkspacePath());
+        if (!roots.length) { vscode.window.showWarningMessage("未检测到 OpenFOAM 安装。"); return; }
+        const res = await applyGlobalOpenFOAMEnv(roots);
+        await ctx.globalState.update("foamGlobalApplied", ctx.extension.packageJSON.version);
+        vscode.window.showInformationMessage("已重新应用全局 OpenFOAM IntelliSense 配置(" + roots.length + " 个版本,共 " + res.count + " 个 lnInclude 目录)。");
+    }));
+    const autoRoots = collectOpenFOAMRoots(getWorkspacePath());
+    if (autoRoots.length) {
+        const ver = ctx.extension.packageJSON.version;
+        const compat = path.join(extPath, "data", "foamCompat.H");
+        const needApply = ctx.globalState.get("foamGlobalApplied") !== ver
+            || (vscode.workspace.getConfiguration("C_Cpp").get("default.forcedInclude") || []).indexOf(compat) < 0;
+        if (needApply) {
+            try {
+                const res = await applyGlobalOpenFOAMEnv(autoRoots);
+                await ctx.globalState.update("foamGlobalApplied", ver);
+                vscode.window.showInformationMessage("检测到 " + autoRoots.length + " 个 OpenFOAM 版本(" + autoRoots.map(r => path.basename(r)).join(", ") + ")，已自动写入全局 C++ IntelliSense 配置(共 " + res.count + " 个 lnInclude 目录)，无需手动设置。");
+            } catch (e) {}
+        }
     }
 }
 function deactivate() {}

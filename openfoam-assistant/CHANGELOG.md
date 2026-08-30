@@ -1,6 +1,17 @@
 ﻿# Changelog
 
-## 1.1.0
+## 1.1.2
+- FOAMDict auto-highlighting expanded: dictionary keywords from the FOAMDict data (union of all file-type keyword tables + curated list, 939 tags) are highlighted automatically in recognized OpenFOAM case files (`0/constant/system` and known filenames)
+- No more workspace symlinks: `FOAMSRC` configs use absolute OpenFOAM paths only (the plugin no longer creates `OpenFOAM-v*` / `ThirdParty-v*` links in the workspace); legacy links are removed when the toggle is switched off
+- Auto global setup now re-validates on every startup: if OpenFOAM is detected and the global `forcedInclude` (compat header) is missing, the global config is re-applied automatically
+- Multiple OpenFOAM versions: all detected installs are merged into the global includePath (deduplicated by real path, highest version first); defines/compiler/tasks follow the highest version
+- Offline hints now activate even without a workspace folder: `FOAMSRC` can be toggled in single-file mode (no `.vscode` write, pure bundled hints)
+- Hover on `#include "xxx.H"` shows the header description or the classes it defines (offline-friendly)
+- Curated include list expanded (30 → 36): `createControl.H`, `pisoControl.H`, `setRootCase.H`, `readGravity.H`, `fluidThermo.H`, `basicThermo.H`
+- 74 offline stub headers (`data/stubs/`) added to the offline include path — common `#include "xxx.H"` resolve without an OpenFOAM install, eliminating `#include errors detected` for them
+- New command `OpenFOAM: Set OpenFOAM Install Path` for non-standard installations (stores the path, re-applies workspace config when FOAMSRC is on)
+- Auto-detection extended to `/opt/OpenFOAM` and `/usr/local/OpenFOAM`
+- Added a "Troubleshooting on other computers" section to the README (cpptools requirement, FOAMSRC toggle, forcedInclude check, manual path, IntelliSense reset)
 - Fixed false "identifier is undefined" for OpenFOAM code symbols (`nl`, `endl`, `Info`, `Pout`, `forAll`, …): new IntelliSense compatibility header (`data/foamCompat.H`) is force-included via `forcedInclude` in workspace/global configs
 - Offline mode now writes a minimal `.vscode/c_cpp_properties.json` (defines `FOAM_ASSISTANT_OFFLINE` + forced compat header) so cpptools stops flagging OpenFOAM identifiers even without an installation
 - Audited the keyword list against OpenFOAM-v2206: removed non-existent entries (`Cout`, `Cerr`, `indent`, `NOT_IMPLEMENTED`, `forAllList*`, `Pstream::allReduce/combineReduce`, `dimKinematicViscosity`, `dimMassFlowRate`, `dimVolumetricFlowRate`, `dimAngle`) and added the real ones (`combineReduce`, `dimViscosity`, `dimVol`, `dimMoles`, `dimCurrent`, `dimLuminousIntensity`, `dimPower`, `dimCompressibility`, `dimGasConstant`, `dimSpecificHeatCapacity`) — 192 keywords total
