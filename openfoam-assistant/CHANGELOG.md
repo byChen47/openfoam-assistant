@@ -1,5 +1,11 @@
 ﻿# Changelog
 
+## 1.1.0
+- Fixed false "identifier is undefined" for OpenFOAM code symbols (`nl`, `endl`, `Info`, `Pout`, `forAll`, …): new IntelliSense compatibility header (`data/foamCompat.H`) is force-included via `forcedInclude` in workspace/global configs
+- Offline mode now writes a minimal `.vscode/c_cpp_properties.json` (defines `FOAM_ASSISTANT_OFFLINE` + forced compat header) so cpptools stops flagging OpenFOAM identifiers even without an installation
+- Audited the keyword list against OpenFOAM-v2206: removed non-existent entries (`Cout`, `Cerr`, `indent`, `NOT_IMPLEMENTED`, `forAllList*`, `Pstream::allReduce/combineReduce`, `dimKinematicViscosity`, `dimMassFlowRate`, `dimVolumetricFlowRate`, `dimAngle`) and added the real ones (`combineReduce`, `dimViscosity`, `dimVol`, `dimMoles`, `dimCurrent`, `dimLuminousIntensity`, `dimPower`, `dimCompressibility`, `dimGasConstant`, `dimSpecificHeatCapacity`) — 192 keywords total
+- Compat header now also covers `forAllIter` / `forAllConstIter` and the full error-macro set (`InfoIn*`, `WarningIn*`, `SeriousErrorIn*`, `FatalErrorIn*`, `FatalIOErrorIn*`, `NotImplemented`) in offline mode
+
 ## 1.0.9
 - OpenFOAM code keywords expanded to 195 (`Info`, `forAll`, `nl`, `endl`, `fvc::`/`fvm::`, `IOobject::`, dimensioned types, runTime/mesh methods, `Pstream`/`gSum`, math helpers, run-time selection macros, …) with descriptions and snippets — extendable via `data/cpp_keywords.json`
 - Hover hints: hovering OpenFOAM keywords/classes shows description, defining header and usage (FOAMSRC on)

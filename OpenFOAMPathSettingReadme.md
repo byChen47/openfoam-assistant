@@ -193,6 +193,7 @@ ThirdParty-v2206  -> /home/chen/OpenFOAM/ThirdParty-v2206    # boost / CGAL 等
 - 打开 `FOAMSRC` 后输入标识符 → 建议 OpenFOAM 类名，并标注它定义在哪个头文件（如 `fvMesh` → `src/finiteVolume/fvMesh/fvMesh.H`）；
 - 提示按文件类型隔离：字典补全只出现在 `0/constant/system` 字典文件，C++ 提示只出现在 `.C/.H/.cpp` 等代码文件。
 - 悬停与模板：悬停 `Info`、`fvMesh` 等关键字/类名显示说明与头文件；输入 `foamSolver`、`foamPimple` 等前缀可直接插入求解器骨架模板。
+- 消除“未定义”误报：开启 `FOAMSRC` 后会自动强制包含兼容头文件（`data/foamCompat.H`），让 C/C++ 扩展认识 `Info`、`nl`、`endl`、`forAll` 等 OpenFOAM 符号；离线模式下也会写入最小配置（`FOAM_ASSISTANT_OFFLINE` 宏）达到同样效果。
 
 需要明确边界：**类名/头文件这类“提示”可以离线提供，但跳转定义、符号解析这类完整 IntelliSense 必须依赖真实头文件**——要么本机装有 OpenFOAM（打开 `FOAMSRC` 开关自动接入），要么把 OpenFOAM 源码放进工作区。
 

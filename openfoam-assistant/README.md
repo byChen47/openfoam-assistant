@@ -18,8 +18,8 @@ VS Code IntelliSense for OpenFOAM — dictionary-file completions (78 file types
 
 ## Installation
 
-- From VSIX: Extensions panel → `...` → `Install from VSIX...` → select `openfoam-dict-intellisense-1.0.9.vsix`.
-- Or from the terminal: `code --install-extension openfoam-dict-intellisense-1.0.9.vsix`.
+- From VSIX: Extensions panel → `...` → `Install from VSIX...` → select `openfoam-dict-intellisense-1.1.0.vsix`.
+- Or from the terminal: `code --install-extension openfoam-dict-intellisense-1.1.0.vsix`.
 
 The Microsoft C/C++ extension (`ms-vscode.cpptools`) is recommended for full IntelliSense when an OpenFOAM environment is available.
 
@@ -59,6 +59,7 @@ Even **without an OpenFOAM installation**, the extension ships a bundled hint da
 - **Code keywords**: OpenFOAM-specific keywords/macros (`Info`, `FatalErrorInFunction`, `forAll`, `nl`, `endl`, `fvc::div`, `fvm::Sp`, `IOobject::MUST_READ`, `dimensionedScalar`, …) come with descriptions and useful snippets — extend the list in `data/cpp_keywords.json`.
 - **Hover**: hovering a keyword/class shows its description, defining header and a usage snippet.
 - **Snippets**: type `foamSolver` / `foamPimple` / `foamSimple` / `foamReadDict` / `foamCreateField` / `foamRunTime` in a `.C` file and press Enter to insert the template.
+- **No false "undefined" squiggles**: a compatibility header (`data/foamCompat.H`) is force-included while `FOAMSRC` is on, so `Info`, `nl`, `endl`, `forAll` etc. are recognized by the C/C++ extension (online and offline).
 - These hints are file-type aware: dictionary completions only appear in `0/constant/system` dictionary files; C++ hints only in `.C/.H/.cpp/...` files (fixes previous cross-pollution).
 
 Full IntelliSense (go-to-definition, symbol resolution) still requires the actual OpenFOAM headers — enable the **`FOAMSRC`** environment toggle on a machine with OpenFOAM installed, or add the source tree to the workspace.

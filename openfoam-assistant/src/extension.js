@@ -3,7 +3,7 @@ const path = require("path");
 const fs = require("fs");
 const os = require("os");
 
-let words=[], classes=[], FILE_KEYWORDS={}, cppHeaders={}, cppIncludes=[], cppKeywords=[], dictBar, envBar, dictOn=false, envOn=false, envStore=null;
+let words=[], classes=[], FILE_KEYWORDS={}, cppHeaders={}, cppIncludes=[], cppKeywords=[], dictBar, envBar, dictOn=false, envOn=false, envStore=null, extPath="";
 
 function load(ctx) {
     try{words=JSON.parse(fs.readFileSync(path.join(ctx.extensionPath,"data","tutorial_words.json"),"utf-8")).words||[];}catch(e){}
@@ -139,6 +139,7 @@ function buildEnvConfig(ws, root, globalMode) {
             name: path.basename(root) + " (" + (opt || "linux64GccDPInt32Opt") + ")",
             compilerPath: compiler, cppStandard: "c++14", cStandard: "c11", intelliSenseMode: mode,
             defines: defines,
+            forcedInclude: [path.join(extPath, "data", "foamCompat.H")],
             includePath: ["${workspaceFolder}/**"].concat(inc.map(toPath), tp.dirs.map(toPath)),
             browse: { path: ["${workspaceFolder}", toPath(path.join(root, "src")), toPath(path.join(root, "applications"))], limitSymbolsToIncludedHeaders: true }
         }],
@@ -199,6 +200,26 @@ function applyOpenFOAMEnv(ws, root, info) {
     return cfg.inc.length;
 }
 
+function writeOfflineEnvConfig(ws, info) {
+    backupVscodeFiles(ws, info);
+    const vscodeDir = path.join(ws, ".vscode");
+    fs.mkdirSync(vscodeDir, { recursive: true });
+    const props = {
+        configurations: [{
+            name: "OpenFOAM (offline hints)",
+            compilerPath: "/usr/bin/g++",
+            cppStandard: "c++14",
+            defines: ["FOAM_ASSISTANT_OFFLINE=1"],
+            forcedInclude: [path.join(extPath, "data", "foamCompat.H")],
+            includePath: ["${workspaceFolder}/**"]
+        }],
+        version: 4
+    };
+    fs.writeFileSync(path.join(vscodeDir, "c_cpp_properties.json"), JSON.stringify(props, null, 4) + "\n");
+    const settings = { "files.associations": { "*.C": "cpp", "*.H": "cpp" } };
+    fs.writeFileSync(path.join(vscodeDir, "settings.json"), JSON.stringify(settings, null, 4) + "\n");
+}
+
 function revertOpenFOAMEnv(ws, info) {
     const vscodeDir = path.join(ws, ".vscode");
     const bk = path.join(vscodeDir, ".openfoam-backup");
@@ -252,6 +273,9 @@ async function applyGlobalOpenFOAMEnv(root) {
     await cpp.update("default.cppStandard", "c++14", vscode.ConfigurationTarget.Global);
     await cpp.update("default.cStandard", "c11", vscode.ConfigurationTarget.Global);
     await cpp.update("default.intelliSenseMode", cfg.props.configurations[0].intelliSenseMode, vscode.ConfigurationTarget.Global);
+    const compat = path.join(extPath, "data", "foamCompat.H");
+    const oldFi = cpp.get("default.forcedInclude") || [];
+    if (oldFi.indexOf(compat) < 0) await cpp.update("default.forcedInclude", oldFi.concat([compat]), vscode.ConfigurationTarget.Global);
     const files = vscode.workspace.getConfiguration("files");
     const assoc = files.get("associations") || {};
     await files.update("associations", Object.assign({}, assoc, { "*.C": "cpp", "*.H": "cpp" }), vscode.ConfigurationTarget.Global);
@@ -273,7 +297,9 @@ function toggleOpenFOAMEnv() {
     const root = findOpenFOAMRoot(ws);
     if (!root) {
         envOn = true;
-        envStore.update("openfoamEnv", { on: true, info: { symlinks: [], backups: {}, root: "" } });
+        const info = { symlinks: [], backups: {} };
+        writeOfflineEnvConfig(ws, info);
+        envStore.update("openfoamEnv", { on: true, info: Object.assign(info, { root: "" }) });
         updateBars();
         showToggleInfoPanel("FOAMSRC 已开启", envToggleInfoHtml(null));
         return;
@@ -296,6 +322,7 @@ function openEnvTerminal() {
 
 async function activate(ctx) {
     load(ctx);
+    extPath = ctx.extensionPath;
     envStore = ctx.workspaceState;
     const saved = envStore.get("openfoamEnv");
     if (saved && saved.on) {
@@ -434,14 +461,14 @@ async function activate(ctx) {
         const root = findOpenFOAMRoot(getWorkspacePath());
         if (!root) { vscode.window.showWarningMessage("未检测到 OpenFOAM 安装。"); return; }
         const n = await applyGlobalOpenFOAMEnv(root);
-        await ctx.globalState.update("foamGlobalApplied", true);
+        await ctx.globalState.update("foamGlobalApplied", ctx.extension.packageJSON.version);
         vscode.window.showInformationMessage("已重新应用全局 OpenFOAM IntelliSense 配置(" + n + " 个 lnInclude 目录)。");
     }));
     const autoRoot = findOpenFOAMRoot(getWorkspacePath());
-    if (autoRoot && !ctx.globalState.get("foamGlobalApplied")) {
+    if (autoRoot && ctx.globalState.get("foamGlobalApplied") !== ctx.extension.packageJSON.version) {
         try {
             const n = await applyGlobalOpenFOAMEnv(autoRoot);
-            await ctx.globalState.update("foamGlobalApplied", true);
+            await ctx.globalState.update("foamGlobalApplied", ctx.extension.packageJSON.version);
             vscode.window.showInformationMessage("检测到 OpenFOAM(" + path.basename(autoRoot) + ")，已自动写入全局 C++ IntelliSense 配置(" + n + " 个 lnInclude 目录)，无需手动设置。");
         } catch (e) {}
     }

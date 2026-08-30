@@ -1,199 +1,775 @@
 {
   "keywords": [
-    { "word": "Info", "desc": "标准输出流,用法 Info<< \"...\" << endl" },
-    { "word": "Info<<", "desc": "标准输出流写入", "snippet": "Info<< \"${1:message}\" << ${2:endl};" },
-    { "word": "InfoInFunction", "desc": "输出信息并附带所在函数名" },
-    { "word": "InfoInFile", "desc": "输出信息并附带所在文件名" },
-    { "word": "Pout", "desc": "并行输出流(仅 0 号进程输出)" },
-    { "word": "Perr", "desc": "并行错误输出流" },
-    { "word": "Cout", "desc": "全局标准输出流" },
-    { "word": "Cerr", "desc": "全局标准错误流" },
-    { "word": "FatalError", "desc": "致命错误对象,配合 abort(FatalError) 使用" },
-    { "word": "FatalErrorInFunction", "desc": "函数内致命错误宏", "snippet": "FatalErrorInFunction\n    << \"${1:message}\"\n    << abort(FatalError);" },
-    { "word": "FatalErrorInFile", "desc": "文件内致命错误宏" },
-    { "word": "FatalIOError", "desc": "IO 致命错误对象" },
-    { "word": "FatalIOErrorInFunction", "desc": "函数内 IO 致命错误宏" },
-    { "word": "SeriousError", "desc": "严重错误对象" },
-    { "word": "Warning", "desc": "警告对象" },
-    { "word": "WarningInFunction", "desc": "函数内警告宏" },
-    { "word": "WarningInFile", "desc": "文件内警告宏" },
-    { "word": "NotImplemented", "desc": "未实现宏(函数入口占位)" },
-    { "word": "NOT_IMPLEMENTED", "desc": "未实现宏(与 NotImplemented 等价)" },
-    { "word": "nl", "desc": "换行字符串常量(比 endl 轻量)" },
-    { "word": "endl", "desc": "换行并刷新输出流" },
-    { "word": "tab", "desc": "制表符字符串常量" },
-    { "word": "indent", "desc": "缩进字符串常量" },
-    { "word": "forAll", "desc": "遍历列表/场:forAll(list, i)", "snippet": "forAll(${1:list}, ${2:i})\n{\n    ${0}\n}" },
-    { "word": "forAllReverse", "desc": "反向遍历列表/场" },
-    { "word": "forAllConstIter", "desc": "常量迭代遍历:forAllConstIter(Container, c, iter)" },
-    { "word": "forAllIter", "desc": "迭代遍历:forAllIter(Container, c, iter)" },
-    { "word": "forAllListConstIter", "desc": "列表常量迭代遍历" },
-    { "word": "forAllListIter", "desc": "列表迭代遍历" },
-    { "word": "forAllSpan", "desc": "span 遍历" },
-    { "word": "volScalarField", "desc": "体标量场类型" },
-    { "word": "volVectorField", "desc": "体矢量场类型" },
-    { "word": "volTensorField", "desc": "体张量场类型" },
-    { "word": "volSymmTensorField", "desc": "体对称张量场类型" },
-    { "word": "volSphericalTensorField", "desc": "体球张量场类型" },
-    { "word": "surfaceScalarField", "desc": "面标量场类型(通常为通量 phi)" },
-    { "word": "surfaceVectorField", "desc": "面矢量场类型" },
-    { "word": "surfaceTensorField", "desc": "面张量场类型" },
-    { "word": "dimensionedScalar", "desc": "量纲标量类型" },
-    { "word": "dimensionedVector", "desc": "量纲矢量类型" },
-    { "word": "dimensionedTensor", "desc": "量纲张量类型" },
-    { "word": "label", "desc": "整数标签类型(32/64 位由 WM_LABEL_SIZE 决定)" },
-    { "word": "scalar", "desc": "浮点类型(单/双精度由 WM_PRECISION_OPTION 决定)" },
-    { "word": "vector", "desc": "三维矢量类型" },
-    { "word": "tensor", "desc": "3x3 张量类型" },
-    { "word": "symmTensor", "desc": "对称张量类型" },
-    { "word": "sphericalTensor", "desc": "球张量类型" },
-    { "word": "word", "desc": "OpenFOAM 单词字符串类型" },
-    { "word": "wordRe", "desc": "支持正则的单词类型" },
-    { "word": "fileName", "desc": "文件路径类型" },
-    { "word": "string", "desc": "字符串类型" },
-    { "word": "Switch", "desc": "bool 开关类型(接受 on/off/yes/no/true/false)" },
-    { "word": "tmp", "desc": "智能引用计数指针(模板)" },
-    { "word": "autoPtr", "desc": "独占智能指针(模板)" },
-    { "word": "refPtr", "desc": "引用计数指针(模板)" },
-    { "word": "fvc::div", "desc": "散度算子(fvc::div(phi, U))" },
-    { "word": "fvc::grad", "desc": "梯度算子" },
-    { "word": "fvc::laplacian", "desc": "拉普拉斯算子" },
-    { "word": "fvc::curl", "desc": "旋度算子" },
-    { "word": "fvc::ddt", "desc": "时间导数算子(显式)" },
-    { "word": "fvc::interpolate", "desc": "体心到面心插值" },
-    { "word": "fvm::div", "desc": "散度算子(隐式,生成矩阵)" },
-    { "word": "fvm::laplacian", "desc": "拉普拉斯算子(隐式)" },
-    { "word": "fvm::ddt", "desc": "时间导数算子(隐式)" },
-    { "word": "fvm::Sp", "desc": "对角源项 fvm::Sp(coeff, psi)" },
-    { "word": "fvm::Su", "desc": "显式源项 fvm::Su(source, psi)" },
-    { "word": "fvm::SuSp", "desc": "混合源项 fvm::SuSp(coeff, psi)" },
-    { "word": "solve", "desc": "求解 fvMatrix:solve(fvm::...) 或 fvScalarMatrix" },
-    { "word": "IOobject::MUST_READ", "desc": "必须读取:文件不存在则报错" },
-    { "word": "IOobject::MUST_READ_IF_MODIFIED", "desc": "必须读取且允许运行期修改" },
-    { "word": "IOobject::READ_IF_PRESENT", "desc": "存在则读取,不存在不报错" },
-    { "word": "IOobject::NO_READ", "desc": "不读取" },
-    { "word": "IOobject::NO_WRITE", "desc": "不写入" },
-    { "word": "IOobject::AUTO_WRITE", "desc": "自动写入" },
-    { "word": "runTime", "desc": "时间对象(通常来自 createTime.H)" },
-    { "word": "mesh", "desc": "网格对象(通常来自 createMesh.H)" },
-    { "word": "phi", "desc": "通量场(通常来自 createPhi.H)" },
-    { "word": "dimensionSet", "desc": "量纲类:dimensionSet(1, -1, -2, 0, 0, 0, 0)" },
-    { "word": "dimMass", "desc": "质量量纲常量" },
-    { "word": "dimLength", "desc": "长度量纲常量" },
-    { "word": "dimTime", "desc": "时间量纲常量" },
-    { "word": "dimTemperature", "desc": "温度量纲常量" },
-    { "word": "dimVelocity", "desc": "速度量纲常量" },
-    { "word": "dimPressure", "desc": "压力量纲常量" },
-    { "word": "dimDensity", "desc": "密度量纲常量" },
-    { "word": "dimForce", "desc": "力量纲常量" },
-    { "word": "dimEnergy", "desc": "能量量纲常量" },
-    { "word": "dimless", "desc": "无量纲常量" },
-    { "word": "constant::mathematical::pi", "desc": "圆周率常量" },
-    { "word": "Foam", "desc": "OpenFOAM 命名空间(using namespace Foam;)" },
-    { "word": "SeriousErrorInFunction", "desc": "函数内严重错误宏" },
-    { "word": "SeriousErrorInFile", "desc": "文件内严重错误宏" },
-    { "word": "FatalIOErrorInFile", "desc": "文件内 IO 致命错误宏" },
-    { "word": "Pout<<", "desc": "并行输出流写入" },
-    { "word": "Perr<<", "desc": "并行错误流写入" },
-    { "word": "fvOptions", "desc": "有限体积选项对象(源项/约束),用法 fvOptions.correct/constrain/source" },
-    { "word": "turbulence", "desc": "湍流模型对象(通常来自 createFields.H),用法 turbulence->correct()" },
-    { "word": "fvc::ddtCorr", "desc": "时间导数校正项 fvc::ddtCorr(U, phi)" },
-    { "word": "fvc::d2dt2", "desc": "二阶时间导数算子" },
-    { "word": "fvc::flux", "desc": "通量算子 fvc::flux(phi, psi)" },
-    { "word": "fvc::reconstruct", "desc": "由面通量重构体心场" },
-    { "word": "fvc::average", "desc": "面到体的平均插值" },
-    { "word": "fvc::snGrad", "desc": "表面法向梯度" },
-    { "word": "fvc::domainIntegrate", "desc": "全域积分" },
-    { "word": "fvc::surfaceIntegrate", "desc": "表面积分" },
-    { "word": "fvc::volumeIntegrate", "desc": "体积积分" },
-    { "word": "adjustPhi", "desc": "调整通量满足连续性(求解器常用)" },
-    { "word": "constrainHbyA", "desc": "约束 HbyA 场(求解器常用)" },
-    { "word": "constrainPressure", "desc": "约束压力方程(求解器常用)" },
-    { "word": "findRefCell", "desc": "查找参考单元(求解器常用)" },
-    { "word": "CourantNo", "desc": "库朗数计算函数" },
-    { "word": "meshCourantNo", "desc": "网格库朗数计算函数" },
-    { "word": "adjustTimeStep", "desc": "自适应时间步(求解器常用)" },
-    { "word": "runTime.run", "desc": "时间循环条件 runTime.run()" },
-    { "word": "runTime.loop", "desc": "带写入控制的时间循环 runTime.loop()" },
-    { "word": "runTime.write", "desc": "按 writeControl 写入 runTime.write()" },
-    { "word": "runTime++", "desc": "推进时间步" },
-    { "word": "runTime.timeName", "desc": "当前时间目录名 runTime.timeName()" },
-    { "word": "runTime.deltaT", "desc": "当前时间步长 runTime.deltaT()" },
-    { "word": "runTime.constant", "desc": "constant 目录路径 runTime.constant()" },
-    { "word": "runTime.value", "desc": "当前时间值 runTime.value()" },
-    { "word": "runTime.setTime", "desc": "设置时间 runTime.setTime(t, n)" },
-    { "word": "runTime.advance", "desc": "推进时间状态 runTime.advance()" },
-    { "word": "mesh.C", "desc": "单元中心坐标场 mesh.C()" },
-    { "word": "mesh.V", "desc": "单元体积场 mesh.V()" },
-    { "word": "mesh.Sf", "desc": "面面积矢量场 mesh.Sf()" },
-    { "word": "mesh.cells", "desc": "单元列表 mesh.cells()" },
-    { "word": "mesh.nCells", "desc": "单元数量 mesh.nCells()" },
-    { "word": "mesh.boundary", "desc": "边界场访问 mesh.boundary()" },
-    { "word": "mesh.owner", "desc": "owner 列表 mesh.owner()" },
-    { "word": "mesh.neighbour", "desc": "neighbour 列表 mesh.neighbour()" },
-    { "word": "mesh.update", "desc": "更新网格 mesh.update()" },
-    { "word": "mesh.write", "desc": "写入网格 mesh.write()" },
-    { "word": "Pstream::parRun", "desc": "是否并行运行 Pstream::parRun()" },
-    { "word": "Pstream::nProcs", "desc": "进程数 Pstream::nProcs()" },
-    { "word": "Pstream::myProcNo", "desc": "当前进程号 Pstream::myProcNo()" },
-    { "word": "Pstream::master", "desc": "是否主进程 Pstream::master()" },
-    { "word": "Pstream::gatherList", "desc": "收集列表到主进程" },
-    { "word": "Pstream::scatterList", "desc": "主进程分发列表" },
-    { "word": "Pstream::combineReduce", "desc": "组合归约操作" },
-    { "word": "Pstream::allReduce", "desc": "全局归约(所有进程得到结果)" },
-    { "word": "reduce", "desc": "全局归约 reduce(value, op)" },
-    { "word": "returnReduce", "desc": "带返回值的全局归约" },
-    { "word": "gSum", "desc": "全局求和 gSum(value)" },
-    { "word": "gAverage", "desc": "全局平均 gAverage(value)" },
-    { "word": "gMin", "desc": "全局最小值" },
-    { "word": "gMax", "desc": "全局最大值" },
-    { "word": "mag", "desc": "模/绝对值 mag(v)" },
-    { "word": "magSqr", "desc": "模平方 magSqr(v)" },
-    { "word": "cmptMax", "desc": "分量最大值" },
-    { "word": "cmptMin", "desc": "分量最小值" },
-    { "word": "cmptSum", "desc": "分量求和" },
-    { "word": "sign", "desc": "符号函数" },
-    { "word": "pos", "desc": "正值保持,否则 0" },
-    { "word": "neg", "desc": "负值保持,否则 0" },
-    { "word": "pos0", "desc": "非负值保持,否则 0" },
-    { "word": "neg0", "desc": "非正值保持,否则 0" },
-    { "word": "sqr", "desc": "平方" },
-    { "word": "cbrt", "desc": "立方根" },
-    { "word": "pow3", "desc": "三次方" },
-    { "word": "pow4", "desc": "四次方" },
-    { "word": "pow5", "desc": "五次方" },
-    { "word": "inv", "desc": "倒数" },
-    { "word": "lerp", "desc": "线性插值 lerp(a, b, t)" },
-    { "word": "stabilise", "desc": "数值稳定化 stabilise(x, small)" },
-    { "word": "boundaryField", "desc": "场边界字段 .boundaryField()" },
-    { "word": "internalField", "desc": "场内部字段 .internalField()" },
-    { "word": "refValue", "desc": "混合边界条件参考值" },
-    { "word": "refGradient", "desc": "混合边界条件参考梯度" },
-    { "word": "valueFraction", "desc": "混合边界条件值权重" },
-    { "word": "labelList", "desc": "整数列表类型" },
-    { "word": "scalarList", "desc": "标量列表类型" },
-    { "word": "vectorList", "desc": "矢量列表类型" },
-    { "word": "tensorList", "desc": "张量列表类型" },
-    { "word": "wordList", "desc": "单词列表类型" },
-    { "word": "boolList", "desc": "布尔列表类型" },
-    { "word": "labelHashSet", "desc": "整数哈希集合类型" },
-    { "word": "wordHashSet", "desc": "单词哈希集合类型" },
-    { "word": "pointField", "desc": "点场类型" },
-    { "word": "TypeName", "desc": "类型注册宏 TypeName(\"name\")" },
-    { "word": "defineTypeNameAndDebug", "desc": "定义类型名与调试开关 defineTypeNameAndDebug(Class, 0)" },
-    { "word": "defineTemplateTypeNameAndDebug", "desc": "模板类类型名与调试开关" },
-    { "word": "defineNamedTemplateTypeNameAndDebug", "desc": "命名模板类类型名与调试开关" },
-    { "word": "declareRunTimeSelectionTable", "desc": "声明运行时选择表" },
-    { "word": "defineRunTimeSelectionTable", "desc": "定义运行时选择表" },
-    { "word": "addToRunTimeSelectionTable", "desc": "注册到运行时选择表" },
-    { "word": "word::null", "desc": "空 word 常量" },
-    { "word": "dimArea", "desc": "面积量纲常量" },
-    { "word": "dimVolume", "desc": "体积量纲常量" },
-    { "word": "dimAcceleration", "desc": "加速度量纲常量" },
-    { "word": "dimKinematicViscosity", "desc": "运动黏度量纲常量" },
-    { "word": "dimDynamicViscosity", "desc": "动力黏度量纲常量" },
-    { "word": "dimMassFlowRate", "desc": "质量流量量纲常量" },
-    { "word": "dimVolumetricFlowRate", "desc": "体积流量量纲常量" },
-    { "word": "dimAngle", "desc": "角度量纲常量" }
+    {
+      "word": "Info",
+      "desc": "标准输出流,用法 Info<< \"...\" << endl"
+    },
+    {
+      "word": "Info<<",
+      "desc": "标准输出流写入",
+      "snippet": "Info<< \"${1:message}\" << ${2:endl};"
+    },
+    {
+      "word": "InfoInFunction",
+      "desc": "输出信息并附带所在函数名"
+    },
+    {
+      "word": "InfoInFile",
+      "desc": "输出信息并附带所在文件名"
+    },
+    {
+      "word": "Pout",
+      "desc": "并行输出流(仅 0 号进程输出)"
+    },
+    {
+      "word": "Perr",
+      "desc": "并行错误输出流"
+    },
+    {
+      "word": "FatalError",
+      "desc": "致命错误对象,配合 abort(FatalError) 使用"
+    },
+    {
+      "word": "FatalErrorInFunction",
+      "desc": "函数内致命错误宏",
+      "snippet": "FatalErrorInFunction\n    << \"${1:message}\"\n    << abort(FatalError);"
+    },
+    {
+      "word": "FatalErrorInFile",
+      "desc": "文件内致命错误宏"
+    },
+    {
+      "word": "FatalIOError",
+      "desc": "IO 致命错误对象"
+    },
+    {
+      "word": "FatalIOErrorInFunction",
+      "desc": "函数内 IO 致命错误宏"
+    },
+    {
+      "word": "SeriousError",
+      "desc": "严重错误对象"
+    },
+    {
+      "word": "Warning",
+      "desc": "警告对象"
+    },
+    {
+      "word": "WarningInFunction",
+      "desc": "函数内警告宏"
+    },
+    {
+      "word": "WarningInFile",
+      "desc": "文件内警告宏"
+    },
+    {
+      "word": "NotImplemented",
+      "desc": "未实现宏(函数入口占位)"
+    },
+    {
+      "word": "nl",
+      "desc": "换行字符串常量(比 endl 轻量)"
+    },
+    {
+      "word": "endl",
+      "desc": "换行并刷新输出流"
+    },
+    {
+      "word": "tab",
+      "desc": "制表符字符串常量"
+    },
+    {
+      "word": "forAll",
+      "desc": "遍历列表/场:forAll(list, i)",
+      "snippet": "forAll(${1:list}, ${2:i})\n{\n    ${0}\n}"
+    },
+    {
+      "word": "forAllReverse",
+      "desc": "反向遍历列表/场"
+    },
+    {
+      "word": "forAllConstIter",
+      "desc": "常量迭代遍历:forAllConstIter(Container, c, iter)"
+    },
+    {
+      "word": "forAllIter",
+      "desc": "迭代遍历:forAllIter(Container, c, iter)"
+    },
+    {
+      "word": "volScalarField",
+      "desc": "体标量场类型"
+    },
+    {
+      "word": "volVectorField",
+      "desc": "体矢量场类型"
+    },
+    {
+      "word": "volTensorField",
+      "desc": "体张量场类型"
+    },
+    {
+      "word": "volSymmTensorField",
+      "desc": "体对称张量场类型"
+    },
+    {
+      "word": "volSphericalTensorField",
+      "desc": "体球张量场类型"
+    },
+    {
+      "word": "surfaceScalarField",
+      "desc": "面标量场类型(通常为通量 phi)"
+    },
+    {
+      "word": "surfaceVectorField",
+      "desc": "面矢量场类型"
+    },
+    {
+      "word": "surfaceTensorField",
+      "desc": "面张量场类型"
+    },
+    {
+      "word": "dimensionedScalar",
+      "desc": "量纲标量类型"
+    },
+    {
+      "word": "dimensionedVector",
+      "desc": "量纲矢量类型"
+    },
+    {
+      "word": "dimensionedTensor",
+      "desc": "量纲张量类型"
+    },
+    {
+      "word": "label",
+      "desc": "整数标签类型(32/64 位由 WM_LABEL_SIZE 决定)"
+    },
+    {
+      "word": "scalar",
+      "desc": "浮点类型(单/双精度由 WM_PRECISION_OPTION 决定)"
+    },
+    {
+      "word": "vector",
+      "desc": "三维矢量类型"
+    },
+    {
+      "word": "tensor",
+      "desc": "3x3 张量类型"
+    },
+    {
+      "word": "symmTensor",
+      "desc": "对称张量类型"
+    },
+    {
+      "word": "sphericalTensor",
+      "desc": "球张量类型"
+    },
+    {
+      "word": "word",
+      "desc": "OpenFOAM 单词字符串类型"
+    },
+    {
+      "word": "wordRe",
+      "desc": "支持正则的单词类型"
+    },
+    {
+      "word": "fileName",
+      "desc": "文件路径类型"
+    },
+    {
+      "word": "string",
+      "desc": "字符串类型"
+    },
+    {
+      "word": "Switch",
+      "desc": "bool 开关类型(接受 on/off/yes/no/true/false)"
+    },
+    {
+      "word": "tmp",
+      "desc": "智能引用计数指针(模板)"
+    },
+    {
+      "word": "autoPtr",
+      "desc": "独占智能指针(模板)"
+    },
+    {
+      "word": "refPtr",
+      "desc": "引用计数指针(模板)"
+    },
+    {
+      "word": "fvc::div",
+      "desc": "散度算子(fvc::div(phi, U))"
+    },
+    {
+      "word": "fvc::grad",
+      "desc": "梯度算子"
+    },
+    {
+      "word": "fvc::laplacian",
+      "desc": "拉普拉斯算子"
+    },
+    {
+      "word": "fvc::curl",
+      "desc": "旋度算子"
+    },
+    {
+      "word": "fvc::ddt",
+      "desc": "时间导数算子(显式)"
+    },
+    {
+      "word": "fvc::interpolate",
+      "desc": "体心到面心插值"
+    },
+    {
+      "word": "fvm::div",
+      "desc": "散度算子(隐式,生成矩阵)"
+    },
+    {
+      "word": "fvm::laplacian",
+      "desc": "拉普拉斯算子(隐式)"
+    },
+    {
+      "word": "fvm::ddt",
+      "desc": "时间导数算子(隐式)"
+    },
+    {
+      "word": "fvm::Sp",
+      "desc": "对角源项 fvm::Sp(coeff, psi)"
+    },
+    {
+      "word": "fvm::Su",
+      "desc": "显式源项 fvm::Su(source, psi)"
+    },
+    {
+      "word": "fvm::SuSp",
+      "desc": "混合源项 fvm::SuSp(coeff, psi)"
+    },
+    {
+      "word": "solve",
+      "desc": "求解 fvMatrix:solve(fvm::...) 或 fvScalarMatrix"
+    },
+    {
+      "word": "IOobject::MUST_READ",
+      "desc": "必须读取:文件不存在则报错"
+    },
+    {
+      "word": "IOobject::MUST_READ_IF_MODIFIED",
+      "desc": "必须读取且允许运行期修改"
+    },
+    {
+      "word": "IOobject::READ_IF_PRESENT",
+      "desc": "存在则读取,不存在不报错"
+    },
+    {
+      "word": "IOobject::NO_READ",
+      "desc": "不读取"
+    },
+    {
+      "word": "IOobject::NO_WRITE",
+      "desc": "不写入"
+    },
+    {
+      "word": "IOobject::AUTO_WRITE",
+      "desc": "自动写入"
+    },
+    {
+      "word": "runTime",
+      "desc": "时间对象(通常来自 createTime.H)"
+    },
+    {
+      "word": "mesh",
+      "desc": "网格对象(通常来自 createMesh.H)"
+    },
+    {
+      "word": "phi",
+      "desc": "通量场(通常来自 createPhi.H)"
+    },
+    {
+      "word": "dimensionSet",
+      "desc": "量纲类:dimensionSet(1, -1, -2, 0, 0, 0, 0)"
+    },
+    {
+      "word": "dimMass",
+      "desc": "质量量纲常量"
+    },
+    {
+      "word": "dimLength",
+      "desc": "长度量纲常量"
+    },
+    {
+      "word": "dimTime",
+      "desc": "时间量纲常量"
+    },
+    {
+      "word": "dimTemperature",
+      "desc": "温度量纲常量"
+    },
+    {
+      "word": "dimVelocity",
+      "desc": "速度量纲常量"
+    },
+    {
+      "word": "dimPressure",
+      "desc": "压力量纲常量"
+    },
+    {
+      "word": "dimDensity",
+      "desc": "密度量纲常量"
+    },
+    {
+      "word": "dimForce",
+      "desc": "力量纲常量"
+    },
+    {
+      "word": "dimEnergy",
+      "desc": "能量量纲常量"
+    },
+    {
+      "word": "dimless",
+      "desc": "无量纲常量"
+    },
+    {
+      "word": "constant::mathematical::pi",
+      "desc": "圆周率常量"
+    },
+    {
+      "word": "Foam",
+      "desc": "OpenFOAM 命名空间(using namespace Foam;)"
+    },
+    {
+      "word": "SeriousErrorInFunction",
+      "desc": "函数内严重错误宏"
+    },
+    {
+      "word": "SeriousErrorInFile",
+      "desc": "文件内严重错误宏"
+    },
+    {
+      "word": "FatalIOErrorInFile",
+      "desc": "文件内 IO 致命错误宏"
+    },
+    {
+      "word": "Pout<<",
+      "desc": "并行输出流写入"
+    },
+    {
+      "word": "Perr<<",
+      "desc": "并行错误流写入"
+    },
+    {
+      "word": "fvOptions",
+      "desc": "有限体积选项对象(源项/约束),用法 fvOptions.correct/constrain/source"
+    },
+    {
+      "word": "turbulence",
+      "desc": "湍流模型对象(通常来自 createFields.H),用法 turbulence->correct()"
+    },
+    {
+      "word": "fvc::ddtCorr",
+      "desc": "时间导数校正项 fvc::ddtCorr(U, phi)"
+    },
+    {
+      "word": "fvc::d2dt2",
+      "desc": "二阶时间导数算子"
+    },
+    {
+      "word": "fvc::flux",
+      "desc": "通量算子 fvc::flux(phi, psi)"
+    },
+    {
+      "word": "fvc::reconstruct",
+      "desc": "由面通量重构体心场"
+    },
+    {
+      "word": "fvc::average",
+      "desc": "面到体的平均插值"
+    },
+    {
+      "word": "fvc::snGrad",
+      "desc": "表面法向梯度"
+    },
+    {
+      "word": "fvc::domainIntegrate",
+      "desc": "全域积分"
+    },
+    {
+      "word": "fvc::surfaceIntegrate",
+      "desc": "表面积分"
+    },
+    {
+      "word": "fvc::volumeIntegrate",
+      "desc": "体积积分"
+    },
+    {
+      "word": "adjustPhi",
+      "desc": "调整通量满足连续性(求解器常用)"
+    },
+    {
+      "word": "constrainHbyA",
+      "desc": "约束 HbyA 场(求解器常用)"
+    },
+    {
+      "word": "constrainPressure",
+      "desc": "约束压力方程(求解器常用)"
+    },
+    {
+      "word": "findRefCell",
+      "desc": "查找参考单元(求解器常用)"
+    },
+    {
+      "word": "CourantNo",
+      "desc": "库朗数计算函数"
+    },
+    {
+      "word": "meshCourantNo",
+      "desc": "网格库朗数计算函数"
+    },
+    {
+      "word": "adjustTimeStep",
+      "desc": "自适应时间步(求解器常用)"
+    },
+    {
+      "word": "runTime.run",
+      "desc": "时间循环条件 runTime.run()"
+    },
+    {
+      "word": "runTime.loop",
+      "desc": "带写入控制的时间循环 runTime.loop()"
+    },
+    {
+      "word": "runTime.write",
+      "desc": "按 writeControl 写入 runTime.write()"
+    },
+    {
+      "word": "runTime++",
+      "desc": "推进时间步"
+    },
+    {
+      "word": "runTime.timeName",
+      "desc": "当前时间目录名 runTime.timeName()"
+    },
+    {
+      "word": "runTime.deltaT",
+      "desc": "当前时间步长 runTime.deltaT()"
+    },
+    {
+      "word": "runTime.constant",
+      "desc": "constant 目录路径 runTime.constant()"
+    },
+    {
+      "word": "runTime.value",
+      "desc": "当前时间值 runTime.value()"
+    },
+    {
+      "word": "runTime.setTime",
+      "desc": "设置时间 runTime.setTime(t, n)"
+    },
+    {
+      "word": "runTime.advance",
+      "desc": "推进时间状态 runTime.advance()"
+    },
+    {
+      "word": "mesh.C",
+      "desc": "单元中心坐标场 mesh.C()"
+    },
+    {
+      "word": "mesh.V",
+      "desc": "单元体积场 mesh.V()"
+    },
+    {
+      "word": "mesh.Sf",
+      "desc": "面面积矢量场 mesh.Sf()"
+    },
+    {
+      "word": "mesh.cells",
+      "desc": "单元列表 mesh.cells()"
+    },
+    {
+      "word": "mesh.nCells",
+      "desc": "单元数量 mesh.nCells()"
+    },
+    {
+      "word": "mesh.boundary",
+      "desc": "边界场访问 mesh.boundary()"
+    },
+    {
+      "word": "mesh.owner",
+      "desc": "owner 列表 mesh.owner()"
+    },
+    {
+      "word": "mesh.neighbour",
+      "desc": "neighbour 列表 mesh.neighbour()"
+    },
+    {
+      "word": "mesh.update",
+      "desc": "更新网格 mesh.update()"
+    },
+    {
+      "word": "mesh.write",
+      "desc": "写入网格 mesh.write()"
+    },
+    {
+      "word": "Pstream::parRun",
+      "desc": "是否并行运行 Pstream::parRun()"
+    },
+    {
+      "word": "Pstream::nProcs",
+      "desc": "进程数 Pstream::nProcs()"
+    },
+    {
+      "word": "Pstream::myProcNo",
+      "desc": "当前进程号 Pstream::myProcNo()"
+    },
+    {
+      "word": "Pstream::master",
+      "desc": "是否主进程 Pstream::master()"
+    },
+    {
+      "word": "Pstream::gatherList",
+      "desc": "收集列表到主进程"
+    },
+    {
+      "word": "Pstream::scatterList",
+      "desc": "主进程分发列表"
+    },
+    {
+      "word": "reduce",
+      "desc": "全局归约 reduce(value, op)"
+    },
+    {
+      "word": "returnReduce",
+      "desc": "带返回值的全局归约"
+    },
+    {
+      "word": "gSum",
+      "desc": "全局求和 gSum(value)"
+    },
+    {
+      "word": "gAverage",
+      "desc": "全局平均 gAverage(value)"
+    },
+    {
+      "word": "gMin",
+      "desc": "全局最小值"
+    },
+    {
+      "word": "gMax",
+      "desc": "全局最大值"
+    },
+    {
+      "word": "mag",
+      "desc": "模/绝对值 mag(v)"
+    },
+    {
+      "word": "magSqr",
+      "desc": "模平方 magSqr(v)"
+    },
+    {
+      "word": "cmptMax",
+      "desc": "分量最大值"
+    },
+    {
+      "word": "cmptMin",
+      "desc": "分量最小值"
+    },
+    {
+      "word": "cmptSum",
+      "desc": "分量求和"
+    },
+    {
+      "word": "sign",
+      "desc": "符号函数"
+    },
+    {
+      "word": "pos",
+      "desc": "正值保持,否则 0"
+    },
+    {
+      "word": "neg",
+      "desc": "负值保持,否则 0"
+    },
+    {
+      "word": "pos0",
+      "desc": "非负值保持,否则 0"
+    },
+    {
+      "word": "neg0",
+      "desc": "非正值保持,否则 0"
+    },
+    {
+      "word": "sqr",
+      "desc": "平方"
+    },
+    {
+      "word": "cbrt",
+      "desc": "立方根"
+    },
+    {
+      "word": "pow3",
+      "desc": "三次方"
+    },
+    {
+      "word": "pow4",
+      "desc": "四次方"
+    },
+    {
+      "word": "pow5",
+      "desc": "五次方"
+    },
+    {
+      "word": "inv",
+      "desc": "倒数"
+    },
+    {
+      "word": "lerp",
+      "desc": "线性插值 lerp(a, b, t)"
+    },
+    {
+      "word": "stabilise",
+      "desc": "数值稳定化 stabilise(x, small)"
+    },
+    {
+      "word": "boundaryField",
+      "desc": "场边界字段 .boundaryField()"
+    },
+    {
+      "word": "internalField",
+      "desc": "场内部字段 .internalField()"
+    },
+    {
+      "word": "refValue",
+      "desc": "混合边界条件参考值"
+    },
+    {
+      "word": "refGradient",
+      "desc": "混合边界条件参考梯度"
+    },
+    {
+      "word": "valueFraction",
+      "desc": "混合边界条件值权重"
+    },
+    {
+      "word": "labelList",
+      "desc": "整数列表类型"
+    },
+    {
+      "word": "scalarList",
+      "desc": "标量列表类型"
+    },
+    {
+      "word": "vectorList",
+      "desc": "矢量列表类型"
+    },
+    {
+      "word": "tensorList",
+      "desc": "张量列表类型"
+    },
+    {
+      "word": "wordList",
+      "desc": "单词列表类型"
+    },
+    {
+      "word": "boolList",
+      "desc": "布尔列表类型"
+    },
+    {
+      "word": "labelHashSet",
+      "desc": "整数哈希集合类型"
+    },
+    {
+      "word": "wordHashSet",
+      "desc": "单词哈希集合类型"
+    },
+    {
+      "word": "pointField",
+      "desc": "点场类型"
+    },
+    {
+      "word": "TypeName",
+      "desc": "类型注册宏 TypeName(\"name\")"
+    },
+    {
+      "word": "defineTypeNameAndDebug",
+      "desc": "定义类型名与调试开关 defineTypeNameAndDebug(Class, 0)"
+    },
+    {
+      "word": "defineTemplateTypeNameAndDebug",
+      "desc": "模板类类型名与调试开关"
+    },
+    {
+      "word": "defineNamedTemplateTypeNameAndDebug",
+      "desc": "命名模板类类型名与调试开关"
+    },
+    {
+      "word": "declareRunTimeSelectionTable",
+      "desc": "声明运行时选择表"
+    },
+    {
+      "word": "defineRunTimeSelectionTable",
+      "desc": "定义运行时选择表"
+    },
+    {
+      "word": "addToRunTimeSelectionTable",
+      "desc": "注册到运行时选择表"
+    },
+    {
+      "word": "word::null",
+      "desc": "空 word 常量"
+    },
+    {
+      "word": "dimArea",
+      "desc": "面积量纲常量"
+    },
+    {
+      "word": "dimVolume",
+      "desc": "体积量纲常量"
+    },
+    {
+      "word": "dimAcceleration",
+      "desc": "加速度量纲常量"
+    },
+    {
+      "word": "dimDynamicViscosity",
+      "desc": "动力黏度量纲常量"
+    },
+    {
+      "word": "combineReduce",
+      "desc": "组合归约函数(需要归约操作类型)"
+    },
+    {
+      "word": "dimViscosity",
+      "desc": "黏度量纲常量"
+    },
+    {
+      "word": "dimVol",
+      "desc": "体积量纲常量(简写)"
+    },
+    {
+      "word": "dimMoles",
+      "desc": "物质的量量纲常量"
+    },
+    {
+      "word": "dimCurrent",
+      "desc": "电流量纲常量"
+    },
+    {
+      "word": "dimLuminousIntensity",
+      "desc": "光强度量纲常量"
+    },
+    {
+      "word": "dimPower",
+      "desc": "功率量纲常量"
+    },
+    {
+      "word": "dimCompressibility",
+      "desc": "可压缩性量纲常量"
+    },
+    {
+      "word": "dimGasConstant",
+      "desc": "气体常数量纲常量"
+    },
+    {
+      "word": "dimSpecificHeatCapacity",
+      "desc": "比热量纲常量"
+    }
   ]
 }
