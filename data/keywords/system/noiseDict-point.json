@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "noiseDict-point",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 20,
+  "sourceOccurrences": 4,
   "entries": [
     {
       "key": "FoamFile",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -51,6 +59,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -71,6 +82,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "noiseDict",
@@ -91,6 +105,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
@@ -106,6 +123,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "pointNoise",
@@ -126,6 +146,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
@@ -141,10 +164,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
       ]
+    },
+    {
+      "key": "pointNoiseCoeffs/file",
+      "keyword": "file",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "pointNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/pointNoise/pointNoise.C:278"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "pointNoiseCoeffs/files",
@@ -154,8 +200,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "pointNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/pointNoise/pointNoise.C:273"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
@@ -171,6 +224,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
@@ -184,8 +240,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "Hanning"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/Hanning/Hanning.C:51"
+      ],
       "values": [
         {
           "value": "yes",
@@ -206,6 +269,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
@@ -219,8 +285,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "Hanning"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/Hanning/Hanning.C:50"
+      ],
       "values": [
         {
           "value": "yes",
@@ -241,6 +314,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -261,6 +337,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
@@ -276,6 +355,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
@@ -291,6 +373,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
@@ -306,6 +391,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-point"
@@ -321,6 +409,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\" \"",
@@ -341,6 +432,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "Hanning",

@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "s",
   "sourceFileCount": 4,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 77,
+  "sourceOccurrences": 12,
   "entries": [
     {
       "key": "boundaryField",
@@ -14,8 +16,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 4,
-      "fileCount": 4,
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:23"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/TJunction/0/s",
@@ -23,6 +32,26 @@
         "multiphase/interFoam/RAS/angledDuct/0.orig/s",
         "multiphase/interFoam/RAS/waterChannel/0.orig/s"
       ]
+    },
+    {
+      "key": "boundaryField/.*",
+      "keyword": ".*",
+      "context": "boundaryField",
+      "path": "boundaryField/.*",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:31"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}",
@@ -34,6 +63,9 @@
       ],
       "occurrences": 16,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/TJunction/0/s",
@@ -52,6 +84,9 @@
       ],
       "occurrences": 5,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -73,20 +108,28 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 16,
-      "fileCount": 4,
+      "occurrences": 18,
+      "fileCount": 5,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:27",
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:33"
+      ],
       "values": [
         {
           "value": "zeroGradient",
-          "occurrences": 6
+          "occurrences": 7
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 5
         },
         {
           "value": "inletOutlet",
           "occurrences": 5
-        },
-        {
-          "value": "fixedValue",
-          "occurrences": 4
         },
         {
           "value": "empty",
@@ -108,8 +151,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 8,
-      "fileCount": 4,
+      "occurrences": 10,
+      "fileCount": 6,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:28",
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 0",
@@ -128,6 +180,46 @@
       ]
     },
     {
+      "key": "boundaryField/#includeEtc",
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/#includeEtc",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:36"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/inlet",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/inlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:25"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dimensions",
       "keyword": "dimensions",
       "context": "",
@@ -135,8 +227,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 4,
-      "fileCount": 4,
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:19"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/TJunction/0/s",
@@ -153,8 +252,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 4,
-      "fileCount": 4,
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:8"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/TJunction/0/s",
@@ -173,6 +279,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -196,6 +305,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -219,6 +331,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "s",
@@ -242,6 +357,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/TJunction/0/s",
@@ -258,12 +376,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 4,
-      "fileCount": 4,
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:21"
+      ],
       "values": [
         {
           "value": "uniform 0",
-          "occurrences": 4
+          "occurrences": 5
         }
       ],
       "examples": [
@@ -272,6 +397,26 @@
         "multiphase/interFoam/RAS/angledDuct/0.orig/s",
         "multiphase/interFoam/RAS/waterChannel/0.orig/s"
       ]
+    },
+    {
+      "key": "sInlet",
+      "keyword": "sInlet",
+      "context": "",
+      "path": "sInlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/solvers/scalarTransport/s:17"
+      ],
+      "values": [],
+      "examples": []
     }
   ]
 }

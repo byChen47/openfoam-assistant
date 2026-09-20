@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "topoSetDict",
   "sourceFileCount": 132,
+  "sourceEvidenceFileCount": 43,
   "occurrences": 802,
+  "sourceOccurrences": 97,
   "entries": [
     {
       "key": "__settings",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/topoSetDict"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "subset",
@@ -51,6 +59,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "boxToFace",
@@ -71,6 +82,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceSet",
@@ -91,6 +105,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/topoSetDict"
@@ -106,6 +123,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "new",
@@ -126,6 +146,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sideFaces",
@@ -146,6 +169,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceToFace",
@@ -166,6 +192,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceSet",
@@ -186,6 +215,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/system/topoSetDict"
@@ -199,8 +231,18 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 132,
-      "fileCount": 132,
+      "occurrences": 135,
+      "fileCount": 135,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc",
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/topoSetDict:50",
+        "OpenFOAM-v2606/etc/caseDicts/mesh/manipulation/refineRegion/topoSetDict:17",
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/topoSet/topoSet.C:249"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/topoSetDict",
@@ -211,6 +253,526 @@
       ]
     },
     {
+      "key": "boxToCellCoeffs/box",
+      "keyword": "box",
+      "context": "boxToCellCoeffs",
+      "path": "boxToCellCoeffs/box",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/boxToCell/boxToCell.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToCellCoeffs/boxes",
+      "keyword": "boxes",
+      "context": "boxToCellCoeffs",
+      "path": "boxToCellCoeffs/boxes",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/boxToCell/boxToCell.C:146"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToCellCoeffs/max",
+      "keyword": "max",
+      "context": "boxToCellCoeffs",
+      "path": "boxToCellCoeffs/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/boxToCell/boxToCell.C:85"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToCellCoeffs/min",
+      "keyword": "min",
+      "context": "boxToCellCoeffs",
+      "path": "boxToCellCoeffs/min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/boxToCell/boxToCell.C:77"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToCellCoeffs/span",
+      "keyword": "span",
+      "context": "boxToCellCoeffs",
+      "path": "boxToCellCoeffs/span",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/boxToCell/boxToCell.C:79"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToFaceCoeffs/box",
+      "keyword": "box",
+      "context": "boxToFaceCoeffs",
+      "path": "boxToFaceCoeffs/box",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/boxToFace/boxToFace.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToFaceCoeffs/boxes",
+      "keyword": "boxes",
+      "context": "boxToFaceCoeffs",
+      "path": "boxToFaceCoeffs/boxes",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/boxToFace/boxToFace.C:146"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToFaceCoeffs/max",
+      "keyword": "max",
+      "context": "boxToFaceCoeffs",
+      "path": "boxToFaceCoeffs/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/boxToFace/boxToFace.C:85"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToFaceCoeffs/min",
+      "keyword": "min",
+      "context": "boxToFaceCoeffs",
+      "path": "boxToFaceCoeffs/min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/boxToFace/boxToFace.C:77"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToFaceCoeffs/span",
+      "keyword": "span",
+      "context": "boxToFaceCoeffs",
+      "path": "boxToFaceCoeffs/span",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/boxToFace/boxToFace.C:79"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToPointCoeffs/box",
+      "keyword": "box",
+      "context": "boxToPointCoeffs",
+      "path": "boxToPointCoeffs/box",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/boxToPoint/boxToPoint.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToPointCoeffs/boxes",
+      "keyword": "boxes",
+      "context": "boxToPointCoeffs",
+      "path": "boxToPointCoeffs/boxes",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/boxToPoint/boxToPoint.C:146"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToPointCoeffs/max",
+      "keyword": "max",
+      "context": "boxToPointCoeffs",
+      "path": "boxToPointCoeffs/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/boxToPoint/boxToPoint.C:85"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToPointCoeffs/min",
+      "keyword": "min",
+      "context": "boxToPointCoeffs",
+      "path": "boxToPointCoeffs/min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/boxToPoint/boxToPoint.C:77"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boxToPointCoeffs/span",
+      "keyword": "span",
+      "context": "boxToPointCoeffs",
+      "path": "boxToPointCoeffs/span",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "boxToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/boxToPoint/boxToPoint.C:79"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "clipPlaneToCellCoeffs/normal",
+      "keyword": "normal",
+      "context": "clipPlaneToCellCoeffs",
+      "path": "clipPlaneToCellCoeffs/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "clipPlaneToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/clipPlaneToCell/clipPlaneToCell.C:108"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "clipPlaneToCellCoeffs/point",
+      "keyword": "point",
+      "context": "clipPlaneToCellCoeffs",
+      "path": "clipPlaneToCellCoeffs/point",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "clipPlaneToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/clipPlaneToCell/clipPlaneToCell.C:107"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "clipPlaneToFaceCoeffs/normal",
+      "keyword": "normal",
+      "context": "clipPlaneToFaceCoeffs",
+      "path": "clipPlaneToFaceCoeffs/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "clipPlaneToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/clipPlaneToFace/clipPlaneToFace.C:108"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "clipPlaneToFaceCoeffs/point",
+      "keyword": "point",
+      "context": "clipPlaneToFaceCoeffs",
+      "path": "clipPlaneToFaceCoeffs/point",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "clipPlaneToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/clipPlaneToFace/clipPlaneToFace.C:107"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "clipPlaneToPointCoeffs/normal",
+      "keyword": "normal",
+      "context": "clipPlaneToPointCoeffs",
+      "path": "clipPlaneToPointCoeffs/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "clipPlaneToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/clipPlaneToPoint/clipPlaneToPoint.C:108"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "clipPlaneToPointCoeffs/point",
+      "keyword": "point",
+      "context": "clipPlaneToPointCoeffs",
+      "path": "clipPlaneToPointCoeffs/point",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "clipPlaneToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/clipPlaneToPoint/clipPlaneToPoint.C:107"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "faceZoneToCellCoeffs/zones",
+      "keyword": "zones",
+      "context": "faceZoneToCellCoeffs",
+      "path": "faceZoneToCellCoeffs/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZoneToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/faceZoneToCell/faceZoneToCell.C:222"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "faceZoneToFaceZoneCoeffs/zone",
+      "keyword": "zone",
+      "context": "faceZoneToFaceZoneCoeffs",
+      "path": "faceZoneToFaceZoneCoeffs/zone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZoneToFaceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceZoneSources/faceZoneToFaceZone/faceZoneToFaceZone.C:85"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "fieldToCellCoeffs/field",
+      "keyword": "field",
+      "context": "fieldToCellCoeffs",
+      "path": "fieldToCellCoeffs/field",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fieldToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/fieldToCell/fieldToCell.C:152"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "fieldToCellCoeffs/max",
+      "keyword": "max",
+      "context": "fieldToCellCoeffs",
+      "path": "fieldToCellCoeffs/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fieldToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/fieldToCell/fieldToCell.C:154"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "fieldToCellCoeffs/min",
+      "keyword": "min",
+      "context": "fieldToCellCoeffs",
+      "path": "fieldToCellCoeffs/min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fieldToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/fieldToCell/fieldToCell.C:153"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "FoamFile",
       "keyword": "FoamFile",
       "context": "",
@@ -218,8 +780,16 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 132,
-      "fileCount": 132,
+      "occurrences": 134,
+      "fileCount": 134,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/topoSetDict:8",
+        "OpenFOAM-v2606/etc/caseDicts/mesh/manipulation/refineRegion/topoSetDict:8"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/topoSetDict",
@@ -239,6 +809,9 @@
       ],
       "occurrences": 132,
       "fileCount": 132,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -263,6 +836,9 @@
       ],
       "occurrences": 132,
       "fileCount": 132,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -287,6 +863,9 @@
       ],
       "occurrences": 132,
       "fileCount": 132,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "topoSetDict",
@@ -311,6 +890,9 @@
       ],
       "occurrences": 132,
       "fileCount": 132,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/topoSetDict",
@@ -319,6 +901,1231 @@
         "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/topoSetDict",
         "combustion/fireFoam/LES/compartmentFire/system/topoSetDict"
       ]
+    },
+    {
+      "key": "holeToFaceCoeffs/cellSet",
+      "keyword": "cellSet",
+      "context": "holeToFaceCoeffs",
+      "path": "holeToFaceCoeffs/cellSet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "holeToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/holeToFace/holeToFace.C:1116"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "holeToFaceCoeffs/cellSets",
+      "keyword": "cellSets",
+      "context": "holeToFaceCoeffs",
+      "path": "holeToFaceCoeffs/cellSets",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "holeToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/holeToFace/holeToFace.C:1114"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "holeToFaceCoeffs/faceSet",
+      "keyword": "faceSet",
+      "context": "holeToFaceCoeffs",
+      "path": "holeToFaceCoeffs/faceSet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "holeToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/holeToFace/holeToFace.C:1108"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "holeToFaceCoeffs/faceSets",
+      "keyword": "faceSets",
+      "context": "holeToFaceCoeffs",
+      "path": "holeToFaceCoeffs/faceSets",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "holeToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/holeToFace/holeToFace.C:1106"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "labelToCellCoeffs/value",
+      "keyword": "value",
+      "context": "labelToCellCoeffs",
+      "path": "labelToCellCoeffs/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "labelToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/labelToCell/labelToCell.C:98"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "labelToFaceCoeffs/value",
+      "keyword": "value",
+      "context": "labelToFaceCoeffs",
+      "path": "labelToFaceCoeffs/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "labelToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/labelToFace/labelToFace.C:98"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "labelToPointCoeffs/value",
+      "keyword": "value",
+      "context": "labelToPointCoeffs",
+      "path": "labelToPointCoeffs/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "labelToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/labelToPoint/labelToPoint.C:98"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "name",
+      "keyword": "name",
+      "context": "",
+      "path": "name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/topoSet/topoSet.C:267"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "nearestToCellCoeffs/points",
+      "keyword": "points",
+      "context": "nearestToCellCoeffs",
+      "path": "nearestToCellCoeffs/points",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "nearestToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/nearestToCell/nearestToCell.C:131"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "nearestToPointCoeffs/points",
+      "keyword": "points",
+      "context": "nearestToPointCoeffs",
+      "path": "nearestToPointCoeffs/points",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "nearestToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/nearestToPoint/nearestToPoint.C:150"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "normalToFaceCoeffs/cos",
+      "keyword": "cos",
+      "context": "normalToFaceCoeffs",
+      "path": "normalToFaceCoeffs/cos",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "normalToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/normalToFace/normalToFace.C:105"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "normalToFaceCoeffs/normal",
+      "keyword": "normal",
+      "context": "normalToFaceCoeffs",
+      "path": "normalToFaceCoeffs/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "normalToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/normalToFace/normalToFace.C:104"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "patchDistanceToCellCoeffs/patch",
+      "keyword": "patch",
+      "context": "patchDistanceToCellCoeffs",
+      "path": "patchDistanceToCellCoeffs/patch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patchDistanceToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/patchDistanceToCell/patchDistanceToCell.C:150"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "patchDistanceToCellCoeffs/patches",
+      "keyword": "patches",
+      "context": "patchDistanceToCellCoeffs",
+      "path": "patchDistanceToCellCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patchDistanceToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/patchDistanceToCell/patchDistanceToCell.C:147"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "patchToCellCoeffs/patches",
+      "keyword": "patches",
+      "context": "patchToCellCoeffs",
+      "path": "patchToCellCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patchToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/patchToCell/patchToCell.C:132"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "patchToFaceCoeffs/patches",
+      "keyword": "patches",
+      "context": "patchToFaceCoeffs",
+      "path": "patchToFaceCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patchToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/patchToFace/patchToFace.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "patchToPointCoeffs/patches",
+      "keyword": "patches",
+      "context": "patchToPointCoeffs",
+      "path": "patchToPointCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patchToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/patchToPoint/patchToPoint.C:129"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "planeToFaceZoneCoeffs/normal",
+      "keyword": "normal",
+      "context": "planeToFaceZoneCoeffs",
+      "path": "planeToFaceZoneCoeffs/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "planeToFaceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceZoneSources/planeToFaceZone/planeToFaceZone.C:393"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "planeToFaceZoneCoeffs/point",
+      "keyword": "point",
+      "context": "planeToFaceZoneCoeffs",
+      "path": "planeToFaceZoneCoeffs/point",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "planeToFaceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceZoneSources/planeToFaceZone/planeToFaceZone.C:392"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "regionToCellCoeffs/set",
+      "keyword": "set",
+      "context": "regionToCellCoeffs",
+      "path": "regionToCellCoeffs/set",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "regionToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/regionToCell/regionToCell.C:430"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "regionToCellCoeffs/zone",
+      "keyword": "zone",
+      "context": "regionToCellCoeffs",
+      "path": "regionToCellCoeffs/zone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "regionToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/regionToCell/regionToCell.C:433"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "regionToFaceCoeffs/nearPoint",
+      "keyword": "nearPoint",
+      "context": "regionToFaceCoeffs",
+      "path": "regionToFaceCoeffs/nearPoint",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "regionToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/regionToFace/regionToFace.C:237"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "regionToFaceCoeffs/set",
+      "keyword": "set",
+      "context": "regionToFaceCoeffs",
+      "path": "regionToFaceCoeffs/set",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "regionToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/regionToFace/regionToFace.C:240"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "regionToFaceCoeffs/zone",
+      "keyword": "zone",
+      "context": "regionToFaceCoeffs",
+      "path": "regionToFaceCoeffs/zone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "regionToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/regionToFace/regionToFace.C:243"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "rotatedBoxToCellCoeffs/i",
+      "keyword": "i",
+      "context": "rotatedBoxToCellCoeffs",
+      "path": "rotatedBoxToCellCoeffs/i",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotatedBoxToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/rotatedBoxToCell/rotatedBoxToCell.C:174"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "rotatedBoxToCellCoeffs/j",
+      "keyword": "j",
+      "context": "rotatedBoxToCellCoeffs",
+      "path": "rotatedBoxToCellCoeffs/j",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotatedBoxToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/rotatedBoxToCell/rotatedBoxToCell.C:175"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "rotatedBoxToCellCoeffs/k",
+      "keyword": "k",
+      "context": "rotatedBoxToCellCoeffs",
+      "path": "rotatedBoxToCellCoeffs/k",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotatedBoxToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/rotatedBoxToCell/rotatedBoxToCell.C:176"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "rotatedBoxToCellCoeffs/origin",
+      "keyword": "origin",
+      "context": "rotatedBoxToCellCoeffs",
+      "path": "rotatedBoxToCellCoeffs/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotatedBoxToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/rotatedBoxToCell/rotatedBoxToCell.C:173"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "searchableSurfaceToCellCoeffs/surfaceName",
+      "keyword": "surfaceName",
+      "context": "searchableSurfaceToCellCoeffs",
+      "path": "searchableSurfaceToCellCoeffs/surfaceName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "searchableSurfaceToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/searchableSurfaceToCell/searchableSurfaceToCell.C:87"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "searchableSurfaceToFaceCoeffs/surfaceName",
+      "keyword": "surfaceName",
+      "context": "searchableSurfaceToFaceCoeffs",
+      "path": "searchableSurfaceToFaceCoeffs/surfaceName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "searchableSurfaceToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/searchableSurfaceToFace/searchableSurfaceToFace.C:87"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "searchableSurfaceToPointCoeffs/surfaceName",
+      "keyword": "surfaceName",
+      "context": "searchableSurfaceToPointCoeffs",
+      "path": "searchableSurfaceToPointCoeffs/surfaceName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "searchableSurfaceToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/searchableSurfaceToPoint/searchableSurfaceToPoint.C:87"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "setAndNormalToFaceZoneCoeffs/faceSet",
+      "keyword": "faceSet",
+      "context": "setAndNormalToFaceZoneCoeffs",
+      "path": "setAndNormalToFaceZoneCoeffs/faceSet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "setAndNormalToFaceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceZoneSources/setAndNormalToFaceZone/setAndNormalToFaceZone.C:87"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "setAndNormalToFaceZoneCoeffs/normal",
+      "keyword": "normal",
+      "context": "setAndNormalToFaceZoneCoeffs",
+      "path": "setAndNormalToFaceZoneCoeffs/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "setAndNormalToFaceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceZoneSources/setAndNormalToFaceZone/setAndNormalToFaceZone.C:88"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "setsToFaceZoneCoeffs/cellSet",
+      "keyword": "cellSet",
+      "context": "setsToFaceZoneCoeffs",
+      "path": "setsToFaceZoneCoeffs/cellSet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "setsToFaceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceZoneSources/setsToFaceZone/setsToFaceZone.C:82"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "setsToFaceZoneCoeffs/faceSet",
+      "keyword": "faceSet",
+      "context": "setsToFaceZoneCoeffs",
+      "path": "setsToFaceZoneCoeffs/faceSet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "setsToFaceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceZoneSources/setsToFaceZone/setsToFaceZone.C:81"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "setToCellZoneCoeffs/set",
+      "keyword": "set",
+      "context": "setToCellZoneCoeffs",
+      "path": "setToCellZoneCoeffs/set",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "setToCellZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellZoneSources/setToCellZone/setToCellZone.C:75"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "setToFaceZoneCoeffs/faceSet",
+      "keyword": "faceSet",
+      "context": "setToFaceZoneCoeffs",
+      "path": "setToFaceZoneCoeffs/faceSet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "setToFaceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceZoneSources/setToFaceZone/setToFaceZone.C:76"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "setToPointZoneCoeffs/set",
+      "keyword": "set",
+      "context": "setToPointZoneCoeffs",
+      "path": "setToPointZoneCoeffs/set",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "setToPointZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointZoneSources/setToPointZone/setToPointZone.C:75"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "source",
+      "keyword": "source",
+      "context": "",
+      "path": "source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/topoSets/cellBitSet.C:135",
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/topoSet/topoSet.C:321",
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/topoSet/topoSet.C:346"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "sourceInfo",
+      "keyword": "sourceInfo",
+      "context": "",
+      "path": "sourceInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/topoSets/cellBitSet.C:137",
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/topoSet/topoSet.C:328",
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/topoSet/topoSet.C:353"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToCellCoeffs/curvature",
+      "keyword": "curvature",
+      "context": "surfaceToCellCoeffs",
+      "path": "surfaceToCellCoeffs/curvature",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/surfaceToCell/surfaceToCell.C:445"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToCellCoeffs/file",
+      "keyword": "file",
+      "context": "surfaceToCellCoeffs",
+      "path": "surfaceToCellCoeffs/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/surfaceToCell/surfaceToCell.C:435"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToCellCoeffs/includeCut",
+      "keyword": "includeCut",
+      "context": "surfaceToCellCoeffs",
+      "path": "surfaceToCellCoeffs/includeCut",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/surfaceToCell/surfaceToCell.C:437"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToCellCoeffs/includeInside",
+      "keyword": "includeInside",
+      "context": "surfaceToCellCoeffs",
+      "path": "surfaceToCellCoeffs/includeInside",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/surfaceToCell/surfaceToCell.C:438"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToCellCoeffs/includeOutside",
+      "keyword": "includeOutside",
+      "context": "surfaceToCellCoeffs",
+      "path": "surfaceToCellCoeffs/includeOutside",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/surfaceToCell/surfaceToCell.C:439"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToCellCoeffs/nearDistance",
+      "keyword": "nearDistance",
+      "context": "surfaceToCellCoeffs",
+      "path": "surfaceToCellCoeffs/nearDistance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/surfaceToCell/surfaceToCell.C:444"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToCellCoeffs/outsidePoints",
+      "keyword": "outsidePoints",
+      "context": "surfaceToCellCoeffs",
+      "path": "surfaceToCellCoeffs/outsidePoints",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/surfaceToCell/surfaceToCell.C:436"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToPointCoeffs/file",
+      "keyword": "file",
+      "context": "surfaceToPointCoeffs",
+      "path": "surfaceToPointCoeffs/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/surfaceToPoint/surfaceToPoint.C:157"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToPointCoeffs/includeInside",
+      "keyword": "includeInside",
+      "context": "surfaceToPointCoeffs",
+      "path": "surfaceToPointCoeffs/includeInside",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/surfaceToPoint/surfaceToPoint.C:161"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToPointCoeffs/includeOutside",
+      "keyword": "includeOutside",
+      "context": "surfaceToPointCoeffs",
+      "path": "surfaceToPointCoeffs/includeOutside",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/surfaceToPoint/surfaceToPoint.C:162"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceToPointCoeffs/nearDistance",
+      "keyword": "nearDistance",
+      "context": "surfaceToPointCoeffs",
+      "path": "surfaceToPointCoeffs/nearDistance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/surfaceToPoint/surfaceToPoint.C:160"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "targetVolumeToCellCoeffs/normal",
+      "keyword": "normal",
+      "context": "targetVolumeToCellCoeffs",
+      "path": "targetVolumeToCellCoeffs/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "targetVolumeToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/targetVolumeToCell/targetVolumeToCell.C:306"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "topoSetSourceCoeffs/set",
+      "keyword": "set",
+      "context": "topoSetSourceCoeffs",
+      "path": "topoSetSourceCoeffs/set",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "topoSetSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/topoSetSource/topoSetSource.C:338",
+        "OpenFOAM-v2606/src/meshTools/topoSet/topoSetSource/topoSetSource.C:346"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "topoSetSourceCoeffs/sets",
+      "keyword": "sets",
+      "context": "topoSetSourceCoeffs",
+      "path": "topoSetSourceCoeffs/sets",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "topoSetSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/topoSetSource/topoSetSource.C:321"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "topoSetSourceCoeffs/verbose",
+      "keyword": "verbose",
+      "context": "topoSetSourceCoeffs",
+      "path": "topoSetSourceCoeffs/verbose",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "topoSetSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/topoSetSource/topoSetSource.C:283"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "topoSetSourceCoeffs/zone",
+      "keyword": "zone",
+      "context": "topoSetSourceCoeffs",
+      "path": "topoSetSourceCoeffs/zone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "topoSetSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/topoSetSource/topoSetSource.C:334"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "topoSetSourceCoeffs/zones",
+      "keyword": "zones",
+      "context": "topoSetSourceCoeffs",
+      "path": "topoSetSourceCoeffs/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "topoSetSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/topoSetSource/topoSetSource.C:325"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "type",
+      "keyword": "type",
+      "context": "",
+      "path": "type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/topoSet/topoSet.C:268"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "zoneToCellCoeffs/zones",
+      "keyword": "zones",
+      "context": "zoneToCellCoeffs",
+      "path": "zoneToCellCoeffs/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "zoneToCell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/cellSources/zoneToCell/zoneToCell.C:188"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "zoneToFaceCoeffs/zones",
+      "keyword": "zones",
+      "context": "zoneToFaceCoeffs",
+      "path": "zoneToFaceCoeffs/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "zoneToFace"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/faceSources/zoneToFace/zoneToFace.C:190"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "zoneToPointCoeffs/zones",
+      "keyword": "zones",
+      "context": "zoneToPointCoeffs",
+      "path": "zoneToPointCoeffs/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "zoneToPoint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/topoSet/pointSources/zoneToPoint/zoneToPoint.C:190"
+      ],
+      "values": [],
+      "examples": []
     }
   ]
 }

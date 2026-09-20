@@ -1,0 +1,852 @@
+{
+  "generatedAt": "2026-09-20T12:59:10.305Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "noiseDict",
+  "sourceFileCount": 0,
+  "sourceEvidenceFileCount": 3,
+  "occurrences": 0,
+  "sourceOccurrences": 43,
+  "entries": [
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:8"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "noiseModel",
+      "keyword": "noiseModel",
+      "context": "",
+      "path": "noiseModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:18"
+      ],
+      "values": [
+        {
+          "value": "surfaceNoise",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs",
+      "keyword": "pointNoiseCoeffs",
+      "context": "",
+      "path": "pointNoiseCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:98"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/componentColumns",
+      "keyword": "componentColumns",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/componentColumns",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:104"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/fftWriteInterval",
+      "keyword": "fftWriteInterval",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/fftWriteInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:138"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/file",
+      "keyword": "file",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:100"
+      ],
+      "values": [
+        {
+          "value": "\"pressureData\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/graphFormat",
+      "keyword": "graphFormat",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/graphFormat",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:120"
+      ],
+      "values": [
+        {
+          "value": "raw",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/HanningCoeffs",
+      "keyword": "HanningCoeffs",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/HanningCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:108"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/HanningCoeffs/extended",
+      "keyword": "extended",
+      "context": "pointNoiseCoeffs/HanningCoeffs",
+      "path": "pointNoiseCoeffs/HanningCoeffs/extended",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:113"
+      ],
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/HanningCoeffs/overlapPercent",
+      "keyword": "overlapPercent",
+      "context": "pointNoiseCoeffs/HanningCoeffs",
+      "path": "pointNoiseCoeffs/HanningCoeffs/overlapPercent",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:111"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/HanningCoeffs/symmetric",
+      "keyword": "symmetric",
+      "context": "pointNoiseCoeffs/HanningCoeffs",
+      "path": "pointNoiseCoeffs/HanningCoeffs/symmetric",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:112"
+      ],
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/mergeSeparators",
+      "keyword": "mergeSeparators",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/mergeSeparators",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:106"
+      ],
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/N",
+      "keyword": "N",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/N",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:126"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/nHeaderLine",
+      "keyword": "nHeaderLine",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/nHeaderLine",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:102"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/refColumn",
+      "keyword": "refColumn",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/refColumn",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:103"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/rhoRef",
+      "keyword": "rhoRef",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/rhoRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:123"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pointNoiseCoeffs/separator",
+      "keyword": "separator",
+      "context": "pointNoiseCoeffs",
+      "path": "pointNoiseCoeffs/separator",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:105"
+      ],
+      "values": [
+        {
+          "value": "\" \"",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs",
+      "keyword": "surfaceNoiseCoeffs",
+      "context": "",
+      "path": "surfaceNoiseCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:20"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/areaAverage",
+      "keyword": "areaAverage",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/areaAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:487"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/broadcast",
+      "keyword": "broadcast",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/broadcast",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:499"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/commsType",
+      "keyword": "commsType",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/commsType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:500"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/fftWriteInterval",
+      "keyword": "fftWriteInterval",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/fftWriteInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:481"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/file",
+      "keyword": "file",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:52",
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:477"
+      ],
+      "values": [
+        {
+          "value": "\"postProcessing/faceSource1/surface/patch1/patch1.case\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/files",
+      "keyword": "files",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/files",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:474"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/fu",
+      "keyword": "fu",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/fu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:82"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/HanningCoeffs",
+      "keyword": "HanningCoeffs",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/HanningCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:24"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/HanningCoeffs/extended",
+      "keyword": "extended",
+      "context": "surfaceNoiseCoeffs/HanningCoeffs",
+      "path": "surfaceNoiseCoeffs/HanningCoeffs/extended",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "Hanning"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:29",
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/Hanning/Hanning.C:51"
+      ],
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/HanningCoeffs/overlapPercent",
+      "keyword": "overlapPercent",
+      "context": "surfaceNoiseCoeffs/HanningCoeffs",
+      "path": "surfaceNoiseCoeffs/HanningCoeffs/overlapPercent",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:27"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/HanningCoeffs/symmetric",
+      "keyword": "symmetric",
+      "context": "surfaceNoiseCoeffs/HanningCoeffs",
+      "path": "surfaceNoiseCoeffs/HanningCoeffs/symmetric",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "Hanning"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:28",
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/Hanning/Hanning.C:50"
+      ],
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/N",
+      "keyword": "N",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/N",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:76"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/p",
+      "keyword": "p",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:480"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/reader",
+      "keyword": "reader",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/reader",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:58",
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:516"
+      ],
+      "values": [
+        {
+          "value": "ensight",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/rhoRef",
+      "keyword": "rhoRef",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/rhoRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:73"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/windowModel",
+      "keyword": "windowModel",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/windowModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:22"
+      ],
+      "values": [
+        {
+          "value": "Hanning",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/writeOptions",
+      "keyword": "writeOptions",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/writeOptions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:64"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/writeOptions/ensight",
+      "keyword": "ensight",
+      "context": "surfaceNoiseCoeffs/writeOptions",
+      "path": "surfaceNoiseCoeffs/writeOptions/ensight",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:66"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/writeOptions/ensight/collateTimes",
+      "keyword": "collateTimes",
+      "context": "surfaceNoiseCoeffs/writeOptions/ensight",
+      "path": "surfaceNoiseCoeffs/writeOptions/ensight/collateTimes",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:68"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/writer",
+      "keyword": "writer",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/writer",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/noiseDict:61",
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:523"
+      ],
+      "values": [
+        {
+          "value": "ensight",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    }
+  ]
+}

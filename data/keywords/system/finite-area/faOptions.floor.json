@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "finite-area/faOptions.floor",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 24,
+  "sourceOccurrences": 5,
   "entries": [
     {
       "key": "contact",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/finite-area/faOptions.floor"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -49,8 +57,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "contactHeatFluxSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/contactHeatFluxSource/contactHeatFluxSource.C:174"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/finite-area/faOptions.floor"
@@ -66,6 +81,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fluidThermo",
@@ -86,6 +104,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "lower",
@@ -106,6 +127,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -124,8 +148,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "contactHeatFluxSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/contactHeatFluxSource/contactHeatFluxSource.C:168"
+      ],
       "values": [
         {
           "value": "Ts",
@@ -144,8 +175,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "contactHeatFluxSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/contactHeatFluxSource/contactHeatFluxSource.C:172"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/finite-area/faOptions.floor"
@@ -161,6 +199,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "T",
@@ -181,6 +222,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "contactHeatFluxSource",
@@ -201,6 +245,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/finite-area/faOptions.floor"
@@ -216,6 +263,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -227,6 +277,26 @@
       ]
     },
     {
+      "key": "exterior/emissivity",
+      "keyword": "emissivity",
+      "context": "exterior",
+      "path": "exterior/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "externalHeatFluxSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/externalHeatFluxSource/externalHeatFluxSource.C:207"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "exterior/h",
       "keyword": "h",
       "context": "exterior",
@@ -236,6 +306,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/finite-area/faOptions.floor"
@@ -251,6 +324,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "coefficient",
@@ -271,6 +347,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "lower",
@@ -291,6 +370,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -309,8 +391,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "externalHeatFluxSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/externalHeatFluxSource/externalHeatFluxSource.C:206"
+      ],
       "values": [
         {
           "value": "Ts",
@@ -331,6 +420,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constant 1000",
@@ -351,6 +443,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "externalHeatFluxSource",
@@ -371,6 +466,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/finite-area/faOptions.floor"
@@ -386,6 +484,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -406,6 +507,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -426,6 +530,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faOptions",
@@ -446,6 +553,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/finite-area/faOptions.floor"

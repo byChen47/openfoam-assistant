@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "alphat.gas2",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 1,
   "occurrences": 26,
+  "sourceOccurrences": 8,
   "entries": [
     {
       "key": "boundaryField",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/alphat.gas2"
@@ -31,10 +36,93 @@
       ],
       "occurrences": 5,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/alphat.gas2"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/departureDiamModel",
+      "keyword": "departureDiamModel",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/departureDiamModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:194"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/departureFreqModel",
+      "keyword": "departureFreqModel",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/departureFreqModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:200"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/K",
+      "keyword": "K",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/K",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:259"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/nucleationSiteModel",
+      "keyword": "nucleationSiteModel",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/nucleationSiteModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:188"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/otherPhase",
@@ -44,8 +132,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:117"
+      ],
       "values": [
         {
           "value": "liquid",
@@ -62,10 +157,19 @@
       "context": "boundaryField/{patch}",
       "path": "boundaryField/{patch}/partitioningModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:154",
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:170"
+      ],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/alphat.gas2"
@@ -81,6 +185,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "phaseFraction",
@@ -101,6 +208,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "vapor",
@@ -121,6 +231,9 @@
       ],
       "occurrences": 5,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "calculated",
@@ -153,6 +266,9 @@
       ],
       "occurrences": 4,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -168,6 +284,26 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/wp",
+      "keyword": "wp",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/wp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:261"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dimensions",
       "keyword": "dimensions",
       "context": "",
@@ -177,6 +313,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/alphat.gas2"
@@ -192,6 +331,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/alphat.gas2"
@@ -207,6 +349,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -227,6 +372,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -247,6 +395,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "alphat.gas2",
@@ -267,6 +418,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/alphat.gas2"
@@ -282,6 +436,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 1e-8",

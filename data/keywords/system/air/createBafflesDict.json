@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "air/createBafflesDict",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 5,
   "occurrences": 17,
+  "sourceOccurrences": 13,
   "entries": [
     {
       "key": "baffles",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/createBafflesDict"
@@ -31,10 +36,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/createBafflesDict"
       ]
+    },
+    {
+      "key": "baffles/baffleFaces/flipMap",
+      "keyword": "flipMap",
+      "context": "baffles/baffleFaces",
+      "path": "baffles/baffleFaces/flipMap",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.C:333"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "baffles/baffleFaces/patches",
@@ -46,6 +74,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/createBafflesDict"
@@ -61,10 +92,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/createBafflesDict"
       ]
+    },
+    {
+      "key": "baffles/baffleFaces/patches/master/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "baffles/baffleFaces/patches/master/name",
@@ -76,6 +130,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "blades",
@@ -87,6 +144,67 @@
       ]
     },
     {
+      "key": "baffles/baffleFaces/patches/master/nFaces",
+      "keyword": "nFaces",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffleFaces/patches/master/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffleFaces/patches/master/startFace",
+      "keyword": "startFace",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "baffles/baffleFaces/patches/master/type",
       "keyword": "type",
       "context": "baffles/baffleFaces/patches/master",
@@ -96,6 +214,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -116,10 +237,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/createBafflesDict"
       ]
+    },
+    {
+      "key": "baffles/baffleFaces/patches/slave/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "baffles/baffleFaces/patches/slave",
+      "path": "baffles/baffleFaces/patches/slave/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "baffles/baffleFaces/patches/slave/name",
@@ -131,6 +275,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "blades",
@@ -142,6 +289,67 @@
       ]
     },
     {
+      "key": "baffles/baffleFaces/patches/slave/nFaces",
+      "keyword": "nFaces",
+      "context": "baffles/baffleFaces/patches/slave",
+      "path": "baffles/baffleFaces/patches/slave/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffleFaces/patches/slave/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "baffles/baffleFaces/patches/slave",
+      "path": "baffles/baffleFaces/patches/slave/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffleFaces/patches/slave/startFace",
+      "keyword": "startFace",
+      "context": "baffles/baffleFaces/patches/slave",
+      "path": "baffles/baffleFaces/patches/slave/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "baffles/baffleFaces/patches/slave/type",
       "keyword": "type",
       "context": "baffles/baffleFaces/patches/slave",
@@ -151,6 +359,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -171,6 +382,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceZone",
@@ -189,8 +403,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/faceZoneSelection.C:54"
+      ],
       "values": [
         {
           "value": "rotorBlades",
@@ -202,6 +423,26 @@
       ]
     },
     {
+      "key": "baffles/baffleFaces/zones",
+      "keyword": "zones",
+      "context": "baffles/baffleFaces",
+      "path": "baffles/baffleFaces/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledFaceZone/sampledFaceZone.C:80"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "FoamFile",
       "keyword": "FoamFile",
       "context": "",
@@ -211,6 +452,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/createBafflesDict"
@@ -226,6 +470,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -246,6 +493,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -266,6 +516,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "createBafflesDict",
@@ -286,6 +539,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/createBafflesDict"
@@ -301,6 +557,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",

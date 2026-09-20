@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "cabin/p_rgh",
   "sourceFileCount": 2,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 50,
+  "sourceOccurrences": 2,
   "entries": [
     {
       "key": "boundaryField",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/p_rgh",
@@ -32,11 +37,34 @@
       ],
       "occurrences": 10,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/p_rgh",
         "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/p_rgh"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/gamma",
+      "keyword": "gamma",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/gamma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "totalPressure"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.cxx:66"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/gradient",
@@ -48,6 +76,9 @@
       ],
       "occurrences": 6,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -69,6 +100,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 100000",
@@ -89,6 +123,9 @@
       ],
       "occurrences": 10,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fixedFluxPressure",
@@ -120,8 +157,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 7,
-      "fileCount": 2,
+      "occurrences": 8,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 100000",
@@ -143,6 +187,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/p_rgh",
@@ -159,6 +206,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/p_rgh",
@@ -175,6 +225,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -196,6 +249,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "binary",
@@ -217,6 +273,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "p_rgh",
@@ -238,6 +297,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/p_rgh",
@@ -254,6 +316,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 100000",

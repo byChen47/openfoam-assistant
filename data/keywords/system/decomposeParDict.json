@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "decomposeParDict",
   "sourceFileCount": 353,
+  "sourceEvidenceFileCount": 18,
   "occurrences": 3185,
+  "sourceOccurrences": 95,
   "entries": [
     {
       "key": "#include",
@@ -16,10 +18,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeParDict"
       ]
+    },
+    {
+      "key": "agglom",
+      "keyword": "agglom",
+      "context": "",
+      "path": "agglom",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/randomDecomp/randomDecomp.C:105"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "coeffs",
@@ -29,8 +54,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 231,
-      "fileCount": 231,
+      "occurrences": 232,
+      "fileCount": 232,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:109"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
@@ -50,6 +82,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"cellDecomposition\"",
@@ -75,6 +110,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/waveMakerSolitary/system/decomposeParDict"
@@ -90,6 +128,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "IO/cavity_parProfiling/system/decomposeParDict"
@@ -105,6 +146,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "IO/cavity_parProfiling/system/decomposeParDict"
@@ -118,8 +162,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 230,
-      "fileCount": 230,
+      "occurrences": 231,
+      "fileCount": 231,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:111"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
@@ -139,6 +190,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "xyz",
@@ -159,6 +213,9 @@
       ],
       "occurrences": 8,
       "fileCount": 8,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/laplacianFoam/twoBlocks-processorAgglom/system/decomposeParDict",
@@ -178,6 +235,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/decomposeParDict",
@@ -196,6 +256,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -217,6 +280,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "preserveFaceZones",
@@ -238,8 +304,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 4,
-      "fileCount": 4,
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preserveFaceZones"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preserveFaceZones/preserveFaceZonesConstraint.C:59"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/decomposeParDict",
@@ -258,6 +331,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/laplacianFoam/twoBlocks-processorAgglom/system/decomposeParDict"
@@ -271,8 +347,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preservePatches"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preservePatches/preservePatchesConstraint.C:59"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/twoBlocks-processorAgglom/system/decomposeParDict"
@@ -288,6 +371,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "preservePatches",
@@ -308,6 +394,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/XiDyMFoam/annularCombustorTurbine/system/decomposeParDict",
@@ -322,8 +411,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preservePatches"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preservePatches/preservePatchesConstraint.C:59"
+      ],
       "values": [],
       "examples": [
         "combustion/XiDyMFoam/annularCombustorTurbine/system/decomposeParDict",
@@ -340,6 +436,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "preservePatches",
@@ -361,6 +460,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/motorBike/system/decomposeParDict"
@@ -376,6 +478,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "refinementHistory",
@@ -387,6 +492,167 @@
       ]
     },
     {
+      "key": "decomposeParDict",
+      "keyword": "decomposeParDict",
+      "context": "",
+      "path": "decomposeParDict",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C:531"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "decompositionConstraintCoeffs/type",
+      "keyword": "type",
+      "context": "decompositionConstraintCoeffs",
+      "path": "decompositionConstraintCoeffs/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "decompositionConstraint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/decompositionConstraint/decompositionConstraint.C:162"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "decompositionMethodCoeffs/method",
+      "keyword": "method",
+      "context": "decompositionMethodCoeffs",
+      "path": "decompositionMethodCoeffs/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "decompositionMethod"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:380",
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:384"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "decompositionMethodCoeffs/numberOfSubdomains",
+      "keyword": "numberOfSubdomains",
+      "context": "decompositionMethodCoeffs",
+      "path": "decompositionMethodCoeffs/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "decompositionMethod"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:106"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "decompositionMethodCoeffs/preserveFaceZones",
+      "keyword": "preserveFaceZones",
+      "context": "decompositionMethodCoeffs",
+      "path": "decompositionMethodCoeffs/preserveFaceZones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "decompositionMethod"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:247"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "decompositionMethodCoeffs/preservePatches",
+      "keyword": "preservePatches",
+      "context": "decompositionMethodCoeffs",
+      "path": "decompositionMethodCoeffs/preservePatches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "decompositionMethod"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:236"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "decompositionMethodCoeffs/singleProcessorFaceSets",
+      "keyword": "singleProcessorFaceSets",
+      "context": "decompositionMethodCoeffs",
+      "path": "decompositionMethodCoeffs/singleProcessorFaceSets",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "decompositionMethod"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:258"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "delta",
+      "keyword": "delta",
+      "context": "",
+      "path": "delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/geomDecomp/geomDecomp.C:72"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "distributed",
       "keyword": "distributed",
       "context": "",
@@ -394,8 +660,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 17,
-      "fileCount": 17,
+      "occurrences": 18,
+      "fileCount": 18,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/domainDecomposition.C:147"
+      ],
       "values": [
         {
           "value": "no",
@@ -411,6 +684,46 @@
       ]
     },
     {
+      "key": "domains",
+      "keyword": "domains",
+      "context": "",
+      "path": "domains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "domainWeights",
+      "keyword": "domainWeights",
+      "context": "",
+      "path": "domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "FoamFile",
       "keyword": "FoamFile",
       "context": "",
@@ -418,8 +731,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 353,
-      "fileCount": 353,
+      "occurrences": 354,
+      "fileCount": 354,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:8"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/flange/system/decomposeParDict",
@@ -439,6 +759,9 @@
       ],
       "occurrences": 353,
       "fileCount": 353,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -463,6 +786,9 @@
       ],
       "occurrences": 353,
       "fileCount": 353,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -487,6 +813,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"system\"",
@@ -508,6 +837,9 @@
       ],
       "occurrences": 15,
       "fileCount": 15,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"mesh decomposition control dictionary\"",
@@ -532,6 +864,9 @@
       ],
       "occurrences": 353,
       "fileCount": 353,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "decomposeParDict",
@@ -560,6 +895,9 @@
       ],
       "occurrences": 353,
       "fileCount": 353,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/laplacianFoam/flange/system/decomposeParDict",
@@ -570,6 +908,46 @@
       ]
     },
     {
+      "key": "geometricCoeffs/selection",
+      "keyword": "selection",
+      "context": "geometricCoeffs",
+      "path": "geometricCoeffs/selection",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "geometric"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/geometric/geometricConstraint.C:62"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "geometricCoeffs/sourceInfo",
+      "keyword": "sourceInfo",
+      "context": "geometricCoeffs",
+      "path": "geometricCoeffs/sourceInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "geometric"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/geometric/geometricConstraint.C:141"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "hierarchicalCoeffs",
       "keyword": "hierarchicalCoeffs",
       "context": "",
@@ -577,8 +955,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 14,
-      "fileCount": 14,
+      "occurrences": 15,
+      "fileCount": 15,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:120"
+      ],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
@@ -598,6 +983,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
@@ -615,8 +1003,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 14,
-      "fileCount": 14,
+      "occurrences": 15,
+      "fileCount": 15,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:122"
+      ],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
@@ -636,6 +1031,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "xyz",
@@ -658,8 +1056,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 14,
-      "fileCount": 14,
+      "occurrences": 15,
+      "fileCount": 15,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:153"
+      ],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
@@ -677,12 +1082,23 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 14,
-      "fileCount": 14,
+      "occurrences": 15,
+      "fileCount": 15,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:155"
+      ],
       "values": [
         {
           "value": "\"\"",
           "occurrences": 14
+        },
+        {
+          "value": "\"decompositionData\"",
+          "occurrences": 1
         }
       ],
       "examples": [
@@ -701,8 +1117,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 353,
-      "fileCount": 353,
+      "occurrences": 354,
+      "fileCount": 354,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:22"
+      ],
       "values": [
         {
           "value": "hierarchical",
@@ -710,7 +1133,7 @@
         },
         {
           "value": "scotch",
-          "occurrences": 123
+          "occurrences": 124
         },
         {
           "value": "simple",
@@ -737,8 +1160,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 14,
-      "fileCount": 14,
+      "occurrences": 15,
+      "fileCount": 15,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:127"
+      ],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
@@ -749,6 +1179,633 @@
       ]
     },
     {
+      "key": "multiLevelCoeffs",
+      "keyword": "multiLevelCoeffs",
+      "context": "",
+      "path": "multiLevelCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:60",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:93"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/domains",
+      "keyword": "domains",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/domains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc",
+        "multiLevel",
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:99",
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/multiLevelDecomp/multiLevelDecomp.C:69",
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/domainWeights",
+      "keyword": "domainWeights",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level0",
+      "keyword": "level0",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/level0",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:69"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level0/domains",
+      "keyword": "domains",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/domains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level0/domainWeights",
+      "keyword": "domainWeights",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level0/method",
+      "keyword": "method",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:72"
+      ],
+      "values": [
+        {
+          "value": "scotch",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level0/numberOfSubdomains",
+      "keyword": "numberOfSubdomains",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:71"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level0/processorWeights",
+      "keyword": "processorWeights",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level0/strategy",
+      "keyword": "strategy",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level1",
+      "keyword": "level1",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/level1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:74"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level1/coeffs",
+      "keyword": "coeffs",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/coeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:78"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level1/coeffs/delta",
+      "keyword": "delta",
+      "context": "multiLevelCoeffs/level1/coeffs",
+      "path": "multiLevelCoeffs/level1/coeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:81"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level1/coeffs/n",
+      "keyword": "n",
+      "context": "multiLevelCoeffs/level1/coeffs",
+      "path": "multiLevelCoeffs/level1/coeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:80"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level1/domains",
+      "keyword": "domains",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/domains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level1/domainWeights",
+      "keyword": "domainWeights",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level1/method",
+      "keyword": "method",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:77"
+      ],
+      "values": [
+        {
+          "value": "scotch",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level1/numberOfSubdomains",
+      "keyword": "numberOfSubdomains",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:76"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level1/processorWeights",
+      "keyword": "processorWeights",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level1/strategy",
+      "keyword": "strategy",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level2",
+      "keyword": "level2",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/level2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:84"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level2/domains",
+      "keyword": "domains",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/domains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level2/domainWeights",
+      "keyword": "domainWeights",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level2/method",
+      "keyword": "method",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:88"
+      ],
+      "values": [
+        {
+          "value": "scotch",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level2/numberOfSubdomains",
+      "keyword": "numberOfSubdomains",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:86"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level2/processorWeights",
+      "keyword": "processorWeights",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/level2/strategy",
+      "keyword": "strategy",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/method",
+      "keyword": "method",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "multiLevel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:98",
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/multiLevelDecomp/multiLevelDecomp.C:67"
+      ],
+      "values": [
+        {
+          "value": "scotch",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/processorWeights",
+      "keyword": "processorWeights",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "multiLevelCoeffs/strategy",
+      "keyword": "strategy",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "n",
       "keyword": "n",
       "context": "",
@@ -756,8 +1813,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 6,
-      "fileCount": 6,
+      "occurrences": 7,
+      "fileCount": 7,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/geomDecomp/geomDecomp.C:74"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/implicitAMI-nonblocking/system/decomposeParDict",
@@ -775,8 +1839,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 353,
-      "fileCount": 353,
+      "occurrences": 354,
+      "fileCount": 354,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:19"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/flange/system/decomposeParDict",
@@ -787,6 +1858,66 @@
       ]
     },
     {
+      "key": "preserveFaceZonesCoeffs/zones",
+      "keyword": "zones",
+      "context": "preserveFaceZonesCoeffs",
+      "path": "preserveFaceZonesCoeffs/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preserveFaceZones"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preserveFaceZones/preserveFaceZonesConstraint.C:59"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "preservePatchesCoeffs/patches",
+      "keyword": "patches",
+      "context": "preservePatchesCoeffs",
+      "path": "preservePatchesCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preservePatches"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preservePatches/preservePatchesConstraint.C:59"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "processorWeights",
+      "keyword": "processorWeights",
+      "context": "",
+      "path": "processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "regions",
       "keyword": "regions",
       "context": "",
@@ -794,14 +1925,41 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:34"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/decomposeParDict",
         "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/decomposeParDict"
       ]
+    },
+    {
+      "key": "regions/.*solid",
+      "keyword": ".*solid",
+      "context": "regions",
+      "path": "regions/.*solid",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:42"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "regions/{region}",
@@ -813,6 +1971,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
@@ -830,6 +1991,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
@@ -847,12 +2011,36 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/decomposeParDict",
         "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/decomposeParDict"
       ]
+    },
+    {
+      "key": "regions/{region}/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "regions/{region}",
+      "path": "regions/{region}/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "regions/{region}/method",
@@ -862,12 +2050,31 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 7,
+      "fileCount": 5,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc",
+        "metis"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:39",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:45",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:51",
+        "OpenFOAM-v2606/src/parallel/decompose/metisDecomp/metisDecomp.C:143"
+      ],
       "values": [
         {
           "value": "simple",
           "occurrences": 3
+        },
+        {
+          "value": "metis",
+          "occurrences": 2
+        },
+        {
+          "value": "none",
+          "occurrences": 1
         }
       ],
       "examples": [
@@ -884,14 +2091,103 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 6,
+      "fileCount": 4,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:38",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:44",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:50"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/decomposeParDict",
         "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/decomposeParDict"
       ]
+    },
+    {
+      "key": "regions/{region}/options",
+      "keyword": "options",
+      "context": "regions/{region}",
+      "path": "regions/{region}/options",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "metis"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/metisDecomp/metisDecomp.C:158"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "regions/{region}/processorWeights",
+      "keyword": "processorWeights",
+      "context": "regions/{region}",
+      "path": "regions/{region}/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "metis"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/metisDecomp/metisDecomp.C:173"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "regions/heater",
+      "keyword": "heater",
+      "context": "regions",
+      "path": "regions/heater",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:48"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "regions/water",
+      "keyword": "water",
+      "context": "regions",
+      "path": "regions/water",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:36"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "roots",
@@ -903,6 +2199,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
@@ -920,8 +2219,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:140"
+      ],
       "values": [],
       "examples": [
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/decomposeParDict"
@@ -935,8 +2241,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 14,
-      "fileCount": 14,
+      "occurrences": 15,
+      "fileCount": 15,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:114"
+      ],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
@@ -956,6 +2269,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
@@ -973,8 +2289,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 14,
-      "fileCount": 14,
+      "occurrences": 15,
+      "fileCount": 15,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:116"
+      ],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
@@ -983,6 +2306,194 @@
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
       ]
+    },
+    {
+      "key": "strategy",
+      "keyword": "strategy",
+      "context": "",
+      "path": "strategy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs",
+      "keyword": "structuredCoeffs",
+      "context": "",
+      "path": "structuredCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:158"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs/domains",
+      "keyword": "domains",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/domains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs/domainWeights",
+      "keyword": "domainWeights",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs/method",
+      "keyword": "method",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:165"
+      ],
+      "values": [
+        {
+          "value": "scotch",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs/patches",
+      "keyword": "patches",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "structured"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:162",
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/structuredDecomp/structuredDecomp.C:59"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs/processorWeights",
+      "keyword": "processorWeights",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs/strategy",
+      "keyword": "strategy",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "weightField",
+      "keyword": "weightField",
+      "context": "",
+      "path": "weightField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/domainDecompositionDistribute.C:46",
+        "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/domainDecompositionDryRun.C:90"
+      ],
+      "values": [],
+      "examples": []
     }
   ]
 }

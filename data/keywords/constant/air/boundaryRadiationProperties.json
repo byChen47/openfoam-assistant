@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "air/boundaryRadiationProperties",
   "sourceFileCount": 2,
+  "sourceEvidenceFileCount": 4,
   "occurrences": 47,
+  "sourceOccurrences": 10,
   "entries": [
     {
       "key": ".*",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -32,6 +37,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "transparent",
@@ -49,10 +57,18 @@
       "context": ".*",
       "path": ".*/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "transparent"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/transparent/transparent.C:60"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -67,8 +83,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -83,8 +106,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -101,6 +131,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiBandAbsorption",
@@ -122,6 +155,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -138,6 +174,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "opaqueDiffusive",
@@ -155,10 +194,18 @@
       "context": "air_to_floor",
       "path": "air_to_floor/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "opaqueDiffusive"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -173,8 +220,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -189,8 +243,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -207,6 +268,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiBandAbsorption",
@@ -228,6 +292,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -244,6 +311,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties"
@@ -259,6 +329,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "opaqueDiffusive",
@@ -280,10 +353,20 @@
       "context": "air_to_solid",
       "path": "air_to_solid/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "opaqueDiffusive",
+        "opaqueReflective"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueReflective/opaqueReflective.C:61"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -298,8 +381,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -314,8 +404,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -332,6 +429,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiBandAbsorption",
@@ -353,6 +453,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",
@@ -369,6 +472,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -390,6 +496,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -411,6 +520,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "boundaryRadiationProperties",
@@ -432,6 +544,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/boundaryRadiationProperties",

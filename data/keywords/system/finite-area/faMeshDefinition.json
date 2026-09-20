@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "finite-area/faMeshDefinition",
   "sourceFileCount": 16,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 249,
+  "sourceOccurrences": 95,
   "entries": [
     {
       "key": "boundary",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 16,
       "fileCount": 16,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",
@@ -35,11 +40,34 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/motorBike/system/finite-area/faMeshDefinition",
         "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/bottom/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/bottom",
+      "path": "boundary/bottom/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/bottom/neighbourPolyPatch",
@@ -51,6 +79,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "bottom",
@@ -67,6 +98,46 @@
       ]
     },
     {
+      "key": "boundary/bottom/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/bottom",
+      "path": "boundary/bottom/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/bottom/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/bottom",
+      "path": "boundary/bottom/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/bottom/ownerPolyPatch",
       "keyword": "ownerPolyPatch",
       "context": "boundary/bottom",
@@ -76,6 +147,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "filmWalls",
@@ -87,6 +161,27 @@
       ]
     },
     {
+      "key": "boundary/bottom/startFace",
+      "keyword": "startFace",
+      "context": "boundary/bottom",
+      "path": "boundary/bottom/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/bottom/type",
       "keyword": "type",
       "context": "boundary/bottom",
@@ -96,6 +191,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -117,6 +215,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
@@ -132,6 +233,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "bound",
@@ -152,6 +256,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "symmetry",
@@ -172,11 +279,34 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
         "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/cylinder/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/cylinder",
+      "path": "boundary/cylinder/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/cylinder/neighbourPolyPatch",
@@ -188,6 +318,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cylinder",
@@ -200,6 +333,67 @@
       ]
     },
     {
+      "key": "boundary/cylinder/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/cylinder",
+      "path": "boundary/cylinder/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/cylinder/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/cylinder",
+      "path": "boundary/cylinder/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/cylinder/startFace",
+      "keyword": "startFace",
+      "context": "boundary/cylinder",
+      "path": "boundary/cylinder/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/cylinder/type",
       "keyword": "type",
       "context": "boundary/cylinder",
@@ -209,6 +403,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -230,6 +427,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
@@ -237,6 +437,26 @@
         "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition",
         "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/frontAndBack/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/frontAndBack",
+      "path": "boundary/frontAndBack/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/frontAndBack/neighbourPolyPatch",
@@ -248,6 +468,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "frontAndBack",
@@ -262,6 +485,46 @@
       ]
     },
     {
+      "key": "boundary/frontAndBack/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/frontAndBack",
+      "path": "boundary/frontAndBack/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/frontAndBack/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/frontAndBack",
+      "path": "boundary/frontAndBack/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/frontAndBack/ownerPolyPatch",
       "keyword": "ownerPolyPatch",
       "context": "boundary/frontAndBack",
@@ -271,6 +534,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "filmWalls",
@@ -282,6 +548,27 @@
       ]
     },
     {
+      "key": "boundary/frontAndBack/startFace",
+      "keyword": "startFace",
+      "context": "boundary/frontAndBack",
+      "path": "boundary/frontAndBack/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/frontAndBack/type",
       "keyword": "type",
       "context": "boundary/frontAndBack",
@@ -291,6 +578,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "empty",
@@ -318,6 +608,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
@@ -326,6 +619,26 @@
         "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition",
         "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/inlet/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/inlet",
+      "path": "boundary/inlet/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/inlet/neighbourPolyPatch",
@@ -337,6 +650,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "inlet",
@@ -352,6 +668,67 @@
       ]
     },
     {
+      "key": "boundary/inlet/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/inlet",
+      "path": "boundary/inlet/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/inlet/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/inlet",
+      "path": "boundary/inlet/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/inlet/startFace",
+      "keyword": "startFace",
+      "context": "boundary/inlet",
+      "path": "boundary/inlet/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/inlet/type",
       "keyword": "type",
       "context": "boundary/inlet",
@@ -361,6 +738,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -385,10 +765,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/inlet1/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/inlet1",
+      "path": "boundary/inlet1/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/inlet1/neighbourPolyPatch",
@@ -400,6 +803,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "inlet",
@@ -411,6 +817,46 @@
       ]
     },
     {
+      "key": "boundary/inlet1/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/inlet1",
+      "path": "boundary/inlet1/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/inlet1/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/inlet1",
+      "path": "boundary/inlet1/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/inlet1/ownerPolyPatch",
       "keyword": "ownerPolyPatch",
       "context": "boundary/inlet1",
@@ -420,6 +866,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "top1",
@@ -431,6 +880,27 @@
       ]
     },
     {
+      "key": "boundary/inlet1/startFace",
+      "keyword": "startFace",
+      "context": "boundary/inlet1",
+      "path": "boundary/inlet1/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/inlet1/type",
       "keyword": "type",
       "context": "boundary/inlet1",
@@ -440,6 +910,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -460,10 +933,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/inlet2/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/inlet2",
+      "path": "boundary/inlet2/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/inlet2/neighbourPolyPatch",
@@ -475,6 +971,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "inlet",
@@ -486,6 +985,46 @@
       ]
     },
     {
+      "key": "boundary/inlet2/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/inlet2",
+      "path": "boundary/inlet2/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/inlet2/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/inlet2",
+      "path": "boundary/inlet2/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/inlet2/ownerPolyPatch",
       "keyword": "ownerPolyPatch",
       "context": "boundary/inlet2",
@@ -495,6 +1034,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "top2",
@@ -506,6 +1048,27 @@
       ]
     },
     {
+      "key": "boundary/inlet2/startFace",
+      "keyword": "startFace",
+      "context": "boundary/inlet2",
+      "path": "boundary/inlet2/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/inlet2/type",
       "keyword": "type",
       "context": "boundary/inlet2",
@@ -515,6 +1078,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -535,11 +1101,34 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
         "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/left/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/left",
+      "path": "boundary/left/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/left/neighbourPolyPatch",
@@ -551,6 +1140,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "left",
@@ -563,6 +1155,67 @@
       ]
     },
     {
+      "key": "boundary/left/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/left",
+      "path": "boundary/left/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/left/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/left",
+      "path": "boundary/left/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/left/startFace",
+      "keyword": "startFace",
+      "context": "boundary/left",
+      "path": "boundary/left/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/left/type",
       "keyword": "type",
       "context": "boundary/left",
@@ -572,6 +1225,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -593,6 +1249,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
@@ -601,6 +1260,26 @@
         "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition",
         "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/outlet/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/outlet",
+      "path": "boundary/outlet/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/outlet/neighbourPolyPatch",
@@ -612,6 +1291,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "outlet",
@@ -631,6 +1313,67 @@
       ]
     },
     {
+      "key": "boundary/outlet/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/outlet",
+      "path": "boundary/outlet/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/outlet/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/outlet",
+      "path": "boundary/outlet/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/outlet/startFace",
+      "keyword": "startFace",
+      "context": "boundary/outlet",
+      "path": "boundary/outlet/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/outlet/type",
       "keyword": "type",
       "context": "boundary/outlet",
@@ -640,6 +1383,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -664,11 +1410,34 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
         "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/right/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/right",
+      "path": "boundary/right/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/right/neighbourPolyPatch",
@@ -680,6 +1449,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "right",
@@ -692,6 +1464,67 @@
       ]
     },
     {
+      "key": "boundary/right/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/right",
+      "path": "boundary/right/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/right/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/right",
+      "path": "boundary/right/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/right/startFace",
+      "keyword": "startFace",
+      "context": "boundary/right",
+      "path": "boundary/right/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/right/type",
       "keyword": "type",
       "context": "boundary/right",
@@ -701,6 +1534,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -722,10 +1558,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/sealing/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/sealing",
+      "path": "boundary/sealing/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/sealing/neighbourPolyPatch",
@@ -737,6 +1596,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fixedWall",
@@ -748,6 +1610,67 @@
       ]
     },
     {
+      "key": "boundary/sealing/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/sealing",
+      "path": "boundary/sealing/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/sealing/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/sealing",
+      "path": "boundary/sealing/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/sealing/startFace",
+      "keyword": "startFace",
+      "context": "boundary/sealing",
+      "path": "boundary/sealing/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/sealing/type",
       "keyword": "type",
       "context": "boundary/sealing",
@@ -757,6 +1680,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -777,12 +1703,35 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
         "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faMeshDefinition",
         "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/side/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/side",
+      "path": "boundary/side/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/side/neighbourPolyPatch",
@@ -794,6 +1743,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "side",
@@ -807,6 +1759,67 @@
       ]
     },
     {
+      "key": "boundary/side/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/side",
+      "path": "boundary/side/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/side/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/side",
+      "path": "boundary/side/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/side/startFace",
+      "keyword": "startFace",
+      "context": "boundary/side",
+      "path": "boundary/side/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/side/type",
       "keyword": "type",
       "context": "boundary/side",
@@ -816,6 +1829,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -838,10 +1854,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/side1/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/side1",
+      "path": "boundary/side1/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/side1/neighbourPolyPatch",
@@ -853,6 +1892,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fixedWall1",
@@ -864,6 +1906,67 @@
       ]
     },
     {
+      "key": "boundary/side1/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/side1",
+      "path": "boundary/side1/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/side1/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/side1",
+      "path": "boundary/side1/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/side1/startFace",
+      "keyword": "startFace",
+      "context": "boundary/side1",
+      "path": "boundary/side1/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/side1/type",
       "keyword": "type",
       "context": "boundary/side1",
@@ -873,6 +1976,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -893,10 +1999,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/side2/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/side2",
+      "path": "boundary/side2/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/side2/neighbourPolyPatch",
@@ -908,6 +2037,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fixedWall2",
@@ -919,6 +2051,67 @@
       ]
     },
     {
+      "key": "boundary/side2/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/side2",
+      "path": "boundary/side2/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/side2/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/side2",
+      "path": "boundary/side2/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/side2/startFace",
+      "keyword": "startFace",
+      "context": "boundary/side2",
+      "path": "boundary/side2/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/side2/type",
       "keyword": "type",
       "context": "boundary/side2",
@@ -928,6 +2121,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -948,10 +2144,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/side3/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/side3",
+      "path": "boundary/side3/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/side3/neighbourPolyPatch",
@@ -963,6 +2182,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fixedWall3",
@@ -974,6 +2196,67 @@
       ]
     },
     {
+      "key": "boundary/side3/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/side3",
+      "path": "boundary/side3/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/side3/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/side3",
+      "path": "boundary/side3/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/side3/startFace",
+      "keyword": "startFace",
+      "context": "boundary/side3",
+      "path": "boundary/side3/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/side3/type",
       "keyword": "type",
       "context": "boundary/side3",
@@ -983,6 +2266,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -1003,10 +2289,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/side4/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/side4",
+      "path": "boundary/side4/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/side4/neighbourPolyPatch",
@@ -1018,6 +2327,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fixedWall4",
@@ -1029,6 +2341,67 @@
       ]
     },
     {
+      "key": "boundary/side4/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/side4",
+      "path": "boundary/side4/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/side4/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/side4",
+      "path": "boundary/side4/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/side4/startFace",
+      "keyword": "startFace",
+      "context": "boundary/side4",
+      "path": "boundary/side4/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/side4/type",
       "keyword": "type",
       "context": "boundary/side4",
@@ -1038,6 +2411,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -1058,6 +2434,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition",
@@ -1065,6 +2444,26 @@
         "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faMeshDefinition",
         "lagrangian/reactingParcelFoam/splashPanelFilm/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/sides/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/sides",
+      "path": "boundary/sides/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/sides/neighbourPolyPatch",
@@ -1076,6 +2475,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sides",
@@ -1090,6 +2492,67 @@
       ]
     },
     {
+      "key": "boundary/sides/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/sides",
+      "path": "boundary/sides/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/sides/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/sides",
+      "path": "boundary/sides/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/sides/startFace",
+      "keyword": "startFace",
+      "context": "boundary/sides",
+      "path": "boundary/sides/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/sides/type",
       "keyword": "type",
       "context": "boundary/sides",
@@ -1099,6 +2562,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -1122,11 +2588,34 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
         "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/symmetry/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/symmetry",
+      "path": "boundary/symmetry/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/symmetry/neighbourPolyPatch",
@@ -1138,6 +2627,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "bottom",
@@ -1154,6 +2646,67 @@
       ]
     },
     {
+      "key": "boundary/symmetry/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/symmetry",
+      "path": "boundary/symmetry/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/symmetry/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/symmetry",
+      "path": "boundary/symmetry/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/symmetry/startFace",
+      "keyword": "startFace",
+      "context": "boundary/symmetry",
+      "path": "boundary/symmetry/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/symmetry/type",
       "keyword": "type",
       "context": "boundary/symmetry",
@@ -1163,6 +2716,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -1188,10 +2744,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/top/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/top",
+      "path": "boundary/top/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/top/neighbourPolyPatch",
@@ -1203,6 +2782,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "top",
@@ -1214,6 +2796,46 @@
       ]
     },
     {
+      "key": "boundary/top/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/top",
+      "path": "boundary/top/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/top/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/top",
+      "path": "boundary/top/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/top/ownerPolyPatch",
       "keyword": "ownerPolyPatch",
       "context": "boundary/top",
@@ -1223,6 +2845,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "filmWalls",
@@ -1234,6 +2859,27 @@
       ]
     },
     {
+      "key": "boundary/top/startFace",
+      "keyword": "startFace",
+      "context": "boundary/top",
+      "path": "boundary/top/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/top/type",
       "keyword": "type",
       "context": "boundary/top",
@@ -1243,6 +2889,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -1263,10 +2912,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faMeshDefinition"
       ]
+    },
+    {
+      "key": "boundary/windshield/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/windshield",
+      "path": "boundary/windshield/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/windshield/neighbourPolyPatch",
@@ -1278,6 +2950,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "windshield",
@@ -1289,6 +2964,67 @@
       ]
     },
     {
+      "key": "boundary/windshield/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/windshield",
+      "path": "boundary/windshield/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/windshield/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/windshield",
+      "path": "boundary/windshield/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/windshield/startFace",
+      "keyword": "startFace",
+      "context": "boundary/windshield",
+      "path": "boundary/windshield/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundary/windshield/type",
       "keyword": "type",
       "context": "boundary/windshield",
@@ -1298,6 +3034,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -1318,6 +3057,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
@@ -1334,6 +3076,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "empty",
@@ -1355,6 +3100,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "empty",
@@ -1376,6 +3124,9 @@
       ],
       "occurrences": 16,
       "fileCount": 16,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",
@@ -1395,6 +3146,9 @@
       ],
       "occurrences": 16,
       "fileCount": 16,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -1419,6 +3173,9 @@
       ],
       "occurrences": 16,
       "fileCount": 16,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -1443,6 +3200,9 @@
       ],
       "occurrences": 16,
       "fileCount": 16,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faMeshDefinition",
@@ -1467,6 +3227,9 @@
       ],
       "occurrences": 16,
       "fileCount": 16,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",
@@ -1486,6 +3249,9 @@
       ],
       "occurrences": 16,
       "fileCount": 16,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",

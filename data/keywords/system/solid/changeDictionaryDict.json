@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "solid/changeDictionaryDict",
   "sourceFileCount": 3,
+  "sourceEvidenceFileCount": 4,
   "occurrences": 81,
+  "sourceOccurrences": 12,
   "entries": [
     {
       "key": "dictionaryReplacement",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/changeDictionaryDict",
@@ -32,6 +37,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/changeDictionaryDict",
@@ -48,11 +56,95 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/changeDictionaryDict",
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/changeDictionaryDict"
       ]
+    },
+    {
+      "key": "dictionaryReplacement/boundary/solid_to_domain3/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "dictionaryReplacement/boundary/solid_to_domain3",
+      "path": "dictionaryReplacement/boundary/solid_to_domain3/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/solid_to_domain3/nFaces",
+      "keyword": "nFaces",
+      "context": "dictionaryReplacement/boundary/solid_to_domain3",
+      "path": "dictionaryReplacement/boundary/solid_to_domain3/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/solid_to_domain3/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "dictionaryReplacement/boundary/solid_to_domain3",
+      "path": "dictionaryReplacement/boundary/solid_to_domain3/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/solid_to_domain3/startFace",
+      "keyword": "startFace",
+      "context": "dictionaryReplacement/boundary/solid_to_domain3",
+      "path": "dictionaryReplacement/boundary/solid_to_domain3/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "dictionaryReplacement/boundary/solid_to_domain3/type",
@@ -64,6 +156,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -85,6 +180,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/changeDictionaryDict",
@@ -101,6 +199,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/changeDictionaryDict",
@@ -117,6 +218,9 @@
       ],
       "occurrences": 6,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/changeDictionaryDict",
@@ -133,6 +237,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -145,6 +252,26 @@
       ]
     },
     {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/kappaLayers",
+      "keyword": "kappaLayers",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/kappaLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:280"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dictionaryReplacement/T/boundaryField/{patch}/kappaMethod",
       "keyword": "kappaMethod",
       "context": "dictionaryReplacement/T/boundaryField/{patch}",
@@ -154,6 +281,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "solidThermo",
@@ -175,6 +305,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -196,6 +329,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -221,6 +357,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -233,6 +372,26 @@
       ]
     },
     {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/thicknessLayers",
+      "keyword": "thicknessLayers",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/thicknessLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:278"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dictionaryReplacement/T/boundaryField/{patch}/Tnbr",
       "keyword": "Tnbr",
       "context": "dictionaryReplacement/T/boundaryField/{patch}",
@@ -242,6 +401,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "T",
@@ -263,6 +425,9 @@
       ],
       "occurrences": 6,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "compressible::turbulentTemperatureRadCoupledMixed",
@@ -279,6 +444,26 @@
       ]
     },
     {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/useImplicit",
+      "keyword": "useImplicit",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/useImplicit",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:314"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dictionaryReplacement/T/boundaryField/{patch}/value",
       "keyword": "value",
       "context": "dictionaryReplacement/T/boundaryField/{patch}",
@@ -286,8 +471,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 6,
-      "fileCount": 2,
+      "occurrences": 7,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 300",
@@ -313,6 +505,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 300",
@@ -334,6 +529,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/changeDictionaryDict",
@@ -351,6 +549,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -373,6 +574,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -395,6 +599,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "changeDictionaryDict",
@@ -417,6 +624,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/changeDictionaryDict",
@@ -434,6 +644,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/changeDictionaryDict"
@@ -449,6 +662,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/changeDictionaryDict"
@@ -464,10 +680,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/changeDictionaryDict"
       ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/kappaLayers",
+      "keyword": "kappaLayers",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/kappaLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:280"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "T/boundaryField/{patch}/kappaMethod",
@@ -479,6 +718,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "solidThermo",
@@ -499,6 +741,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -519,6 +764,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -530,6 +778,26 @@
       ]
     },
     {
+      "key": "T/boundaryField/{patch}/thicknessLayers",
+      "keyword": "thicknessLayers",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/thicknessLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:278"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "T/boundaryField/{patch}/Tnbr",
       "keyword": "Tnbr",
       "context": "T/boundaryField/{patch}",
@@ -539,6 +807,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "T",
@@ -559,6 +830,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "compressible::turbulentTemperatureRadCoupledMixed",
@@ -570,6 +844,26 @@
       ]
     },
     {
+      "key": "T/boundaryField/{patch}/useImplicit",
+      "keyword": "useImplicit",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/useImplicit",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:314"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "T/boundaryField/{patch}/value",
       "keyword": "value",
       "context": "T/boundaryField/{patch}",
@@ -579,6 +873,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 300",
@@ -599,6 +896,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 300",

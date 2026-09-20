@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "air/T",
   "sourceFileCount": 3,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 107,
+  "sourceOccurrences": 4,
   "entries": [
     {
       "key": "boundaryField",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/0.orig/air/T",
@@ -33,6 +38,9 @@
       ],
       "occurrences": 18,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/0.orig/air/T",
@@ -50,6 +58,9 @@
       ],
       "occurrences": 11,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 300",
@@ -72,6 +83,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -84,6 +98,26 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/kappaLayers",
+      "keyword": "kappaLayers",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kappaLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:280"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/kappaMethod",
       "keyword": "kappaMethod",
       "context": "boundaryField/{patch}",
@@ -93,6 +127,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fluidThermo",
@@ -114,6 +151,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "qr",
@@ -135,6 +175,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -147,6 +190,26 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/thicknessLayers",
+      "keyword": "thicknessLayers",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/thicknessLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:278"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/Tnbr",
       "keyword": "Tnbr",
       "context": "boundaryField/{patch}",
@@ -156,6 +219,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "T",
@@ -177,6 +243,9 @@
       ],
       "occurrences": 18,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "inletOutlet",
@@ -202,6 +271,26 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/useImplicit",
+      "keyword": "useImplicit",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/useImplicit",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:314"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/value",
       "keyword": "value",
       "context": "boundaryField/{patch}",
@@ -209,8 +298,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 16,
-      "fileCount": 3,
+      "occurrences": 17,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 300",
@@ -237,6 +333,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/0.orig/air/T",
@@ -254,6 +353,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/0.orig/air/T",
@@ -271,6 +373,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -293,6 +398,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -315,6 +423,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "T",
@@ -337,6 +448,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/0.orig/air/T",
@@ -354,6 +468,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 300",

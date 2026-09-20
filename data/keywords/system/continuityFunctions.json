@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "continuityFunctions",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 27,
+  "sourceOccurrences": 10,
   "entries": [
     {
       "key": "inletMassFlowRate",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/system/continuityFunctions"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/system/continuityFunctions"
@@ -46,6 +54,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/system/continuityFunctions"
@@ -61,6 +72,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -81,6 +95,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "inlet",
@@ -101,6 +118,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sum",
@@ -112,6 +132,87 @@
       ]
     },
     {
+      "key": "inletMassFlowRate/patchCoeffs/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "inletMassFlowRate/patchCoeffs",
+      "path": "inletMassFlowRate/patchCoeffs/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "inletMassFlowRate/patchCoeffs/nFaces",
+      "keyword": "nFaces",
+      "context": "inletMassFlowRate/patchCoeffs",
+      "path": "inletMassFlowRate/patchCoeffs/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "inletMassFlowRate/patchCoeffs/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "inletMassFlowRate/patchCoeffs",
+      "path": "inletMassFlowRate/patchCoeffs/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "inletMassFlowRate/patchCoeffs/startFace",
+      "keyword": "startFace",
+      "context": "inletMassFlowRate/patchCoeffs",
+      "path": "inletMassFlowRate/patchCoeffs/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "inletMassFlowRate/regionType",
       "keyword": "regionType",
       "context": "inletMassFlowRate",
@@ -121,6 +222,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -141,6 +245,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "null",
@@ -161,6 +268,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "surfaceFieldValue",
@@ -181,6 +291,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "timeStep",
@@ -201,6 +314,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -221,6 +337,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/system/continuityFunctions"
@@ -236,6 +355,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/system/continuityFunctions"
@@ -251,6 +373,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/system/continuityFunctions"
@@ -266,6 +391,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -286,6 +414,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "outlet",
@@ -306,6 +437,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sum",
@@ -317,6 +451,87 @@
       ]
     },
     {
+      "key": "outletMassFlowRate/patchCoeffs/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "outletMassFlowRate/patchCoeffs",
+      "path": "outletMassFlowRate/patchCoeffs/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "outletMassFlowRate/patchCoeffs/nFaces",
+      "keyword": "nFaces",
+      "context": "outletMassFlowRate/patchCoeffs",
+      "path": "outletMassFlowRate/patchCoeffs/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "outletMassFlowRate/patchCoeffs/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "outletMassFlowRate/patchCoeffs",
+      "path": "outletMassFlowRate/patchCoeffs/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "outletMassFlowRate/patchCoeffs/startFace",
+      "keyword": "startFace",
+      "context": "outletMassFlowRate/patchCoeffs",
+      "path": "outletMassFlowRate/patchCoeffs/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "outletMassFlowRate/regionType",
       "keyword": "regionType",
       "context": "outletMassFlowRate",
@@ -326,6 +541,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -346,6 +564,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "null",
@@ -366,6 +587,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "surfaceFieldValue",
@@ -386,6 +610,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "timeStep",
@@ -406,6 +633,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -426,6 +656,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/system/continuityFunctions"
@@ -441,6 +674,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/system/continuityFunctions"
@@ -456,6 +692,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/system/continuityFunctions"
@@ -471,6 +710,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "error",
@@ -491,6 +733,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "coded",

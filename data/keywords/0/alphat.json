@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "alphat",
   "sourceFileCount": 84,
+  "sourceEvidenceFileCount": 6,
   "occurrences": 1640,
+  "sourceOccurrences": 33,
   "entries": [
     {
       "key": "#include",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/0/alphat",
@@ -32,6 +37,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/0/alphat"
@@ -45,8 +53,16 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 84,
-      "fileCount": 84,
+      "occurrences": 86,
+      "fileCount": 86,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/alphat:21",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:21"
+      ],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/0/alphat",
@@ -67,6 +83,9 @@
       ],
       "occurrences": 338,
       "fileCount": 84,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/0/alphat",
@@ -86,6 +105,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/hotBoxes/0.orig/alphat"
@@ -101,6 +123,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/hotBoxes/0.orig/alphat",
@@ -119,6 +144,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/alphat"
@@ -134,6 +162,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "nearest",
@@ -154,6 +185,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/alphat"
@@ -169,6 +203,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -189,6 +226,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "timeVaryingMappedFixedValue",
@@ -209,6 +249,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/alphat"
@@ -224,6 +267,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/hotBoxes/0.orig/alphat",
@@ -242,6 +288,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/common/0.orig/alphat",
@@ -257,8 +306,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 65,
-      "fileCount": 37,
+      "occurrences": 67,
+      "fileCount": 39,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "alphatJayatillekeWallFunction",
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/alphat:26",
+        "OpenFOAM-v2606/src/TurbulenceModels/incompressible/turbulentTransportModels/derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatJayatillekeWallFunction/alphatJayatillekeWallFunctionFvPatchScalarField.C:181"
+      ],
       "values": [
         {
           "value": "uniform 0.74",
@@ -274,6 +332,132 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/separationVector",
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/srcSize",
+      "keyword": "srcSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/type",
       "keyword": "type",
       "context": "boundaryField/{patch}",
@@ -281,16 +465,26 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 314,
-      "fileCount": 83,
+      "occurrences": 318,
+      "fileCount": 85,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/alphat:25",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:25",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:31",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:37"
+      ],
       "values": [
         {
           "value": "compressible::alphatWallFunction",
-          "occurrences": 107
+          "occurrences": 108
         },
         {
           "value": "calculated",
-          "occurrences": 90
+          "occurrences": 92
         },
         {
           "value": "zeroGradient",
@@ -314,7 +508,7 @@
         },
         {
           "value": "alphatJayatillekeWallFunction",
-          "occurrences": 8
+          "occurrences": 9
         },
         {
           "value": "wedge",
@@ -365,12 +559,24 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 224,
-      "fileCount": 76,
+      "occurrences": 229,
+      "fileCount": 79,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc",
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/alphat:27",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:26",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:32",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:38",
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 0",
-          "occurrences": 133
+          "occurrences": 136
         },
         {
           "value": "uniform 1e-3",
@@ -407,6 +613,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/hotBoxes/0.orig/alphat"
@@ -422,6 +631,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0.028",
@@ -443,6 +655,87 @@
       ]
     },
     {
+      "key": "boundaryField/#includeEtc",
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/#includeEtc",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:41"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/inlet",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/inlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:23"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/outlet",
+      "keyword": "outlet",
+      "context": "boundaryField",
+      "path": "boundaryField/outlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:29"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/wall",
+      "keyword": "wall",
+      "context": "boundaryField",
+      "path": "boundaryField/wall",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/alphat:23",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:35"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dimensions",
       "keyword": "dimensions",
       "context": "",
@@ -450,8 +743,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 84,
-      "fileCount": 84,
+      "occurrences": 86,
+      "fileCount": 86,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/alphat:17",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:17"
+      ],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/0/alphat",
@@ -469,8 +770,16 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 84,
-      "fileCount": 84,
+      "occurrences": 86,
+      "fileCount": 86,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/alphat:8",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:8"
+      ],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/0/alphat",
@@ -490,6 +799,9 @@
       ],
       "occurrences": 84,
       "fileCount": 84,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -514,6 +826,9 @@
       ],
       "occurrences": 84,
       "fileCount": 84,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -538,6 +853,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"0\"",
@@ -559,6 +877,9 @@
       ],
       "occurrences": 84,
       "fileCount": 84,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "alphat",
@@ -583,6 +904,9 @@
       ],
       "occurrences": 84,
       "fileCount": 84,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/0/alphat",
@@ -600,12 +924,20 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 84,
-      "fileCount": 84,
+      "occurrences": 86,
+      "fileCount": 86,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/alphat:19",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/alphat:19"
+      ],
       "values": [
         {
           "value": "uniform 0",
-          "occurrences": 75
+          "occurrences": 77
         },
         {
           "value": "uniform 1e-3",

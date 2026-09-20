@@ -1,0 +1,422 @@
+{
+  "generatedAt": "2026-09-20T12:59:10.305Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "readFieldsDict",
+  "sourceFileCount": 0,
+  "sourceEvidenceFileCount": 4,
+  "occurrences": 0,
+  "sourceOccurrences": 24,
+  "entries": [
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:8"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "functions",
+      "keyword": "functions",
+      "context": "",
+      "path": "functions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:17"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/enabled",
+      "keyword": "enabled",
+      "context": "functions/{function}",
+      "path": "functions/{function}/enabled",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:23",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:37"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 2
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/faceZoneCoeffs/flipMap",
+      "keyword": "flipMap",
+      "context": "functions/{function}/faceZoneCoeffs",
+      "path": "functions/{function}/faceZoneCoeffs/flipMap",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.C:333"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/faceZoneCoeffs/zoneName",
+      "keyword": "zoneName",
+      "context": "functions/{function}/faceZoneCoeffs",
+      "path": "functions/{function}/faceZoneCoeffs/zoneName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/faceZoneSelection.C:54"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/faceZoneCoeffs/zones",
+      "keyword": "zones",
+      "context": "functions/{function}/faceZoneCoeffs",
+      "path": "functions/{function}/faceZoneCoeffs/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledFaceZone/sampledFaceZone.C:80"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/fields",
+      "keyword": "fields",
+      "context": "functions/{function}",
+      "path": "functions/{function}/fields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:27",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:46"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/libs",
+      "keyword": "libs",
+      "context": "functions/{function}",
+      "path": "functions/{function}/libs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:22",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:36"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/log",
+      "keyword": "log",
+      "context": "functions/{function}",
+      "path": "functions/{function}/log",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:40"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/name",
+      "keyword": "name",
+      "context": "functions/{function}",
+      "path": "functions/{function}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:43"
+      ],
+      "values": [
+        {
+          "value": "f0",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/operation",
+      "keyword": "operation",
+      "context": "functions/{function}",
+      "path": "functions/{function}/operation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:44"
+      ],
+      "values": [
+        {
+          "value": "areaAverage",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/regionType",
+      "keyword": "regionType",
+      "context": "functions/{function}",
+      "path": "functions/{function}/regionType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:42"
+      ],
+      "values": [
+        {
+          "value": "faceZone",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/type",
+      "keyword": "type",
+      "context": "functions/{function}",
+      "path": "functions/{function}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:21",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:35"
+      ],
+      "values": [
+        {
+          "value": "readFields",
+          "occurrences": 1
+        },
+        {
+          "value": "surfaceFieldValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/writeControl",
+      "keyword": "writeControl",
+      "context": "functions/{function}",
+      "path": "functions/{function}/writeControl",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:24",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:38"
+      ],
+      "values": [
+        {
+          "value": "timeStep",
+          "occurrences": 2
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/writeFields",
+      "keyword": "writeFields",
+      "context": "functions/{function}",
+      "path": "functions/{function}/writeFields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:41"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "functions/{function}/writeInterval",
+      "keyword": "writeInterval",
+      "context": "functions/{function}",
+      "path": "functions/{function}/writeInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:25",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:39"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "functions/faceObj2",
+      "keyword": "faceObj2",
+      "context": "functions",
+      "path": "functions/faceObj2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:33"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "functions/readFields1",
+      "keyword": "readFields1",
+      "context": "functions",
+      "path": "functions/readFields1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/readFieldsDict:19"
+      ],
+      "values": [],
+      "examples": []
+    }
+  ]
+}

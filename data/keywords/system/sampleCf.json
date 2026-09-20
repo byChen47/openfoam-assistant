@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "sampleCf",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 4,
   "occurrences": 14,
+  "sourceOccurrences": 8,
   "entries": [
     {
       "key": "_planes",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/sampleCf"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "xyz",
@@ -49,8 +57,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patchEdge"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/patchEdge/patchEdgeSet.C:219"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/sampleCf"
@@ -64,12 +79,60 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patchEdge"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/patchEdge/patchEdgeSet.C:224"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/sampleCf"
       ]
+    },
+    {
+      "key": "_planes/planeCoeffs/normal",
+      "keyword": "normal",
+      "context": "_planes/planeCoeffs",
+      "path": "_planes/planeCoeffs/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "plane"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/constraints/plane/sixDoFRigidBodyMotionPlaneConstraint.C:112",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/plane/planeImplicitFunction.C:70"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "_planes/planeCoeffs/origin",
+      "keyword": "origin",
+      "context": "_planes/planeCoeffs",
+      "path": "_planes/planeCoeffs/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "plane"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/plane/planeImplicitFunction.C:69"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "_planes/planeType",
@@ -81,6 +144,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "pointAndNormal",
@@ -99,8 +165,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patchEdge"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/patchEdge/patchEdgeSet.C:206"
+      ],
       "values": [
         {
           "value": "plane",
@@ -121,6 +194,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patchEdge",
@@ -139,8 +215,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sets"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/sampledSets/sampledSets.C:552"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/sampleCf"
@@ -156,6 +239,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cellPoint",
@@ -176,6 +262,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/sampleCf"
@@ -189,8 +278,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sets"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/sampledSets/sampledSets.C:535"
+      ],
       "values": [
         {
           "value": "raw",
@@ -211,6 +307,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/sampleCf"
@@ -226,6 +325,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/sampleCf"
@@ -241,6 +343,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sets",

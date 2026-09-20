@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "O2",
   "sourceFileCount": 31,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 621,
+  "sourceOccurrences": 4,
   "entries": [
     {
       "key": "#include",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/membrane/0.orig/O2"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/membrane/0.orig/O2"
@@ -46,6 +54,9 @@
       ],
       "occurrences": 31,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
@@ -65,6 +76,9 @@
       ],
       "occurrences": 133,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
@@ -84,6 +98,9 @@
       ],
       "occurrences": 26,
       "fileCount": 21,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -128,6 +145,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2"
@@ -143,6 +163,9 @@
       ],
       "occurrences": 4,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
@@ -158,6 +181,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
@@ -173,6 +199,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
@@ -188,6 +217,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
@@ -203,6 +235,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
@@ -218,6 +253,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
@@ -233,6 +271,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
@@ -248,6 +289,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
@@ -263,10 +307,73 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/separationVector",
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/type",
@@ -278,6 +385,9 @@
       ],
       "occurrences": 133,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "zeroGradient",
@@ -336,8 +446,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 66,
-      "fileCount": 24,
+      "occurrences": 67,
+      "fileCount": 25,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 0",
@@ -398,6 +515,9 @@
       ],
       "occurrences": 31,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
@@ -417,6 +537,9 @@
       ],
       "occurrences": 31,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
@@ -436,6 +559,9 @@
       ],
       "occurrences": 31,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -460,6 +586,9 @@
       ],
       "occurrences": 31,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -484,6 +613,9 @@
       ],
       "occurrences": 31,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "O2",
@@ -508,6 +640,9 @@
       ],
       "occurrences": 31,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
@@ -527,6 +662,9 @@
       ],
       "occurrences": 31,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0.21",

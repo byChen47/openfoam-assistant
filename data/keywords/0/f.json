@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "f",
   "sourceFileCount": 3,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 51,
+  "sourceOccurrences": 4,
   "entries": [
     {
       "key": "boundaryField",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/bump2D/setups.orig/kEpsilonPhitF/0.orig/f",
@@ -33,12 +38,75 @@
       ],
       "occurrences": 12,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/bump2D/setups.orig/kEpsilonPhitF/0.orig/f",
         "verificationAndValidation/turbulenceModels/planeChannel/setups.orig/EBRSM/0.orig/f",
         "verificationAndValidation/turbulenceModels/planeChannel/setups.orig/EBRSM.setTurbulenceFields/0.orig/f"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/separationVector",
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/type",
@@ -50,6 +118,9 @@
       ],
       "occurrences": 12,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "empty",
@@ -86,8 +157,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 0",
@@ -110,6 +188,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/bump2D/setups.orig/kEpsilonPhitF/0.orig/f",
@@ -127,6 +208,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/bump2D/setups.orig/kEpsilonPhitF/0.orig/f",
@@ -144,6 +228,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -166,6 +253,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -188,6 +278,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "f",
@@ -210,6 +303,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/bump2D/setups.orig/kEpsilonPhitF/0.orig/f",
@@ -227,6 +323,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 1",

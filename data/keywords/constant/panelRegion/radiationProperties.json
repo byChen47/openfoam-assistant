@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "panelRegion/radiationProperties",
   "sourceFileCount": 3,
+  "sourceEvidenceFileCount": 3,
   "occurrences": 38,
+  "sourceOccurrences": 4,
   "entries": [
     {
       "key": "absorptionEmissionModel",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "greyMeanSolidAbsorptionEmission",
@@ -42,6 +47,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/panelRegion/radiationProperties",
@@ -59,6 +67,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -81,6 +92,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -103,6 +117,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "radiationProperties",
@@ -125,6 +142,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/panelRegion/radiationProperties",
@@ -142,11 +162,34 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/panelRegion/radiationProperties",
         "combustion/fireFoam/LES/simplePMMApanel/constant/panelRegion/radiationProperties"
       ]
+    },
+    {
+      "key": "greyMeanSolidAbsorptionEmissionCoeffs/absorptivity",
+      "keyword": "absorptivity",
+      "context": "greyMeanSolidAbsorptionEmissionCoeffs",
+      "path": "greyMeanSolidAbsorptionEmissionCoeffs/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "greyMeanSolidAbsorptionEmission"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/greyMeanSolidAbsorptionEmission/greyMeanSolidAbsorptionEmission.C:131"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "greyMeanSolidAbsorptionEmissionCoeffs/char",
@@ -158,6 +201,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/panelRegion/radiationProperties"
@@ -173,6 +219,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/panelRegion/radiationProperties"
@@ -188,10 +237,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/panelRegion/radiationProperties"
       ]
+    },
+    {
+      "key": "greyMeanSolidAbsorptionEmissionCoeffs/emissivity",
+      "keyword": "emissivity",
+      "context": "greyMeanSolidAbsorptionEmissionCoeffs",
+      "path": "greyMeanSolidAbsorptionEmissionCoeffs/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "greyMeanSolidAbsorptionEmission"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/greyMeanSolidAbsorptionEmission/greyMeanSolidAbsorptionEmission.C:132"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "greyMeanSolidAbsorptionEmissionCoeffs/PMMA",
@@ -203,6 +275,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/simplePMMApanel/constant/panelRegion/radiationProperties"
@@ -218,6 +293,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/simplePMMApanel/constant/panelRegion/radiationProperties"
@@ -233,6 +311,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/simplePMMApanel/constant/panelRegion/radiationProperties"
@@ -248,6 +329,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/panelRegion/radiationProperties"
@@ -263,6 +347,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/panelRegion/radiationProperties"
@@ -278,10 +365,34 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/panelRegion/radiationProperties"
       ]
+    },
+    {
+      "key": "noneCoeffs/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "noneCoeffs",
+      "path": "noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "radiation",
@@ -293,6 +404,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -314,6 +428,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "opaqueSolid",
@@ -336,6 +453,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -358,6 +478,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",

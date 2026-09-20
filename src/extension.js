@@ -98,6 +98,16 @@ function createDocumentation(item) {
     markdown.appendMarkdown(`\n\n示例：\`${item.examples[0]}\``);
   }
 
+  if (item.sourceOccurrences > 0) {
+    markdown.appendMarkdown(`\n\n源码补充：${item.sourceOccurrences} 次`);
+  }
+  if (item.sourceTypes && item.sourceTypes.length > 0) {
+    markdown.appendMarkdown(`\n\n源码类型：${item.sourceTypes.slice(0, 10).join('、')}`);
+  }
+  if (item.sourceLocations && item.sourceLocations.length > 0) {
+    markdown.appendMarkdown(`\n\n源码位置：\`${item.sourceLocations[0]}\``);
+  }
+
   return markdown;
 }
 
@@ -214,6 +224,15 @@ function provideHover(document, position) {
   markdown.appendMarkdown(`\n出现次数：${item.occurrences}\n\n`);
   if (item.values && item.values.length > 0) {
     markdown.appendMarkdown(`常见值：${item.values.slice(0, 20).map((value) => value.value).join('、')}`);
+  }
+  if (item.sourceOccurrences > 0) {
+    markdown.appendMarkdown(`\n\n源码补充：${item.sourceOccurrences} 次`);
+  }
+  if (item.sourceTypes && item.sourceTypes.length > 0) {
+    markdown.appendMarkdown(`\n\n源码类型：${item.sourceTypes.slice(0, 10).join('、')}`);
+  }
+  if (item.sourceLocations && item.sourceLocations.length > 0) {
+    markdown.appendMarkdown(`\n\n源码位置：\`${item.sourceLocations[0]}\``);
   }
   return new vscode.Hover(markdown, range);
 }

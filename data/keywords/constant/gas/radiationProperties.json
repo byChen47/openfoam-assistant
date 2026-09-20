@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "gas/radiationProperties",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 7,
+  "sourceOccurrences": 2,
   "entries": [
     {
       "key": "FoamFile",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/reverseBurner/constant/gas/radiationProperties"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -51,6 +59,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -71,6 +82,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "radiationProperties",
@@ -91,10 +105,34 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/reverseBurner/constant/gas/radiationProperties"
       ]
+    },
+    {
+      "key": "noneCoeffs/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "noneCoeffs",
+      "path": "noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "radiation",
@@ -106,6 +144,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -126,6 +167,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",

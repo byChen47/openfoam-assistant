@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "U.solids",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 3,
   "occurrences": 23,
+  "sourceOccurrences": 5,
   "entries": [
     {
       "key": "boundaryField",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"
@@ -31,10 +36,34 @@
       ],
       "occurrences": 4,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/kineticTheoryCoeffs",
+      "keyword": "kineticTheoryCoeffs",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kineticTheoryCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "JohnsonJacksonParticleSlip"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/twoPhaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C:204",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C:200"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/muF",
@@ -46,10 +75,34 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/RAS",
+      "keyword": "RAS",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/RAS",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "JohnsonJacksonParticleSlip"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/twoPhaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C:203",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C:199"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/restitutionCoefficient",
@@ -61,6 +114,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"
@@ -76,6 +132,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"
@@ -91,6 +150,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"
@@ -106,6 +168,9 @@
       ],
       "occurrences": 4,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fixedValue",
@@ -132,8 +197,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 1,
+      "occurrences": 4,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"
@@ -149,6 +221,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"
@@ -164,6 +239,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"
@@ -179,6 +257,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volVectorField",
@@ -199,6 +280,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -219,6 +303,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "U.solids",
@@ -239,6 +326,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"
@@ -254,6 +344,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/U.solids"

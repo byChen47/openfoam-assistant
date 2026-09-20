@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "fvSolution",
   "sourceFileCount": 557,
+  "sourceEvidenceFileCount": 9,
   "occurrences": 18101,
+  "sourceOccurrences": 243,
   "entries": [
     {
       "key": "_simpleFoam",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
@@ -32,6 +37,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
@@ -48,6 +56,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
@@ -64,6 +75,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
@@ -80,11 +94,158 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
         "incompressible/lumpedPointMotion/building/steady/system/fvSolution"
       ]
+    },
+    {
+      "key": "(PIMPLE|PISO)",
+      "keyword": "(PIMPLE|PISO)",
+      "context": "",
+      "path": "(PIMPLE|PISO)",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:48",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:48",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:48",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:48",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:48"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "(PIMPLE|PISO)/nCorrectors",
+      "keyword": "nCorrectors",
+      "context": "(PIMPLE|PISO)",
+      "path": "(PIMPLE|PISO)/nCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:51",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:51",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:51",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:51",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:51"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "(PIMPLE|PISO)/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "(PIMPLE|PISO)",
+      "path": "(PIMPLE|PISO)/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:52",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:52",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:52",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:52",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:52"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "(PIMPLE|PISO)/nOuterCorrectors",
+      "keyword": "nOuterCorrectors",
+      "context": "(PIMPLE|PISO)",
+      "path": "(PIMPLE|PISO)/nOuterCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:50",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:50",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:50",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:50",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:50"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "(PIMPLE|PISO)/pRefCell",
+      "keyword": "pRefCell",
+      "context": "(PIMPLE|PISO)",
+      "path": "(PIMPLE|PISO)/pRefCell",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:53",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:53",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:53",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:53",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:53"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "(PIMPLE|PISO)/pRefValue",
+      "keyword": "pRefValue",
+      "context": "(PIMPLE|PISO)",
+      "path": "(PIMPLE|PISO)/pRefValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:54",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:54",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:54",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:54",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:54"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "BPISO",
@@ -96,6 +257,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "electromagnetics/mhdFoam/hartmann/system/fvSolution"
@@ -111,6 +275,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "electromagnetics/mhdFoam/hartmann/system/fvSolution"
@@ -126,6 +293,9 @@
       ],
       "occurrences": 32,
       "fileCount": 32,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/simpleFoam/implicitAMI/system/fvSolution",
@@ -145,6 +315,9 @@
       ],
       "occurrences": 31,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/simpleFoam/implicitAMI/system/fvSolution",
@@ -164,6 +337,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pitzDaily_fused/system/fvSolution"
@@ -177,8 +353,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 557,
-      "fileCount": 557,
+      "occurrences": 565,
+      "fileCount": 565,
+      "sourceOccurrences": 8,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/steadyState:8",
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/transient:8",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:8",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:8",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:8"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSolution",
@@ -198,6 +385,9 @@
       ],
       "occurrences": 557,
       "fileCount": 557,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -222,6 +412,9 @@
       ],
       "occurrences": 557,
       "fileCount": 557,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -246,6 +439,9 @@
       ],
       "occurrences": 30,
       "fileCount": 30,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"system\"",
@@ -270,6 +466,9 @@
       ],
       "occurrences": 557,
       "fileCount": 557,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fvSolution",
@@ -294,6 +493,9 @@
       ],
       "occurrences": 557,
       "fileCount": 557,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSolution",
@@ -313,6 +515,9 @@
       ],
       "occurrences": 297,
       "fileCount": 297,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSolution",
@@ -332,6 +537,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
@@ -351,6 +559,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
@@ -367,6 +578,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
@@ -384,6 +598,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -406,6 +623,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -438,6 +658,9 @@
       ],
       "occurrences": 54,
       "fileCount": 54,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -470,6 +693,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -498,6 +724,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -520,6 +749,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -544,6 +776,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -567,6 +802,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/DTCHull/system/fvSolution"
@@ -582,6 +820,9 @@
       ],
       "occurrences": 8,
       "fileCount": 8,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
@@ -601,6 +842,9 @@
       ],
       "occurrences": 8,
       "fileCount": 8,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
@@ -620,6 +864,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -640,6 +887,9 @@
       ],
       "occurrences": 180,
       "fileCount": 180,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -680,6 +930,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -712,6 +965,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
@@ -729,6 +985,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/DTCHull/system/fvSolution"
@@ -744,6 +1003,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
@@ -761,6 +1023,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/DTCHull/system/fvSolution"
@@ -776,6 +1041,9 @@
       ],
       "occurrences": 270,
       "fileCount": 270,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/system/fvSolution",
@@ -795,6 +1063,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/fvSolution",
@@ -811,6 +1082,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSolution",
@@ -830,6 +1104,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
@@ -848,6 +1125,9 @@
       ],
       "occurrences": 272,
       "fileCount": 272,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/system/fvSolution",
@@ -867,6 +1147,9 @@
       ],
       "occurrences": 213,
       "fileCount": 213,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/system/fvSolution",
@@ -886,6 +1169,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -913,6 +1199,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/cavity/system/fvSolution",
@@ -929,6 +1218,9 @@
       ],
       "occurrences": 10,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/fvSolution",
@@ -948,6 +1240,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/cavity/system/fvSolution",
@@ -964,6 +1259,9 @@
       ],
       "occurrences": 10,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/fvSolution",
@@ -983,6 +1281,9 @@
       ],
       "occurrences": 60,
       "fileCount": 60,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantBoussinesqPimpleFoam/BenardCells/system/fvSolution",
@@ -1002,6 +1303,9 @@
       ],
       "occurrences": 18,
       "fileCount": 18,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/system/fvSolution",
@@ -1021,6 +1325,9 @@
       ],
       "occurrences": 78,
       "fileCount": 78,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantBoussinesqPimpleFoam/BenardCells/system/fvSolution",
@@ -1040,6 +1347,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
@@ -1059,6 +1369,9 @@
       ],
       "occurrences": 8,
       "fileCount": 8,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
@@ -1078,6 +1391,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/system/fvSolution",
@@ -1095,6 +1411,9 @@
       ],
       "occurrences": 23,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/system/fvSolution",
@@ -1112,6 +1431,9 @@
       ],
       "occurrences": 23,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/system/fvSolution",
@@ -1129,6 +1451,9 @@
       ],
       "occurrences": 23,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/system/fvSolution",
@@ -1146,6 +1471,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoCentralFoam/movingCone/system/fvSolution",
@@ -1164,6 +1492,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoCentralFoam/movingCone/system/fvSolution",
@@ -1181,6 +1512,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -1201,6 +1535,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -1228,6 +1565,9 @@
       ],
       "occurrences": 27,
       "fileCount": 27,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -1264,6 +1604,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -1296,6 +1639,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
@@ -1312,6 +1658,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
@@ -1328,6 +1677,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
@@ -1344,6 +1696,9 @@
       ],
       "occurrences": 30,
       "fileCount": 30,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "DNS/dnsFoam/boxTurb16/system/fvSolution",
@@ -1363,6 +1718,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -1383,6 +1741,9 @@
       ],
       "occurrences": 30,
       "fileCount": 30,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "DNS/dnsFoam/boxTurb16/system/fvSolution",
@@ -1402,6 +1763,9 @@
       ],
       "occurrences": 30,
       "fileCount": 30,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "DNS/dnsFoam/boxTurb16/system/fvSolution",
@@ -1421,6 +1785,9 @@
       ],
       "occurrences": 18,
       "fileCount": 18,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/icoFoam/cavity/cavity/system/fvSolution",
@@ -1440,6 +1807,9 @@
       ],
       "occurrences": 18,
       "fileCount": 18,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/icoFoam/cavity/cavity/system/fvSolution",
@@ -1457,8 +1827,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 23,
-      "fileCount": 23,
+      "occurrences": 28,
+      "fileCount": 28,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:71",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:72",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:71",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:71",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:71"
+      ],
       "values": [],
       "examples": [
         "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/fvSolution",
@@ -1478,6 +1859,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/fvSolution"
@@ -1491,8 +1875,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 23,
-      "fileCount": 23,
+      "occurrences": 28,
+      "fileCount": 28,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:73",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:74",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:73",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:73",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:73"
+      ],
       "values": [],
       "examples": [
         "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/fvSolution",
@@ -1510,8 +1905,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 340,
-      "fileCount": 338,
+      "occurrences": 348,
+      "fileCount": 346,
+      "sourceOccurrences": 8,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/steadyState:17",
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/transient:17",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:76",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:77",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:76"
+      ],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
@@ -1531,6 +1937,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1546,6 +1955,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1561,6 +1973,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1576,6 +1991,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1591,6 +2009,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1606,6 +2027,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1621,6 +2045,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1636,6 +2063,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1651,6 +2081,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1666,6 +2099,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1681,6 +2117,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1696,6 +2135,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1711,6 +2153,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1726,6 +2171,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1741,6 +2189,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1756,6 +2207,9 @@
       ],
       "occurrences": 2,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
@@ -1771,6 +2225,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
@@ -1787,6 +2244,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/fvSolution"
@@ -1802,6 +2262,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
@@ -1818,6 +2281,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/propeller/system/fvSolution",
@@ -1836,6 +2302,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution"
@@ -1851,6 +2320,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/fvSolution"
@@ -1866,6 +2338,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution"
@@ -1879,8 +2354,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 321,
-      "fileCount": 321,
+      "occurrences": 329,
+      "fileCount": 329,
+      "sourceOccurrences": 8,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/steadyState:23",
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/transient:22",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:82",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:83",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:82"
+      ],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
@@ -1898,8 +2384,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 127,
-      "fileCount": 127,
+      "occurrences": 129,
+      "fileCount": 129,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/steadyState:26",
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/transient:24"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution",
@@ -1919,6 +2413,9 @@
       ],
       "occurrences": 10,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/system/fvSolution",
@@ -1938,6 +2435,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/system/fvSolution",
@@ -1954,6 +2454,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/system/fvSolution",
@@ -1970,6 +2473,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
@@ -1987,6 +2493,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/system/fvSolution"
@@ -2002,11 +2511,34 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire3D/system/fvSolution",
         "combustion/rhoReactingFoam/groundAbsorption/system/fvSolution"
       ]
+    },
+    {
+      "key": "relaxationFactors/equations/(e|h)",
+      "keyword": "(e|h)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(e|h)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:60"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "relaxationFactors/equations/(epsilon|omega)",
@@ -2018,6 +2550,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/squareBend/system/fvSolution"
@@ -2033,6 +2568,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution",
@@ -2050,8 +2588,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:61"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/buoyantCavity/system/fvSolution",
@@ -2068,6 +2613,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/bump2D/setups.orig/common/system/fvSolution"
@@ -2083,6 +2631,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantBoussinesqSimpleFoam/hotRoom/system/fvSolution",
@@ -2100,6 +2651,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/fvSolution",
@@ -2116,6 +2670,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSolution",
@@ -2131,8 +2688,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 7,
+      "fileCount": 7,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:85",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:87",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:85",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:85",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:85"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvSolution",
@@ -2149,6 +2717,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/windAroundBuildings/system/fvSolution"
@@ -2164,6 +2735,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/fvSolution",
@@ -2180,6 +2754,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/fvSolution",
@@ -2196,6 +2773,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/common/system/fvSolution",
@@ -2212,6 +2792,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution"
@@ -2227,6 +2810,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/annularThermalMixer/system/fvSolution"
@@ -2242,6 +2828,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
@@ -2261,6 +2850,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/overSimpleFoam/aeroFoil/aeroFoil_overset/system/fvSolution",
@@ -2278,6 +2870,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/overSimpleFoam/aeroFoil/aeroFoil_overset/system/fvSolution",
@@ -2295,6 +2890,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantBoussinesqPimpleFoam/hotRoom/system/fvSolution"
@@ -2310,6 +2908,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantBoussinesqPimpleFoam/hotRoom/system/fvSolution"
@@ -2325,6 +2926,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointShapeOptimizationFoam/pitzDaily/system/fvSolution"
@@ -2340,6 +2944,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/fvSolution",
@@ -2356,6 +2963,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvSolution"
@@ -2371,6 +2981,9 @@
       ],
       "occurrences": 12,
       "fileCount": 12,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
@@ -2390,6 +3003,9 @@
       ],
       "occurrences": 25,
       "fileCount": 25,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSolution",
@@ -2409,6 +3025,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution",
@@ -2428,6 +3047,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSolution",
@@ -2446,6 +3068,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/electrostaticDeposition/system/fvSolution"
@@ -2461,6 +3086,9 @@
       ],
       "occurrences": 21,
       "fileCount": 21,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
@@ -2480,6 +3108,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution",
@@ -2499,6 +3130,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/hotRadiationRoom/system/fvSolution"
@@ -2514,6 +3148,9 @@
       ],
       "occurrences": 8,
       "fileCount": 8,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
@@ -2533,6 +3170,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution",
@@ -2549,6 +3189,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/hotRadiationRoomFvDOM/system/fvSolution"
@@ -2564,6 +3207,9 @@
       ],
       "occurrences": 30,
       "fileCount": 30,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
@@ -2583,6 +3229,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution",
@@ -2602,6 +3251,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/kOmegaSST/opt/system/fvSolution"
@@ -2617,6 +3269,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/system/fvSolution"
@@ -2632,6 +3287,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "banana",
@@ -2652,6 +3310,9 @@
       ],
       "occurrences": 20,
       "fileCount": 20,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/fvSolution",
@@ -2671,6 +3332,9 @@
       ],
       "occurrences": 12,
       "fileCount": 12,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
@@ -2690,6 +3354,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSolution",
@@ -2708,6 +3375,9 @@
       ],
       "occurrences": 20,
       "fileCount": 20,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/fvSolution",
@@ -2727,6 +3397,9 @@
       ],
       "occurrences": 20,
       "fileCount": 20,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
@@ -2746,6 +3419,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSolution",
@@ -2764,6 +3440,9 @@
       ],
       "occurrences": 15,
       "fileCount": 15,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
@@ -2783,6 +3462,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/system/fvSolution"
@@ -2798,6 +3480,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/squareBend/system/fvSolution"
@@ -2813,6 +3498,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/fvSolution"
@@ -2828,6 +3516,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/boundaryFoam/steadyBoundaryLayer/setups.orig/common/system/fvSolution",
@@ -2846,6 +3537,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/TJunction/system/fvSolution",
@@ -2863,8 +3557,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 5,
-      "fileCount": 5,
+      "occurrences": 6,
+      "fileCount": 6,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:86"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantBoussinesqSimpleFoam/hotRoom/system/fvSolution",
@@ -2884,6 +3585,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/TJunctionArrheniusBirdCarreauTransport/system/fvSolution",
@@ -2899,8 +3603,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 129,
-      "fileCount": 129,
+      "occurrences": 136,
+      "fileCount": 136,
+      "sourceOccurrences": 7,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/steadyState:25",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:84",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:85",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:84",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:59"
+      ],
       "values": [
         {
           "value": "lookup",
@@ -2925,6 +3640,9 @@
       ],
       "occurrences": 42,
       "fileCount": 42,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution",
@@ -2944,6 +3662,9 @@
       ],
       "occurrences": 19,
       "fileCount": 19,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
@@ -2963,6 +3684,9 @@
       ],
       "occurrences": 65,
       "fileCount": 65,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/system/fvSolution",
@@ -2982,6 +3706,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/system/fvSolution",
@@ -2998,6 +3725,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/SRFPimpleFoam/rotor2D/system/fvSolution"
@@ -3013,6 +3743,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/kOmegaSST/opt/system/fvSolution"
@@ -3028,6 +3761,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/system/fvSolution"
@@ -3043,6 +3779,9 @@
       ],
       "occurrences": 34,
       "fileCount": 34,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
@@ -3062,6 +3801,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSolution",
@@ -3077,8 +3819,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 167,
-      "fileCount": 167,
+      "occurrences": 175,
+      "fileCount": 175,
+      "sourceOccurrences": 8,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/steadyState:19",
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/transient:19",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:78",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:79",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:78"
+      ],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
@@ -3098,6 +3851,9 @@
       ],
       "occurrences": 235,
       "fileCount": 137,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
@@ -3106,6 +3862,70 @@
         "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
         "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution"
       ]
+    },
+    {
+      "key": "relaxationFactors/fields/p",
+      "keyword": "p",
+      "context": "relaxationFactors/fields",
+      "path": "relaxationFactors/fields/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/general/fvSolution/relaxationFactors/steadyState:21",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:80",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:80",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:54",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:80"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "relaxationFactors/fields/p_rgh",
+      "keyword": "p_rgh",
+      "context": "relaxationFactors/fields",
+      "path": "relaxationFactors/fields/p_rgh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:81"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "relaxationFactors/fields/rho",
+      "keyword": "rho",
+      "context": "relaxationFactors/fields",
+      "path": "relaxationFactors/fields/rho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:55"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "relaxationFactors/h",
@@ -3117,6 +3937,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
@@ -3133,6 +3956,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/fvSolution"
@@ -3148,6 +3974,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution"
@@ -3163,6 +3992,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/fvSolution",
@@ -3179,6 +4011,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/fvSolution",
@@ -3196,6 +4031,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
@@ -3212,6 +4050,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution"
@@ -3227,6 +4068,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution"
@@ -3242,6 +4086,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution"
@@ -3257,6 +4104,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
@@ -3276,6 +4126,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution",
@@ -3294,6 +4147,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/fvSolution"
@@ -3307,8 +4163,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 174,
-      "fileCount": 174,
+      "occurrences": 180,
+      "fileCount": 180,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:57",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:57",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:57",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:36",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:57"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/flange/system/fvSolution",
@@ -3328,6 +4195,9 @@
       ],
       "occurrences": 25,
       "fileCount": 25,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -3360,6 +4230,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
@@ -3375,6 +4248,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
@@ -3390,6 +4266,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
@@ -3405,6 +4284,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
@@ -3420,6 +4302,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
@@ -3435,6 +4320,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
@@ -3450,6 +4338,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
@@ -3465,6 +4356,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
@@ -3480,6 +4374,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
@@ -3495,6 +4392,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
@@ -3510,6 +4410,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -3542,6 +4445,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/overSimpleFoam/aeroFoil/background_overset/system/fvSolution",
@@ -3556,8 +4462,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 171,
-      "fileCount": 171,
+      "occurrences": 177,
+      "fileCount": 177,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:65",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:66",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:65",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:45",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:65"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/flange/system/fvSolution",
@@ -3577,6 +4494,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/overSimpleFoam/aeroFoil/background_overset/system/fvSolution"
@@ -3592,6 +4512,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPorousSimpleFoam/angledDuct/implicit/system/fvSolution",
@@ -3609,6 +4532,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -3627,8 +4553,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 11,
-      "fileCount": 11,
+      "occurrences": 12,
+      "fileCount": 12,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:47"
+      ],
       "values": [],
       "examples": [
         "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
@@ -3646,8 +4579,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 11,
-      "fileCount": 11,
+      "occurrences": 12,
+      "fileCount": 12,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:46"
+      ],
       "values": [],
       "examples": [
         "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
@@ -3665,8 +4605,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 20,
-      "fileCount": 20,
+      "occurrences": 25,
+      "fileCount": 25,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:66",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:67",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:66",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:66",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:66"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantBoussinesqSimpleFoam/hotRoom/system/fvSolution",
@@ -3684,8 +4635,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 20,
-      "fileCount": 20,
+      "occurrences": 25,
+      "fileCount": 25,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:67",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:68",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:67",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:67",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:67"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantBoussinesqSimpleFoam/hotRoom/system/fvSolution",
@@ -3703,8 +4665,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 36,
-      "fileCount": 36,
+      "occurrences": 42,
+      "fileCount": 42,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:59",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:59",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:59",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:38",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:59"
+      ],
       "values": [],
       "examples": [
         "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
@@ -3713,6 +4686,50 @@
         "compressible/rhoPorousSimpleFoam/angledDuct/implicit/system/fvSolution",
         "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSolution"
       ]
+    },
+    {
+      "key": "SIMPLE/residualControl/(k|omega|epsilon)",
+      "keyword": "(k|omega|epsilon)",
+      "context": "SIMPLE/residualControl",
+      "path": "SIMPLE/residualControl/(k|omega|epsilon)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:63",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:64",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:63",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:63",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:63"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "SIMPLE/residualControl/(k|omega|epsilon|e|h)",
+      "keyword": "(k|omega|epsilon|e|h)",
+      "context": "SIMPLE/residualControl",
+      "path": "SIMPLE/residualControl/(k|omega|epsilon|e|h)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:42"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "SIMPLE/residualControl/{field}",
@@ -3724,6 +4741,9 @@
       ],
       "occurrences": 125,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
@@ -3732,6 +4752,74 @@
         "compressible/rhoPorousSimpleFoam/angledDuct/implicit/system/fvSolution",
         "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSolution"
       ]
+    },
+    {
+      "key": "SIMPLE/residualControl/p",
+      "keyword": "p",
+      "context": "SIMPLE/residualControl",
+      "path": "SIMPLE/residualControl/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:61",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:61",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:61",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:40",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:61"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "SIMPLE/residualControl/T",
+      "keyword": "T",
+      "context": "SIMPLE/residualControl",
+      "path": "SIMPLE/residualControl/T",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:63"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "SIMPLE/residualControl/U",
+      "keyword": "U",
+      "context": "SIMPLE/residualControl",
+      "path": "SIMPLE/residualControl/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:62",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:62",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:62",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:41",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:62"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "SIMPLE/rhoMax",
@@ -3743,6 +4831,9 @@
       ],
       "occurrences": 3,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution",
@@ -3759,6 +4850,9 @@
       ],
       "occurrences": 3,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution",
@@ -3775,6 +4869,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -3804,8 +4901,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 515,
-      "fileCount": 515,
+      "occurrences": 521,
+      "fileCount": 521,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:17",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:17",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:17",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:17",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:17"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/flange/system/fvSolution",
@@ -3814,6 +4922,93 @@
         "basic/laplacianFoam/multiWorld1/left/system/fvSolution",
         "basic/laplacianFoam/multiWorld1/right/system/fvSolution"
       ]
+    },
+    {
+      "key": "solvers/(U|k|omega|epsilon)",
+      "keyword": "(U|k|omega|epsilon)",
+      "context": "solvers",
+      "path": "solvers/(U|k|omega|epsilon)",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:27",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:27",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:27",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:27"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solvers/(U|k|omega|epsilon)Final",
+      "keyword": "(U|k|omega|epsilon)Final",
+      "context": "solvers",
+      "path": "solvers/(U|k|omega|epsilon)Final",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:41",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:41",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:41",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:41",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:41"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solvers/(U|k|omega|epsilon|e|h)",
+      "keyword": "(U|k|omega|epsilon|e|h)",
+      "context": "solvers",
+      "path": "solvers/(U|k|omega|epsilon|e|h)",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:27"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solvers/(U|T|k|omega|epsilon)",
+      "keyword": "(U|T|k|omega|epsilon)",
+      "context": "solvers",
+      "path": "solvers/(U|T|k|omega|epsilon)",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:27"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "solvers/{solver}",
@@ -3825,6 +5020,9 @@
       ],
       "occurrences": 2137,
       "fileCount": 498,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/laplacianFoam/flange/system/fvSolution",
@@ -3844,6 +5042,9 @@
       ],
       "occurrences": 42,
       "fileCount": 35,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaPair",
@@ -3868,6 +5069,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -3900,6 +5104,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -3918,8 +5125,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 38,
-      "fileCount": 33,
+      "occurrences": 39,
+      "fileCount": 34,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:361"
+      ],
       "values": [
         {
           "value": "true",
@@ -3956,6 +5170,9 @@
       ],
       "occurrences": 86,
       "fileCount": 86,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
@@ -3975,6 +5192,9 @@
       ],
       "occurrences": 8,
       "fileCount": 8,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSolution",
@@ -3994,6 +5214,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -4022,6 +5245,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSolution",
@@ -4030,6 +5256,26 @@
         "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSolution",
         "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/system/fvSolution"
       ]
+    },
+    {
+      "key": "solvers/{solver}/directSolveCoarsest",
+      "keyword": "directSolveCoarsest",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/directSolveCoarsest",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:379"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "solvers/{solver}/icAlpha",
@@ -4041,6 +5287,9 @@
       ],
       "occurrences": 11,
       "fileCount": 11,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/DTCHull/system/fvSolution",
@@ -4060,6 +5309,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -4075,6 +5327,26 @@
       ]
     },
     {
+      "key": "solvers/{solver}/interpolateCorrection",
+      "keyword": "interpolateCorrection",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/interpolateCorrection",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:377"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "solvers/{solver}/isoFaceTol",
       "keyword": "isoFaceTol",
       "context": "solvers/{solver}",
@@ -4084,6 +5356,9 @@
       ],
       "occurrences": 16,
       "fileCount": 16,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/fvSolution",
@@ -4103,6 +5378,9 @@
       ],
       "occurrences": 145,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/system/fvSolution",
@@ -4111,6 +5389,46 @@
         "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution"
       ]
+    },
+    {
+      "key": "solvers/{solver}/maxPostSweeps",
+      "keyword": "maxPostSweeps",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/maxPostSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:375"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solvers/{solver}/maxPreSweeps",
+      "keyword": "maxPreSweeps",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/maxPreSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:368"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "solvers/{solver}/mergeLevels",
@@ -4122,6 +5440,9 @@
       ],
       "occurrences": 40,
       "fileCount": 35,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
@@ -4141,6 +5462,9 @@
       ],
       "occurrences": 159,
       "fileCount": 61,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/XiDyMFoam/annularCombustorTurbine/system/fvSolution",
@@ -4160,6 +5484,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -4188,6 +5515,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/system/fvSolution",
@@ -4204,6 +5534,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/fvSolution",
@@ -4223,6 +5556,9 @@
       ],
       "occurrences": 110,
       "fileCount": 110,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
@@ -4242,6 +5578,9 @@
       ],
       "occurrences": 131,
       "fileCount": 131,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
@@ -4261,6 +5600,9 @@
       ],
       "occurrences": 61,
       "fileCount": 53,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
@@ -4280,6 +5622,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnPolydisperse/system/fvSolution"
@@ -4293,8 +5638,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 4,
-      "fileCount": 4,
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:376"
+      ],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/steady/system/fvSolution",
@@ -4313,6 +5665,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterFoam/laminar/climbingRod/system/fvSolution",
@@ -4332,6 +5687,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "default",
@@ -4351,8 +5709,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 25,
-      "fileCount": 25,
+      "occurrences": 26,
+      "fileCount": 26,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:369"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution",
@@ -4370,8 +5735,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 21,
-      "fileCount": 21,
+      "occurrences": 22,
+      "fileCount": 22,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:362"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/fvSolution",
@@ -4391,6 +5763,9 @@
       ],
       "occurrences": 99,
       "fileCount": 71,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/simpleFoam/implicitAMI/system/fvSolution",
@@ -4410,10 +5785,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/airRecirculationRoom/steady/system/fvSolution"
       ]
+    },
+    {
+      "key": "solvers/{solver}/postSweepsLevelMultiplier",
+      "keyword": "postSweepsLevelMultiplier",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/postSweepsLevelMultiplier",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:370"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "solvers/{solver}/preconditioner",
@@ -4426,6 +5824,9 @@
       ],
       "occurrences": 720,
       "fileCount": 351,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "DIC",
@@ -4458,6 +5859,9 @@
       ],
       "occurrences": 5,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaPair",
@@ -4480,6 +5884,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -4500,6 +5907,9 @@
       ],
       "occurrences": 5,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/system/fvSolution",
@@ -4517,6 +5927,9 @@
       ],
       "occurrences": 5,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/system/fvSolution",
@@ -4534,6 +5947,9 @@
       ],
       "occurrences": 5,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/system/fvSolution",
@@ -4551,6 +5967,9 @@
       ],
       "occurrences": 5,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/system/fvSolution",
@@ -4568,6 +5987,9 @@
       ],
       "occurrences": 20,
       "fileCount": 18,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
@@ -4587,6 +6009,9 @@
       ],
       "occurrences": 25,
       "fileCount": 25,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
@@ -4606,6 +6031,9 @@
       ],
       "occurrences": 51,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "GAMG",
@@ -4630,6 +6058,9 @@
       ],
       "occurrences": 49,
       "fileCount": 29,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
@@ -4649,6 +6080,9 @@
       ],
       "occurrences": 51,
       "fileCount": 31,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "DICGaussSeidel",
@@ -4677,6 +6111,9 @@
       ],
       "occurrences": 49,
       "fileCount": 29,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
@@ -4696,6 +6133,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -4707,6 +6147,26 @@
       ]
     },
     {
+      "key": "solvers/{solver}/preSweepsLevelMultiplier",
+      "keyword": "preSweepsLevelMultiplier",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/preSweepsLevelMultiplier",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:363"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "solvers/{solver}/processorAgglomerator",
       "keyword": "processorAgglomerator",
       "context": "solvers/{solver}",
@@ -4716,6 +6176,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "masterCoarsest",
@@ -4741,6 +6204,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "isoAlpha",
@@ -4771,8 +6237,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1937,
-      "fileCount": 493,
+      "occurrences": 1959,
+      "fileCount": 499,
+      "sourceOccurrences": 22,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:24",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:32",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:38",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:44",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:24"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/flange/system/fvSolution",
@@ -4792,6 +6269,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -4812,6 +6292,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSolution",
@@ -4820,6 +6303,26 @@
         "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSolution",
         "multiphase/icoReactingMultiphaseInterFoam/solidMelting2D/system/fvSolution"
       ]
+    },
+    {
+      "key": "solvers/{solver}/scaleCorrection",
+      "keyword": "scaleCorrection",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/scaleCorrection",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "GAMG"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.C:378"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "solvers/{solver}/scAlpha",
@@ -4831,6 +6334,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/overCompressibleInterDyMFoam/compressibleTwoSimpleRotors/system/fvSolution",
@@ -4848,16 +6354,27 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 771,
-      "fileCount": 355,
+      "occurrences": 783,
+      "fileCount": 361,
+      "sourceOccurrences": 12,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:22",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:30",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:22",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:30",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:22"
+      ],
       "values": [
         {
           "value": "symGaussSeidel",
-          "occurrences": 363
+          "occurrences": 369
         },
         {
           "value": "GaussSeidel",
-          "occurrences": 293
+          "occurrences": 299
         },
         {
           "value": "DIC",
@@ -4890,6 +6407,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/laminar/fluidisedBed/system/fvSolution",
@@ -4907,6 +6427,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/fvSolution",
@@ -4926,6 +6449,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -4944,12 +6470,23 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1521,
-      "fileCount": 493,
+      "occurrences": 1533,
+      "fileCount": 499,
+      "sourceOccurrences": 12,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:21",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:29",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:21",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:29",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:21"
+      ],
       "values": [
         {
           "value": "smoothSolver",
-          "occurrences": 465
+          "occurrences": 471
         },
         {
           "value": "PCG",
@@ -4957,7 +6494,7 @@
         },
         {
           "value": "GAMG",
-          "occurrences": 293
+          "occurrences": 299
         },
         {
           "value": "PBiCGStab",
@@ -4998,6 +6535,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/fvSolution",
@@ -5015,8 +6555,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1735,
-      "fileCount": 493,
+      "occurrences": 1747,
+      "fileCount": 499,
+      "sourceOccurrences": 12,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:23",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:31",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:23",
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:31",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:23"
+      ],
       "values": [],
       "examples": [
         "basic/laplacianFoam/flange/system/fvSolution",
@@ -5036,6 +6587,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "coupled",
@@ -5056,6 +6610,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/fvSolution",
@@ -5075,6 +6632,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge3D/system/fvSolution"
@@ -5090,6 +6650,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -5110,6 +6673,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -5130,6 +6696,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -5150,6 +6719,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -5161,6 +6733,93 @@
       ]
     },
     {
+      "key": "solvers/p",
+      "keyword": "p",
+      "context": "solvers",
+      "path": "solvers/p",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:19",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:19",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/system/fvSolution:19",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:19",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:19"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solvers/p_rgh",
+      "keyword": "p_rgh",
+      "context": "solvers",
+      "path": "solvers/p_rgh",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:19"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solvers/p_rghFinal",
+      "keyword": "p_rghFinal",
+      "context": "solvers",
+      "path": "solvers/p_rghFinal",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:35"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solvers/pFinal",
+      "keyword": "pFinal",
+      "context": "solvers",
+      "path": "solvers/pFinal",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:35",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:35",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/system/fvSolution:35",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/fvSolution:35"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "stressAnalysis",
       "keyword": "stressAnalysis",
       "context": "",
@@ -5170,6 +6829,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyHexMesh/simpleShapes/system/fvSolution",
@@ -5187,6 +6849,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyHexMesh/simpleShapes/system/fvSolution",
@@ -5203,6 +6868,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -5223,6 +6891,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyHexMesh/simpleShapes/system/fvSolution",
@@ -5240,6 +6911,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyHexMesh/simpleShapes/system/fvSolution",

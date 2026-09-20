@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "changeDictionaryDict_cyclicAMI",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 3,
   "occurrences": 154,
+  "sourceOccurrences": 46,
   "entries": [
     {
       "key": "boundary",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -46,6 +54,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaWeightAMI",
@@ -66,6 +77,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -81,6 +95,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -96,6 +113,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "DTCYCLIC2",
@@ -116,6 +136,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -129,8 +152,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -144,8 +174,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -159,12 +196,79 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
       ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/separationVector",
+      "keyword": "separationVector",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/DTCYCLIC1/srcSize",
+      "keyword": "srcSize",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/DTCYCLIC1/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/DTCYCLIC1/transform",
@@ -176,6 +280,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "rotational",
@@ -196,6 +303,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclicAMI",
@@ -216,6 +326,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -231,6 +344,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaWeightAMI",
@@ -251,6 +367,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -266,6 +385,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -281,6 +403,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "DTCYCLIC1",
@@ -301,6 +426,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -314,8 +442,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -329,8 +464,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -344,12 +486,79 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
       ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/separationVector",
+      "keyword": "separationVector",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/DTCYCLIC2/srcSize",
+      "keyword": "srcSize",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/DTCYCLIC2/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/DTCYCLIC2/transform",
@@ -361,6 +570,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "rotational",
@@ -381,6 +593,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclicAMI",
@@ -401,6 +616,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -416,6 +634,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -436,6 +657,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -451,6 +675,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "wall",
@@ -471,6 +698,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -486,6 +716,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaWeightAMI",
@@ -506,6 +739,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -521,6 +757,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -536,6 +775,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -551,6 +793,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "RUOUTLET",
@@ -571,6 +816,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "RUCYCLIC1",
@@ -591,6 +839,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -606,6 +857,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -621,6 +875,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "unknown",
@@ -641,6 +898,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclicPeriodicAMI",
@@ -661,10 +921,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
       ]
+    },
+    {
+      "key": "boundary/DTOUTLET/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/DTOUTLET",
+      "path": "boundary/DTOUTLET/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/DTOUTLET/inGroups",
@@ -676,10 +959,74 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
       ]
+    },
+    {
+      "key": "boundary/DTOUTLET/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/DTOUTLET",
+      "path": "boundary/DTOUTLET/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/DTOUTLET/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/DTOUTLET",
+      "path": "boundary/DTOUTLET/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/DTOUTLET/startFace",
+      "keyword": "startFace",
+      "context": "boundary/DTOUTLET",
+      "path": "boundary/DTOUTLET/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/DTOUTLET/type",
@@ -691,6 +1038,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -711,6 +1061,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -726,6 +1079,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -746,6 +1102,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -761,6 +1120,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "wall",
@@ -781,6 +1143,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -796,6 +1161,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -816,6 +1184,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -831,6 +1202,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "wall",
@@ -851,6 +1225,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -866,6 +1243,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaWeightAMI",
@@ -886,6 +1266,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -901,6 +1284,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -916,6 +1302,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "GVCYCLIC2",
@@ -936,6 +1325,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -949,8 +1341,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -964,8 +1363,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -979,12 +1385,79 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
       ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/separationVector",
+      "keyword": "separationVector",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/GVCYCLIC1/srcSize",
+      "keyword": "srcSize",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/GVCYCLIC1/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/GVCYCLIC1/transform",
@@ -996,6 +1469,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "rotational",
@@ -1016,6 +1492,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclicAMI",
@@ -1036,6 +1515,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1051,6 +1533,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaWeightAMI",
@@ -1071,6 +1556,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1086,6 +1574,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1101,6 +1592,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "GVCYCLIC1",
@@ -1121,6 +1615,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1134,8 +1631,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1149,8 +1653,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1164,12 +1675,79 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
       ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/separationVector",
+      "keyword": "separationVector",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/GVCYCLIC2/srcSize",
+      "keyword": "srcSize",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/GVCYCLIC2/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/GVCYCLIC2/transform",
@@ -1181,6 +1759,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "rotational",
@@ -1201,6 +1782,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclicAMI",
@@ -1221,6 +1805,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1236,6 +1823,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -1256,6 +1846,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1271,6 +1864,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "wall",
@@ -1291,10 +1887,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
       ]
+    },
+    {
+      "key": "boundary/GVINLET/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/GVINLET",
+      "path": "boundary/GVINLET/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/GVINLET/inGroups",
@@ -1306,10 +1925,74 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
       ]
+    },
+    {
+      "key": "boundary/GVINLET/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/GVINLET",
+      "path": "boundary/GVINLET/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/GVINLET/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/GVINLET",
+      "path": "boundary/GVINLET/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/GVINLET/startFace",
+      "keyword": "startFace",
+      "context": "boundary/GVINLET",
+      "path": "boundary/GVINLET/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/GVINLET/type",
@@ -1321,6 +2004,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -1341,6 +2027,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1356,6 +2045,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaWeightAMI",
@@ -1376,6 +2068,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1391,6 +2086,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1406,6 +2104,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1421,6 +2122,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "RUINLET",
@@ -1441,6 +2145,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "RUCYCLIC1",
@@ -1461,6 +2168,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1476,6 +2186,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1491,6 +2204,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "unknown",
@@ -1511,6 +2227,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclicPeriodicAMI",
@@ -1531,6 +2250,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1546,6 +2268,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -1566,6 +2291,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1581,6 +2309,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "wall",
@@ -1601,6 +2332,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1616,6 +2350,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -1636,6 +2373,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1651,6 +2391,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "wall",
@@ -1671,6 +2414,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1686,6 +2432,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaWeightAMI",
@@ -1706,6 +2455,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1721,6 +2473,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1736,6 +2491,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "RUCYCLIC2",
@@ -1756,6 +2514,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1769,8 +2530,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1784,8 +2552,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1799,12 +2574,79 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
       ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/separationVector",
+      "keyword": "separationVector",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/RUCYCLIC1/srcSize",
+      "keyword": "srcSize",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/RUCYCLIC1/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/RUCYCLIC1/transform",
@@ -1816,6 +2658,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "rotational",
@@ -1836,6 +2681,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclicAMI",
@@ -1856,6 +2704,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1871,6 +2722,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaWeightAMI",
@@ -1891,6 +2745,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1906,6 +2763,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1921,6 +2781,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "RUCYCLIC1",
@@ -1941,6 +2804,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1954,8 +2820,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1969,8 +2842,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -1984,12 +2864,79 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
       ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/separationVector",
+      "keyword": "separationVector",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/RUCYCLIC2/srcSize",
+      "keyword": "srcSize",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/RUCYCLIC2/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/RUCYCLIC2/transform",
@@ -2001,6 +2948,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "rotational",
@@ -2021,6 +2971,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclicAMI",
@@ -2041,6 +2994,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2056,6 +3012,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -2076,6 +3035,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2091,6 +3053,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "wall",
@@ -2111,6 +3076,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2126,6 +3094,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaWeightAMI",
@@ -2146,6 +3117,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2161,6 +3135,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2176,6 +3153,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2191,6 +3171,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "GVOUTLET",
@@ -2211,6 +3194,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "RUCYCLIC1",
@@ -2231,6 +3217,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2246,6 +3235,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2261,6 +3253,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "unknown",
@@ -2281,6 +3276,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclicPeriodicAMI",
@@ -2301,6 +3299,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2316,6 +3317,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faceAreaWeightAMI",
@@ -2336,6 +3340,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2351,6 +3358,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2366,6 +3376,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2381,6 +3394,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "DTINLET",
@@ -2401,6 +3417,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "RUCYCLIC1",
@@ -2421,6 +3440,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2436,6 +3458,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2451,6 +3476,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "unknown",
@@ -2471,6 +3499,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclicPeriodicAMI",
@@ -2491,6 +3522,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2506,6 +3540,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -2526,6 +3563,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2541,6 +3581,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "wall",
@@ -2561,6 +3604,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
@@ -2576,6 +3622,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -2596,6 +3645,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -2616,6 +3668,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "changeDictionaryDict",
@@ -2636,6 +3691,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"

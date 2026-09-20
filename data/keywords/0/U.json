@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "U",
   "sourceFileCount": 444,
+  "sourceEvidenceFileCount": 21,
   "occurrences": 8781,
+  "sourceOccurrences": 116,
   "entries": [
     {
       "key": "#include",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 18,
       "fileCount": 18,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
@@ -35,6 +40,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/0/U",
@@ -51,6 +59,9 @@
       ],
       "occurrences": 35,
       "fileCount": 35,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/constant/boundaryData/p10/0/U",
@@ -70,6 +81,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/constant/boundaryData/p1/0/U"
@@ -85,6 +99,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/0.orig/U"
@@ -98,8 +115,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 407,
-      "fileCount": 407,
+      "occurrences": 413,
+      "fileCount": 413,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:23",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:21",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:21",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:23",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:23"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
@@ -120,6 +148,9 @@
       ],
       "occurrences": 1996,
       "fileCount": 407,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
@@ -139,6 +170,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/turbineSiting/0.orig/U",
@@ -155,6 +189,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -177,8 +214,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 5,
-      "fileCount": 5,
+      "occurrences": 7,
+      "fileCount": 7,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "outletPhaseMeanVelocity",
+        "variableHeightFlowRateInletVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.cxx:79",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/variableHeightFlowRateInletVelocity/variableHeightFlowRateInletVelocityFvPatchVectorField.cxx:58"
+      ],
       "values": [
         {
           "value": "alpha.water",
@@ -203,6 +249,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/damBreakPermeable/0.orig/U"
@@ -218,6 +267,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pisoFoam/LES/pitzDailyMapped/0/U"
@@ -233,6 +285,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/U"
@@ -246,8 +301,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 6,
-      "fileCount": 6,
+      "occurrences": 8,
+      "fileCount": 8,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cylindricalInletVelocity",
+        "rotatingWallVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/cylindricalInletVelocity/cylindricalInletVelocityFvPatchVectorField.cxx:82",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingWallVelocity/rotatingWallVelocityFvPatchVectorField.cxx:60"
+      ],
       "values": [],
       "examples": [
         "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/U",
@@ -267,6 +331,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/drippingChair/0/U"
@@ -282,6 +349,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/drippingChair/0/U"
@@ -297,6 +367,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pipeCyclic/0.orig/U"
@@ -312,6 +385,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/chokedNozzle/0.orig/U"
@@ -327,6 +403,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
@@ -343,6 +422,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
@@ -360,6 +442,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -377,6 +462,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -394,6 +482,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -411,6 +502,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -428,6 +522,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -445,6 +542,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -462,6 +562,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -479,6 +582,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -496,6 +602,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -513,6 +622,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "normal",
@@ -535,6 +647,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constant 0",
@@ -561,6 +676,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"<constant>/inlet.csv\"",
@@ -581,6 +699,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/drippingChair/0/U",
@@ -598,6 +719,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/drippingChair/0/U",
@@ -615,6 +739,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/drippingChair/0/U",
@@ -631,6 +758,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/drippingChair/0/U",
@@ -647,6 +777,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "OwenRyley",
@@ -667,8 +800,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedNormalInletOutletVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedNormalInletOutletVelocity/fixedNormalInletOutletVelocityFvPatchVectorField.cxx:68"
+      ],
       "values": [
         {
           "value": "false",
@@ -689,6 +829,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/weirOverflow/0.orig/U",
@@ -705,6 +848,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/LES/pitzDaily/0/U",
@@ -721,6 +867,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -740,6 +889,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/U"
@@ -755,6 +907,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "nearest",
@@ -775,6 +930,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/U"
@@ -790,6 +948,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -810,6 +971,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "timeVaryingMappedFixedValue",
@@ -830,6 +994,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/U"
@@ -845,6 +1012,9 @@
       ],
       "occurrences": 14,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/U",
@@ -864,6 +1034,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -883,8 +1056,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 5,
-      "fileCount": 3,
+      "occurrences": 6,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "supersonicFreestream"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:73"
+      ],
       "values": [],
       "examples": [
         "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/U",
@@ -902,6 +1082,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/overPimpleDyMFoam/rotatingSquare/0.orig/U"
@@ -917,6 +1100,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -944,6 +1130,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -963,6 +1152,9 @@
       ],
       "occurrences": 80,
       "fileCount": 72,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
@@ -982,6 +1174,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cell",
@@ -1003,6 +1198,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
@@ -1020,8 +1218,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:119"
+      ],
       "values": [
         {
           "value": "nearest",
@@ -1035,6 +1240,46 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/L/sampleFile",
+      "keyword": "sampleFile",
+      "context": "boundaryField/{patch}/L",
+      "path": "boundaryField/{patch}/L/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:87"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/L/sampleFormat",
+      "keyword": "sampleFormat",
+      "context": "boundaryField/{patch}/L",
+      "path": "boundaryField/{patch}/L/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:85"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/L/type",
       "keyword": "type",
       "context": "boundaryField/{patch}/L",
@@ -1044,6 +1289,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "mappedFile",
@@ -1066,6 +1314,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -1085,6 +1336,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -1104,6 +1358,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ManningStrickler",
@@ -1132,6 +1389,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
@@ -1151,6 +1411,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "simple",
@@ -1175,6 +1438,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "kinematicThinFilm",
@@ -1204,6 +1470,9 @@
       ],
       "occurrences": 23,
       "fileCount": 19,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constant 0.1",
@@ -1264,6 +1533,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/squareBendLiq/0.orig/U"
@@ -1277,8 +1549,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "table"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Table/Table.C:59"
+      ],
       "values": [
         {
           "value": "\"<constant>/massLossRate\"",
@@ -1299,6 +1578,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "liquidIn",
@@ -1319,6 +1601,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "coded",
@@ -1335,6 +1620,26 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/massFlowRate/values",
+      "keyword": "values",
+      "context": "boundaryField/{patch}/massFlowRate",
+      "path": "boundaryField/{patch}/massFlowRate/values",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "table"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Table/Table.C:85"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/mean",
       "keyword": "mean",
       "context": "boundaryField/{patch}",
@@ -1344,6 +1649,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
@@ -1362,6 +1670,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "U",
@@ -1387,8 +1698,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 4,
-      "fileCount": 4,
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:119"
+      ],
       "values": [
         {
           "value": "nearest",
@@ -1403,6 +1721,46 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/mean/sampleFile",
+      "keyword": "sampleFile",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:87"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/mean/sampleFormat",
+      "keyword": "sampleFormat",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:85"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/mean/type",
       "keyword": "type",
       "context": "boundaryField/{patch}/mean",
@@ -1412,6 +1770,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "mappedFile",
@@ -1435,6 +1796,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -1446,6 +1810,27 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/myProcNo",
+      "keyword": "myProcNo",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/myProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:113",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:131"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/n",
       "keyword": "n",
       "context": "boundaryField/{patch}",
@@ -1455,6 +1840,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
@@ -1473,6 +1861,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "swirl",
@@ -1493,6 +1884,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "phiGas",
@@ -1514,12 +1908,36 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
         "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
         "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFSEM/0.orig/U"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/neighbProcNo",
+      "keyword": "neighbProcNo",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/neighbProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:114",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:132"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/nHeaderLine",
@@ -1531,6 +1949,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/chokedNozzle/0.orig/U"
@@ -1542,10 +1963,18 @@
       "context": "boundaryField/{patch}",
       "path": "boundaryField/{patch}/normalVelocity",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedNormalInletOutletVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedNormalInletOutletVelocity/fixedNormalInletOutletVelocityFvPatchVectorField.cxx:71"
+      ],
       "values": [],
       "examples": [
         "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
@@ -1561,6 +1990,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniformFixedValue",
@@ -1581,6 +2013,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
@@ -1596,6 +2031,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
@@ -1611,6 +2049,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
@@ -1626,6 +2067,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "linearRamp",
@@ -1646,6 +2090,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "scale",
@@ -1666,6 +2113,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
@@ -1681,6 +2131,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
@@ -1696,6 +2149,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
@@ -1711,6 +2167,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
@@ -1726,6 +2185,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
@@ -1741,6 +2203,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sine",
@@ -1761,6 +2226,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/U",
@@ -1777,6 +2245,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/spinningDisk/0/U",
@@ -1792,8 +2263,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 6,
-      "fileCount": 6,
+      "occurrences": 7,
+      "fileCount": 7,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotatingWallVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingWallVelocity/rotatingWallVelocityFvPatchVectorField.cxx:59"
+      ],
       "values": [],
       "examples": [
         "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/U",
@@ -1813,6 +2291,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "overset",
@@ -1834,6 +2315,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "phi",
@@ -1852,8 +2336,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 5,
-      "fileCount": 3,
+      "occurrences": 6,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "supersonicFreestream"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:71"
+      ],
       "values": [],
       "examples": [
         "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/U",
@@ -1871,6 +2362,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -1890,6 +2384,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
@@ -1909,6 +2406,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "UR",
@@ -1928,8 +2428,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 7,
-      "fileCount": 7,
+      "occurrences": 8,
+      "fileCount": 8,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:119"
+      ],
       "values": [
         {
           "value": "nearest",
@@ -1945,6 +2452,46 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/R/sampleFile",
+      "keyword": "sampleFile",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:87"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/R/sampleFormat",
+      "keyword": "sampleFormat",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:85"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/R/type",
       "keyword": "type",
       "context": "boundaryField/{patch}/R",
@@ -1954,6 +2501,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "mappedFile",
@@ -1978,6 +2528,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/U"
@@ -1993,6 +2546,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/chokedNozzle/0.orig/U"
@@ -2008,6 +2564,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/LES/pitzDaily/0/U",
@@ -2024,6 +2583,9 @@
       ],
       "occurrences": 15,
       "fileCount": 12,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform -10",
@@ -2060,6 +2622,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "film",
@@ -2075,6 +2640,28 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/rho",
+      "keyword": "rho",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "flowRateInletVelocity",
+        "flowRateOutletVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/flowRateInletVelocity/flowRateInletVelocityFvPatchVectorField.cxx:80",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/flowRateOutletVelocity/flowRateOutletVelocityFvPatchVectorField.cxx:74"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/rhoInlet",
       "keyword": "rhoInlet",
       "context": "boundaryField/{patch}",
@@ -2084,6 +2671,9 @@
       ],
       "occurrences": 12,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/angledDuct/0.orig/U",
@@ -2092,6 +2682,70 @@
         "compressible/rhoSimpleFoam/squareBend/0.orig/U",
         "compressible/rhoSimpleFoam/squareBendLiq/0.orig/U"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/rpm",
@@ -2103,6 +2757,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/U"
@@ -2118,11 +2775,36 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
         "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFSEM/0.orig/U"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/separationVector",
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/separator",
@@ -2134,6 +2816,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\",\"",
@@ -2154,6 +2839,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -2180,6 +2868,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -2191,6 +2882,26 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/srcSize",
+      "keyword": "srcSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/T0",
       "keyword": "T0",
       "context": "boundaryField/{patch}",
@@ -2200,6 +2911,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -2219,6 +2933,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/DTCHullMoving/0.orig/U"
@@ -2234,10 +2951,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/0.orig/U"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/thermo",
@@ -2249,6 +2989,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -2268,6 +3011,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
@@ -2285,8 +3031,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 5,
-      "fileCount": 3,
+      "occurrences": 6,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "supersonicFreestream"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:72"
+      ],
       "values": [],
       "examples": [
         "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/U",
@@ -2304,6 +3057,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "laminar",
@@ -2326,16 +3082,27 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1904,
-      "fileCount": 407,
+      "occurrences": 1919,
+      "fileCount": 413,
+      "sourceOccurrences": 15,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:27",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:33",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:25",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:25",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:30"
+      ],
       "values": [
         {
           "value": "fixedValue",
-          "occurrences": 589
+          "occurrences": 593
         },
         {
           "value": "noSlip",
-          "occurrences": 270
+          "occurrences": 275
         },
         {
           "value": "empty",
@@ -2347,11 +3114,11 @@
         },
         {
           "value": "pressureInletOutletVelocity",
-          "occurrences": 122
+          "occurrences": 126
         },
         {
           "value": "movingWallVelocity",
-          "occurrences": 64
+          "occurrences": 66
         },
         {
           "value": "inletOutlet",
@@ -2541,6 +3308,9 @@
       ],
       "occurrences": 11,
       "fileCount": 11,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "U",
@@ -2563,8 +3333,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:119"
+      ],
       "values": [
         {
           "value": "nearest",
@@ -2578,6 +3355,46 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/U/sampleFile",
+      "keyword": "sampleFile",
+      "context": "boundaryField/{patch}/U",
+      "path": "boundaryField/{patch}/U/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:87"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/U/sampleFormat",
+      "keyword": "sampleFormat",
+      "context": "boundaryField/{patch}/U",
+      "path": "boundaryField/{patch}/U/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:85"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/U/type",
       "keyword": "type",
       "context": "boundaryField/{patch}/U",
@@ -2587,6 +3404,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "mappedFile",
@@ -2607,8 +3427,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 5,
-      "fileCount": 3,
+      "occurrences": 6,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "supersonicFreestream"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:70"
+      ],
       "values": [],
       "examples": [
         "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/U",
@@ -2624,8 +3451,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "outletPhaseMeanVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.cxx:78"
+      ],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/DTCHull/0.orig/U",
@@ -2642,6 +3476,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "zero",
@@ -2663,6 +3500,9 @@
       ],
       "occurrences": 39,
       "fileCount": 21,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "zero",
@@ -2687,6 +3527,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
@@ -2702,6 +3545,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
@@ -2717,6 +3563,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "examplePatchFunction1",
@@ -2737,10 +3586,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/timeFunction/file",
+      "keyword": "file",
+      "context": "boundaryField/{patch}/uniformValue/timeFunction",
+      "path": "boundaryField/{patch}/uniformValue/timeFunction/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "table"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Table/Table.C:59"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/uniformValue/timeFunction/type",
@@ -2752,6 +3624,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "table",
@@ -2770,8 +3645,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "table"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Table/Table.C:85"
+      ],
       "values": [],
       "examples": [
         "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
@@ -2787,6 +3669,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "coded",
@@ -2807,6 +3692,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/U"
@@ -2822,6 +3710,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/U"
@@ -2837,6 +3728,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "expression",
@@ -2855,8 +3749,20 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 982,
-      "fileCount": 350,
+      "occurrences": 993,
+      "fileCount": 356,
+      "sourceOccurrences": 11,
+      "sourceTypes": [
+        "etc",
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:28",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:34",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:26",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:28",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:34"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
@@ -2876,6 +3782,9 @@
       ],
       "occurrences": 5,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constant 0.1",
@@ -2903,6 +3812,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -2914,6 +3826,139 @@
       ]
     },
     {
+      "key": "boundaryField/#includeEtc",
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/#includeEtc",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:37",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:42",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:42",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:48"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/atmosphere",
+      "keyword": "atmosphere",
+      "context": "boundaryField",
+      "path": "boundaryField/atmosphere",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:31"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/inlet",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/inlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:25",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:25",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:25",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:25"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/outlet",
+      "keyword": "outlet",
+      "context": "boundaryField",
+      "path": "boundaryField/outlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:31",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:31",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:31"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/rotating",
+      "keyword": "rotating",
+      "context": "boundaryField",
+      "path": "boundaryField/rotating",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:23",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:37"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/wall",
+      "keyword": "wall",
+      "context": "boundaryField",
+      "path": "boundaryField/wall",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:23",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:28",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:37",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:37",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:43"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "CON",
       "keyword": "CON",
       "context": "",
@@ -2923,6 +3968,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U"
@@ -2936,8 +3984,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 407,
-      "fileCount": 407,
+      "occurrences": 413,
+      "fileCount": 413,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:19",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:17",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:17",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:19",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:19"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
@@ -2957,6 +4016,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/U"
@@ -2970,8 +4032,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 408,
-      "fileCount": 408,
+      "occurrences": 414,
+      "fileCount": 414,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:8",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:8",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:8",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:8",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:8"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
@@ -2991,6 +4064,9 @@
       ],
       "occurrences": 408,
       "fileCount": 408,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volVectorField",
@@ -3015,6 +4091,9 @@
       ],
       "occurrences": 408,
       "fileCount": 408,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -3039,6 +4118,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"0\"",
@@ -3063,6 +4145,9 @@
       ],
       "occurrences": 408,
       "fileCount": 408,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "U",
@@ -3091,6 +4176,9 @@
       ],
       "occurrences": 408,
       "fileCount": 408,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
@@ -3110,6 +4198,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/0.orig/U"
@@ -3125,6 +4216,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/0.orig/U"
@@ -3140,6 +4234,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 1.2",
@@ -3160,6 +4257,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "surfaceNormalFixedValue",
@@ -3180,6 +4280,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/0.orig/U"
@@ -3195,6 +4298,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniformNormalFixedValue",
@@ -3215,6 +4321,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/0.orig/U"
@@ -3230,6 +4339,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/0.orig/U"
@@ -3245,6 +4357,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/0.orig/U"
@@ -3260,6 +4375,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniformNormalFixedValue",
@@ -3280,6 +4398,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constant 1.2",
@@ -3298,8 +4419,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 407,
-      "fileCount": 407,
+      "occurrences": 413,
+      "fileCount": 413,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:21",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:19",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:19",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:21",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:21"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
@@ -3319,6 +4451,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/0.orig/U"
@@ -3334,6 +4469,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/DTCHull/0.orig/U",
@@ -3350,6 +4488,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/U"
@@ -3365,6 +4506,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/U"
@@ -3380,6 +4524,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/U"
@@ -3393,8 +4540,18 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 8,
-      "fileCount": 8,
+      "occurrences": 12,
+      "fileCount": 12,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:17",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:17",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:17",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:17"
+      ],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/U",
@@ -3414,6 +4571,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/DTCHull/0.orig/U",
@@ -3430,6 +4590,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U"
@@ -3445,6 +4608,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U"
@@ -3460,6 +4626,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U"

@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "fvOptions",
   "sourceFileCount": 41,
+  "sourceEvidenceFileCount": 12,
   "occurrences": 567,
+  "sourceOccurrences": 70,
   "entries": [
     {
       "key": "__templateHeatSource",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -51,6 +59,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "scalarSemiImplicitSource",
@@ -71,6 +82,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
@@ -86,6 +100,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
@@ -101,6 +118,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
@@ -116,6 +136,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
@@ -131,6 +154,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
@@ -146,6 +172,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
@@ -161,6 +190,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
@@ -176,6 +208,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -196,6 +231,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
@@ -211,6 +249,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "UMean",
@@ -231,6 +272,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -242,6 +286,66 @@
       ]
     },
     {
+      "key": "acousticDampingSource/frequency",
+      "keyword": "frequency",
+      "context": "acousticDampingSource",
+      "path": "acousticDampingSource/frequency",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "acousticDampingSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/acousticDampingSource/acousticDampingSource.C:199"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "acousticDampingSource/radius1",
+      "keyword": "radius1",
+      "context": "acousticDampingSource",
+      "path": "acousticDampingSource/radius1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "acousticDampingSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/acousticDampingSource/acousticDampingSource.C:202"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "acousticDampingSource/radius2",
+      "keyword": "radius2",
+      "context": "acousticDampingSource",
+      "path": "acousticDampingSource/radius2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "acousticDampingSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/acousticDampingSource/acousticDampingSource.C:203"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "acousticDampingSource/type",
       "keyword": "type",
       "context": "acousticDampingSource",
@@ -251,6 +355,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "acousticDampingSource",
@@ -262,6 +369,66 @@
       ]
     },
     {
+      "key": "acousticDampingSource/UNames",
+      "keyword": "UNames",
+      "context": "acousticDampingSource",
+      "path": "acousticDampingSource/UNames",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "acousticDampingSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/acousticDampingSource/acousticDampingSource.C:191"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "acousticDampingSource/URef",
+      "keyword": "URef",
+      "context": "acousticDampingSource",
+      "path": "acousticDampingSource/URef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "acousticDampingSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/acousticDampingSource/acousticDampingSource.C:200"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "acousticDampingSource/w",
+      "keyword": "w",
+      "context": "acousticDampingSource",
+      "path": "acousticDampingSource/w",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "acousticDampingSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/acousticDampingSource/acousticDampingSource.C:205"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "damp",
       "keyword": "damp",
       "context": "",
@@ -271,6 +438,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvOptions"
@@ -286,6 +456,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -297,6 +470,26 @@
       ]
     },
     {
+      "key": "damp/C",
+      "keyword": "C",
+      "context": "damp",
+      "path": "damp/C",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "velocityDampingConstraint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/constraints/derived/velocityDampingConstraint/velocityDampingConstraint.C:169"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "damp/selectionMode",
       "keyword": "selectionMode",
       "context": "damp",
@@ -306,6 +499,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -326,6 +522,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "velocityDampingConstraint",
@@ -344,12 +543,39 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "velocityDampingConstraint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/constraints/derived/velocityDampingConstraint/velocityDampingConstraint.C:168"
+      ],
       "values": [],
       "examples": [
         "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvOptions"
       ]
+    },
+    {
+      "key": "damp/UNames",
+      "keyword": "UNames",
+      "context": "damp",
+      "path": "damp/UNames",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "velocityDampingConstraint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/constraints/derived/velocityDampingConstraint/velocityDampingConstraint.C:171"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "dampVelocity",
@@ -361,6 +587,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
@@ -376,6 +605,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -387,6 +619,26 @@
       ]
     },
     {
+      "key": "dampVelocity/C",
+      "keyword": "C",
+      "context": "dampVelocity",
+      "path": "dampVelocity/C",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "velocityDampingConstraint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/constraints/derived/velocityDampingConstraint/velocityDampingConstraint.C:169"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dampVelocity/type",
       "keyword": "type",
       "context": "dampVelocity",
@@ -396,6 +648,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "velocityDampingConstraint",
@@ -407,6 +662,46 @@
       ]
     },
     {
+      "key": "dampVelocity/UMax",
+      "keyword": "UMax",
+      "context": "dampVelocity",
+      "path": "dampVelocity/UMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "velocityDampingConstraint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/constraints/derived/velocityDampingConstraint/velocityDampingConstraint.C:168"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dampVelocity/UNames",
+      "keyword": "UNames",
+      "context": "dampVelocity",
+      "path": "dampVelocity/UNames",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "velocityDampingConstraint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/constraints/derived/velocityDampingConstraint/velocityDampingConstraint.C:171"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dampVelocity/velocityDampingConstraintCoeffs",
       "keyword": "velocityDampingConstraintCoeffs",
       "context": "dampVelocity",
@@ -416,6 +711,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
@@ -431,6 +729,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -451,6 +752,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
@@ -466,6 +770,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -480,8 +787,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:343"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -489,15 +803,83 @@
       ]
     },
     {
+      "key": "disk/beta0",
+      "keyword": "beta0",
+      "context": "disk",
+      "path": "disk/beta0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:552"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "disk/beta1c",
+      "keyword": "beta1c",
+      "context": "disk",
+      "path": "disk/beta1c",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:553"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "disk/beta2s",
+      "keyword": "beta2s",
+      "context": "disk",
+      "path": "disk/beta2s",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:554"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "disk/blade",
       "keyword": "blade",
       "context": "disk",
       "path": "disk/blade",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:464"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -514,6 +896,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -530,6 +915,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "rotatingZone",
@@ -549,8 +937,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:539"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -567,6 +962,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -581,8 +979,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedTrim"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/trimModel/fixed/fixedTrim.C:66"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -597,8 +1002,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedTrim"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/trimModel/fixed/fixedTrim.C:67"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -613,8 +1025,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedTrim"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/trimModel/fixed/fixedTrim.C:68"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -627,10 +1046,18 @@
       "context": "disk",
       "path": "disk/flapCoeffs",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:551"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -647,6 +1074,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -663,6 +1093,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -679,6 +1112,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -695,6 +1131,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "specified",
@@ -714,8 +1153,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:547"
+      ],
       "values": [
         {
           "value": "local",
@@ -728,6 +1174,26 @@
       ]
     },
     {
+      "key": "disk/inletNormalVelocity",
+      "keyword": "inletNormalVelocity",
+      "context": "disk",
+      "path": "disk/inletNormalVelocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:96"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "disk/inletVelocity",
       "keyword": "inletVelocity",
       "context": "disk",
@@ -735,8 +1201,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:91"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -751,8 +1224,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:545"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -767,8 +1247,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:342"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -776,15 +1263,43 @@
       ]
     },
     {
+      "key": "disk/pointAbove",
+      "keyword": "pointAbove",
+      "context": "disk",
+      "path": "disk/pointAbove",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:323"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "disk/profiles",
       "keyword": "profiles",
       "context": "disk",
       "path": "disk/profiles",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:465"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -801,11 +1316,35 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
         "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
       ]
+    },
+    {
+      "key": "disk/profiles/profile1/absorptivity",
+      "keyword": "absorptivity",
+      "context": "disk/profiles/profile1",
+      "path": "disk/profiles/profile1/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:101",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:114"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "disk/profiles/profile1/data",
@@ -815,13 +1354,41 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/profileModel/lookup/lookupProfile.C:114"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
         "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
       ]
+    },
+    {
+      "key": "disk/profiles/profile1/emissivity",
+      "keyword": "emissivity",
+      "context": "disk/profiles/profile1",
+      "path": "disk/profiles/profile1/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:74",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:87"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "disk/profiles/profile1/type",
@@ -833,6 +1400,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "lookup",
@@ -852,8 +1422,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 4,
+      "fileCount": 3,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:332",
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:344"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -870,6 +1448,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -884,8 +1465,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:489"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -900,8 +1488,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:543"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -918,6 +1513,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cellZone",
@@ -937,8 +1535,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotorDisk"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/rotorDiskSource/rotorDiskSource.C:549"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/rotorDisk/system/fvOptions",
@@ -955,6 +1560,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fixedTrim",
@@ -976,6 +1584,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "rotorDisk",
@@ -997,6 +1608,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1012,6 +1626,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -1032,6 +1649,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1047,6 +1667,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1062,6 +1685,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "points",
@@ -1082,6 +1708,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1097,6 +1726,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1112,6 +1744,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1127,6 +1762,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "scalarSemiImplicitSource",
@@ -1147,6 +1785,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "absolute",
@@ -1167,6 +1808,9 @@
       ],
       "occurrences": 10,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/fvOptions",
@@ -1186,6 +1830,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/losses/system/fvOptions",
@@ -1203,6 +1850,9 @@
       ],
       "occurrences": 10,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "linear",
@@ -1229,8 +1879,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 10,
-      "fileCount": 10,
+      "occurrences": 11,
+      "fileCount": 11,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "topOSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/fvOptions/sources/TopO/topOSource/topOSource.C:206"
+      ],
       "values": [
         {
           "value": "beta",
@@ -1253,8 +1910,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 10,
-      "fileCount": 10,
+      "occurrences": 11,
+      "fileCount": 11,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "topOSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/fvOptions/sources/TopO/topOSource/topOSource.C:205"
+      ],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/fvOptions",
@@ -1274,6 +1938,9 @@
       ],
       "occurrences": 10,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "topOSource",
@@ -1298,6 +1965,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1313,6 +1983,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -1333,6 +2006,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1348,6 +2024,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "filter",
@@ -1368,6 +2047,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1383,6 +2065,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1398,6 +2083,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1413,6 +2101,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1428,6 +2119,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1443,6 +2137,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1458,6 +2155,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1473,6 +2173,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cellZone",
@@ -1493,6 +2196,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "DarcyForchheimer",
@@ -1513,6 +2219,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "explicitPorositySource",
@@ -1524,6 +2233,26 @@
       ]
     },
     {
+      "key": "filter1/UNames",
+      "keyword": "UNames",
+      "context": "filter1",
+      "path": "filter1/UNames",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "explicitPorositySource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/explicitPorositySource/explicitPorositySource.C:111"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "FoamFile",
       "keyword": "FoamFile",
       "context": "",
@@ -1533,6 +2262,9 @@
       ],
       "occurrences": 41,
       "fileCount": 41,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions",
@@ -1552,6 +2284,9 @@
       ],
       "occurrences": 41,
       "fileCount": 41,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -1576,6 +2311,9 @@
       ],
       "occurrences": 41,
       "fileCount": 41,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -1600,6 +2338,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"system\"",
@@ -1620,6 +2361,9 @@
       ],
       "occurrences": 41,
       "fileCount": 41,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fvOptions",
@@ -1644,6 +2388,9 @@
       ],
       "occurrences": 41,
       "fileCount": 41,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions",
@@ -1663,6 +2410,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1678,6 +2428,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -1698,6 +2451,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "heater",
@@ -1718,6 +2474,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1733,6 +2492,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cellZone",
@@ -1753,6 +2515,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1768,6 +2533,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1783,6 +2551,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1798,6 +2569,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -1813,6 +2587,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "scalarSemiImplicitSource",
@@ -1833,6 +2610,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "specific",
@@ -1853,6 +2633,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
@@ -1868,6 +2651,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
@@ -1883,8 +2669,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "limitTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/corrections/limitTemperature/limitTemperature.C:97"
+      ],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
@@ -1900,14 +2693,41 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "limitTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/corrections/limitTemperature/limitTemperature.C:96"
+      ],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
         "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
         "lagrangian/simpleReactingParcelFoam/verticalChannel/system/fvOptions"
       ]
+    },
+    {
+      "key": "limitT/phase",
+      "keyword": "phase",
+      "context": "limitT",
+      "path": "limitT/phase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "limitTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/corrections/limitTemperature/limitTemperature.C:98"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "limitT/selectionMode",
@@ -1919,6 +2739,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -1941,6 +2764,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "limitTemperature",
@@ -1963,6 +2789,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
@@ -1978,6 +2807,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -1996,8 +2828,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "limitTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/corrections/limitTemperature/limitTemperature.C:97"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
@@ -2011,12 +2850,39 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "limitTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/corrections/limitTemperature/limitTemperature.C:96"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
       ]
+    },
+    {
+      "key": "limitTAir/phase",
+      "keyword": "phase",
+      "context": "limitTAir",
+      "path": "limitTAir/phase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "limitTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/corrections/limitTemperature/limitTemperature.C:98"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "limitTAir/selectionMode",
@@ -2028,6 +2894,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -2048,6 +2917,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "limitTemperature",
@@ -2068,10 +2940,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
       ]
+    },
+    {
+      "key": "Mangroves/a",
+      "keyword": "a",
+      "context": "Mangroves",
+      "path": "Mangroves/a",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesSource/multiphaseMangrovesSource.C:231"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "Mangroves/active",
@@ -2083,6 +2978,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -2094,6 +2992,66 @@
       ]
     },
     {
+      "key": "Mangroves/Cd",
+      "keyword": "Cd",
+      "context": "Mangroves",
+      "path": "Mangroves/Cd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesSource/multiphaseMangrovesSource.C:234"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "Mangroves/cellZone",
+      "keyword": "cellZone",
+      "context": "Mangroves",
+      "path": "Mangroves/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesSource/multiphaseMangrovesSource.C:220"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "Mangroves/Cm",
+      "keyword": "Cm",
+      "context": "Mangroves",
+      "path": "Mangroves/Cm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesSource/multiphaseMangrovesSource.C:233"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "Mangroves/multiphaseMangrovesSourceCoeffs",
       "keyword": "multiphaseMangrovesSourceCoeffs",
       "context": "Mangroves",
@@ -2103,6 +3061,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -2118,6 +3079,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -2133,6 +3097,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -2148,6 +3115,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -2163,6 +3133,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -2178,6 +3151,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "c0",
@@ -2198,6 +3174,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -2213,10 +3192,53 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
       ]
+    },
+    {
+      "key": "Mangroves/N",
+      "keyword": "N",
+      "context": "Mangroves",
+      "path": "Mangroves/N",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesSource/multiphaseMangrovesSource.C:232"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "Mangroves/regions",
+      "keyword": "regions",
+      "context": "Mangroves",
+      "path": "Mangroves/regions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesSource/multiphaseMangrovesSource.C:207"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "Mangroves/type",
@@ -2228,6 +3250,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiphaseMangrovesSource",
@@ -2239,6 +3264,26 @@
       ]
     },
     {
+      "key": "Mangroves/UNames",
+      "keyword": "UNames",
+      "context": "Mangroves",
+      "path": "Mangroves/UNames",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesSource/multiphaseMangrovesSource.C:199"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "massSource1",
       "keyword": "massSource1",
       "context": "",
@@ -2248,6 +3293,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2263,6 +3311,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -2283,6 +3334,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2298,6 +3352,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2313,6 +3370,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "points",
@@ -2333,6 +3393,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2348,6 +3411,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2363,6 +3429,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2378,6 +3447,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2393,6 +3465,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "scalarSemiImplicitSource",
@@ -2413,6 +3488,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "absolute",
@@ -2433,6 +3511,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/periodicHill/steadyState/system/fvOptions",
@@ -2449,6 +3530,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "inletCellZone",
@@ -2468,13 +3552,40 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "meanVelocityForce"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/meanVelocityForce/meanVelocityForce.C:94"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/periodicHill/steadyState/system/fvOptions",
         "incompressible/pimpleFoam/LES/periodicHill/transient/system/fvOptions"
       ]
+    },
+    {
+      "key": "momentumSource/gradient",
+      "keyword": "gradient",
+      "context": "momentumSource",
+      "path": "momentumSource/gradient",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "meanVelocityForce"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/meanVelocityForce/meanVelocityForce.C:114"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "momentumSource/selectionMode",
@@ -2486,6 +3597,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cellZone",
@@ -2507,6 +3621,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "meanVelocityForce",
@@ -2526,8 +3643,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "meanVelocityForce"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/meanVelocityForce/meanVelocityForce.C:87"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/periodicHill/steadyState/system/fvOptions",
@@ -2544,6 +3668,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2559,6 +3686,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -2579,6 +3709,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2594,6 +3727,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2609,6 +3745,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "points",
@@ -2629,6 +3768,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2644,6 +3786,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2659,6 +3804,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/fvOptions"
@@ -2674,6 +3822,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "vectorSemiImplicitSource",
@@ -2694,6 +3845,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "absolute",
@@ -2714,6 +3868,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_01x/system/fvOptions",
@@ -2733,6 +3890,9 @@
       ],
       "occurrences": 8,
       "fileCount": 8,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet_Dual_Bottleneck/losses-mass-30-70/system/fvOptions",
@@ -2752,6 +3912,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "linear",
@@ -2778,8 +3941,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 17,
-      "fileCount": 17,
+      "occurrences": 18,
+      "fileCount": 18,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "topOSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/fvOptions/sources/TopO/topOSource/topOSource.C:206"
+      ],
       "values": [
         {
           "value": "beta",
@@ -2802,8 +3972,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 17,
-      "fileCount": 17,
+      "occurrences": 18,
+      "fileCount": 18,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "topOSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/fvOptions/sources/TopO/topOSource/topOSource.C:205"
+      ],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_01x/system/fvOptions",
@@ -2823,6 +4000,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "topOSource",
@@ -2847,6 +4027,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/system/fvOptions"
@@ -2862,6 +4045,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -2882,6 +4068,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/system/fvOptions"
@@ -2897,6 +4086,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "porousZone",
@@ -2917,6 +4109,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/system/fvOptions"
@@ -2932,6 +4127,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/system/fvOptions"
@@ -2947,6 +4145,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/system/fvOptions"
@@ -2962,6 +4163,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/system/fvOptions"
@@ -2977,6 +4181,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/system/fvOptions"
@@ -2992,6 +4199,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/system/fvOptions"
@@ -3007,6 +4217,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/simpleCar/system/fvOptions"
@@ -3022,6 +4235,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cellZone",
@@ -3042,6 +4258,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "DarcyForchheimer",
@@ -3062,6 +4281,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "explicitPorositySource",
@@ -3073,6 +4295,26 @@
       ]
     },
     {
+      "key": "porosity1/UNames",
+      "keyword": "UNames",
+      "context": "porosity1",
+      "path": "porosity1/UNames",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "explicitPorositySource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvOptions/sources/derived/explicitPorositySource/explicitPorositySource.C:111"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "TurbulenciaMangroves",
       "keyword": "TurbulenciaMangroves",
       "context": "",
@@ -3082,10 +4324,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
       ]
+    },
+    {
+      "key": "TurbulenciaMangroves/a",
+      "keyword": "a",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/a",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesTurbulenceModel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesTurbulenceModel/multiphaseMangrovesTurbulenceModel.C:259"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "TurbulenciaMangroves/active",
@@ -3097,6 +4362,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -3108,6 +4376,126 @@
       ]
     },
     {
+      "key": "TurbulenciaMangroves/Cd",
+      "keyword": "Cd",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/Cd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesTurbulenceModel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesTurbulenceModel/multiphaseMangrovesTurbulenceModel.C:263"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "TurbulenciaMangroves/cellZone",
+      "keyword": "cellZone",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesTurbulenceModel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesTurbulenceModel/multiphaseMangrovesTurbulenceModel.C:248"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "TurbulenciaMangroves/Cep",
+      "keyword": "Cep",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/Cep",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesTurbulenceModel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesTurbulenceModel/multiphaseMangrovesTurbulenceModel.C:262"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "TurbulenciaMangroves/Ckp",
+      "keyword": "Ckp",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/Ckp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesTurbulenceModel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesTurbulenceModel/multiphaseMangrovesTurbulenceModel.C:261"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "TurbulenciaMangroves/epsilon",
+      "keyword": "epsilon",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/epsilon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesTurbulenceModel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesTurbulenceModel/multiphaseMangrovesTurbulenceModel.C:222"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "TurbulenciaMangroves/epsilonNames",
+      "keyword": "epsilonNames",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/epsilonNames",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesTurbulenceModel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesTurbulenceModel/multiphaseMangrovesTurbulenceModel.C:217"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs",
       "keyword": "multiphaseMangrovesTurbulenceModelCoeffs",
       "context": "TurbulenciaMangroves",
@@ -3117,6 +4505,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -3132,6 +4523,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -3147,6 +4541,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -3162,6 +4559,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -3177,6 +4577,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -3192,6 +4595,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "c0",
@@ -3212,6 +4618,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -3227,6 +4636,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
@@ -3242,10 +4654,53 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
       ]
+    },
+    {
+      "key": "TurbulenciaMangroves/N",
+      "keyword": "N",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/N",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesTurbulenceModel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesTurbulenceModel/multiphaseMangrovesTurbulenceModel.C:260"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "TurbulenciaMangroves/regions",
+      "keyword": "regions",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/regions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiphaseMangrovesTurbulenceModel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/fvOptions/multiphaseMangrovesTurbulenceModel/multiphaseMangrovesTurbulenceModel.C:234"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "TurbulenciaMangroves/type",
@@ -3257,6 +4712,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiphaseMangrovesTurbulenceModel",

@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "bottomAir/turbulenceProperties",
   "sourceFileCount": 4,
+  "sourceEvidenceFileCount": 3,
   "occurrences": 24,
+  "sourceOccurrences": 3,
   "entries": [
     {
       "key": "FoamFile",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/bottomAir/turbulenceProperties",
@@ -34,6 +39,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -57,6 +65,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -80,6 +91,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "turbulenceProperties",
@@ -103,6 +117,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/bottomAir/turbulenceProperties",
@@ -110,6 +127,66 @@
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/bottomAir/turbulenceProperties",
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/constant/bottomAir/turbulenceProperties"
       ]
+    },
+    {
+      "key": "laminarCoeffs/Cf",
+      "keyword": "Cf",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/Cf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmTurbulenceModel/laminar/laminar.C:62"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/laminar",
+      "keyword": "laminar",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/laminar",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/laminar/laminarModel/laminarModel.C:177"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/maxIntegrationTime",
+      "keyword": "maxIntegrationTime",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/maxIntegrationTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/combustionModels/laminar/laminar.C:97"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "simulationType",
@@ -121,6 +198,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "laminar",

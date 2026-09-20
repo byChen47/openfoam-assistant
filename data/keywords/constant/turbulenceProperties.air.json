@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "turbulenceProperties.air",
   "sourceFileCount": 28,
+  "sourceEvidenceFileCount": 5,
   "occurrences": 206,
+  "sourceOccurrences": 9,
   "entries": [
     {
       "key": "FoamFile",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 28,
       "fileCount": 28,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/DPMFoam/Goldschmidt/constant/turbulenceProperties.air",
@@ -35,6 +40,9 @@
       ],
       "occurrences": 28,
       "fileCount": 28,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -59,6 +67,9 @@
       ],
       "occurrences": 28,
       "fileCount": 28,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -83,6 +94,9 @@
       ],
       "occurrences": 28,
       "fileCount": 28,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "turbulenceProperties.air",
@@ -111,6 +125,9 @@
       ],
       "occurrences": 28,
       "fileCount": 28,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/DPMFoam/Goldschmidt/constant/turbulenceProperties.air",
@@ -119,6 +136,66 @@
         "lagrangian/MPPICFoam/column/constant/turbulenceProperties.air",
         "lagrangian/MPPICFoam/cyclone/constant/turbulenceProperties.air"
       ]
+    },
+    {
+      "key": "laminarCoeffs/Cf",
+      "keyword": "Cf",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/Cf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmTurbulenceModel/laminar/laminar.C:62"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/laminar",
+      "keyword": "laminar",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/laminar",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/laminar/laminarModel/laminarModel.C:177"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/maxIntegrationTime",
+      "keyword": "maxIntegrationTime",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/maxIntegrationTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/combustionModels/laminar/laminar.C:97"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "LES",
@@ -130,6 +207,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/MPPICFoam/cyclone/constant/turbulenceProperties.air",
@@ -147,6 +227,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/MPPICFoam/cyclone/constant/turbulenceProperties.air",
@@ -164,6 +247,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cubeRootVol",
@@ -186,6 +272,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "continuousGasKEqn",
@@ -212,6 +301,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -234,6 +326,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -247,6 +342,47 @@
       ]
     },
     {
+      "key": "LESCoeffs/LES",
+      "keyword": "LES",
+      "context": "LESCoeffs",
+      "path": "LESCoeffs/LES",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "LES"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.C:156",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.C:193"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "LESCoeffs/turbulence",
+      "keyword": "turbulence",
+      "context": "LESCoeffs",
+      "path": "LESCoeffs/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "LES"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.C:194"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "RAS",
       "keyword": "RAS",
       "context": "",
@@ -256,6 +392,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumn/constant/turbulenceProperties.air",
@@ -275,6 +414,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -299,6 +441,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "mixtureKEpsilon",
@@ -327,6 +472,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -342,6 +490,47 @@
       ]
     },
     {
+      "key": "RASCoeffs/RAS",
+      "keyword": "RAS",
+      "context": "RASCoeffs",
+      "path": "RASCoeffs/RAS",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "RAS"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.C:138",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.C:175"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "RASCoeffs/turbulence",
+      "keyword": "turbulence",
+      "context": "RASCoeffs",
+      "path": "RASCoeffs/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "RAS"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.C:176"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "simulationType",
       "keyword": "simulationType",
       "context": "",
@@ -351,6 +540,9 @@
       ],
       "occurrences": 28,
       "fileCount": 28,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "laminar",

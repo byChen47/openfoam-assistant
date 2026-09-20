@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "decomposeConstraints",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 3,
   "occurrences": 38,
+  "sourceOccurrences": 8,
   "entries": [
     {
       "key": "constraints",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -46,6 +54,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "preserveBaffles",
@@ -66,6 +77,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -81,6 +95,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -97,10 +114,18 @@
       "context": "constraints/geometric",
       "path": "constraints/geometric/selection",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "geometric"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/geometric/geometricConstraint.C:62"
+      ],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -116,6 +141,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -131,6 +159,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -146,6 +177,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -161,6 +195,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sphere",
@@ -181,6 +218,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -196,6 +236,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "surface",
@@ -216,6 +259,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "blob.obj",
@@ -236,6 +282,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "triSurfaceMesh",
@@ -247,6 +296,48 @@
       ]
     },
     {
+      "key": "constraints/geometric/selection/blob/triSurfaceMeshCoeffs/file",
+      "keyword": "file",
+      "context": "constraints/geometric/selection/blob/triSurfaceMeshCoeffs",
+      "path": "constraints/geometric/selection/blob/triSurfaceMeshCoeffs/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:371",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:555"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "constraints/geometric/selection/blob/triSurfaceMeshCoeffs/minQuality",
+      "keyword": "minQuality",
+      "context": "constraints/geometric/selection/blob/triSurfaceMeshCoeffs",
+      "path": "constraints/geometric/selection/blob/triSurfaceMeshCoeffs/minQuality",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:393",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:642"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "constraints/geometric/selection/box1",
       "keyword": "box1",
       "context": "constraints/geometric/selection",
@@ -256,6 +347,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -271,6 +365,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -286,6 +383,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -301,6 +401,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "box",
@@ -321,6 +424,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -336,6 +442,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -351,6 +460,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -366,6 +478,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -381,6 +496,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "surface",
@@ -401,6 +519,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "disk",
@@ -421,6 +542,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -436,6 +560,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -451,6 +578,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -466,6 +596,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sphere",
@@ -486,6 +619,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -501,6 +637,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -516,6 +655,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -531,6 +673,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sphere",
@@ -542,6 +687,26 @@
       ]
     },
     {
+      "key": "constraints/geometric/sourceInfo",
+      "keyword": "sourceInfo",
+      "context": "constraints/geometric",
+      "path": "constraints/geometric/sourceInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "geometric"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/geometric/geometricConstraint.C:141"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "constraints/geometric/type",
       "keyword": "type",
       "context": "constraints/geometric",
@@ -549,8 +714,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "geometric"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/objectives/geometric/objectiveGeometric/objectiveGeometric.C:75"
+      ],
       "values": [
         {
           "value": "geometric",
@@ -562,6 +734,26 @@
       ]
     },
     {
+      "key": "constraints/geometric/weight",
+      "keyword": "weight",
+      "context": "constraints/geometric",
+      "path": "constraints/geometric/weight",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "geometric"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/objectives/geometric/objectiveGeometric/objectiveGeometric.C:61"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "FoamFile",
       "keyword": "FoamFile",
       "context": "",
@@ -571,6 +763,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
@@ -586,6 +781,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -606,6 +804,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -626,6 +827,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "decomposeConstraints",
@@ -646,6 +850,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"

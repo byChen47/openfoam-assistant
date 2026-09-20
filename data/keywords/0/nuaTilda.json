@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "nuaTilda",
   "sourceFileCount": 36,
+  "sourceEvidenceFileCount": 5,
   "occurrences": 1056,
+  "sourceOccurrences": 5,
   "entries": [
     {
       "key": "boundaryField",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
@@ -36,6 +41,9 @@
       ],
       "occurrences": 274,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
@@ -44,6 +52,32 @@
         "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
         "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/solverName",
+      "keyword": "solverName",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/solverName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "adjointFarFieldNuaTilda",
+        "adjointInletNuaTilda",
+        "adjointOutletNuaTilda",
+        "adjointOutletNuaTildaFlux"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointFarFieldNuaTilda/adjointFarFieldNuaTildaFvPatchScalarField.C:78",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointInletNuaTilda/adjointInletNuaTildaFvPatchScalarField.C:72",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletNuaTilda/adjointOutletNuaTildaFvPatchScalarField.C:74",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletNuaTildaFlux/adjointOutletNuaTildaFluxFvPatchScalarField.C:77"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/type",
@@ -55,6 +89,9 @@
       ],
       "occurrences": 270,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fixedValue",
@@ -97,8 +134,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 224,
-      "fileCount": 36,
+      "occurrences": 225,
+      "fileCount": 37,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 0",
@@ -123,6 +167,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
@@ -142,6 +189,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
@@ -161,6 +211,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -185,6 +238,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -209,6 +265,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "nuTilda",
@@ -237,6 +296,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
@@ -256,6 +318,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",

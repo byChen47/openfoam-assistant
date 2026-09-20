@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "turbulenceProperties",
   "sourceFileCount": 412,
+  "sourceEvidenceFileCount": 24,
   "occurrences": 4143,
+  "sourceOccurrences": 190,
   "entries": [
     {
       "key": "#include",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/decayIsoTurb/constant/turbulenceProperties"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "variable",
@@ -53,8 +61,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 412,
-      "fileCount": 412,
+      "occurrences": 418,
+      "fileCount": 418,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:8",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:8",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:8",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:8",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:8"
+      ],
       "values": [],
       "examples": [
         "basic/simpleFoam/implicitAMI/constant/turbulenceProperties",
@@ -74,6 +93,9 @@
       ],
       "occurrences": 412,
       "fileCount": 412,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -98,6 +120,9 @@
       ],
       "occurrences": 412,
       "fileCount": 412,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -122,6 +147,9 @@
       ],
       "occurrences": 11,
       "fileCount": 11,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"constant\"",
@@ -146,6 +174,9 @@
       ],
       "occurrences": 412,
       "fileCount": 412,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "turbulenceProperties",
@@ -174,6 +205,9 @@
       ],
       "occurrences": 412,
       "fileCount": 412,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/simpleFoam/implicitAMI/constant/turbulenceProperties",
@@ -182,6 +216,1026 @@
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties"
       ]
+    },
+    {
+      "key": "kEpsilonCoeffs/compressibleFields",
+      "keyword": "compressibleFields",
+      "context": "kEpsilonCoeffs",
+      "path": "kEpsilonCoeffs/compressibleFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:42"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/compressibleFields/alphat",
+      "keyword": "alphat",
+      "context": "kEpsilonCoeffs/compressibleFields",
+      "path": "kEpsilonCoeffs/compressibleFields/alphat",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:44"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/compressibleFields/alphat/dimensions",
+      "keyword": "dimensions",
+      "context": "kEpsilonCoeffs/compressibleFields/alphat",
+      "path": "kEpsilonCoeffs/compressibleFields/alphat/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:47"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/compressibleFields/alphat/type",
+      "keyword": "type",
+      "context": "kEpsilonCoeffs/compressibleFields/alphat",
+      "path": "kEpsilonCoeffs/compressibleFields/alphat/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:46"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/fluidFields",
+      "keyword": "fluidFields",
+      "context": "kEpsilonCoeffs",
+      "path": "kEpsilonCoeffs/fluidFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:18"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/fluidFields/epsilon",
+      "keyword": "epsilon",
+      "context": "kEpsilonCoeffs/fluidFields",
+      "path": "kEpsilonCoeffs/fluidFields/epsilon",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:25"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/fluidFields/epsilon/dimensions",
+      "keyword": "dimensions",
+      "context": "kEpsilonCoeffs/fluidFields/epsilon",
+      "path": "kEpsilonCoeffs/fluidFields/epsilon/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:28"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/fluidFields/epsilon/type",
+      "keyword": "type",
+      "context": "kEpsilonCoeffs/fluidFields/epsilon",
+      "path": "kEpsilonCoeffs/fluidFields/epsilon/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:27"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/fluidFields/k",
+      "keyword": "k",
+      "context": "kEpsilonCoeffs/fluidFields",
+      "path": "kEpsilonCoeffs/fluidFields/k",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:20"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/fluidFields/k/dimensions",
+      "keyword": "dimensions",
+      "context": "kEpsilonCoeffs/fluidFields/k",
+      "path": "kEpsilonCoeffs/fluidFields/k/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:23"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/fluidFields/k/type",
+      "keyword": "type",
+      "context": "kEpsilonCoeffs/fluidFields/k",
+      "path": "kEpsilonCoeffs/fluidFields/k/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:22"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/fluidFields/nut",
+      "keyword": "nut",
+      "context": "kEpsilonCoeffs/fluidFields",
+      "path": "kEpsilonCoeffs/fluidFields/nut",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:30"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/fluidFields/nut/dimensions",
+      "keyword": "dimensions",
+      "context": "kEpsilonCoeffs/fluidFields/nut",
+      "path": "kEpsilonCoeffs/fluidFields/nut/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:33"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/fluidFields/nut/type",
+      "keyword": "type",
+      "context": "kEpsilonCoeffs/fluidFields/nut",
+      "path": "kEpsilonCoeffs/fluidFields/nut/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:32"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/FoamFile",
+      "keyword": "FoamFile",
+      "context": "kEpsilonCoeffs",
+      "path": "kEpsilonCoeffs/FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:8"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kEpsilonCoeffs/incompressibleFields",
+      "keyword": "incompressibleFields",
+      "context": "kEpsilonCoeffs",
+      "path": "kEpsilonCoeffs/incompressibleFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kEpsilon:38"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/compressibleFields",
+      "keyword": "compressibleFields",
+      "context": "kOmegaCoeffs",
+      "path": "kOmegaCoeffs/compressibleFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:42"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/compressibleFields/alphat",
+      "keyword": "alphat",
+      "context": "kOmegaCoeffs/compressibleFields",
+      "path": "kOmegaCoeffs/compressibleFields/alphat",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:44"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/compressibleFields/alphat/dimensions",
+      "keyword": "dimensions",
+      "context": "kOmegaCoeffs/compressibleFields/alphat",
+      "path": "kOmegaCoeffs/compressibleFields/alphat/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:47"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/compressibleFields/alphat/type",
+      "keyword": "type",
+      "context": "kOmegaCoeffs/compressibleFields/alphat",
+      "path": "kOmegaCoeffs/compressibleFields/alphat/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:46"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/fluidFields",
+      "keyword": "fluidFields",
+      "context": "kOmegaCoeffs",
+      "path": "kOmegaCoeffs/fluidFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:18"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/fluidFields/k",
+      "keyword": "k",
+      "context": "kOmegaCoeffs/fluidFields",
+      "path": "kOmegaCoeffs/fluidFields/k",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:20"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/fluidFields/k/dimensions",
+      "keyword": "dimensions",
+      "context": "kOmegaCoeffs/fluidFields/k",
+      "path": "kOmegaCoeffs/fluidFields/k/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:23"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/fluidFields/k/type",
+      "keyword": "type",
+      "context": "kOmegaCoeffs/fluidFields/k",
+      "path": "kOmegaCoeffs/fluidFields/k/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:22"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/fluidFields/nut",
+      "keyword": "nut",
+      "context": "kOmegaCoeffs/fluidFields",
+      "path": "kOmegaCoeffs/fluidFields/nut",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:30"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/fluidFields/nut/dimensions",
+      "keyword": "dimensions",
+      "context": "kOmegaCoeffs/fluidFields/nut",
+      "path": "kOmegaCoeffs/fluidFields/nut/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:33"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/fluidFields/nut/type",
+      "keyword": "type",
+      "context": "kOmegaCoeffs/fluidFields/nut",
+      "path": "kOmegaCoeffs/fluidFields/nut/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:32"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/fluidFields/omega",
+      "keyword": "omega",
+      "context": "kOmegaCoeffs/fluidFields",
+      "path": "kOmegaCoeffs/fluidFields/omega",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:25"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/fluidFields/omega/dimensions",
+      "keyword": "dimensions",
+      "context": "kOmegaCoeffs/fluidFields/omega",
+      "path": "kOmegaCoeffs/fluidFields/omega/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:28"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/fluidFields/omega/type",
+      "keyword": "type",
+      "context": "kOmegaCoeffs/fluidFields/omega",
+      "path": "kOmegaCoeffs/fluidFields/omega/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:27"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/FoamFile",
+      "keyword": "FoamFile",
+      "context": "kOmegaCoeffs",
+      "path": "kOmegaCoeffs/FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:8"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaCoeffs/incompressibleFields",
+      "keyword": "incompressibleFields",
+      "context": "kOmegaCoeffs",
+      "path": "kOmegaCoeffs/incompressibleFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmega:38"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/compressibleFields",
+      "keyword": "compressibleFields",
+      "context": "kOmegaSSTCoeffs",
+      "path": "kOmegaSSTCoeffs/compressibleFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:41"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/compressibleFields/alphat",
+      "keyword": "alphat",
+      "context": "kOmegaSSTCoeffs/compressibleFields",
+      "path": "kOmegaSSTCoeffs/compressibleFields/alphat",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:43"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/compressibleFields/alphat/dimensions",
+      "keyword": "dimensions",
+      "context": "kOmegaSSTCoeffs/compressibleFields/alphat",
+      "path": "kOmegaSSTCoeffs/compressibleFields/alphat/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:46"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/compressibleFields/alphat/type",
+      "keyword": "type",
+      "context": "kOmegaSSTCoeffs/compressibleFields/alphat",
+      "path": "kOmegaSSTCoeffs/compressibleFields/alphat/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:45"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/fluidFields",
+      "keyword": "fluidFields",
+      "context": "kOmegaSSTCoeffs",
+      "path": "kOmegaSSTCoeffs/fluidFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:17"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/fluidFields/k",
+      "keyword": "k",
+      "context": "kOmegaSSTCoeffs/fluidFields",
+      "path": "kOmegaSSTCoeffs/fluidFields/k",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:19"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/fluidFields/k/dimensions",
+      "keyword": "dimensions",
+      "context": "kOmegaSSTCoeffs/fluidFields/k",
+      "path": "kOmegaSSTCoeffs/fluidFields/k/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:22"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/fluidFields/k/type",
+      "keyword": "type",
+      "context": "kOmegaSSTCoeffs/fluidFields/k",
+      "path": "kOmegaSSTCoeffs/fluidFields/k/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:21"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/fluidFields/nut",
+      "keyword": "nut",
+      "context": "kOmegaSSTCoeffs/fluidFields",
+      "path": "kOmegaSSTCoeffs/fluidFields/nut",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:29"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/fluidFields/nut/dimensions",
+      "keyword": "dimensions",
+      "context": "kOmegaSSTCoeffs/fluidFields/nut",
+      "path": "kOmegaSSTCoeffs/fluidFields/nut/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:32"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/fluidFields/nut/type",
+      "keyword": "type",
+      "context": "kOmegaSSTCoeffs/fluidFields/nut",
+      "path": "kOmegaSSTCoeffs/fluidFields/nut/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:31"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/fluidFields/omega",
+      "keyword": "omega",
+      "context": "kOmegaSSTCoeffs/fluidFields",
+      "path": "kOmegaSSTCoeffs/fluidFields/omega",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:24"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/fluidFields/omega/dimensions",
+      "keyword": "dimensions",
+      "context": "kOmegaSSTCoeffs/fluidFields/omega",
+      "path": "kOmegaSSTCoeffs/fluidFields/omega/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:27"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/fluidFields/omega/type",
+      "keyword": "type",
+      "context": "kOmegaSSTCoeffs/fluidFields/omega",
+      "path": "kOmegaSSTCoeffs/fluidFields/omega/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:26"
+      ],
+      "values": [
+        {
+          "value": "scalar",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/FoamFile",
+      "keyword": "FoamFile",
+      "context": "kOmegaSSTCoeffs",
+      "path": "kOmegaSSTCoeffs/FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:8"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "kOmegaSSTCoeffs/incompressibleFields",
+      "keyword": "incompressibleFields",
+      "context": "kOmegaSSTCoeffs",
+      "path": "kOmegaSSTCoeffs/incompressibleFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/kOmegaSST:37"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "laminar",
@@ -193,6 +1247,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
@@ -212,6 +1269,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
@@ -228,6 +1288,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/planarContraction/constant/turbulenceProperties"
@@ -243,6 +1306,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Maxwell/constant/turbulenceProperties",
@@ -259,6 +1325,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Maxwell/constant/turbulenceProperties",
@@ -275,6 +1344,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Maxwell/constant/turbulenceProperties",
@@ -291,6 +1363,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "generalizedNewtonian",
@@ -323,6 +1398,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
@@ -339,6 +1417,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/planarContraction/constant/turbulenceProperties"
@@ -354,6 +1435,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
@@ -370,11 +1454,157 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
         "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/constant/turbulenceProperties"
       ]
+    },
+    {
+      "key": "laminar/powerLawCoeffs/C0",
+      "keyword": "C0",
+      "context": "laminar/powerLawCoeffs",
+      "path": "laminar/powerLawCoeffs/C0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "powerLaw"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/cfdTools/general/porosityModel/powerLaw/powerLaw.C:58"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminar/powerLawCoeffs/C1",
+      "keyword": "C1",
+      "context": "laminar/powerLawCoeffs",
+      "path": "laminar/powerLawCoeffs/C1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "powerLaw"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/cfdTools/general/porosityModel/powerLaw/powerLaw.C:59"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminar/powerLawCoeffs/k",
+      "keyword": "k",
+      "context": "laminar/powerLawCoeffs",
+      "path": "laminar/powerLawCoeffs/k",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "powerLaw"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/powerLaw/powerLaw.C:118"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminar/powerLawCoeffs/n",
+      "keyword": "n",
+      "context": "laminar/powerLawCoeffs",
+      "path": "laminar/powerLawCoeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "powerLaw"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/powerLaw/powerLaw.C:119",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/powerLaw/powerLaw.C:80"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminar/powerLawCoeffs/nuMax",
+      "keyword": "nuMax",
+      "context": "laminar/powerLawCoeffs",
+      "path": "laminar/powerLawCoeffs/nuMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "powerLaw"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/powerLaw/powerLaw.C:121",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/powerLaw/powerLaw.C:82"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminar/powerLawCoeffs/nuMin",
+      "keyword": "nuMin",
+      "context": "laminar/powerLawCoeffs",
+      "path": "laminar/powerLawCoeffs/nuMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "powerLaw"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/powerLaw/powerLaw.C:120",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/powerLaw/powerLaw.C:81"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminar/powerLawCoeffs/power",
+      "keyword": "power",
+      "context": "laminar/powerLawCoeffs",
+      "path": "laminar/powerLawCoeffs/power",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "powerLaw"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/populationBalanceModel/breakupModels/powerLaw/powerLawBreakup.C:56"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "laminar/printCoeffs",
@@ -386,6 +1616,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -408,6 +1641,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "powerLaw",
@@ -420,6 +1656,146 @@
       ]
     },
     {
+      "key": "laminarCoeffs/Cf",
+      "keyword": "Cf",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/Cf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmTurbulenceModel/laminar/laminar.C:62"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/compressibleFields",
+      "keyword": "compressibleFields",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/compressibleFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/laminar:26"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/fluidFields",
+      "keyword": "fluidFields",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/fluidFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/laminar:18"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/FoamFile",
+      "keyword": "FoamFile",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/laminar:8"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/incompressibleFields",
+      "keyword": "incompressibleFields",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/incompressibleFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/createZeroDirectoryTemplates/models/turbulence/laminar:22"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/laminar",
+      "keyword": "laminar",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/laminar",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/laminar/laminarModel/laminarModel.C:177"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/maxIntegrationTime",
+      "keyword": "maxIntegrationTime",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/maxIntegrationTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/combustionModels/laminar/laminar.C:97"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "LES",
       "keyword": "LES",
       "context": "",
@@ -427,8 +1803,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 27,
-      "fileCount": 27,
+      "occurrences": 33,
+      "fileCount": 33,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:27",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:27",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:27",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:27",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:27"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -446,8 +1833,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 15,
-      "fileCount": 15,
+      "occurrences": 21,
+      "fileCount": 21,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:35",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:35",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:35",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:35",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:35"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -465,8 +1863,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 15,
-      "fileCount": 15,
+      "occurrences": 21,
+      "fileCount": 21,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:37",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:37",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:37",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:37",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:37"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -484,12 +1893,23 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 26,
-      "fileCount": 26,
+      "occurrences": 32,
+      "fileCount": 32,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:30",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:30",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:30",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:30",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:30"
+      ],
       "values": [
         {
           "value": "cubeRootVol",
-          "occurrences": 12
+          "occurrences": 18
         },
         {
           "value": "vanDriest",
@@ -534,6 +1954,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/kOmegaSSTDDES-DeltaOmegaTilde-useSigmaTrue/constant/turbulenceProperties",
@@ -550,6 +1973,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pisoFoam/LES/pitzDaily/constant/turbulenceProperties"
@@ -565,6 +1991,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "simple",
@@ -585,6 +2014,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/periodicHill/transient/constant/turbulenceProperties",
@@ -602,6 +2034,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "maxDeltaxyzCubeRoot",
@@ -623,6 +2058,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/periodicHill/transient/constant/turbulenceProperties",
@@ -639,6 +2077,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -658,6 +2099,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire3D/constant/turbulenceProperties"
@@ -673,6 +2117,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties"
@@ -688,6 +2135,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
@@ -705,6 +2155,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/kOmegaSSTDDES-DeltaOmegaTilde-useSigmaTrue/constant/turbulenceProperties"
@@ -720,6 +2173,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -738,8 +2194,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 27,
-      "fileCount": 27,
+      "occurrences": 33,
+      "fileCount": 33,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:29",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:29",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:29",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:29",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:29"
+      ],
       "values": [
         {
           "value": "kEqn",
@@ -747,7 +2214,7 @@
         },
         {
           "value": "SpalartAllmarasDDES",
-          "occurrences": 5
+          "occurrences": 11
         },
         {
           "value": "SpalartAllmarasIDDES",
@@ -788,6 +2255,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-maxDeltaxyzCubeRoot/constant/turbulenceProperties"
@@ -803,6 +2273,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/XiDyMFoam/annularCombustorTurbine/constant/turbulenceProperties"
@@ -818,6 +2291,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/XiDyMFoam/annularCombustorTurbine/constant/turbulenceProperties"
@@ -833,6 +2309,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -852,6 +2331,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -871,6 +2353,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -890,6 +2375,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -909,6 +2397,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cubeRootVol",
@@ -933,6 +2424,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -952,6 +2446,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -971,6 +2468,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -990,6 +2490,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cubeRootVol",
@@ -1014,6 +2517,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1031,12 +2537,23 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 22,
-      "fileCount": 22,
+      "occurrences": 28,
+      "fileCount": 28,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:33",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:33",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:33",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:33",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:33"
+      ],
       "values": [
         {
           "value": "on",
-          "occurrences": 21
+          "occurrences": 27
         },
         {
           "value": "no",
@@ -1061,6 +2578,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-SLADelta-useSigmaFalse/constant/turbulenceProperties"
@@ -1076,6 +2596,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/constant/turbulenceProperties",
@@ -1092,6 +2615,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/constant/turbulenceProperties",
@@ -1108,6 +2634,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/constant/turbulenceProperties",
@@ -1122,8 +2651,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 13,
-      "fileCount": 13,
+      "occurrences": 19,
+      "fileCount": 19,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:40",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:40",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:40",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:40",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:40"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1141,8 +2681,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 13,
-      "fileCount": 13,
+      "occurrences": 19,
+      "fileCount": 19,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:43",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:43",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:43",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:43",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:43"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1160,8 +2711,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 13,
-      "fileCount": 13,
+      "occurrences": 19,
+      "fileCount": 19,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:45",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:45",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:45",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:45",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:45"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1179,12 +2741,23 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 13,
-      "fileCount": 13,
+      "occurrences": 19,
+      "fileCount": 19,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:42",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:42",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:42",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:42",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:42"
+      ],
       "values": [
         {
           "value": "cubeRootVol",
-          "occurrences": 13
+          "occurrences": 19
         }
       ],
       "examples": [
@@ -1203,8 +2776,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 13,
-      "fileCount": 13,
+      "occurrences": 19,
+      "fileCount": 19,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:47",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:47",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:47",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:47",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:47"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1224,12 +2808,55 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-DeltaOmegaTilde-useSigmaTrue/constant/turbulenceProperties",
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-maxDeltaxyzCubeRoot/constant/turbulenceProperties",
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-SLADelta-useSigmaFalse/constant/turbulenceProperties"
       ]
+    },
+    {
+      "key": "LES/SpalartAllmarasDDESCoeffs/shielding",
+      "keyword": "shielding",
+      "context": "LES/SpalartAllmarasDDESCoeffs",
+      "path": "LES/SpalartAllmarasDDESCoeffs/shielding",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "SpalartAllmarasDDES"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/DES/SpalartAllmarasDDES/SpalartAllmarasDDES.C:324"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "LES/SpalartAllmarasDDESCoeffs/usefP2",
+      "keyword": "usefP2",
+      "context": "LES/SpalartAllmarasDDESCoeffs",
+      "path": "LES/SpalartAllmarasDDESCoeffs/usefP2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "SpalartAllmarasDDES"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/DES/SpalartAllmarasDDES/SpalartAllmarasDDES.C:336"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "LES/SpalartAllmarasDDESCoeffs/useSigma",
@@ -1241,6 +2868,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -1266,6 +2896,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasIDDES-IDDESDelta/constant/turbulenceProperties"
@@ -1279,12 +2912,23 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 22,
-      "fileCount": 22,
+      "occurrences": 28,
+      "fileCount": 28,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:32",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:32",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:32",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:32",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:32"
+      ],
       "values": [
         {
           "value": "on",
-          "occurrences": 21
+          "occurrences": 27
         },
         {
           "value": "yes",
@@ -1309,6 +2953,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1328,6 +2975,9 @@
       ],
       "occurrences": 15,
       "fileCount": 15,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1347,6 +2997,9 @@
       ],
       "occurrences": 15,
       "fileCount": 15,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1366,6 +3019,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1385,6 +3041,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1404,6 +3063,9 @@
       ],
       "occurrences": 17,
       "fileCount": 17,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cubeRootVol",
@@ -1428,6 +3090,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1447,6 +3112,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1466,6 +3134,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1485,6 +3156,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cubeRootVol",
@@ -1509,6 +3183,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
@@ -1519,6 +3196,47 @@
       ]
     },
     {
+      "key": "LESCoeffs/LES",
+      "keyword": "LES",
+      "context": "LESCoeffs",
+      "path": "LESCoeffs/LES",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "LES"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.C:156",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.C:193"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "LESCoeffs/turbulence",
+      "keyword": "turbulence",
+      "context": "LESCoeffs",
+      "path": "LESCoeffs/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "LES"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESModel/LESModel.C:194"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "RAS",
       "keyword": "RAS",
       "context": "",
@@ -1526,8 +3244,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 237,
-      "fileCount": 237,
+      "occurrences": 243,
+      "fileCount": 243,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:19",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:19",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:19",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:19",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:19"
+      ],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
@@ -1547,6 +3276,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/driftFluxFoam/RAS/dahl/constant/turbulenceProperties",
@@ -1564,12 +3296,75 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/driftFluxFoam/RAS/dahl/constant/turbulenceProperties",
         "multiphase/driftFluxFoam/RAS/mixerVessel2D/constant/turbulenceProperties",
         "multiphase/driftFluxFoam/RAS/tank3D/constant/turbulenceProperties"
       ]
+    },
+    {
+      "key": "RAS/EBRSMCoeffs/simpleGradientDiffusion",
+      "keyword": "simpleGradientDiffusion",
+      "context": "RAS/EBRSMCoeffs",
+      "path": "RAS/EBRSMCoeffs/simpleGradientDiffusion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "EBRSM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/EBRSM/EBRSM.C:376"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "RAS/incompressibleKOmegaSSTCoeffs/decayControl",
+      "keyword": "decayControl",
+      "context": "RAS/incompressibleKOmegaSSTCoeffs",
+      "path": "RAS/incompressibleKOmegaSSTCoeffs/decayControl",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "incompressibleKOmegaSST"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fused/turbulenceModels/incompressibleKOmegaSST.C:371"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "RAS/incompressibleKOmegaSSTCoeffs/F3",
+      "keyword": "F3",
+      "context": "RAS/incompressibleKOmegaSSTCoeffs",
+      "path": "RAS/incompressibleKOmegaSSTCoeffs/F3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "incompressibleKOmegaSST"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fused/turbulenceModels/incompressibleKOmegaSST.C:405"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "RAS/kEpsilonCoeffs",
@@ -1581,6 +3376,9 @@
       ],
       "occurrences": 8,
       "fileCount": 8,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/chokedNozzle/constant/turbulenceProperties",
@@ -1600,6 +3398,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/constant/turbulenceProperties"
@@ -1615,6 +3416,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/turbineSiting/constant/turbulenceProperties",
@@ -1634,6 +3438,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/turbineSiting/constant/turbulenceProperties",
@@ -1653,6 +3460,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/XiEngineFoam/kivaTest/constant/turbulenceProperties"
@@ -1668,6 +3478,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/turbineSiting/constant/turbulenceProperties",
@@ -1687,6 +3500,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/chokedNozzle/constant/turbulenceProperties",
@@ -1703,6 +3519,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/turbineSiting/constant/turbulenceProperties",
@@ -1722,12 +3541,35 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kEpsilon/constant/turbulenceProperties",
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kEpsilon/constant/turbulenceProperties",
         "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/constant/turbulenceProperties"
       ]
+    },
+    {
+      "key": "RAS/kEpsilonPhitFCoeffs/includeNu",
+      "keyword": "includeNu",
+      "context": "RAS/kEpsilonPhitFCoeffs",
+      "path": "RAS/kEpsilonPhitFCoeffs/includeNu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "kEpsilonPhitF"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/kEpsilonPhitF/kEpsilonPhitF.C:352"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "RAS/kLCoeffs",
@@ -1739,6 +3581,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kL/constant/turbulenceProperties"
@@ -1754,6 +3599,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kL/constant/turbulenceProperties"
@@ -1769,6 +3617,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kL/constant/turbulenceProperties"
@@ -1784,6 +3635,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kL/constant/turbulenceProperties"
@@ -1799,6 +3653,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/constant/turbulenceProperties",
@@ -1815,6 +3672,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/constant/turbulenceProperties",
@@ -1831,6 +3691,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/constant/turbulenceProperties",
@@ -1847,6 +3710,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/constant/turbulenceProperties",
@@ -1863,6 +3729,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kOmegaSST/constant/turbulenceProperties"
@@ -1878,11 +3747,114 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/constant/turbulenceProperties",
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kOmegaSST/constant/turbulenceProperties"
       ]
+    },
+    {
+      "key": "RAS/kOmegaSSTLMCoeffs/lambdaErr",
+      "keyword": "lambdaErr",
+      "context": "RAS/kOmegaSSTLMCoeffs",
+      "path": "RAS/kOmegaSSTLMCoeffs/lambdaErr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "kOmegaSSTLM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/kOmegaSSTLM/kOmegaSSTLM.C:491"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "RAS/kOmegaSSTLMCoeffs/maxLambdaIter",
+      "keyword": "maxLambdaIter",
+      "context": "RAS/kOmegaSSTLMCoeffs",
+      "path": "RAS/kOmegaSSTLMCoeffs/maxLambdaIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "kOmegaSSTLM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/kOmegaSSTLM/kOmegaSSTLM.C:492"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "RAS/laminarCoeffs/Cf",
+      "keyword": "Cf",
+      "context": "RAS/laminarCoeffs",
+      "path": "RAS/laminarCoeffs/Cf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmTurbulenceModel/laminar/laminar.C:62"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "RAS/laminarCoeffs/laminar",
+      "keyword": "laminar",
+      "context": "RAS/laminarCoeffs",
+      "path": "RAS/laminarCoeffs/laminar",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/laminar/laminarModel/laminarModel.C:177"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "RAS/laminarCoeffs/maxIntegrationTime",
+      "keyword": "maxIntegrationTime",
+      "context": "RAS/laminarCoeffs",
+      "path": "RAS/laminarCoeffs/maxIntegrationTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/combustionModels/laminar/laminar.C:97"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "RAS/model",
@@ -1894,6 +3866,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "kEpsilon",
@@ -1914,6 +3889,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
@@ -1931,6 +3909,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
@@ -1948,6 +3929,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
@@ -1965,6 +3949,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
@@ -1982,6 +3969,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
@@ -1999,6 +3989,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
@@ -2016,6 +4009,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
@@ -2033,6 +4029,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
@@ -2050,6 +4049,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
@@ -2067,6 +4069,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2082,6 +4087,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2097,6 +4105,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2112,6 +4123,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2127,6 +4141,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2142,6 +4159,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2157,6 +4177,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2172,6 +4195,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2187,6 +4213,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2202,6 +4231,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2217,6 +4249,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2232,6 +4267,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2247,6 +4285,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2262,6 +4303,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2277,6 +4321,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2292,6 +4339,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2307,6 +4357,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2322,6 +4375,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2337,6 +4393,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2352,6 +4411,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2367,6 +4429,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2382,6 +4447,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2397,6 +4465,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2412,6 +4483,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2427,6 +4501,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2442,6 +4519,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2457,6 +4537,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2472,6 +4555,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2487,6 +4573,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2502,6 +4591,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2517,6 +4609,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2532,6 +4627,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2547,6 +4645,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2562,6 +4663,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2577,6 +4681,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2592,6 +4699,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2607,6 +4717,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2622,6 +4735,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2637,6 +4753,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2652,6 +4771,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2667,6 +4789,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2682,6 +4807,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2697,6 +4825,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2712,6 +4843,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2727,6 +4861,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2742,6 +4879,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2757,6 +4897,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2772,6 +4915,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2787,6 +4933,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2802,6 +4951,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2817,6 +4969,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2832,6 +4987,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2847,6 +5005,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2862,6 +5023,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2877,6 +5041,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2892,6 +5059,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
@@ -2905,12 +5075,23 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 228,
-      "fileCount": 228,
+      "occurrences": 234,
+      "fileCount": 234,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:24",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:24",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:24",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:24",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:24"
+      ],
       "values": [
         {
           "value": "on",
-          "occurrences": 222
+          "occurrences": 228
         },
         {
           "value": "no",
@@ -2941,20 +5122,31 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 236,
-      "fileCount": 236,
+      "occurrences": 242,
+      "fileCount": 242,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:21",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:21",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:21",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:21",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:21"
+      ],
       "values": [
         {
           "value": "kEpsilon",
-          "occurrences": 105
+          "occurrences": 107
+        },
+        {
+          "value": "kOmegaSST",
+          "occurrences": 43
         },
         {
           "value": "SpalartAllmaras",
           "occurrences": 40
-        },
-        {
-          "value": "kOmegaSST",
-          "occurrences": 39
         },
         {
           "value": "laminar",
@@ -3021,12 +5213,23 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 228,
-      "fileCount": 228,
+      "occurrences": 234,
+      "fileCount": 234,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:23",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:23",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:23",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:23",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:23"
+      ],
       "values": [
         {
           "value": "on",
-          "occurrences": 227
+          "occurrences": 233
         },
         {
           "value": "yes",
@@ -3042,6 +5245,47 @@
       ]
     },
     {
+      "key": "RASCoeffs/RAS",
+      "keyword": "RAS",
+      "context": "RASCoeffs",
+      "path": "RASCoeffs/RAS",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "RAS"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.C:138",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.C:175"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "RASCoeffs/turbulence",
+      "keyword": "turbulence",
+      "context": "RASCoeffs",
+      "path": "RASCoeffs/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "RAS"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.C:176"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "simulationType",
       "keyword": "simulationType",
       "context": "",
@@ -3049,12 +5293,23 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 411,
-      "fileCount": 411,
+      "occurrences": 417,
+      "fileCount": 417,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/constant/turbulenceProperties:17",
+        "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:17",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:17",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:17",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:17"
+      ],
       "values": [
         {
           "value": "RAS",
-          "occurrences": 200
+          "occurrences": 206
         },
         {
           "value": "laminar",
@@ -3087,6 +5342,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "DNS/dnsFoam/boxTurb16/constant/turbulenceProperties"
@@ -3102,6 +5360,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "DNS/dnsFoam/boxTurb16/constant/turbulenceProperties"
@@ -3117,6 +5378,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "DNS/dnsFoam/boxTurb16/constant/turbulenceProperties"
@@ -3132,6 +5396,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "DNS/dnsFoam/boxTurb16/constant/turbulenceProperties"

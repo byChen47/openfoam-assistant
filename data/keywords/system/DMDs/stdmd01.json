@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "DMDs/stdmd01",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 1,
   "occurrences": 14,
+  "sourceOccurrences": 9,
   "entries": [
     {
       "key": "stdmd01",
@@ -16,10 +18,73 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/cylinder2D/system/DMDs/stdmd01"
       ]
+    },
+    {
+      "key": "stdmd01/amplitudes",
+      "keyword": "amplitudes",
+      "context": "stdmd01",
+      "path": "stdmd01/amplitudes",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "DMD"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/postProcessing/miscellaneous/createROMfields/ROMmodels/DMD/DMD.C:125"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "stdmd01/deltaT",
+      "keyword": "deltaT",
+      "context": "stdmd01",
+      "path": "stdmd01/deltaT",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "DMD"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/postProcessing/miscellaneous/createROMfields/ROMmodels/DMD/DMD.C:98"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "stdmd01/dimensions",
+      "keyword": "dimensions",
+      "context": "stdmd01",
+      "path": "stdmd01/dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "DMD"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/postProcessing/miscellaneous/createROMfields/ROMmodels/DMD/DMD.C:122"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "stdmd01/DMDModel",
@@ -31,6 +96,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "STDMD",
@@ -42,6 +110,26 @@
       ]
     },
     {
+      "key": "stdmd01/eigenvalues",
+      "keyword": "eigenvalues",
+      "context": "stdmd01",
+      "path": "stdmd01/eigenvalues",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "DMD"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/postProcessing/miscellaneous/createROMfields/ROMmodels/DMD/DMD.C:126"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "stdmd01/enabled",
       "keyword": "enabled",
       "context": "stdmd01",
@@ -51,6 +139,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -71,6 +162,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "timeStep",
@@ -91,6 +185,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/cylinder2D/system/DMDs/stdmd01"
@@ -104,8 +201,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "DMD"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/postProcessing/miscellaneous/createROMfields/ROMmodels/DMD/DMD.C:96"
+      ],
       "values": [
         {
           "value": "U",
@@ -126,6 +230,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/cylinder2D/system/DMDs/stdmd01"
@@ -141,6 +248,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -152,6 +262,46 @@
       ]
     },
     {
+      "key": "stdmd01/modes",
+      "keyword": "modes",
+      "context": "stdmd01",
+      "path": "stdmd01/modes",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "DMD"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/postProcessing/miscellaneous/createROMfields/ROMmodels/DMD/DMD.C:112"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "stdmd01/object",
+      "keyword": "object",
+      "context": "stdmd01",
+      "path": "stdmd01/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "DMD"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/postProcessing/miscellaneous/createROMfields/ROMmodels/DMD/DMD.C:97"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "stdmd01/region",
       "keyword": "region",
       "context": "stdmd01",
@@ -161,6 +311,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "region0",
@@ -172,6 +325,46 @@
       ]
     },
     {
+      "key": "stdmd01/startTime",
+      "keyword": "startTime",
+      "context": "stdmd01",
+      "path": "stdmd01/startTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "DMD"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/postProcessing/miscellaneous/createROMfields/ROMmodels/DMD/DMD.C:100"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "stdmd01/time",
+      "keyword": "time",
+      "context": "stdmd01",
+      "path": "stdmd01/time",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "DMD"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/postProcessing/miscellaneous/createROMfields/ROMmodels/DMD/DMD.C:99"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "stdmd01/timeEnd",
       "keyword": "timeEnd",
       "context": "stdmd01",
@@ -181,6 +374,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/cylinder2D/system/DMDs/stdmd01"
@@ -196,6 +392,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/cylinder2D/system/DMDs/stdmd01"
@@ -211,6 +410,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "DMD",
@@ -231,6 +433,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "onEnd",
@@ -251,6 +456,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/laminar/cylinder2D/system/DMDs/stdmd01"

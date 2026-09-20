@@ -117,3 +117,27 @@ test('contributes and binds the OpenFOAM dictionary language', () => {
     (item) => item.command === 'openfoamIntellisense.setLanguage',
   ));
 });
+test('extracts OpenFOAM dictionary calls from source without changing case', async () => {
+  const { extractDictionaryCalls } = await import('../tools/openfoam-source-scanner.mjs');
+  const calls = extractDictionaryCalls(`
+    coeffs.readIfPresent("Pr", Pr_);
+    solution.get<scalar>("tolerance");
+    args.get<scalar>("ignored");
+  `);
+
+  assert.deepEqual(calls.map((item) => item.keyword), ['Pr', 'tolerance']);
+});
+
+test('contains source-derived settings in the generated indexes', () => {
+  const path = require('node:path');
+  const { KeywordStore } = require('../src/keyword-store');
+  const projectRoot = path.resolve(__dirname, '..');
+  const store = new KeywordStore(projectRoot);
+  const control = store.lookup(projectRoot, path.join(projectRoot, 'case', 'system', 'controlDict'));
+  const solution = store.lookup(projectRoot, path.join(projectRoot, 'case', 'system', 'fvSolution'));
+
+  assert.ok(control.data.entries.some((entry) => entry.sourceOccurrences > 0));
+  assert.ok(solution.data.entries.some(
+    (entry) => entry.keyword === 'cacheAgglomeration' && entry.sourceTypes.includes('GAMG'),
+  ));
+});

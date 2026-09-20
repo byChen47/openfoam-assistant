@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "cabin/T",
   "sourceFileCount": 2,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 62,
+  "sourceOccurrences": 10,
   "entries": [
     {
       "key": "boundaryField",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T",
@@ -32,6 +37,9 @@
       ],
       "occurrences": 10,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T",
@@ -46,8 +54,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "humidityTemperatureCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:282"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T"
@@ -63,6 +78,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 260",
@@ -84,6 +102,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -103,8 +124,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed",
+        "humidityTemperatureCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:263",
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:280"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/T"
@@ -120,6 +150,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fluidThermo",
@@ -139,8 +172,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "humidityTemperatureCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:283"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T"
@@ -152,10 +192,18 @@
       "context": "boundaryField/{patch}",
       "path": "boundaryField/{patch}/liquid",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "humidityTemperatureCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:285"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T"
@@ -171,6 +219,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T"
@@ -186,6 +237,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -204,8 +258,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "humidityTemperatureCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:256"
+      ],
       "values": [
         {
           "value": "condensationAndEvaporation",
@@ -226,6 +287,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "H2O",
@@ -244,8 +308,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed",
+        "humidityTemperatureCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:261",
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:278"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/T"
@@ -261,6 +334,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "T",
@@ -279,8 +355,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "humidityTemperatureCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:284"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T"
@@ -296,6 +379,9 @@
       ],
       "occurrences": 10,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "inletOutlet",
@@ -338,6 +424,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T",
@@ -354,6 +443,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T"
@@ -369,6 +461,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "expression",
@@ -380,6 +475,26 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/useImplicit",
+      "keyword": "useImplicit",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/useImplicit",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:314"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/value",
       "keyword": "value",
       "context": "boundaryField/{patch}",
@@ -389,6 +504,9 @@
       ],
       "occurrences": 5,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 260",
@@ -410,6 +528,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T",
@@ -426,6 +547,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T",
@@ -442,6 +566,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -463,6 +590,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "binary",
@@ -484,6 +614,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "T",
@@ -505,6 +638,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/T",
@@ -521,6 +657,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 260",

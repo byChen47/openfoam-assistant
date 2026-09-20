@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "pa",
   "sourceFileCount": 91,
+  "sourceEvidenceFileCount": 3,
   "occurrences": 2108,
+  "sourceOccurrences": 3,
   "entries": [
     {
       "key": "__vibrationShell",
@@ -16,10 +18,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
       ]
+    },
+    {
+      "key": "__vibrationShell/KirchhoffShellCoeffs/nNonOrthCorr",
+      "keyword": "nNonOrthCorr",
+      "context": "__vibrationShell/KirchhoffShellCoeffs",
+      "path": "__vibrationShell/KirchhoffShellCoeffs/nNonOrthCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "KirchhoffShell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionFaModels/KirchhoffShell/KirchhoffShell.C:48"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "__vibrationShell/p",
@@ -31,6 +56,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "pa",
@@ -51,6 +79,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
@@ -66,6 +97,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
@@ -81,6 +115,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
@@ -96,6 +133,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
@@ -111,6 +151,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "KirchhoffShell",
@@ -131,6 +174,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
@@ -147,6 +193,9 @@
       ],
       "occurrences": 91,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
@@ -167,6 +216,9 @@
       ],
       "occurrences": 619,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
@@ -186,6 +238,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -206,6 +261,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
@@ -221,6 +279,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "vibration",
@@ -232,6 +293,28 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/solverName",
+      "keyword": "solverName",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/solverName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "adjointFarFieldPressure",
+        "adjointOutletPressure"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/adjointBoundaryConditions/adjointFarFieldPressure/adjointFarFieldPressureFvPatchScalarField.C:74",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/adjointBoundaryConditions/adjointOutletPressure/adjointOutletPressureFvPatchScalarField.C:75"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/type",
       "keyword": "type",
       "context": "boundaryField/{patch}",
@@ -241,6 +324,9 @@
       ],
       "occurrences": 610,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "zeroGradient",
@@ -289,6 +375,9 @@
       ],
       "occurrences": 139,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0.0",
@@ -317,6 +406,9 @@
       ],
       "occurrences": 91,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
@@ -336,6 +428,9 @@
       ],
       "occurrences": 91,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
@@ -355,6 +450,9 @@
       ],
       "occurrences": 91,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -379,6 +477,9 @@
       ],
       "occurrences": 91,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -403,6 +504,9 @@
       ],
       "occurrences": 91,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "pa",
@@ -431,6 +535,9 @@
       ],
       "occurrences": 91,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
@@ -450,6 +557,9 @@
       ],
       "occurrences": 91,
       "fileCount": 91,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",

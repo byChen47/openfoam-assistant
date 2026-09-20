@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "foamyQuadMeshDict",
   "sourceFileCount": 3,
+  "sourceEvidenceFileCount": 4,
   "occurrences": 201,
+  "sourceOccurrences": 74,
   "entries": [
     {
       "key": "extrusion",
@@ -14,8 +16,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:152"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -33,12 +42,35 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict",
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
       ]
+    },
+    {
+      "key": "extrusion/expansionRatio",
+      "keyword": "expansionRatio",
+      "context": "extrusion",
+      "path": "extrusion/expansionRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:170"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "extrusion/extrude",
@@ -48,12 +80,23 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:154"
+      ],
       "values": [
         {
           "value": "off",
           "occurrences": 3
+        },
+        {
+          "value": "on",
+          "occurrences": 1
         }
       ],
       "examples": [
@@ -63,6 +106,240 @@
       ]
     },
     {
+      "key": "extrusion/extrudeModel",
+      "keyword": "extrudeModel",
+      "context": "extrusion",
+      "path": "extrusion/extrudeModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:156"
+      ],
+      "values": [
+        {
+          "value": "linearDirection",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "extrusion/linearDirectionCoeffs",
+      "keyword": "linearDirectionCoeffs",
+      "context": "extrusion",
+      "path": "extrusion/linearDirectionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:172"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "extrusion/linearDirectionCoeffs/direction",
+      "keyword": "direction",
+      "context": "extrusion/linearDirectionCoeffs",
+      "path": "extrusion/linearDirectionCoeffs/direction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "linearDirection"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:174",
+        "OpenFOAM-v2606/src/mesh/extrudeModel/linearDirection/linearDirection.C:50"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "extrusion/linearDirectionCoeffs/thickness",
+      "keyword": "thickness",
+      "context": "extrusion/linearDirectionCoeffs",
+      "path": "extrusion/linearDirectionCoeffs/thickness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "linearDirection"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:175",
+        "OpenFOAM-v2606/src/mesh/extrudeModel/linearDirection/linearDirection.C:51"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "extrusion/nLayers",
+      "keyword": "nLayers",
+      "context": "extrusion",
+      "path": "extrusion/nLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:168"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "extrusion/patchInfo",
+      "keyword": "patchInfo",
+      "context": "extrusion",
+      "path": "extrusion/patchInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:159"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "extrusion/patchType",
+      "keyword": "patchType",
+      "context": "extrusion",
+      "path": "extrusion/patchType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:165"
+      ],
+      "values": [
+        {
+          "value": "empty",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "extrusion/sectorCoeffs",
+      "keyword": "sectorCoeffs",
+      "context": "extrusion",
+      "path": "extrusion/sectorCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:178"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "extrusion/sectorCoeffs/angle",
+      "keyword": "angle",
+      "context": "extrusion/sectorCoeffs",
+      "path": "extrusion/sectorCoeffs/angle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:182"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "extrusion/sectorCoeffs/axis",
+      "keyword": "axis",
+      "context": "extrusion/sectorCoeffs",
+      "path": "extrusion/sectorCoeffs/axis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:181"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "extrusion/sectorCoeffs/point",
+      "keyword": "point",
+      "context": "extrusion/sectorCoeffs",
+      "path": "extrusion/sectorCoeffs/point",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:180"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "FoamFile",
       "keyword": "FoamFile",
       "context": "",
@@ -70,8 +347,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:8"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -89,6 +373,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -111,6 +398,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -133,6 +423,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "foamyQuadMeshDict",
@@ -155,6 +448,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -170,8 +466,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:19"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -189,6 +492,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict"
@@ -204,6 +510,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "jaggedBoundary",
@@ -224,6 +533,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "closedTriSurfaceMesh",
@@ -244,6 +556,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -259,6 +574,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "box",
@@ -279,6 +597,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -294,6 +615,9 @@
       ],
       "occurrences": 6,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -309,6 +633,9 @@
       ],
       "occurrences": 6,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "back",
@@ -349,6 +676,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "closedTriSurfaceMesh",
@@ -369,6 +699,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -384,6 +717,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "letters",
@@ -404,6 +740,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "closedTriSurfaceMesh",
@@ -424,6 +763,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -439,6 +781,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -454,6 +799,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -469,6 +817,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "box",
@@ -480,6 +831,118 @@
       ]
     },
     {
+      "key": "geometry/surfaceFile.stl",
+      "keyword": "surfaceFile.stl",
+      "context": "geometry",
+      "path": "geometry/surfaceFile.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:21"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "geometry/surfaceFile.stl/file",
+      "keyword": "file",
+      "context": "geometry/surfaceFile.stl",
+      "path": "geometry/surfaceFile.stl/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:371",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:555"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "geometry/surfaceFile.stl/minQuality",
+      "keyword": "minQuality",
+      "context": "geometry/surfaceFile.stl",
+      "path": "geometry/surfaceFile.stl/minQuality",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:393",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:642"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "geometry/surfaceFile.stl/name",
+      "keyword": "name",
+      "context": "geometry/surfaceFile.stl",
+      "path": "geometry/surfaceFile.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:23"
+      ],
+      "values": [
+        {
+          "value": "surfaceFile",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "geometry/surfaceFile.stl/type",
+      "keyword": "type",
+      "context": "geometry/surfaceFile.stl",
+      "path": "geometry/surfaceFile.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:24"
+      ],
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
       "key": "geometry/unit_cube.stl",
       "keyword": "unit_cube.stl",
       "context": "geometry",
@@ -489,10 +952,55 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
       ]
+    },
+    {
+      "key": "geometry/unit_cube.stl/file",
+      "keyword": "file",
+      "context": "geometry/unit_cube.stl",
+      "path": "geometry/unit_cube.stl/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:371",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:555"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "geometry/unit_cube.stl/minQuality",
+      "keyword": "minQuality",
+      "context": "geometry/unit_cube.stl",
+      "path": "geometry/unit_cube.stl/minQuality",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:393",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:642"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "geometry/unit_cube.stl/name",
@@ -504,6 +1012,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cube",
@@ -524,6 +1035,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "triSurfaceMesh",
@@ -542,8 +1056,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:75"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -559,8 +1080,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:128"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -576,8 +1104,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:131"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -593,14 +1128,271 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:130"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict",
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
       ]
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry",
+      "keyword": "cellSizeControlGeometry",
+      "context": "motionControl",
+      "path": "motionControl/cellSizeControlGeometry",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:82"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry/surfaceFile",
+      "keyword": "surfaceFile",
+      "context": "motionControl/cellSizeControlGeometry",
+      "path": "motionControl/cellSizeControlGeometry/surfaceFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:84"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry/surfaceFile/cellSizeFunction",
+      "keyword": "cellSizeFunction",
+      "context": "motionControl/cellSizeControlGeometry/surfaceFile",
+      "path": "motionControl/cellSizeControlGeometry/surfaceFile/cellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:88"
+      ],
+      "values": [
+        {
+          "value": "linearDistance",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs",
+      "keyword": "linearDistanceCoeffs",
+      "context": "motionControl/cellSizeControlGeometry/surfaceFile",
+      "path": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:89"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs/distance",
+      "keyword": "distance",
+      "context": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs",
+      "path": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs/distance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:93"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs/distanceCellSize",
+      "keyword": "distanceCellSize",
+      "context": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs",
+      "path": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs/distanceCellSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:91"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs/surfaceCellSize",
+      "keyword": "surfaceCellSize",
+      "context": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs",
+      "path": "motionControl/cellSizeControlGeometry/surfaceFile/linearDistanceCoeffs/surfaceCellSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:92"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry/surfaceFile/mode",
+      "keyword": "mode",
+      "context": "motionControl/cellSizeControlGeometry/surfaceFile",
+      "path": "motionControl/cellSizeControlGeometry/surfaceFile/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:87"
+      ],
+      "values": [
+        {
+          "value": "bothSides",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry/surfaceFile/priority",
+      "keyword": "priority",
+      "context": "motionControl/cellSizeControlGeometry/surfaceFile",
+      "path": "motionControl/cellSizeControlGeometry/surfaceFile/priority",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:86"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry/surfaceFile/uniformCoeffs",
+      "keyword": "uniformCoeffs",
+      "context": "motionControl/cellSizeControlGeometry/surfaceFile",
+      "path": "motionControl/cellSizeControlGeometry/surfaceFile/uniformCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:95"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "motionControl/cellSizeControlGeometry/surfaceFile/uniformCoeffs/cellSize",
+      "keyword": "cellSize",
+      "context": "motionControl/cellSizeControlGeometry/surfaceFile/uniformCoeffs",
+      "path": "motionControl/cellSizeControlGeometry/surfaceFile/uniformCoeffs/cellSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:97"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "motionControl/defaultCellSize",
+      "keyword": "defaultCellSize",
+      "context": "motionControl",
+      "path": "motionControl/defaultCellSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:77"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "motionControl/defaultPriority",
@@ -610,8 +1402,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:80"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -629,6 +1428,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -651,6 +1453,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -666,8 +1471,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:138"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -683,12 +1495,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:134"
+      ],
       "values": [
         {
           "value": "no",
-          "occurrences": 3
+          "occurrences": 4
         }
       ],
       "examples": [
@@ -705,12 +1524,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:126"
+      ],
       "values": [
         {
           "value": "adaptiveLinear",
-          "occurrences": 3
+          "occurrences": 4
         }
       ],
       "examples": [
@@ -729,6 +1555,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -746,6 +1575,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -761,6 +1593,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "linearDistance",
@@ -781,6 +1616,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -796,6 +1634,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -811,6 +1652,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -826,6 +1670,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "bothSides",
@@ -846,10 +1693,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
       ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/cube/regions",
+      "keyword": "regions",
+      "context": "motionControl/shapeControlFunctions/cube",
+      "path": "motionControl/shapeControlFunctions/cube/regions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "searchableSurfaceControl"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellShapeControl/cellSizeAndAlignmentControl/searchableSurfaceControl/searchableSurfaceControl.C:206"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "motionControl/shapeControlFunctions/cube/surfaceCellSizeFunction",
@@ -861,6 +1731,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniformValue",
@@ -881,6 +1754,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "searchableSurfaceControl",
@@ -901,6 +1777,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -916,6 +1795,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -931,6 +1813,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict"
@@ -946,6 +1831,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "surfaceOffsetLinearDistance",
@@ -966,6 +1854,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "inside",
@@ -986,10 +1877,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict"
       ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/jaggedBoundary/regions",
+      "keyword": "regions",
+      "context": "motionControl/shapeControlFunctions/jaggedBoundary",
+      "path": "motionControl/shapeControlFunctions/jaggedBoundary/regions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "searchableSurfaceControl"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellShapeControl/cellSizeAndAlignmentControl/searchableSurfaceControl/searchableSurfaceControl.C:206"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "motionControl/shapeControlFunctions/jaggedBoundary/surfaceCellSizeFunction",
@@ -1001,6 +1915,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniformValue",
@@ -1021,6 +1938,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict"
@@ -1036,6 +1956,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict"
@@ -1051,6 +1974,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict"
@@ -1066,6 +1992,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict"
@@ -1081,6 +2010,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "searchableSurfaceControl",
@@ -1101,6 +2033,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict"
@@ -1116,6 +2051,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict"
@@ -1131,6 +2069,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -1146,6 +2087,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform",
@@ -1166,6 +2110,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -1181,6 +2128,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -1196,6 +2146,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -1211,6 +2164,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "inside",
@@ -1231,10 +2187,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
       ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/letters/regions",
+      "keyword": "regions",
+      "context": "motionControl/shapeControlFunctions/letters",
+      "path": "motionControl/shapeControlFunctions/letters/regions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "searchableSurfaceControl"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellShapeControl/cellSizeAndAlignmentControl/searchableSurfaceControl/searchableSurfaceControl.C:206"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "motionControl/shapeControlFunctions/letters/surfaceCellSizeFunction",
@@ -1246,6 +2225,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniformValue",
@@ -1266,6 +2248,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "searchableSurfaceControl",
@@ -1286,6 +2271,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -1301,6 +2289,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -1316,6 +2307,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -1331,6 +2325,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -1346,6 +2343,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "linearDistance",
@@ -1366,6 +2366,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -1381,6 +2384,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -1396,6 +2402,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -1411,6 +2420,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "bothSides",
@@ -1431,10 +2443,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
       ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/refinementBox/regions",
+      "keyword": "regions",
+      "context": "motionControl/shapeControlFunctions/refinementBox",
+      "path": "motionControl/shapeControlFunctions/refinementBox/regions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "searchableSurfaceControl"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cellShapeControl/cellSizeAndAlignmentControl/searchableSurfaceControl/searchableSurfaceControl.C:206"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "motionControl/shapeControlFunctions/refinementBox/surfaceCellSizeFunction",
@@ -1446,6 +2481,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniformValue",
@@ -1466,6 +2504,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "searchableSurfaceControl",
@@ -1486,6 +2527,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -1501,6 +2545,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -1514,8 +2561,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:141"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1531,8 +2585,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:149"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1548,8 +2609,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:145"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1565,8 +2633,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:28"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1582,8 +2657,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:63"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1599,8 +2681,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:54"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1618,6 +2707,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -1633,6 +2725,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"opencfd_box.extendedFeatureEdgeMesh\"",
@@ -1653,6 +2748,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "extendedFeatureEdgeMesh",
@@ -1673,6 +2771,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/square/system/foamyQuadMeshDict"
@@ -1688,6 +2789,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"unit_cube.extendedFeatureEdgeMesh\"",
@@ -1708,6 +2812,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "extendedFeatureEdgeMesh",
@@ -1728,6 +2835,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict"
@@ -1743,6 +2853,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"jaggedBoundary.extendedFeatureEdgeMesh\"",
@@ -1763,6 +2876,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "extendedFeatureEdgeMesh",
@@ -1783,6 +2899,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/OpenCFD/system/foamyQuadMeshDict"
@@ -1798,6 +2917,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"opencfd_text.extendedFeatureEdgeMesh\"",
@@ -1818,6 +2940,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "extendedFeatureEdgeMesh",
@@ -1829,6 +2954,76 @@
       ]
     },
     {
+      "key": "surfaceConformation/geometryToConformTo/surfaceFile",
+      "keyword": "surfaceFile",
+      "context": "surfaceConformation/geometryToConformTo",
+      "path": "surfaceConformation/geometryToConformTo/surfaceFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:56"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/surfaceFile/extendedFeatureEdgeMesh",
+      "keyword": "extendedFeatureEdgeMesh",
+      "context": "surfaceConformation/geometryToConformTo/surfaceFile",
+      "path": "surfaceConformation/geometryToConformTo/surfaceFile/extendedFeatureEdgeMesh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:59"
+      ],
+      "values": [
+        {
+          "value": "\"surfaceFile.extendedFeatureEdgeMesh\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/surfaceFile/featureMethod",
+      "keyword": "featureMethod",
+      "context": "surfaceConformation/geometryToConformTo/surfaceFile",
+      "path": "surfaceConformation/geometryToConformTo/surfaceFile/featureMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:58"
+      ],
+      "values": [
+        {
+          "value": "extendedFeatureEdgeMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
       "key": "surfaceConformation/insertSurfaceNearestPointPairs",
       "keyword": "insertSurfaceNearestPointPairs",
       "context": "surfaceConformation",
@@ -1836,12 +3031,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:43"
+      ],
       "values": [
         {
           "value": "yes",
-          "occurrences": 3
+          "occurrences": 4
         }
       ],
       "examples": [
@@ -1858,12 +3060,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:49"
+      ],
       "values": [
         {
           "value": "yes",
-          "occurrences": 3
+          "occurrences": 4
         }
       ],
       "examples": [
@@ -1880,8 +3089,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:30"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1897,8 +3113,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:52"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1914,8 +3137,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:36"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1931,8 +3161,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:40"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1948,8 +3185,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:34"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1965,8 +3209,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:38"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -1982,12 +3233,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:46"
+      ],
       "values": [
         {
           "value": "no",
-          "occurrences": 3
+          "occurrences": 4
         }
       ],
       "examples": [
@@ -2004,8 +3262,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:32"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",
@@ -2021,12 +3286,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:67"
+      ],
       "values": [
         {
           "value": "yes",
-          "occurrences": 3
+          "occurrences": 4
         }
       ],
       "examples": [
@@ -2043,8 +3315,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/foamyQuadMeshDict:70"
+      ],
       "values": [],
       "examples": [
         "mesh/foamyQuadMesh/jaggedBoundary/system/foamyQuadMeshDict",

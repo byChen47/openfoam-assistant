@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "heater/decomposeParDict",
   "sourceFileCount": 7,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 70,
+  "sourceOccurrences": 5,
   "entries": [
     {
       "key": "coeffs",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/heater/decomposeParDict"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"decompositionData\"",
@@ -51,6 +59,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/heater/decomposeParDict"
@@ -66,6 +77,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/heater/decomposeParDict"
@@ -81,6 +95,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/heater/decomposeParDict"
@@ -96,6 +113,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -116,6 +136,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "preserveFaceZones",
@@ -134,12 +157,59 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preserveFaceZones"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preserveFaceZones/preserveFaceZonesConstraint.C:59"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/heater/decomposeParDict"
       ]
+    },
+    {
+      "key": "domains",
+      "keyword": "domains",
+      "context": "",
+      "path": "domains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "domainWeights",
+      "keyword": "domainWeights",
+      "context": "",
+      "path": "domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "FoamFile",
@@ -151,6 +221,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/decomposeParDict",
@@ -170,6 +243,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -194,6 +270,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -218,6 +297,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "decomposeParDict",
@@ -242,6 +324,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/decomposeParDict",
@@ -261,6 +346,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "scotch",
@@ -285,6 +373,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/decomposeParDict",
@@ -293,6 +384,26 @@
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/heater/decomposeParDict",
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/heater/decomposeParDict"
       ]
+    },
+    {
+      "key": "processorWeights",
+      "keyword": "processorWeights",
+      "context": "",
+      "path": "processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "regions",
@@ -304,6 +415,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/heater/decomposeParDict",
@@ -320,6 +434,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/heater/decomposeParDict",
@@ -336,6 +453,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/heater/decomposeParDict",
@@ -352,6 +472,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/heater/decomposeParDict",
@@ -368,6 +491,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "simple",
@@ -389,6 +515,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/heater/decomposeParDict",
@@ -405,10 +534,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/heater/decomposeParDict"
       ]
+    },
+    {
+      "key": "strategy",
+      "keyword": "strategy",
+      "context": "",
+      "path": "strategy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "values": [],
+      "examples": []
     }
   ]
 }

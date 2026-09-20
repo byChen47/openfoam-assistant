@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "chemistryProperties.gas",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 1,
   "occurrences": 16,
+  "sourceOccurrences": 3,
   "entries": [
     {
       "key": "chemistry",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -36,10 +41,73 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/constant/chemistryProperties.gas"
       ]
+    },
+    {
+      "key": "chemistryType/EulerImplicitCoeffs/cTauChem",
+      "keyword": "cTauChem",
+      "context": "chemistryType/EulerImplicitCoeffs",
+      "path": "chemistryType/EulerImplicitCoeffs/cTauChem",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "EulerImplicit"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistrySolver/EulerImplicit/EulerImplicit.C:44"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "chemistryType/EulerImplicitCoeffs/equilibriumRateLimiter",
+      "keyword": "equilibriumRateLimiter",
+      "context": "chemistryType/EulerImplicitCoeffs",
+      "path": "chemistryType/EulerImplicitCoeffs/equilibriumRateLimiter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "EulerImplicit"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistrySolver/EulerImplicit/EulerImplicit.C:45"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "chemistryType/EulerImplicitCoeffs/EulerImplicitCoeffs",
+      "keyword": "EulerImplicitCoeffs",
+      "context": "chemistryType/EulerImplicitCoeffs",
+      "path": "chemistryType/EulerImplicitCoeffs/EulerImplicitCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "EulerImplicit"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistrySolver/EulerImplicit/EulerImplicit.C:43"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "chemistryType/solver",
@@ -51,6 +119,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "EulerImplicit",
@@ -71,6 +142,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/constant/chemistryProperties.gas"
@@ -86,6 +160,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/constant/chemistryProperties.gas"
@@ -101,6 +178,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -121,6 +201,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/constant/chemistryProperties.gas"
@@ -136,6 +219,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -156,6 +242,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -176,6 +265,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "chemistryProperties.gas",
@@ -196,6 +288,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/constant/chemistryProperties.gas"
@@ -211,6 +306,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/constant/chemistryProperties.gas"
@@ -226,6 +324,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/constant/chemistryProperties.gas"
@@ -241,6 +342,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/constant/chemistryProperties.gas"
@@ -256,6 +360,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/constant/chemistryProperties.gas"
@@ -271,6 +378,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "Rosenbrock43",

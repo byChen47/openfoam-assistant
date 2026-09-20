@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "topAir/boundaryRadiationProperties",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 12,
+  "sourceOccurrences": 5,
   "entries": [
     {
       "key": ".*",
@@ -16,10 +18,34 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/topAir/boundaryRadiationProperties"
       ]
+    },
+    {
+      "key": ".*/absorptivity",
+      "keyword": "absorptivity",
+      "context": ".*",
+      "path": ".*/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:101",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:114"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": ".*/emissivity",
@@ -29,8 +55,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:74",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:87"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/topAir/boundaryRadiationProperties"
@@ -46,6 +80,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "lookup",
@@ -66,6 +103,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/topAir/boundaryRadiationProperties"
@@ -81,6 +121,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -101,6 +144,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -121,6 +167,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "boundaryRadiationProperties",
@@ -141,6 +190,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/topAir/boundaryRadiationProperties"
@@ -156,6 +208,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/topAir/boundaryRadiationProperties"
@@ -171,6 +226,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "opaqueDiffusive",
@@ -187,10 +245,18 @@
       "context": "topAir_to_.*",
       "path": "topAir_to_.*/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "opaqueDiffusive"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/topAir/boundaryRadiationProperties"
@@ -206,6 +272,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "solidAbsorption",

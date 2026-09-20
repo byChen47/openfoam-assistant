@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "omega",
   "sourceFileCount": 50,
+  "sourceEvidenceFileCount": 10,
   "occurrences": 1053,
+  "sourceOccurrences": 85,
   "entries": [
     {
       "key": "#include",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/lumpedPointMotion/bridge/steady/0.orig/omega",
@@ -33,8 +38,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 49,
-      "fileCount": 49,
+      "occurrences": 55,
+      "fileCount": 55,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/omega:23",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/omega:23",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/omega:23",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:23",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/omega:23"
+      ],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
@@ -43,6 +59,26 @@
         "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
         "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
       ]
+    },
+    {
+      "key": "boundaryField/(inlet|atmosphere)",
+      "keyword": "(inlet|atmosphere)",
+      "context": "boundaryField",
+      "path": "boundaryField/(inlet|atmosphere)",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/omega:25"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}",
@@ -55,6 +91,9 @@
       ],
       "occurrences": 223,
       "fileCount": 49,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
@@ -74,6 +113,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/kOmegaSST/0.orig/omega"
@@ -89,6 +131,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -111,6 +156,9 @@
       ],
       "occurrences": 11,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
@@ -130,6 +178,9 @@
       ],
       "occurrences": 7,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
@@ -147,8 +198,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 34,
-      "fileCount": 30,
+      "occurrences": 37,
+      "fileCount": 33,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:34",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/omega:34",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/omega:34"
+      ],
       "values": [
         {
           "value": "uniform 4.5e-3",
@@ -181,6 +241,9 @@
       ],
       "occurrences": 9,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "k",
@@ -205,6 +268,9 @@
       ],
       "occurrences": 11,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
@@ -222,8 +288,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 10,
-      "fileCount": 7,
+      "occurrences": 12,
+      "fileCount": 9,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "turbulentMixingLengthFrequencyInlet"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/omega:28",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/derivedFvPatchFields/turbulentMixingLengthFrequencyInlet/turbulentMixingLengthFrequencyInletFvPatchScalarField.C:82"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/RAS/rotatingFanInRoom/0.orig/omega",
@@ -243,10 +318,99 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/omega"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/separationVector",
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/setAverage",
@@ -258,10 +422,53 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/omega"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/srcSize",
+      "keyword": "srcSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/type",
@@ -271,20 +478,31 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 197,
-      "fileCount": 49,
+      "occurrences": 209,
+      "fileCount": 55,
+      "sourceOccurrences": 12,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/omega:27",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/omega:27",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/omega:27",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:27",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:33"
+      ],
       "values": [
         {
           "value": "omegaWallFunction",
-          "occurrences": 62
+          "occurrences": 67
         },
         {
           "value": "inletOutlet",
-          "occurrences": 34
+          "occurrences": 37
         },
         {
           "value": "fixedValue",
-          "occurrences": 24
+          "occurrences": 27
         },
         {
           "value": "zeroGradient",
@@ -295,11 +513,11 @@
           "occurrences": 16
         },
         {
-          "value": "symmetryPlane",
-          "occurrences": 10
+          "value": "turbulentMixingLengthFrequencyInlet",
+          "occurrences": 11
         },
         {
-          "value": "turbulentMixingLengthFrequencyInlet",
+          "value": "symmetryPlane",
           "occurrences": 10
         },
         {
@@ -347,8 +565,20 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 132,
-      "fileCount": 49,
+      "occurrences": 145,
+      "fileCount": 56,
+      "sourceOccurrences": 13,
+      "sourceTypes": [
+        "etc",
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/omega:29",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/omega:28",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/omega:28",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:28",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:35"
+      ],
       "values": [
         {
           "value": "uniform 4.5e-3",
@@ -421,6 +651,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0.028",
@@ -442,6 +675,97 @@
       ]
     },
     {
+      "key": "boundaryField/#includeEtc",
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/#includeEtc",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/omega:32",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:44",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/omega:44",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/omega:44"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/inlet",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/inlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:25",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/omega:25",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/omega:25"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/outlet",
+      "keyword": "outlet",
+      "context": "boundaryField",
+      "path": "boundaryField/outlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:31",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/omega:31",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/omega:31"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/wall",
+      "keyword": "wall",
+      "context": "boundaryField",
+      "path": "boundaryField/wall",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/omega:25",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/omega:25",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:38",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/omega:38",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/omega:38"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dimensions",
       "keyword": "dimensions",
       "context": "",
@@ -449,8 +773,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 50,
-      "fileCount": 50,
+      "occurrences": 56,
+      "fileCount": 56,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/omega:19",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/omega:19",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/omega:19",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:19",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/omega:19"
+      ],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
@@ -468,8 +803,19 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 50,
-      "fileCount": 50,
+      "occurrences": 56,
+      "fileCount": 56,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/omega:8",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/omega:8",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/omega:8",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:8",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/omega:8"
+      ],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
@@ -489,6 +835,9 @@
       ],
       "occurrences": 50,
       "fileCount": 50,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -513,6 +862,9 @@
       ],
       "occurrences": 50,
       "fileCount": 50,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -537,6 +889,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"0\"",
@@ -557,6 +912,9 @@
       ],
       "occurrences": 50,
       "fileCount": 50,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "omega",
@@ -581,6 +939,9 @@
       ],
       "occurrences": 50,
       "fileCount": 50,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
@@ -598,8 +959,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 49,
-      "fileCount": 49,
+      "occurrences": 55,
+      "fileCount": 55,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/omega:21",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/omega:21",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/omega:21",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:21",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/omega:21"
+      ],
       "values": [
         {
           "value": "uniform 4.5e-3",
@@ -723,6 +1095,27 @@
       ]
     },
     {
+      "key": "omegaInitial",
+      "keyword": "omegaInitial",
+      "context": "",
+      "path": "omegaInitial",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/omega:17",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/omega:17"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "omegaInlet",
       "keyword": "omegaInlet",
       "context": "",
@@ -730,8 +1123,18 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 4,
-      "fileCount": 4,
+      "occurrences": 8,
+      "fileCount": 8,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/omega:17",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/omega:17",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/omega:17",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/omega:17"
+      ],
       "values": [],
       "examples": [
         "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",

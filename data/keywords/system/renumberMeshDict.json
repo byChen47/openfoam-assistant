@@ -1,0 +1,607 @@
+{
+  "generatedAt": "2026-09-20T12:59:10.305Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "renumberMeshDict",
+  "sourceFileCount": 0,
+  "sourceEvidenceFileCount": 3,
+  "occurrences": 0,
+  "sourceOccurrences": 29,
+  "entries": [
+    {
+      "key": "blockCoeffs",
+      "keyword": "blockCoeffs",
+      "context": "",
+      "path": "blockCoeffs",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:104",
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C:1259"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "blockCoeffs/domains",
+      "keyword": "domains",
+      "context": "blockCoeffs",
+      "path": "blockCoeffs/domains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "blockCoeffs/domainWeights",
+      "keyword": "domainWeights",
+      "context": "blockCoeffs",
+      "path": "blockCoeffs/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "blockCoeffs/method",
+      "keyword": "method",
+      "context": "blockCoeffs",
+      "path": "blockCoeffs/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:106"
+      ],
+      "values": [
+        {
+          "value": "scotch",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "blockCoeffs/processorWeights",
+      "keyword": "processorWeights",
+      "context": "blockCoeffs",
+      "path": "blockCoeffs/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "blockCoeffs/strategy",
+      "keyword": "strategy",
+      "context": "blockCoeffs",
+      "path": "blockCoeffs/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "decomposeParDict",
+      "keyword": "decomposeParDict",
+      "context": "",
+      "path": "decomposeParDict",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C:922"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:8"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "manualCoeffs",
+      "keyword": "manualCoeffs",
+      "context": "",
+      "path": "manualCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:62"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "manualCoeffs/dataFile",
+      "keyword": "dataFile",
+      "context": "manualCoeffs",
+      "path": "manualCoeffs/dataFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:65"
+      ],
+      "values": [
+        {
+          "value": "\"cellMap\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "method",
+      "keyword": "method",
+      "context": "",
+      "path": "method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:47"
+      ],
+      "values": [
+        {
+          "value": "CuthillMcKee",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "renumber-method",
+      "keyword": "renumber-method",
+      "context": "",
+      "path": "renumber-method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C:907"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "requested.partition-offsets",
+      "keyword": "requested.partition-offsets",
+      "context": "",
+      "path": "requested.partition-offsets",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C:1800"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "sortCoupledFaceCells",
+      "keyword": "sortCoupledFaceCells",
+      "context": "",
+      "path": "sortCoupledFaceCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:27"
+      ],
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "springCoeffs",
+      "keyword": "springCoeffs",
+      "context": "",
+      "path": "springCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:87"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "springCoeffs/freezeFraction",
+      "keyword": "freezeFraction",
+      "context": "springCoeffs",
+      "path": "springCoeffs/freezeFraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:94"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "springCoeffs/maxCo",
+      "keyword": "maxCo",
+      "context": "springCoeffs",
+      "path": "springCoeffs/maxCo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:90"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "springCoeffs/maxIter",
+      "keyword": "maxIter",
+      "context": "springCoeffs",
+      "path": "springCoeffs/maxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:97"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "springCoeffs/verbose",
+      "keyword": "verbose",
+      "context": "springCoeffs",
+      "path": "springCoeffs/verbose",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:100"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs",
+      "keyword": "structuredCoeffs",
+      "context": "",
+      "path": "structuredCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:70"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs/depthFirst",
+      "keyword": "depthFirst",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/depthFirst",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:80"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs/method",
+      "keyword": "method",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:77"
+      ],
+      "values": [
+        {
+          "value": "random",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs/patches",
+      "keyword": "patches",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:74"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "structuredCoeffs/reverse",
+      "keyword": "reverse",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/reverse",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:83"
+      ],
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "writeMaps",
+      "keyword": "writeMaps",
+      "context": "",
+      "path": "writeMaps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:23",
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C:1057"
+      ],
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "zoltanCoeffs",
+      "keyword": "zoltanCoeffs",
+      "context": "",
+      "path": "zoltanCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:117"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "zoltanCoeffs/ORDER_METHOD",
+      "keyword": "ORDER_METHOD",
+      "context": "zoltanCoeffs",
+      "path": "zoltanCoeffs/ORDER_METHOD",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/renumberMeshDict:119"
+      ],
+      "values": [
+        {
+          "value": "LOCAL_HSFC",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    }
+  ]
+}

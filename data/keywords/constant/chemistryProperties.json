@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "chemistryProperties",
   "sourceFileCount": 38,
+  "sourceEvidenceFileCount": 6,
   "occurrences": 640,
+  "sourceOccurrences": 14,
   "entries": [
     {
       "key": "chemistry",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 38,
       "fileCount": 38,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -44,6 +49,9 @@
       ],
       "occurrences": 38,
       "fileCount": 38,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/gri/constant/chemistryProperties",
@@ -63,6 +71,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "noneode",
@@ -99,6 +110,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "nonwpsi",
@@ -122,6 +136,66 @@
       ]
     },
     {
+      "key": "chemistryType/EulerImplicitCoeffs/cTauChem",
+      "keyword": "cTauChem",
+      "context": "chemistryType/EulerImplicitCoeffs",
+      "path": "chemistryType/EulerImplicitCoeffs/cTauChem",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "EulerImplicit"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistrySolver/EulerImplicit/EulerImplicit.C:44"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "chemistryType/EulerImplicitCoeffs/equilibriumRateLimiter",
+      "keyword": "equilibriumRateLimiter",
+      "context": "chemistryType/EulerImplicitCoeffs",
+      "path": "chemistryType/EulerImplicitCoeffs/equilibriumRateLimiter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "EulerImplicit"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistrySolver/EulerImplicit/EulerImplicit.C:45"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "chemistryType/EulerImplicitCoeffs/EulerImplicitCoeffs",
+      "keyword": "EulerImplicitCoeffs",
+      "context": "chemistryType/EulerImplicitCoeffs",
+      "path": "chemistryType/EulerImplicitCoeffs/EulerImplicitCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "EulerImplicit"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistrySolver/EulerImplicit/EulerImplicit.C:43"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "chemistryType/method",
       "keyword": "method",
       "context": "chemistryType",
@@ -131,6 +205,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "TDAC",
@@ -146,6 +223,26 @@
       ]
     },
     {
+      "key": "chemistryType/odeCoeffs/odeCoeffs",
+      "keyword": "odeCoeffs",
+      "context": "chemistryType/odeCoeffs",
+      "path": "chemistryType/odeCoeffs/odeCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "ode"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistrySolver/ode/ode.C:36"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "chemistryType/solver",
       "keyword": "solver",
       "context": "chemistryType",
@@ -155,6 +252,9 @@
       ],
       "occurrences": 33,
       "fileCount": 33,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "noChemistrySolver",
@@ -187,6 +287,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -207,6 +310,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/gri/constant/chemistryProperties",
@@ -226,6 +332,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/gri/constant/chemistryProperties",
@@ -245,6 +354,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -273,6 +385,9 @@
       ],
       "occurrences": 38,
       "fileCount": 38,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/gri/constant/chemistryProperties",
@@ -292,6 +407,9 @@
       ],
       "occurrences": 38,
       "fileCount": 38,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -316,6 +434,9 @@
       ],
       "occurrences": 38,
       "fileCount": 38,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -340,6 +461,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"constant\"",
@@ -361,6 +485,9 @@
       ],
       "occurrences": 38,
       "fileCount": 38,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "chemistryProperties",
@@ -385,6 +512,9 @@
       ],
       "occurrences": 38,
       "fileCount": 38,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/gri/constant/chemistryProperties",
@@ -404,6 +534,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
@@ -420,6 +553,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
@@ -436,6 +572,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
@@ -452,6 +591,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
@@ -468,6 +610,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
@@ -484,6 +629,9 @@
       ],
       "occurrences": 36,
       "fileCount": 36,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/gri/constant/chemistryProperties",
@@ -503,6 +651,9 @@
       ],
       "occurrences": 23,
       "fileCount": 23,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/gri/constant/chemistryProperties",
@@ -522,6 +673,9 @@
       ],
       "occurrences": 15,
       "fileCount": 15,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/gri/constant/chemistryProperties",
@@ -541,6 +695,9 @@
       ],
       "occurrences": 8,
       "fileCount": 8,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/chemistryProperties",
@@ -560,6 +717,9 @@
       ],
       "occurrences": 15,
       "fileCount": 15,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/gri/constant/chemistryProperties",
@@ -579,6 +739,9 @@
       ],
       "occurrences": 23,
       "fileCount": 23,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "seulex",
@@ -611,6 +774,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
@@ -630,6 +796,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -654,6 +823,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -674,10 +846,18 @@
       "context": "reduction",
       "path": "reduction/fuelSpecies",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 5,
-      "fileCount": 5,
+      "occurrences": 6,
+      "fileCount": 6,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "DAC"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/DAC/DAC.C:184"
+      ],
       "values": [],
       "examples": [
         "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
@@ -697,6 +877,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -715,6 +898,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties"
@@ -726,10 +912,19 @@
       "context": "reduction",
       "path": "reduction/initialSet",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 5,
-      "fileCount": 5,
+      "occurrences": 7,
+      "fileCount": 6,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "DAC"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/DAC/DAC.C:41",
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/reduction/DAC/DAC.C:91"
+      ],
       "values": [],
       "examples": [
         "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
@@ -749,6 +944,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -767,6 +965,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
@@ -786,6 +987,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
@@ -805,6 +1009,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties"
@@ -820,6 +1027,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -848,6 +1058,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "DAC",
@@ -872,6 +1085,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
@@ -891,6 +1107,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
@@ -910,6 +1129,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -933,6 +1155,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -951,6 +1176,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -958,6 +1186,47 @@
         "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
         "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
       ]
+    },
+    {
+      "key": "tabulation/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "tabulation",
+      "path": "tabulation/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "tabulation/deltaT",
+      "keyword": "deltaT",
+      "context": "tabulation",
+      "path": "tabulation/deltaT",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "ISAT"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/ISAT.C:107"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "tabulation/growPoints",
@@ -969,6 +1238,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -992,6 +1264,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -1015,6 +1290,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1033,6 +1311,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1051,6 +1332,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1069,6 +1353,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1087,6 +1374,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1105,6 +1395,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ISAT",
@@ -1133,6 +1426,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1151,6 +1447,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -1165,6 +1464,46 @@
       ]
     },
     {
+      "key": "tabulation/otherSpecies",
+      "keyword": "otherSpecies",
+      "context": "tabulation",
+      "path": "tabulation/otherSpecies",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "ISAT"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/ISAT.C:88"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "tabulation/Pressure",
+      "keyword": "Pressure",
+      "context": "tabulation",
+      "path": "tabulation/Pressure",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "ISAT"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/ISAT.C:103"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "tabulation/printNumRetrieve",
       "keyword": "printNumRetrieve",
       "context": "tabulation",
@@ -1174,6 +1513,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -1197,6 +1539,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -1216,10 +1561,18 @@
       "context": "tabulation",
       "path": "tabulation/scaleFactor",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 4,
-      "fileCount": 4,
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "ISAT"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/ISAT.C:86"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1238,6 +1591,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1256,6 +1612,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1274,6 +1633,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1292,6 +1654,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1299,6 +1664,26 @@
         "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
         "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
       ]
+    },
+    {
+      "key": "tabulation/Temperature",
+      "keyword": "Temperature",
+      "context": "tabulation",
+      "path": "tabulation/Temperature",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "ISAT"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/chemistryModel/TDACChemistryModel/tabulation/ISAT/ISAT.C:102"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "tabulation/tolerance",
@@ -1310,6 +1695,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
@@ -1328,6 +1716,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",

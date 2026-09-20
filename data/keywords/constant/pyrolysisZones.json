@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "pyrolysisZones",
   "sourceFileCount": 6,
+  "sourceEvidenceFileCount": 4,
   "occurrences": 88,
+  "sourceOccurrences": 10,
   "entries": [
     {
       "key": "FoamFile",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/pyrolysisZones",
@@ -35,6 +40,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -59,6 +67,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -83,6 +94,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "pyrolysisZones",
@@ -107,6 +121,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/pyrolysisZones",
@@ -126,6 +143,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/pyrolysisZones",
@@ -145,6 +165,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -173,6 +196,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -191,6 +217,27 @@
       ]
     },
     {
+      "key": "pyrolysis/noneCoeffs/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "pyrolysis/noneCoeffs",
+      "path": "pyrolysis/noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "pyrolysis/noPyrolysisCoeffs",
       "keyword": "noPyrolysisCoeffs",
       "context": "pyrolysis",
@@ -200,6 +247,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/pyrolysisZones"
@@ -215,6 +265,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "reactingOneDim",
@@ -247,6 +300,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/pyrolysisZones",
@@ -266,6 +322,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -291,6 +350,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -307,6 +369,26 @@
       ]
     },
     {
+      "key": "pyrolysis/reactingOneDimCoeffs/maxDi",
+      "keyword": "maxDi",
+      "context": "pyrolysis/reactingOneDimCoeffs",
+      "path": "pyrolysis/reactingOneDimCoeffs/maxDi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "reactingOneDim"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/pyrolysisModels/reactingOneDim/reactingOneDim.C:59"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "pyrolysis/reactingOneDimCoeffs/minimumDelta",
       "keyword": "minimumDelta",
       "context": "pyrolysis/reactingOneDimCoeffs",
@@ -314,8 +396,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 5,
-      "fileCount": 5,
+      "occurrences": 6,
+      "fileCount": 6,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "reactingOneDim"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/pyrolysisModels/reactingOneDim/reactingOneDim.C:60"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/pyrolysisZones",
@@ -335,6 +424,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -354,6 +446,26 @@
       ]
     },
     {
+      "key": "pyrolysis/reactingOneDimCoeffs/nNonOrthCorr",
+      "keyword": "nNonOrthCorr",
+      "context": "pyrolysis/reactingOneDimCoeffs",
+      "path": "pyrolysis/reactingOneDimCoeffs/nNonOrthCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "reactingOneDim"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/pyrolysisModels/reactingOneDim/reactingOneDim.C:58"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "pyrolysis/reactingOneDimCoeffs/qrHSource",
       "keyword": "qrHSource",
       "context": "pyrolysis/reactingOneDimCoeffs",
@@ -361,8 +473,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 4,
-      "fileCount": 3,
+      "occurrences": 5,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "reactingOneDim"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/pyrolysisModels/reactingOneDim/reactingOneDim.C:62"
+      ],
       "values": [
         {
           "value": "false",
@@ -393,6 +512,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "qr",
@@ -415,10 +537,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/pyrolysisZones"
       ]
+    },
+    {
+      "key": "pyrolysis/reactingOneDimCoeffs/SIMPLE",
+      "keyword": "SIMPLE",
+      "context": "pyrolysis/reactingOneDimCoeffs",
+      "path": "pyrolysis/reactingOneDimCoeffs/SIMPLE",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "reactingOneDim"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/pyrolysisModels/reactingOneDim/reactingOneDim.C:57"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "pyrolysis/reactingOneDimCoeffs/useChemistrySolvers",
@@ -430,6 +575,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -455,6 +603,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "panelRegion",
@@ -472,6 +623,66 @@
         "combustion/fireFoam/LES/simplePMMApanel/constant/pyrolysisZones",
         "combustion/fireFoam/LES/smallPoolFire2D/constant/pyrolysisZones"
       ]
+    },
+    {
+      "key": "pyrolysis/thermoCoeffs/maxDi",
+      "keyword": "maxDi",
+      "context": "pyrolysis/thermoCoeffs",
+      "path": "pyrolysis/thermoCoeffs/maxDi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermo"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/pyrolysisModels/thermo/thermoPyrolysis.C:56"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pyrolysis/thermoCoeffs/nNonOrthCorr",
+      "keyword": "nNonOrthCorr",
+      "context": "pyrolysis/thermoCoeffs",
+      "path": "pyrolysis/thermoCoeffs/nNonOrthCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermo"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/pyrolysisModels/thermo/thermoPyrolysis.C:55"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "pyrolysis/thermoCoeffs/SIMPLE",
+      "keyword": "SIMPLE",
+      "context": "pyrolysis/thermoCoeffs",
+      "path": "pyrolysis/thermoCoeffs/SIMPLE",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermo"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/pyrolysisModels/thermo/thermoPyrolysis.C:54"
+      ],
+      "values": [],
+      "examples": []
     }
   ]
 }

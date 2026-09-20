@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "include/sideAndTopPatches",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 6,
+  "sourceOccurrences": 4,
   "entries": [
     {
       "key": "proc.*",
@@ -16,10 +18,55 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/turbineSiting/0.orig/include/sideAndTopPatches"
       ]
+    },
+    {
+      "key": "proc.*/myProcNo",
+      "keyword": "myProcNo",
+      "context": "proc.*",
+      "path": "proc.*/myProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:113",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:131"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "proc.*/neighbProcNo",
+      "keyword": "neighbProcNo",
+      "context": "proc.*",
+      "path": "proc.*/neighbProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:114",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:132"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "proc.*/type",
@@ -31,6 +78,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "processor",
@@ -51,6 +101,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/turbineSiting/0.orig/include/sideAndTopPatches"
@@ -66,6 +119,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "slip",
@@ -86,6 +142,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/turbineSiting/0.orig/include/sideAndTopPatches"
@@ -101,6 +160,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "slip",

@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "cellDisplacement",
   "sourceFileCount": 5,
+  "sourceEvidenceFileCount": 1,
   "occurrences": 109,
+  "sourceOccurrences": 6,
   "entries": [
     {
       "key": "boundaryField",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
@@ -36,6 +41,9 @@
       ],
       "occurrences": 23,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
@@ -44,6 +52,126 @@
         "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
         "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/cyclicAMICoeffs/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/cyclicAMICoeffs/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/cyclicAMICoeffs/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/cyclicAMICoeffs/separationVector",
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/cyclicAMICoeffs/srcSize",
+      "keyword": "srcSize",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/cyclicAMICoeffs/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/patchType",
@@ -55,6 +183,9 @@
       ],
       "occurrences": 5,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "overset",
@@ -82,6 +213,9 @@
       ],
       "occurrences": 21,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cellMotion",
@@ -118,6 +252,9 @@
       ],
       "occurrences": 3,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
@@ -133,6 +270,9 @@
       ],
       "occurrences": 15,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
@@ -152,6 +292,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
@@ -171,6 +314,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
@@ -190,6 +336,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"LSB;label=32;scalar=64\"",
@@ -210,6 +359,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volVectorField",
@@ -234,6 +386,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -258,6 +413,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"1\"",
@@ -278,6 +436,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cellDisplacement",
@@ -302,6 +463,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
@@ -321,6 +485,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",

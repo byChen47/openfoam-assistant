@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "finite-area/faOptions",
   "sourceFileCount": 3,
+  "sourceEvidenceFileCount": 4,
   "occurrences": 51,
+  "sourceOccurrences": 9,
   "entries": [
     {
       "key": "contact",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -49,8 +57,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "contactHeatFluxSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/contactHeatFluxSource/contactHeatFluxSource.C:174"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
@@ -66,6 +81,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fluidThermo",
@@ -86,6 +104,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "upper",
@@ -106,6 +127,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -117,6 +141,26 @@
       ]
     },
     {
+      "key": "contact/T",
+      "keyword": "T",
+      "context": "contact",
+      "path": "contact/T",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "contactHeatFluxSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/contactHeatFluxSource/contactHeatFluxSource.C:168"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "contact/thicknessLayers",
       "keyword": "thicknessLayers",
       "context": "contact",
@@ -124,8 +168,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "contactHeatFluxSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/contactHeatFluxSource/contactHeatFluxSource.C:172"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
@@ -141,6 +192,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "contactHeatFluxSource",
@@ -161,6 +215,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions",
@@ -178,6 +235,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -200,6 +260,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -222,6 +285,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "faOptions",
@@ -248,6 +314,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions",
@@ -265,6 +334,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
@@ -280,6 +352,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "yes",
@@ -298,8 +373,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "limitHeight"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/corrections/limitHeight/limitHeight.C:77"
+      ],
       "values": [
         {
           "value": "hf_film",
@@ -318,8 +400,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "limitHeight"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/corrections/limitHeight/limitHeight.C:78"
+      ],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
@@ -335,6 +424,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "velocityFilmShell",
@@ -355,6 +447,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -375,6 +470,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "limitHeight",
@@ -395,6 +493,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
@@ -410,6 +511,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -421,6 +525,26 @@
       ]
     },
     {
+      "key": "outside/emissivity",
+      "keyword": "emissivity",
+      "context": "outside",
+      "path": "outside/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "externalHeatFluxSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/externalHeatFluxSource/externalHeatFluxSource.C:207"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "outside/h",
       "keyword": "h",
       "context": "outside",
@@ -430,6 +554,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
@@ -445,6 +572,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "coefficient",
@@ -465,6 +595,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "upper",
@@ -485,6 +618,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -496,6 +632,26 @@
       ]
     },
     {
+      "key": "outside/T",
+      "keyword": "T",
+      "context": "outside",
+      "path": "outside/T",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "externalHeatFluxSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/externalHeatFluxSource/externalHeatFluxSource.C:206"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "outside/Ta",
       "keyword": "Ta",
       "context": "outside",
@@ -505,6 +661,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constant 290",
@@ -525,6 +684,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "externalHeatFluxSource",
@@ -545,6 +707,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
@@ -560,6 +725,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -580,6 +748,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
@@ -593,8 +764,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "externalFileSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/externalFileSource/externalFileSource.C:58"
+      ],
       "values": [
         {
           "value": "ws",
@@ -615,6 +793,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
@@ -630,6 +811,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
@@ -645,6 +829,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "vibration",
@@ -665,6 +852,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"<constant>/sampled/window/windowPatch.case\"",
@@ -685,6 +875,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ensight",
@@ -705,6 +898,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "all",
@@ -723,8 +919,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "externalFileSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/externalFileSource/externalFileSource.C:59"
+      ],
       "values": [
         {
           "value": "p",
@@ -745,6 +948,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
@@ -760,6 +966,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "externalFileSource",

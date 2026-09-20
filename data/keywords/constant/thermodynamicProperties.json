@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "thermodynamicProperties",
   "sourceFileCount": 4,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 41,
+  "sourceOccurrences": 4,
   "entries": [
     {
       "key": "barotropicCompressibilityModel",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "linear",
@@ -38,6 +43,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/sonicLiquidFoam/decompressionTank/constant/thermodynamicProperties",
@@ -56,6 +64,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -79,6 +90,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -102,6 +116,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "thermodynamicProperties",
@@ -125,6 +142,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/sonicLiquidFoam/decompressionTank/constant/thermodynamicProperties",
@@ -132,6 +152,86 @@
         "multiphase/cavitatingFoam/LES/throttle3D/constant/thermodynamicProperties",
         "multiphase/cavitatingFoam/RAS/throttle/constant/thermodynamicProperties"
       ]
+    },
+    {
+      "key": "linearCoeffs/alphaLiquid0",
+      "keyword": "alphaLiquid0",
+      "context": "linearCoeffs",
+      "path": "linearCoeffs/alphaLiquid0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "linear"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/wallBoilingSubModels/partitioningModels/linear/linearPartitioningModel.C:59"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "linearCoeffs/alphaLiquid1",
+      "keyword": "alphaLiquid1",
+      "context": "linearCoeffs",
+      "path": "linearCoeffs/alphaLiquid1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "linear"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/wallBoilingSubModels/partitioningModels/linear/linearPartitioningModel.C:58"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "linearCoeffs/psil",
+      "keyword": "psil",
+      "context": "linearCoeffs",
+      "path": "linearCoeffs/psil",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "linear"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/barotropicCompressibilityModel/linear/linear.C:91"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "linearCoeffs/psiv",
+      "keyword": "psiv",
+      "context": "linearCoeffs",
+      "path": "linearCoeffs/psiv",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "linear"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/barotropicCompressibilityModel/linear/linear.C:90"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "p0",
@@ -143,6 +243,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/sonicLiquidFoam/decompressionTank/constant/thermodynamicProperties"
@@ -158,6 +261,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/cavitatingFoam/LES/throttle/constant/thermodynamicProperties",
@@ -175,6 +281,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/sonicLiquidFoam/decompressionTank/constant/thermodynamicProperties"
@@ -190,6 +299,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/cavitatingFoam/LES/throttle/constant/thermodynamicProperties",
@@ -207,6 +319,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/cavitatingFoam/LES/throttle/constant/thermodynamicProperties",
@@ -224,6 +339,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "compressible/sonicLiquidFoam/decompressionTank/constant/thermodynamicProperties"
@@ -239,6 +357,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/cavitatingFoam/LES/throttle/constant/thermodynamicProperties",
@@ -256,6 +377,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/cavitatingFoam/LES/throttle/constant/thermodynamicProperties",

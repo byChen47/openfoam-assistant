@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "p_rgh",
   "sourceFileCount": 178,
+  "sourceEvidenceFileCount": 6,
   "occurrences": 3384,
+  "sourceOccurrences": 23,
   "entries": [
     {
       "key": "#include",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/weirOverflow/0.orig/p_rgh",
@@ -30,8 +35,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 178,
-      "fileCount": 178,
+      "occurrences": 179,
+      "fileCount": 179,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/p_rgh:21"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p_rgh",
@@ -52,6 +64,9 @@
       ],
       "occurrences": 685,
       "fileCount": 178,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p_rgh",
@@ -71,6 +86,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "alpha.water",
@@ -91,10 +109,73 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/laminar/damBreakPermeable/0.orig/p_rgh"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/cyclicCoeffs/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}/cyclicCoeffs",
+      "path": "boundaryField/{patch}/cyclicCoeffs/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/cyclicCoeffs/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}/cyclicCoeffs",
+      "path": "boundaryField/{patch}/cyclicCoeffs/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/cyclicCoeffs/separationVector",
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}/cyclicCoeffs",
+      "path": "boundaryField/{patch}/cyclicCoeffs/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/D",
@@ -106,6 +187,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/damBreakLeakage/0.orig/p_rgh",
@@ -122,6 +206,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -140,8 +227,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 15,
-      "fileCount": 14,
+      "occurrences": 16,
+      "fileCount": 15,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "totalPressure"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.cxx:66"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire3D/0.orig/p_rgh",
@@ -161,6 +255,9 @@
       ],
       "occurrences": 18,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -185,6 +282,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/damBreakLeakage/0.orig/p_rgh",
@@ -201,6 +301,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -220,8 +323,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 4,
-      "fileCount": 2,
+      "occurrences": 5,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "porousBafflePressure"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/derivedFvPatchFields/porousBafflePressure/porousBafflePressureFvPatchField.C:65"
+      ],
       "values": [],
       "examples": [
         "multiphase/interFoam/RAS/damBreakLeakage/0.orig/p_rgh",
@@ -238,6 +348,9 @@
       ],
       "occurrences": 33,
       "fileCount": 32,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 100000",
@@ -266,6 +379,9 @@
       ],
       "occurrences": 76,
       "fileCount": 74,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -302,6 +418,9 @@
       ],
       "occurrences": 6,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclic",
@@ -329,6 +448,9 @@
       ],
       "occurrences": 24,
       "fileCount": 20,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "phi",
@@ -369,6 +491,9 @@
       ],
       "occurrences": 12,
       "fileCount": 11,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -391,8 +516,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 27,
-      "fileCount": 22,
+      "occurrences": 28,
+      "fileCount": 23,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/p_rgh:26"
+      ],
       "values": [
         {
           "value": "rho",
@@ -400,7 +532,7 @@
         },
         {
           "value": "rhok",
-          "occurrences": 11
+          "occurrences": 12
         },
         {
           "value": "thermo:rho.air",
@@ -420,6 +552,132 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/separationVector",
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/srcSize",
+      "keyword": "srcSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/type",
       "keyword": "type",
       "context": "boundaryField/{patch}",
@@ -427,12 +685,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 662,
-      "fileCount": 178,
+      "occurrences": 663,
+      "fileCount": 179,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/p_rgh:25"
+      ],
       "values": [
         {
           "value": "fixedFluxPressure",
-          "occurrences": 360
+          "occurrences": 361
         },
         {
           "value": "empty",
@@ -521,6 +786,9 @@
       ],
       "occurrences": 16,
       "fileCount": 15,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "U",
@@ -553,6 +821,9 @@
       ],
       "occurrences": 4,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -572,8 +843,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 359,
-      "fileCount": 132,
+      "occurrences": 361,
+      "fileCount": 134,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/p_rgh:27",
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 0",
@@ -605,6 +885,26 @@
       ]
     },
     {
+      "key": "boundaryField/wall",
+      "keyword": "wall",
+      "context": "boundaryField",
+      "path": "boundaryField/wall",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/p_rgh:23"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dimensions",
       "keyword": "dimensions",
       "context": "",
@@ -612,8 +912,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 178,
-      "fileCount": 178,
+      "occurrences": 179,
+      "fileCount": 179,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/p_rgh:17"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p_rgh",
@@ -631,8 +938,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 178,
-      "fileCount": 178,
+      "occurrences": 179,
+      "fileCount": 179,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/p_rgh:8"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p_rgh",
@@ -652,6 +966,9 @@
       ],
       "occurrences": 178,
       "fileCount": 178,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -676,6 +993,9 @@
       ],
       "occurrences": 178,
       "fileCount": 178,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -700,6 +1020,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"0\"",
@@ -721,6 +1044,9 @@
       ],
       "occurrences": 178,
       "fileCount": 178,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "p_rgh",
@@ -745,6 +1071,9 @@
       ],
       "occurrences": 178,
       "fileCount": 178,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p_rgh",
@@ -762,12 +1091,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 178,
-      "fileCount": 178,
+      "occurrences": 179,
+      "fileCount": 179,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/p_rgh:19"
+      ],
       "values": [
         {
           "value": "uniform 0",
-          "occurrences": 84
+          "occurrences": 85
         },
         {
           "value": "uniform 1e5",

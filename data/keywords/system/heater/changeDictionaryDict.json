@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "heater/changeDictionaryDict",
   "sourceFileCount": 7,
+  "sourceEvidenceFileCount": 6,
   "occurrences": 212,
+  "sourceOccurrences": 38,
   "entries": [
     {
       "key": "boundary",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -35,6 +40,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -43,6 +51,87 @@
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/heater/changeDictionaryDict",
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/heater/changeDictionaryDict"
       ]
+    },
+    {
+      "key": "boundary/maxZ/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/maxZ",
+      "path": "boundary/maxZ/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/maxZ/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/maxZ",
+      "path": "boundary/maxZ/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/maxZ/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/maxZ",
+      "path": "boundary/maxZ/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/maxZ/startFace",
+      "keyword": "startFace",
+      "context": "boundary/maxZ",
+      "path": "boundary/maxZ/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/maxZ/type",
@@ -54,6 +143,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -78,6 +170,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -86,6 +181,26 @@
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/heater/changeDictionaryDict",
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/heater/changeDictionaryDict"
       ]
+    },
+    {
+      "key": "boundary/minY/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/minY",
+      "path": "boundary/minY/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/minY/inGroups",
@@ -97,12 +212,76 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
         "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/heater/changeDictionaryDict",
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/heater/changeDictionaryDict"
       ]
+    },
+    {
+      "key": "boundary/minY/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/minY",
+      "path": "boundary/minY/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/minY/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/minY",
+      "path": "boundary/minY/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/minY/startFace",
+      "keyword": "startFace",
+      "context": "boundary/minY",
+      "path": "boundary/minY/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/minY/type",
@@ -114,6 +293,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -138,6 +320,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -146,6 +331,87 @@
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/heater/changeDictionaryDict",
         "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/heater/changeDictionaryDict"
       ]
+    },
+    {
+      "key": "boundary/minZ/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "boundary/minZ",
+      "path": "boundary/minZ/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/minZ/nFaces",
+      "keyword": "nFaces",
+      "context": "boundary/minZ",
+      "path": "boundary/minZ/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/minZ/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "boundary/minZ",
+      "path": "boundary/minZ/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundary/minZ/startFace",
+      "keyword": "startFace",
+      "context": "boundary/minZ",
+      "path": "boundary/minZ/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundary/minZ/type",
@@ -157,6 +423,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -181,6 +450,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/heater/changeDictionaryDict"
@@ -196,6 +468,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/heater/changeDictionaryDict"
@@ -211,10 +486,94 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/heater/changeDictionaryDict"
       ]
+    },
+    {
+      "key": "dictionaryReplacement/boundary/maxZ/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "dictionaryReplacement/boundary/maxZ",
+      "path": "dictionaryReplacement/boundary/maxZ/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/maxZ/nFaces",
+      "keyword": "nFaces",
+      "context": "dictionaryReplacement/boundary/maxZ",
+      "path": "dictionaryReplacement/boundary/maxZ/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/maxZ/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "dictionaryReplacement/boundary/maxZ",
+      "path": "dictionaryReplacement/boundary/maxZ/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/maxZ/startFace",
+      "keyword": "startFace",
+      "context": "dictionaryReplacement/boundary/maxZ",
+      "path": "dictionaryReplacement/boundary/maxZ/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "dictionaryReplacement/boundary/maxZ/type",
@@ -226,6 +585,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -246,10 +608,94 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/heater/changeDictionaryDict"
       ]
+    },
+    {
+      "key": "dictionaryReplacement/boundary/minY/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "dictionaryReplacement/boundary/minY",
+      "path": "dictionaryReplacement/boundary/minY/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/minY/nFaces",
+      "keyword": "nFaces",
+      "context": "dictionaryReplacement/boundary/minY",
+      "path": "dictionaryReplacement/boundary/minY/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/minY/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "dictionaryReplacement/boundary/minY",
+      "path": "dictionaryReplacement/boundary/minY/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/minY/startFace",
+      "keyword": "startFace",
+      "context": "dictionaryReplacement/boundary/minY",
+      "path": "dictionaryReplacement/boundary/minY/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "dictionaryReplacement/boundary/minY/type",
@@ -261,6 +707,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -281,10 +730,94 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/heater/changeDictionaryDict"
       ]
+    },
+    {
+      "key": "dictionaryReplacement/boundary/minZ/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "dictionaryReplacement/boundary/minZ",
+      "path": "dictionaryReplacement/boundary/minZ/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/minZ/nFaces",
+      "keyword": "nFaces",
+      "context": "dictionaryReplacement/boundary/minZ",
+      "path": "dictionaryReplacement/boundary/minZ/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/minZ/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "dictionaryReplacement/boundary/minZ",
+      "path": "dictionaryReplacement/boundary/minZ/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "dictionaryReplacement/boundary/minZ/startFace",
+      "keyword": "startFace",
+      "context": "dictionaryReplacement/boundary/minZ",
+      "path": "dictionaryReplacement/boundary/minZ/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "dictionaryReplacement/boundary/minZ/type",
@@ -296,6 +829,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "patch",
@@ -316,6 +852,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -335,6 +874,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -359,6 +901,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -383,6 +928,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "changeDictionaryDict",
@@ -407,6 +955,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -426,6 +977,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -445,6 +999,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -464,6 +1021,9 @@
       ],
       "occurrences": 25,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -481,8 +1041,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:280"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -500,6 +1067,9 @@
       ],
       "occurrences": 11,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "solidThermo",
@@ -515,6 +1085,48 @@
       ]
     },
     {
+      "key": "T/boundaryField/{patch}/myProcNo",
+      "keyword": "myProcNo",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/myProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:113",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:131"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "T/boundaryField/{patch}/neighbProcNo",
+      "keyword": "neighbProcNo",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/neighbProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:114",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:132"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "T/boundaryField/{patch}/qr",
       "keyword": "qr",
       "context": "T/boundaryField/{patch}",
@@ -524,6 +1136,9 @@
       ],
       "occurrences": 2,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -544,6 +1159,9 @@
       ],
       "occurrences": 2,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "qr",
@@ -562,8 +1180,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 3,
-      "fileCount": 3,
+      "occurrences": 4,
+      "fileCount": 4,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:278"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/heater/changeDictionaryDict",
@@ -581,6 +1206,9 @@
       ],
       "occurrences": 11,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "T",
@@ -605,6 +1233,9 @@
       ],
       "occurrences": 25,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "compressible::turbulentTemperatureRadCoupledMixed",
@@ -639,8 +1270,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:314"
+      ],
       "values": [
         {
           "value": "true",
@@ -659,8 +1297,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 23,
-      "fileCount": 6,
+      "occurrences": 24,
+      "fileCount": 7,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 300",
@@ -689,6 +1334,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 300",

@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "air/radiationProperties",
   "sourceFileCount": 3,
+  "sourceEvidenceFileCount": 5,
   "occurrences": 88,
+  "sourceOccurrences": 23,
   "entries": [
     {
       "key": "absorptionEmissionModel",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiBandZoneAbsorptionEmission",
@@ -41,6 +46,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties",
@@ -58,6 +66,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -80,6 +91,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -102,6 +116,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "radiationProperties",
@@ -124,6 +141,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties",
@@ -141,6 +161,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -154,8 +177,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:573"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -169,8 +199,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:420",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:529"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -184,12 +222,60 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:419",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:528"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
       ]
+    },
+    {
+      "key": "fvDOMCoeffs/solarCalculatorCoeffs",
+      "keyword": "solarCalculatorCoeffs",
+      "context": "fvDOMCoeffs",
+      "path": "fvDOMCoeffs/solarCalculatorCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:139"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "fvDOMCoeffs/solarLoadCoeffs",
+      "keyword": "solarLoadCoeffs",
+      "context": "fvDOMCoeffs",
+      "path": "fvDOMCoeffs/solarLoadCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:330"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "fvDOMCoeffs/spectralDistribution",
@@ -201,6 +287,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -216,6 +305,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -229,8 +321,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:119"
+      ],
       "values": [
         {
           "value": "true",
@@ -249,8 +348,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:319"
+      ],
       "values": [
         {
           "value": "false",
@@ -271,6 +377,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -284,8 +393,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "multiBandZoneAbsorptionEmission"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/multiBandZoneAbsorptionEmission/multiBandZoneAbsorptionEmission.C:67",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/multiBandZoneAbsorptionEmission/multiBandZoneAbsorptionEmission.C:73"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -299,8 +416,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "multiBandZoneAbsorptionEmission"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/multiBandZoneAbsorptionEmission/multiBandZoneAbsorptionEmission.C:68",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/multiBandZoneAbsorptionEmission/multiBandZoneAbsorptionEmission.C:74"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -312,10 +437,18 @@
       "context": "multiBandZoneAbsorptionEmissionCoeffs",
       "path": "multiBandZoneAbsorptionEmissionCoeffs/zones",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandZoneAbsorptionEmission"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/multiBandZoneAbsorptionEmission/multiBandZoneAbsorptionEmission.C:71"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -331,10 +464,34 @@
       ],
       "occurrences": 2,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
       ]
+    },
+    {
+      "key": "noneCoeffs/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "noneCoeffs",
+      "path": "noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "radiation",
@@ -346,6 +503,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -372,6 +532,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fvDOM",
@@ -402,6 +565,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -423,6 +589,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -438,6 +607,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -453,6 +625,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -468,6 +643,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -483,6 +661,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -498,6 +679,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -513,6 +697,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -528,6 +715,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -543,6 +733,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -558,6 +751,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -573,6 +769,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -588,6 +787,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -603,6 +805,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "tracking",
@@ -623,6 +828,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fairWeather",
@@ -643,6 +851,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/constant/air/radiationProperties"
@@ -658,6 +869,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -673,6 +887,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -688,6 +905,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -708,6 +928,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -723,6 +946,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -738,6 +964,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -753,6 +982,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -768,6 +1000,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -783,6 +1018,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -798,6 +1036,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -813,10 +1054,34 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
       ]
+    },
+    {
+      "key": "solarLoadCoeffs/noneCoeffs/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "solarLoadCoeffs/noneCoeffs",
+      "path": "solarLoadCoeffs/noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "solarLoadCoeffs/reflecting",
@@ -828,6 +1093,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -843,6 +1111,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -858,6 +1129,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -873,6 +1147,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -893,6 +1170,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -913,6 +1193,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -933,6 +1216,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -948,6 +1234,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -963,6 +1252,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -978,6 +1270,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "tracking",
@@ -998,6 +1293,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fairWeather",
@@ -1018,6 +1316,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -1033,6 +1334,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -1053,6 +1357,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -1073,6 +1380,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties",
@@ -1089,6 +1399,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -1110,6 +1423,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -1123,8 +1439,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "viewFactor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/viewFactor/viewFactor.C:501"
+      ],
       "values": [
         {
           "value": "true",
@@ -1145,6 +1468,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/externalSolarLoad/constant/air/radiationProperties"
@@ -1158,8 +1484,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "viewFactor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/viewFactor/viewFactor.C:414",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/viewFactor/viewFactor.C:481"
+      ],
       "values": [
         {
           "value": "true",
@@ -1171,6 +1505,26 @@
       ]
     },
     {
+      "key": "viewFactorCoeffs/solarLoadCoeffs",
+      "keyword": "solarLoadCoeffs",
+      "context": "viewFactorCoeffs",
+      "path": "viewFactorCoeffs/solarLoadCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "viewFactor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/viewFactor/viewFactor.C:518"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "viewFactorCoeffs/useSolarLoad",
       "keyword": "useSolarLoad",
       "context": "viewFactorCoeffs",
@@ -1178,8 +1532,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "viewFactor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/viewFactor/viewFactor.C:514"
+      ],
       "values": [
         {
           "value": "true",

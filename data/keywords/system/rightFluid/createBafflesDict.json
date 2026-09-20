@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "rightFluid/createBafflesDict",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 4,
   "occurrences": 32,
+  "sourceOccurrences": 60,
   "entries": [
     {
       "key": "baffles",
@@ -14,12 +16,248 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:56"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
       ]
+    },
+    {
+      "key": "baffles/baffle1",
+      "keyword": "baffle1",
+      "context": "baffles",
+      "path": "baffles/baffle1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:58"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffle1/name",
+      "keyword": "name",
+      "context": "baffles/baffle1",
+      "path": "baffles/baffle1/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:63"
+      ],
+      "values": [
+        {
+          "value": "baffle1D.stl",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffle1/patchPairs",
+      "keyword": "patchPairs",
+      "context": "baffles/baffle1",
+      "path": "baffles/baffle1/patchPairs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:71"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffle1/patchPairs/patchFields",
+      "keyword": "patchFields",
+      "context": "baffles/baffle1/patchPairs",
+      "path": "baffles/baffle1/patchPairs/patchFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:76"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffle1/patchPairs/patchFields/U",
+      "keyword": "U",
+      "context": "baffles/baffle1/patchPairs/patchFields",
+      "path": "baffles/baffle1/patchPairs/patchFields/U",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:78"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffle1/patchPairs/patchFields/U/type",
+      "keyword": "type",
+      "context": "baffles/baffle1/patchPairs/patchFields/U",
+      "path": "baffles/baffle1/patchPairs/patchFields/U/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:80"
+      ],
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffle1/patchPairs/patchFields/U/value",
+      "keyword": "value",
+      "context": "baffles/baffle1/patchPairs/patchFields/U",
+      "path": "baffles/baffle1/patchPairs/patchFields/U/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:81",
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffle1/patchPairs/type",
+      "keyword": "type",
+      "context": "baffles/baffle1/patchPairs",
+      "path": "baffles/baffle1/patchPairs/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:73"
+      ],
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffle1/surface",
+      "keyword": "surface",
+      "context": "baffles/baffle1",
+      "path": "baffles/baffle1/surface",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "searchableSurface"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:62",
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/searchableSurfaceSelection.C:67"
+      ],
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/baffle1/type",
+      "keyword": "type",
+      "context": "baffles/baffle1",
+      "path": "baffles/baffle1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:61"
+      ],
+      "values": [
+        {
+          "value": "searchableSurface",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
     },
     {
       "key": "baffles/cyclicFaces",
@@ -29,8 +267,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:88"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -44,8 +289,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:94"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -59,8 +311,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:99"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -74,8 +333,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:101"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -89,9 +355,20 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:105"
+      ],
       "values": [
+        {
+          "value": "fan_half0",
+          "occurrences": 1
+        },
         {
           "value": "porous_half0",
           "occurrences": 1
@@ -109,9 +386,20 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:107"
+      ],
       "values": [
+        {
+          "value": "fan_half1",
+          "occurrences": 1
+        },
         {
           "value": "porous_half1",
           "occurrences": 1
@@ -129,12 +417,39 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:109"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
       ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p",
+      "keyword": "p",
+      "context": "baffles/cyclicFaces/patches/master/patchFields",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:111"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
@@ -146,10 +461,73 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
       ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs/separationVector",
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/D",
@@ -161,6 +539,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -176,6 +557,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -191,6 +575,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -211,6 +598,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -226,6 +616,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclic",
@@ -237,6 +630,66 @@
       ]
     },
     {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/separationVector",
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/type",
       "keyword": "type",
       "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
@@ -246,6 +699,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cyclic",
@@ -266,6 +722,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -286,6 +745,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -297,6 +759,246 @@
       ]
     },
     {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p/cyclicCoeffs/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p/cyclicCoeffs/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p/cyclicCoeffs/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p/cyclicCoeffs/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p/cyclicCoeffs/separationVector",
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p/cyclicCoeffs/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p/jump",
+      "keyword": "jump",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p/jump",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:115"
+      ],
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p/jumpTable",
+      "keyword": "jumpTable",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p/jumpTable",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:117"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p/patchType",
+      "keyword": "patchType",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p/patchType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:114"
+      ],
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p/type",
+      "keyword": "type",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:113"
+      ],
+      "values": [
+        {
+          "value": "fan",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p/value",
+      "keyword": "value",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:116"
+      ],
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/separationVector",
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "baffles/cyclicFaces/patches/master/type",
       "keyword": "type",
       "context": "baffles/cyclicFaces/patches/master",
@@ -304,12 +1006,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:106"
+      ],
       "values": [
         {
           "value": "cyclic",
-          "occurrences": 1
+          "occurrences": 2
         }
       ],
       "examples": [
@@ -324,8 +1033,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:121"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -339,9 +1055,20 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:125"
+      ],
       "values": [
+        {
+          "value": "fan_half1",
+          "occurrences": 1
+        },
         {
           "value": "porous_half1",
           "occurrences": 1
@@ -359,9 +1086,20 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:127"
+      ],
       "values": [
+        {
+          "value": "fan_half0",
+          "occurrences": 1
+        },
         {
           "value": "porous_half0",
           "occurrences": 1
@@ -379,12 +1117,234 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:129"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
       ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/patchFields/p",
+      "keyword": "p",
+      "context": "baffles/cyclicFaces/patches/slave/patchFields",
+      "path": "baffles/cyclicFaces/patches/slave/patchFields/p",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:131"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/patchFields/p/cyclicCoeffs/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patches/slave/patchFields/p/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/slave/patchFields/p/cyclicCoeffs/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/patchFields/p/cyclicCoeffs/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patches/slave/patchFields/p/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/slave/patchFields/p/cyclicCoeffs/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/patchFields/p/cyclicCoeffs/separationVector",
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patches/slave/patchFields/p/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/slave/patchFields/p/cyclicCoeffs/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/patchFields/p/patchType",
+      "keyword": "patchType",
+      "context": "baffles/cyclicFaces/patches/slave/patchFields/p",
+      "path": "baffles/cyclicFaces/patches/slave/patchFields/p/patchType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:134"
+      ],
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/patchFields/p/type",
+      "keyword": "type",
+      "context": "baffles/cyclicFaces/patches/slave/patchFields/p",
+      "path": "baffles/cyclicFaces/patches/slave/patchFields/p/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:133"
+      ],
+      "values": [
+        {
+          "value": "fan",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/patchFields/p/value",
+      "keyword": "value",
+      "context": "baffles/cyclicFaces/patches/slave/patchFields/p",
+      "path": "baffles/cyclicFaces/patches/slave/patchFields/p/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:135"
+      ],
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/separationVector",
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "baffles/cyclicFaces/patches/slave/type",
@@ -394,12 +1354,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:126"
+      ],
       "values": [
         {
           "value": "cyclic",
-          "occurrences": 1
+          "occurrences": 2
         }
       ],
       "examples": [
@@ -414,8 +1381,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:95"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -429,12 +1403,21 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "searchableSurface"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:92",
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/searchableSurfaceSelection.C:67"
+      ],
       "values": [
         {
           "value": "plate",
-          "occurrences": 1
+          "occurrences": 2
         }
       ],
       "examples": [
@@ -449,12 +1432,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:91"
+      ],
       "values": [
         {
           "value": "searchableSurface",
-          "occurrences": 1
+          "occurrences": 2
         }
       ],
       "examples": [
@@ -469,8 +1459,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:8"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -486,6 +1483,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -506,6 +1506,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -526,6 +1529,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "createBafflesDict",
@@ -546,6 +1552,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
@@ -559,12 +1568,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/createBafflesDict:49"
+      ],
       "values": [
         {
           "value": "true",
-          "occurrences": 1
+          "occurrences": 2
         }
       ],
       "examples": [

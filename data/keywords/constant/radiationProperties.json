@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "radiationProperties",
   "sourceFileCount": 35,
+  "sourceEvidenceFileCount": 17,
   "occurrences": 625,
+  "sourceOccurrences": 36,
   "entries": [
     {
       "key": "absorptionEmissionModel",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constantAbsorptionEmission",
@@ -52,6 +57,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -63,10 +71,18 @@
       "context": "binaryAbsorptionEmissionCoeffs",
       "path": "binaryAbsorptionEmissionCoeffs/model1",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "binaryAbsorptionEmission"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/binaryAbsorptionEmission/binaryAbsorptionEmission.C:61"
+      ],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -82,6 +98,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constantAbsorptionEmission",
@@ -102,6 +121,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -117,6 +139,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -132,6 +157,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -147,6 +175,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -158,10 +189,18 @@
       "context": "binaryAbsorptionEmissionCoeffs",
       "path": "binaryAbsorptionEmissionCoeffs/model2",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "binaryAbsorptionEmission"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/binaryAbsorptionEmission/binaryAbsorptionEmission.C:65"
+      ],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -177,6 +216,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cloudAbsorptionEmission",
@@ -197,6 +239,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -210,8 +255,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cloudAbsorptionEmission"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/intermediate/submodels/addOns/radiation/absorptionEmission/cloudAbsorptionEmission/cloudAbsorptionEmission.C:60"
+      ],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -227,6 +279,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -240,8 +295,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cloudScatter"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/intermediate/submodels/addOns/radiation/scatter/cloudScatter/cloudScatter.C:60"
+      ],
       "values": [],
       "examples": [
         "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
@@ -257,6 +319,9 @@
       ],
       "occurrences": 10,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -276,6 +341,9 @@
       ],
       "occurrences": 10,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -295,6 +363,9 @@
       ],
       "occurrences": 10,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -314,6 +385,9 @@
       ],
       "occurrences": 10,
       "fileCount": 10,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -333,6 +407,9 @@
       ],
       "occurrences": 35,
       "fileCount": 35,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -352,6 +429,9 @@
       ],
       "occurrences": 35,
       "fileCount": 35,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -376,6 +456,9 @@
       ],
       "occurrences": 35,
       "fileCount": 35,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -400,6 +483,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"constant\"",
@@ -420,6 +506,9 @@
       ],
       "occurrences": 35,
       "fileCount": 35,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "radiationProperties",
@@ -444,6 +533,9 @@
       ],
       "occurrences": 35,
       "fileCount": 35,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -463,6 +555,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -480,8 +575,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 9,
-      "fileCount": 9,
+      "occurrences": 10,
+      "fileCount": 10,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:573"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -499,8 +601,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 9,
-      "fileCount": 9,
+      "occurrences": 11,
+      "fileCount": 10,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:420",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:529"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -518,8 +628,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 9,
-      "fileCount": 9,
+      "occurrences": 11,
+      "fileCount": 10,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:419",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:528"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -528,6 +646,46 @@
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
         "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
       ]
+    },
+    {
+      "key": "fvDOMCoeffs/solarCalculatorCoeffs",
+      "keyword": "solarCalculatorCoeffs",
+      "context": "fvDOMCoeffs",
+      "path": "fvDOMCoeffs/solarCalculatorCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:139"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "fvDOMCoeffs/solarLoadCoeffs",
+      "keyword": "solarLoadCoeffs",
+      "context": "fvDOMCoeffs",
+      "path": "fvDOMCoeffs/solarLoadCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:330"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "fvDOMCoeffs/tolerance",
@@ -539,6 +697,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -547,6 +708,46 @@
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
         "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
       ]
+    },
+    {
+      "key": "fvDOMCoeffs/useExternalBeam",
+      "keyword": "useExternalBeam",
+      "context": "fvDOMCoeffs",
+      "path": "fvDOMCoeffs/useExternalBeam",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:119"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "fvDOMCoeffs/useSolarLoad",
+      "keyword": "useSolarLoad",
+      "context": "fvDOMCoeffs",
+      "path": "fvDOMCoeffs/useSolarLoad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fvDOM"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/fvDOM/fvDOM/fvDOM.C:319"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "greyMeanAbsorptionEmissionCoeffs",
@@ -558,6 +759,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -577,6 +781,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
@@ -592,6 +799,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
@@ -607,6 +817,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -627,6 +840,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
@@ -642,6 +858,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
@@ -657,6 +876,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
@@ -672,6 +894,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
@@ -687,6 +912,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
@@ -702,6 +930,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
@@ -717,6 +948,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -737,6 +971,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
@@ -752,6 +989,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
@@ -767,6 +1007,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
@@ -782,6 +1025,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
@@ -797,6 +1043,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
@@ -814,6 +1063,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
@@ -831,6 +1083,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "false",
@@ -853,6 +1108,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
@@ -870,6 +1128,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
@@ -887,6 +1148,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
@@ -904,6 +1168,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
@@ -921,6 +1188,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -940,6 +1210,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -959,6 +1232,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -983,6 +1259,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1002,6 +1281,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1021,6 +1303,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1040,6 +1325,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1057,8 +1345,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 5,
-      "fileCount": 5,
+      "occurrences": 6,
+      "fileCount": 6,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "greyMeanAbsorptionEmission"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/greyMeanAbsorptionEmission/greyMeanAbsorptionEmission.C:67"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1078,6 +1373,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1097,6 +1395,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1116,6 +1417,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -1140,6 +1444,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1159,6 +1466,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1178,6 +1488,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1197,6 +1510,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1214,8 +1530,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 4,
-      "fileCount": 4,
+      "occurrences": 6,
+      "fileCount": 5,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "greyMeanAbsorptionEmission"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/greyMeanAbsorptionEmission/greyMeanAbsorptionEmission.C:100",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/greyMeanAbsorptionEmission/greyMeanAbsorptionEmission.C:107"
+      ],
       "values": [
         {
           "value": "none",
@@ -1239,6 +1563,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1258,6 +1585,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1277,6 +1607,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -1301,6 +1634,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1320,6 +1656,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1339,6 +1678,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1358,6 +1700,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1377,6 +1722,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1396,6 +1744,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1415,6 +1766,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -1439,6 +1793,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1458,6 +1815,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1477,6 +1837,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1496,6 +1859,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -1515,6 +1881,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties"
@@ -1530,6 +1899,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties"
@@ -1545,6 +1917,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -1565,6 +1940,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
@@ -1580,6 +1958,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
@@ -1595,10 +1976,34 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
       ]
+    },
+    {
+      "key": "noneCoeffs/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "noneCoeffs",
+      "path": "noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "noRadiation",
@@ -1610,6 +2015,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties"
@@ -1625,6 +2033,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties",
@@ -1642,6 +2053,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties",
@@ -1658,6 +2072,9 @@
       ],
       "occurrences": 34,
       "fileCount": 34,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -1686,6 +2103,9 @@
       ],
       "occurrences": 35,
       "fileCount": 35,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -1722,6 +2142,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -1750,6 +2173,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1765,6 +2191,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1780,6 +2209,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -1800,6 +2232,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1815,10 +2250,177 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
       ]
+    },
+    {
+      "key": "solarLoadCoeffs/constantCoeffs/c0",
+      "keyword": "c0",
+      "context": "solarLoadCoeffs/constantCoeffs",
+      "path": "solarLoadCoeffs/constantCoeffs/c0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/constantHeatTransfer/constantHeatTransfer.C:61"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solarLoadCoeffs/constantCoeffs/coeffC",
+      "keyword": "coeffC",
+      "context": "solarLoadCoeffs/constantCoeffs",
+      "path": "solarLoadCoeffs/constantCoeffs/coeffC",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/constant/constant.C:215"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solarLoadCoeffs/constantCoeffs/coeffE",
+      "keyword": "coeffE",
+      "context": "solarLoadCoeffs/constantCoeffs",
+      "path": "solarLoadCoeffs/constantCoeffs/coeffE",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/constant/constant.C:216"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solarLoadCoeffs/constantCoeffs/d",
+      "keyword": "d",
+      "context": "solarLoadCoeffs/constantCoeffs",
+      "path": "solarLoadCoeffs/constantCoeffs/d",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/diameterModels/constantDiameter/constantDiameter.C:87",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/diameterModels/constantDiameter/constantDiameter.C:86"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solarLoadCoeffs/constantCoeffs/sigma",
+      "keyword": "sigma",
+      "context": "solarLoadCoeffs/constantCoeffs",
+      "path": "solarLoadCoeffs/constantCoeffs/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.C:86",
+        "OpenFOAM-v2606/src/transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.C:90"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solarLoadCoeffs/constantCoeffs/specie",
+      "keyword": "specie",
+      "context": "solarLoadCoeffs/constantCoeffs",
+      "path": "solarLoadCoeffs/constantCoeffs/specie",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/constantFilmThermo/constantFilmThermo.C:72"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solarLoadCoeffs/constantCoeffs/value",
+      "keyword": "value",
+      "context": "solarLoadCoeffs/constantCoeffs",
+      "path": "solarLoadCoeffs/constantCoeffs/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/ConstantField/ConstantField.C:103",
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/ConstantField/ConstantField.C:121",
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Constant/Constant.C:78"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "solarLoadCoeffs/constantCoeffs/velocityGroup",
+      "keyword": "velocityGroup",
+      "context": "solarLoadCoeffs/constantCoeffs",
+      "path": "solarLoadCoeffs/constantCoeffs/velocityGroup",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/populationBalanceModel/nucleationModels/constantNucleation/constantNucleation.C:72"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "solarLoadCoeffs/gridEast",
@@ -1830,6 +2432,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1845,6 +2450,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1860,6 +2468,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1875,6 +2486,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1890,6 +2504,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1905,10 +2522,34 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
       ]
+    },
+    {
+      "key": "solarLoadCoeffs/noneCoeffs/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "solarLoadCoeffs/noneCoeffs",
+      "path": "solarLoadCoeffs/noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "solarLoadCoeffs/reflecting",
@@ -1920,6 +2561,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1935,6 +2579,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1950,6 +2597,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1965,6 +2615,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -1985,6 +2638,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -1998,8 +2654,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "solarLoad"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/solarLoad/solarLoad.C:406"
+      ],
       "values": [
         {
           "value": "false",
@@ -2020,6 +2683,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -2040,6 +2706,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -2055,6 +2724,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -2070,6 +2742,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -2085,6 +2760,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
@@ -2100,6 +2778,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constant",
@@ -2120,6 +2801,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fairWeather",
@@ -2131,6 +2815,26 @@
       ]
     },
     {
+      "key": "solarLoadCoeffs/updateAbsorptivity",
+      "keyword": "updateAbsorptivity",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/updateAbsorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "solarLoad"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/solarLoad/solarLoad.C:408"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "solarLoadCoeffs/useReflectedRays",
       "keyword": "useReflectedRays",
       "context": "solarLoadCoeffs",
@@ -2138,8 +2842,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "solarLoad"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/solarLoad/solarLoad.C:409"
+      ],
       "values": [
         {
           "value": "true",
@@ -2158,8 +2869,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "solarLoad"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/solarLoad/solarLoad.C:407"
+      ],
       "values": [
         {
           "value": "true",
@@ -2180,6 +2898,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
@@ -2199,6 +2920,9 @@
       ],
       "occurrences": 12,
       "fileCount": 12,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -2223,6 +2947,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",

@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "phaseChangeProperties",
   "sourceFileCount": 2,
+  "sourceEvidenceFileCount": 10,
   "occurrences": 20,
+  "sourceOccurrences": 14,
   "entries": [
     {
       "key": "coeffC",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/multiphase/StefanProblem/setups.orig/interCondensatingEvaporatingFoam/constant/phaseChangeProperties"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/multiphase/StefanProblem/setups.orig/interCondensatingEvaporatingFoam/constant/phaseChangeProperties"
@@ -46,10 +54,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/constant/phaseChangeProperties"
       ]
+    },
+    {
+      "key": "constantCoeffs/c0",
+      "keyword": "c0",
+      "context": "constantCoeffs",
+      "path": "constantCoeffs/c0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/constantHeatTransfer/constantHeatTransfer.C:61"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "constantCoeffs/coeffC",
@@ -59,8 +90,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/constant/constant.C:215"
+      ],
       "values": [],
       "examples": [
         "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/constant/phaseChangeProperties"
@@ -74,12 +112,123 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/constant/constant.C:216"
+      ],
       "values": [],
       "examples": [
         "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/constant/phaseChangeProperties"
       ]
+    },
+    {
+      "key": "constantCoeffs/d",
+      "keyword": "d",
+      "context": "constantCoeffs",
+      "path": "constantCoeffs/d",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/diameterModels/constantDiameter/constantDiameter.C:87",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/diameterModels/constantDiameter/constantDiameter.C:86"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "constantCoeffs/sigma",
+      "keyword": "sigma",
+      "context": "constantCoeffs",
+      "path": "constantCoeffs/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.C:86",
+        "OpenFOAM-v2606/src/transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.C:90"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "constantCoeffs/specie",
+      "keyword": "specie",
+      "context": "constantCoeffs",
+      "path": "constantCoeffs/specie",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/constantFilmThermo/constantFilmThermo.C:72"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "constantCoeffs/value",
+      "keyword": "value",
+      "context": "constantCoeffs",
+      "path": "constantCoeffs/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/ConstantField/ConstantField.C:103",
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/ConstantField/ConstantField.C:121",
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Constant/Constant.C:78"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "constantCoeffs/velocityGroup",
+      "keyword": "velocityGroup",
+      "context": "constantCoeffs",
+      "path": "constantCoeffs/velocityGroup",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/populationBalanceModel/nucleationModels/constantNucleation/constantNucleation.C:72"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "FoamFile",
@@ -91,6 +240,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/constant/phaseChangeProperties",
@@ -107,6 +259,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -128,6 +283,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -149,6 +307,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "phaseChangeProperties",
@@ -170,11 +331,54 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/constant/phaseChangeProperties",
         "verificationAndValidation/multiphase/StefanProblem/setups.orig/interCondensatingEvaporatingFoam/constant/phaseChangeProperties"
       ]
+    },
+    {
+      "key": "interfaceHeatResistanceCoeffs/R",
+      "keyword": "R",
+      "context": "interfaceHeatResistanceCoeffs",
+      "path": "interfaceHeatResistanceCoeffs/R",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "interfaceHeatResistance"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/interfaceHeatResistance/interfaceHeatResistance.C:352"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "interfaceHeatResistanceCoeffs/spread",
+      "keyword": "spread",
+      "context": "interfaceHeatResistanceCoeffs",
+      "path": "interfaceHeatResistanceCoeffs/spread",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "interfaceHeatResistance"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/interfaceHeatResistance/interfaceHeatResistance.C:353"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "maxAlphaRate",
@@ -186,6 +390,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/multiphase/StefanProblem/setups.orig/interCondensatingEvaporatingFoam/constant/phaseChangeProperties"
@@ -201,6 +408,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constant",
@@ -226,6 +436,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/multiphase/StefanProblem/setups.orig/interCondensatingEvaporatingFoam/constant/phaseChangeProperties"
@@ -241,6 +454,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/multiphase/StefanProblem/setups.orig/interCondensatingEvaporatingFoam/constant/phaseChangeProperties"

@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "noiseDict-surface",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 23,
+  "sourceOccurrences": 11,
   "entries": [
     {
       "key": "FoamFile",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-surface"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -51,6 +59,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -71,6 +82,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "noiseDict",
@@ -91,6 +105,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-surface"
@@ -106,6 +123,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "surfaceNoise",
@@ -126,6 +146,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-surface"
@@ -139,8 +162,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:487"
+      ],
       "values": [
         {
           "value": "yes",
@@ -152,6 +182,66 @@
       ]
     },
     {
+      "key": "surfaceNoiseCoeffs/broadcast",
+      "keyword": "broadcast",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/broadcast",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:499"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/commsType",
+      "keyword": "commsType",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/commsType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:500"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaceNoiseCoeffs/fftWriteInterval",
+      "keyword": "fftWriteInterval",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/fftWriteInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:481"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "surfaceNoiseCoeffs/file",
       "keyword": "file",
       "context": "surfaceNoiseCoeffs",
@@ -159,8 +249,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:477"
+      ],
       "values": [
         {
           "value": "\"postProcessing/curleSurface/surface/surface.case\"",
@@ -172,6 +269,26 @@
       ]
     },
     {
+      "key": "surfaceNoiseCoeffs/files",
+      "keyword": "files",
+      "context": "surfaceNoiseCoeffs",
+      "path": "surfaceNoiseCoeffs/files",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:474"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "surfaceNoiseCoeffs/HanningCoeffs",
       "keyword": "HanningCoeffs",
       "context": "surfaceNoiseCoeffs",
@@ -181,6 +298,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-surface"
@@ -194,8 +314,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "Hanning"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/Hanning/Hanning.C:51"
+      ],
       "values": [
         {
           "value": "yes",
@@ -216,6 +343,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-surface"
@@ -229,8 +359,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "Hanning"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/Hanning/Hanning.C:50"
+      ],
       "values": [
         {
           "value": "yes",
@@ -251,6 +388,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-surface"
@@ -264,8 +404,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:480"
+      ],
       "values": [
         {
           "value": "pCurle",
@@ -284,8 +431,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:516"
+      ],
       "values": [
         {
           "value": "ensight",
@@ -306,6 +460,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-surface"
@@ -321,6 +478,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "Hanning",
@@ -341,6 +501,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-surface"
@@ -356,6 +519,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-surface"
@@ -371,6 +537,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/vortexShed/system/noiseDict-surface"
@@ -386,6 +555,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "binary",
@@ -404,8 +576,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceNoise"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/noise/noiseModels/surfaceNoise/surfaceNoise.C:523"
+      ],
       "values": [
         {
           "value": "ensight",

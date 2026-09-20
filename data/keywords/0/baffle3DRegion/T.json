@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "baffle3DRegion/T",
   "sourceFileCount": 2,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 35,
+  "sourceOccurrences": 15,
   "entries": [
     {
       "key": "boundaryField",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/0.orig/baffle3DRegion/T",
@@ -32,11 +37,116 @@
       ],
       "occurrences": 6,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/0.orig/baffle3DRegion/T",
         "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/0.orig/baffle3DRegion/T"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/active",
+      "keyword": "active",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:338"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/columnCells",
+      "keyword": "columnCells",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/columnCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:166",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:328"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/expansionRatio",
+      "keyword": "expansionRatio",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/expansionRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:326"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/extrudeModel",
+      "keyword": "extrudeModel",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/extrudeModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:322",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:330"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/internal",
+      "keyword": "internal",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/internal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:103"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/kappaMethod",
@@ -48,6 +158,9 @@
       ],
       "occurrences": 3,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "solidThermo",
@@ -60,6 +173,108 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/mixture",
+      "keyword": "mixture",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/mixture",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:341"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/nLayers",
+      "keyword": "nLayers",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/nLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:324"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/radiation",
+      "keyword": "radiation",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/radiation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:342"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/region",
+      "keyword": "region",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:101",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:144",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:334"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/thermoType",
+      "keyword": "thermoType",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/thermoType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:340"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/type",
       "keyword": "type",
       "context": "boundaryField/{patch}",
@@ -69,6 +284,9 @@
       ],
       "occurrences": 6,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "compressible::thermalBaffle",
@@ -96,8 +314,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 4,
-      "fileCount": 2,
+      "occurrences": 5,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [
         {
           "value": "uniform 300",
@@ -123,6 +348,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/0.orig/baffle3DRegion/T",
@@ -139,6 +367,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/0.orig/baffle3DRegion/T",
@@ -155,6 +386,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -176,6 +410,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -197,6 +434,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "T",
@@ -218,6 +458,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/0.orig/baffle3DRegion/T",
@@ -234,6 +477,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 300",

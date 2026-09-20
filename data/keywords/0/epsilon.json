@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "epsilon",
   "sourceFileCount": 134,
+  "sourceEvidenceFileCount": 7,
   "occurrences": 2807,
+  "sourceOccurrences": 46,
   "entries": [
     {
       "key": "#include",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 11,
       "fileCount": 11,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/0/epsilon",
@@ -35,6 +40,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/coldEngineFoam/freePiston/0/epsilon"
@@ -48,8 +56,17 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 134,
-      "fileCount": 134,
+      "occurrences": 137,
+      "fileCount": 137,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/epsilon:23",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/epsilon:23",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:23"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/epsilon",
@@ -58,6 +75,26 @@
         "combustion/reactingFoam/RAS/chokedNozzle/0.orig/epsilon",
         "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/epsilon"
       ]
+    },
+    {
+      "key": "boundaryField/(inlet|atmosphere)",
+      "keyword": "(inlet|atmosphere)",
+      "context": "boundaryField",
+      "path": "boundaryField/(inlet|atmosphere)",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/epsilon:25"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}",
@@ -70,6 +107,9 @@
       ],
       "occurrences": 573,
       "fileCount": 134,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/epsilon",
@@ -89,6 +129,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/turbineSiting/0.orig/epsilon",
@@ -105,6 +148,9 @@
       ],
       "occurrences": 37,
       "fileCount": 24,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/chokedNozzle/0.orig/epsilon",
@@ -124,6 +170,9 @@
       ],
       "occurrences": 33,
       "fileCount": 20,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/chokedNozzle/0.orig/epsilon",
@@ -143,6 +192,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kEpsilon/0.orig/epsilon"
@@ -158,6 +210,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "nearest",
@@ -178,6 +233,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kEpsilon/0.orig/epsilon"
@@ -193,6 +251,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -213,6 +274,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "timeVaryingMappedFixedValue",
@@ -233,6 +297,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kEpsilon/0.orig/epsilon"
@@ -246,8 +313,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 81,
-      "fileCount": 69,
+      "occurrences": 82,
+      "fileCount": 70,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:35"
+      ],
       "values": [
         {
           "value": "uniform 200",
@@ -302,8 +376,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "turbulentIntensityKineticEnergyInlet"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentIntensityKineticEnergyInlet/turbulentIntensityKineticEnergyInletFvPatchScalarField.cxx:76"
+      ],
       "values": [],
       "examples": [
         "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/epsilon",
@@ -320,6 +401,9 @@
       ],
       "occurrences": 5,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "k",
@@ -342,6 +426,9 @@
       ],
       "occurrences": 37,
       "fileCount": 24,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/chokedNozzle/0.orig/epsilon",
@@ -361,6 +448,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -386,8 +476,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 33,
-      "fileCount": 29,
+      "occurrences": 35,
+      "fileCount": 31,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/epsilon:28",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:28"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/chokedNozzle/0.orig/epsilon",
@@ -407,6 +505,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pitzDailyExptInlet/0/epsilon"
@@ -422,6 +523,9 @@
       ],
       "occurrences": 5,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "phi",
@@ -444,6 +548,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -455,6 +562,92 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/separationVector",
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/setAverage",
       "keyword": "setAverage",
       "context": "boundaryField/{patch}",
@@ -464,10 +657,53 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pitzDailyExptInlet/0/epsilon"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/srcSize",
+      "keyword": "srcSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/tgtSize",
+      "keyword": "tgtSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/type",
@@ -477,16 +713,27 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 524,
-      "fileCount": 134,
+      "occurrences": 529,
+      "fileCount": 137,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/epsilon:27",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/epsilon:27",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:27",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:34",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:40"
+      ],
       "values": [
         {
           "value": "epsilonWallFunction",
-          "occurrences": 206
+          "occurrences": 208
         },
         {
           "value": "inletOutlet",
-          "occurrences": 81
+          "occurrences": 82
         },
         {
           "value": "empty",
@@ -498,7 +745,7 @@
         },
         {
           "value": "turbulentMixingLengthDissipationRateInlet",
-          "occurrences": 33
+          "occurrences": 35
         },
         {
           "value": "zeroGradient",
@@ -577,8 +824,20 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 370,
-      "fileCount": 132,
+      "occurrences": 376,
+      "fileCount": 136,
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc",
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/epsilon:29",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/epsilon:28",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:29",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:36",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:41"
+      ],
       "values": [
         {
           "value": "uniform 200",
@@ -695,6 +954,9 @@
       ],
       "occurrences": 3,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0.028",
@@ -716,6 +978,88 @@
       ]
     },
     {
+      "key": "boundaryField/#includeEtc",
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/#includeEtc",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/epsilon:32",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:44"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/inlet",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/inlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:25"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/outlet",
+      "keyword": "outlet",
+      "context": "boundaryField",
+      "path": "boundaryField/outlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:32"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/wall",
+      "keyword": "wall",
+      "context": "boundaryField",
+      "path": "boundaryField/wall",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/epsilon:25",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:38"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dimensions",
       "keyword": "dimensions",
       "context": "",
@@ -723,8 +1067,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 134,
-      "fileCount": 134,
+      "occurrences": 137,
+      "fileCount": 137,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/epsilon:19",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/epsilon:19",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:19"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/epsilon",
@@ -735,6 +1088,26 @@
       ]
     },
     {
+      "key": "epsilonInitial",
+      "keyword": "epsilonInitial",
+      "context": "",
+      "path": "epsilonInitial",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/epsilon:17"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "epsilonInlet",
       "keyword": "epsilonInlet",
       "context": "",
@@ -742,8 +1115,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/epsilon:17",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:17"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/windAroundBuildings/0.orig/epsilon"
@@ -757,8 +1138,17 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 134,
-      "fileCount": 134,
+      "occurrences": 137,
+      "fileCount": 137,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/epsilon:8",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/epsilon:8",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:8"
+      ],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/epsilon",
@@ -778,6 +1168,9 @@
       ],
       "occurrences": 134,
       "fileCount": 134,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -802,6 +1195,9 @@
       ],
       "occurrences": 134,
       "fileCount": 134,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -826,6 +1222,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"0\"",
@@ -849,6 +1248,9 @@
       ],
       "occurrences": 134,
       "fileCount": 134,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "epsilon",
@@ -873,6 +1275,9 @@
       ],
       "occurrences": 134,
       "fileCount": 134,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/epsilon",
@@ -890,8 +1295,17 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 134,
-      "fileCount": 134,
+      "occurrences": 137,
+      "fileCount": 137,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/epsilon:21",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/epsilon:21",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/epsilon:21"
+      ],
       "values": [
         {
           "value": "uniform 200",

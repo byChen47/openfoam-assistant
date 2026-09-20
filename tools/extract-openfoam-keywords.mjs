@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { scanOpenFoamSources } from './openfoam-source-scanner.mjs';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDir, '..');
@@ -514,7 +515,9 @@ function parseShell(text) {
 function createFileModel() {
   return {
     sourceFiles: new Set(),
+    sourceEvidenceFiles: new Set(),
     occurrences: 0,
+    sourceOccurrences: 0,
     entries: new Map(),
   };
 }
@@ -534,6 +537,9 @@ function addEntryRecord(fileModel, relativePath, record) {
       lastFile: null,
       values: new Map(),
       examples: [],
+      sourceOccurrences: 0,
+      sourceTypes: new Set(),
+      sourceLocations: [],
     };
     fileModel.entries.set(key, entry);
   }
@@ -547,8 +553,19 @@ function addEntryRecord(fileModel, relativePath, record) {
   if (record.value) {
     entry.values.set(record.value, (entry.values.get(record.value) || 0) + 1);
   }
-  if (entry.examples.length < 5 && !entry.examples.includes(relativePath)) {
+  if (!record.source && entry.examples.length < 5 && !entry.examples.includes(relativePath)) {
     entry.examples.push(relativePath);
+  }
+  if (record.source) {
+    entry.sourceOccurrences += 1;
+    fileModel.sourceOccurrences += 1;
+    fileModel.sourceEvidenceFiles.add(relativePath);
+    if (record.sourceType) {
+      entry.sourceTypes.add(record.sourceType);
+    }
+    if (record.sourceLocation && entry.sourceLocations.length < 5) {
+      entry.sourceLocations.push(record.sourceLocation);
+    }
   }
 }
 
@@ -564,6 +581,9 @@ function serializeFileModel(fileModel) {
       kinds: [...entry.kinds].sort(compareText),
       occurrences: entry.occurrences,
       fileCount: entry.fileCount,
+      sourceOccurrences: entry.sourceOccurrences,
+      sourceTypes: [...entry.sourceTypes].sort(compareText),
+      sourceLocations: entry.sourceLocations,
       values: [...entry.values.entries()]
         .sort((a, b) => b[1] - a[1] || compareText(a[0], b[0]))
         .slice(0, 100)
@@ -574,7 +594,9 @@ function serializeFileModel(fileModel) {
 
   return {
     sourceFileCount: fileModel.sourceFiles.size,
+    sourceEvidenceFileCount: fileModel.sourceEvidenceFiles.size,
     occurrences: fileModel.occurrences,
+    sourceOccurrences: fileModel.sourceOccurrences,
     entries,
   };
 }
@@ -662,6 +684,376 @@ function createOutputPlans(category, fileKeys) {
 function writeJson(outputPath, value) {
   fs.mkdirSync(path.dirname(outputPath), { recursive: true });
   fs.writeFileSync(outputPath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+}
+
+const MODEL_SELECTOR_KEYWORDS = new Set([
+  'application',
+  'dynamicFvMesh',
+  'method',
+  'mixture',
+  'solver',
+  'thermo',
+  'transport',
+  'type',
+]);
+
+function isTypeSelectorEntry(entry) {
+  if (MODEL_SELECTOR_KEYWORDS.has(entry.keyword)) {
+    return true;
+  }
+  return /(?:Model|model|Solver|solver|Scheme|scheme|Type|type)$/.test(entry.keyword);
+}
+
+function existingFileKeyByBasename(categoryFiles, basename) {
+  for (const category of ['system', 'constant', '0']) {
+    for (const fileKey of categoryFiles[category].keys()) {
+      if (fileKey === basename || fileKey.split('/').at(-1) === basename) {
+        return { category, fileKey };
+      }
+    }
+  }
+  return null;
+}
+
+function inferEtcTargets(relativePath, categoryFiles) {
+  const posixPath = toPosix(relativePath);
+  const lowerPath = posixPath.toLowerCase();
+  const basename = posixPath.split('/').at(-1);
+
+  const templateMatch = posixPath.match(/\/templates\/[^/]+\/(0(?:\.(?:orig|org))?|constant|system)\/(.+)$/);
+  if (templateMatch) {
+    const category = ZERO_DIR_RE.test(templateMatch[1]) ? '0' : templateMatch[1];
+    return [{ category, fileKey: templateMatch[2], context: '' }];
+  }
+
+  if (lowerPath.includes('/casedicts/postprocessing/')) {
+    return [{ category: 'system', fileKey: 'controlDict', context: 'functions/{function}' }];
+  }
+  if (lowerPath.includes('/casedicts/general/fvsolution/')) {
+    return [{ category: 'system', fileKey: 'fvSolution', context: '' }];
+  }
+  if (lowerPath.includes('/casedicts/general/fvoptions/')) {
+    return [{ category: 'constant', fileKey: 'fvOptions', context: '' }];
+  }
+  if (lowerPath.includes('/createzerodirectorytemplates/models/turbulence/')) {
+    return [{
+      category: 'constant',
+      fileKey: 'turbulenceProperties',
+      context: `${basename}Coeffs`,
+    }];
+  }
+  if (lowerPath === 'openfoam-v2606/etc/controldict' || basename === 'controlDict') {
+    return [{ category: 'system', fileKey: 'controlDict', context: '' }];
+  }
+
+  const existing = existingFileKeyByBasename(categoryFiles, basename);
+  if (existing) {
+    return [{ ...existing, context: '' }];
+  }
+
+  if (basename.endsWith('Dict')) {
+    return [{ category: 'system', fileKey: basename, context: '' }];
+  }
+  if (basename.endsWith('Properties')) {
+    return [{ category: 'constant', fileKey: basename, context: '' }];
+  }
+
+  return [];
+}
+
+function supplementFromEtc(categoryFiles) {
+  const etcRoot = path.join(projectRoot, 'OpenFOAM-v2606', 'etc');
+  const stats = {
+    sourceRoot: 'OpenFOAM-v2606/etc',
+    scannedFiles: 0,
+    classifiedFiles: 0,
+    skippedFiles: 0,
+    addedCallCount: 0,
+    addedKeywordCount: 0,
+    targetFileCount: 0,
+  };
+  const addedKeywords = new Set();
+  const targetFiles = new Set();
+
+  if (!fs.existsSync(etcRoot)) {
+    return stats;
+  }
+
+  for (const fullPath of walkFiles(etcRoot)) {
+    const relativePath = toPosix(path.relative(projectRoot, fullPath));
+    const lowerPath = relativePath.toLowerCase();
+    if (
+      lowerPath.includes('/codetemplates/')
+      || lowerPath.includes('/thermodata/')
+      || lowerPath.includes('/config.')
+      || lowerPath.endsWith('/allrun')
+      || lowerPath.endsWith('/allclean')
+      || lowerPath.endsWith('/readme')
+      || lowerPath.endsWith('/.gitignore')
+    ) {
+      stats.skippedFiles += 1;
+      continue;
+    }
+
+    const text = readTextFile(fullPath);
+    if (text === null) {
+      stats.skippedFiles += 1;
+      continue;
+    }
+
+    const records = parseDictionary(text).filter((record) => !record.context.startsWith('FoamFile'));
+    if (records.length === 0) {
+      stats.skippedFiles += 1;
+      continue;
+    }
+
+    const targets = inferEtcTargets(relativePath, categoryFiles);
+    if (targets.length === 0) {
+      stats.skippedFiles += 1;
+      continue;
+    }
+
+    stats.scannedFiles += 1;
+    stats.classifiedFiles += 1;
+
+    for (const target of targets) {
+      let model = categoryFiles[target.category].get(target.fileKey);
+      if (!model) {
+        model = createFileModel();
+        categoryFiles[target.category].set(target.fileKey, model);
+      }
+
+      for (const record of records) {
+        const contextParts = [];
+        if (target.context) {
+          contextParts.push(target.context);
+        }
+        if (record.context) {
+          contextParts.push(record.context);
+        }
+        const context = contextParts.filter(Boolean).join('/');
+        const fullRecordPath = context ? `${context}/${record.keyword}` : record.keyword;
+        addEntryRecord(model, relativePath, {
+          ...record,
+          context,
+          path: fullRecordPath,
+          source: true,
+          sourceType: 'etc',
+          sourceLocation: `${relativePath}:${record.line}`,
+        });
+        stats.addedCallCount += 1;
+        addedKeywords.add(record.keyword);
+        targetFiles.add(`${target.category}/${target.fileKey}`);
+      }
+    }
+  }
+
+  stats.addedKeywordCount = addedKeywords.size;
+  stats.targetFileCount = targetFiles.size;
+  return stats;
+}
+
+function buildTypeUsageIndex(categoryFiles) {
+  const index = new Map();
+
+  for (const category of ['0', 'constant', 'system']) {
+    for (const [fileKey, model] of categoryFiles[category]) {
+      for (const entry of model.entries.values()) {
+        if (!isTypeSelectorEntry(entry)) {
+          continue;
+        }
+        for (const value of entry.values.keys()) {
+          const usages = index.get(value) || [];
+          usages.push({ category, fileKey, entry });
+          index.set(value, usages);
+        }
+      }
+    }
+  }
+
+  return index;
+}
+
+const SOURCE_PATH_TARGET_RULES = [
+  { fragment: '/mesh/blockmesh/', category: 'system', fileKey: 'blockMeshDict' },
+  { fragment: '/mesh/generation/blockmesh/', category: 'system', fileKey: 'blockMeshDict' },
+  { fragment: '/mesh/snappyhexmesh/', category: 'system', fileKey: 'snappyHexMeshDict' },
+  { fragment: '/mesh/generation/snappyhexmesh/', category: 'system', fileKey: 'snappyHexMeshDict' },
+  { fragment: '/mesh/manipulation/setfields/', category: 'system', fileKey: 'setFieldsDict' },
+  { fragment: '/preprocessing/setfields/', category: 'system', fileKey: 'setFieldsDict' },
+  { fragment: '/mesh/manipulation/toposet/', category: 'system', fileKey: 'topoSetDict' },
+  { fragment: '/meshtools/toposet/', category: 'system', fileKey: 'topoSetDict' },
+  { fragment: '/mesh/manipulation/createpatch/', category: 'system', fileKey: 'createPatchDict' },
+  { fragment: '/mesh/manipulation/refinemesh/', category: 'system', fileKey: 'refineMeshDict' },
+  { fragment: '/mesh/manipulation/extrudemesh/', category: 'system', fileKey: 'extrudeMeshDict' },
+  { fragment: '/mesh/manipulation/changedictionary/', category: 'system', fileKey: 'changeDictionaryDict' },
+  { fragment: '/mesh/manipulation/mapfields/', category: 'system', fileKey: 'mapFieldsDict' },
+  { fragment: '/mesh/manipulation/renumbermesh/', category: 'system', fileKey: 'renumberMeshDict' },
+  { fragment: '/surfacefeatureextract/', category: 'system', fileKey: 'surfaceFeatureExtractDict' },
+  { fragment: '/parallel/decompose/decomposepar/', category: 'system', fileKey: 'decomposeParDict' },
+  { fragment: '/parallelprocessing/decomposepar/', category: 'system', fileKey: 'decomposeParDict' },
+  { fragment: '/parallel/decompose/decompositionmethods/', category: 'system', fileKey: 'decomposeParDict' },
+];
+
+function inferSourcePathTargets(sourcePath, record) {
+  const lowerPath = sourcePath.toLowerCase();
+  const rule = SOURCE_PATH_TARGET_RULES.find((item) => lowerPath.includes(item.fragment));
+  if (!rule) {
+    return [];
+  }
+
+  const typeName = record.typeNames.length === 1 ? record.typeNames[0] : '';
+  return [{
+    category: rule.category,
+    fileKey: rule.fileKey,
+    context: typeName ? `${typeName}Coeffs` : '',
+  }];
+}
+
+function sourcePathAllowsUsage(sourcePath, usage) {
+  const lowerPath = sourcePath.toLowerCase();
+
+  if (lowerPath.includes('/fvoptions/')) {
+    return usage.fileKey === 'fvOptions';
+  }
+  if (lowerPath.includes('/functionobjects/')) {
+    return usage.category === 'system' && usage.fileKey === 'controlDict';
+  }
+  if (
+    lowerPath.includes('/finitevolume/fields/fvpatchfields/')
+    || lowerPath.includes('/derivedfvpitchfields/')
+  ) {
+    return usage.category === '0';
+  }
+  if (
+    lowerPath.includes('/matrices/ldumatrix/solvers/')
+    || lowerPath.includes('/matrices/solvers/')
+    || lowerPath.includes('/solutioncontrol/')
+  ) {
+    return usage.fileKey === 'fvSolution';
+  }
+
+  return true;
+}
+
+function inferSourceTargetContext(usage, typeName) {
+  const entry = usage.entry;
+  const contextParts = entry.context ? entry.context.split('/').filter(Boolean) : [];
+  const context = normalizeContext(contextParts).join('/');
+
+  if (usage.category === '0' && entry.keyword === 'type') {
+    return context;
+  }
+  if (usage.fileKey === 'fvSolution' && entry.keyword === 'solver') {
+    return context || 'solvers/{solver}';
+  }
+  if (usage.fileKey === 'controlDict' && entry.keyword === 'application') {
+    return '';
+  }
+  if (entry.keyword === 'method') {
+    return context;
+  }
+  if (entry.keyword === 'type') {
+    return context;
+  }
+
+  return context ? `${context}/${typeName}Coeffs` : `${typeName}Coeffs`;
+}
+
+function supplementFromSourceKeywords(categoryFiles) {
+  const sourceRoots = [
+    path.join(projectRoot, 'OpenFOAM-v2606', 'src'),
+    path.join(projectRoot, 'OpenFOAM-v2606', 'applications'),
+  ];
+  const scan = scanOpenFoamSources(sourceRoots);
+  const typeUsageIndex = buildTypeUsageIndex(categoryFiles);
+  const mappedKeywords = new Set();
+  const unmappedKeywords = new Set();
+  const sourceTargets = new Set();
+  let mappedCallCount = 0;
+
+  for (const record of scan.records) {
+    const sourcePath = toPosix(path.relative(projectRoot, record.source));
+    const sourceLocation = `${sourcePath}:${record.line}`;
+    const targetKeys = new Set();
+
+    for (const typeName of record.typeNames) {
+      const usages = typeUsageIndex.get(typeName) || [];
+      for (const usage of usages) {
+        if (!sourcePathAllowsUsage(sourcePath, usage)) {
+          continue;
+        }
+        const context = inferSourceTargetContext(usage, typeName);
+        const targetKey = `${usage.category}|${usage.fileKey}|${context}|${record.keyword}`;
+        if (targetKeys.has(targetKey)) {
+          continue;
+        }
+        targetKeys.add(targetKey);
+
+        const model = categoryFiles[usage.category].get(usage.fileKey);
+        if (!model) {
+          continue;
+        }
+
+        addEntryRecord(model, sourcePath, {
+          keyword: record.keyword,
+          context,
+          path: context ? `${context}/${record.keyword}` : record.keyword,
+          kind: record.method.includes('SubDict') ? 'subdict' : 'entry',
+          value: null,
+          line: record.line,
+          source: true,
+          sourceType: typeName,
+          sourceLocation,
+        });
+        mappedKeywords.add(record.keyword);
+        sourceTargets.add(`${usage.category}/${usage.fileKey}`);
+        mappedCallCount += 1;
+      }
+    }
+
+    for (const target of inferSourcePathTargets(sourcePath, record)) {
+      const targetKey = `${target.category}|${target.fileKey}|${target.context}|${record.keyword}`;
+      if (targetKeys.has(targetKey)) {
+        continue;
+      }
+      targetKeys.add(targetKey);
+
+      let model = categoryFiles[target.category].get(target.fileKey);
+      if (!model) {
+        model = createFileModel();
+        categoryFiles[target.category].set(target.fileKey, model);
+      }
+
+      addEntryRecord(model, sourcePath, {
+        keyword: record.keyword,
+        context: target.context,
+        path: target.context ? `${target.context}/${record.keyword}` : record.keyword,
+        kind: record.method.includes('SubDict') ? 'subdict' : 'entry',
+        value: null,
+        line: record.line,
+        source: true,
+        sourceType: record.typeNames.length === 1 ? record.typeNames[0] : 'utility',
+        sourceLocation,
+      });
+      mappedKeywords.add(record.keyword);
+      sourceTargets.add(`${target.category}/${target.fileKey}`);
+      mappedCallCount += 1;
+    }
+
+    if (targetKeys.size === 0) {
+      unmappedKeywords.add(record.keyword);
+    }
+  }
+
+  return {
+    ...scan.stats,
+    sourceRoots: sourceRoots.map((root) => toPosix(path.relative(projectRoot, root))),
+    mappedCallCount,
+    mappedKeywordCount: mappedKeywords.size,
+    unmappedKeywordCount: unmappedKeywords.size,
+    targetFileCount: sourceTargets.size,
+  };
 }
 
 function main() {
@@ -753,6 +1145,8 @@ function main() {
     }
   }
 
+  const etcSupplement = supplementFromEtc(categoryFiles);
+  const sourceSupplement = supplementFromSourceKeywords(categoryFiles);
   const generatedAt = new Date().toISOString();
   const manifestCategories = {};
 
@@ -830,6 +1224,8 @@ function main() {
     generatedAt,
     source: 'OpenFOAM-v2606/tutorials',
     layout: 'one-json-per-source-file',
+    sourceSupplement,
+    etcSupplement,
     casePolicy: 'preserve-source-case',
     categories: {
       ...manifestCategories,
@@ -850,6 +1246,18 @@ function main() {
     source: manifest.source,
     layout: manifest.layout,
     casePolicy: manifest.casePolicy,
+    etcSupplement: {
+      classifiedFiles: etcSupplement.classifiedFiles,
+      addedCallCount: etcSupplement.addedCallCount,
+      addedKeywordCount: etcSupplement.addedKeywordCount,
+      targetFileCount: etcSupplement.targetFileCount,
+    },
+    sourceSupplement: {
+      mappedCallCount: sourceSupplement.mappedCallCount,
+      mappedKeywordCount: sourceSupplement.mappedKeywordCount,
+      unmappedKeywordCount: sourceSupplement.unmappedKeywordCount,
+      targetFileCount: sourceSupplement.targetFileCount,
+    },
     categories: Object.fromEntries(
       Object.entries(manifest.categories).map(([category, value]) => [
         category,

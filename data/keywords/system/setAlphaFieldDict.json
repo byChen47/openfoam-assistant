@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "setAlphaFieldDict",
   "sourceFileCount": 9,
+  "sourceEvidenceFileCount": 7,
   "occurrences": 106,
+  "sourceOccurrences": 27,
   "entries": [
     {
       "key": "amplitude",
@@ -14,12 +16,39 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sin"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/sin/sinImplicitFunction.C:78"
+      ],
       "values": [],
       "examples": [
         "multiphase/interIsoFoam/standingWave/system/setAlphaFieldDict"
       ]
+    },
+    {
+      "key": "centre",
+      "keyword": "centre",
+      "context": "",
+      "path": "centre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/setAlphaFieldDict:22"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "composedFunction",
@@ -27,10 +56,18 @@
       "context": "",
       "path": "composedFunction",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "composedFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/composedFunction/composedFunctionImplicitFunction.C:125"
+      ],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict"
@@ -46,6 +83,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict"
@@ -59,8 +99,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "plane"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/constraints/plane/sixDoFRigidBodyMotionPlaneConstraint.C:112",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/plane/planeImplicitFunction.C:70"
+      ],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict"
@@ -74,8 +122,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "plane"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/plane/planeImplicitFunction.C:69"
+      ],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict"
@@ -91,6 +146,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "plane",
@@ -111,6 +169,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict"
@@ -124,8 +185,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cylinder"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/cylinder/cylinderImplicitFunction.C:76"
+      ],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict"
@@ -139,8 +207,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cylinder"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/cylinder/cylinderImplicitFunction.C:73"
+      ],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict"
@@ -154,8 +229,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cylinder"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/cylinder/cylinderImplicitFunction.C:74"
+      ],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict"
@@ -171,6 +253,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict"
@@ -186,6 +271,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cylinder",
@@ -204,8 +292,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 6,
-      "fileCount": 6,
+      "occurrences": 9,
+      "fileCount": 9,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "cylinder",
+        "etc",
+        "sin"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/setAlphaFieldDict:21",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/cylinder/cylinderImplicitFunction.C:76",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/sin/sinImplicitFunction.C:80"
+      ],
       "values": [],
       "examples": [
         "multiphase/interIsoFoam/discInConstantFlow/system/setAlphaFieldDict",
@@ -223,12 +322,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 9,
-      "fileCount": 9,
+      "occurrences": 10,
+      "fileCount": 10,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/setAlphaFieldDict:18"
+      ],
       "values": [
         {
           "value": "alpha.water",
-          "occurrences": 5
+          "occurrences": 6
         },
         {
           "value": "\"alpha.water\"",
@@ -255,8 +361,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 9,
-      "fileCount": 9,
+      "occurrences": 10,
+      "fileCount": 10,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/setAlphaFieldDict:8"
+      ],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict",
@@ -276,6 +389,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -300,6 +416,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -324,6 +443,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "\"system\"",
@@ -352,6 +474,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "setAlphaFieldDict",
@@ -380,6 +505,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/setAlphaFieldDict",
@@ -399,6 +527,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "subtract",
@@ -417,8 +548,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "plane"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/constraints/plane/sixDoFRigidBodyMotionPlaneConstraint.C:112",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/plane/planeImplicitFunction.C:70"
+      ],
       "values": [],
       "examples": [
         "verificationAndValidation/multiphase/StefanProblem/setups.orig/interCondensatingEvaporatingFoam/system/setAlphaFieldDict"
@@ -432,8 +571,21 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 8,
-      "fileCount": 8,
+      "occurrences": 12,
+      "fileCount": 12,
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "cylinder",
+        "plane",
+        "sin",
+        "sphere"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/cylinder/cylinderImplicitFunction.C:73",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/plane/planeImplicitFunction.C:69",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/sin/sinImplicitFunction.C:81",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/sphere/sphereImplicitFunction.C:71"
+      ],
       "values": [],
       "examples": [
         "multiphase/interIsoFoam/discInConstantFlow/system/setAlphaFieldDict",
@@ -451,8 +603,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sin"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/sin/sinImplicitFunction.C:76"
+      ],
       "values": [],
       "examples": [
         "multiphase/interIsoFoam/standingWave/system/setAlphaFieldDict"
@@ -466,8 +625,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 6,
-      "fileCount": 6,
+      "occurrences": 9,
+      "fileCount": 9,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "cylinder",
+        "etc",
+        "sphere"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/setAlphaFieldDict:20",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/cylinder/cylinderImplicitFunction.C:74",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/sphere/sphereImplicitFunction.C:72"
+      ],
       "values": [],
       "examples": [
         "multiphase/interIsoFoam/discInConstantFlow/system/setAlphaFieldDict",
@@ -485,12 +655,21 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 9,
-      "fileCount": 9,
+      "occurrences": 11,
+      "fileCount": 11,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "composedFunction",
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/setAlphaFieldDict:19",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/composedFunction/composedFunctionImplicitFunction.C:148"
+      ],
       "values": [
         {
           "value": "cylinder",
-          "occurrences": 5
+          "occurrences": 6
         },
         {
           "value": "composedFunction",
@@ -525,8 +704,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sin"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/sin/sinImplicitFunction.C:79"
+      ],
       "values": [],
       "examples": [
         "multiphase/interIsoFoam/standingWave/system/setAlphaFieldDict"

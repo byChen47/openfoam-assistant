@@ -207,6 +207,9 @@ function mergeKeywordEntries(entries) {
         kinds: new Set(),
         values: new Map(),
         examples: [],
+        sourceOccurrences: 0,
+        sourceTypes: new Set(),
+        sourceLocations: [],
       };
       merged.set(entry.keyword, item);
     }
@@ -221,6 +224,15 @@ function mergeKeywordEntries(entries) {
     }
     for (const value of entry.values || []) {
       item.values.set(value.value, (item.values.get(value.value) || 0) + value.occurrences);
+    }
+    item.sourceOccurrences += entry.sourceOccurrences || 0;
+    for (const sourceType of entry.sourceTypes || []) {
+      item.sourceTypes.add(sourceType);
+    }
+    for (const sourceLocation of entry.sourceLocations || []) {
+      if (item.sourceLocations.length < 5 && !item.sourceLocations.includes(sourceLocation)) {
+        item.sourceLocations.push(sourceLocation);
+      }
     }
     for (const example of entry.examples || []) {
       if (item.examples.length < 5 && !item.examples.includes(example)) {
@@ -239,6 +251,9 @@ function mergeKeywordEntries(entries) {
       .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'en'))
       .map(([value, occurrences]) => ({ value, occurrences })),
     examples: item.examples,
+    sourceOccurrences: item.sourceOccurrences,
+    sourceTypes: [...item.sourceTypes].sort((a, b) => a.localeCompare(b, 'en')),
+    sourceLocations: item.sourceLocations,
   }));
 }
 

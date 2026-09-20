@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "bottomAir/radiationProperties",
   "sourceFileCount": 4,
+  "sourceEvidenceFileCount": 3,
   "occurrences": 35,
+  "sourceOccurrences": 7,
   "entries": [
     {
       "key": "absorptionEmissionModel",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -36,6 +41,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/bottomAir/radiationProperties",
@@ -54,6 +62,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -77,6 +88,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -100,6 +114,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "radiationProperties",
@@ -123,6 +140,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/bottomAir/radiationProperties",
@@ -130,6 +150,27 @@
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/bottomAir/radiationProperties",
         "preProcessing/createZeroDirectory/snappyMultiRegionHeater/constant/bottomAir/radiationProperties"
       ]
+    },
+    {
+      "key": "noneCoeffs/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "noneCoeffs",
+      "path": "noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "radiation",
@@ -141,6 +182,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "off",
@@ -168,6 +212,9 @@
       ],
       "occurrences": 4,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -195,6 +242,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -215,6 +265,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/bottomAir/radiationProperties"
@@ -230,6 +283,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -250,6 +306,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/bottomAir/radiationProperties"
@@ -263,8 +322,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "viewFactor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/viewFactor/viewFactor.C:501"
+      ],
       "values": [
         {
           "value": "true",
@@ -283,8 +349,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "viewFactor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/viewFactor/viewFactor.C:414",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/viewFactor/viewFactor.C:481"
+      ],
       "values": [
         {
           "value": "true",
@@ -294,6 +368,46 @@
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/bottomAir/radiationProperties"
       ]
+    },
+    {
+      "key": "viewFactorCoeffs/solarLoadCoeffs",
+      "keyword": "solarLoadCoeffs",
+      "context": "viewFactorCoeffs",
+      "path": "viewFactorCoeffs/solarLoadCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "viewFactor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/viewFactor/viewFactor.C:518"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "viewFactorCoeffs/useSolarLoad",
+      "keyword": "useSolarLoad",
+      "context": "viewFactorCoeffs",
+      "path": "viewFactorCoeffs/useSolarLoad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "viewFactor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/radiationModels/viewFactor/viewFactor.C:514"
+      ],
+      "values": [],
+      "examples": []
     }
   ]
 }

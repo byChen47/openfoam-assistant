@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "boundaryRadiationProperties",
   "sourceFileCount": 14,
+  "sourceEvidenceFileCount": 5,
   "occurrences": 182,
+  "sourceOccurrences": 37,
   "entries": [
     {
       "key": ".*",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
@@ -33,8 +38,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 9,
-      "fileCount": 9,
+      "occurrences": 11,
+      "fileCount": 10,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:101",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:114"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
@@ -52,8 +65,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 12,
-      "fileCount": 12,
+      "occurrences": 14,
+      "fileCount": 13,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:74",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:87"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
@@ -73,6 +94,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
@@ -92,6 +116,9 @@
       ],
       "occurrences": 13,
       "fileCount": 13,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "lookup",
@@ -116,10 +143,18 @@
       "context": ".*",
       "path": ".*/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "transparent"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/transparent/transparent.C:60"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -133,8 +168,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -148,8 +190,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -165,6 +214,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiBandAbsorption",
@@ -185,6 +237,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties"
@@ -200,6 +255,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "opaqueDiffusive",
@@ -216,10 +274,18 @@
       "context": "(region0_to.*)",
       "path": "(region0_to.*)/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "opaqueDiffusive"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties"
@@ -235,6 +301,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "solidAbsorption",
@@ -255,6 +324,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -270,6 +342,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "opaqueDiffusive",
@@ -286,10 +361,18 @@
       "context": "(solarpanel.*)",
       "path": "(solarpanel.*)/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "opaqueDiffusive"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -303,8 +386,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -318,8 +408,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -335,6 +432,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiBandAbsorption",
@@ -355,10 +455,34 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
       ]
+    },
+    {
+      "key": "base/absorptivity",
+      "keyword": "absorptivity",
+      "context": "base",
+      "path": "base/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:101",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:114"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "base/emissivity",
@@ -368,8 +492,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:74",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:87"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
@@ -385,6 +517,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
@@ -400,6 +535,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "lookup",
@@ -420,6 +558,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -435,6 +576,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "opaqueDiffusive",
@@ -451,10 +595,18 @@
       "context": "body_bottom",
       "path": "body_bottom/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "opaqueDiffusive"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -468,8 +620,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -483,8 +642,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -500,6 +666,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiBandAbsorption",
@@ -520,6 +689,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
@@ -539,6 +711,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -563,6 +738,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -587,6 +765,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "boundaryRadiationProperties",
@@ -611,6 +792,9 @@
       ],
       "occurrences": 14,
       "fileCount": 14,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
@@ -630,6 +814,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
@@ -644,8 +831,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:101",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:114"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties"
@@ -659,8 +854,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 4,
+      "fileCount": 3,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:74",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:87"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
@@ -677,6 +880,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
@@ -693,6 +899,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "lookup",
@@ -714,10 +923,34 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
       ]
+    },
+    {
+      "key": "outlet/absorptivity",
+      "keyword": "absorptivity",
+      "context": "outlet",
+      "path": "outlet/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:101",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:114"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "outlet/emissivity",
@@ -727,8 +960,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:74",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:87"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
@@ -744,6 +985,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
@@ -759,6 +1003,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "lookup",
@@ -779,6 +1026,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -794,6 +1044,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -809,6 +1062,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "opaqueReflective",
@@ -825,10 +1081,18 @@
       "context": "ref_wall",
       "path": "ref_wall/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "opaqueReflective"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueReflective/opaqueReflective.C:61"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -842,8 +1106,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -857,8 +1128,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -874,6 +1152,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiBandAbsorption",
@@ -894,6 +1175,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties"
@@ -909,6 +1193,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "opaqueDiffusive",
@@ -925,10 +1212,18 @@
       "context": "region0_to_pyrolysisRegion_coupledWall",
       "path": "region0_to_pyrolysisRegion_coupledWall/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "opaqueDiffusive"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties"
@@ -944,6 +1239,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "solidAbsorption",
@@ -964,10 +1262,34 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
       ]
+    },
+    {
+      "key": "sides/absorptivity",
+      "keyword": "absorptivity",
+      "context": "sides",
+      "path": "sides/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:101",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:114"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "sides/emissivity",
@@ -977,8 +1299,16 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:74",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:87"
+      ],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
@@ -994,6 +1324,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
@@ -1009,6 +1342,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "lookup",
@@ -1029,6 +1365,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -1044,6 +1383,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "opaqueDiffusive",
@@ -1060,10 +1402,18 @@
       "context": "ZMin",
       "path": "ZMin/wallAbsorptionEmissionModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "opaqueDiffusive"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -1077,8 +1427,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -1092,8 +1449,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
@@ -1109,6 +1473,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "multiBandAbsorption",

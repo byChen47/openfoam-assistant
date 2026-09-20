@@ -51,7 +51,7 @@ OpenFOAM Dict IntelliSense 是一个 Visual Studio Code 扩展，用于在编写
 安装构建好的 VSIX：
 
 ```powershell
-code --install-extension openfoam-dict-intellisense-1.1.6.vsix --force
+code --install-extension openfoam-dict-intellisense-1.1.7.vsix --force
 ```
 
 也可以直接在 VS Code 的扩展面板中选择：
@@ -234,9 +234,11 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 
 ### 数据来源与限制
 
-- 索引来自仓库中的 `OpenFOAM-v2606/tutorials/`
-- 当前包含 `0`、`constant`、`system`、`Allrun`、`Allclean` 的文件级索引
-- 候选值来自教程中的实际使用情况，不是 OpenFOAM C++ 源码的完整语义枚举
+- 索引以 `OpenFOAM-v2606/tutorials/` 为教学案例基础
+- 同时扫描 `OpenFOAM-v2606/src/` 和 `OpenFOAM-v2606/applications/` 中的 dictionary 读取调用
+- 源码关键词按运行类型和源码路径映射到 `0`、`constant`、`system` 的具体文件
+- 当前源码补充映射了 4,555 条调用、613 个关键词，覆盖 415 个目标文件
+- 每个源码补充条目记录 `sourceTypes` 和 `sourceLocations`，便于审查
 - 扩展不编译 OpenFOAM、不执行求解器，也不替代 OpenFOAM 自身的输入校验
 
 ### 开发与构建
@@ -267,7 +269,7 @@ powershell -ExecutionPolicy Bypass -File tools\build-vsix.ps1
 输出：
 
 ```text
-openfoam-dict-intellisense-1.1.6.vsix
+openfoam-dict-intellisense-1.1.7.vsix
 ```
 
 ---
@@ -315,7 +317,7 @@ Notes:
 Install the packaged VSIX:
 
 ```powershell
-code --install-extension openfoam-dict-intellisense-1.1.6.vsix --force
+code --install-extension openfoam-dict-intellisense-1.1.7.vsix --force
 ```
 
 Or use the VS Code UI:
@@ -498,9 +500,11 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 
 ### Data Source and Limitations
 
-- The index is generated from `OpenFOAM-v2606/tutorials/` in this repository.
-- File-level indexes are generated for `0`, `constant`, `system`, `Allrun`, and `Allclean`.
-- Values are observed from tutorial usage rather than a complete semantic enumeration from OpenFOAM C++ sources.
+- The index is based on `OpenFOAM-v2606/tutorials/` as the tutorial corpus.
+- It also scans dictionary reads in `OpenFOAM-v2606/src/` and `OpenFOAM-v2606/applications/`.
+- Source keywords are mapped to concrete `0`, `constant`, and `system` files by runtime type and source path.
+- The current source supplement maps 4,766 calls and 625 keywords across 423 target files; the `etc` supplement adds 4,702 calls and 1,811 keywords across 87 target files.
+- Each source-derived entry records `sourceTypes` and `sourceLocations` for auditing.
 - The extension does not compile OpenFOAM, run solvers, or replace OpenFOAM input validation.
 
 ### Development and Build
@@ -531,5 +535,5 @@ powershell -ExecutionPolicy Bypass -File tools\build-vsix.ps1
 Output:
 
 ```text
-openfoam-dict-intellisense-1.1.6.vsix
+openfoam-dict-intellisense-1.1.7.vsix
 ```

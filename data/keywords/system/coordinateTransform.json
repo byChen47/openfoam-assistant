@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "coordinateTransform",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 1,
   "occurrences": 12,
+  "sourceOccurrences": 2,
   "entries": [
     {
       "key": "coordinateTransform",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pipeCyclic/system/coordinateTransform"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pipeCyclic/system/coordinateTransform"
@@ -44,8 +52,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cylindrical"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/parameterization/NURBS/NURBS3DVolume/cylindrical/NURBS3DVolumeCylindrical.C:133"
+      ],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pipeCyclic/system/coordinateTransform"
@@ -61,6 +76,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pipeCyclic/system/coordinateTransform"
@@ -76,10 +94,33 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pipeCyclic/system/coordinateTransform"
       ]
+    },
+    {
+      "key": "coordinateTransform/coordinateSystem/rotation/origin",
+      "keyword": "origin",
+      "context": "coordinateTransform/coordinateSystem/rotation",
+      "path": "coordinateTransform/coordinateSystem/rotation/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cylindrical"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/parameterization/NURBS/NURBS3DVolume/cylindrical/NURBS3DVolumeCylindrical.C:133"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "coordinateTransform/coordinateSystem/rotation/type",
@@ -91,6 +132,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cylindrical",
@@ -111,6 +155,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cylindrical",
@@ -131,6 +178,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pipeCyclic/system/coordinateTransform"
@@ -146,6 +196,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/simpleFoam/pipeCyclic/system/coordinateTransform"
@@ -161,6 +214,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -181,6 +237,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fieldCoordinateSystemTransform",
@@ -201,6 +260,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "writeTime",

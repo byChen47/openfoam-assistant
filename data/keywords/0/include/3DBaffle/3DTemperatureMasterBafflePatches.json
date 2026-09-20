@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "include/3DBaffle/3DTemperatureMasterBafflePatches",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 1,
   "occurrences": 4,
+  "sourceOccurrences": 14,
   "entries": [
     {
       "key": "T",
@@ -16,10 +18,115 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/0.orig/include/3DBaffle/3DTemperatureMasterBafflePatches"
       ]
+    },
+    {
+      "key": "T/active",
+      "keyword": "active",
+      "context": "T",
+      "path": "T/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:338"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "T/columnCells",
+      "keyword": "columnCells",
+      "context": "T",
+      "path": "T/columnCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:166",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:328"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "T/expansionRatio",
+      "keyword": "expansionRatio",
+      "context": "T",
+      "path": "T/expansionRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:326"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "T/extrudeModel",
+      "keyword": "extrudeModel",
+      "context": "T",
+      "path": "T/extrudeModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:322",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:330"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "T/internal",
+      "keyword": "internal",
+      "context": "T",
+      "path": "T/internal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:103"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "T/kappaMethod",
@@ -31,6 +138,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fluidThermo",
@@ -42,6 +152,108 @@
       ]
     },
     {
+      "key": "T/mixture",
+      "keyword": "mixture",
+      "context": "T",
+      "path": "T/mixture",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:341"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "T/nLayers",
+      "keyword": "nLayers",
+      "context": "T",
+      "path": "T/nLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:324"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "T/radiation",
+      "keyword": "radiation",
+      "context": "T",
+      "path": "T/radiation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:342"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "T/region",
+      "keyword": "region",
+      "context": "T",
+      "path": "T/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:101",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:144",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:334"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "T/thermoType",
+      "keyword": "thermoType",
+      "context": "T",
+      "path": "T/thermoType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:340"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "T/type",
       "keyword": "type",
       "context": "T",
@@ -51,6 +263,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "compressible::thermalBaffle",
@@ -71,6 +286,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 300",

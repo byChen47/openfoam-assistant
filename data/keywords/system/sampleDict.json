@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "sampleDict",
   "sourceFileCount": 3,
+  "sourceEvidenceFileCount": 11,
   "occurrences": 90,
+  "sourceOccurrences": 121,
   "entries": [
     {
       "key": "fields",
@@ -14,8 +16,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:63"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -29,8 +38,15 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:8"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -46,6 +62,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -66,6 +85,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -86,6 +108,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "system",
@@ -106,6 +131,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sampleDict",
@@ -126,10 +154,78 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
       ]
+    },
+    {
+      "key": "formatOptions",
+      "keyword": "formatOptions",
+      "context": "",
+      "path": "formatOptions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:40"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "formatOptions/ensight",
+      "keyword": "ensight",
+      "context": "formatOptions",
+      "path": "formatOptions/ensight",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:42"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "formatOptions/ensight/format",
+      "keyword": "format",
+      "context": "formatOptions/ensight",
+      "path": "formatOptions/ensight/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:44"
+      ],
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
     },
     {
       "key": "interpolationScheme",
@@ -139,12 +235,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:60"
+      ],
       "values": [
         {
           "value": "cellPoint",
-          "occurrences": 1
+          "occurrences": 2
         }
       ],
       "examples": [
@@ -161,6 +264,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/sampleDict"
@@ -174,8 +280,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaces"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledSurfaces/sampledSurfaces.C:404"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/sampleDict"
@@ -191,6 +304,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cell",
@@ -211,6 +327,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/sampleDict"
@@ -224,8 +343,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaces"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledSurfaces/sampledSurfaces.C:266"
+      ],
       "values": [
         {
           "value": "raw",
@@ -246,6 +372,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/sampleDict"
@@ -261,6 +390,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/sampleDict"
@@ -276,6 +408,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "surfaces",
@@ -296,6 +431,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "writeTime",
@@ -316,6 +454,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/sampleDict"
@@ -329,8 +470,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaces"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledSurfaces/sampledSurfaces.C:404"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/sampleDict"
@@ -346,6 +494,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cell",
@@ -366,6 +517,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/sampleDict"
@@ -379,8 +533,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaces"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledSurfaces/sampledSurfaces.C:266"
+      ],
       "values": [
         {
           "value": "raw",
@@ -401,6 +562,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/sampleDict"
@@ -416,6 +580,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/sampleDict"
@@ -431,6 +598,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "surfaces",
@@ -451,6 +621,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "writeTime",
@@ -471,6 +644,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/sampleDict",
@@ -485,8 +661,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sets"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/sampledSets/sampledSets.C:552"
+      ],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/sampleDict",
@@ -503,6 +686,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "cellPoint",
@@ -524,6 +710,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/sampleDict",
@@ -538,8 +727,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 2,
-      "fileCount": 2,
+      "occurrences": 3,
+      "fileCount": 3,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sets"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/sampledSets/sampledSets.C:535"
+      ],
       "values": [
         {
           "value": "raw",
@@ -561,6 +757,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/sampleDict",
@@ -577,6 +776,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/pimpleFoam/LES/NACA4412/system/sampleDict",
@@ -593,6 +795,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "sets",
@@ -614,6 +819,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "writeTime",
@@ -633,12 +841,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:24"
+      ],
       "values": [
         {
           "value": "raw",
-          "occurrences": 1
+          "occurrences": 2
         }
       ],
       "examples": [
@@ -651,10 +866,18 @@
       "context": "",
       "path": "sets",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:94"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -670,6 +893,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -685,6 +911,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "distance",
@@ -703,8 +932,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:447"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -718,8 +954,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:449"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -733,8 +976,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:446"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -750,6 +1000,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform",
@@ -761,6 +1014,26 @@
       ]
     },
     {
+      "key": "sets/Centerline/value",
+      "keyword": "value",
+      "context": "sets/Centerline",
+      "path": "sets/Centerline/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/uniform/uniform.C:50"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "sets/Radial_075",
       "keyword": "Radial_075",
       "context": "sets",
@@ -770,6 +1043,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -785,6 +1061,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "distance",
@@ -803,8 +1082,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:447"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -818,8 +1104,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:449"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -833,8 +1126,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:446"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -850,6 +1150,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform",
@@ -861,6 +1164,26 @@
       ]
     },
     {
+      "key": "sets/Radial_075/value",
+      "keyword": "value",
+      "context": "sets/Radial_075",
+      "path": "sets/Radial_075/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/uniform/uniform.C:50"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "sets/Radial_15",
       "keyword": "Radial_15",
       "context": "sets",
@@ -870,6 +1193,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -885,6 +1211,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "distance",
@@ -903,8 +1232,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:447"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -918,8 +1254,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:449"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -933,8 +1276,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:446"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -950,6 +1300,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform",
@@ -961,6 +1314,26 @@
       ]
     },
     {
+      "key": "sets/Radial_15/value",
+      "keyword": "value",
+      "context": "sets/Radial_15",
+      "path": "sets/Radial_15/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/uniform/uniform.C:50"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "sets/Radial_30",
       "keyword": "Radial_30",
       "context": "sets",
@@ -970,6 +1343,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -985,6 +1361,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "distance",
@@ -1003,8 +1382,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:447"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1018,8 +1404,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:449"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1033,8 +1426,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:446"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1050,6 +1450,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform",
@@ -1061,6 +1464,26 @@
       ]
     },
     {
+      "key": "sets/Radial_30/value",
+      "keyword": "value",
+      "context": "sets/Radial_30",
+      "path": "sets/Radial_30/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/uniform/uniform.C:50"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "sets/Radial_45",
       "keyword": "Radial_45",
       "context": "sets",
@@ -1070,6 +1493,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1085,6 +1511,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "distance",
@@ -1103,8 +1532,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:447"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1118,8 +1554,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:449"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1133,8 +1576,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:446"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1150,6 +1600,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform",
@@ -1161,6 +1614,26 @@
       ]
     },
     {
+      "key": "sets/Radial_45/value",
+      "keyword": "value",
+      "context": "sets/Radial_45",
+      "path": "sets/Radial_45/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/uniform/uniform.C:50"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "sets/Radial_60",
       "keyword": "Radial_60",
       "context": "sets",
@@ -1170,6 +1643,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1185,6 +1661,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "distance",
@@ -1203,8 +1682,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:447"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1218,8 +1704,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:449"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1233,8 +1726,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:446"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1250,6 +1750,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform",
@@ -1261,6 +1764,26 @@
       ]
     },
     {
+      "key": "sets/Radial_60/value",
+      "keyword": "value",
+      "context": "sets/Radial_60",
+      "path": "sets/Radial_60/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/uniform/uniform.C:50"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "sets/Radial_75",
       "keyword": "Radial_75",
       "context": "sets",
@@ -1270,6 +1793,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1285,6 +1811,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "distance",
@@ -1303,8 +1832,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:447"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1318,8 +1854,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:449"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1333,8 +1876,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/uniform/uniformSet.C:446"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
@@ -1350,6 +1900,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform",
@@ -1361,6 +1914,26 @@
       ]
     },
     {
+      "key": "sets/Radial_75/value",
+      "keyword": "value",
+      "context": "sets/Radial_75",
+      "path": "sets/Radial_75/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "uniform"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/randomProcesses/windowModels/uniform/uniform.C:50"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "surfaceFormat",
       "keyword": "surfaceFormat",
       "context": "",
@@ -1368,12 +1941,19 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:37"
+      ],
       "values": [
         {
           "value": "vtk",
-          "occurrences": 1
+          "occurrences": 2
         }
       ],
       "examples": [
@@ -1388,12 +1968,1572 @@
       "kinds": [
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:154"
+      ],
       "values": [],
       "examples": [
         "combustion/reactingFoam/RAS/SandiaD_LTS/system/sampleDict"
       ]
+    },
+    {
+      "key": "surfaces/constantIso",
+      "keyword": "constantIso",
+      "context": "surfaces",
+      "path": "surfaces/constantIso",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:246"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantIso/interpolate",
+      "keyword": "interpolate",
+      "context": "surfaces/constantIso",
+      "path": "surfaces/constantIso/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:253"
+      ],
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantIso/isoField",
+      "keyword": "isoField",
+      "context": "surfaces/constantIso",
+      "path": "surfaces/constantIso/isoField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:251"
+      ],
+      "values": [
+        {
+          "value": "rho",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantIso/isoValue",
+      "keyword": "isoValue",
+      "context": "surfaces/constantIso",
+      "path": "surfaces/constantIso/isoValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:252"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantIso/regularise",
+      "keyword": "regularise",
+      "context": "surfaces/constantIso",
+      "path": "surfaces/constantIso/regularise",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:254"
+      ],
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantIso/type",
+      "keyword": "type",
+      "context": "surfaces/constantIso",
+      "path": "surfaces/constantIso/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:250"
+      ],
+      "values": [
+        {
+          "value": "isoSurfaceCell",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantPlane",
+      "keyword": "constantPlane",
+      "context": "surfaces",
+      "path": "surfaces/constantPlane",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:156"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantPlane/basePoint",
+      "keyword": "basePoint",
+      "context": "surfaces/constantPlane",
+      "path": "surfaces/constantPlane/basePoint",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:159"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantPlane/normal",
+      "keyword": "normal",
+      "context": "surfaces/constantPlane",
+      "path": "surfaces/constantPlane/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "plane"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/constraints/plane/sixDoFRigidBodyMotionPlaneConstraint.C:112",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/plane/planeImplicitFunction.C:70"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantPlane/normalVector",
+      "keyword": "normalVector",
+      "context": "surfaces/constantPlane",
+      "path": "surfaces/constantPlane/normalVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:160"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantPlane/origin",
+      "keyword": "origin",
+      "context": "surfaces/constantPlane",
+      "path": "surfaces/constantPlane/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "plane"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/plane/planeImplicitFunction.C:69"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/constantPlane/type",
+      "keyword": "type",
+      "context": "surfaces/constantPlane",
+      "path": "surfaces/constantPlane/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:158"
+      ],
+      "values": [
+        {
+          "value": "plane",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance",
+      "keyword": "distance",
+      "context": "surfaces",
+      "path": "surfaces/distance",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:275"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/distance",
+      "keyword": "distance",
+      "context": "surfaces/distance",
+      "path": "surfaces/distance/distance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:285"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/interpolate",
+      "keyword": "interpolate",
+      "context": "surfaces/distance",
+      "path": "surfaces/distance/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:289"
+      ],
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/maxDistance",
+      "keyword": "maxDistance",
+      "context": "surfaces/distance",
+      "path": "surfaces/distance/maxDistance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "distanceSurface"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/surface/distanceSurface/distanceSurface.C:304"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/nearestPoints",
+      "keyword": "nearestPoints",
+      "context": "surfaces/distance",
+      "path": "surfaces/distance/nearestPoints",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "distanceSurface"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/surface/distanceSurface/distanceSurface.C:301"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/regularise",
+      "keyword": "regularise",
+      "context": "surfaces/distance",
+      "path": "surfaces/distance/regularise",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:290"
+      ],
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/signed",
+      "keyword": "signed",
+      "context": "surfaces/distance",
+      "path": "surfaces/distance/signed",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:279"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/surfaceName",
+      "keyword": "surfaceName",
+      "context": "surfaces/distance",
+      "path": "surfaces/distance/surfaceName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:283"
+      ],
+      "values": [
+        {
+          "value": "integrationPlane.stl",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/surfaceType",
+      "keyword": "surfaceType",
+      "context": "surfaces/distance",
+      "path": "surfaces/distance/surfaceType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "distanceSurface",
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:282",
+        "OpenFOAM-v2606/src/sampling/surface/distanceSurface/distanceSurface.C:253"
+      ],
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/triSurfaceMeshCoeffs/file",
+      "keyword": "file",
+      "context": "surfaces/distance/triSurfaceMeshCoeffs",
+      "path": "surfaces/distance/triSurfaceMeshCoeffs/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:371",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:555"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/triSurfaceMeshCoeffs/minQuality",
+      "keyword": "minQuality",
+      "context": "surfaces/distance/triSurfaceMeshCoeffs",
+      "path": "surfaces/distance/triSurfaceMeshCoeffs/minQuality",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:393",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:642"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/distance/type",
+      "keyword": "type",
+      "context": "surfaces/distance",
+      "path": "surfaces/distance/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:278"
+      ],
+      "values": [
+        {
+          "value": "distanceSurface",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedIso",
+      "keyword": "interpolatedIso",
+      "context": "surfaces",
+      "path": "surfaces/interpolatedIso",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:231"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedIso/interpolate",
+      "keyword": "interpolate",
+      "context": "surfaces/interpolatedIso",
+      "path": "surfaces/interpolatedIso/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:237"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedIso/isoField",
+      "keyword": "isoField",
+      "context": "surfaces/interpolatedIso",
+      "path": "surfaces/interpolatedIso/isoField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:235"
+      ],
+      "values": [
+        {
+          "value": "rho",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedIso/isoValue",
+      "keyword": "isoValue",
+      "context": "surfaces/interpolatedIso",
+      "path": "surfaces/interpolatedIso/isoValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:236"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedIso/type",
+      "keyword": "type",
+      "context": "surfaces/interpolatedIso",
+      "path": "surfaces/interpolatedIso/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:234"
+      ],
+      "values": [
+        {
+          "value": "isoSurface",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedPlane",
+      "keyword": "interpolatedPlane",
+      "context": "surfaces",
+      "path": "surfaces/interpolatedPlane",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:170"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedPlane/basePoint",
+      "keyword": "basePoint",
+      "context": "surfaces/interpolatedPlane",
+      "path": "surfaces/interpolatedPlane/basePoint",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:173"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedPlane/coordinateSystem",
+      "keyword": "coordinateSystem",
+      "context": "surfaces/interpolatedPlane",
+      "path": "surfaces/interpolatedPlane/coordinateSystem",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:178"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedPlane/coordinateSystem/origin",
+      "keyword": "origin",
+      "context": "surfaces/interpolatedPlane/coordinateSystem",
+      "path": "surfaces/interpolatedPlane/coordinateSystem/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:180"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedPlane/coordinateSystem/rotation",
+      "keyword": "rotation",
+      "context": "surfaces/interpolatedPlane/coordinateSystem",
+      "path": "surfaces/interpolatedPlane/coordinateSystem/rotation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:181"
+      ],
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedPlane/interpolate",
+      "keyword": "interpolate",
+      "context": "surfaces/interpolatedPlane",
+      "path": "surfaces/interpolatedPlane/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:175"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedPlane/normal",
+      "keyword": "normal",
+      "context": "surfaces/interpolatedPlane",
+      "path": "surfaces/interpolatedPlane/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "plane"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/constraints/plane/sixDoFRigidBodyMotionPlaneConstraint.C:112",
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/plane/planeImplicitFunction.C:70"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedPlane/normalVector",
+      "keyword": "normalVector",
+      "context": "surfaces/interpolatedPlane",
+      "path": "surfaces/interpolatedPlane/normalVector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:174"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedPlane/origin",
+      "keyword": "origin",
+      "context": "surfaces/interpolatedPlane",
+      "path": "surfaces/interpolatedPlane/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "plane"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/preProcessing/setAlphaField/alphaFieldFunctions/implicitFunctions/plane/planeImplicitFunction.C:69"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/interpolatedPlane/type",
+      "keyword": "type",
+      "context": "surfaces/interpolatedPlane",
+      "path": "surfaces/interpolatedPlane/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:172"
+      ],
+      "values": [
+        {
+          "value": "plane",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/nearWalls_interpolated",
+      "keyword": "nearWalls_interpolated",
+      "context": "surfaces",
+      "path": "surfaces/nearWalls_interpolated",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:202"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/nearWalls_interpolated/distance",
+      "keyword": "distance",
+      "context": "surfaces/nearWalls_interpolated",
+      "path": "surfaces/nearWalls_interpolated/distance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:216"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/nearWalls_interpolated/interpolate",
+      "keyword": "interpolate",
+      "context": "surfaces/nearWalls_interpolated",
+      "path": "surfaces/nearWalls_interpolated/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:208"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/nearWalls_interpolated/offsetMode",
+      "keyword": "offsetMode",
+      "context": "surfaces/nearWalls_interpolated",
+      "path": "surfaces/nearWalls_interpolated/offsetMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:215"
+      ],
+      "values": [
+        {
+          "value": "normal",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/nearWalls_interpolated/patches",
+      "keyword": "patches",
+      "context": "surfaces/nearWalls_interpolated",
+      "path": "surfaces/nearWalls_interpolated/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:207"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/nearWalls_interpolated/type",
+      "keyword": "type",
+      "context": "surfaces/nearWalls_interpolated",
+      "path": "surfaces/nearWalls_interpolated/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:206"
+      ],
+      "values": [
+        {
+          "value": "patchInternalField",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/triangleCut",
+      "keyword": "triangleCut",
+      "context": "surfaces",
+      "path": "surfaces/triangleCut",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:259"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/triangleCut/interpolate",
+      "keyword": "interpolate",
+      "context": "surfaces/triangleCut",
+      "path": "surfaces/triangleCut/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:265"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/triangleCut/normal",
+      "keyword": "normal",
+      "context": "surfaces/triangleCut",
+      "path": "surfaces/triangleCut/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:264"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/triangleCut/point",
+      "keyword": "point",
+      "context": "surfaces/triangleCut",
+      "path": "surfaces/triangleCut/point",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:263"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/triangleCut/type",
+      "keyword": "type",
+      "context": "surfaces/triangleCut",
+      "path": "surfaces/triangleCut/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:262"
+      ],
+      "values": [
+        {
+          "value": "cuttingPlane",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/triSurfaceSampling",
+      "keyword": "triSurfaceSampling",
+      "context": "surfaces",
+      "path": "surfaces/triSurfaceSampling",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:295"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/triSurfaceSampling/interpolate",
+      "keyword": "interpolate",
+      "context": "surfaces/triSurfaceSampling",
+      "path": "surfaces/triSurfaceSampling/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:303"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/triSurfaceSampling/source",
+      "keyword": "source",
+      "context": "surfaces/triSurfaceSampling",
+      "path": "surfaces/triSurfaceSampling/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:300"
+      ],
+      "values": [
+        {
+          "value": "boundaryFaces",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/triSurfaceSampling/surface",
+      "keyword": "surface",
+      "context": "surfaces/triSurfaceSampling",
+      "path": "surfaces/triSurfaceSampling/surface",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:299"
+      ],
+      "values": [
+        {
+          "value": "integrationPlane.stl",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/triSurfaceSampling/type",
+      "keyword": "type",
+      "context": "surfaces/triSurfaceSampling",
+      "path": "surfaces/triSurfaceSampling/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:298"
+      ],
+      "values": [
+        {
+          "value": "sampledTriSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_constant",
+      "keyword": "walls_constant",
+      "context": "surfaces",
+      "path": "surfaces/walls_constant",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:185"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_constant/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "surfaces/walls_constant",
+      "path": "surfaces/walls_constant/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_constant/nFaces",
+      "keyword": "nFaces",
+      "context": "surfaces/walls_constant",
+      "path": "surfaces/walls_constant/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_constant/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "surfaces/walls_constant",
+      "path": "surfaces/walls_constant/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_constant/patches",
+      "keyword": "patches",
+      "context": "surfaces/walls_constant",
+      "path": "surfaces/walls_constant/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:188"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_constant/startFace",
+      "keyword": "startFace",
+      "context": "surfaces/walls_constant",
+      "path": "surfaces/walls_constant/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_constant/type",
+      "keyword": "type",
+      "context": "surfaces/walls_constant",
+      "path": "surfaces/walls_constant/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:187"
+      ],
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_interpolated",
+      "keyword": "walls_interpolated",
+      "context": "surfaces",
+      "path": "surfaces/walls_interpolated",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:193"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_interpolated/edgeLabels",
+      "keyword": "edgeLabels",
+      "context": "surfaces/walls_interpolated",
+      "path": "surfaces/walls_interpolated/edgeLabels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:127"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_interpolated/interpolate",
+      "keyword": "interpolate",
+      "context": "surfaces/walls_interpolated",
+      "path": "surfaces/walls_interpolated/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:197"
+      ],
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_interpolated/nFaces",
+      "keyword": "nFaces",
+      "context": "surfaces/walls_interpolated",
+      "path": "surfaces/walls_interpolated/nFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:144"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_interpolated/ngbPolyPatchIndex",
+      "keyword": "ngbPolyPatchIndex",
+      "context": "surfaces/walls_interpolated",
+      "path": "surfaces/walls_interpolated/ngbPolyPatchIndex",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/faPatch/faPatch.C:128"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_interpolated/patches",
+      "keyword": "patches",
+      "context": "surfaces/walls_interpolated",
+      "path": "surfaces/walls_interpolated/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:196"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_interpolated/startFace",
+      "keyword": "startFace",
+      "context": "surfaces/walls_interpolated",
+      "path": "surfaces/walls_interpolated/startFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "patch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:145",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/polyPatch/polyPatch.C:149"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "surfaces/walls_interpolated/type",
+      "keyword": "type",
+      "context": "surfaces/walls_interpolated",
+      "path": "surfaces/walls_interpolated/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/sampleDict:195"
+      ],
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": []
     }
   ]
 }

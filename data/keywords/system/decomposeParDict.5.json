@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "decomposeParDict.5",
   "sourceFileCount": 2,
+  "sourceEvidenceFileCount": 2,
   "occurrences": 18,
+  "sourceOccurrences": 5,
   "entries": [
     {
       "key": "constraints",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/decomposeParDict.5"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/decomposeParDict.5"
@@ -46,6 +54,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "preserveFaceZones",
@@ -64,12 +75,59 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preserveFaceZones"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preserveFaceZones/preserveFaceZonesConstraint.C:59"
+      ],
       "values": [],
       "examples": [
         "mesh/parallel/filter/system/decomposeParDict.5"
       ]
+    },
+    {
+      "key": "domains",
+      "keyword": "domains",
+      "context": "",
+      "path": "domains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "domainWeights",
+      "keyword": "domainWeights",
+      "context": "",
+      "path": "domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "FoamFile",
@@ -81,6 +139,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/cavity/system/decomposeParDict.5",
@@ -97,6 +158,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -118,6 +182,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -139,6 +206,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "decomposeParDict",
@@ -160,6 +230,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/cavity/system/decomposeParDict.5",
@@ -176,6 +249,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "scotch",
@@ -197,11 +273,54 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "mesh/parallel/cavity/system/decomposeParDict.5",
         "mesh/parallel/filter/system/decomposeParDict.5"
       ]
+    },
+    {
+      "key": "processorWeights",
+      "keyword": "processorWeights",
+      "context": "",
+      "path": "processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "strategy",
+      "keyword": "strategy",
+      "context": "",
+      "path": "strategy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "values": [],
+      "examples": []
     }
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "alphat.liquid",
   "sourceFileCount": 5,
+  "sourceEvidenceFileCount": 4,
   "occurrences": 238,
+  "sourceOccurrences": 35,
   "entries": [
     {
       "key": "boundaryField",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -35,6 +40,9 @@
       ],
       "occurrences": 25,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -54,6 +62,9 @@
       ],
       "occurrences": 6,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/alphat.liquid",
@@ -67,10 +78,18 @@
       "context": "boundaryField/{patch}",
       "path": "boundaryField/{patch}/departureDiamModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 8,
-      "fileCount": 5,
+      "occurrences": 9,
+      "fileCount": 6,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:194"
+      ],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -90,6 +109,9 @@
       ],
       "occurrences": 8,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "TolubinskiKostanchuk",
@@ -110,10 +132,18 @@
       "context": "boundaryField/{patch}",
       "path": "boundaryField/{patch}/departureFreqModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 8,
-      "fileCount": 5,
+      "occurrences": 9,
+      "fileCount": 6,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:200"
+      ],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -133,6 +163,9 @@
       ],
       "occurrences": 8,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "Cole",
@@ -157,6 +190,9 @@
       ],
       "occurrences": 8,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 0",
@@ -181,12 +217,35 @@
       ],
       "occurrences": 6,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/alphat.liquid",
         "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/alphat.liquid",
         "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/alphat.liquid"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/K",
+      "keyword": "K",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/K",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:259"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/kappa",
@@ -198,6 +257,9 @@
       ],
       "occurrences": 6,
       "fileCount": 3,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/alphat.liquid",
@@ -206,15 +268,353 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/liquidCoeffs/defaultCoeffs",
+      "keyword": "defaultCoeffs",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/defaultCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:131"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/delta",
+      "keyword": "delta",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:84",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:236"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/dipm",
+      "keyword": "dipm",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/dipm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:82",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:234"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/liquid",
+      "keyword": "liquid",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/liquid",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/liquidFilmThermo/liquidFilmThermo.C:82"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/omega",
+      "keyword": "omega",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/omega",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:83",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:235"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/Pc",
+      "keyword": "Pc",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/Pc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:76",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:228"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/pRef",
+      "keyword": "pRef",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/pRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/liquidFilmThermo/liquidFilmThermo.C:129"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/Pt",
+      "keyword": "Pt",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/Pt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:80",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:232"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/Tb",
+      "keyword": "Tb",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/Tb",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:81",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:233"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/Tc",
+      "keyword": "Tc",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/Tc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:75",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:227"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/TRef",
+      "keyword": "TRef",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/TRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/liquidFilmThermo/liquidFilmThermo.C:130"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/Tt",
+      "keyword": "Tt",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/Tt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:79",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:231"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:125"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/useReferenceValues",
+      "keyword": "useReferenceValues",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/useReferenceValues",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/liquidFilmThermo/liquidFilmThermo.C:121"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/Vc",
+      "keyword": "Vc",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/Vc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:77",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:229"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "boundaryField/{patch}/liquidCoeffs/Zc",
+      "keyword": "Zc",
+      "context": "boundaryField/{patch}/liquidCoeffs",
+      "path": "boundaryField/{patch}/liquidCoeffs/Zc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:78",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:230"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "boundaryField/{patch}/nucleationSiteModel",
       "keyword": "nucleationSiteModel",
       "context": "boundaryField/{patch}",
       "path": "boundaryField/{patch}/nucleationSiteModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 8,
-      "fileCount": 5,
+      "occurrences": 9,
+      "fileCount": 6,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:188"
+      ],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -234,6 +634,9 @@
       ],
       "occurrences": 8,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "LemmertChawla",
@@ -256,8 +659,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 8,
-      "fileCount": 5,
+      "occurrences": 9,
+      "fileCount": 6,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:117"
+      ],
       "values": [
         {
           "value": "gas",
@@ -282,10 +692,19 @@
       "context": "boundaryField/{patch}",
       "path": "boundaryField/{patch}/partitioningModel",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 8,
-      "fileCount": 5,
+      "occurrences": 10,
+      "fileCount": 6,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:154",
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:170"
+      ],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -303,8 +722,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 6,
-      "fileCount": 4,
+      "occurrences": 7,
+      "fileCount": 5,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "Lavieville"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/wallBoilingSubModels/partitioningModels/Lavieville/Lavieville.C:58"
+      ],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -323,6 +749,9 @@
       ],
       "occurrences": 8,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "phaseFraction",
@@ -351,6 +780,9 @@
       ],
       "occurrences": 8,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "liquid",
@@ -375,6 +807,9 @@
       ],
       "occurrences": 8,
       "fileCount": 4,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -393,6 +828,9 @@
       ],
       "occurrences": 8,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -412,6 +850,9 @@
       ],
       "occurrences": 25,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "calculated",
@@ -448,6 +889,9 @@
       ],
       "occurrences": 20,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 1e-8",
@@ -467,6 +911,26 @@
       ]
     },
     {
+      "key": "boundaryField/{patch}/wp",
+      "keyword": "wp",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/wp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::alphatWallBoilingWallFunction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:261"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "dimensions",
       "keyword": "dimensions",
       "context": "",
@@ -476,6 +940,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -495,6 +962,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -514,6 +984,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volScalarField",
@@ -538,6 +1011,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -562,6 +1038,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "alphat.liquid",
@@ -586,6 +1065,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/alphat.liquid",
@@ -605,6 +1087,9 @@
       ],
       "occurrences": 5,
       "fileCount": 5,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "uniform 1e-8",

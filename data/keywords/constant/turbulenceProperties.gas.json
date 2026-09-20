@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "turbulenceProperties.gas",
   "sourceFileCount": 9,
+  "sourceEvidenceFileCount": 4,
   "occurrences": 81,
+  "sourceOccurrences": 6,
   "entries": [
     {
       "key": "FoamFile",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/constant/turbulenceProperties.gas",
@@ -35,6 +40,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -59,6 +67,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -83,6 +94,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "turbulenceProperties.air",
@@ -111,6 +125,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/constant/turbulenceProperties.gas",
@@ -119,6 +136,66 @@
         "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/constant/turbulenceProperties.gas",
         "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/constant/turbulenceProperties.gas"
       ]
+    },
+    {
+      "key": "laminarCoeffs/Cf",
+      "keyword": "Cf",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/Cf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmTurbulenceModel/laminar/laminar.C:62"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/laminar",
+      "keyword": "laminar",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/laminar",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/laminar/laminarModel/laminarModel.C:177"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "laminarCoeffs/maxIntegrationTime",
+      "keyword": "maxIntegrationTime",
+      "context": "laminarCoeffs",
+      "path": "laminarCoeffs/maxIntegrationTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laminar"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/combustionModels/laminar/laminar.C:97"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "RAS",
@@ -130,6 +207,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/constant/turbulenceProperties.gas",
@@ -149,6 +229,9 @@
       ],
       "occurrences": 6,
       "fileCount": 6,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -173,6 +256,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "kEpsilon",
@@ -201,6 +287,9 @@
       ],
       "occurrences": 7,
       "fileCount": 7,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "on",
@@ -216,6 +305,47 @@
       ]
     },
     {
+      "key": "RASCoeffs/RAS",
+      "keyword": "RAS",
+      "context": "RASCoeffs",
+      "path": "RASCoeffs/RAS",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "RAS"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.C:138",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.C:175"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "RASCoeffs/turbulence",
+      "keyword": "turbulence",
+      "context": "RASCoeffs",
+      "path": "RASCoeffs/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "RAS"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/RASModel/RASModel.C:176"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "simulationType",
       "keyword": "simulationType",
       "context": "",
@@ -225,6 +355,9 @@
       ],
       "occurrences": 9,
       "fileCount": 9,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "laminar",

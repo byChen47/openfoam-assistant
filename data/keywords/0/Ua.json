@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "Ua",
   "sourceFileCount": 90,
+  "sourceEvidenceFileCount": 6,
   "occurrences": 2463,
+  "sourceOccurrences": 6,
   "entries": [
     {
       "key": "#include",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
@@ -32,6 +37,9 @@
       ],
       "occurrences": 90,
       "fileCount": 90,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
@@ -52,6 +60,9 @@
       ],
       "occurrences": 617,
       "fileCount": 90,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
@@ -71,11 +82,42 @@
       ],
       "occurrences": 2,
       "fileCount": 2,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
         "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/0.orig/Ua"
       ]
+    },
+    {
+      "key": "boundaryField/{patch}/solverName",
+      "keyword": "solverName",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/solverName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "adjointFarFieldVelocity",
+        "adjointInletVelocity",
+        "adjointOutletVelocity",
+        "adjointOutletVelocityFlux",
+        "adjointWallVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/adjointBoundaryConditions/adjointFarFieldVelocity/adjointFarFieldVelocityFvPatchVectorField.C:70",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/adjointBoundaryConditions/adjointInletVelocity/adjointInletVelocityFvPatchVectorField.C:72",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/adjointBoundaryConditions/adjointOutletVelocity/adjointOutletVelocityFvPatchVectorField.C:132",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/adjointBoundaryConditions/adjointOutletVelocityFlux/adjointOutletVelocityFluxFvPatchVectorField.C:72",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/adjointBoundaryConditions/adjointWallVelocity/adjointWallVelocityFvPatchVectorField.C:76"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "boundaryField/{patch}/type",
@@ -87,6 +129,9 @@
       ],
       "occurrences": 606,
       "fileCount": 90,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "adjointWallVelocity",
@@ -141,8 +186,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 516,
-      "fileCount": 90,
+      "occurrences": 517,
+      "fileCount": 91,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
@@ -162,6 +214,9 @@
       ],
       "occurrences": 90,
       "fileCount": 90,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
@@ -181,6 +236,9 @@
       ],
       "occurrences": 90,
       "fileCount": 90,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
@@ -200,6 +258,9 @@
       ],
       "occurrences": 90,
       "fileCount": 90,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "volVectorField",
@@ -224,6 +285,9 @@
       ],
       "occurrences": 90,
       "fileCount": 90,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -248,6 +312,9 @@
       ],
       "occurrences": 90,
       "fileCount": 90,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "Ua",
@@ -276,6 +343,9 @@
       ],
       "occurrences": 90,
       "fileCount": 90,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
@@ -295,6 +365,9 @@
       ],
       "occurrences": 90,
       "fileCount": 90,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",

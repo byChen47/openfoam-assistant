@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "solid/fvOptions",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 1,
   "occurrences": 10,
+  "sourceOccurrences": 3,
   "entries": [
     {
       "key": "FoamFile",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvOptions"
@@ -31,6 +36,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -51,6 +59,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -71,6 +82,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "fvOptions",
@@ -91,6 +105,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvOptions"
@@ -106,6 +123,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvOptions"
@@ -121,6 +141,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -132,6 +155,26 @@
       ]
     },
     {
+      "key": "heating/anisotropicElectricalConductivity",
+      "keyword": "anisotropicElectricalConductivity",
+      "context": "heating",
+      "path": "heating/anisotropicElectricalConductivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "jouleHeatingSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/jouleHeatingSource/jouleHeatingSource.cxx:197"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "heating/jouleHeatingSourceCoeffs",
       "keyword": "jouleHeatingSourceCoeffs",
       "context": "heating",
@@ -141,6 +184,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvOptions"
@@ -156,6 +202,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "no",
@@ -167,6 +216,46 @@
       ]
     },
     {
+      "key": "heating/nIter",
+      "keyword": "nIter",
+      "context": "heating",
+      "path": "heating/nIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "jouleHeatingSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/jouleHeatingSource/jouleHeatingSource.cxx:194"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "heating/T",
+      "keyword": "T",
+      "context": "heating",
+      "path": "heating/T",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "jouleHeatingSource"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/faOptions/sources/derived/jouleHeatingSource/jouleHeatingSource.cxx:192"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "heating/type",
       "keyword": "type",
       "context": "heating",
@@ -176,6 +265,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "jouleHeatingSource",

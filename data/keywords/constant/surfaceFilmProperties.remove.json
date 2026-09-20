@@ -1,10 +1,12 @@
 {
-  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "generatedAt": "2026-09-20T12:59:10.305Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "surfaceFilmProperties.remove",
   "sourceFileCount": 1,
+  "sourceEvidenceFileCount": 14,
   "occurrences": 31,
+  "sourceOccurrences": 60,
   "entries": [
     {
       "key": "active",
@@ -16,6 +18,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "true",
@@ -36,6 +41,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -51,6 +59,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "dictionary",
@@ -71,6 +82,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "ascii",
@@ -91,6 +105,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "surfaceFilmProperties",
@@ -111,6 +128,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -126,6 +146,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "wallFilmRegion",
@@ -146,6 +169,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "thermoSingleLayer",
@@ -166,6 +192,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -179,8 +208,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermoSingleLayer"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.C:422"
+      ],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -196,6 +232,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "liquid",
@@ -216,6 +255,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "liquid",
@@ -236,6 +278,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -249,8 +294,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermoSingleLayer"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.C:423"
+      ],
       "values": [
         {
           "value": "no",
@@ -262,6 +314,46 @@
       ]
     },
     {
+      "key": "thermoSingleLayerCoeffs/hydrophilicDryScale",
+      "keyword": "hydrophilicDryScale",
+      "context": "thermoSingleLayerCoeffs",
+      "path": "thermoSingleLayerCoeffs/hydrophilicDryScale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermoSingleLayer"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.C:531"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/hydrophilicWetScale",
+      "keyword": "hydrophilicWetScale",
+      "context": "thermoSingleLayerCoeffs",
+      "path": "thermoSingleLayerCoeffs/hydrophilicWetScale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermoSingleLayer"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.C:532"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "thermoSingleLayerCoeffs/injectionModels",
       "keyword": "injectionModels",
       "context": "thermoSingleLayerCoeffs",
@@ -271,6 +363,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -286,6 +381,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -301,6 +399,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -316,10 +417,75 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
       ]
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/defaultCoeffs",
+      "keyword": "defaultCoeffs",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/defaultCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:131"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/delta",
+      "keyword": "delta",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:84",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:236"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/dipm",
+      "keyword": "dipm",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/dipm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:82",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:234"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "thermoSingleLayerCoeffs/liquidCoeffs/liquid",
@@ -329,8 +495,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/liquidFilmThermo/liquidFilmThermo.C:82"
+      ],
       "values": [
         {
           "value": "H2O",
@@ -342,6 +515,192 @@
       ]
     },
     {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/omega",
+      "keyword": "omega",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/omega",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:83",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:235"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/Pc",
+      "keyword": "Pc",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/Pc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:76",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:228"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/pRef",
+      "keyword": "pRef",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/pRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/liquidFilmThermo/liquidFilmThermo.C:129"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/Pt",
+      "keyword": "Pt",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/Pt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:80",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:232"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/Tb",
+      "keyword": "Tb",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/Tb",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:81",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:233"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/Tc",
+      "keyword": "Tc",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/Tc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:75",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:227"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/TRef",
+      "keyword": "TRef",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/TRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/liquidFilmThermo/liquidFilmThermo.C:130"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/Tt",
+      "keyword": "Tt",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/Tt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:79",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:231"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/type",
+      "keyword": "type",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:125"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "thermoSingleLayerCoeffs/liquidCoeffs/useReferenceValues",
       "keyword": "useReferenceValues",
       "context": "thermoSingleLayerCoeffs/liquidCoeffs",
@@ -349,8 +708,15 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/liquidFilmThermo/liquidFilmThermo.C:121"
+      ],
       "values": [
         {
           "value": "no",
@@ -362,15 +728,65 @@
       ]
     },
     {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/Vc",
+      "keyword": "Vc",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/Vc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:77",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:229"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/liquidCoeffs/Zc",
+      "keyword": "Zc",
+      "context": "thermoSingleLayerCoeffs/liquidCoeffs",
+      "path": "thermoSingleLayerCoeffs/liquidCoeffs/Zc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "liquid"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:78",
+        "OpenFOAM-v2606/src/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties/liquidProperties.C:230"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "thermoSingleLayerCoeffs/lowerSurfaceModels",
       "keyword": "lowerSurfaceModels",
       "context": "thermoSingleLayerCoeffs",
       "path": "thermoSingleLayerCoeffs/lowerSurfaceModels",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermoSingleLayer"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.C:480"
+      ],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -386,6 +802,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -399,12 +818,163 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/constantHeatTransfer/constantHeatTransfer.C:61"
+      ],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
       ]
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/coeffC",
+      "keyword": "coeffC",
+      "context": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/coeffC",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/constant/constant.C:215"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/coeffE",
+      "keyword": "coeffE",
+      "context": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/coeffE",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/constant/constant.C:216"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/d",
+      "keyword": "d",
+      "context": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/d",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/diameterModels/constantDiameter/constantDiameter.C:87",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/diameterModels/constantDiameter/constantDiameter.C:86"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/sigma",
+      "keyword": "sigma",
+      "context": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.C:86",
+        "OpenFOAM-v2606/src/transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.C:90"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/specie",
+      "keyword": "specie",
+      "context": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/specie",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/constantFilmThermo/constantFilmThermo.C:72"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/value",
+      "keyword": "value",
+      "context": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/ConstantField/ConstantField.C:103",
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/ConstantField/ConstantField.C:121",
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Constant/Constant.C:78"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/velocityGroup",
+      "keyword": "velocityGroup",
+      "context": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/lowerSurfaceModels/constantCoeffs/velocityGroup",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/populationBalanceModel/nucleationModels/constantNucleation/constantNucleation.C:72"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "thermoSingleLayerCoeffs/lowerSurfaceModels/heatTransferModel",
@@ -416,6 +986,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constant",
@@ -427,6 +1000,27 @@
       ]
     },
     {
+      "key": "thermoSingleLayerCoeffs/noneCoeffs/continuousPhase",
+      "keyword": "continuousPhase",
+      "context": "thermoSingleLayerCoeffs/noneCoeffs",
+      "path": "thermoSingleLayerCoeffs/noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "thermoSingleLayerCoeffs/phaseChangeModel",
       "keyword": "phaseChangeModel",
       "context": "thermoSingleLayerCoeffs",
@@ -436,6 +1030,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -456,6 +1053,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "none",
@@ -467,6 +1067,46 @@
       ]
     },
     {
+      "key": "thermoSingleLayerCoeffs/Tmax",
+      "keyword": "Tmax",
+      "context": "thermoSingleLayerCoeffs",
+      "path": "thermoSingleLayerCoeffs/Tmax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermoSingleLayer"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.C:495"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/Tmin",
+      "keyword": "Tmin",
+      "context": "thermoSingleLayerCoeffs",
+      "path": "thermoSingleLayerCoeffs/Tmin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermoSingleLayer"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.C:489"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
       "key": "thermoSingleLayerCoeffs/turbulence",
       "keyword": "turbulence",
       "context": "thermoSingleLayerCoeffs",
@@ -476,6 +1116,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "laminar",
@@ -492,10 +1135,18 @@
       "context": "thermoSingleLayerCoeffs",
       "path": "thermoSingleLayerCoeffs/upperSurfaceModels",
       "kinds": [
+        "entry",
         "subdict"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermoSingleLayer"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/thermoSingleLayer/thermoSingleLayer.C:476"
+      ],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -511,6 +1162,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
@@ -524,12 +1178,163 @@
       "kinds": [
         "entry"
       ],
-      "occurrences": 1,
-      "fileCount": 1,
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/constantHeatTransfer/constantHeatTransfer.C:61"
+      ],
       "values": [],
       "examples": [
         "lagrangian/reactingParcelFoam/splashPanelFilm/constant/surfaceFilmProperties.remove"
       ]
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/coeffC",
+      "keyword": "coeffC",
+      "context": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/coeffC",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/constant/constant.C:215"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/coeffE",
+      "keyword": "coeffE",
+      "context": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/coeffE",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/constant/constant.C:216"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/d",
+      "keyword": "d",
+      "context": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/d",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/diameterModels/constantDiameter/constantDiameter.C:87",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/diameterModels/constantDiameter/constantDiameter.C:86"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/sigma",
+      "keyword": "sigma",
+      "context": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.C:86",
+        "OpenFOAM-v2606/src/transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.C:90"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/specie",
+      "keyword": "specie",
+      "context": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/specie",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/constantFilmThermo/constantFilmThermo.C:72"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/value",
+      "keyword": "value",
+      "context": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/ConstantField/ConstantField.C:103",
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/ConstantField/ConstantField.C:121",
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Constant/Constant.C:78"
+      ],
+      "values": [],
+      "examples": []
+    },
+    {
+      "key": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/velocityGroup",
+      "keyword": "velocityGroup",
+      "context": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs",
+      "path": "thermoSingleLayerCoeffs/upperSurfaceModels/constantCoeffs/velocityGroup",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/populationBalanceModel/nucleationModels/constantNucleation/constantNucleation.C:72"
+      ],
+      "values": [],
+      "examples": []
     },
     {
       "key": "thermoSingleLayerCoeffs/upperSurfaceModels/heatTransferModel",
@@ -541,6 +1346,9 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
+      "sourceOccurrences": 0,
+      "sourceTypes": [],
+      "sourceLocations": [],
       "values": [
         {
           "value": "constant",
