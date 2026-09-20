@@ -1,2 +1,0 @@
-制作一个VScode的插件，这个插件的功能主要是针对OpenFOAM的各个文件的关键词进行高亮，同时显示这个关键词下的其他参数设置，将OpenFOAM中的各个文件包括0/文件、constant/文件和system/文件以及Allrun Allwake file options等等进行设置。
-请帮我详细设计这样的一个框架
