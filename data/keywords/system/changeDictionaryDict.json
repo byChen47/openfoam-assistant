@@ -1,0 +1,3110 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "changeDictionaryDict",
+  "sourceFileCount": 9,
+  "occurrences": 429,
+  "entries": [
+    {
+      "key": "alphat",
+      "keyword": "alphat",
+      "context": "",
+      "path": "alphat",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "alphat/boundaryField",
+      "keyword": "boundaryField",
+      "context": "alphat",
+      "path": "alphat/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "alphat/boundaryField/{patch}",
+      "keyword": "cycLeft",
+      "context": "alphat/boundaryField",
+      "path": "alphat/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "alphat/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "alphat/boundaryField/{patch}",
+      "path": "alphat/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "alphat/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "alphat/boundaryField/{patch}",
+      "path": "alphat/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Aw",
+      "keyword": "Aw",
+      "context": "",
+      "path": "Aw",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Aw/boundaryField",
+      "keyword": "boundaryField",
+      "context": "Aw",
+      "path": "Aw/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Aw/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "Aw/boundaryField",
+      "path": "Aw/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Aw/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "Aw/boundaryField/{patch}",
+      "path": "Aw/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Aw/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "Aw/boundaryField/{patch}",
+      "path": "Aw/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0.0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "b",
+      "keyword": "b",
+      "context": "",
+      "path": "b",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "B",
+      "keyword": "B",
+      "context": "",
+      "path": "B",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "b/boundaryField",
+      "keyword": "boundaryField",
+      "context": "b",
+      "path": "b/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "B/boundaryField",
+      "keyword": "boundaryField",
+      "context": "B",
+      "path": "B/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "b/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "b/boundaryField",
+      "path": "b/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "B/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "B/boundaryField",
+      "path": "B/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "b/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "b/boundaryField/{patch}",
+      "path": "b/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "B/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "B/boundaryField/{patch}",
+      "path": "B/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "b/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "b/boundaryField/{patch}",
+      "path": "b/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "B/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "B/boundaryField/{patch}",
+      "path": "B/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "betav",
+      "keyword": "betav",
+      "context": "",
+      "path": "betav",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "betav/boundaryField",
+      "keyword": "boundaryField",
+      "context": "betav",
+      "path": "betav/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "betav/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "betav/boundaryField",
+      "path": "betav/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "betav/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "betav/boundaryField/{patch}",
+      "path": "betav/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "betav/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "betav/boundaryField/{patch}",
+      "path": "betav/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary",
+      "keyword": "boundary",
+      "context": "",
+      "path": "boundary",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/changeDictionaryDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/box",
+      "keyword": "box",
+      "context": "boundary",
+      "path": "boundary/box",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/box/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/box",
+      "path": "boundary/box/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/box/type",
+      "keyword": "type",
+      "context": "boundary/box",
+      "path": "boundary/box/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/ceiling",
+      "keyword": "ceiling",
+      "context": "boundary",
+      "path": "boundary/ceiling",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/ceiling/coupleGroup",
+      "keyword": "coupleGroup",
+      "context": "boundary/ceiling",
+      "path": "boundary/ceiling/coupleGroup",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ceiling_baffle",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/ceiling/offset",
+      "keyword": "offset",
+      "context": "boundary/ceiling",
+      "path": "boundary/ceiling/offset",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/ceiling/offsetMode",
+      "keyword": "offsetMode",
+      "context": "boundary/ceiling",
+      "path": "boundary/ceiling/offsetMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/ceiling/sampleMode",
+      "keyword": "sampleMode",
+      "context": "boundary/ceiling",
+      "path": "boundary/ceiling/sampleMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "nearestPatchFace",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/ceiling/samplePatch",
+      "keyword": "samplePatch",
+      "context": "boundary/ceiling",
+      "path": "boundary/ceiling/samplePatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "bottom",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/ceiling/sampleRegion",
+      "keyword": "sampleRegion",
+      "context": "boundary/ceiling",
+      "path": "boundary/ceiling/sampleRegion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "baffle3DRegion",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/ceiling/type",
+      "keyword": "type",
+      "context": "boundary/ceiling",
+      "path": "boundary/ceiling/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "mappedWall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/inletWalls",
+      "keyword": "inletWalls",
+      "context": "boundary",
+      "path": "boundary/inletWalls",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/inletWalls/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/inletWalls",
+      "path": "boundary/inletWalls/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "CR",
+      "keyword": "CR",
+      "context": "",
+      "path": "CR",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "CR/boundaryField",
+      "keyword": "boundaryField",
+      "context": "CR",
+      "path": "CR/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "CR/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "CR/boundaryField",
+      "path": "CR/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "CR/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "CR/boundaryField/{patch}",
+      "path": "CR/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "CR/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "CR/boundaryField/{patch}",
+      "path": "CR/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "CT",
+      "keyword": "CT",
+      "context": "",
+      "path": "CT",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "CT/boundaryField",
+      "keyword": "boundaryField",
+      "context": "CT",
+      "path": "CT/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "CT/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "CT/boundaryField",
+      "path": "CT/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "CT/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "CT/boundaryField/{patch}",
+      "path": "CT/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "CT/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "CT/boundaryField/{patch}",
+      "path": "CT/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon",
+      "keyword": "epsilon",
+      "context": "",
+      "path": "epsilon",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField",
+      "keyword": "boundaryField",
+      "context": "epsilon",
+      "path": "epsilon/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "epsilon/boundaryField",
+      "path": "epsilon/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "epsilon/boundaryField/{patch}",
+      "path": "epsilon/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 4
+        },
+        {
+          "value": "epsilonWallFunction",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "epsilon/boundaryField/{patch}",
+      "path": "epsilon/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.1",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-5",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict",
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/changeDictionaryDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict",
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/changeDictionaryDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict",
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/changeDictionaryDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "changeDictionaryDict",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict",
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/changeDictionaryDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict",
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/changeDictionaryDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "ft",
+      "keyword": "ft",
+      "context": "",
+      "path": "ft",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "ft/boundaryField",
+      "keyword": "boundaryField",
+      "context": "ft",
+      "path": "ft/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "ft/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "ft/boundaryField",
+      "path": "ft/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "ft/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "ft/boundaryField/{patch}",
+      "path": "ft/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "ft/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "ft/boundaryField/{patch}",
+      "path": "ft/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0.06024096",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G",
+      "keyword": "G",
+      "context": "",
+      "path": "G",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/boundaryField",
+      "keyword": "boundaryField",
+      "context": "G",
+      "path": "G/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/boundaryField/{patch}",
+      "keyword": "cycLeft",
+      "context": "G/boundaryField",
+      "path": "G/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "G/boundaryField/{patch}",
+      "path": "G/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "G/boundaryField/{patch}",
+      "path": "G/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "H2O",
+      "keyword": "H2O",
+      "context": "",
+      "path": "H2O",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "H2O/boundaryField",
+      "keyword": "boundaryField",
+      "context": "H2O",
+      "path": "H2O/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "H2O/boundaryField/{patch}",
+      "keyword": "cycLeft",
+      "context": "H2O/boundaryField",
+      "path": "H2O/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "H2O/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "H2O/boundaryField/{patch}",
+      "path": "H2O/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "H2O/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "H2O/boundaryField/{patch}",
+      "path": "H2O/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k",
+      "keyword": "k",
+      "context": "",
+      "path": "k",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField",
+      "keyword": "boundaryField",
+      "context": "k",
+      "path": "k/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "k/boundaryField",
+      "path": "k/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "k/boundaryField/{patch}",
+      "path": "k/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 4
+        },
+        {
+          "value": "kqRWallFunction",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "k/boundaryField/{patch}",
+      "path": "k/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 1.5",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Lobs",
+      "keyword": "Lobs",
+      "context": "",
+      "path": "Lobs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Lobs/boundaryField",
+      "keyword": "boundaryField",
+      "context": "Lobs",
+      "path": "Lobs/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Lobs/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "Lobs/boundaryField",
+      "path": "Lobs/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Lobs/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "Lobs/boundaryField/{patch}",
+      "path": "Lobs/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Lobs/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "Lobs/boundaryField/{patch}",
+      "path": "Lobs/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "mirrorMeshDict",
+      "keyword": "mirrorMeshDict",
+      "context": "",
+      "path": "mirrorMeshDict",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/ellipsekkLOmega/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "mirrorMeshDict/pointAndNormalDict",
+      "keyword": "pointAndNormalDict",
+      "context": "mirrorMeshDict",
+      "path": "mirrorMeshDict/pointAndNormalDict",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/ellipsekkLOmega/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "mirrorMeshDict/pointAndNormalDict/normal",
+      "keyword": "normal",
+      "context": "mirrorMeshDict/pointAndNormalDict",
+      "path": "mirrorMeshDict/pointAndNormalDict/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/ellipsekkLOmega/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "mirrorMeshDict/pointAndNormalDict/point",
+      "keyword": "point",
+      "context": "mirrorMeshDict/pointAndNormalDict",
+      "path": "mirrorMeshDict/pointAndNormalDict/point",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/ellipsekkLOmega/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "N2",
+      "keyword": "N2",
+      "context": "",
+      "path": "N2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "N2/boundaryField",
+      "keyword": "boundaryField",
+      "context": "N2",
+      "path": "N2/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "N2/boundaryField/{patch}",
+      "keyword": "cycLeft",
+      "context": "N2/boundaryField",
+      "path": "N2/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "N2/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "N2/boundaryField/{patch}",
+      "path": "N2/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "N2/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "N2/boundaryField/{patch}",
+      "path": "N2/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "nsv",
+      "keyword": "nsv",
+      "context": "",
+      "path": "nsv",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "nsv/boundaryField",
+      "keyword": "boundaryField",
+      "context": "nsv",
+      "path": "nsv/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "nsv/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "nsv/boundaryField",
+      "path": "nsv/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "nsv/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "nsv/boundaryField/{patch}",
+      "path": "nsv/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "nsv/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "nsv/boundaryField/{patch}",
+      "path": "nsv/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "nut",
+      "keyword": "nut",
+      "context": "",
+      "path": "nut",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "nut/boundaryField",
+      "keyword": "boundaryField",
+      "context": "nut",
+      "path": "nut/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "nut/boundaryField/{patch}",
+      "keyword": "cycLeft",
+      "context": "nut/boundaryField",
+      "path": "nut/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "nut/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "nut/boundaryField/{patch}",
+      "path": "nut/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "nut/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "nut/boundaryField/{patch}",
+      "path": "nut/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Nv",
+      "keyword": "Nv",
+      "context": "",
+      "path": "Nv",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Nv/boundaryField",
+      "keyword": "boundaryField",
+      "context": "Nv",
+      "path": "Nv/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Nv/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "Nv/boundaryField",
+      "path": "Nv/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Nv/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "Nv/boundaryField/{patch}",
+      "path": "Nv/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Nv/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "Nv/boundaryField/{patch}",
+      "path": "Nv/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "O2",
+      "keyword": "O2",
+      "context": "",
+      "path": "O2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "O2/boundaryField",
+      "keyword": "boundaryField",
+      "context": "O2",
+      "path": "O2/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "O2/boundaryField/{patch}",
+      "keyword": "cycLeft",
+      "context": "O2/boundaryField",
+      "path": "O2/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "O2/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "O2/boundaryField/{patch}",
+      "path": "O2/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "O2/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "O2/boundaryField/{patch}",
+      "path": "O2/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p",
+      "keyword": "p",
+      "context": "",
+      "path": "p",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh",
+      "keyword": "p_rgh",
+      "context": "",
+      "path": "p_rgh",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/damBreakPorousBaffle/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField",
+      "keyword": "boundaryField",
+      "context": "p_rgh",
+      "path": "p_rgh/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/damBreakPorousBaffle/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}",
+      "keyword": "porous_half0",
+      "context": "p_rgh/boundaryField",
+      "path": "p_rgh/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/damBreakPorousBaffle/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/D",
+      "keyword": "D",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/D",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/damBreakPorousBaffle/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/I",
+      "keyword": "I",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/I",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/damBreakPorousBaffle/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/jump",
+      "keyword": "jump",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/jump",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/damBreakPorousBaffle/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/length",
+      "keyword": "length",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/length",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/damBreakPorousBaffle/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/patchType",
+      "keyword": "patchType",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/patchType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/damBreakPorousBaffle/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "porousBafflePressure",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/damBreakPorousBaffle/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/damBreakPorousBaffle/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField",
+      "keyword": "boundaryField",
+      "context": "p",
+      "path": "p/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "p/boundaryField",
+      "path": "p/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "p/boundaryField/{patch}",
+      "path": "p/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 4
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "p/boundaryField/{patch}",
+      "path": "p/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Su",
+      "keyword": "Su",
+      "context": "",
+      "path": "Su",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Su/boundaryField",
+      "keyword": "boundaryField",
+      "context": "Su",
+      "path": "Su/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Su/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "Su/boundaryField",
+      "path": "Su/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Su/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "Su/boundaryField/{patch}",
+      "path": "Su/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T",
+      "keyword": "T",
+      "context": "",
+      "path": "T",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict",
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField",
+      "keyword": "boundaryField",
+      "context": "T",
+      "path": "T/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict",
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "T/boundaryField",
+      "path": "T/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict",
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/average",
+      "keyword": "average",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/average",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/field",
+      "keyword": "field",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/field",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Tsf",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/htcRefTemperature",
+      "keyword": "htcRefTemperature",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/htcRefTemperature",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "user",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/outputTemperature",
+      "keyword": "outputTemperature",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/outputTemperature",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fluid",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/setAverage",
+      "keyword": "setAverage",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/setAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/Tref",
+      "keyword": "Tref",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/Tref",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/Tref/expression",
+      "keyword": "expression",
+      "context": "T/boundaryField/{patch}/Tref",
+      "path": "T/boundaryField/{patch}/Tref/expression",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/Tref/type",
+      "keyword": "type",
+      "context": "T/boundaryField/{patch}/Tref",
+      "path": "T/boundaryField/{patch}/Tref/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "expression",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 4
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        },
+        {
+          "value": "externalCoupledTemperature",
+          "occurrences": 1
+        },
+        {
+          "value": "mapped",
+          "occurrences": 1
+        },
+        {
+          "value": "uniformFixedValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict",
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/uniformValue",
+      "keyword": "uniformValue",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/uniformValue",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/uniformValue/type",
+      "keyword": "type",
+      "context": "T/boundaryField/{patch}/uniformValue",
+      "path": "T/boundaryField/{patch}/uniformValue/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "table",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/uniformValue/values",
+      "keyword": "values",
+      "context": "T/boundaryField/{patch}/uniformValue",
+      "path": "T/boundaryField/{patch}/uniformValue/values",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/scalarTransportFoam/pitzDaily/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Tu",
+      "keyword": "Tu",
+      "context": "",
+      "path": "Tu",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Tu/boundaryField",
+      "keyword": "boundaryField",
+      "context": "Tu",
+      "path": "Tu/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Tu/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "Tu/boundaryField",
+      "path": "Tu/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Tu/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "Tu/boundaryField/{patch}",
+      "path": "Tu/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Tu/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "Tu/boundaryField/{patch}",
+      "path": "Tu/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U",
+      "keyword": "U",
+      "context": "",
+      "path": "U",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField",
+      "keyword": "boundaryField",
+      "context": "U",
+      "path": "U/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "U/boundaryField",
+      "path": "U/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/average",
+      "keyword": "average",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/average",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/cyclicPatch",
+      "keyword": "cyclicPatch",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/cyclicPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "baffleCyclic_half0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/field",
+      "keyword": "field",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/field",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Usf",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/forceBased",
+      "keyword": "forceBased",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/forceBased",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/maxOpenFractionDelta",
+      "keyword": "maxOpenFractionDelta",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/maxOpenFractionDelta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/minThresholdValue",
+      "keyword": "minThresholdValue",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/minThresholdValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/openFraction",
+      "keyword": "openFraction",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/openFraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/openingTime",
+      "keyword": "openingTime",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/openingTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/orientation",
+      "keyword": "orientation",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/orientation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/setAverage",
+      "keyword": "setAverage",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/setAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 4
+        },
+        {
+          "value": "activePressureForceBaffleVelocity",
+          "occurrences": 1
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 1
+        },
+        {
+          "value": "mapped",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/filter/system/changeDictionaryDict",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Xi",
+      "keyword": "Xi",
+      "context": "",
+      "path": "Xi",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Xi/boundaryField",
+      "keyword": "boundaryField",
+      "context": "Xi",
+      "path": "Xi/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Xi/boundaryField/{patch}",
+      "keyword": "blockedFaces",
+      "context": "Xi/boundaryField",
+      "path": "Xi/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Xi/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "Xi/boundaryField/{patch}",
+      "path": "Xi/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "Xi/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "Xi/boundaryField/{patch}",
+      "path": "Xi/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/changeDictionaryDict"
+      ]
+    }
+  ]
+}

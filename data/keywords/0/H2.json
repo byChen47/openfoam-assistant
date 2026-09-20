@@ -1,0 +1,291 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "H2",
+  "sourceFileCount": 4,
+  "occurrences": 94,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/H2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inletair",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 25,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/H2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 25,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 10
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 6
+        },
+        {
+          "value": "wedge",
+          "occurrences": 4
+        },
+        {
+          "value": "empty",
+          "occurrences": 2
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 2
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/H2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 0.046496",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1.29e-4",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/H2"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/H2"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/H2"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/H2"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "H2",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/H2"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/H2"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 0.0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/H2",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/H2",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/H2",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/H2"
+      ]
+    }
+  ]
+}

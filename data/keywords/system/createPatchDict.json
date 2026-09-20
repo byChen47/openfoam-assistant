@@ -1,0 +1,442 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "createPatchDict",
+  "sourceFileCount": 43,
+  "occurrences": 316,
+  "entries": [
+    {
+      "key": "__settings",
+      "keyword": "__settings",
+      "context": "",
+      "path": "__settings",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "__settings/constructFrom",
+      "keyword": "constructFrom",
+      "context": "__settings",
+      "path": "__settings/constructFrom",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "set",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "__settings/patchInfo",
+      "keyword": "patchInfo",
+      "context": "__settings",
+      "path": "__settings/patchInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "__settings/patchInfo/type",
+      "keyword": "type",
+      "context": "__settings/patchInfo",
+      "path": "__settings/patchInfo/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "_fromSet",
+      "keyword": "_fromSet",
+      "context": "",
+      "path": "_fromSet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "_fromSet/constructFrom",
+      "keyword": "constructFrom",
+      "context": "_fromSet",
+      "path": "_fromSet/constructFrom",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "set",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "_fromSet/patchInfo",
+      "keyword": "patchInfo",
+      "context": "_fromSet",
+      "path": "_fromSet/patchInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "_fromSet/patchInfo/type",
+      "keyword": "type",
+      "context": "_fromSet/patchInfo",
+      "path": "_fromSet/patchInfo/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 43,
+      "fileCount": 43,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict",
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/createPatchDict",
+        "combustion/fireFoam/LES/compartmentFire/system/createPatchDict",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/createPatchDict",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 43,
+      "fileCount": 43,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 43
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict",
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/createPatchDict",
+        "combustion/fireFoam/LES/compartmentFire/system/createPatchDict",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/createPatchDict",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 43,
+      "fileCount": 43,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 43
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict",
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/createPatchDict",
+        "combustion/fireFoam/LES/compartmentFire/system/createPatchDict",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/createPatchDict",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 43,
+      "fileCount": 43,
+      "values": [
+        {
+          "value": "createPatchDict",
+          "occurrences": 43
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict",
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/createPatchDict",
+        "combustion/fireFoam/LES/compartmentFire/system/createPatchDict",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/createPatchDict",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 43,
+      "fileCount": 43,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict",
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/createPatchDict",
+        "combustion/fireFoam/LES/compartmentFire/system/createPatchDict",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/createPatchDict",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "",
+      "path": "matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "outerSet",
+      "keyword": "outerSet",
+      "context": "",
+      "path": "outerSet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/stitchMesh/simple-cube1/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "outerSet/constructFrom",
+      "keyword": "constructFrom",
+      "context": "outerSet",
+      "path": "outerSet/constructFrom",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "set",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/stitchMesh/simple-cube1/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "outerSet/patchInfo",
+      "keyword": "patchInfo",
+      "context": "outerSet",
+      "path": "outerSet/patchInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/stitchMesh/simple-cube1/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "outerSet/patchInfo/inGroups",
+      "keyword": "inGroups",
+      "context": "outerSet/patchInfo",
+      "path": "outerSet/patchInfo/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/stitchMesh/simple-cube1/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "outerSet/patchInfo/type",
+      "keyword": "type",
+      "context": "outerSet/patchInfo",
+      "path": "outerSet/patchInfo/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/stitchMesh/simple-cube1/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "patches",
+      "keyword": "patches",
+      "context": "",
+      "path": "patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 42,
+      "fileCount": 42,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict",
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/createPatchDict",
+        "combustion/fireFoam/LES/compartmentFire/system/createPatchDict",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/createPatchDict",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "patchInfo",
+      "keyword": "patchInfo",
+      "context": "",
+      "path": "patchInfo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/cylinder/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "pointSync",
+      "keyword": "pointSync",
+      "context": "",
+      "path": "pointSync",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 43,
+      "fileCount": 43,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 42
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/createPatchDict",
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/createPatchDict",
+        "combustion/fireFoam/LES/compartmentFire/system/createPatchDict",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/createPatchDict",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/createPatchDict"
+      ]
+    },
+    {
+      "key": "writeCyclicMatch",
+      "keyword": "writeCyclicMatch",
+      "context": "",
+      "path": "writeCyclicMatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/createPatchDict"
+      ]
+    }
+  ]
+}

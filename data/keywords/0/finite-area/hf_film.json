@@ -1,0 +1,351 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "finite-area/hf_film",
+  "sourceFileCount": 7,
+  "occurrences": 109,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 21,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phi",
+      "keyword": "phi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "phi2s_film",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 13
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 5
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "uniform 0.000141",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.001",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.002",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-3",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-4",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/0/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "areaScalarField",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"0\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "hf_film",
+          "occurrences": 6
+        },
+        {
+          "value": "h_film",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/finite-area/hf_film"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "uniform 0.0001",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 1e-5",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.00013",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-8",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/finite-area/hf_film",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/finite-area/hf_film",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/finite-area/hf_film"
+      ]
+    }
+  ]
+}

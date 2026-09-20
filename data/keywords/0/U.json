@@ -1,0 +1,3469 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "U",
+  "sourceFileCount": 444,
+  "occurrences": 8781,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "combustion/coldEngineFoam/freePiston/0/U",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/U",
+        "compressible/rhoPimpleFoam/RAS/annularThermalMixer/0.orig/U",
+        "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/U"
+      ]
+    },
+    {
+      "key": "#remove",
+      "keyword": "#remove",
+      "context": "",
+      "path": "#remove",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/0/U",
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "4.507730000e+00",
+      "keyword": "4.507730000e+00",
+      "context": "",
+      "path": "4.507730000e+00",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 35,
+      "fileCount": 35,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/constant/boundaryData/p10/0/U",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/constant/boundaryData/p11/0/U",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/constant/boundaryData/p12/0/U",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/constant/boundaryData/p13/0/U",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/constant/boundaryData/p14/0/U"
+      ]
+    },
+    {
+      "key": "4.52435",
+      "keyword": "4.52435",
+      "context": "",
+      "path": "4.52435",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/constant/boundaryData/p1/0/U"
+      ]
+    },
+    {
+      "key": "AoA",
+      "keyword": "AoA",
+      "context": "",
+      "path": "AoA",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 407,
+      "fileCount": 407,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "#include",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 1996,
+      "fileCount": 407,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/#include",
+      "keyword": "#include",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/turbineSiting/0.orig/U",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/active",
+      "keyword": "active",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/alpha",
+      "keyword": "alpha",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "alpha.water",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/damBreakPermeable/0.orig/U",
+        "multiphase/interFoam/RAS/DTCHull/0.orig/U",
+        "multiphase/interFoam/RAS/DTCHullMoving/0.orig/U",
+        "multiphase/interFoam/RAS/weirOverflow/0.orig/U",
+        "multiphase/interIsoFoam/weirOverflow/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/alphaMin",
+      "keyword": "alphaMin",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/alphaMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/damBreakPermeable/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/average",
+      "keyword": "average",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/average",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/LES/pitzDailyMapped/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/axialVelocity",
+      "keyword": "axialVelocity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/axialVelocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/axis",
+      "keyword": "axis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/axis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/U",
+        "lagrangian/kinematicParcelFoam/spinningDisk/0/U",
+        "mesh/foamyHexMesh/mixerVessel/0.orig/U",
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/U",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/BrunDrippingInjectionCoeffs",
+      "keyword": "BrunDrippingInjectionCoeffs",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/BrunDrippingInjectionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/BrunDrippingInjectionCoeffs/deltaStable",
+      "keyword": "deltaStable",
+      "context": "boundaryField/{patch}/BrunDrippingInjectionCoeffs",
+      "path": "boundaryField/{patch}/BrunDrippingInjectionCoeffs/deltaStable",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/code",
+      "keyword": "code",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/code",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pipeCyclic/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/componentColumns",
+      "keyword": "componentColumns",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/componentColumns",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/d",
+      "keyword": "d",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/d",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFSEM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/delta",
+      "keyword": "delta",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFSEM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/deltaWet",
+      "keyword": "deltaWet",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/deltaWet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/dynamicContactAngleCoeffs",
+      "keyword": "dynamicContactAngleCoeffs",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/dynamicContactAngleCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/dynamicContactAngleCoeffs/Ccf",
+      "keyword": "Ccf",
+      "context": "boundaryField/{patch}/dynamicContactAngleCoeffs",
+      "path": "boundaryField/{patch}/dynamicContactAngleCoeffs/Ccf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution",
+      "keyword": "distribution",
+      "context": "boundaryField/{patch}/dynamicContactAngleCoeffs",
+      "path": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution",
+      "keyword": "normalDistribution",
+      "context": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution",
+      "path": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution/maxValue",
+      "keyword": "maxValue",
+      "context": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution",
+      "path": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution/maxValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution/minValue",
+      "keyword": "minValue",
+      "context": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution",
+      "path": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution/minValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution/mu",
+      "keyword": "mu",
+      "context": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution",
+      "path": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution/mu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution/sigma",
+      "keyword": "sigma",
+      "context": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution",
+      "path": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/normalDistribution/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution",
+      "path": "boundaryField/{patch}/dynamicContactAngleCoeffs/distribution/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "normal",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/dynamicContactAngleCoeffs/Ttheta",
+      "keyword": "Ttheta",
+      "context": "boundaryField/{patch}/dynamicContactAngleCoeffs",
+      "path": "boundaryField/{patch}/dynamicContactAngleCoeffs/Ttheta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "constant 0",
+          "occurrences": 2
+        },
+        {
+          "value": "constant 45",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/file",
+      "keyword": "file",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"<constant>/inlet.csv\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/filmSeparationCoeffs",
+      "keyword": "filmSeparationCoeffs",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/filmSeparationCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/filmSeparationCoeffs/definedPatchRadii",
+      "keyword": "definedPatchRadii",
+      "context": "boundaryField/{patch}/filmSeparationCoeffs",
+      "path": "boundaryField/{patch}/filmSeparationCoeffs/definedPatchRadii",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/filmSeparationCoeffs/deltaByR1Min",
+      "keyword": "deltaByR1Min",
+      "context": "boundaryField/{patch}/filmSeparationCoeffs",
+      "path": "boundaryField/{patch}/filmSeparationCoeffs/deltaByR1Min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/filmSeparationCoeffs/minInvR1",
+      "keyword": "minInvR1",
+      "context": "boundaryField/{patch}/filmSeparationCoeffs",
+      "path": "boundaryField/{patch}/filmSeparationCoeffs/minInvR1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/filmSeparationCoeffs/model",
+      "keyword": "model",
+      "context": "boundaryField/{patch}/filmSeparationCoeffs",
+      "path": "boundaryField/{patch}/filmSeparationCoeffs/model",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "OwenRyley",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/fixTangentialInflow",
+      "keyword": "fixTangentialInflow",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/fixTangentialInflow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/flowRate",
+      "keyword": "flowRate",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/flowRate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/weirOverflow/0.orig/U",
+        "multiphase/interIsoFoam/weirOverflow/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/fluctuationScale",
+      "keyword": "fluctuationScale",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/fluctuationScale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/U",
+        "incompressible/pisoFoam/LES/pitzDaily/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/forces",
+      "keyword": "forces",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/forces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC",
+      "keyword": "freestreamBC",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/freestreamBC",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC/mapMethod",
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/freestreamBC",
+      "path": "boundaryField/{patch}/freestreamBC/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "nearest",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC/offset",
+      "keyword": "offset",
+      "context": "boundaryField/{patch}/freestreamBC",
+      "path": "boundaryField/{patch}/freestreamBC/offset",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC/setAverage",
+      "keyword": "setAverage",
+      "context": "boundaryField/{patch}/freestreamBC",
+      "path": "boundaryField/{patch}/freestreamBC/setAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/freestreamBC",
+      "path": "boundaryField/{patch}/freestreamBC/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "timeVaryingMappedFixedValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}/freestreamBC",
+      "path": "boundaryField/{patch}/freestreamBC/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamValue",
+      "keyword": "freestreamValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/freestreamValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/U",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/U",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/U",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/U",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/fsm",
+      "keyword": "fsm",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/fsm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/FSM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/FSM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/gamma",
+      "keyword": "gamma",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/gamma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/U",
+        "compressible/sonicFoam/RAS/prism/0/U",
+        "mesh/foamyQuadMesh/OpenCFD/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/holeCellValue",
+      "keyword": "holeCellValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/holeCellValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/overPimpleDyMFoam/rotatingSquare/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/infoOutput",
+      "keyword": "infoOutput",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/infoOutput",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 3
+        },
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/injectionModels",
+      "keyword": "injectionModels",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/injectionModels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 80,
+      "fileCount": 72,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/simpleFoam/implicitAMI/0/U",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/U",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/U",
+        "combustion/PDRFoam/pipeLattice/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/interpolationScheme",
+      "keyword": "interpolationScheme",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/interpolationScheme",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/LES/pitzDailyMapped/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/L",
+      "keyword": "L",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/L",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/FSM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/L/mapMethod",
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/L",
+      "path": "boundaryField/{patch}/L/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "nearest",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFSEM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/L/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/L",
+      "path": "boundaryField/{patch}/L/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "mappedFile",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFSEM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/laminarCoeffs",
+      "keyword": "laminarCoeffs",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/laminarCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/laminarCoeffs/Cf",
+      "keyword": "Cf",
+      "context": "boundaryField/{patch}/laminarCoeffs",
+      "path": "boundaryField/{patch}/laminarCoeffs/Cf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/laminarCoeffs/friction",
+      "keyword": "friction",
+      "context": "boundaryField/{patch}/laminarCoeffs",
+      "path": "boundaryField/{patch}/laminarCoeffs/friction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "ManningStrickler",
+          "occurrences": 5
+        },
+        {
+          "value": "quadraticProfile",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/laminarCoeffs/n",
+      "keyword": "n",
+      "context": "boundaryField/{patch}/laminarCoeffs",
+      "path": "boundaryField/{patch}/laminarCoeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/laminarCoeffs/shearStress",
+      "keyword": "shearStress",
+      "context": "boundaryField/{patch}/laminarCoeffs",
+      "path": "boundaryField/{patch}/laminarCoeffs/shearStress",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "simple",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/liquidFilmModel",
+      "keyword": "liquidFilmModel",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/liquidFilmModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "kinematicThinFilm",
+          "occurrences": 6
+        },
+        {
+          "value": "kinematicThinFilmIBM",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/massFlowRate",
+      "keyword": "massFlowRate",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/massFlowRate",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "occurrences": 23,
+      "fileCount": 19,
+      "values": [
+        {
+          "value": "constant 0.1",
+          "occurrences": 5
+        },
+        {
+          "value": "constant 0.00379",
+          "occurrences": 3
+        },
+        {
+          "value": "constant 0.00832",
+          "occurrences": 3
+        },
+        {
+          "value": "constant 0.01",
+          "occurrences": 2
+        },
+        {
+          "value": "constant 5",
+          "occurrences": 2
+        },
+        {
+          "value": "constant 0.001294",
+          "occurrences": 1
+        },
+        {
+          "value": "constant 0.005",
+          "occurrences": 1
+        },
+        {
+          "value": "constant 0.095",
+          "occurrences": 1
+        },
+        {
+          "value": "constant 0.5",
+          "occurrences": 1
+        },
+        {
+          "value": "csvFile",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/U",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/U",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/U",
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/U",
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/massFlowRate/code",
+      "keyword": "code",
+      "context": "boundaryField/{patch}/massFlowRate",
+      "path": "boundaryField/{patch}/massFlowRate/code",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/squareBendLiq/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/massFlowRate/file",
+      "keyword": "file",
+      "context": "boundaryField/{patch}/massFlowRate",
+      "path": "boundaryField/{patch}/massFlowRate/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"<constant>/massLossRate\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/massFlowRate/name",
+      "keyword": "name",
+      "context": "boundaryField/{patch}/massFlowRate",
+      "path": "boundaryField/{patch}/massFlowRate/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "liquidIn",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoSimpleFoam/squareBendLiq/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/massFlowRate/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/massFlowRate",
+      "path": "boundaryField/{patch}/massFlowRate/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "coded",
+          "occurrences": 1
+        },
+        {
+          "value": "table",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/U",
+        "compressible/rhoSimpleFoam/squareBendLiq/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/mean",
+      "keyword": "mean",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/mean",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/FSM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/FSM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/mean/fieldTable",
+      "keyword": "fieldTable",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/fieldTable",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "U",
+          "occurrences": 2
+        },
+        {
+          "value": "UMean",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/FSM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/FSM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/mean/mapMethod",
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "nearest",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/FSM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/FSM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/mean/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "mappedFile",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/FSM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/FSM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/mergeSeparators",
+      "keyword": "mergeSeparators",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/mergeSeparators",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/n",
+      "keyword": "n",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/FSM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/FSM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/name",
+      "keyword": "name",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "swirl",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pipeCyclic/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/nbrPhi",
+      "keyword": "nbrPhi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/nbrPhi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "phiGas",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/U",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/nCellPerEddy",
+      "keyword": "nCellPerEddy",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/nCellPerEddy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFSEM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/nHeaderLine",
+      "keyword": "nHeaderLine",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/nHeaderLine",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity",
+      "keyword": "normalVelocity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/normalVelocity",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/normalVelocity",
+      "path": "boundaryField/{patch}/normalVelocity/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniformFixedValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue",
+      "keyword": "uniformValue",
+      "context": "boundaryField/{patch}/normalVelocity",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue/scale",
+      "keyword": "scale",
+      "context": "boundaryField/{patch}/normalVelocity/uniformValue",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue/scale",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue/scale/duration",
+      "keyword": "duration",
+      "context": "boundaryField/{patch}/normalVelocity/uniformValue/scale",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue/scale/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue/scale/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/normalVelocity/uniformValue/scale",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue/scale/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "linearRamp",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/normalVelocity/uniformValue",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "scale",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}/normalVelocity/uniformValue",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue/value",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue/value/amplitude",
+      "keyword": "amplitude",
+      "context": "boundaryField/{patch}/normalVelocity/uniformValue/value",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue/value/amplitude",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue/value/frequency",
+      "keyword": "frequency",
+      "context": "boundaryField/{patch}/normalVelocity/uniformValue/value",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue/value/frequency",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue/value/level",
+      "keyword": "level",
+      "context": "boundaryField/{patch}/normalVelocity/uniformValue/value",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue/value/level",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue/value/scale",
+      "keyword": "scale",
+      "context": "boundaryField/{patch}/normalVelocity/uniformValue/value",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue/value/scale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/normalVelocity/uniformValue/value/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/normalVelocity/uniformValue/value",
+      "path": "boundaryField/{patch}/normalVelocity/uniformValue/value/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "sine",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/potentialFreeSurfaceFoam/oscillatingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/offset",
+      "keyword": "offset",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/offset",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/U",
+        "incompressible/simpleFoam/pitzDailyExptInlet/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/omega",
+      "keyword": "omega",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/omega",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/0/U",
+        "mesh/foamyHexMesh/mixerVessel/0.orig/U",
+        "multiphase/interFoam/RAS/mixerVesselAMI/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/origin",
+      "keyword": "origin",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/U",
+        "lagrangian/kinematicParcelFoam/spinningDisk/0/U",
+        "mesh/foamyHexMesh/mixerVessel/0.orig/U",
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/U",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/patchType",
+      "keyword": "patchType",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/patchType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "overset",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/overPimpleDyMFoam/rotatingSquare/0.orig/U",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/background/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phi",
+      "keyword": "phi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "phi",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/pInf",
+      "keyword": "pInf",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/pInf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/U",
+        "compressible/sonicFoam/RAS/prism/0/U",
+        "mesh/foamyQuadMesh/OpenCFD/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/pRef",
+      "keyword": "pRef",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/pRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/R",
+      "keyword": "R",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/R",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/FSM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/R/fieldTable",
+      "keyword": "fieldTable",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/fieldTable",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "UR",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/FSM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/R/mapMethod",
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "nearest",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/FSM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/R/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "mappedFile",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/FSM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/radialVelocity",
+      "keyword": "radialVelocity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/radialVelocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/refColumn",
+      "keyword": "refColumn",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/refColumn",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/referenceField",
+      "keyword": "referenceField",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/referenceField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/U",
+        "incompressible/pisoFoam/LES/pitzDaily/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/refValue",
+      "keyword": "refValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/refValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 12,
+      "values": [
+        {
+          "value": "uniform -10",
+          "occurrences": 12
+        },
+        {
+          "value": "uniform -1",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform -2",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform -4",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses/0.orig/U",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses/reEval/0.orig/U",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses-mass/0.orig/U",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses-mass/reEval/0.orig/U",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses-mass-uniformity/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/region",
+      "keyword": "region",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "film",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/rhoInlet",
+      "keyword": "rhoInlet",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rhoInlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/0.orig/U",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/0.orig/U",
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/0.orig/U",
+        "compressible/rhoSimpleFoam/squareBend/0.orig/U",
+        "compressible/rhoSimpleFoam/squareBendLiq/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/rpm",
+      "keyword": "rpm",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rpm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/scale",
+      "keyword": "scale",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/scale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFSEM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/separator",
+      "keyword": "separator",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separator",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\",\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/setAverage",
+      "keyword": "setAverage",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/setAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 2
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/U",
+        "incompressible/pisoFoam/LES/pitzDailyMapped/0/U",
+        "incompressible/simpleFoam/pitzDailyExptInlet/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/setHoleCellValue",
+      "keyword": "setHoleCellValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/setHoleCellValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/overPimpleDyMFoam/rotatingSquare/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/T0",
+      "keyword": "T0",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/T0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/tangentialVelocity",
+      "keyword": "tangentialVelocity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/tangentialVelocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/tau",
+      "keyword": "tau",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/tau",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/thermo",
+      "keyword": "thermo",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/thermo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/thermo/H2O",
+      "keyword": "H2O",
+      "context": "boundaryField/{patch}/thermo",
+      "path": "boundaryField/{patch}/thermo/H2O",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/TInf",
+      "keyword": "TInf",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/TInf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/U",
+        "compressible/sonicFoam/RAS/prism/0/U",
+        "mesh/foamyQuadMesh/OpenCFD/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/turbulence",
+      "keyword": "turbulence",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "laminar",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/0/U",
+        "lagrangian/kinematicParcelFoam/windshield/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1904,
+      "fileCount": 407,
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 589
+        },
+        {
+          "value": "noSlip",
+          "occurrences": 270
+        },
+        {
+          "value": "empty",
+          "occurrences": 236
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 190
+        },
+        {
+          "value": "pressureInletOutletVelocity",
+          "occurrences": 122
+        },
+        {
+          "value": "movingWallVelocity",
+          "occurrences": 64
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 62
+        },
+        {
+          "value": "slip",
+          "occurrences": 50
+        },
+        {
+          "value": "uniformFixedValue",
+          "occurrences": 38
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 33
+        },
+        {
+          "value": "cyclic",
+          "occurrences": 29
+        },
+        {
+          "value": "flowRateInletVelocity",
+          "occurrences": 27
+        },
+        {
+          "value": "waveVelocity",
+          "occurrences": 27
+        },
+        {
+          "value": "cyclicAMI",
+          "occurrences": 19
+        },
+        {
+          "value": "symmetry",
+          "occurrences": 17
+        },
+        {
+          "value": "wedge",
+          "occurrences": 17
+        },
+        {
+          "value": "surfaceNormalFixedValue",
+          "occurrences": 15
+        },
+        {
+          "value": "overset",
+          "occurrences": 13
+        },
+        {
+          "value": "freestream",
+          "occurrences": 11
+        },
+        {
+          "value": "calculated",
+          "occurrences": 8
+        },
+        {
+          "value": "velocityFilmShell",
+          "occurrences": 7
+        },
+        {
+          "value": "advective",
+          "occurrences": 6
+        },
+        {
+          "value": "rotatingWallVelocity",
+          "occurrences": 5
+        },
+        {
+          "value": "supersonicFreestream",
+          "occurrences": 5
+        },
+        {
+          "value": "freestreamVelocity",
+          "occurrences": 4
+        },
+        {
+          "value": "turbulentDigitalFilterInlet",
+          "occurrences": 4
+        },
+        {
+          "value": "fluxCorrectedVelocity",
+          "occurrences": 3
+        },
+        {
+          "value": "freeSurfaceVelocity",
+          "occurrences": 3
+        },
+        {
+          "value": "turbulentDFSEMInlet",
+          "occurrences": 3
+        },
+        {
+          "value": "atmBoundaryLayerInletVelocity",
+          "occurrences": 2
+        },
+        {
+          "value": "mappedFlowRate",
+          "occurrences": 2
+        },
+        {
+          "value": "outletPhaseMeanVelocity",
+          "occurrences": 2
+        },
+        {
+          "value": "pressureInletOutletParSlipVelocity",
+          "occurrences": 2
+        },
+        {
+          "value": "semiPermeableBaffleVelocity",
+          "occurrences": 2
+        },
+        {
+          "value": "timeVaryingMappedFixedValue",
+          "occurrences": 2
+        },
+        {
+          "value": "turbulentInlet",
+          "occurrences": 2
+        },
+        {
+          "value": "variableHeightFlowRateInletVelocity",
+          "occurrences": 2
+        },
+        {
+          "value": "codedFixedValue",
+          "occurrences": 1
+        },
+        {
+          "value": "cylindricalInletVelocity",
+          "occurrences": 1
+        },
+        {
+          "value": "fixedNormalInletOutletVelocity",
+          "occurrences": 1
+        },
+        {
+          "value": "fixedShearStress",
+          "occurrences": 1
+        },
+        {
+          "value": "flowRateOutletVelocity",
+          "occurrences": 1
+        },
+        {
+          "value": "mapped",
+          "occurrences": 1
+        },
+        {
+          "value": "permeableAlphaPressureInletOutletVelocity",
+          "occurrences": 1
+        },
+        {
+          "value": "pressureInletVelocity",
+          "occurrences": 1
+        },
+        {
+          "value": "processor",
+          "occurrences": 1
+        },
+        {
+          "value": "translatingWallVelocity",
+          "occurrences": 1
+        },
+        {
+          "value": "uniformMixed",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/U",
+      "keyword": "U",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/U",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [
+        {
+          "value": "U",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "lagrangian/kinematicParcelFoam/drippingChair/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/U/mapMethod",
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/U",
+      "path": "boundaryField/{patch}/U/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "nearest",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFSEM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/U/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/U",
+      "path": "boundaryField/{patch}/U/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "mappedFile",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/DFSEM/0.orig/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/DFSEM/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/UInf",
+      "keyword": "UInf",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/UInf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/U",
+        "compressible/sonicFoam/RAS/prism/0/U",
+        "mesh/foamyQuadMesh/OpenCFD/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/Umean",
+      "keyword": "Umean",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Umean",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHull/0.orig/U",
+        "multiphase/interFoam/RAS/DTCHullMoving/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformGradient",
+      "keyword": "uniformGradient",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/uniformGradient",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "zero",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue",
+      "keyword": "uniformValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/uniformValue",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "occurrences": 39,
+      "fileCount": 21,
+      "values": [
+        {
+          "value": "zero",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/simpleFoam/implicitAMI/0/U",
+        "compressible/overRhoPimpleDyMFoam/twoSimpleRotors/0.orig/U",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/U",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/code",
+      "keyword": "code",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/code",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/directionFunction",
+      "keyword": "directionFunction",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/directionFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/name",
+      "keyword": "name",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "examplePatchFunction1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/timeFunction",
+      "keyword": "timeFunction",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/timeFunction",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/timeFunction/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/uniformValue/timeFunction",
+      "path": "boundaryField/{patch}/uniformValue/timeFunction/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "table",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/timeFunction/values",
+      "keyword": "values",
+      "context": "boundaryField/{patch}/uniformValue/timeFunction",
+      "path": "boundaryField/{patch}/uniformValue/timeFunction/values",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "coded",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValueFraction",
+      "keyword": "uniformValueFraction",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/uniformValueFraction",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValueFraction/expression",
+      "keyword": "expression",
+      "context": "boundaryField/{patch}/uniformValueFraction",
+      "path": "boundaryField/{patch}/uniformValueFraction/expression",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValueFraction/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/uniformValueFraction",
+      "path": "boundaryField/{patch}/uniformValueFraction/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "expression",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 982,
+      "fileCount": 350,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U",
+        "basic/scalarTransportFoam/pitzDaily/0/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/volumetricFlowRate",
+      "keyword": "volumetricFlowRate",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/volumetricFlowRate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "constant 0.1",
+          "occurrences": 4
+        },
+        {
+          "value": "constant 50",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/angledDuct/common/0.orig/U",
+        "incompressible/porousSimpleFoam/straightDuctImplicit/0.orig/U",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/U",
+        "multiphase/interIsoFoam/iobasin/0.orig/U"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/zeroWallVelocity",
+      "keyword": "zeroWallVelocity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/zeroWallVelocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/0/U"
+      ]
+    },
+    {
+      "key": "CON",
+      "keyword": "CON",
+      "context": "",
+      "path": "CON",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 407,
+      "fileCount": 407,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U"
+      ]
+    },
+    {
+      "key": "flowVelocity",
+      "keyword": "flowVelocity",
+      "context": "",
+      "path": "flowVelocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/U"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 408,
+      "fileCount": 408,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 408,
+      "fileCount": 408,
+      "values": [
+        {
+          "value": "volVectorField",
+          "occurrences": 408
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 408,
+      "fileCount": 408,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 408
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "\"0\"",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/0/U",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/U",
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/0.orig/U",
+        "lagrangian/reactingParcelFoam/movingInjectorBox/0/U",
+        "lagrangian/reactingParcelFoam/parcelInBox/0.orig/U"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 408,
+      "fileCount": 408,
+      "values": [
+        {
+          "value": "U",
+          "occurrences": 406
+        },
+        {
+          "value": "U.air",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 408,
+      "fileCount": 408,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U"
+      ]
+    },
+    {
+      "key": "intakeType1",
+      "keyword": "intakeType1",
+      "context": "",
+      "path": "intakeType1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "intakeType1/ramp",
+      "keyword": "ramp",
+      "context": "intakeType1",
+      "path": "intakeType1/ramp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "intakeType1/refValue",
+      "keyword": "refValue",
+      "context": "intakeType1",
+      "path": "intakeType1/refValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 1.2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "intakeType1/type",
+      "keyword": "type",
+      "context": "intakeType1",
+      "path": "intakeType1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "surfaceNormalFixedValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "intakeType2",
+      "keyword": "intakeType2",
+      "context": "",
+      "path": "intakeType2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "intakeType2/type",
+      "keyword": "type",
+      "context": "intakeType2",
+      "path": "intakeType2/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniformNormalFixedValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "intakeType2/uniformValue",
+      "keyword": "uniformValue",
+      "context": "intakeType2",
+      "path": "intakeType2/uniformValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "intakeType3",
+      "keyword": "intakeType3",
+      "context": "",
+      "path": "intakeType3",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "intakeType3/ramp",
+      "keyword": "ramp",
+      "context": "intakeType3",
+      "path": "intakeType3/ramp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "intakeType3/type",
+      "keyword": "type",
+      "context": "intakeType3",
+      "path": "intakeType3/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniformNormalFixedValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "intakeType3/uniformValue",
+      "keyword": "uniformValue",
+      "context": "intakeType3",
+      "path": "intakeType3/uniformValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant 1.2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/0.orig/U"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 407,
+      "fileCount": 407,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/U",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/U",
+        "basic/potentialFoam/cylinder/0.orig/U",
+        "basic/potentialFoam/pitzDaily/0.orig/U",
+        "basic/scalarTransportFoam/movingSource/0/U"
+      ]
+    },
+    {
+      "key": "magUInf",
+      "keyword": "magUInf",
+      "context": "",
+      "path": "magUInf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/0.orig/U"
+      ]
+    },
+    {
+      "key": "mUmean",
+      "keyword": "mUmean",
+      "context": "",
+      "path": "mUmean",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHull/0.orig/U",
+        "multiphase/interFoam/RAS/DTCHullMoving/0.orig/U"
+      ]
+    },
+    {
+      "key": "pressure",
+      "keyword": "pressure",
+      "context": "",
+      "path": "pressure",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/U"
+      ]
+    },
+    {
+      "key": "turbulentKE",
+      "keyword": "turbulentKE",
+      "context": "",
+      "path": "turbulentKE",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/U"
+      ]
+    },
+    {
+      "key": "turbulentOmega",
+      "keyword": "turbulentOmega",
+      "context": "",
+      "path": "turbulentOmega",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/U"
+      ]
+    },
+    {
+      "key": "Uinlet",
+      "keyword": "Uinlet",
+      "context": "",
+      "path": "Uinlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/U",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/U",
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/0/U",
+        "incompressible/pimpleFoam/laminar/planarContraction/0/U"
+      ]
+    },
+    {
+      "key": "Umean",
+      "keyword": "Umean",
+      "context": "",
+      "path": "Umean",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHull/0.orig/U",
+        "multiphase/interFoam/RAS/DTCHullMoving/0.orig/U"
+      ]
+    },
+    {
+      "key": "Ux",
+      "keyword": "Ux",
+      "context": "",
+      "path": "Ux",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U"
+      ]
+    },
+    {
+      "key": "Uy",
+      "keyword": "Uy",
+      "context": "",
+      "path": "Uy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U"
+      ]
+    },
+    {
+      "key": "Uz",
+      "keyword": "Uz",
+      "context": "",
+      "path": "Uz",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/0.orig/U"
+      ]
+    }
+  ]
+}

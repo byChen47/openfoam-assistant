@@ -1,0 +1,2238 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "constant",
+  "fileKey": "radiationProperties",
+  "sourceFileCount": 35,
+  "occurrences": 625,
+  "entries": [
+    {
+      "key": "absorptionEmissionModel",
+      "keyword": "absorptionEmissionModel",
+      "context": "",
+      "path": "absorptionEmissionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [
+        {
+          "value": "constantAbsorptionEmission",
+          "occurrences": 7
+        },
+        {
+          "value": "greyMeanAbsorptionEmission",
+          "occurrences": 4
+        },
+        {
+          "value": "binaryAbsorptionEmission",
+          "occurrences": 1
+        },
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs",
+      "keyword": "binaryAbsorptionEmissionCoeffs",
+      "context": "",
+      "path": "binaryAbsorptionEmissionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs/model1",
+      "keyword": "model1",
+      "context": "binaryAbsorptionEmissionCoeffs",
+      "path": "binaryAbsorptionEmissionCoeffs/model1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs/model1/absorptionEmissionModel",
+      "keyword": "absorptionEmissionModel",
+      "context": "binaryAbsorptionEmissionCoeffs/model1",
+      "path": "binaryAbsorptionEmissionCoeffs/model1/absorptionEmissionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constantAbsorptionEmission",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs",
+      "keyword": "constantAbsorptionEmissionCoeffs",
+      "context": "binaryAbsorptionEmissionCoeffs/model1",
+      "path": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs/absorptivity",
+      "keyword": "absorptivity",
+      "context": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs",
+      "path": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs/E",
+      "keyword": "E",
+      "context": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs",
+      "path": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs/E",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs/emissivity",
+      "keyword": "emissivity",
+      "context": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs",
+      "path": "binaryAbsorptionEmissionCoeffs/model1/constantAbsorptionEmissionCoeffs/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs/model2",
+      "keyword": "model2",
+      "context": "binaryAbsorptionEmissionCoeffs",
+      "path": "binaryAbsorptionEmissionCoeffs/model2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs/model2/absorptionEmissionModel",
+      "keyword": "absorptionEmissionModel",
+      "context": "binaryAbsorptionEmissionCoeffs/model2",
+      "path": "binaryAbsorptionEmissionCoeffs/model2/absorptionEmissionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cloudAbsorptionEmission",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs/model2/cloudAbsorptionEmissionCoeffs",
+      "keyword": "cloudAbsorptionEmissionCoeffs",
+      "context": "binaryAbsorptionEmissionCoeffs/model2",
+      "path": "binaryAbsorptionEmissionCoeffs/model2/cloudAbsorptionEmissionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "binaryAbsorptionEmissionCoeffs/model2/cloudAbsorptionEmissionCoeffs/cloudNames",
+      "keyword": "cloudNames",
+      "context": "binaryAbsorptionEmissionCoeffs/model2/cloudAbsorptionEmissionCoeffs",
+      "path": "binaryAbsorptionEmissionCoeffs/model2/cloudAbsorptionEmissionCoeffs/cloudNames",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "cloudScatterCoeffs",
+      "keyword": "cloudScatterCoeffs",
+      "context": "",
+      "path": "cloudScatterCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "cloudScatterCoeffs/cloudNames",
+      "keyword": "cloudNames",
+      "context": "cloudScatterCoeffs",
+      "path": "cloudScatterCoeffs/cloudNames",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "constantAbsorptionEmissionCoeffs",
+      "keyword": "constantAbsorptionEmissionCoeffs",
+      "context": "",
+      "path": "constantAbsorptionEmissionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "constantAbsorptionEmissionCoeffs/absorptivity",
+      "keyword": "absorptivity",
+      "context": "constantAbsorptionEmissionCoeffs",
+      "path": "constantAbsorptionEmissionCoeffs/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "constantAbsorptionEmissionCoeffs/E",
+      "keyword": "E",
+      "context": "constantAbsorptionEmissionCoeffs",
+      "path": "constantAbsorptionEmissionCoeffs/E",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "constantAbsorptionEmissionCoeffs/emissivity",
+      "keyword": "emissivity",
+      "context": "constantAbsorptionEmissionCoeffs",
+      "path": "constantAbsorptionEmissionCoeffs/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 35,
+      "fileCount": 35,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 35,
+      "fileCount": 35,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 35
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 35,
+      "fileCount": 35,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 35
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"constant\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/parcelInBox/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 35,
+      "fileCount": 35,
+      "values": [
+        {
+          "value": "radiationProperties",
+          "occurrences": 35
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 35,
+      "fileCount": 35,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "fvDOMCoeffs",
+      "keyword": "fvDOMCoeffs",
+      "context": "",
+      "path": "fvDOMCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "fvDOMCoeffs/maxIter",
+      "keyword": "maxIter",
+      "context": "fvDOMCoeffs",
+      "path": "fvDOMCoeffs/maxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "fvDOMCoeffs/nPhi",
+      "keyword": "nPhi",
+      "context": "fvDOMCoeffs",
+      "path": "fvDOMCoeffs/nPhi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "fvDOMCoeffs/nTheta",
+      "keyword": "nTheta",
+      "context": "fvDOMCoeffs",
+      "path": "fvDOMCoeffs/nTheta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "fvDOMCoeffs/tolerance",
+      "keyword": "tolerance",
+      "context": "fvDOMCoeffs",
+      "path": "fvDOMCoeffs/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs",
+      "keyword": "greyMeanAbsorptionEmissionCoeffs",
+      "context": "",
+      "path": "greyMeanAbsorptionEmissionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C3H8",
+      "keyword": "C3H8",
+      "context": "greyMeanAbsorptionEmissionCoeffs",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C3H8",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C3H8/hiTcoeffs",
+      "keyword": "hiTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C3H8",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C3H8/hiTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C3H8/invTemp",
+      "keyword": "invTemp",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C3H8",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C3H8/invTemp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C3H8/loTcoeffs",
+      "keyword": "loTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C3H8",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C3H8/loTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C3H8/Tcommon",
+      "keyword": "Tcommon",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C3H8",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C3H8/Tcommon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C3H8/Thigh",
+      "keyword": "Thigh",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C3H8",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C3H8/Thigh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C3H8/Tlow",
+      "keyword": "Tlow",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C3H8",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C3H8/Tlow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C7H16",
+      "keyword": "C7H16",
+      "context": "greyMeanAbsorptionEmissionCoeffs",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C7H16",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C7H16/hiTcoeffs",
+      "keyword": "hiTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C7H16",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C7H16/hiTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C7H16/invTemp",
+      "keyword": "invTemp",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C7H16",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C7H16/invTemp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C7H16/loTcoeffs",
+      "keyword": "loTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C7H16",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C7H16/loTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C7H16/Tcommon",
+      "keyword": "Tcommon",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C7H16",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C7H16/Tcommon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C7H16/Thigh",
+      "keyword": "Thigh",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C7H16",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C7H16/Thigh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/C7H16/Tlow",
+      "keyword": "Tlow",
+      "context": "greyMeanAbsorptionEmissionCoeffs/C7H16",
+      "path": "greyMeanAbsorptionEmissionCoeffs/C7H16/Tlow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CH4",
+      "keyword": "CH4",
+      "context": "greyMeanAbsorptionEmissionCoeffs",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CH4",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CH4/hiTcoeffs",
+      "keyword": "hiTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CH4",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CH4/hiTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CH4/invTemp",
+      "keyword": "invTemp",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CH4",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CH4/invTemp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CH4/loTcoeffs",
+      "keyword": "loTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CH4",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CH4/loTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CH4/Tcommon",
+      "keyword": "Tcommon",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CH4",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CH4/Tcommon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CH4/Thigh",
+      "keyword": "Thigh",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CH4",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CH4/Thigh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CH4/Tlow",
+      "keyword": "Tlow",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CH4",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CH4/Tlow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CO2",
+      "keyword": "CO2",
+      "context": "greyMeanAbsorptionEmissionCoeffs",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CO2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CO2/hiTcoeffs",
+      "keyword": "hiTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CO2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CO2/hiTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CO2/invTemp",
+      "keyword": "invTemp",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CO2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CO2/invTemp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CO2/loTcoeffs",
+      "keyword": "loTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CO2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CO2/loTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CO2/Tcommon",
+      "keyword": "Tcommon",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CO2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CO2/Tcommon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CO2/Thigh",
+      "keyword": "Thigh",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CO2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CO2/Thigh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/CO2/Tlow",
+      "keyword": "Tlow",
+      "context": "greyMeanAbsorptionEmissionCoeffs/CO2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/CO2/Tlow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/EhrrCoeff",
+      "keyword": "EhrrCoeff",
+      "context": "greyMeanAbsorptionEmissionCoeffs",
+      "path": "greyMeanAbsorptionEmissionCoeffs/EhrrCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/H2O",
+      "keyword": "H2O",
+      "context": "greyMeanAbsorptionEmissionCoeffs",
+      "path": "greyMeanAbsorptionEmissionCoeffs/H2O",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/H2O/hiTcoeffs",
+      "keyword": "hiTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/H2O",
+      "path": "greyMeanAbsorptionEmissionCoeffs/H2O/hiTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/H2O/invTemp",
+      "keyword": "invTemp",
+      "context": "greyMeanAbsorptionEmissionCoeffs/H2O",
+      "path": "greyMeanAbsorptionEmissionCoeffs/H2O/invTemp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/H2O/loTcoeffs",
+      "keyword": "loTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/H2O",
+      "path": "greyMeanAbsorptionEmissionCoeffs/H2O/loTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/H2O/Tcommon",
+      "keyword": "Tcommon",
+      "context": "greyMeanAbsorptionEmissionCoeffs/H2O",
+      "path": "greyMeanAbsorptionEmissionCoeffs/H2O/Tcommon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/H2O/Thigh",
+      "keyword": "Thigh",
+      "context": "greyMeanAbsorptionEmissionCoeffs/H2O",
+      "path": "greyMeanAbsorptionEmissionCoeffs/H2O/Thigh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/H2O/Tlow",
+      "keyword": "Tlow",
+      "context": "greyMeanAbsorptionEmissionCoeffs/H2O",
+      "path": "greyMeanAbsorptionEmissionCoeffs/H2O/Tlow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/lookUpTableFileName",
+      "keyword": "lookUpTableFileName",
+      "context": "greyMeanAbsorptionEmissionCoeffs",
+      "path": "greyMeanAbsorptionEmissionCoeffs/lookUpTableFileName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/N2",
+      "keyword": "N2",
+      "context": "greyMeanAbsorptionEmissionCoeffs",
+      "path": "greyMeanAbsorptionEmissionCoeffs/N2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/N2/hiTcoeffs",
+      "keyword": "hiTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/N2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/N2/hiTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/N2/invTemp",
+      "keyword": "invTemp",
+      "context": "greyMeanAbsorptionEmissionCoeffs/N2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/N2/invTemp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/N2/loTcoeffs",
+      "keyword": "loTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/N2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/N2/loTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/N2/Tcommon",
+      "keyword": "Tcommon",
+      "context": "greyMeanAbsorptionEmissionCoeffs/N2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/N2/Tcommon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/N2/Thigh",
+      "keyword": "Thigh",
+      "context": "greyMeanAbsorptionEmissionCoeffs/N2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/N2/Thigh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/N2/Tlow",
+      "keyword": "Tlow",
+      "context": "greyMeanAbsorptionEmissionCoeffs/N2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/N2/Tlow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/O2",
+      "keyword": "O2",
+      "context": "greyMeanAbsorptionEmissionCoeffs",
+      "path": "greyMeanAbsorptionEmissionCoeffs/O2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/O2/hiTcoeffs",
+      "keyword": "hiTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/O2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/O2/hiTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/O2/invTemp",
+      "keyword": "invTemp",
+      "context": "greyMeanAbsorptionEmissionCoeffs/O2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/O2/invTemp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/O2/loTcoeffs",
+      "keyword": "loTcoeffs",
+      "context": "greyMeanAbsorptionEmissionCoeffs/O2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/O2/loTcoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/O2/Tcommon",
+      "keyword": "Tcommon",
+      "context": "greyMeanAbsorptionEmissionCoeffs/O2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/O2/Tcommon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/O2/Thigh",
+      "keyword": "Thigh",
+      "context": "greyMeanAbsorptionEmissionCoeffs/O2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/O2/Thigh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionCoeffs/O2/Tlow",
+      "keyword": "Tlow",
+      "context": "greyMeanAbsorptionEmissionCoeffs/O2",
+      "path": "greyMeanAbsorptionEmissionCoeffs/O2/Tlow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionSootCoeffs",
+      "keyword": "greyMeanAbsorptionEmissionSootCoeffs",
+      "context": "",
+      "path": "greyMeanAbsorptionEmissionSootCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionSootCoeffs/EhrrCoeff",
+      "keyword": "EhrrCoeff",
+      "context": "greyMeanAbsorptionEmissionSootCoeffs",
+      "path": "greyMeanAbsorptionEmissionSootCoeffs/EhrrCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "greyMeanAbsorptionEmissionSootCoeffs/lookUpTableFileName",
+      "keyword": "lookUpTableFileName",
+      "context": "greyMeanAbsorptionEmissionSootCoeffs",
+      "path": "greyMeanAbsorptionEmissionSootCoeffs/lookUpTableFileName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "mixtureFractionSootCoeffs",
+      "keyword": "mixtureFractionSootCoeffs",
+      "context": "",
+      "path": "mixtureFractionSootCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "mixtureFractionSootCoeffs/nuSoot",
+      "keyword": "nuSoot",
+      "context": "mixtureFractionSootCoeffs",
+      "path": "mixtureFractionSootCoeffs/nuSoot",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "mixtureFractionSootCoeffs/Wsoot",
+      "keyword": "Wsoot",
+      "context": "mixtureFractionSootCoeffs",
+      "path": "mixtureFractionSootCoeffs/Wsoot",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "noRadiation",
+      "keyword": "noRadiation",
+      "context": "",
+      "path": "noRadiation",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "P1Coeffs",
+      "keyword": "P1Coeffs",
+      "context": "",
+      "path": "P1Coeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "P1Coeffs/C",
+      "keyword": "C",
+      "context": "P1Coeffs",
+      "path": "P1Coeffs/C",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "radiation",
+      "keyword": "radiation",
+      "context": "",
+      "path": "radiation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 34,
+      "fileCount": 34,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 22
+        },
+        {
+          "value": "on",
+          "occurrences": 12
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "radiationModel",
+      "keyword": "radiationModel",
+      "context": "",
+      "path": "radiationModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 35,
+      "fileCount": 35,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 21
+        },
+        {
+          "value": "fvDOM",
+          "occurrences": 9
+        },
+        {
+          "value": "P1",
+          "occurrences": 4
+        },
+        {
+          "value": "solarLoad",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "scatterModel",
+      "keyword": "scatterModel",
+      "context": "",
+      "path": "scatterModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 13
+        },
+        {
+          "value": "cloudScatter",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs",
+      "keyword": "solarLoadCoeffs",
+      "context": "",
+      "path": "solarLoadCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/A",
+      "keyword": "A",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/A",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/absorptionEmissionModel",
+      "keyword": "absorptionEmissionModel",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/absorptionEmissionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/B",
+      "keyword": "B",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/B",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/C",
+      "keyword": "C",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/C",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/gridEast",
+      "keyword": "gridEast",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/gridEast",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/gridUp",
+      "keyword": "gridUp",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/gridUp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/groundReflectivity",
+      "keyword": "groundReflectivity",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/groundReflectivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/latitude",
+      "keyword": "latitude",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/latitude",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/localStandardMeridian",
+      "keyword": "localStandardMeridian",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/localStandardMeridian",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/longitude",
+      "keyword": "longitude",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/longitude",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/reflecting",
+      "keyword": "reflecting",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/reflecting",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/reflecting/nPhi",
+      "keyword": "nPhi",
+      "context": "solarLoadCoeffs/reflecting",
+      "path": "solarLoadCoeffs/reflecting/nPhi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/reflecting/nTheta",
+      "keyword": "nTheta",
+      "context": "solarLoadCoeffs/reflecting",
+      "path": "solarLoadCoeffs/reflecting/nTheta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/scatterModel",
+      "keyword": "scatterModel",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/scatterModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/skyCloudCoverFraction",
+      "keyword": "skyCloudCoverFraction",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/skyCloudCoverFraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/solidCoupled",
+      "keyword": "solidCoupled",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/solidCoupled",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/sootModel",
+      "keyword": "sootModel",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/sootModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/spectralDistribution",
+      "keyword": "spectralDistribution",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/spectralDistribution",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/startDay",
+      "keyword": "startDay",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/startDay",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/startTime",
+      "keyword": "startTime",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/startTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/sunDirection",
+      "keyword": "sunDirection",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/sunDirection",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/sunDirectionModel",
+      "keyword": "sunDirectionModel",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/sunDirectionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/sunLoadModel",
+      "keyword": "sunLoadModel",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/sunLoadModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fairWeather",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/useReflectedRays",
+      "keyword": "useReflectedRays",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/useReflectedRays",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solarLoadCoeffs/wallCoupled",
+      "keyword": "wallCoupled",
+      "context": "solarLoadCoeffs",
+      "path": "solarLoadCoeffs/wallCoupled",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "solverFreq",
+      "keyword": "solverFreq",
+      "context": "",
+      "path": "solverFreq",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "sootModel",
+      "keyword": "sootModel",
+      "context": "",
+      "path": "sootModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 12
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/radiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/radiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/radiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/radiationProperties"
+      ]
+    },
+    {
+      "key": "transmissivityModel",
+      "keyword": "transmissivityModel",
+      "context": "",
+      "path": "transmissivityModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/radiationProperties",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/radiationProperties"
+      ]
+    }
+  ]
+}

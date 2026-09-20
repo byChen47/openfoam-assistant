@@ -1,0 +1,466 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "bottomAir/fvSchemes",
+  "sourceFileCount": 5,
+  "occurrences": 134,
+  "entries": [
+    {
+      "key": "ddtSchemes",
+      "keyword": "ddtSchemes",
+      "context": "",
+      "path": "ddtSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "ddtSchemes/default",
+      "keyword": "default",
+      "context": "ddtSchemes",
+      "path": "ddtSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "Euler",
+          "occurrences": 3
+        },
+        {
+          "value": "steadyState",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes",
+      "keyword": "divSchemes",
+      "context": "",
+      "path": "divSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/default",
+      "keyword": "default",
+      "context": "divSchemes",
+      "path": "divSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div",
+      "keyword": "div",
+      "context": "divSchemes",
+      "path": "divSchemes/div",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 42,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/energy",
+      "keyword": "energy",
+      "context": "divSchemes",
+      "path": "divSchemes/energy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "bounded Gauss upwind",
+          "occurrences": 2
+        },
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/turbulence",
+      "keyword": "turbulence",
+      "context": "divSchemes",
+      "path": "divSchemes/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "bounded Gauss upwind",
+          "occurrences": 2
+        },
+        {
+          "value": "Gauss upwind",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "fvSchemes",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes",
+      "keyword": "gradSchemes",
+      "context": "",
+      "path": "gradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/default",
+      "keyword": "default",
+      "context": "gradSchemes",
+      "path": "gradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes",
+      "keyword": "interpolationSchemes",
+      "context": "",
+      "path": "interpolationSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes/default",
+      "keyword": "default",
+      "context": "interpolationSchemes",
+      "path": "interpolationSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "linear",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes",
+      "keyword": "laplacianSchemes",
+      "context": "",
+      "path": "laplacianSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/default",
+      "keyword": "default",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "Gauss linear corrected",
+          "occurrences": 2
+        },
+        {
+          "value": "Gauss linear uncorrected",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes",
+      "keyword": "snGradSchemes",
+      "context": "",
+      "path": "snGradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes/default",
+      "keyword": "default",
+      "context": "snGradSchemes",
+      "path": "snGradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "corrected",
+          "occurrences": 2
+        },
+        {
+          "value": "uncorrected",
+          "occurrences": 2
+        },
+        {
+          "value": "limited corrected 0.333",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/bottomAir/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/bottomAir/fvSchemes",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/bottomAir/fvSchemes"
+      ]
+    }
+  ]
+}

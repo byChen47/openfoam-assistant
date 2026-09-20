@@ -1,0 +1,306 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "rho",
+  "sourceFileCount": 8,
+  "occurrences": 138,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "left",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 30,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 28,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "calculated",
+          "occurrences": 9
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 7
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 5
+        },
+        {
+          "value": "empty",
+          "occurrences": 4
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 16,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "uniform 1.2",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 835",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 845",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 0.243121",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.438564",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1.18001",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 3.57e-05",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "rho",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "uniform 845",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 8000",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1.18001",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1.2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "electromagnetics/electrostaticFoam/chargedWire/0/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/0.orig/rho",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/0.orig/rho",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/0.orig/rho",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/0/rho"
+      ]
+    }
+  ]
+}

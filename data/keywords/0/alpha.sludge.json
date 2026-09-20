@@ -1,0 +1,277 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "alpha.sludge",
+  "sourceFileCount": 4,
+  "occurrences": 76,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/0.orig/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge",
+        "multiphase/twoLiquidMixingFoam/lockExchange/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 20,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/0.orig/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge",
+        "multiphase/twoLiquidMixingFoam/lockExchange/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 11
+        },
+        {
+          "value": "empty",
+          "occurrences": 4
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 2
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 2
+        },
+        {
+          "value": "slip",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/0.orig/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge",
+        "multiphase/twoLiquidMixingFoam/lockExchange/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 0.002",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/0.orig/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge",
+        "multiphase/twoLiquidMixingFoam/lockExchange/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/0.orig/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge",
+        "multiphase/twoLiquidMixingFoam/lockExchange/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/0.orig/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge",
+        "multiphase/twoLiquidMixingFoam/lockExchange/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/0.orig/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge",
+        "multiphase/twoLiquidMixingFoam/lockExchange/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "alpha.sludge",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/0.orig/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge",
+        "multiphase/twoLiquidMixingFoam/lockExchange/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/0.orig/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge",
+        "multiphase/twoLiquidMixingFoam/lockExchange/0.orig/alpha.sludge"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.001",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/0/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/0.orig/alpha.sludge",
+        "multiphase/driftFluxFoam/RAS/tank3D/0.orig/alpha.sludge",
+        "multiphase/twoLiquidMixingFoam/lockExchange/0.orig/alpha.sludge"
+      ]
+    }
+  ]
+}

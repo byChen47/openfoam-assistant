@@ -1,0 +1,655 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "decomposeConstraints",
+  "sourceFileCount": 1,
+  "occurrences": 38,
+  "entries": [
+    {
+      "key": "constraints",
+      "keyword": "constraints",
+      "context": "",
+      "path": "constraints",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/baffles",
+      "keyword": "baffles",
+      "context": "constraints",
+      "path": "constraints/baffles",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/baffles/type",
+      "keyword": "type",
+      "context": "constraints/baffles",
+      "path": "constraints/baffles/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "preserveBaffles",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric",
+      "keyword": "geometric",
+      "context": "constraints",
+      "path": "constraints/geometric",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/grow",
+      "keyword": "grow",
+      "context": "constraints/geometric",
+      "path": "constraints/geometric/grow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection",
+      "keyword": "selection",
+      "context": "constraints/geometric",
+      "path": "constraints/geometric/selection",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/ball",
+      "keyword": "ball",
+      "context": "constraints/geometric/selection",
+      "path": "constraints/geometric/selection/ball",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/ball/origin",
+      "keyword": "origin",
+      "context": "constraints/geometric/selection/ball",
+      "path": "constraints/geometric/selection/ball/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/ball/radius",
+      "keyword": "radius",
+      "context": "constraints/geometric/selection/ball",
+      "path": "constraints/geometric/selection/ball/radius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/ball/source",
+      "keyword": "source",
+      "context": "constraints/geometric/selection/ball",
+      "path": "constraints/geometric/selection/ball/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "sphere",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/blob",
+      "keyword": "blob",
+      "context": "constraints/geometric/selection",
+      "path": "constraints/geometric/selection/blob",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/blob/source",
+      "keyword": "source",
+      "context": "constraints/geometric/selection/blob",
+      "path": "constraints/geometric/selection/blob/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "surface",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/blob/surfaceName",
+      "keyword": "surfaceName",
+      "context": "constraints/geometric/selection/blob",
+      "path": "constraints/geometric/selection/blob/surfaceName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "blob.obj",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/blob/surfaceType",
+      "keyword": "surfaceType",
+      "context": "constraints/geometric/selection/blob",
+      "path": "constraints/geometric/selection/blob/surfaceType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/box1",
+      "keyword": "box1",
+      "context": "constraints/geometric/selection",
+      "path": "constraints/geometric/selection/box1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/box1/max",
+      "keyword": "max",
+      "context": "constraints/geometric/selection/box1",
+      "path": "constraints/geometric/selection/box1/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/box1/min",
+      "keyword": "min",
+      "context": "constraints/geometric/selection/box1",
+      "path": "constraints/geometric/selection/box1/min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/box1/source",
+      "keyword": "source",
+      "context": "constraints/geometric/selection/box1",
+      "path": "constraints/geometric/selection/box1/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "box",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/disk",
+      "keyword": "disk",
+      "context": "constraints/geometric/selection",
+      "path": "constraints/geometric/selection/disk",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/disk/normal",
+      "keyword": "normal",
+      "context": "constraints/geometric/selection/disk",
+      "path": "constraints/geometric/selection/disk/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/disk/origin",
+      "keyword": "origin",
+      "context": "constraints/geometric/selection/disk",
+      "path": "constraints/geometric/selection/disk/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/disk/radius",
+      "keyword": "radius",
+      "context": "constraints/geometric/selection/disk",
+      "path": "constraints/geometric/selection/disk/radius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/disk/source",
+      "keyword": "source",
+      "context": "constraints/geometric/selection/disk",
+      "path": "constraints/geometric/selection/disk/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "surface",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/disk/surface",
+      "keyword": "surface",
+      "context": "constraints/geometric/selection/disk",
+      "path": "constraints/geometric/selection/disk/surface",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "disk",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/mid",
+      "keyword": "mid",
+      "context": "constraints/geometric/selection",
+      "path": "constraints/geometric/selection/mid",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/mid/origin",
+      "keyword": "origin",
+      "context": "constraints/geometric/selection/mid",
+      "path": "constraints/geometric/selection/mid/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/mid/radius",
+      "keyword": "radius",
+      "context": "constraints/geometric/selection/mid",
+      "path": "constraints/geometric/selection/mid/radius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/mid/source",
+      "keyword": "source",
+      "context": "constraints/geometric/selection/mid",
+      "path": "constraints/geometric/selection/mid/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "sphere",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/semi",
+      "keyword": "semi",
+      "context": "constraints/geometric/selection",
+      "path": "constraints/geometric/selection/semi",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/semi/origin",
+      "keyword": "origin",
+      "context": "constraints/geometric/selection/semi",
+      "path": "constraints/geometric/selection/semi/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/semi/radius",
+      "keyword": "radius",
+      "context": "constraints/geometric/selection/semi",
+      "path": "constraints/geometric/selection/semi/radius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/selection/semi/source",
+      "keyword": "source",
+      "context": "constraints/geometric/selection/semi",
+      "path": "constraints/geometric/selection/semi/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "sphere",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "constraints/geometric/type",
+      "keyword": "type",
+      "context": "constraints/geometric",
+      "path": "constraints/geometric/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "geometric",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "decomposeConstraints",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeConstraints"
+      ]
+    }
+  ]
+}

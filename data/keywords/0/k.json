@@ -1,0 +1,1010 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "k",
+  "sourceFileCount": 183,
+  "occurrences": 3665,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/k",
+        "compressible/rhoPimpleFoam/RAS/annularThermalMixer/0.orig/k",
+        "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/k",
+        "incompressible/lumpedPointMotion/bridge/steady/0.orig/k"
+      ]
+    },
+    {
+      "key": "#remove",
+      "keyword": "#remove",
+      "context": "",
+      "path": "#remove",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/0/k"
+      ]
+    },
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 182,
+      "fileCount": 182,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "#include",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 784,
+      "fileCount": 182,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/#include",
+      "keyword": "#include",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/turbineSiting/0.orig/k",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/average",
+      "keyword": "average",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/average",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/LES/pitzDailyMapped/0/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC",
+      "keyword": "freestreamBC",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/freestreamBC",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC/mapMethod",
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/freestreamBC",
+      "path": "boundaryField/{patch}/freestreamBC/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "nearest",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC/offset",
+      "keyword": "offset",
+      "context": "boundaryField/{patch}/freestreamBC",
+      "path": "boundaryField/{patch}/freestreamBC/offset",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC/setAverage",
+      "keyword": "setAverage",
+      "context": "boundaryField/{patch}/freestreamBC",
+      "path": "boundaryField/{patch}/freestreamBC/setAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/freestreamBC",
+      "path": "boundaryField/{patch}/freestreamBC/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "timeVaryingMappedFixedValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamBC/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}/freestreamBC",
+      "path": "boundaryField/{patch}/freestreamBC/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 118,
+      "fileCount": 101,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 10
+        },
+        {
+          "value": "uniform 0.1",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 3.75e-9",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 0.375",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 1000",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 0.001",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.01",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 1e-05",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.000259",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.24",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-3",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-4",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 3.75e-3",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 30",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/k",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/intensity",
+      "keyword": "intensity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/intensity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 50,
+      "fileCount": 43,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/k",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/0.orig/k",
+        "combustion/reactingFoam/RAS/membrane/0.orig/k",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/k",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/interpolationScheme",
+      "keyword": "interpolationScheme",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/interpolationScheme",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/LES/pitzDailyMapped/0/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/mapMethod",
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "nearest",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/offset",
+      "keyword": "offset",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/offset",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/k",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/k",
+        "incompressible/simpleFoam/pitzDailyExptInlet/0/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/setAverage",
+      "keyword": "setAverage",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/setAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        },
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/k",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/k",
+        "incompressible/pisoFoam/LES/pitzDailyMapped/0/k",
+        "incompressible/simpleFoam/pitzDailyExptInlet/0/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 717,
+      "fileCount": 182,
+      "values": [
+        {
+          "value": "kqRWallFunction",
+          "occurrences": 242
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 118
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 73
+        },
+        {
+          "value": "empty",
+          "occurrences": 67
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 64
+        },
+        {
+          "value": "turbulentIntensityKineticEnergyInlet",
+          "occurrences": 49
+        },
+        {
+          "value": "cyclic",
+          "occurrences": 23
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 22
+        },
+        {
+          "value": "overset",
+          "occurrences": 12
+        },
+        {
+          "value": "cyclicAMI",
+          "occurrences": 11
+        },
+        {
+          "value": "slip",
+          "occurrences": 9
+        },
+        {
+          "value": "calculated",
+          "occurrences": 7
+        },
+        {
+          "value": "wedge",
+          "occurrences": 7
+        },
+        {
+          "value": "compressible::kqRWallFunction",
+          "occurrences": 3
+        },
+        {
+          "value": "timeVaryingMappedFixedValue",
+          "occurrences": 3
+        },
+        {
+          "value": "atmBoundaryLayerInletK",
+          "occurrences": 2
+        },
+        {
+          "value": "symmetry",
+          "occurrences": 2
+        },
+        {
+          "value": "freestream",
+          "occurrences": 1
+        },
+        {
+          "value": "mapped",
+          "occurrences": 1
+        },
+        {
+          "value": "processor",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 490,
+      "fileCount": 178,
+      "values": [
+        {
+          "value": "uniform 0.1",
+          "occurrences": 51
+        },
+        {
+          "value": "uniform 1",
+          "occurrences": 48
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 41
+        },
+        {
+          "value": "uniform 0.375",
+          "occurrences": 23
+        },
+        {
+          "value": "uniform 3.75e-9",
+          "occurrences": 8
+        },
+        {
+          "value": "uniform 0.01",
+          "occurrences": 7
+        },
+        {
+          "value": "uniform 0.00341",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 1e-10",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 1000",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 0.00325",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 0.0938",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 0.24",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 1e-05",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 3.75e-04",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 0.05",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 10",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 2e-05",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 30",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 37.5",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 0.0",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.001",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 1e-11",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 1e-5",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.000259",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.00375",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-3",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-4",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 3.75e-3",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/k"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 183,
+      "fileCount": 183,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 183,
+      "fileCount": 183,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 183,
+      "fileCount": 183,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 183
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 183,
+      "fileCount": 183,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 183
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "\"0\"",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/k",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/0.orig/k",
+        "incompressible/pimpleFoam/LES/NACA4412/0.orig/k",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/k",
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/0.orig/k"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 183,
+      "fileCount": 183,
+      "values": [
+        {
+          "value": "k",
+          "occurrences": 183
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 183,
+      "fileCount": 183,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 182,
+      "fileCount": 182,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 29
+        },
+        {
+          "value": "uniform 0.1",
+          "occurrences": 24
+        },
+        {
+          "value": "uniform 0.01",
+          "occurrences": 11
+        },
+        {
+          "value": "uniform 0.375",
+          "occurrences": 11
+        },
+        {
+          "value": "uniform 0.00015",
+          "occurrences": 7
+        },
+        {
+          "value": "uniform 1e-4",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 0.2",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 1e-5",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 3.75e-9",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 0.0938",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 1.08e-3",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 0.06",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 10",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 2.577",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 3.75e-3",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 0.00325",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.00375",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 1.285",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 6",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.0001",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.000259",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.001",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.00341",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.00521",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.015",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.047633",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.0585",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.24",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.3",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.325",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1.09e-3",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1.3",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1.5",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1000",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 18.06",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-05",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-09",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-11",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-2",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-3",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 2.2",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 3.75e-04",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 30",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 37.5",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 8e-2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/k",
+        "combustion/coldEngineFoam/freePiston/0/k",
+        "combustion/fireFoam/LES/compartmentFire/0.orig/k",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/k",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/k"
+      ]
+    },
+    {
+      "key": "kInlet",
+      "keyword": "kInlet",
+      "context": "",
+      "path": "kInlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/k",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/k",
+        "incompressible/simpleFoam/rotorDisk/0.orig/k",
+        "incompressible/simpleFoam/windAroundBuildings/0.orig/k",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/0.orig/k"
+      ]
+    }
+  ]
+}

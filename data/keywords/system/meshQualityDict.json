@@ -1,0 +1,664 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "meshQualityDict",
+  "sourceFileCount": 41,
+  "occurrences": 387,
+  "entries": [
+    {
+      "key": "#includeEtc",
+      "keyword": "#includeEtc",
+      "context": "",
+      "path": "#includeEtc",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 32,
+      "fileCount": 32,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/system/meshQualityDict",
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/meshQualityDict",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/meshQualityDict",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/system/meshQualityDict",
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "errorReduction",
+      "keyword": "errorReduction",
+      "context": "",
+      "path": "errorReduction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "multiphase/interFoam/RAS/DTCHull/system/meshQualityDict",
+        "multiphase/interFoam/RAS/DTCHullMoving/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 41,
+      "fileCount": 41,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/system/meshQualityDict",
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/meshQualityDict",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/meshQualityDict",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/system/meshQualityDict",
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 41,
+      "fileCount": 41,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 41
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/system/meshQualityDict",
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/meshQualityDict",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/meshQualityDict",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/system/meshQualityDict",
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 41,
+      "fileCount": 41,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 41
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/system/meshQualityDict",
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/meshQualityDict",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/meshQualityDict",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/system/meshQualityDict",
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 41,
+      "fileCount": 41,
+      "values": [
+        {
+          "value": "meshQualityDict",
+          "occurrences": 40
+        },
+        {
+          "value": "snappyHexMeshDict",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/system/meshQualityDict",
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/meshQualityDict",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/meshQualityDict",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/system/meshQualityDict",
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 41,
+      "fileCount": 41,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/system/meshQualityDict",
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/meshQualityDict",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/meshQualityDict",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/system/meshQualityDict",
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "maxBoundarySkewness",
+      "keyword": "maxBoundarySkewness",
+      "context": "",
+      "path": "maxBoundarySkewness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict",
+        "mesh/foamyHexMesh/mixerVessel/system/meshQualityDict",
+        "mesh/foamyHexMesh/simpleShapes/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "maxConcave",
+      "keyword": "maxConcave",
+      "context": "",
+      "path": "maxConcave",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict",
+        "mesh/foamyHexMesh/mixerVessel/system/meshQualityDict",
+        "mesh/foamyHexMesh/simpleShapes/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "maxInternalSkewness",
+      "keyword": "maxInternalSkewness",
+      "context": "",
+      "path": "maxInternalSkewness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict",
+        "mesh/foamyHexMesh/mixerVessel/system/meshQualityDict",
+        "mesh/foamyHexMesh/simpleShapes/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "maxNonOrtho",
+      "keyword": "maxNonOrtho",
+      "context": "",
+      "path": "maxNonOrtho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/meshQualityDict",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/meshQualityDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "minArea",
+      "keyword": "minArea",
+      "context": "",
+      "path": "minArea",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict",
+        "mesh/foamyHexMesh/mixerVessel/system/meshQualityDict",
+        "mesh/foamyHexMesh/simpleShapes/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "minDeterminant",
+      "keyword": "minDeterminant",
+      "context": "",
+      "path": "minDeterminant",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict",
+        "mesh/foamyHexMesh/mixerVessel/system/meshQualityDict",
+        "mesh/foamyHexMesh/simpleShapes/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "minFaceWeight",
+      "keyword": "minFaceWeight",
+      "context": "",
+      "path": "minFaceWeight",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/meshQualityDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/meshQualityDict",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/system/meshQualityDict",
+        "incompressible/lumpedPointMotion/bridge/steady/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "minFlatness",
+      "keyword": "minFlatness",
+      "context": "",
+      "path": "minFlatness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "minTetQuality",
+      "keyword": "minTetQuality",
+      "context": "",
+      "path": "minTetQuality",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict",
+        "mesh/foamyHexMesh/mixerVessel/system/meshQualityDict",
+        "mesh/foamyHexMesh/simpleShapes/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "minTriangleTwist",
+      "keyword": "minTriangleTwist",
+      "context": "",
+      "path": "minTriangleTwist",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict",
+        "mesh/foamyHexMesh/mixerVessel/system/meshQualityDict",
+        "mesh/foamyHexMesh/simpleShapes/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "minTwist",
+      "keyword": "minTwist",
+      "context": "",
+      "path": "minTwist",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict",
+        "mesh/foamyHexMesh/mixerVessel/system/meshQualityDict",
+        "mesh/foamyHexMesh/simpleShapes/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "minVol",
+      "keyword": "minVol",
+      "context": "",
+      "path": "minVol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict",
+        "mesh/foamyHexMesh/mixerVessel/system/meshQualityDict",
+        "mesh/foamyHexMesh/simpleShapes/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "minVolRatio",
+      "keyword": "minVolRatio",
+      "context": "",
+      "path": "minVolRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "mesh/foamyHexMesh/blob/system/meshQualityDict",
+        "mesh/foamyHexMesh/flange/system/meshQualityDict",
+        "mesh/foamyHexMesh/mixerVessel/system/meshQualityDict",
+        "mesh/foamyHexMesh/simpleShapes/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "nSmoothScale",
+      "keyword": "nSmoothScale",
+      "context": "",
+      "path": "nSmoothScale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "multiphase/interFoam/RAS/DTCHull/system/meshQualityDict",
+        "multiphase/interFoam/RAS/DTCHullMoving/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed",
+      "keyword": "relaxed",
+      "context": "",
+      "path": "relaxed",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "multiphase/interFoam/RAS/DTCHull/system/meshQualityDict",
+        "multiphase/interFoam/RAS/DTCHullMoving/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/errorReduction",
+      "keyword": "errorReduction",
+      "context": "relaxed",
+      "path": "relaxed/errorReduction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/maxBoundarySkewness",
+      "keyword": "maxBoundarySkewness",
+      "context": "relaxed",
+      "path": "relaxed/maxBoundarySkewness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/maxConcave",
+      "keyword": "maxConcave",
+      "context": "relaxed",
+      "path": "relaxed/maxConcave",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/maxInternalSkewness",
+      "keyword": "maxInternalSkewness",
+      "context": "relaxed",
+      "path": "relaxed/maxInternalSkewness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/maxNonOrtho",
+      "keyword": "maxNonOrtho",
+      "context": "relaxed",
+      "path": "relaxed/maxNonOrtho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict",
+        "multiphase/interFoam/RAS/DTCHull/system/meshQualityDict",
+        "multiphase/interFoam/RAS/DTCHullMoving/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/minArea",
+      "keyword": "minArea",
+      "context": "relaxed",
+      "path": "relaxed/minArea",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/minDeterminant",
+      "keyword": "minDeterminant",
+      "context": "relaxed",
+      "path": "relaxed/minDeterminant",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/minFaceWeight",
+      "keyword": "minFaceWeight",
+      "context": "relaxed",
+      "path": "relaxed/minFaceWeight",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/minFlatness",
+      "keyword": "minFlatness",
+      "context": "relaxed",
+      "path": "relaxed/minFlatness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/minTetQuality",
+      "keyword": "minTetQuality",
+      "context": "relaxed",
+      "path": "relaxed/minTetQuality",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/minTriangleTwist",
+      "keyword": "minTriangleTwist",
+      "context": "relaxed",
+      "path": "relaxed/minTriangleTwist",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/minTwist",
+      "keyword": "minTwist",
+      "context": "relaxed",
+      "path": "relaxed/minTwist",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/minVol",
+      "keyword": "minVol",
+      "context": "relaxed",
+      "path": "relaxed/minVol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/minVolRatio",
+      "keyword": "minVolRatio",
+      "context": "relaxed",
+      "path": "relaxed/minVolRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    },
+    {
+      "key": "relaxed/nSmoothScale",
+      "keyword": "nSmoothScale",
+      "context": "relaxed",
+      "path": "relaxed/nSmoothScale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/meshQualityDict"
+      ]
+    }
+  ]
+}

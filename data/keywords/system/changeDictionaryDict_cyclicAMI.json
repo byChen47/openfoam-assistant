@@ -1,0 +1,2645 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "changeDictionaryDict_cyclicAMI",
+  "sourceFileCount": 1,
+  "occurrences": 154,
+  "entries": [
+    {
+      "key": "boundary",
+      "keyword": "boundary",
+      "context": "",
+      "path": "boundary",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1",
+      "keyword": "DTCYCLIC1",
+      "context": "boundary",
+      "path": "boundary/DTCYCLIC1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/AMIMethod",
+      "keyword": "AMIMethod",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/AMIMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "faceAreaWeightAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "DTCYCLIC2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/restartUncoveredSourceFace",
+      "keyword": "restartUncoveredSourceFace",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/restartUncoveredSourceFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/transform",
+      "keyword": "transform",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/transform",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "rotational",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC1/type",
+      "keyword": "type",
+      "context": "boundary/DTCYCLIC1",
+      "path": "boundary/DTCYCLIC1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclicAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2",
+      "keyword": "DTCYCLIC2",
+      "context": "boundary",
+      "path": "boundary/DTCYCLIC2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/AMIMethod",
+      "keyword": "AMIMethod",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/AMIMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "faceAreaWeightAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "DTCYCLIC1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/restartUncoveredSourceFace",
+      "keyword": "restartUncoveredSourceFace",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/restartUncoveredSourceFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/transform",
+      "keyword": "transform",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/transform",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "rotational",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTCYCLIC2/type",
+      "keyword": "type",
+      "context": "boundary/DTCYCLIC2",
+      "path": "boundary/DTCYCLIC2/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclicAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTHUB",
+      "keyword": "DTHUB",
+      "context": "boundary",
+      "path": "boundary/DTHUB",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTHUB/closedSolidBodyMotion",
+      "keyword": "closedSolidBodyMotion",
+      "context": "boundary/DTHUB",
+      "path": "boundary/DTHUB/closedSolidBodyMotion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTHUB/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/DTHUB",
+      "path": "boundary/DTHUB/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTHUB/type",
+      "keyword": "type",
+      "context": "boundary/DTHUB",
+      "path": "boundary/DTHUB/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET",
+      "keyword": "DTINLET",
+      "context": "boundary",
+      "path": "boundary/DTINLET",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET/AMIMethod",
+      "keyword": "AMIMethod",
+      "context": "boundary/DTINLET",
+      "path": "boundary/DTINLET/AMIMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "faceAreaWeightAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/DTINLET",
+      "path": "boundary/DTINLET/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET/matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "boundary/DTINLET",
+      "path": "boundary/DTINLET/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET/maxIter",
+      "keyword": "maxIter",
+      "context": "boundary/DTINLET",
+      "path": "boundary/DTINLET/maxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "boundary/DTINLET",
+      "path": "boundary/DTINLET/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "RUOUTLET",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET/periodicPatch",
+      "keyword": "periodicPatch",
+      "context": "boundary/DTINLET",
+      "path": "boundary/DTINLET/periodicPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "RUCYCLIC1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET/requireMatch",
+      "keyword": "requireMatch",
+      "context": "boundary/DTINLET",
+      "path": "boundary/DTINLET/requireMatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET/restartUncoveredSourceFace",
+      "keyword": "restartUncoveredSourceFace",
+      "context": "boundary/DTINLET",
+      "path": "boundary/DTINLET/restartUncoveredSourceFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET/transform",
+      "keyword": "transform",
+      "context": "boundary/DTINLET",
+      "path": "boundary/DTINLET/transform",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "unknown",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTINLET/type",
+      "keyword": "type",
+      "context": "boundary/DTINLET",
+      "path": "boundary/DTINLET/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclicPeriodicAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTOUTLET",
+      "keyword": "DTOUTLET",
+      "context": "boundary",
+      "path": "boundary/DTOUTLET",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTOUTLET/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/DTOUTLET",
+      "path": "boundary/DTOUTLET/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTOUTLET/type",
+      "keyword": "type",
+      "context": "boundary/DTOUTLET",
+      "path": "boundary/DTOUTLET/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTSHROUD",
+      "keyword": "DTSHROUD",
+      "context": "boundary",
+      "path": "boundary/DTSHROUD",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTSHROUD/closedSolidBodyMotion",
+      "keyword": "closedSolidBodyMotion",
+      "context": "boundary/DTSHROUD",
+      "path": "boundary/DTSHROUD/closedSolidBodyMotion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTSHROUD/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/DTSHROUD",
+      "path": "boundary/DTSHROUD/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/DTSHROUD/type",
+      "keyword": "type",
+      "context": "boundary/DTSHROUD",
+      "path": "boundary/DTSHROUD/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVBLADE",
+      "keyword": "GVBLADE",
+      "context": "boundary",
+      "path": "boundary/GVBLADE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVBLADE/closedSolidBodyMotion",
+      "keyword": "closedSolidBodyMotion",
+      "context": "boundary/GVBLADE",
+      "path": "boundary/GVBLADE/closedSolidBodyMotion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVBLADE/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/GVBLADE",
+      "path": "boundary/GVBLADE/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVBLADE/type",
+      "keyword": "type",
+      "context": "boundary/GVBLADE",
+      "path": "boundary/GVBLADE/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1",
+      "keyword": "GVCYCLIC1",
+      "context": "boundary",
+      "path": "boundary/GVCYCLIC1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/AMIMethod",
+      "keyword": "AMIMethod",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/AMIMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "faceAreaWeightAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "GVCYCLIC2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/restartUncoveredSourceFace",
+      "keyword": "restartUncoveredSourceFace",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/restartUncoveredSourceFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/transform",
+      "keyword": "transform",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/transform",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "rotational",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC1/type",
+      "keyword": "type",
+      "context": "boundary/GVCYCLIC1",
+      "path": "boundary/GVCYCLIC1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclicAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2",
+      "keyword": "GVCYCLIC2",
+      "context": "boundary",
+      "path": "boundary/GVCYCLIC2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/AMIMethod",
+      "keyword": "AMIMethod",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/AMIMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "faceAreaWeightAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "GVCYCLIC1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/restartUncoveredSourceFace",
+      "keyword": "restartUncoveredSourceFace",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/restartUncoveredSourceFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/transform",
+      "keyword": "transform",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/transform",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "rotational",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVCYCLIC2/type",
+      "keyword": "type",
+      "context": "boundary/GVCYCLIC2",
+      "path": "boundary/GVCYCLIC2/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclicAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVHUB",
+      "keyword": "GVHUB",
+      "context": "boundary",
+      "path": "boundary/GVHUB",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVHUB/closedSolidBodyMotion",
+      "keyword": "closedSolidBodyMotion",
+      "context": "boundary/GVHUB",
+      "path": "boundary/GVHUB/closedSolidBodyMotion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVHUB/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/GVHUB",
+      "path": "boundary/GVHUB/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVHUB/type",
+      "keyword": "type",
+      "context": "boundary/GVHUB",
+      "path": "boundary/GVHUB/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVINLET",
+      "keyword": "GVINLET",
+      "context": "boundary",
+      "path": "boundary/GVINLET",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVINLET/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/GVINLET",
+      "path": "boundary/GVINLET/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVINLET/type",
+      "keyword": "type",
+      "context": "boundary/GVINLET",
+      "path": "boundary/GVINLET/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET",
+      "keyword": "GVOUTLET",
+      "context": "boundary",
+      "path": "boundary/GVOUTLET",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET/AMIMethod",
+      "keyword": "AMIMethod",
+      "context": "boundary/GVOUTLET",
+      "path": "boundary/GVOUTLET/AMIMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "faceAreaWeightAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/GVOUTLET",
+      "path": "boundary/GVOUTLET/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET/matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "boundary/GVOUTLET",
+      "path": "boundary/GVOUTLET/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET/maxIter",
+      "keyword": "maxIter",
+      "context": "boundary/GVOUTLET",
+      "path": "boundary/GVOUTLET/maxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "boundary/GVOUTLET",
+      "path": "boundary/GVOUTLET/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "RUINLET",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET/periodicPatch",
+      "keyword": "periodicPatch",
+      "context": "boundary/GVOUTLET",
+      "path": "boundary/GVOUTLET/periodicPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "RUCYCLIC1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET/requireMatch",
+      "keyword": "requireMatch",
+      "context": "boundary/GVOUTLET",
+      "path": "boundary/GVOUTLET/requireMatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET/restartUncoveredSourceFace",
+      "keyword": "restartUncoveredSourceFace",
+      "context": "boundary/GVOUTLET",
+      "path": "boundary/GVOUTLET/restartUncoveredSourceFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET/transform",
+      "keyword": "transform",
+      "context": "boundary/GVOUTLET",
+      "path": "boundary/GVOUTLET/transform",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "unknown",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVOUTLET/type",
+      "keyword": "type",
+      "context": "boundary/GVOUTLET",
+      "path": "boundary/GVOUTLET/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclicPeriodicAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVSHROUD",
+      "keyword": "GVSHROUD",
+      "context": "boundary",
+      "path": "boundary/GVSHROUD",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVSHROUD/closedSolidBodyMotion",
+      "keyword": "closedSolidBodyMotion",
+      "context": "boundary/GVSHROUD",
+      "path": "boundary/GVSHROUD/closedSolidBodyMotion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVSHROUD/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/GVSHROUD",
+      "path": "boundary/GVSHROUD/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/GVSHROUD/type",
+      "keyword": "type",
+      "context": "boundary/GVSHROUD",
+      "path": "boundary/GVSHROUD/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUBLADE",
+      "keyword": "RUBLADE",
+      "context": "boundary",
+      "path": "boundary/RUBLADE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUBLADE/closedSolidBodyMotion",
+      "keyword": "closedSolidBodyMotion",
+      "context": "boundary/RUBLADE",
+      "path": "boundary/RUBLADE/closedSolidBodyMotion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUBLADE/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/RUBLADE",
+      "path": "boundary/RUBLADE/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUBLADE/type",
+      "keyword": "type",
+      "context": "boundary/RUBLADE",
+      "path": "boundary/RUBLADE/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1",
+      "keyword": "RUCYCLIC1",
+      "context": "boundary",
+      "path": "boundary/RUCYCLIC1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/AMIMethod",
+      "keyword": "AMIMethod",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/AMIMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "faceAreaWeightAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "RUCYCLIC2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/restartUncoveredSourceFace",
+      "keyword": "restartUncoveredSourceFace",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/restartUncoveredSourceFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/transform",
+      "keyword": "transform",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/transform",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "rotational",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC1/type",
+      "keyword": "type",
+      "context": "boundary/RUCYCLIC1",
+      "path": "boundary/RUCYCLIC1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclicAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2",
+      "keyword": "RUCYCLIC2",
+      "context": "boundary",
+      "path": "boundary/RUCYCLIC2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/AMIMethod",
+      "keyword": "AMIMethod",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/AMIMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "faceAreaWeightAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "RUCYCLIC1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/restartUncoveredSourceFace",
+      "keyword": "restartUncoveredSourceFace",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/restartUncoveredSourceFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/rotationAngle",
+      "keyword": "rotationAngle",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/rotationAxis",
+      "keyword": "rotationAxis",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/rotationCentre",
+      "keyword": "rotationCentre",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/transform",
+      "keyword": "transform",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/transform",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "rotational",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUCYCLIC2/type",
+      "keyword": "type",
+      "context": "boundary/RUCYCLIC2",
+      "path": "boundary/RUCYCLIC2/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclicAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUHUB",
+      "keyword": "RUHUB",
+      "context": "boundary",
+      "path": "boundary/RUHUB",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUHUB/closedSolidBodyMotion",
+      "keyword": "closedSolidBodyMotion",
+      "context": "boundary/RUHUB",
+      "path": "boundary/RUHUB/closedSolidBodyMotion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUHUB/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/RUHUB",
+      "path": "boundary/RUHUB/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUHUB/type",
+      "keyword": "type",
+      "context": "boundary/RUHUB",
+      "path": "boundary/RUHUB/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET",
+      "keyword": "RUINLET",
+      "context": "boundary",
+      "path": "boundary/RUINLET",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET/AMIMethod",
+      "keyword": "AMIMethod",
+      "context": "boundary/RUINLET",
+      "path": "boundary/RUINLET/AMIMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "faceAreaWeightAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/RUINLET",
+      "path": "boundary/RUINLET/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET/matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "boundary/RUINLET",
+      "path": "boundary/RUINLET/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET/maxIter",
+      "keyword": "maxIter",
+      "context": "boundary/RUINLET",
+      "path": "boundary/RUINLET/maxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "boundary/RUINLET",
+      "path": "boundary/RUINLET/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "GVOUTLET",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET/periodicPatch",
+      "keyword": "periodicPatch",
+      "context": "boundary/RUINLET",
+      "path": "boundary/RUINLET/periodicPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "RUCYCLIC1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET/requireMatch",
+      "keyword": "requireMatch",
+      "context": "boundary/RUINLET",
+      "path": "boundary/RUINLET/requireMatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET/restartUncoveredSourceFace",
+      "keyword": "restartUncoveredSourceFace",
+      "context": "boundary/RUINLET",
+      "path": "boundary/RUINLET/restartUncoveredSourceFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET/transform",
+      "keyword": "transform",
+      "context": "boundary/RUINLET",
+      "path": "boundary/RUINLET/transform",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "unknown",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUINLET/type",
+      "keyword": "type",
+      "context": "boundary/RUINLET",
+      "path": "boundary/RUINLET/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclicPeriodicAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET",
+      "keyword": "RUOUTLET",
+      "context": "boundary",
+      "path": "boundary/RUOUTLET",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET/AMIMethod",
+      "keyword": "AMIMethod",
+      "context": "boundary/RUOUTLET",
+      "path": "boundary/RUOUTLET/AMIMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "faceAreaWeightAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/RUOUTLET",
+      "path": "boundary/RUOUTLET/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET/matchTolerance",
+      "keyword": "matchTolerance",
+      "context": "boundary/RUOUTLET",
+      "path": "boundary/RUOUTLET/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET/maxIter",
+      "keyword": "maxIter",
+      "context": "boundary/RUOUTLET",
+      "path": "boundary/RUOUTLET/maxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "boundary/RUOUTLET",
+      "path": "boundary/RUOUTLET/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "DTINLET",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET/periodicPatch",
+      "keyword": "periodicPatch",
+      "context": "boundary/RUOUTLET",
+      "path": "boundary/RUOUTLET/periodicPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "RUCYCLIC1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET/requireMatch",
+      "keyword": "requireMatch",
+      "context": "boundary/RUOUTLET",
+      "path": "boundary/RUOUTLET/requireMatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET/restartUncoveredSourceFace",
+      "keyword": "restartUncoveredSourceFace",
+      "context": "boundary/RUOUTLET",
+      "path": "boundary/RUOUTLET/restartUncoveredSourceFace",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET/transform",
+      "keyword": "transform",
+      "context": "boundary/RUOUTLET",
+      "path": "boundary/RUOUTLET/transform",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "unknown",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUOUTLET/type",
+      "keyword": "type",
+      "context": "boundary/RUOUTLET",
+      "path": "boundary/RUOUTLET/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclicPeriodicAMI",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUSHROUD",
+      "keyword": "RUSHROUD",
+      "context": "boundary",
+      "path": "boundary/RUSHROUD",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUSHROUD/closedSolidBodyMotion",
+      "keyword": "closedSolidBodyMotion",
+      "context": "boundary/RUSHROUD",
+      "path": "boundary/RUSHROUD/closedSolidBodyMotion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUSHROUD/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/RUSHROUD",
+      "path": "boundary/RUSHROUD/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "boundary/RUSHROUD/type",
+      "keyword": "type",
+      "context": "boundary/RUSHROUD",
+      "path": "boundary/RUSHROUD/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "changeDictionaryDict",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/changeDictionaryDict_cyclicAMI"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,988 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "decomposeParDict",
+  "sourceFileCount": 353,
+  "occurrences": 3185,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/decompositionConstraints/geometric/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "coeffs",
+      "keyword": "coeffs",
+      "context": "",
+      "path": "coeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 231,
+      "fileCount": 231,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/left/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/right/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld2/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "coeffs/dataFile",
+      "keyword": "dataFile",
+      "context": "coeffs",
+      "path": "coeffs/dataFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "\"cellDecomposition\"",
+          "occurrences": 1
+        },
+        {
+          "value": "\"decompositionData\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/opposite_walls/system/decomposeParDict",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "coeffs/delta",
+      "keyword": "delta",
+      "context": "coeffs",
+      "path": "coeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerSolitary/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "coeffs/domains",
+      "keyword": "domains",
+      "context": "coeffs",
+      "path": "coeffs/domains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "IO/cavity_parProfiling/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "coeffs/domainWeights",
+      "keyword": "domainWeights",
+      "context": "coeffs",
+      "path": "coeffs/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "IO/cavity_parProfiling/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "coeffs/n",
+      "keyword": "n",
+      "context": "coeffs",
+      "path": "coeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 230,
+      "fileCount": 230,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/left/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/right/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld2/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "coeffs/order",
+      "keyword": "order",
+      "context": "coeffs",
+      "path": "coeffs/order",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "xyz",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerSolitary/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints",
+      "keyword": "constraints",
+      "context": "",
+      "path": "constraints",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/twoBlocks-processorAgglom/system/decomposeParDict",
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/decomposeParDict",
+        "lagrangian/reactingParcelFoam/filter/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/faces",
+      "keyword": "faces",
+      "context": "constraints",
+      "path": "constraints/faces",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/decomposeParDict",
+        "lagrangian/reactingParcelFoam/filter/system/decomposeParDict",
+        "mesh/parallel/filter/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/faces/enabled",
+      "keyword": "enabled",
+      "context": "constraints/faces",
+      "path": "constraints/faces/enabled",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/faces/type",
+      "keyword": "type",
+      "context": "constraints/faces",
+      "path": "constraints/faces/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "preserveFaceZones",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/decomposeParDict",
+        "lagrangian/reactingParcelFoam/filter/system/decomposeParDict",
+        "mesh/parallel/filter/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/faces/zones",
+      "keyword": "zones",
+      "context": "constraints/faces",
+      "path": "constraints/faces/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/cpuCabinet/system/decomposeParDict",
+        "lagrangian/reactingParcelFoam/filter/system/decomposeParDict",
+        "mesh/parallel/filter/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/patches",
+      "keyword": "patches",
+      "context": "constraints",
+      "path": "constraints/patches",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/twoBlocks-processorAgglom/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/patches/patches",
+      "keyword": "patches",
+      "context": "constraints/patches",
+      "path": "constraints/patches/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/twoBlocks-processorAgglom/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/patches/type",
+      "keyword": "type",
+      "context": "constraints/patches",
+      "path": "constraints/patches/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "preservePatches",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/twoBlocks-processorAgglom/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/preservePatches",
+      "keyword": "preservePatches",
+      "context": "constraints",
+      "path": "constraints/preservePatches",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/decomposeParDict",
+        "multiphase/interIsoFoam/discInConstantFlowCyclicBCs/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/preservePatches/patches",
+      "keyword": "patches",
+      "context": "constraints/preservePatches",
+      "path": "constraints/preservePatches/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/decomposeParDict",
+        "multiphase/interIsoFoam/discInConstantFlowCyclicBCs/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/preservePatches/type",
+      "keyword": "type",
+      "context": "constraints/preservePatches",
+      "path": "constraints/preservePatches/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "preservePatches",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/decomposeParDict",
+        "multiphase/interIsoFoam/discInConstantFlowCyclicBCs/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/refinementHistory",
+      "keyword": "refinementHistory",
+      "context": "constraints",
+      "path": "constraints/refinementHistory",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/motorBike/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/refinementHistory/type",
+      "keyword": "type",
+      "context": "constraints/refinementHistory",
+      "path": "constraints/refinementHistory/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "refinementHistory",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/motorBike/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "distributed",
+      "keyword": "distributed",
+      "context": "",
+      "path": "distributed",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/fork-uneven/flowRate/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/fork-uneven/flowRatePartition/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/fork-uneven/uniformityPatch/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/decomposeParDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/left/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/right/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 353
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/decomposeParDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/left/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/right/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 353
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/decomposeParDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/left/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/right/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "\"system\"",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/damBreakWithObstacle/system/decomposeParDict",
+        "multiphase/interIsoFoam/discInConstantFlowCyclicBCs/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/note",
+      "keyword": "note",
+      "context": "FoamFile",
+      "path": "FoamFile/note",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "\"mesh decomposition control dictionary\"",
+          "occurrences": 15
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld2/slab2/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld2/slab3/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld2/slab4/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [
+        {
+          "value": "decomposeParDict",
+          "occurrences": 352
+        },
+        {
+          "value": "decompositionDict",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/decomposeParDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/left/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/right/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/decomposeParDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/left/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/right/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "hierarchicalCoeffs",
+      "keyword": "hierarchicalCoeffs",
+      "context": "",
+      "path": "hierarchicalCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "hierarchicalCoeffs/delta",
+      "keyword": "delta",
+      "context": "hierarchicalCoeffs",
+      "path": "hierarchicalCoeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "hierarchicalCoeffs/n",
+      "keyword": "n",
+      "context": "hierarchicalCoeffs",
+      "path": "hierarchicalCoeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "hierarchicalCoeffs/order",
+      "keyword": "order",
+      "context": "hierarchicalCoeffs",
+      "path": "hierarchicalCoeffs/order",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "xyz",
+          "occurrences": 14
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "manualCoeffs",
+      "keyword": "manualCoeffs",
+      "context": "",
+      "path": "manualCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "manualCoeffs/dataFile",
+      "keyword": "dataFile",
+      "context": "manualCoeffs",
+      "path": "manualCoeffs/dataFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "\"\"",
+          "occurrences": 14
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "method",
+      "keyword": "method",
+      "context": "",
+      "path": "method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [
+        {
+          "value": "hierarchical",
+          "occurrences": 159
+        },
+        {
+          "value": "scotch",
+          "occurrences": 123
+        },
+        {
+          "value": "simple",
+          "occurrences": 69
+        },
+        {
+          "value": "random",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/decomposeParDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/left/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/right/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "metisCoeffs",
+      "keyword": "metisCoeffs",
+      "context": "",
+      "path": "metisCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "n",
+      "keyword": "n",
+      "context": "",
+      "path": "n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/decomposeParDict",
+        "basic/laplacianFoam/twoBlocks-processorAgglom/system/decomposeParDict",
+        "basic/simpleFoam/implicitAMI/system/decomposeParDict",
+        "incompressible/simpleFoam/pitzDaily_fused/system/decomposeParDict",
+        "mesh/snappyHexMesh/insidePoints/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "numberOfSubdomains",
+      "keyword": "numberOfSubdomains",
+      "context": "",
+      "path": "numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/decomposeParDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/common/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/left/system/decomposeParDict",
+        "basic/laplacianFoam/multiWorld1/right/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions",
+      "keyword": "regions",
+      "context": "",
+      "path": "regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions/{region}",
+      "keyword": "heater",
+      "context": "regions",
+      "path": "regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions/{region}/coeffs",
+      "keyword": "coeffs",
+      "context": "regions/{region}",
+      "path": "regions/{region}/coeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions/{region}/coeffs/n",
+      "keyword": "n",
+      "context": "regions/{region}/coeffs",
+      "path": "regions/{region}/coeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions/{region}/method",
+      "keyword": "method",
+      "context": "regions/{region}",
+      "path": "regions/{region}/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "simple",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions/{region}/numberOfSubdomains",
+      "keyword": "numberOfSubdomains",
+      "context": "regions/{region}",
+      "path": "regions/{region}/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/decomposeParDict",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "roots",
+      "keyword": "roots",
+      "context": "",
+      "path": "roots",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "scotchCoeffs",
+      "keyword": "scotchCoeffs",
+      "context": "",
+      "path": "scotchCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "simpleCoeffs",
+      "keyword": "simpleCoeffs",
+      "context": "",
+      "path": "simpleCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "simpleCoeffs/delta",
+      "keyword": "delta",
+      "context": "simpleCoeffs",
+      "path": "simpleCoeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    },
+    {
+      "key": "simpleCoeffs/n",
+      "keyword": "n",
+      "context": "simpleCoeffs",
+      "path": "simpleCoeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/decomposeParDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/decomposeParDict"
+      ]
+    }
+  ]
+}

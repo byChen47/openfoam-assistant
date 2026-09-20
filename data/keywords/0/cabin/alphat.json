@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "cabin/alphat",
+  "sourceFileCount": 2,
+  "occurrences": 48,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 10,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/Prt",
+      "keyword": "Prt",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Prt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "calculated",
+          "occurrences": 4
+        },
+        {
+          "value": "compressible::alphatWallFunction",
+          "occurrences": 4
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "binary",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "alphat",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/cabin/alphat",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/0.orig/cabin/alphat"
+      ]
+    }
+  ]
+}

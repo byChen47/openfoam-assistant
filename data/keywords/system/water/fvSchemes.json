@@ -1,0 +1,585 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "water/fvSchemes",
+  "sourceFileCount": 1,
+  "occurrences": 31,
+  "entries": [
+    {
+      "key": "ddtSchemes",
+      "keyword": "ddtSchemes",
+      "context": "",
+      "path": "ddtSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "ddtSchemes/default",
+      "keyword": "default",
+      "context": "ddtSchemes",
+      "path": "ddtSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Euler",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes",
+      "keyword": "divSchemes",
+      "context": "",
+      "path": "divSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/default",
+      "keyword": "default",
+      "context": "divSchemes",
+      "path": "divSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div((((alpha.**thermo:rho.*)*nuEff.*)*dev2(T(grad(U.*)))))",
+      "keyword": "div((((alpha.**thermo:rho.*)*nuEff.*)*dev2(T(grad(U.*)))))",
+      "context": "divSchemes",
+      "path": "divSchemes/div((((alpha.**thermo:rho.*)*nuEff.*)*dev2(T(grad(U.*)))))",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaPhi.*,p)",
+      "keyword": "div(alphaPhi.*,p)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaPhi.*,p)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,(h|e|f).*)",
+      "keyword": "div(alphaRhoPhi.*,(h|e|f).*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,(h|e|f).*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,(k|epsilon).*)",
+      "keyword": "div(alphaRhoPhi.*,(k|epsilon).*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,(k|epsilon).*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,K.*)",
+      "keyword": "div(alphaRhoPhi.*,K.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,K.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,U.*)",
+      "keyword": "div(alphaRhoPhi.*,U.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,U.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,Yi)",
+      "keyword": "div(alphaRhoPhi.*,Yi)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,Yi)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phi,alpha.*)",
+      "keyword": "div(phi,alpha.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phi,alpha.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss vanLeer",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phi.*,U.*)",
+      "keyword": "div(phi.*,U.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phi.*,U.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phim,(k|epsilon)m)",
+      "keyword": "div(phim,(k|epsilon)m)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phim,(k|epsilon)m)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phir,alpha.*)",
+      "keyword": "div(phir,alpha.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phir,alpha.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss vanLeer",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fvSchemes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes",
+      "keyword": "gradSchemes",
+      "context": "",
+      "path": "gradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/default",
+      "keyword": "default",
+      "context": "gradSchemes",
+      "path": "gradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes",
+      "keyword": "interpolationSchemes",
+      "context": "",
+      "path": "interpolationSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes/default",
+      "keyword": "default",
+      "context": "interpolationSchemes",
+      "path": "interpolationSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "linear",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes",
+      "keyword": "laplacianSchemes",
+      "context": "",
+      "path": "laplacianSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/default",
+      "keyword": "default",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss linear corrected",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes",
+      "keyword": "snGradSchemes",
+      "context": "",
+      "path": "snGradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes/default",
+      "keyword": "default",
+      "context": "snGradSchemes",
+      "path": "snGradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "corrected",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist",
+      "keyword": "wallDist",
+      "context": "",
+      "path": "wallDist",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/method",
+      "keyword": "method",
+      "context": "wallDist",
+      "path": "wallDist/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "meshWave",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/nRequired",
+      "keyword": "nRequired",
+      "context": "wallDist",
+      "path": "wallDist/nRequired",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/fvSchemes"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "floor/changeDictionaryDict",
+  "sourceFileCount": 2,
+  "occurrences": 92,
+  "entries": [
+    {
+      "key": "dictionaryReplacement",
+      "keyword": "dictionaryReplacement",
+      "context": "",
+      "path": "dictionaryReplacement",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/boundary",
+      "keyword": "boundary",
+      "context": "dictionaryReplacement",
+      "path": "dictionaryReplacement/boundary",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/boundary/floor_to_domain3",
+      "keyword": "floor_to_domain3",
+      "context": "dictionaryReplacement/boundary",
+      "path": "dictionaryReplacement/boundary/floor_to_domain3",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/boundary/floor_to_domain3/type",
+      "keyword": "type",
+      "context": "dictionaryReplacement/boundary/floor_to_domain3",
+      "path": "dictionaryReplacement/boundary/floor_to_domain3/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T",
+      "keyword": "T",
+      "context": "dictionaryReplacement",
+      "path": "dictionaryReplacement/T",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField",
+      "keyword": "boundaryField",
+      "context": "dictionaryReplacement/T",
+      "path": "dictionaryReplacement/T/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "dictionaryReplacement/T/boundaryField",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 10,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/h",
+      "keyword": "h",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/h",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 10e5",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/kappa",
+      "keyword": "kappa",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/kappa",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/kappaLayers",
+      "keyword": "kappaLayers",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/kappaLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/kappaMethod",
+      "keyword": "kappaMethod",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/kappaMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "solidThermo",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/mode",
+      "keyword": "mode",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "coefficient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/qr",
+      "keyword": "qr",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/qr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/qrNbr",
+      "keyword": "qrNbr",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/qrNbr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 2
+        },
+        {
+          "value": "qr",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/Ta",
+      "keyword": "Ta",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/Ta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 313.0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/thermalInertia",
+      "keyword": "thermalInertia",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/thermalInertia",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/thicknessLayers",
+      "keyword": "thicknessLayers",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/thicknessLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/Tnbr",
+      "keyword": "Tnbr",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/Tnbr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "T",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "compressible::turbulentTemperatureRadCoupledMixed",
+          "occurrences": 4
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 4
+        },
+        {
+          "value": "externalWallHeatFluxTemperature",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "dictionaryReplacement/T/boundaryField/{patch}",
+      "path": "dictionaryReplacement/T/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 8
+        },
+        {
+          "value": "uniform 300.0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement/T/internalField",
+      "keyword": "internalField",
+      "context": "dictionaryReplacement/T",
+      "path": "dictionaryReplacement/T/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "changeDictionaryDict",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/floor/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/floor/changeDictionaryDict"
+      ]
+    }
+  ]
+}

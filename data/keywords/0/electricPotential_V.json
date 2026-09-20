@@ -1,0 +1,432 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "electricPotential_V",
+  "sourceFileCount": 1,
+  "occurrences": 29,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "metalSheet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/CoulombicEfficiency",
+      "keyword": "CoulombicEfficiency",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/CoulombicEfficiency",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 2.14e-08",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/h",
+      "keyword": "h",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/h",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/jMin",
+      "keyword": "jMin",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/jMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phases",
+      "keyword": "phases",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phases",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phases/alpha.air",
+      "keyword": "alpha.air",
+      "context": "boundaryField/{patch}/phases",
+      "path": "boundaryField/{patch}/phases/alpha.air",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phases/alpha.air/sigma",
+      "keyword": "sigma",
+      "context": "boundaryField/{patch}/phases/alpha.air",
+      "path": "boundaryField/{patch}/phases/alpha.air/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phases/alpha.water",
+      "keyword": "alpha.water",
+      "context": "boundaryField/{patch}/phases",
+      "path": "boundaryField/{patch}/phases/alpha.water",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phases/alpha.water/sigma",
+      "keyword": "sigma",
+      "context": "boundaryField/{patch}/phases/alpha.water",
+      "path": "boundaryField/{patch}/phases/alpha.water/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/qCumulative",
+      "keyword": "qCumulative",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/qCumulative",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/qMin",
+      "keyword": "qMin",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/qMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/Rbody",
+      "keyword": "Rbody",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Rbody",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/resistivity",
+      "keyword": "resistivity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/resistivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 3.00e+06",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "electrostaticDeposition",
+          "occurrences": 1
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 1
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 100",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/Vi",
+      "keyword": "Vi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Vi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "electricPotential:V",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/0.orig/electricPotential_V"
+      ]
+    }
+  ]
+}

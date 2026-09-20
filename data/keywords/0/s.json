@@ -1,0 +1,277 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "s",
+  "sourceFileCount": 4,
+  "occurrences": 77,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 16,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 16,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 6
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 5
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 4
+        },
+        {
+          "value": "empty",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "s",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/0/s",
+        "incompressible/pisoFoam/LES/pitzDaily/0/s",
+        "multiphase/interFoam/RAS/angledDuct/0.orig/s",
+        "multiphase/interFoam/RAS/waterChannel/0.orig/s"
+      ]
+    }
+  ]
+}

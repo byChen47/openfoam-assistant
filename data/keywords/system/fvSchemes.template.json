@@ -1,0 +1,479 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "fvSchemes.template",
+  "sourceFileCount": 3,
+  "occurrences": 62,
+  "entries": [
+    {
+      "key": "ddtSchemes",
+      "keyword": "ddtSchemes",
+      "context": "",
+      "path": "ddtSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "ddtSchemes/default",
+      "keyword": "default",
+      "context": "ddtSchemes",
+      "path": "ddtSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "steadyState",
+          "occurrences": 2
+        },
+        {
+          "value": "Euler",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "divSchemes",
+      "keyword": "divSchemes",
+      "context": "",
+      "path": "divSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "divSchemes/default",
+      "keyword": "default",
+      "context": "divSchemes",
+      "path": "divSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "divSchemes/div",
+      "keyword": "div",
+      "context": "divSchemes",
+      "path": "divSchemes/div",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "divSchemes/turbulence",
+      "keyword": "turbulence",
+      "context": "divSchemes",
+      "path": "divSchemes/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "bounded GAUSS limitedLinear 1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"system\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "fvSchemes",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "gradSchemes",
+      "keyword": "gradSchemes",
+      "context": "",
+      "path": "gradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "gradSchemes/default",
+      "keyword": "default",
+      "context": "gradSchemes",
+      "path": "gradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 1
+        },
+        {
+          "value": "GAUSS linear",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "gradSchemes/grad",
+      "keyword": "grad",
+      "context": "gradSchemes",
+      "path": "gradSchemes/grad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "interpolationSchemes",
+      "keyword": "interpolationSchemes",
+      "context": "",
+      "path": "interpolationSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "interpolationSchemes/default",
+      "keyword": "default",
+      "context": "interpolationSchemes",
+      "path": "interpolationSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "linear",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "laplacianSchemes",
+      "keyword": "laplacianSchemes",
+      "context": "",
+      "path": "laplacianSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/default",
+      "keyword": "default",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "GAUSS linear corrected",
+          "occurrences": 1
+        },
+        {
+          "value": "Gauss linear orthogonal",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/laplacian",
+      "keyword": "laplacian",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/laplacian",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "snGradSchemes",
+      "keyword": "snGradSchemes",
+      "context": "",
+      "path": "snGradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "snGradSchemes/default",
+      "keyword": "default",
+      "context": "snGradSchemes",
+      "path": "snGradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "corrected",
+          "occurrences": 2
+        },
+        {
+          "value": "orthogonal",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template",
+        "verificationAndValidation/schemes/divergenceExample/system/fvSchemes.template",
+        "verificationAndValidation/schemes/weightedFluxExample/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "wallDist",
+      "keyword": "wallDist",
+      "context": "",
+      "path": "wallDist",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template"
+      ]
+    },
+    {
+      "key": "wallDist/method",
+      "keyword": "method",
+      "context": "wallDist",
+      "path": "wallDist/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "meshWave",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSchemes.template"
+      ]
+    }
+  ]
+}

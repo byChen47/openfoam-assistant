@@ -1,0 +1,774 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "finite-area/faOptions",
+  "sourceFileCount": 3,
+  "occurrences": 51,
+  "entries": [
+    {
+      "key": "contact",
+      "keyword": "contact",
+      "context": "",
+      "path": "contact",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "contact/active",
+      "keyword": "active",
+      "context": "contact",
+      "path": "contact/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "contact/kappaLayers",
+      "keyword": "kappaLayers",
+      "context": "contact",
+      "path": "contact/kappaLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "contact/kappaMethod",
+      "keyword": "kappaMethod",
+      "context": "contact",
+      "path": "contact/kappaMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fluidThermo",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "contact/region",
+      "keyword": "region",
+      "context": "contact",
+      "path": "contact/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "upper",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "contact/selectionMode",
+      "keyword": "selectionMode",
+      "context": "contact",
+      "path": "contact/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "all",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "contact/thicknessLayers",
+      "keyword": "thicknessLayers",
+      "context": "contact",
+      "path": "contact/thicknessLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "contact/type",
+      "keyword": "type",
+      "context": "contact",
+      "path": "contact/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "contactHeatFluxSource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "faOptions",
+          "occurrences": 2
+        },
+        {
+          "value": "faOPtions",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "limitHeight1",
+      "keyword": "limitHeight1",
+      "context": "",
+      "path": "limitHeight1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "limitHeight1/active",
+      "keyword": "active",
+      "context": "limitHeight1",
+      "path": "limitHeight1/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "limitHeight1/h",
+      "keyword": "h",
+      "context": "limitHeight1",
+      "path": "limitHeight1/h",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "hf_film",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "limitHeight1/max",
+      "keyword": "max",
+      "context": "limitHeight1",
+      "path": "limitHeight1/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "limitHeight1/region",
+      "keyword": "region",
+      "context": "limitHeight1",
+      "path": "limitHeight1/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "velocityFilmShell",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "limitHeight1/selectionMode",
+      "keyword": "selectionMode",
+      "context": "limitHeight1",
+      "path": "limitHeight1/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "all",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "limitHeight1/type",
+      "keyword": "type",
+      "context": "limitHeight1",
+      "path": "limitHeight1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "limitHeight",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "outside",
+      "keyword": "outside",
+      "context": "",
+      "path": "outside",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "outside/active",
+      "keyword": "active",
+      "context": "outside",
+      "path": "outside/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "outside/h",
+      "keyword": "h",
+      "context": "outside",
+      "path": "outside/h",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "outside/mode",
+      "keyword": "mode",
+      "context": "outside",
+      "path": "outside/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "coefficient",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "outside/region",
+      "keyword": "region",
+      "context": "outside",
+      "path": "outside/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "upper",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "outside/selectionMode",
+      "keyword": "selectionMode",
+      "context": "outside",
+      "path": "outside/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "all",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "outside/Ta",
+      "keyword": "Ta",
+      "context": "outside",
+      "path": "outside/Ta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant 290",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "outside/type",
+      "keyword": "type",
+      "context": "outside",
+      "path": "outside/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "externalHeatFluxSource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure",
+      "keyword": "pressure",
+      "context": "",
+      "path": "pressure",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/active",
+      "keyword": "active",
+      "context": "pressure",
+      "path": "pressure/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/duration",
+      "keyword": "duration",
+      "context": "pressure",
+      "path": "pressure/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/fieldName",
+      "keyword": "fieldName",
+      "context": "pressure",
+      "path": "pressure/fieldName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ws",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/filterRadius",
+      "keyword": "filterRadius",
+      "context": "pressure",
+      "path": "pressure/filterRadius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/filterSweeps",
+      "keyword": "filterSweeps",
+      "context": "pressure",
+      "path": "pressure/filterSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/region",
+      "keyword": "region",
+      "context": "pressure",
+      "path": "pressure/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "vibration",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/sampleFile",
+      "keyword": "sampleFile",
+      "context": "pressure",
+      "path": "pressure/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"<constant>/sampled/window/windowPatch.case\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/sampleFormat",
+      "keyword": "sampleFormat",
+      "context": "pressure",
+      "path": "pressure/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ensight",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/selectionMode",
+      "keyword": "selectionMode",
+      "context": "pressure",
+      "path": "pressure/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "all",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/tableName",
+      "keyword": "tableName",
+      "context": "pressure",
+      "path": "pressure/tableName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "p",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/timeStart",
+      "keyword": "timeStart",
+      "context": "pressure",
+      "path": "pressure/timeStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    },
+    {
+      "key": "pressure/type",
+      "keyword": "type",
+      "context": "pressure",
+      "path": "pressure/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "externalFileSource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faOptions"
+      ]
+    }
+  ]
+}

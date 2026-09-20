@@ -1,0 +1,662 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "FOs/FOmultiFieldValue",
+  "sourceFileCount": 1,
+  "occurrences": 50,
+  "entries": [
+    {
+      "key": "multiFieldValue_add",
+      "keyword": "multiFieldValue_add",
+      "context": "",
+      "path": "multiFieldValue_add",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/enabled",
+      "keyword": "enabled",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/enabled",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/executeControl",
+      "keyword": "executeControl",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/executeControl",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "timeStep",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/executeInterval",
+      "keyword": "executeInterval",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/executeInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions",
+      "keyword": "functions",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/functions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}",
+      "keyword": "movingWallEpsilon",
+      "context": "multiFieldValue_add/functions",
+      "path": "multiFieldValue_add/functions/{function}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}/fields",
+      "keyword": "fields",
+      "context": "multiFieldValue_add/functions/{function}",
+      "path": "multiFieldValue_add/functions/{function}/fields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}/functionObject",
+      "keyword": "functionObject",
+      "context": "multiFieldValue_add/functions/{function}",
+      "path": "multiFieldValue_add/functions/{function}/functionObject",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "sampleEpsilon1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}/log",
+      "keyword": "log",
+      "context": "multiFieldValue_add/functions/{function}",
+      "path": "multiFieldValue_add/functions/{function}/log",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 2
+        },
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}/name",
+      "keyword": "name",
+      "context": "multiFieldValue_add/functions/{function}",
+      "path": "multiFieldValue_add/functions/{function}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fixedWalls",
+          "occurrences": 1
+        },
+        {
+          "value": "movingWall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}/operation",
+      "keyword": "operation",
+      "context": "multiFieldValue_add/functions/{function}",
+      "path": "multiFieldValue_add/functions/{function}/operation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "areaAverage",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}/regionType",
+      "keyword": "regionType",
+      "context": "multiFieldValue_add/functions/{function}",
+      "path": "multiFieldValue_add/functions/{function}/regionType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}/resultFields",
+      "keyword": "resultFields",
+      "context": "multiFieldValue_add/functions/{function}",
+      "path": "multiFieldValue_add/functions/{function}/resultFields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}/type",
+      "keyword": "type",
+      "context": "multiFieldValue_add/functions/{function}",
+      "path": "multiFieldValue_add/functions/{function}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "surfaceFieldValue",
+          "occurrences": 2
+        },
+        {
+          "value": "valueAverage",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}/writeFields",
+      "keyword": "writeFields",
+      "context": "multiFieldValue_add/functions/{function}",
+      "path": "multiFieldValue_add/functions/{function}/writeFields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/functions/{function}/writeToFile",
+      "keyword": "writeToFile",
+      "context": "multiFieldValue_add/functions/{function}",
+      "path": "multiFieldValue_add/functions/{function}/writeToFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/libs",
+      "keyword": "libs",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/libs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/log",
+      "keyword": "log",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/log",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/operation",
+      "keyword": "operation",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/operation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "add",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/region",
+      "keyword": "region",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "region0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/timeEnd",
+      "keyword": "timeEnd",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/timeEnd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/timeStart",
+      "keyword": "timeStart",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/timeStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/type",
+      "keyword": "type",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "multiFieldValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/useUserTime",
+      "keyword": "useUserTime",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/useUserTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/writeControl",
+      "keyword": "writeControl",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/writeControl",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "writeTime",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/writeInterval",
+      "keyword": "writeInterval",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/writeInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/writePrecision",
+      "keyword": "writePrecision",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/writePrecision",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_add/writeToFile",
+      "keyword": "writeToFile",
+      "context": "multiFieldValue_add",
+      "path": "multiFieldValue_add/writeToFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "multiFieldValue_sum",
+      "keyword": "multiFieldValue_sum",
+      "context": "",
+      "path": "multiFieldValue_sum",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "sampleEpsilon1",
+      "keyword": "sampleEpsilon1",
+      "context": "",
+      "path": "sampleEpsilon1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "sampleEpsilon1/fields",
+      "keyword": "fields",
+      "context": "sampleEpsilon1",
+      "path": "sampleEpsilon1/fields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "sampleEpsilon1/interpolationScheme",
+      "keyword": "interpolationScheme",
+      "context": "sampleEpsilon1",
+      "path": "sampleEpsilon1/interpolationScheme",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cellPointFace",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "sampleEpsilon1/libs",
+      "keyword": "libs",
+      "context": "sampleEpsilon1",
+      "path": "sampleEpsilon1/libs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "sampleEpsilon1/setFormat",
+      "keyword": "setFormat",
+      "context": "sampleEpsilon1",
+      "path": "sampleEpsilon1/setFormat",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "raw",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "sampleEpsilon1/sets",
+      "keyword": "sets",
+      "context": "sampleEpsilon1",
+      "path": "sampleEpsilon1/sets",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    },
+    {
+      "key": "sampleEpsilon1/type",
+      "keyword": "type",
+      "context": "sampleEpsilon1",
+      "path": "sampleEpsilon1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "sets",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOmultiFieldValue"
+      ]
+    }
+  ]
+}

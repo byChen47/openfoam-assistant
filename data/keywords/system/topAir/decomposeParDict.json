@@ -1,0 +1,434 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "topAir/decomposeParDict",
+  "sourceFileCount": 8,
+  "occurrences": 78,
+  "entries": [
+    {
+      "key": "coeffs",
+      "keyword": "coeffs",
+      "context": "",
+      "path": "coeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "coeffs/dataFile",
+      "keyword": "dataFile",
+      "context": "coeffs",
+      "path": "coeffs/dataFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"decompositionData\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "coeffs/n",
+      "keyword": "n",
+      "context": "coeffs",
+      "path": "coeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints",
+      "keyword": "constraints",
+      "context": "",
+      "path": "constraints",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/faces",
+      "keyword": "faces",
+      "context": "constraints",
+      "path": "constraints/faces",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/faces/enabled",
+      "keyword": "enabled",
+      "context": "constraints/faces",
+      "path": "constraints/faces/enabled",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/faces/type",
+      "keyword": "type",
+      "context": "constraints/faces",
+      "path": "constraints/faces/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "preserveFaceZones",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "constraints/faces/zones",
+      "keyword": "zones",
+      "context": "constraints/faces",
+      "path": "constraints/faces/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/note",
+      "keyword": "note",
+      "context": "FoamFile",
+      "path": "FoamFile/note",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"mesh decomposition control dictionary\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "decomposeParDict",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "method",
+      "keyword": "method",
+      "context": "",
+      "path": "method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "scotch",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "numberOfSubdomains",
+      "keyword": "numberOfSubdomains",
+      "context": "",
+      "path": "numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions",
+      "keyword": "regions",
+      "context": "",
+      "path": "regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions/{region}",
+      "keyword": "heater",
+      "context": "regions",
+      "path": "regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions/{region}/coeffs",
+      "keyword": "coeffs",
+      "context": "regions/{region}",
+      "path": "regions/{region}/coeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions/{region}/coeffs/n",
+      "keyword": "n",
+      "context": "regions/{region}/coeffs",
+      "path": "regions/{region}/coeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions/{region}/method",
+      "keyword": "method",
+      "context": "regions/{region}",
+      "path": "regions/{region}/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "simple",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "regions/{region}/numberOfSubdomains",
+      "keyword": "numberOfSubdomains",
+      "context": "regions/{region}",
+      "path": "regions/{region}/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/decomposeParDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/decomposeParDict"
+      ]
+    },
+    {
+      "key": "scotchCoeffs",
+      "keyword": "scotchCoeffs",
+      "context": "",
+      "path": "scotchCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/topAir/decomposeParDict"
+      ]
+    }
+  ]
+}

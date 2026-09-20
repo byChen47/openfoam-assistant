@@ -1,0 +1,343 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "pyrolysisRegion/qr",
+  "sourceFileCount": 1,
+  "occurrences": 22,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "coupledWall_top",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/average",
+      "keyword": "average",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/average",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/field",
+      "keyword": "field",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/field",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "qr",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/offset",
+      "keyword": "offset",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/offset",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/sampleMode",
+      "keyword": "sampleMode",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/sampleMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "nearestPatchFace",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/samplePatch",
+      "keyword": "samplePatch",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/samplePatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "region0_to_pyrolysisRegion_coupledWall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/sampleRegion",
+      "keyword": "sampleRegion",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/sampleRegion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "region0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/setAverage",
+      "keyword": "setAverage",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/setAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "empty",
+          "occurrences": 1
+        },
+        {
+          "value": "mappedField",
+          "occurrences": 1
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "qr",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/pyrolysisRegion/qr"
+      ]
+    }
+  ]
+}

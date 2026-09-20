@@ -1,0 +1,453 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "cabin/fvSchemes",
+  "sourceFileCount": 2,
+  "occurrences": 68,
+  "entries": [
+    {
+      "key": "ddtSchemes",
+      "keyword": "ddtSchemes",
+      "context": "",
+      "path": "ddtSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "ddtSchemes/default",
+      "keyword": "default",
+      "context": "ddtSchemes",
+      "path": "ddtSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "Euler",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes",
+      "keyword": "divSchemes",
+      "context": "",
+      "path": "divSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/default",
+      "keyword": "default",
+      "context": "divSchemes",
+      "path": "divSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div",
+      "keyword": "div",
+      "context": "divSchemes",
+      "path": "divSchemes/div",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/turbulence",
+      "keyword": "turbulence",
+      "context": "divSchemes",
+      "path": "divSchemes/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "fvSchemes",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes",
+      "keyword": "gradSchemes",
+      "context": "",
+      "path": "gradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/default",
+      "keyword": "default",
+      "context": "gradSchemes",
+      "path": "gradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/grad",
+      "keyword": "grad",
+      "context": "gradSchemes",
+      "path": "gradSchemes/grad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes",
+      "keyword": "interpolationSchemes",
+      "context": "",
+      "path": "interpolationSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes/default",
+      "keyword": "default",
+      "context": "interpolationSchemes",
+      "path": "interpolationSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "linear",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes/directionalPressureGradient::Uf",
+      "keyword": "directionalPressureGradient::Uf",
+      "context": "interpolationSchemes",
+      "path": "interpolationSchemes/directionalPressureGradient::Uf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "upwind phi",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes",
+      "keyword": "laplacianSchemes",
+      "context": "",
+      "path": "laplacianSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/default",
+      "keyword": "default",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/laplacian",
+      "keyword": "laplacian",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/laplacian",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes",
+      "keyword": "snGradSchemes",
+      "context": "",
+      "path": "snGradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes/default",
+      "keyword": "default",
+      "context": "snGradSchemes",
+      "path": "snGradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "corrected",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist",
+      "keyword": "wallDist",
+      "context": "",
+      "path": "wallDist",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/method",
+      "keyword": "method",
+      "context": "wallDist",
+      "path": "wallDist/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "meshWave",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/system/cabin/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/windshieldDefrost/system/cabin/fvSchemes"
+      ]
+    }
+  ]
+}

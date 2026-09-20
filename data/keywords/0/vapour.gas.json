@@ -1,0 +1,269 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "vapour.gas",
+  "sourceFileCount": 4,
+  "occurrences": 80,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "bottom",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 20,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 13
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 4
+        },
+        {
+          "value": "empty",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "vapour.gas",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/vapour.gas",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/0.orig/vapour.gas"
+      ]
+    }
+  ]
+}

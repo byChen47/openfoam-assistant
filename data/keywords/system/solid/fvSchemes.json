@@ -1,0 +1,405 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "solid/fvSchemes",
+  "sourceFileCount": 5,
+  "occurrences": 91,
+  "entries": [
+    {
+      "key": "ddtSchemes",
+      "keyword": "ddtSchemes",
+      "context": "",
+      "path": "ddtSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "ddtSchemes/default",
+      "keyword": "default",
+      "context": "ddtSchemes",
+      "path": "ddtSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "Euler",
+          "occurrences": 3
+        },
+        {
+          "value": "steadyState",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes",
+      "keyword": "divSchemes",
+      "context": "",
+      "path": "divSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/default",
+      "keyword": "default",
+      "context": "divSchemes",
+      "path": "divSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "fvSchemes",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes",
+      "keyword": "gradSchemes",
+      "context": "",
+      "path": "gradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/default",
+      "keyword": "default",
+      "context": "gradSchemes",
+      "path": "gradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes",
+      "keyword": "interpolationSchemes",
+      "context": "",
+      "path": "interpolationSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes/default",
+      "keyword": "default",
+      "context": "interpolationSchemes",
+      "path": "interpolationSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "linear",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes",
+      "keyword": "laplacianSchemes",
+      "context": "",
+      "path": "laplacianSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/default",
+      "keyword": "default",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/laplacian",
+      "keyword": "laplacian",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/laplacian",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes",
+      "keyword": "snGradSchemes",
+      "context": "",
+      "path": "snGradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes/default",
+      "keyword": "default",
+      "context": "snGradSchemes",
+      "path": "snGradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "corrected",
+          "occurrences": 4
+        },
+        {
+          "value": "uncorrected",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/reverseBurner/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionSimpleFoam/jouleHeatingSolid/system/solid/fvSchemes",
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/solid/fvSchemes"
+      ]
+    }
+  ]
+}

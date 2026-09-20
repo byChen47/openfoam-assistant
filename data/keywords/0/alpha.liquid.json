@@ -1,0 +1,328 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "alpha.liquid",
+  "sourceFileCount": 20,
+  "occurrences": 379,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "wall",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 84,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phi",
+      "keyword": "phi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "phi.liquid",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/0.orig/alpha.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/alpha.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 82,
+      "fileCount": 20,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 29
+        },
+        {
+          "value": "calculated",
+          "occurrences": 20
+        },
+        {
+          "value": "empty",
+          "occurrences": 14
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 13
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 4
+        },
+        {
+          "value": "cyclicAMI",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 37,
+      "fileCount": 16,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 21
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 9
+        },
+        {
+          "value": "uniform 0.5",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 20
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 20
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [
+        {
+          "value": "alpha.liquid",
+          "occurrences": 20
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 12
+        },
+        {
+          "value": "uniform 1",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/alpha.liquid",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/0.orig/alpha.liquid"
+      ]
+    }
+  ]
+}

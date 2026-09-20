@@ -1,0 +1,429 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "leftSolid/fvSchemes",
+  "sourceFileCount": 9,
+  "occurrences": 163,
+  "entries": [
+    {
+      "key": "ddtSchemes",
+      "keyword": "ddtSchemes",
+      "context": "",
+      "path": "ddtSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "ddtSchemes/default",
+      "keyword": "default",
+      "context": "ddtSchemes",
+      "path": "ddtSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "Euler",
+          "occurrences": 7
+        },
+        {
+          "value": "steadyState",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes",
+      "keyword": "divSchemes",
+      "context": "",
+      "path": "divSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/default",
+      "keyword": "default",
+      "context": "divSchemes",
+      "path": "divSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"system/leftSolid\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "fvSchemes",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes",
+      "keyword": "gradSchemes",
+      "context": "",
+      "path": "gradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/default",
+      "keyword": "default",
+      "context": "gradSchemes",
+      "path": "gradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes",
+      "keyword": "interpolationSchemes",
+      "context": "",
+      "path": "interpolationSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes/default",
+      "keyword": "default",
+      "context": "interpolationSchemes",
+      "path": "interpolationSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "linear",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes",
+      "keyword": "laplacianSchemes",
+      "context": "",
+      "path": "laplacianSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/default",
+      "keyword": "default",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/laplacian",
+      "keyword": "laplacian",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/laplacian",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes",
+      "keyword": "snGradSchemes",
+      "context": "",
+      "path": "snGradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes/default",
+      "keyword": "default",
+      "context": "snGradSchemes",
+      "path": "snGradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "corrected",
+          "occurrences": 5
+        },
+        {
+          "value": "uncorrected",
+          "occurrences": 3
+        },
+        {
+          "value": "limited corrected 0.333",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/leftSolid/fvSchemes",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/leftSolid/fvSchemes"
+      ]
+    }
+  ]
+}

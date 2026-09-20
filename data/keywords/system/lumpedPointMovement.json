@@ -1,0 +1,575 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "lumpedPointMovement",
+  "sourceFileCount": 2,
+  "occurrences": 61,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication",
+      "keyword": "communication",
+      "context": "",
+      "path": "communication",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/commsDir",
+      "keyword": "commsDir",
+      "context": "communication",
+      "path": "communication/commsDir",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "\"comms\"",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/debugTable",
+      "keyword": "debugTable",
+      "context": "communication",
+      "path": "communication/debugTable",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "\"<case>/output.txt\"",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/initByExternal",
+      "keyword": "initByExternal",
+      "context": "communication",
+      "path": "communication/initByExternal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/inputFormat",
+      "keyword": "inputFormat",
+      "context": "communication",
+      "path": "communication/inputFormat",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/inputName",
+      "keyword": "inputName",
+      "context": "communication",
+      "path": "communication/inputName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "positions.in",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/log",
+      "keyword": "log",
+      "context": "communication",
+      "path": "communication/log",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/logName",
+      "keyword": "logName",
+      "context": "communication",
+      "path": "communication/logName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "movement.log",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/outputFormat",
+      "keyword": "outputFormat",
+      "context": "communication",
+      "path": "communication/outputFormat",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/outputName",
+      "keyword": "outputName",
+      "context": "communication",
+      "path": "communication/outputName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "forces.out",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/scaleInput",
+      "keyword": "scaleInput",
+      "context": "communication",
+      "path": "communication/scaleInput",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/scaleInput/length",
+      "keyword": "length",
+      "context": "communication/scaleInput",
+      "path": "communication/scaleInput/length",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/scaleOutput",
+      "keyword": "scaleOutput",
+      "context": "communication",
+      "path": "communication/scaleOutput",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/scaleOutput/force",
+      "keyword": "force",
+      "context": "communication/scaleOutput",
+      "path": "communication/scaleOutput/force",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/scaleOutput/length",
+      "keyword": "length",
+      "context": "communication/scaleOutput",
+      "path": "communication/scaleOutput/length",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/scaleOutput/moment",
+      "keyword": "moment",
+      "context": "communication/scaleOutput",
+      "path": "communication/scaleOutput/moment",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/timeOut",
+      "keyword": "timeOut",
+      "context": "communication",
+      "path": "communication/timeOut",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "communication/waitInterval",
+      "keyword": "waitInterval",
+      "context": "communication",
+      "path": "communication/waitInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "\"system\"",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "lumpedPointMovement",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "forces",
+      "keyword": "forces",
+      "context": "",
+      "path": "forces",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "forces/p",
+      "keyword": "p",
+      "context": "forces",
+      "path": "forces/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "p",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "forces/pRef",
+      "keyword": "pRef",
+      "context": "forces",
+      "path": "forces/pRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "forces/rhoRef",
+      "keyword": "rhoRef",
+      "context": "forces",
+      "path": "forces/rhoRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "origin",
+      "keyword": "origin",
+      "context": "",
+      "path": "origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    },
+    {
+      "key": "relax",
+      "keyword": "relax",
+      "context": "",
+      "path": "relax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/lumpedPointMovement",
+        "incompressible/lumpedPointMotion/building/steady/system/lumpedPointMovement"
+      ]
+    }
+  ]
+}

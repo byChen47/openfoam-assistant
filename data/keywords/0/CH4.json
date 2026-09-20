@@ -1,0 +1,577 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "CH4",
+  "sourceFileCount": 15,
+  "occurrences": 337,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "#remove",
+      "keyword": "#remove",
+      "context": "",
+      "path": "#remove",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "outlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 71,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/c",
+      "keyword": "c",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/c",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/equilibriumModel",
+      "keyword": "equilibriumModel",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/equilibriumModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Langmuir",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/rhoReactingFoam/groundAbsorption/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 16,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "uniform 0.0",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/kabs",
+      "keyword": "kabs",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kabs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/rhoReactingFoam/groundAbsorption/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/kinematicModel",
+      "keyword": "kinematicModel",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kinematicModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "PseudoFirstOrder",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/rhoReactingFoam/groundAbsorption/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/kl",
+      "keyword": "kl",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kl",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/rhoReactingFoam/groundAbsorption/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/massFluxFraction",
+      "keyword": "massFluxFraction",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/massFluxFraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/max",
+      "keyword": "max",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/rhoReactingFoam/groundAbsorption/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phi",
+      "keyword": "phi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "phi",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/rho",
+      "keyword": "rho",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "rho",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/rhoS",
+      "keyword": "rhoS",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rhoS",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/rhoReactingFoam/groundAbsorption/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/samplePatch",
+      "keyword": "samplePatch",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/samplePatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "membranePipe",
+          "occurrences": 1
+        },
+        {
+          "value": "membraneSleeve",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/thickness",
+      "keyword": "thickness",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/thickness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 1e-3",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/rhoReactingFoam/groundAbsorption/0.orig/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 71,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 23
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 16
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 13
+        },
+        {
+          "value": "empty",
+          "occurrences": 10
+        },
+        {
+          "value": "wedge",
+          "occurrences": 4
+        },
+        {
+          "value": "semiPermeableBaffleMassFraction",
+          "occurrences": 2
+        },
+        {
+          "value": "speciesSorption",
+          "occurrences": 1
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 1
+        },
+        {
+          "value": "totalFlowRateAdvectiveDiffusive",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 43,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "uniform 0.0",
+          "occurrences": 10
+        },
+        {
+          "value": "uniform 1.0",
+          "occurrences": 8
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 1",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 0.1561",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.245642",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 15
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 15
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "CH4",
+          "occurrences": 15
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 9
+        },
+        {
+          "value": "uniform 0.0",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/CH4",
+        "combustion/fireFoam/LES/smallPoolFire3D/0.orig/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/CH4",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/CH4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,462 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "epsilon.gas",
+  "sourceFileCount": 7,
+  "occurrences": 193,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 32,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/average",
+      "keyword": "average",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/average",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/Cmu",
+      "keyword": "Cmu",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Cmu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/E",
+      "keyword": "E",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/E",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/field",
+      "keyword": "field",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/field",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "epsilon.gas",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "uniform 0.001",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/interpolationScheme",
+      "keyword": "interpolationScheme",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/interpolationScheme",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/kappa",
+      "keyword": "kappa",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kappa",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phi",
+      "keyword": "phi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "phi.gas",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/setAverage",
+      "keyword": "setAverage",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/setAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 32,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "epsilonWallFunction",
+          "occurrences": 12
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 7
+        },
+        {
+          "value": "empty",
+          "occurrences": 6
+        },
+        {
+          "value": "mapped",
+          "occurrences": 5
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 21,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "uniform 0.001",
+          "occurrences": 10
+        },
+        {
+          "value": "uniform 0.01",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "epsilon.gas",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "uniform 0.001",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 1.5e-4",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-3",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/epsilon.gas",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/0.orig/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/epsilon.gas",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/epsilon.gas"
+      ]
+    }
+  ]
+}

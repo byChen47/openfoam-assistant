@@ -1,0 +1,1026 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "extrudeMeshDict",
+  "sourceFileCount": 17,
+  "occurrences": 368,
+  "entries": [
+    {
+      "key": "constructFrom",
+      "keyword": "constructFrom",
+      "context": "",
+      "path": "constructFrom",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 9
+        },
+        {
+          "value": "surface",
+          "occurrences": 5
+        },
+        {
+          "value": "mesh",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "direction",
+      "keyword": "direction",
+      "context": "",
+      "path": "direction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "expansionRatio",
+      "keyword": "expansionRatio",
+      "context": "",
+      "path": "expansionRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overSimpleFoam/aeroFoil/aeroFoil_overset/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "exposedPatchName",
+      "keyword": "exposedPatchName",
+      "context": "",
+      "path": "exposedPatchName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "movingWall",
+          "occurrences": 4
+        },
+        {
+          "value": "front",
+          "occurrences": 3
+        },
+        {
+          "value": "symBack",
+          "occurrences": 3
+        },
+        {
+          "value": "back",
+          "occurrences": 2
+        },
+        {
+          "value": "fixedWall",
+          "occurrences": 1
+        },
+        {
+          "value": "ZMax",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "extrudeModel",
+      "keyword": "extrudeModel",
+      "context": "",
+      "path": "extrudeModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "linearNormal",
+          "occurrences": 10
+        },
+        {
+          "value": "linearDirection",
+          "occurrences": 4
+        },
+        {
+          "value": "wedge",
+          "occurrences": 2
+        },
+        {
+          "value": "polyline",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "flipNormals",
+      "keyword": "flipNormals",
+      "context": "",
+      "path": "flipNormals",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 16
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "extrudeMeshDict",
+          "occurrences": 16
+        },
+        {
+          "value": "extrudeProperties",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "linearDirectionCoeffs",
+      "keyword": "linearDirectionCoeffs",
+      "context": "",
+      "path": "linearDirectionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "linearDirectionCoeffs/direction",
+      "keyword": "direction",
+      "context": "linearDirectionCoeffs",
+      "path": "linearDirectionCoeffs/direction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "linearDirectionCoeffs/thickness",
+      "keyword": "thickness",
+      "context": "linearDirectionCoeffs",
+      "path": "linearDirectionCoeffs/thickness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "linearNormalCoeffs",
+      "keyword": "linearNormalCoeffs",
+      "context": "",
+      "path": "linearNormalCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overSimpleFoam/aeroFoil/aeroFoil_overset/system/extrudeMeshDict",
+        "incompressible/overSimpleFoam/aeroFoil/background_overset/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "linearNormalCoeffs/thickness",
+      "keyword": "thickness",
+      "context": "linearNormalCoeffs",
+      "path": "linearNormalCoeffs/thickness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overSimpleFoam/aeroFoil/aeroFoil_overset/system/extrudeMeshDict",
+        "incompressible/overSimpleFoam/aeroFoil/background_overset/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "linearRadialCoeffs",
+      "keyword": "linearRadialCoeffs",
+      "context": "",
+      "path": "linearRadialCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "linearRadialCoeffs/R",
+      "keyword": "R",
+      "context": "linearRadialCoeffs",
+      "path": "linearRadialCoeffs/R",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "linearRadialCoeffs/Rsurface",
+      "keyword": "Rsurface",
+      "context": "linearRadialCoeffs",
+      "path": "linearRadialCoeffs/Rsurface",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "mergeFaces",
+      "keyword": "mergeFaces",
+      "context": "",
+      "path": "mergeFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "mergeTol",
+      "keyword": "mergeTol",
+      "context": "",
+      "path": "mergeTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overSimpleFoam/aeroFoil/aeroFoil_overset/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "nLayers",
+      "keyword": "nLayers",
+      "context": "",
+      "path": "nLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overSimpleFoam/aeroFoil/aeroFoil_overset/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "offsetSurfaceCoeffs",
+      "keyword": "offsetSurfaceCoeffs",
+      "context": "",
+      "path": "offsetSurfaceCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "offsetSurfaceCoeffs/baseSurface",
+      "keyword": "baseSurface",
+      "context": "offsetSurfaceCoeffs",
+      "path": "offsetSurfaceCoeffs/baseSurface",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "\"<constant>/triSurface/DTC-scaled-inflated.obj\"",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "offsetSurfaceCoeffs/offsetSurface",
+      "keyword": "offsetSurface",
+      "context": "offsetSurfaceCoeffs",
+      "path": "offsetSurfaceCoeffs/offsetSurface",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "\"<constant>/triSurface/DTC-scaled.obj\"",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "planeCoeffs",
+      "keyword": "planeCoeffs",
+      "context": "",
+      "path": "planeCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "planeCoeffs/nLayers",
+      "keyword": "nLayers",
+      "context": "planeCoeffs",
+      "path": "planeCoeffs/nLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "polylineCoeffs",
+      "keyword": "polylineCoeffs",
+      "context": "",
+      "path": "polylineCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/extrudeMesh/polyline/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "polylineCoeffs/#else",
+      "keyword": "#else",
+      "context": "polylineCoeffs",
+      "path": "polylineCoeffs/#else",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/extrudeMesh/polyline/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "polylineCoeffs/#endif",
+      "keyword": "#endif",
+      "context": "polylineCoeffs",
+      "path": "polylineCoeffs/#endif",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/extrudeMesh/polyline/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "polylineCoeffs/#if",
+      "keyword": "#if",
+      "context": "polylineCoeffs",
+      "path": "polylineCoeffs/#if",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/extrudeMesh/polyline/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "polylineCoeffs/edges",
+      "keyword": "edges",
+      "context": "polylineCoeffs",
+      "path": "polylineCoeffs/edges",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/extrudeMesh/polyline/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "polylineCoeffs/toleranceCheck",
+      "keyword": "toleranceCheck",
+      "context": "polylineCoeffs",
+      "path": "polylineCoeffs/toleranceCheck",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/extrudeMesh/polyline/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "polylineCoeffs/vertices",
+      "keyword": "vertices",
+      "context": "polylineCoeffs",
+      "path": "polylineCoeffs/vertices",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/extrudeMesh/polyline/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "radialCoeffs",
+      "keyword": "radialCoeffs",
+      "context": "",
+      "path": "radialCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "radialCoeffs/R",
+      "keyword": "R",
+      "context": "radialCoeffs",
+      "path": "radialCoeffs/R",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sectorCoeffs",
+      "keyword": "sectorCoeffs",
+      "context": "",
+      "path": "sectorCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict",
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sectorCoeffs/angle",
+      "keyword": "angle",
+      "context": "sectorCoeffs",
+      "path": "sectorCoeffs/angle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict",
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sectorCoeffs/axis",
+      "keyword": "axis",
+      "context": "sectorCoeffs",
+      "path": "sectorCoeffs/axis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict",
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sectorCoeffs/point",
+      "keyword": "point",
+      "context": "sectorCoeffs",
+      "path": "sectorCoeffs/point",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict",
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sigmaRadialCoeffs",
+      "keyword": "sigmaRadialCoeffs",
+      "context": "",
+      "path": "sigmaRadialCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sigmaRadialCoeffs/pRef",
+      "keyword": "pRef",
+      "context": "sigmaRadialCoeffs",
+      "path": "sigmaRadialCoeffs/pRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sigmaRadialCoeffs/pStrat",
+      "keyword": "pStrat",
+      "context": "sigmaRadialCoeffs",
+      "path": "sigmaRadialCoeffs/pStrat",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sigmaRadialCoeffs/RTbyg",
+      "keyword": "RTbyg",
+      "context": "sigmaRadialCoeffs",
+      "path": "sigmaRadialCoeffs/RTbyg",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sourceCase",
+      "keyword": "sourceCase",
+      "context": "",
+      "path": "sourceCase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [
+        {
+          "value": "\"<case>\"",
+          "occurrences": 7
+        },
+        {
+          "value": "\"../cavity\"",
+          "occurrences": 4
+        },
+        {
+          "value": "\"../aeroFoil_snappyHexMesh\"",
+          "occurrences": 1
+        },
+        {
+          "value": "\"../background_snappyHexMesh\"",
+          "occurrences": 1
+        },
+        {
+          "value": "\"../box_snappyHexMesh\"",
+          "occurrences": 1
+        },
+        {
+          "value": "\"../main\"",
+          "occurrences": 1
+        },
+        {
+          "value": "\"../wingMotion_snappyHexMesh\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sourceFaceZones",
+      "keyword": "sourceFaceZones",
+      "context": "",
+      "path": "sourceFaceZones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/extrudeMesh/faceZoneExtrusion/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "sourcePatches",
+      "keyword": "sourcePatches",
+      "context": "",
+      "path": "sourcePatches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "surface",
+      "keyword": "surface",
+      "context": "",
+      "path": "surface",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "\"<constant>/triSurface/cylinder.vtk\"",
+          "occurrences": 4
+        },
+        {
+          "value": "\"<constant>/triSurface/channel.vtk\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderMesh/system/extrudeMeshDict",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderMesh/system/extrudeMeshDict",
+        "mesh/extrudeMesh/polyline/system/extrudeMeshDict",
+        "mesh/refineMesh/cylinder/system/extrudeMeshDict"
+      ]
+    },
+    {
+      "key": "thickness",
+      "keyword": "thickness",
+      "context": "",
+      "path": "thickness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/extrudeMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/extrudeMeshDict",
+        "mesh/extrudeMesh/faceZoneExtrusion/system/extrudeMeshDict"
+      ]
+    }
+  ]
+}

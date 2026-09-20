@@ -1,0 +1,225 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "PDRMeshDict",
+  "sourceFileCount": 1,
+  "occurrences": 12,
+  "entries": [
+    {
+      "key": "blockedCells",
+      "keyword": "blockedCells",
+      "context": "",
+      "path": "blockedCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "blockedCellsSet",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "blockedFaces",
+      "keyword": "blockedFaces",
+      "context": "",
+      "path": "blockedFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "coupledFaces",
+      "keyword": "coupledFaces",
+      "context": "",
+      "path": "coupledFaces",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "coupledFaces/coupledFacesSet",
+      "keyword": "coupledFacesSet",
+      "context": "coupledFaces",
+      "path": "coupledFaces/coupledFacesSet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "coupledFaces/coupledFacesSet/cyclicMasterPatch",
+      "keyword": "cyclicMasterPatch",
+      "context": "coupledFaces/coupledFacesSet",
+      "path": "coupledFaces/coupledFacesSet/cyclicMasterPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "baffleCyclic_half0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "coupledFaces/coupledFacesSet/wallPatch",
+      "keyword": "wallPatch",
+      "context": "coupledFaces/coupledFacesSet",
+      "path": "coupledFaces/coupledFacesSet/wallPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "baffleWall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "defaultPatch",
+      "keyword": "defaultPatch",
+      "context": "",
+      "path": "defaultPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "outer",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "PDRMeshDict",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/system/PDRMeshDict"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "U.air",
+  "sourceFileCount": 30,
+  "occurrences": 551,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/column/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/column/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "walls",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 106,
+      "fileCount": 30,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/column/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/column/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/alpha",
+      "keyword": "alpha",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "alpha.air",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICFoam/Goldschmidt/0/U.air",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/fluidisedBed/0.orig/U.air",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/fluidisedBed/0.orig/U.air",
+        "multiphase/twoPhaseEulerFoam/laminar/fluidisedBed/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air",
+        "lagrangian/MPPICFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICFoam/injectionChannel/0/U.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletVelocity",
+      "keyword": "inletVelocity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletVelocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICFoam/Goldschmidt/0/U.air",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/fluidisedBed/0.orig/U.air",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/fluidisedBed/0.orig/U.air",
+        "multiphase/twoPhaseEulerFoam/laminar/fluidisedBed/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phi",
+      "keyword": "phi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 23,
+      "fileCount": 21,
+      "values": [
+        {
+          "value": "phi.air",
+          "occurrences": 23
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air",
+        "lagrangian/MPPICFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICFoam/injectionChannel/0/U.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 106,
+      "fileCount": 30,
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 28
+        },
+        {
+          "value": "noSlip",
+          "occurrences": 26
+        },
+        {
+          "value": "pressureInletOutletVelocity",
+          "occurrences": 20
+        },
+        {
+          "value": "empty",
+          "occurrences": 15
+        },
+        {
+          "value": "interstitialInletVelocity",
+          "occurrences": 6
+        },
+        {
+          "value": "symmetry",
+          "occurrences": 5
+        },
+        {
+          "value": "cyclicAMI",
+          "occurrences": 2
+        },
+        {
+          "value": "fluxCorrectedVelocity",
+          "occurrences": 2
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 1
+        },
+        {
+          "value": "movingWallVelocity",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/column/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/column/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 60,
+      "fileCount": 24,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air",
+        "lagrangian/MPPICFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICFoam/injectionChannel/0/U.air"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/column/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/column/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/column/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/column/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [
+        {
+          "value": "volVectorField",
+          "occurrences": 30
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/column/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/column/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 29
+        },
+        {
+          "value": "binary",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/column/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/column/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [
+        {
+          "value": "U.air",
+          "occurrences": 27
+        },
+        {
+          "value": "U",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/column/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/column/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/column/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/column/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/0/U.air",
+        "lagrangian/MPPICDyMFoam/column/0/U.air",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/0/U.air",
+        "lagrangian/MPPICFoam/column/0/U.air",
+        "lagrangian/MPPICFoam/cyclone/0.orig/U.air"
+      ]
+    }
+  ]
+}

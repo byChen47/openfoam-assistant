@@ -1,0 +1,3271 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "fvOptions",
+  "sourceFileCount": 41,
+  "occurrences": 567,
+  "entries": [
+    {
+      "key": "__templateHeatSource",
+      "keyword": "__templateHeatSource",
+      "context": "",
+      "path": "__templateHeatSource",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "__templateHeatSource/active",
+      "keyword": "active",
+      "context": "__templateHeatSource",
+      "path": "__templateHeatSource/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "__templateHeatSource/type",
+      "keyword": "type",
+      "context": "__templateHeatSource",
+      "path": "__templateHeatSource/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "scalarSemiImplicitSource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource",
+      "keyword": "acousticDampingSource",
+      "context": "",
+      "path": "acousticDampingSource",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/acousticDampingSourceCoeffs",
+      "keyword": "acousticDampingSourceCoeffs",
+      "context": "acousticDampingSource",
+      "path": "acousticDampingSource/acousticDampingSourceCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/acousticDampingSourceCoeffs/duration",
+      "keyword": "duration",
+      "context": "acousticDampingSource/acousticDampingSourceCoeffs",
+      "path": "acousticDampingSource/acousticDampingSourceCoeffs/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/acousticDampingSourceCoeffs/frequency",
+      "keyword": "frequency",
+      "context": "acousticDampingSource/acousticDampingSourceCoeffs",
+      "path": "acousticDampingSource/acousticDampingSourceCoeffs/frequency",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/acousticDampingSourceCoeffs/origin",
+      "keyword": "origin",
+      "context": "acousticDampingSource/acousticDampingSourceCoeffs",
+      "path": "acousticDampingSource/acousticDampingSourceCoeffs/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/acousticDampingSourceCoeffs/radius1",
+      "keyword": "radius1",
+      "context": "acousticDampingSource/acousticDampingSourceCoeffs",
+      "path": "acousticDampingSource/acousticDampingSourceCoeffs/radius1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/acousticDampingSourceCoeffs/radius2",
+      "keyword": "radius2",
+      "context": "acousticDampingSource/acousticDampingSourceCoeffs",
+      "path": "acousticDampingSource/acousticDampingSourceCoeffs/radius2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/acousticDampingSourceCoeffs/selectionMode",
+      "keyword": "selectionMode",
+      "context": "acousticDampingSource/acousticDampingSourceCoeffs",
+      "path": "acousticDampingSource/acousticDampingSourceCoeffs/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "all",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/acousticDampingSourceCoeffs/timeStart",
+      "keyword": "timeStart",
+      "context": "acousticDampingSource/acousticDampingSourceCoeffs",
+      "path": "acousticDampingSource/acousticDampingSourceCoeffs/timeStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/acousticDampingSourceCoeffs/URef",
+      "keyword": "URef",
+      "context": "acousticDampingSource/acousticDampingSourceCoeffs",
+      "path": "acousticDampingSource/acousticDampingSourceCoeffs/URef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "UMean",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/active",
+      "keyword": "active",
+      "context": "acousticDampingSource",
+      "path": "acousticDampingSource/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "acousticDampingSource/type",
+      "keyword": "type",
+      "context": "acousticDampingSource",
+      "path": "acousticDampingSource/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "acousticDampingSource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions"
+      ]
+    },
+    {
+      "key": "damp",
+      "keyword": "damp",
+      "context": "",
+      "path": "damp",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvOptions"
+      ]
+    },
+    {
+      "key": "damp/active",
+      "keyword": "active",
+      "context": "damp",
+      "path": "damp/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvOptions"
+      ]
+    },
+    {
+      "key": "damp/selectionMode",
+      "keyword": "selectionMode",
+      "context": "damp",
+      "path": "damp/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "all",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvOptions"
+      ]
+    },
+    {
+      "key": "damp/type",
+      "keyword": "type",
+      "context": "damp",
+      "path": "damp/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "velocityDampingConstraint",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvOptions"
+      ]
+    },
+    {
+      "key": "damp/UMax",
+      "keyword": "UMax",
+      "context": "damp",
+      "path": "damp/UMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvOptions"
+      ]
+    },
+    {
+      "key": "dampVelocity",
+      "keyword": "dampVelocity",
+      "context": "",
+      "path": "dampVelocity",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "dampVelocity/active",
+      "keyword": "active",
+      "context": "dampVelocity",
+      "path": "dampVelocity/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "dampVelocity/type",
+      "keyword": "type",
+      "context": "dampVelocity",
+      "path": "dampVelocity/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "velocityDampingConstraint",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "dampVelocity/velocityDampingConstraintCoeffs",
+      "keyword": "velocityDampingConstraintCoeffs",
+      "context": "dampVelocity",
+      "path": "dampVelocity/velocityDampingConstraintCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "dampVelocity/velocityDampingConstraintCoeffs/selectionMode",
+      "keyword": "selectionMode",
+      "context": "dampVelocity/velocityDampingConstraintCoeffs",
+      "path": "dampVelocity/velocityDampingConstraintCoeffs/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "all",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "dampVelocity/velocityDampingConstraintCoeffs/UMax",
+      "keyword": "UMax",
+      "context": "dampVelocity/velocityDampingConstraintCoeffs",
+      "path": "dampVelocity/velocityDampingConstraintCoeffs/UMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk",
+      "keyword": "disk",
+      "context": "",
+      "path": "disk",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/axis",
+      "keyword": "axis",
+      "context": "disk",
+      "path": "disk/axis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/blade",
+      "keyword": "blade",
+      "context": "disk",
+      "path": "disk/blade",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/blade/data",
+      "keyword": "data",
+      "context": "disk/blade",
+      "path": "disk/blade/data",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/cellZone",
+      "keyword": "cellZone",
+      "context": "disk",
+      "path": "disk/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "rotatingZone",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/fields",
+      "keyword": "fields",
+      "context": "disk",
+      "path": "disk/fields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/fixedTrimCoeffs",
+      "keyword": "fixedTrimCoeffs",
+      "context": "disk",
+      "path": "disk/fixedTrimCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/fixedTrimCoeffs/theta0",
+      "keyword": "theta0",
+      "context": "disk/fixedTrimCoeffs",
+      "path": "disk/fixedTrimCoeffs/theta0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/fixedTrimCoeffs/theta1c",
+      "keyword": "theta1c",
+      "context": "disk/fixedTrimCoeffs",
+      "path": "disk/fixedTrimCoeffs/theta1c",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/fixedTrimCoeffs/theta1s",
+      "keyword": "theta1s",
+      "context": "disk/fixedTrimCoeffs",
+      "path": "disk/fixedTrimCoeffs/theta1s",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/flapCoeffs",
+      "keyword": "flapCoeffs",
+      "context": "disk",
+      "path": "disk/flapCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/flapCoeffs/beta0",
+      "keyword": "beta0",
+      "context": "disk/flapCoeffs",
+      "path": "disk/flapCoeffs/beta0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/flapCoeffs/beta1c",
+      "keyword": "beta1c",
+      "context": "disk/flapCoeffs",
+      "path": "disk/flapCoeffs/beta1c",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/flapCoeffs/beta2s",
+      "keyword": "beta2s",
+      "context": "disk/flapCoeffs",
+      "path": "disk/flapCoeffs/beta2s",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/geometryMode",
+      "keyword": "geometryMode",
+      "context": "disk",
+      "path": "disk/geometryMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "specified",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/inletFlowType",
+      "keyword": "inletFlowType",
+      "context": "disk",
+      "path": "disk/inletFlowType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "local",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/inletVelocity",
+      "keyword": "inletVelocity",
+      "context": "disk",
+      "path": "disk/inletVelocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/nBlades",
+      "keyword": "nBlades",
+      "context": "disk",
+      "path": "disk/nBlades",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/origin",
+      "keyword": "origin",
+      "context": "disk",
+      "path": "disk/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/profiles",
+      "keyword": "profiles",
+      "context": "disk",
+      "path": "disk/profiles",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/profiles/profile1",
+      "keyword": "profile1",
+      "context": "disk/profiles",
+      "path": "disk/profiles/profile1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/profiles/profile1/data",
+      "keyword": "data",
+      "context": "disk/profiles/profile1",
+      "path": "disk/profiles/profile1/data",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/profiles/profile1/type",
+      "keyword": "type",
+      "context": "disk/profiles/profile1",
+      "path": "disk/profiles/profile1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "lookup",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/refDirection",
+      "keyword": "refDirection",
+      "context": "disk",
+      "path": "disk/refDirection",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/rhoInf",
+      "keyword": "rhoInf",
+      "context": "disk",
+      "path": "disk/rhoInf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/rhoRef",
+      "keyword": "rhoRef",
+      "context": "disk",
+      "path": "disk/rhoRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/rpm",
+      "keyword": "rpm",
+      "context": "disk",
+      "path": "disk/rpm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/selectionMode",
+      "keyword": "selectionMode",
+      "context": "disk",
+      "path": "disk/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "cellZone",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/tipEffect",
+      "keyword": "tipEffect",
+      "context": "disk",
+      "path": "disk/tipEffect",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/trimModel",
+      "keyword": "trimModel",
+      "context": "disk",
+      "path": "disk/trimModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "fixedTrim",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "disk/type",
+      "keyword": "type",
+      "context": "disk",
+      "path": "disk/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "rotorDisk",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvOptions",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvOptions"
+      ]
+    },
+    {
+      "key": "energySource1",
+      "keyword": "energySource1",
+      "context": "",
+      "path": "energySource1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "energySource1/active",
+      "keyword": "active",
+      "context": "energySource1",
+      "path": "energySource1/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "energySource1/duration",
+      "keyword": "duration",
+      "context": "energySource1",
+      "path": "energySource1/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "energySource1/points",
+      "keyword": "points",
+      "context": "energySource1",
+      "path": "energySource1/points",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "energySource1/selectionMode",
+      "keyword": "selectionMode",
+      "context": "energySource1",
+      "path": "energySource1/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "points",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "energySource1/sources",
+      "keyword": "sources",
+      "context": "energySource1",
+      "path": "energySource1/sources",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "energySource1/sources/h",
+      "keyword": "h",
+      "context": "energySource1/sources",
+      "path": "energySource1/sources/h",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "energySource1/timeStart",
+      "keyword": "timeStart",
+      "context": "energySource1",
+      "path": "energySource1/timeStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "energySource1/type",
+      "keyword": "type",
+      "context": "energySource1",
+      "path": "energySource1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "scalarSemiImplicitSource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "energySource1/volumeMode",
+      "keyword": "volumeMode",
+      "context": "energySource1",
+      "path": "energySource1/volumeMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "absolute",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "eqSource",
+      "keyword": "eqSource",
+      "context": "",
+      "path": "eqSource",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_20x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/losses/system/fvOptions"
+      ]
+    },
+    {
+      "key": "eqSource/b",
+      "keyword": "b",
+      "context": "eqSource",
+      "path": "eqSource/b",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/losses/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/losses-massConstr/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/uniformity-losses/system/fvOptions"
+      ]
+    },
+    {
+      "key": "eqSource/function",
+      "keyword": "function",
+      "context": "eqSource",
+      "path": "eqSource/function",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [
+        {
+          "value": "linear",
+          "occurrences": 7
+        },
+        {
+          "value": "BorrvallPetersson",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_20x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/losses/system/fvOptions"
+      ]
+    },
+    {
+      "key": "eqSource/interpolationField",
+      "keyword": "interpolationField",
+      "context": "eqSource",
+      "path": "eqSource/interpolationField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [
+        {
+          "value": "beta",
+          "occurrences": 10
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_20x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/losses/system/fvOptions"
+      ]
+    },
+    {
+      "key": "eqSource/names",
+      "keyword": "names",
+      "context": "eqSource",
+      "path": "eqSource/names",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_20x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/losses/system/fvOptions"
+      ]
+    },
+    {
+      "key": "eqSource/type",
+      "keyword": "type",
+      "context": "eqSource",
+      "path": "eqSource/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [
+        {
+          "value": "topOSource",
+          "occurrences": 10
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_20x_NB_01/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/losses/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1",
+      "keyword": "filter1",
+      "context": "",
+      "path": "filter1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/active",
+      "keyword": "active",
+      "context": "filter1",
+      "path": "filter1/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs",
+      "keyword": "explicitPorositySourceCoeffs",
+      "context": "filter1",
+      "path": "filter1/explicitPorositySourceCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs/cellZone",
+      "keyword": "cellZone",
+      "context": "filter1/explicitPorositySourceCoeffs",
+      "path": "filter1/explicitPorositySourceCoeffs/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "filter",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs",
+      "keyword": "DarcyForchheimerCoeffs",
+      "context": "filter1/explicitPorositySourceCoeffs",
+      "path": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem",
+      "keyword": "coordinateSystem",
+      "context": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs",
+      "path": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/e1",
+      "keyword": "e1",
+      "context": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem",
+      "path": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/e1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/e2",
+      "keyword": "e2",
+      "context": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem",
+      "path": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/e2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/origin",
+      "keyword": "origin",
+      "context": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem",
+      "path": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/d",
+      "keyword": "d",
+      "context": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs",
+      "path": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/d",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/f",
+      "keyword": "f",
+      "context": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs",
+      "path": "filter1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/f",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs/selectionMode",
+      "keyword": "selectionMode",
+      "context": "filter1/explicitPorositySourceCoeffs",
+      "path": "filter1/explicitPorositySourceCoeffs/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cellZone",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/explicitPorositySourceCoeffs/type",
+      "keyword": "type",
+      "context": "filter1/explicitPorositySourceCoeffs",
+      "path": "filter1/explicitPorositySourceCoeffs/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "DarcyForchheimer",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "filter1/type",
+      "keyword": "type",
+      "context": "filter1",
+      "path": "filter1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "explicitPorositySource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 41,
+      "fileCount": 41,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions",
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 41,
+      "fileCount": 41,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 41
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions",
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 41,
+      "fileCount": 41,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 41
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions",
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"system\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 41,
+      "fileCount": 41,
+      "values": [
+        {
+          "value": "fvOptions",
+          "occurrences": 41
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions",
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 41,
+      "fileCount": 41,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvOptions",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions",
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1",
+      "keyword": "heater1",
+      "context": "",
+      "path": "heater1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1/active",
+      "keyword": "active",
+      "context": "heater1",
+      "path": "heater1/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1/cellZone",
+      "keyword": "cellZone",
+      "context": "heater1",
+      "path": "heater1/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "heater",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1/duration",
+      "keyword": "duration",
+      "context": "heater1",
+      "path": "heater1/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1/selectionMode",
+      "keyword": "selectionMode",
+      "context": "heater1",
+      "path": "heater1/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cellZone",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1/sources",
+      "keyword": "sources",
+      "context": "heater1",
+      "path": "heater1/sources",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1/sources/H2O",
+      "keyword": "H2O",
+      "context": "heater1/sources",
+      "path": "heater1/sources/H2O",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1/sources/rho",
+      "keyword": "rho",
+      "context": "heater1/sources",
+      "path": "heater1/sources/rho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1/timeStart",
+      "keyword": "timeStart",
+      "context": "heater1",
+      "path": "heater1/timeStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1/type",
+      "keyword": "type",
+      "context": "heater1",
+      "path": "heater1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "scalarSemiImplicitSource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heater1/volumeMode",
+      "keyword": "volumeMode",
+      "context": "heater1",
+      "path": "heater1/volumeMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "specific",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "heatSource",
+      "keyword": "heatSource",
+      "context": "",
+      "path": "heatSource",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitT",
+      "keyword": "limitT",
+      "context": "",
+      "path": "limitT",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
+        "lagrangian/simpleReactingParcelFoam/verticalChannel/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitT/max",
+      "keyword": "max",
+      "context": "limitT",
+      "path": "limitT/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
+        "lagrangian/simpleReactingParcelFoam/verticalChannel/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitT/min",
+      "keyword": "min",
+      "context": "limitT",
+      "path": "limitT/min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
+        "lagrangian/simpleReactingParcelFoam/verticalChannel/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitT/selectionMode",
+      "keyword": "selectionMode",
+      "context": "limitT",
+      "path": "limitT/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "all",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
+        "lagrangian/simpleReactingParcelFoam/verticalChannel/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitT/type",
+      "keyword": "type",
+      "context": "limitT",
+      "path": "limitT/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "limitTemperature",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvOptions",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvOptions",
+        "lagrangian/simpleReactingParcelFoam/verticalChannel/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitTAir",
+      "keyword": "limitTAir",
+      "context": "",
+      "path": "limitTAir",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitTAir/active",
+      "keyword": "active",
+      "context": "limitTAir",
+      "path": "limitTAir/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitTAir/max",
+      "keyword": "max",
+      "context": "limitTAir",
+      "path": "limitTAir/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitTAir/min",
+      "keyword": "min",
+      "context": "limitTAir",
+      "path": "limitTAir/min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitTAir/selectionMode",
+      "keyword": "selectionMode",
+      "context": "limitTAir",
+      "path": "limitTAir/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "all",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "limitTAir/type",
+      "keyword": "type",
+      "context": "limitTAir",
+      "path": "limitTAir/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "limitTemperature",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves",
+      "keyword": "Mangroves",
+      "context": "",
+      "path": "Mangroves",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves/active",
+      "keyword": "active",
+      "context": "Mangroves",
+      "path": "Mangroves/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves/multiphaseMangrovesSourceCoeffs",
+      "keyword": "multiphaseMangrovesSourceCoeffs",
+      "context": "Mangroves",
+      "path": "Mangroves/multiphaseMangrovesSourceCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves/multiphaseMangrovesSourceCoeffs/regions",
+      "keyword": "regions",
+      "context": "Mangroves/multiphaseMangrovesSourceCoeffs",
+      "path": "Mangroves/multiphaseMangrovesSourceCoeffs/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}",
+      "keyword": "region1",
+      "context": "Mangroves/multiphaseMangrovesSourceCoeffs/regions",
+      "path": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}/a",
+      "keyword": "a",
+      "context": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}",
+      "path": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}/a",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}/Cd",
+      "keyword": "Cd",
+      "context": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}",
+      "path": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}/Cd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}/cellZone",
+      "keyword": "cellZone",
+      "context": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}",
+      "path": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "c0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}/Cm",
+      "keyword": "Cm",
+      "context": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}",
+      "path": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}/Cm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}/N",
+      "keyword": "N",
+      "context": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}",
+      "path": "Mangroves/multiphaseMangrovesSourceCoeffs/regions/{region}/N",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "Mangroves/type",
+      "keyword": "type",
+      "context": "Mangroves",
+      "path": "Mangroves/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "multiphaseMangrovesSource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1",
+      "keyword": "massSource1",
+      "context": "",
+      "path": "massSource1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1/active",
+      "keyword": "active",
+      "context": "massSource1",
+      "path": "massSource1/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1/duration",
+      "keyword": "duration",
+      "context": "massSource1",
+      "path": "massSource1/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1/points",
+      "keyword": "points",
+      "context": "massSource1",
+      "path": "massSource1/points",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1/selectionMode",
+      "keyword": "selectionMode",
+      "context": "massSource1",
+      "path": "massSource1/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "points",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1/sources",
+      "keyword": "sources",
+      "context": "massSource1",
+      "path": "massSource1/sources",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1/sources/H2O",
+      "keyword": "H2O",
+      "context": "massSource1/sources",
+      "path": "massSource1/sources/H2O",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1/sources/rho",
+      "keyword": "rho",
+      "context": "massSource1/sources",
+      "path": "massSource1/sources/rho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1/timeStart",
+      "keyword": "timeStart",
+      "context": "massSource1",
+      "path": "massSource1/timeStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1/type",
+      "keyword": "type",
+      "context": "massSource1",
+      "path": "massSource1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "scalarSemiImplicitSource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "massSource1/volumeMode",
+      "keyword": "volumeMode",
+      "context": "massSource1",
+      "path": "massSource1/volumeMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "absolute",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource",
+      "keyword": "momentumSource",
+      "context": "",
+      "path": "momentumSource",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/periodicHill/steadyState/system/fvOptions",
+        "incompressible/pimpleFoam/LES/periodicHill/transient/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource/cellZone",
+      "keyword": "cellZone",
+      "context": "momentumSource",
+      "path": "momentumSource/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "inletCellZone",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/periodicHill/steadyState/system/fvOptions",
+        "incompressible/pimpleFoam/LES/periodicHill/transient/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource/fields",
+      "keyword": "fields",
+      "context": "momentumSource",
+      "path": "momentumSource/fields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/periodicHill/steadyState/system/fvOptions",
+        "incompressible/pimpleFoam/LES/periodicHill/transient/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource/selectionMode",
+      "keyword": "selectionMode",
+      "context": "momentumSource",
+      "path": "momentumSource/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "cellZone",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/periodicHill/steadyState/system/fvOptions",
+        "incompressible/pimpleFoam/LES/periodicHill/transient/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource/type",
+      "keyword": "type",
+      "context": "momentumSource",
+      "path": "momentumSource/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "meanVelocityForce",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/periodicHill/steadyState/system/fvOptions",
+        "incompressible/pimpleFoam/LES/periodicHill/transient/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource/Ubar",
+      "keyword": "Ubar",
+      "context": "momentumSource",
+      "path": "momentumSource/Ubar",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/periodicHill/steadyState/system/fvOptions",
+        "incompressible/pimpleFoam/LES/periodicHill/transient/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource1",
+      "keyword": "momentumSource1",
+      "context": "",
+      "path": "momentumSource1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource1/active",
+      "keyword": "active",
+      "context": "momentumSource1",
+      "path": "momentumSource1/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource1/duration",
+      "keyword": "duration",
+      "context": "momentumSource1",
+      "path": "momentumSource1/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource1/points",
+      "keyword": "points",
+      "context": "momentumSource1",
+      "path": "momentumSource1/points",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource1/selectionMode",
+      "keyword": "selectionMode",
+      "context": "momentumSource1",
+      "path": "momentumSource1/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "points",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource1/sources",
+      "keyword": "sources",
+      "context": "momentumSource1",
+      "path": "momentumSource1/sources",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource1/sources/U",
+      "keyword": "U",
+      "context": "momentumSource1/sources",
+      "path": "momentumSource1/sources/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource1/timeStart",
+      "keyword": "timeStart",
+      "context": "momentumSource1",
+      "path": "momentumSource1/timeStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource1/type",
+      "keyword": "type",
+      "context": "momentumSource1",
+      "path": "momentumSource1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "vectorSemiImplicitSource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momentumSource1/volumeMode",
+      "keyword": "volumeMode",
+      "context": "momentumSource1",
+      "path": "momentumSource1/volumeMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "absolute",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/parallel/filter/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momSource",
+      "keyword": "momSource",
+      "context": "",
+      "path": "momSource",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_01x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_02x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_01x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_02x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/porosityBased/R_05x/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momSource/b",
+      "keyword": "b",
+      "context": "momSource",
+      "path": "momSource/b",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet_Dual_Bottleneck/losses-mass-30-70/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet_Dual_Bottleneck/losses-mass-50-50/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet_Dual_Bottleneck/losses-mass-70-30/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses-mass/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momSource/function",
+      "keyword": "function",
+      "context": "momSource",
+      "path": "momSource/function",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "linear",
+          "occurrences": 9
+        },
+        {
+          "value": "BorrvallPetersson",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_01x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_02x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_01x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_02x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/porosityBased/R_05x/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momSource/interpolationField",
+      "keyword": "interpolationField",
+      "context": "momSource",
+      "path": "momSource/interpolationField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "beta",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_01x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_02x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_01x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_02x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/porosityBased/R_05x/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momSource/names",
+      "keyword": "names",
+      "context": "momSource",
+      "path": "momSource/names",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_01x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_02x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_01x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_02x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/porosityBased/R_05x/system/fvOptions"
+      ]
+    },
+    {
+      "key": "momSource/type",
+      "keyword": "type",
+      "context": "momSource",
+      "path": "momSource/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "topOSource",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_01x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_02x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_01x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_02x/system/fvOptions",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/porosityBased/R_05x/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1",
+      "keyword": "porosity1",
+      "context": "",
+      "path": "porosity1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/active",
+      "keyword": "active",
+      "context": "porosity1",
+      "path": "porosity1/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs",
+      "keyword": "explicitPorositySourceCoeffs",
+      "context": "porosity1",
+      "path": "porosity1/explicitPorositySourceCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs/cellZone",
+      "keyword": "cellZone",
+      "context": "porosity1/explicitPorositySourceCoeffs",
+      "path": "porosity1/explicitPorositySourceCoeffs/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "porousZone",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs",
+      "keyword": "DarcyForchheimerCoeffs",
+      "context": "porosity1/explicitPorositySourceCoeffs",
+      "path": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem",
+      "keyword": "coordinateSystem",
+      "context": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs",
+      "path": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/e1",
+      "keyword": "e1",
+      "context": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem",
+      "path": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/e1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/e2",
+      "keyword": "e2",
+      "context": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem",
+      "path": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/e2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/origin",
+      "keyword": "origin",
+      "context": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem",
+      "path": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/coordinateSystem/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/d",
+      "keyword": "d",
+      "context": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs",
+      "path": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/d",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/f",
+      "keyword": "f",
+      "context": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs",
+      "path": "porosity1/explicitPorositySourceCoeffs/DarcyForchheimerCoeffs/f",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs/selectionMode",
+      "keyword": "selectionMode",
+      "context": "porosity1/explicitPorositySourceCoeffs",
+      "path": "porosity1/explicitPorositySourceCoeffs/selectionMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cellZone",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/explicitPorositySourceCoeffs/type",
+      "keyword": "type",
+      "context": "porosity1/explicitPorositySourceCoeffs",
+      "path": "porosity1/explicitPorositySourceCoeffs/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "DarcyForchheimer",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "porosity1/type",
+      "keyword": "type",
+      "context": "porosity1",
+      "path": "porosity1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "explicitPorositySource",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/simpleCar/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves",
+      "keyword": "TurbulenciaMangroves",
+      "context": "",
+      "path": "TurbulenciaMangroves",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/active",
+      "keyword": "active",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs",
+      "keyword": "multiphaseMangrovesTurbulenceModelCoeffs",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions",
+      "keyword": "regions",
+      "context": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs",
+      "path": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}",
+      "keyword": "region1",
+      "context": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions",
+      "path": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/a",
+      "keyword": "a",
+      "context": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}",
+      "path": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/a",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/Cd",
+      "keyword": "Cd",
+      "context": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}",
+      "path": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/Cd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/cellZone",
+      "keyword": "cellZone",
+      "context": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}",
+      "path": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "c0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/Cep",
+      "keyword": "Cep",
+      "context": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}",
+      "path": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/Cep",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/Ckp",
+      "keyword": "Ckp",
+      "context": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}",
+      "path": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/Ckp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/N",
+      "keyword": "N",
+      "context": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}",
+      "path": "TurbulenciaMangroves/multiphaseMangrovesTurbulenceModelCoeffs/regions/{region}/N",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    },
+    {
+      "key": "TurbulenciaMangroves/type",
+      "keyword": "type",
+      "context": "TurbulenciaMangroves",
+      "path": "TurbulenciaMangroves/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "multiphaseMangrovesTurbulenceModel",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/mangroveInteraction/system/fvOptions"
+      ]
+    }
+  ]
+}

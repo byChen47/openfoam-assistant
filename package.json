@@ -1,0 +1,82 @@
+{
+  "name": "openfoam-dict-intellisense",
+  "displayName": "OpenFOAM Dict IntelliSense",
+  "description": "OpenFOAM case dictionary keyword and value completion based on OpenFOAM v2606 tutorials.",
+  "version": "1.1.6",
+  "publisher": "openfoam-assistant",
+  "license": "UNLICENSED",
+  "main": "./src/extension.js",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.90.0",
+    "node": ">=20"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "OpenFOAM",
+    "CFD",
+    "case setup",
+    "intellisense",
+    "dictionary"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "openfoamIntellisense.reload",
+        "title": "OpenFOAM: Reload Keyword Index"
+      },
+      {
+        "command": "openfoamIntellisense.showIndexInfo",
+        "title": "OpenFOAM: Show Keyword Index Information"
+      },
+      {
+        "command": "openfoamIntellisense.setLanguage",
+        "title": "OpenFOAM: Set Current File Language to OpenFOAM Dictionary"
+      }
+    ],
+    "configuration": {
+      "title": "OpenFOAM Dict IntelliSense",
+      "properties": {
+        "openfoamIntellisense.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable OpenFOAM case keyword completion."
+        },
+        "openfoamIntellisense.maxItems": {
+          "type": "number",
+          "default": 200,
+          "minimum": 20,
+          "maximum": 1000,
+          "description": "Maximum number of completion items returned at once."
+        },
+        "openfoamIntellisense.fixLanguageMode": {
+          "type": "boolean",
+          "default": true,
+          "description": "Automatically set recognized OpenFOAM dictionary files to the OpenFOAM Dictionary language mode."
+        }
+      }
+    },
+    "languages": [
+      {
+        "id": "openfoam-dict",
+        "aliases": [
+          "OpenFOAM Dictionary",
+          "openfoam-dict"
+        ],
+        "extensions": [],
+        "configuration": "./language-configuration.json"
+      }
+    ]
+  },
+  "scripts": {
+    "extract:keywords": "node tools/extract-openfoam-keywords.mjs",
+    "test": "node --test tests/openfoam.test.js",
+    "package:vsix": "vsce package --no-dependencies --allow-missing-repository"
+  }
+}

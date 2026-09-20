@@ -1,0 +1,276 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "Urel",
+  "sourceFileCount": 2,
+  "occurrences": 45,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "rotor",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 10,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/relative",
+      "keyword": "relative",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/relative",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 2
+        },
+        {
+          "value": "empty",
+          "occurrences": 2
+        },
+        {
+          "value": "noSlip",
+          "occurrences": 2
+        },
+        {
+          "value": "SRFVelocity",
+          "occurrences": 2
+        },
+        {
+          "value": "pressureInletOutletVelocity",
+          "occurrences": 1
+        },
+        {
+          "value": "SRFFreestreamVelocity",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/UInf",
+      "keyword": "UInf",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/UInf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "volVectorField",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "Urel",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/0.orig/Urel",
+        "incompressible/SRFSimpleFoam/mixer/0/Urel"
+      ]
+    }
+  ]
+}

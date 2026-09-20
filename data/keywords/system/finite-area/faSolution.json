@@ -1,0 +1,872 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "finite-area/faSolution",
+  "sourceFileCount": 17,
+  "occurrences": 339,
+  "entries": [
+    {
+      "key": "cache",
+      "keyword": "cache",
+      "context": "",
+      "path": "cache",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "cache/grad",
+      "keyword": "grad",
+      "context": "cache",
+      "path": "cache/grad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"system\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "faSolution",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "nNonOrthCorr",
+      "keyword": "nNonOrthCorr",
+      "context": "",
+      "path": "nNonOrthCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "nSubCycles",
+      "keyword": "nSubCycles",
+      "context": "",
+      "path": "nSubCycles",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE",
+      "keyword": "PIMPLE",
+      "context": "",
+      "path": "PIMPLE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/momentumPredictor",
+      "keyword": "momentumPredictor",
+      "context": "PIMPLE",
+      "path": "PIMPLE/momentumPredictor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nCorr",
+      "keyword": "nCorr",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nFilmCorr",
+      "keyword": "nFilmCorr",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nFilmCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nNonOrthCorr",
+      "keyword": "nNonOrthCorr",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nNonOrthCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faSolution",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faSolution",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nOuterCorr",
+      "keyword": "nOuterCorr",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nOuterCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "PISO",
+      "keyword": "PISO",
+      "context": "",
+      "path": "PISO",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "PISO/nCorrectors",
+      "keyword": "nCorrectors",
+      "context": "PISO",
+      "path": "PISO/nCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "PISO/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "PISO",
+      "path": "PISO/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors",
+      "keyword": "relaxationFactors",
+      "context": "",
+      "path": "relaxationFactors",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/epsilon",
+      "keyword": "epsilon",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/epsilon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/h",
+      "keyword": "h",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/h",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/hf_film",
+      "keyword": "hf_film",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/hf_film",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/hf_Film",
+      "keyword": "hf_Film",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/hf_Film",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faSolution",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/k",
+      "keyword": "k",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/k",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/p",
+      "keyword": "p",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/R",
+      "keyword": "R",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/R",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/smoothedSens",
+      "keyword": "smoothedSens",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/smoothedSens",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/T",
+      "keyword": "T",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/T",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/U",
+      "keyword": "U",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/Uf_film",
+      "keyword": "Uf_film",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/Uf_film",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/Uf_Film",
+      "keyword": "Uf_Film",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/Uf_Film",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faSolution",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faSolution",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/Us",
+      "keyword": "Us",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/Us",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/w_vibrationShell",
+      "keyword": "w_vibrationShell",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/w_vibrationShell",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE",
+      "keyword": "SIMPLE",
+      "context": "",
+      "path": "SIMPLE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "SIMPLE",
+      "path": "SIMPLE/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/nTimeCorrectors",
+      "keyword": "nTimeCorrectors",
+      "context": "SIMPLE",
+      "path": "SIMPLE/nTimeCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "solution",
+      "keyword": "solution",
+      "context": "",
+      "path": "solution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "solution/iterations",
+      "keyword": "iterations",
+      "context": "solution",
+      "path": "solution/iterations",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "solvers",
+      "keyword": "solvers",
+      "context": "",
+      "path": "solvers",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}",
+      "keyword": "(ws|ws_.*)",
+      "context": "solvers",
+      "path": "solvers/{solver}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 23,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/maxIter",
+      "keyword": "maxIter",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/maxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/minIter",
+      "keyword": "minIter",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/minIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner",
+      "keyword": "preconditioner",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/preconditioner",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 23,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "DILU",
+          "occurrences": 20
+        },
+        {
+          "value": "DIC",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/relTol",
+      "keyword": "relTol",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/relTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 23,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/solver",
+      "keyword": "solver",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/solver",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 23,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "PBiCGStab",
+          "occurrences": 20
+        },
+        {
+          "value": "diagonal",
+          "occurrences": 1
+        },
+        {
+          "value": "PBiCG",
+          "occurrences": 1
+        },
+        {
+          "value": "PCG",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/tolerance",
+      "keyword": "tolerance",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 23,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faSolution",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faSolution",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faSolution",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faSolution"
+      ]
+    }
+  ]
+}

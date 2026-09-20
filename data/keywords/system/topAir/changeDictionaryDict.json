@@ -1,0 +1,1707 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "topAir/changeDictionaryDict",
+  "sourceFileCount": 7,
+  "occurrences": 557,
+  "entries": [
+    {
+      "key": "boundary",
+      "keyword": "boundary",
+      "context": "",
+      "path": "boundary",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/.*",
+      "keyword": ".*",
+      "context": "boundary",
+      "path": "boundary/.*",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/.*/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/.*",
+      "path": "boundary/.*/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/minX",
+      "keyword": "minX",
+      "context": "boundary",
+      "path": "boundary/minX",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "boundary/minX/inGroups",
+      "keyword": "inGroups",
+      "context": "boundary/minX",
+      "path": "boundary/minX/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "dictionaryReplacement",
+      "keyword": "dictionaryReplacement",
+      "context": "",
+      "path": "dictionaryReplacement",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon",
+      "keyword": "epsilon",
+      "context": "",
+      "path": "epsilon",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField",
+      "keyword": "boundaryField",
+      "context": "epsilon",
+      "path": "epsilon/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "epsilon/boundaryField",
+      "path": "epsilon/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 20,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "epsilon/boundaryField/{patch}",
+      "path": "epsilon/boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 0.01",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "epsilon/boundaryField/{patch}",
+      "path": "epsilon/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "epsilonWallFunction",
+          "occurrences": 6
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 6
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 6
+        },
+        {
+          "value": "processor",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "epsilon/boundaryField/{patch}",
+      "path": "epsilon/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 0.01",
+          "occurrences": 18
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/internalField",
+      "keyword": "internalField",
+      "context": "epsilon",
+      "path": "epsilon/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 0.01",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "changeDictionaryDict",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G",
+      "keyword": "G",
+      "context": "",
+      "path": "G",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/boundaryField",
+      "keyword": "boundaryField",
+      "context": "G",
+      "path": "G/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "G/boundaryField",
+      "path": "G/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/boundaryField/{patch}/emissivity",
+      "keyword": "emissivity",
+      "context": "G/boundaryField/{patch}",
+      "path": "G/boundaryField/{patch}/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 1.0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/boundaryField/{patch}/emissivityMode",
+      "keyword": "emissivityMode",
+      "context": "G/boundaryField/{patch}",
+      "path": "G/boundaryField/{patch}/emissivityMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "lookup",
+          "occurrences": 1
+        },
+        {
+          "value": "solidRadiation",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "G/boundaryField/{patch}",
+      "path": "G/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "MarshakRadiation",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "G/boundaryField/{patch}",
+      "path": "G/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "G/internalField",
+      "keyword": "internalField",
+      "context": "G",
+      "path": "G/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "IDefault",
+      "keyword": "IDefault",
+      "context": "",
+      "path": "IDefault",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "IDefault/boundaryField",
+      "keyword": "boundaryField",
+      "context": "IDefault",
+      "path": "IDefault/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "IDefault/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "IDefault/boundaryField",
+      "path": "IDefault/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "IDefault/boundaryField/{patch}/emissivity",
+      "keyword": "emissivity",
+      "context": "IDefault/boundaryField/{patch}",
+      "path": "IDefault/boundaryField/{patch}/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 1.0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "IDefault/boundaryField/{patch}/emissivityMode",
+      "keyword": "emissivityMode",
+      "context": "IDefault/boundaryField/{patch}",
+      "path": "IDefault/boundaryField/{patch}/emissivityMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "lookup",
+          "occurrences": 1
+        },
+        {
+          "value": "solidRadiation",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "IDefault/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "IDefault/boundaryField/{patch}",
+      "path": "IDefault/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "greyDiffusiveRadiation",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "IDefault/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "IDefault/boundaryField/{patch}",
+      "path": "IDefault/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "IDefault/internalField",
+      "keyword": "internalField",
+      "context": "IDefault",
+      "path": "IDefault/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k",
+      "keyword": "k",
+      "context": "",
+      "path": "k",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField",
+      "keyword": "boundaryField",
+      "context": "k",
+      "path": "k/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "k/boundaryField",
+      "path": "k/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 20,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "k/boundaryField/{patch}",
+      "path": "k/boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 0.1",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "k/boundaryField/{patch}",
+      "path": "k/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 6
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 6
+        },
+        {
+          "value": "kqRWallFunction",
+          "occurrences": 6
+        },
+        {
+          "value": "processor",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "k/boundaryField/{patch}",
+      "path": "k/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 0.1",
+          "occurrences": 18
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/internalField",
+      "keyword": "internalField",
+      "context": "k",
+      "path": "k/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 0.1",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p",
+      "keyword": "p",
+      "context": "",
+      "path": "p",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh",
+      "keyword": "p_rgh",
+      "context": "",
+      "path": "p_rgh",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField",
+      "keyword": "boundaryField",
+      "context": "p_rgh",
+      "path": "p_rgh/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "p_rgh/boundaryField",
+      "path": "p_rgh/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 14,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "fixedFluxPressure",
+          "occurrences": 6
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 6
+        },
+        {
+          "value": "processor",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 1e5",
+          "occurrences": 12
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/internalField",
+      "keyword": "internalField",
+      "context": "p_rgh",
+      "path": "p_rgh/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 1e5",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField",
+      "keyword": "boundaryField",
+      "context": "p",
+      "path": "p/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "p/boundaryField",
+      "path": "p/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 14,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "p/boundaryField/{patch}",
+      "path": "p/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "calculated",
+          "occurrences": 12
+        },
+        {
+          "value": "processor",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "p/boundaryField/{patch}",
+      "path": "p/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 1e5",
+          "occurrences": 12
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/internalField",
+      "keyword": "internalField",
+      "context": "p",
+      "path": "p/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 1e5",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "qr",
+      "keyword": "qr",
+      "context": "",
+      "path": "qr",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "qr/boundaryField",
+      "keyword": "boundaryField",
+      "context": "qr",
+      "path": "qr/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "qr/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "qr/boundaryField",
+      "path": "qr/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "qr/boundaryField/{patch}/emissivity",
+      "keyword": "emissivity",
+      "context": "qr/boundaryField/{patch}",
+      "path": "qr/boundaryField/{patch}/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 1.0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "qr/boundaryField/{patch}/emissivityMode",
+      "keyword": "emissivityMode",
+      "context": "qr/boundaryField/{patch}",
+      "path": "qr/boundaryField/{patch}/emissivityMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "lookup",
+          "occurrences": 1
+        },
+        {
+          "value": "solidRadiation",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "qr/boundaryField/{patch}/qro",
+      "keyword": "qro",
+      "context": "qr/boundaryField/{patch}",
+      "path": "qr/boundaryField/{patch}/qro",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "qr/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "qr/boundaryField/{patch}",
+      "path": "qr/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "greyDiffusiveRadiationViewFactor",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "qr/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "qr/boundaryField/{patch}",
+      "path": "qr/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "qr/internalField",
+      "keyword": "internalField",
+      "context": "qr",
+      "path": "qr/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T",
+      "keyword": "T",
+      "context": "",
+      "path": "T",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField",
+      "keyword": "boundaryField",
+      "context": "T",
+      "path": "T/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "T/boundaryField",
+      "path": "T/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 26,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/kappaMethod",
+      "keyword": "kappaMethod",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/kappaMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "fluidThermo",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/qr",
+      "keyword": "qr",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/qr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "qr",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/qrNbr",
+      "keyword": "qrNbr",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/qrNbr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/Tnbr",
+      "keyword": "Tnbr",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/Tnbr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "T",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "compressible::turbulentTemperatureRadCoupledMixed",
+          "occurrences": 6
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 6
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 6
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 6
+        },
+        {
+          "value": "processor",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/useImplicit",
+      "keyword": "useImplicit",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/useImplicit",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 18
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/internalField",
+      "keyword": "internalField",
+      "context": "T",
+      "path": "T/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U",
+      "keyword": "U",
+      "context": "",
+      "path": "U",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField",
+      "keyword": "boundaryField",
+      "context": "U",
+      "path": "U/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "U/boundaryField",
+      "path": "U/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 20,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 12
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 6
+        },
+        {
+          "value": "processor",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/internalField",
+      "keyword": "internalField",
+      "context": "U",
+      "path": "U/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/system/topAir/changeDictionaryDict",
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/topAir/changeDictionaryDict"
+      ]
+    }
+  ]
+}

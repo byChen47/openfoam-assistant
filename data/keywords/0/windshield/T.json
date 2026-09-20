@@ -1,0 +1,317 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "windshield/T",
+  "sourceFileCount": 1,
+  "occurrences": 25,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "symmetry",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/h",
+      "keyword": "h",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/h",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 10",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/kappa",
+      "keyword": "kappa",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kappa",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/kappaMethod",
+      "keyword": "kappaMethod",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kappaMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "solidThermo",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/mode",
+      "keyword": "mode",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "coefficient",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/Ta",
+      "keyword": "Ta",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Ta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 260",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "externalWallHeatFluxTemperature",
+          "occurrences": 1
+        },
+        {
+          "value": "humidityTemperatureCoupledMixed",
+          "occurrences": 1
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 1
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 260",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "binary",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "T",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 260",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/windshieldCondensation/0.orig/windshield/T"
+      ]
+    }
+  ]
+}

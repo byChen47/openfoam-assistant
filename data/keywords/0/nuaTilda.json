@@ -1,0 +1,274 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "nuaTilda",
+  "sourceFileCount": 36,
+  "occurrences": 1056,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 274,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 270,
+      "fileCount": 36,
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 134
+        },
+        {
+          "value": "empty",
+          "occurrences": 46
+        },
+        {
+          "value": "adjointOutletNuaTildaFlux",
+          "occurrences": 40
+        },
+        {
+          "value": "adjointInletNuaTilda",
+          "occurrences": 34
+        },
+        {
+          "value": "adjointOutletNuaTilda",
+          "occurrences": 14
+        },
+        {
+          "value": "adjointFarFieldNuaTilda",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 224,
+      "fileCount": 36,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 224
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 36
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 36
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [
+        {
+          "value": "nuTilda",
+          "occurrences": 22
+        },
+        {
+          "value": "nuaTilda",
+          "occurrences": 14
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 36
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/0.orig/nuaTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/0.orig/nuaTilda"
+      ]
+    }
+  ]
+}

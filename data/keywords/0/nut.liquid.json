@@ -1,0 +1,308 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "nut.liquid",
+  "sourceFileCount": 5,
+  "occurrences": 128,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 25,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/Cmu",
+      "keyword": "Cmu",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Cmu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/E",
+      "keyword": "E",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/E",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/kappa",
+      "keyword": "kappa",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kappa",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 25,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "calculated",
+          "occurrences": 10
+        },
+        {
+          "value": "nutkWallFunction",
+          "occurrences": 10
+        },
+        {
+          "value": "empty",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "uniform 0.0001",
+          "occurrences": 20
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "nut.liquid",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "uniform 0.0001",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/0.orig/nut.liquid",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/0.orig/nut.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/nut.liquid"
+      ]
+    }
+  ]
+}

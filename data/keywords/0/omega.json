@@ -1,0 +1,744 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "omega",
+  "sourceFileCount": 50,
+  "occurrences": 1053,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/0.orig/omega",
+        "incompressible/lumpedPointMotion/building/steady/0.orig/omega",
+        "incompressible/overSimpleFoam/aeroFoil/background_overset/0.orig/omega",
+        "incompressible/pimpleFoam/RAS/wingMotion/wingMotion2D_pimpleFoam/0.orig/omega",
+        "incompressible/pimpleFoam/RAS/wingMotion/wingMotion2D_simpleFoam/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 49,
+      "fileCount": 49,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "freestream",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 223,
+      "fileCount": 49,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/#include",
+      "keyword": "#include",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/kOmegaSST/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/blended",
+      "keyword": "blended",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/blended",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/turbulentFlatPlate/setups.orig/kOmegaSST/0.orig/omega",
+        "multiphase/interFoam/RAS/DTCHullMoving/0.orig/omega",
+        "multiphase/interFoam/RAS/motorBike/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/Cmu",
+      "keyword": "Cmu",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Cmu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "lagrangian/reactingHeterogenousParcelFoam/rectangularDuct/0/omega",
+        "lagrangian/reactingParcelFoam/rectangularChannel/0.orig/omega",
+        "lagrangian/reactingParcelFoam/verticalChannel/0.orig/omega",
+        "lagrangian/reactingParcelFoam/verticalChannelLTS/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/E",
+      "keyword": "E",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/E",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "lagrangian/reactingHeterogenousParcelFoam/rectangularDuct/0/omega",
+        "lagrangian/reactingParcelFoam/rectangularChannel/0.orig/omega",
+        "lagrangian/reactingParcelFoam/verticalChannel/0.orig/omega",
+        "lagrangian/reactingParcelFoam/verticalChannelLTS/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 34,
+      "fileCount": 30,
+      "values": [
+        {
+          "value": "uniform 4.5e-3",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 0.223607",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 3.5",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega",
+        "incompressible/lumpedPointMotion/bridge/steady/0.orig/omega",
+        "incompressible/lumpedPointMotion/building/steady/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/k",
+      "keyword": "k",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/k",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "k",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingHeterogenousParcelFoam/rectangularDuct/0/omega",
+        "lagrangian/reactingParcelFoam/rectangularChannel/0.orig/omega",
+        "lagrangian/reactingParcelFoam/verticalChannel/0.orig/omega",
+        "lagrangian/reactingParcelFoam/verticalChannelLTS/0.orig/omega",
+        "lagrangian/simpleReactingParcelFoam/verticalChannel/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/kappa",
+      "keyword": "kappa",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kappa",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "lagrangian/reactingHeterogenousParcelFoam/rectangularDuct/0/omega",
+        "lagrangian/reactingParcelFoam/rectangularChannel/0.orig/omega",
+        "lagrangian/reactingParcelFoam/verticalChannel/0.orig/omega",
+        "lagrangian/reactingParcelFoam/verticalChannelLTS/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/mixingLength",
+      "keyword": "mixingLength",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/mixingLength",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/rotatingFanInRoom/0.orig/omega",
+        "lagrangian/reactingHeterogenousParcelFoam/rectangularDuct/0/omega",
+        "lagrangian/reactingParcelFoam/rectangularChannel/0.orig/omega",
+        "lagrangian/reactingParcelFoam/verticalChannel/0.orig/omega",
+        "lagrangian/reactingParcelFoam/verticalChannelLTS/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/offset",
+      "keyword": "offset",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/offset",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/setAverage",
+      "keyword": "setAverage",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/setAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 197,
+      "fileCount": 49,
+      "values": [
+        {
+          "value": "omegaWallFunction",
+          "occurrences": 62
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 34
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 24
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 17
+        },
+        {
+          "value": "empty",
+          "occurrences": 16
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 10
+        },
+        {
+          "value": "turbulentMixingLengthFrequencyInlet",
+          "occurrences": 10
+        },
+        {
+          "value": "cyclic",
+          "occurrences": 8
+        },
+        {
+          "value": "slip",
+          "occurrences": 6
+        },
+        {
+          "value": "atmOmegaWallFunction",
+          "occurrences": 3
+        },
+        {
+          "value": "symmetry",
+          "occurrences": 3
+        },
+        {
+          "value": "cyclicAMI",
+          "occurrences": 2
+        },
+        {
+          "value": "atmBoundaryLayerInletOmega",
+          "occurrences": 1
+        },
+        {
+          "value": "timeVaryingMappedFixedValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 132,
+      "fileCount": 49,
+      "values": [
+        {
+          "value": "uniform 4.5e-3",
+          "occurrences": 8
+        },
+        {
+          "value": "uniform 0.1",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 0.223607",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 3.5",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 0.12",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 2.6",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 77200",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.0",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.028",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.3",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.894427",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 22.4",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/z0",
+      "keyword": "z0",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/z0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "uniform 0.028",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.05",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.3",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/0.orig/omega",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kOmegaSST/0.orig/omega",
+        "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/0.orig/omega"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 50,
+      "fileCount": 50,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 50,
+      "fileCount": 50,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 50,
+      "fileCount": 50,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 50
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 50,
+      "fileCount": 50,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 50
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"0\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/0.orig/omega"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 50,
+      "fileCount": 50,
+      "values": [
+        {
+          "value": "omega",
+          "occurrences": 50
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 50,
+      "fileCount": 50,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 49,
+      "fileCount": 49,
+      "values": [
+        {
+          "value": "uniform 4.5e-3",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 2",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 440.15",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 0.003",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.0007",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.07782",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.077821",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.1",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.12",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.22",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.223607",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 100",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1111.11",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 144.87",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 181728",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-5",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 2.6",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 22.4",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 264.63",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 3.5",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 351",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 390",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 400",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 5220.8",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 70",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 77200",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 8675",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoPimpleFoam/RAS/cavity/0/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/0.orig/omega",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/0/omega"
+      ]
+    },
+    {
+      "key": "omegaInlet",
+      "keyword": "omegaInlet",
+      "context": "",
+      "path": "omegaInlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/omega",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/omega",
+        "incompressible/simpleFoam/rotorDisk/0.orig/omega",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/0.orig/omega"
+      ]
+    }
+  ]
+}

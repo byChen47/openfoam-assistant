@@ -1,0 +1,362 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "water/T.liquid",
+  "sourceFileCount": 1,
+  "occurrences": 28,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 373",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/kappaMethod",
+      "keyword": "kappaMethod",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kappaMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "phaseSystem",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/otherPhase",
+      "keyword": "otherPhase",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/otherPhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "gas",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/qr",
+      "keyword": "qr",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/qr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/qrNbr",
+      "keyword": "qrNbr",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/qrNbr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/region",
+      "keyword": "region",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fluid",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/Tnbr",
+      "keyword": "Tnbr",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Tnbr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "T",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 2
+        },
+        {
+          "value": "compressible::turbulentTemperatureTwoPhaseRadCoupledMixed",
+          "occurrences": 1
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 333",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 1123",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 373",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "T.liquid",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 333",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/0.orig/water/T.liquid"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "pointMotionUx",
+  "sourceFileCount": 4,
+  "occurrences": 100,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "movingWall",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 28,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 28,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniformFixedValue",
+          "occurrences": 12
+        },
+        {
+          "value": "slip",
+          "occurrences": 8
+        },
+        {
+          "value": "wedge",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue",
+      "keyword": "uniformValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/uniformValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "constant 0",
+          "occurrences": 8
+        },
+        {
+          "value": "constant 1",
+          "occurrences": 2
+        },
+        {
+          "value": "constant 160",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "pointScalarField",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "pointMotionUx",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/0/pointMotionUx",
+        "compressible/sonicDyMFoam/movingCone/0/pointMotionUx",
+        "heatTransfer/solidFoam/movingCone/0/pointMotionUx",
+        "incompressible/pimpleFoam/laminar/movingCone/0/pointMotionUx"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1448 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "snappyHexMeshDict.orig",
+  "sourceFileCount": 2,
+  "occurrences": 97,
+  "entries": [
+    {
+      "key": "_decomp",
+      "keyword": "_decomp",
+      "context": "",
+      "path": "_decomp",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "_decomp/decomposeUsingBbs",
+      "keyword": "decomposeUsingBbs",
+      "context": "_decomp",
+      "path": "_decomp/decomposeUsingBbs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "_decomp/distributionType",
+      "keyword": "distributionType",
+      "context": "_decomp",
+      "path": "_decomp/distributionType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "independent",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "_decomp/method",
+      "keyword": "method",
+      "context": "_decomp",
+      "path": "_decomp/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "hierarchical",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "_decomp/n",
+      "keyword": "n",
+      "context": "_decomp",
+      "path": "_decomp/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "_decomp/numberOfSubdomains",
+      "keyword": "numberOfSubdomains",
+      "context": "_decomp",
+      "path": "_decomp/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayers",
+      "keyword": "addLayers",
+      "context": "",
+      "path": "addLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig",
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls",
+      "keyword": "addLayersControls",
+      "context": "",
+      "path": "addLayersControls",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/expansionRatio",
+      "keyword": "expansionRatio",
+      "context": "addLayersControls",
+      "path": "addLayersControls/expansionRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/featureAngle",
+      "keyword": "featureAngle",
+      "context": "addLayersControls",
+      "path": "addLayersControls/featureAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/finalLayerThickness",
+      "keyword": "finalLayerThickness",
+      "context": "addLayersControls",
+      "path": "addLayersControls/finalLayerThickness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/layers",
+      "keyword": "layers",
+      "context": "addLayersControls",
+      "path": "addLayersControls/layers",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/layers/aerofoil",
+      "keyword": "aerofoil",
+      "context": "addLayersControls/layers",
+      "path": "addLayersControls/layers/aerofoil",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/layers/aerofoil/nSurfaceLayers",
+      "keyword": "nSurfaceLayers",
+      "context": "addLayersControls/layers/aerofoil",
+      "path": "addLayersControls/layers/aerofoil/nSurfaceLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/layers/internalFace.*",
+      "keyword": "internalFace.*",
+      "context": "addLayersControls/layers",
+      "path": "addLayersControls/layers/internalFace.*",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/layers/internalFace.*/nSurfaceLayers",
+      "keyword": "nSurfaceLayers",
+      "context": "addLayersControls/layers/internalFace.*",
+      "path": "addLayersControls/layers/internalFace.*/nSurfaceLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/maxFaceThicknessRatio",
+      "keyword": "maxFaceThicknessRatio",
+      "context": "addLayersControls",
+      "path": "addLayersControls/maxFaceThicknessRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/maxThicknessToMedialRatio",
+      "keyword": "maxThicknessToMedialRatio",
+      "context": "addLayersControls",
+      "path": "addLayersControls/maxThicknessToMedialRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/minMedialAxisAngle",
+      "keyword": "minMedialAxisAngle",
+      "context": "addLayersControls",
+      "path": "addLayersControls/minMedialAxisAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/minThickness",
+      "keyword": "minThickness",
+      "context": "addLayersControls",
+      "path": "addLayersControls/minThickness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/nBufferCellsNoExtrude",
+      "keyword": "nBufferCellsNoExtrude",
+      "context": "addLayersControls",
+      "path": "addLayersControls/nBufferCellsNoExtrude",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/nGrow",
+      "keyword": "nGrow",
+      "context": "addLayersControls",
+      "path": "addLayersControls/nGrow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/nLayerIter",
+      "keyword": "nLayerIter",
+      "context": "addLayersControls",
+      "path": "addLayersControls/nLayerIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/nRelaxedIter",
+      "keyword": "nRelaxedIter",
+      "context": "addLayersControls",
+      "path": "addLayersControls/nRelaxedIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/nRelaxIter",
+      "keyword": "nRelaxIter",
+      "context": "addLayersControls",
+      "path": "addLayersControls/nRelaxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/nSmoothNormals",
+      "keyword": "nSmoothNormals",
+      "context": "addLayersControls",
+      "path": "addLayersControls/nSmoothNormals",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/nSmoothSurfaceNormals",
+      "keyword": "nSmoothSurfaceNormals",
+      "context": "addLayersControls",
+      "path": "addLayersControls/nSmoothSurfaceNormals",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/nSmoothThickness",
+      "keyword": "nSmoothThickness",
+      "context": "addLayersControls",
+      "path": "addLayersControls/nSmoothThickness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/relativeSizes",
+      "keyword": "relativeSizes",
+      "context": "addLayersControls",
+      "path": "addLayersControls/relativeSizes",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "addLayersControls/slipFeatureAngle",
+      "keyword": "slipFeatureAngle",
+      "context": "addLayersControls",
+      "path": "addLayersControls/slipFeatureAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMesh",
+      "keyword": "castellatedMesh",
+      "context": "",
+      "path": "castellatedMesh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig",
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls",
+      "keyword": "castellatedMeshControls",
+      "context": "",
+      "path": "castellatedMeshControls",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/allowFreeStandingZoneFaces",
+      "keyword": "allowFreeStandingZoneFaces",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/allowFreeStandingZoneFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/features",
+      "keyword": "features",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/features",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/limitRegions",
+      "keyword": "limitRegions",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/limitRegions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/locationInMesh",
+      "keyword": "locationInMesh",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/locationInMesh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/maxGlobalCells",
+      "keyword": "maxGlobalCells",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/maxGlobalCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/maxLoadUnbalance",
+      "keyword": "maxLoadUnbalance",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/maxLoadUnbalance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/maxLocalCells",
+      "keyword": "maxLocalCells",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/maxLocalCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/minRefinementCells",
+      "keyword": "minRefinementCells",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/minRefinementCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/nCellsBetweenLevels",
+      "keyword": "nCellsBetweenLevels",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/nCellsBetweenLevels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/refinementRegions",
+      "keyword": "refinementRegions",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/refinementRegions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/refinementRegions/all",
+      "keyword": "all",
+      "context": "castellatedMeshControls/refinementRegions",
+      "path": "castellatedMeshControls/refinementRegions/all",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/refinementRegions/all/levels",
+      "keyword": "levels",
+      "context": "castellatedMeshControls/refinementRegions/all",
+      "path": "castellatedMeshControls/refinementRegions/all/levels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/refinementRegions/all/mode",
+      "keyword": "mode",
+      "context": "castellatedMeshControls/refinementRegions/all",
+      "path": "castellatedMeshControls/refinementRegions/all/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "inside",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/refinementSurfaces",
+      "keyword": "refinementSurfaces",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/refinementSurfaces",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/refinementSurfaces/cylinder_all",
+      "keyword": "cylinder_all",
+      "context": "castellatedMeshControls/refinementSurfaces",
+      "path": "castellatedMeshControls/refinementSurfaces/cylinder_all",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/refinementSurfaces/cylinder_all/curvatureLevel",
+      "keyword": "curvatureLevel",
+      "context": "castellatedMeshControls/refinementSurfaces/cylinder_all",
+      "path": "castellatedMeshControls/refinementSurfaces/cylinder_all/curvatureLevel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/refinementSurfaces/cylinder_all/level",
+      "keyword": "level",
+      "context": "castellatedMeshControls/refinementSurfaces/cylinder_all",
+      "path": "castellatedMeshControls/refinementSurfaces/cylinder_all/level",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "castellatedMeshControls/resolveFeatureAngle",
+      "keyword": "resolveFeatureAngle",
+      "context": "castellatedMeshControls",
+      "path": "castellatedMeshControls/resolveFeatureAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "debugFlags",
+      "keyword": "debugFlags",
+      "context": "",
+      "path": "debugFlags",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig",
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig",
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig",
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "snappyHexMeshDict",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig",
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig",
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry",
+      "keyword": "geometry",
+      "context": "",
+      "path": "geometry",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig",
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry/all",
+      "keyword": "all",
+      "context": "geometry",
+      "path": "geometry/all",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry/all/max",
+      "keyword": "max",
+      "context": "geometry/all",
+      "path": "geometry/all/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry/all/min",
+      "keyword": "min",
+      "context": "geometry/all",
+      "path": "geometry/all/min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry/all/type",
+      "keyword": "type",
+      "context": "geometry/all",
+      "path": "geometry/all/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "box",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry/box",
+      "keyword": "box",
+      "context": "geometry",
+      "path": "geometry/box",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry/box/file",
+      "keyword": "file",
+      "context": "geometry/box",
+      "path": "geometry/box/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"box.obj\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry/box/type",
+      "keyword": "type",
+      "context": "geometry/box",
+      "path": "geometry/box/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "distributedTriSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry/cylinder_all",
+      "keyword": "cylinder_all",
+      "context": "geometry",
+      "path": "geometry/cylinder_all",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry/cylinder_all/file",
+      "keyword": "file",
+      "context": "geometry/cylinder_all",
+      "path": "geometry/cylinder_all/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "curvature-box.stl",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "geometry/cylinder_all/type",
+      "keyword": "type",
+      "context": "geometry/cylinder_all",
+      "path": "geometry/cylinder_all/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "mergeTolerance",
+      "keyword": "mergeTolerance",
+      "context": "",
+      "path": "mergeTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "meshQualityControls",
+      "keyword": "meshQualityControls",
+      "context": "",
+      "path": "meshQualityControls",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "meshQualityControls/#include",
+      "keyword": "#include",
+      "context": "meshQualityControls",
+      "path": "meshQualityControls/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "meshQualityControls/errorReduction",
+      "keyword": "errorReduction",
+      "context": "meshQualityControls",
+      "path": "meshQualityControls/errorReduction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "meshQualityControls/minDeterminant",
+      "keyword": "minDeterminant",
+      "context": "meshQualityControls",
+      "path": "meshQualityControls/minDeterminant",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "meshQualityControls/nSmoothScale",
+      "keyword": "nSmoothScale",
+      "context": "meshQualityControls",
+      "path": "meshQualityControls/nSmoothScale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "meshQualityControls/relaxed",
+      "keyword": "relaxed",
+      "context": "meshQualityControls",
+      "path": "meshQualityControls/relaxed",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "meshQualityControls/relaxed/maxNonOrtho",
+      "keyword": "maxNonOrtho",
+      "context": "meshQualityControls/relaxed",
+      "path": "meshQualityControls/relaxed/maxNonOrtho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "meshQualityControls/relaxed/minTetQuality",
+      "keyword": "minTetQuality",
+      "context": "meshQualityControls/relaxed",
+      "path": "meshQualityControls/relaxed/minTetQuality",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "meshQualityControls/relaxed/minTwist",
+      "keyword": "minTwist",
+      "context": "meshQualityControls/relaxed",
+      "path": "meshQualityControls/relaxed/minTwist",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snap",
+      "keyword": "snap",
+      "context": "",
+      "path": "snap",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig",
+        "mesh/snappyHexMesh/distributedTriSurfaceMesh/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snapControls",
+      "keyword": "snapControls",
+      "context": "",
+      "path": "snapControls",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snapControls/explicitFeatureSnap",
+      "keyword": "explicitFeatureSnap",
+      "context": "snapControls",
+      "path": "snapControls/explicitFeatureSnap",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snapControls/implicitFeatureSnap",
+      "keyword": "implicitFeatureSnap",
+      "context": "snapControls",
+      "path": "snapControls/implicitFeatureSnap",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snapControls/multiRegionFeatureSnap",
+      "keyword": "multiRegionFeatureSnap",
+      "context": "snapControls",
+      "path": "snapControls/multiRegionFeatureSnap",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snapControls/nFeatureSnapIter",
+      "keyword": "nFeatureSnapIter",
+      "context": "snapControls",
+      "path": "snapControls/nFeatureSnapIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snapControls/nRelaxIter",
+      "keyword": "nRelaxIter",
+      "context": "snapControls",
+      "path": "snapControls/nRelaxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snapControls/nSmoothPatch",
+      "keyword": "nSmoothPatch",
+      "context": "snapControls",
+      "path": "snapControls/nSmoothPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snapControls/nSolveIter",
+      "keyword": "nSolveIter",
+      "context": "snapControls",
+      "path": "snapControls/nSolveIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snapControls/strictRegionSnap",
+      "keyword": "strictRegionSnap",
+      "context": "snapControls",
+      "path": "snapControls/strictRegionSnap",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    },
+    {
+      "key": "snapControls/tolerance",
+      "keyword": "tolerance",
+      "context": "snapControls",
+      "path": "snapControls/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/block_with_curvature/system/snappyHexMeshDict.orig"
+      ]
+    }
+  ]
+}

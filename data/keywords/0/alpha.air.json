@@ -1,0 +1,356 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "alpha.air",
+  "sourceFileCount": 26,
+  "occurrences": 492,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "leftWall",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 96,
+      "fileCount": 26,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 19,
+      "fileCount": 19,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 19
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phi",
+      "keyword": "phi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [
+        {
+          "value": "phi.air",
+          "occurrences": 13
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/alpha.air",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/alpha.air",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnIATE/0.orig/alpha.air",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/injection/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/thetaProperties",
+      "keyword": "thetaProperties",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/thetaProperties",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air",
+        "multiphase/multiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseInterFoam/laminar/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 96,
+      "fileCount": 26,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 32
+        },
+        {
+          "value": "empty",
+          "occurrences": 19
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 19
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 11
+        },
+        {
+          "value": "alphaContactAngle",
+          "occurrences": 9
+        },
+        {
+          "value": "multiphaseEuler::alphaContactAngle",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 45,
+      "fileCount": 19,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 24
+        },
+        {
+          "value": "uniform 0.5",
+          "occurrences": 11
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 10
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 26
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 26
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [
+        {
+          "value": "alpha.air",
+          "occurrences": 26
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 22
+        },
+        {
+          "value": "uniform 0.5",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.1",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.25",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/0.orig/alpha.air",
+        "multiphase/interMixingFoam/laminar/damBreak/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/alpha.air",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/alpha.air"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "finite-area/manningField",
+  "sourceFileCount": 1,
+  "occurrences": 19,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/0.orig/finite-area/manningField"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/0.orig/finite-area/manningField"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 4
+        },
+        {
+          "value": "symmetry",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/0.orig/finite-area/manningField"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/0.orig/finite-area/manningField"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/0.orig/finite-area/manningField"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "areaScalarField",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/0.orig/finite-area/manningField"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/0.orig/finite-area/manningField"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "manningField",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/0.orig/finite-area/manningField"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/0.orig/finite-area/manningField"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0.1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/0.orig/finite-area/manningField"
+      ]
+    }
+  ]
+}

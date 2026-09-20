@@ -1,0 +1,234 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "U.oil",
+  "sourceFileCount": 4,
+  "occurrences": 70,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/U.oil",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/U.oil"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "leftWall",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 18,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/U.oil",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/U.oil"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "noSlip",
+          "occurrences": 10
+        },
+        {
+          "value": "empty",
+          "occurrences": 6
+        },
+        {
+          "value": "fluxCorrectedVelocity",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/U.oil",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/U.oil"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/U.oil",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/U.oil"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/U.oil",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/U.oil"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "volVectorField",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/U.oil",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/U.oil"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/U.oil",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/U.oil"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "U.oil",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/U.oil",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/U.oil"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/U.oil",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/U.oil"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/damBreak4phase/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/0.orig/U.oil",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/U.oil",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/U.oil"
+      ]
+    }
+  ]
+}

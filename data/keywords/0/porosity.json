@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "porosity",
+  "sourceFileCount": 2,
+  "occurrences": 36,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantPorousFlow/0.orig/porosity",
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "rim",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 8,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantPorousFlow/0.orig/porosity",
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "calculated",
+          "occurrences": 4
+        },
+        {
+          "value": "empty",
+          "occurrences": 3
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantPorousFlow/0.orig/porosity",
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantPorousFlow/0.orig/porosity",
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantPorousFlow/0.orig/porosity",
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantPorousFlow/0.orig/porosity",
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantPorousFlow/0.orig/porosity",
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "porosity",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantPorousFlow/0.orig/porosity",
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantPorousFlow/0.orig/porosity",
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantPorousFlow/0.orig/porosity",
+        "verificationAndValidation/multiphase/interIsoFoam/porousDamBreak/0.orig/porosity"
+      ]
+    }
+  ]
+}

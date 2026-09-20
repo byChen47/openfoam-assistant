@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "dsmcRhoN",
+  "sourceFileCount": 4,
+  "occurrences": 52,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "discreteMethods/dsmcFoam/freeSpacePeriodic/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/freeSpaceStream/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/supersonicCorner/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/wedge15Ma5/0.orig/dsmcRhoN"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 10,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "discreteMethods/dsmcFoam/freeSpacePeriodic/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/freeSpaceStream/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/supersonicCorner/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/wedge15Ma5/0.orig/dsmcRhoN"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 7
+        },
+        {
+          "value": "cyclic",
+          "occurrences": 1
+        },
+        {
+          "value": "empty",
+          "occurrences": 1
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "discreteMethods/dsmcFoam/freeSpacePeriodic/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/freeSpaceStream/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/supersonicCorner/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/wedge15Ma5/0.orig/dsmcRhoN"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "discreteMethods/dsmcFoam/freeSpacePeriodic/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/freeSpaceStream/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/supersonicCorner/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/wedge15Ma5/0.orig/dsmcRhoN"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "discreteMethods/dsmcFoam/freeSpacePeriodic/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/freeSpaceStream/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/supersonicCorner/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/wedge15Ma5/0.orig/dsmcRhoN"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "discreteMethods/dsmcFoam/freeSpacePeriodic/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/freeSpaceStream/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/supersonicCorner/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/wedge15Ma5/0.orig/dsmcRhoN"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "discreteMethods/dsmcFoam/freeSpacePeriodic/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/freeSpaceStream/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/supersonicCorner/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/wedge15Ma5/0.orig/dsmcRhoN"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "dsmcRhoN",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "discreteMethods/dsmcFoam/freeSpacePeriodic/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/freeSpaceStream/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/supersonicCorner/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/wedge15Ma5/0.orig/dsmcRhoN"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "discreteMethods/dsmcFoam/freeSpacePeriodic/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/freeSpaceStream/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/supersonicCorner/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/wedge15Ma5/0.orig/dsmcRhoN"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "discreteMethods/dsmcFoam/freeSpacePeriodic/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/freeSpaceStream/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/supersonicCorner/0.orig/dsmcRhoN",
+        "discreteMethods/dsmcFoam/wedge15Ma5/0.orig/dsmcRhoN"
+      ]
+    }
+  ]
+}

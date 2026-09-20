@@ -1,0 +1,1120 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "vtkWrite",
+  "sourceFileCount": 6,
+  "occurrences": 113,
+  "entries": [
+    {
+      "key": "subset",
+      "keyword": "subset",
+      "context": "",
+      "path": "subset",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/baseName",
+      "keyword": "baseName",
+      "context": "subset",
+      "path": "subset/baseName",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "focus",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/excludePatches",
+      "keyword": "excludePatches",
+      "context": "subset",
+      "path": "subset/excludePatches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/fields",
+      "keyword": "fields",
+      "context": "subset",
+      "path": "subset/fields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/interpolate",
+      "keyword": "interpolate",
+      "context": "subset",
+      "path": "subset/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/libs",
+      "keyword": "libs",
+      "context": "subset",
+      "path": "subset/libs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/log",
+      "keyword": "log",
+      "context": "subset",
+      "path": "subset/log",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection",
+      "keyword": "selection",
+      "context": "subset",
+      "path": "subset/selection",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/clipping",
+      "keyword": "clipping",
+      "context": "subset/selection",
+      "path": "subset/selection/clipping",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/clipping/action",
+      "keyword": "action",
+      "context": "subset/selection/clipping",
+      "path": "subset/selection/clipping/action",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "subset",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/clipping/box",
+      "keyword": "box",
+      "context": "subset/selection/clipping",
+      "path": "subset/selection/clipping/box",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/clipping/source",
+      "keyword": "source",
+      "context": "subset/selection/clipping",
+      "path": "subset/selection/clipping/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "box",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/cylinder",
+      "keyword": "cylinder",
+      "context": "subset/selection",
+      "path": "subset/selection/cylinder",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/cylinder/action",
+      "keyword": "action",
+      "context": "subset/selection/cylinder",
+      "path": "subset/selection/cylinder/action",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "subtract",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/cylinder/point1",
+      "keyword": "point1",
+      "context": "subset/selection/cylinder",
+      "path": "subset/selection/cylinder/point1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/cylinder/point2",
+      "keyword": "point2",
+      "context": "subset/selection/cylinder",
+      "path": "subset/selection/cylinder/point2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/cylinder/radius",
+      "keyword": "radius",
+      "context": "subset/selection/cylinder",
+      "path": "subset/selection/cylinder/radius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/cylinder/source",
+      "keyword": "source",
+      "context": "subset/selection/cylinder",
+      "path": "subset/selection/cylinder/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cylinder",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/dome",
+      "keyword": "dome",
+      "context": "subset/selection",
+      "path": "subset/selection/dome",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/dome/action",
+      "keyword": "action",
+      "context": "subset/selection/dome",
+      "path": "subset/selection/dome/action",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "use",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/dome/origin",
+      "keyword": "origin",
+      "context": "subset/selection/dome",
+      "path": "subset/selection/dome/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/dome/radius",
+      "keyword": "radius",
+      "context": "subset/selection/dome",
+      "path": "subset/selection/dome/radius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/dome/source",
+      "keyword": "source",
+      "context": "subset/selection/dome",
+      "path": "subset/selection/dome/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "sphere",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/outlet",
+      "keyword": "outlet",
+      "context": "subset/selection",
+      "path": "subset/selection/outlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/outlet/action",
+      "keyword": "action",
+      "context": "subset/selection/outlet",
+      "path": "subset/selection/outlet/action",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "add",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/outlet/box",
+      "keyword": "box",
+      "context": "subset/selection/outlet",
+      "path": "subset/selection/outlet/box",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/selection/outlet/source",
+      "keyword": "source",
+      "context": "subset/selection/outlet",
+      "path": "subset/selection/outlet/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "box",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/type",
+      "keyword": "type",
+      "context": "subset",
+      "path": "subset/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "vtkWrite",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/writeControl",
+      "keyword": "writeControl",
+      "context": "subset",
+      "path": "subset/writeControl",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "timeStep",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/writeIds",
+      "keyword": "writeIds",
+      "context": "subset",
+      "path": "subset/writeIds",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "subset/writeInterval",
+      "keyword": "writeInterval",
+      "context": "subset",
+      "path": "subset/writeInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite",
+      "keyword": "vtkWrite",
+      "context": "",
+      "path": "vtkWrite",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "heatTransfer/solidFoam/movingCone/system/vtkWrite",
+        "incompressible/pimpleFoam/laminar/movingCone/system/vtkWrite",
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite",
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/boundary",
+      "keyword": "boundary",
+      "context": "vtkWrite",
+      "path": "vtkWrite/boundary",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 3
+        },
+        {
+          "value": "true",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "heatTransfer/solidFoam/movingCone/system/vtkWrite",
+        "incompressible/pimpleFoam/laminar/movingCone/system/vtkWrite",
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/excludePatches",
+      "keyword": "excludePatches",
+      "context": "vtkWrite",
+      "path": "vtkWrite/excludePatches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/fields",
+      "keyword": "fields",
+      "context": "vtkWrite",
+      "path": "vtkWrite/fields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "heatTransfer/solidFoam/movingCone/system/vtkWrite",
+        "incompressible/pimpleFoam/laminar/movingCone/system/vtkWrite",
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite",
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/internal",
+      "keyword": "internal",
+      "context": "vtkWrite",
+      "path": "vtkWrite/internal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/interpolate",
+      "keyword": "interpolate",
+      "context": "vtkWrite",
+      "path": "vtkWrite/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/libs",
+      "keyword": "libs",
+      "context": "vtkWrite",
+      "path": "vtkWrite/libs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "heatTransfer/solidFoam/movingCone/system/vtkWrite",
+        "incompressible/pimpleFoam/laminar/movingCone/system/vtkWrite",
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite",
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/log",
+      "keyword": "log",
+      "context": "vtkWrite",
+      "path": "vtkWrite/log",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite",
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/regions",
+      "keyword": "regions",
+      "context": "vtkWrite",
+      "path": "vtkWrite/regions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/selection",
+      "keyword": "selection",
+      "context": "vtkWrite",
+      "path": "vtkWrite/selection",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/selection/inletRegion",
+      "keyword": "inletRegion",
+      "context": "vtkWrite/selection",
+      "path": "vtkWrite/selection/inletRegion",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/selection/inletRegion/action",
+      "keyword": "action",
+      "context": "vtkWrite/selection/inletRegion",
+      "path": "vtkWrite/selection/inletRegion/action",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "use",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/selection/inletRegion/source",
+      "keyword": "source",
+      "context": "vtkWrite/selection/inletRegion",
+      "path": "vtkWrite/selection/inletRegion/source",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "zone",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/selection/inletRegion/zones",
+      "keyword": "zones",
+      "context": "vtkWrite/selection/inletRegion",
+      "path": "vtkWrite/selection/inletRegion/zones",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/single",
+      "keyword": "single",
+      "context": "vtkWrite",
+      "path": "vtkWrite/single",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/timeStart",
+      "keyword": "timeStart",
+      "context": "vtkWrite",
+      "path": "vtkWrite/timeStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/type",
+      "keyword": "type",
+      "context": "vtkWrite",
+      "path": "vtkWrite/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "vtkWrite",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "heatTransfer/solidFoam/movingCone/system/vtkWrite",
+        "incompressible/pimpleFoam/laminar/movingCone/system/vtkWrite",
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite",
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/writeControl",
+      "keyword": "writeControl",
+      "context": "vtkWrite",
+      "path": "vtkWrite/writeControl",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "writeTime",
+          "occurrences": 5
+        },
+        {
+          "value": "timeStep",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "heatTransfer/solidFoam/movingCone/system/vtkWrite",
+        "incompressible/pimpleFoam/laminar/movingCone/system/vtkWrite",
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite",
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/writeIds",
+      "keyword": "writeIds",
+      "context": "vtkWrite",
+      "path": "vtkWrite/writeIds",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite",
+        "lagrangian/reactingParcelFoam/filter/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "vtkWrite/writeInterval",
+      "keyword": "writeInterval",
+      "context": "vtkWrite",
+      "path": "vtkWrite/writeInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "incompressible/simpleFoam/windAroundBuildings/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "walls",
+      "keyword": "walls",
+      "context": "",
+      "path": "walls",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "walls/fields",
+      "keyword": "fields",
+      "context": "walls",
+      "path": "walls/fields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "walls/internal",
+      "keyword": "internal",
+      "context": "walls",
+      "path": "walls/internal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "walls/libs",
+      "keyword": "libs",
+      "context": "walls",
+      "path": "walls/libs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "walls/log",
+      "keyword": "log",
+      "context": "walls",
+      "path": "walls/log",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "walls/patches",
+      "keyword": "patches",
+      "context": "walls",
+      "path": "walls/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "walls/regions",
+      "keyword": "regions",
+      "context": "walls",
+      "path": "walls/regions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "walls/type",
+      "keyword": "type",
+      "context": "walls",
+      "path": "walls/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "vtkWrite",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "walls/writeControl",
+      "keyword": "writeControl",
+      "context": "walls",
+      "path": "walls/writeControl",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "writeTime",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    },
+    {
+      "key": "walls/writeInterval",
+      "keyword": "writeInterval",
+      "context": "walls",
+      "path": "walls/writeInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/system/vtkWrite",
+        "mesh/createPatch/multiRegionHeater_autoPatch/system/vtkWrite"
+      ]
+    }
+  ]
+}

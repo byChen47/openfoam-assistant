@@ -1,0 +1,914 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "water/changeDictionaryDict",
+  "sourceFileCount": 1,
+  "occurrences": 64,
+  "entries": [
+    {
+      "key": "epsilon",
+      "keyword": "epsilon",
+      "context": "",
+      "path": "epsilon",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField",
+      "keyword": "boundaryField",
+      "context": "epsilon",
+      "path": "epsilon/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}",
+      "keyword": "maxY",
+      "context": "epsilon/boundaryField",
+      "path": "epsilon/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "epsilon/boundaryField/{patch}",
+      "path": "epsilon/boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0.01",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "epsilon/boundaryField/{patch}",
+      "path": "epsilon/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "epsilonWallFunction",
+          "occurrences": 1
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "epsilon/boundaryField/{patch}",
+      "path": "epsilon/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0.01",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "epsilon/internalField",
+      "keyword": "internalField",
+      "context": "epsilon",
+      "path": "epsilon/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0.01",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "changeDictionaryDict",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k",
+      "keyword": "k",
+      "context": "",
+      "path": "k",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField",
+      "keyword": "boundaryField",
+      "context": "k",
+      "path": "k/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}",
+      "keyword": "maxY",
+      "context": "k/boundaryField",
+      "path": "k/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "k/boundaryField/{patch}",
+      "path": "k/boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0.1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "k/boundaryField/{patch}",
+      "path": "k/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "inletOutlet",
+          "occurrences": 1
+        },
+        {
+          "value": "kqRWallFunction",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "k/boundaryField/{patch}",
+      "path": "k/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0.1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "k/internalField",
+      "keyword": "internalField",
+      "context": "k",
+      "path": "k/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0.1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p",
+      "keyword": "p",
+      "context": "",
+      "path": "p",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh",
+      "keyword": "p_rgh",
+      "context": "",
+      "path": "p_rgh",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField",
+      "keyword": "boundaryField",
+      "context": "p_rgh",
+      "path": "p_rgh/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}",
+      "keyword": "maxY",
+      "context": "p_rgh/boundaryField",
+      "path": "p_rgh/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/p0",
+      "keyword": "p0",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/p0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fixedFluxPressure",
+          "occurrences": 1
+        },
+        {
+          "value": "prghTotalHydrostaticPressure",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "p_rgh/boundaryField/{patch}",
+      "path": "p_rgh/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p_rgh/internalField",
+      "keyword": "internalField",
+      "context": "p_rgh",
+      "path": "p_rgh/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField",
+      "keyword": "boundaryField",
+      "context": "p",
+      "path": "p/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "p/boundaryField",
+      "path": "p/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "p/boundaryField/{patch}",
+      "path": "p/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "calculated",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "p/boundaryField/{patch}",
+      "path": "p/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "p/internalField",
+      "keyword": "internalField",
+      "context": "p",
+      "path": "p/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T",
+      "keyword": "T",
+      "context": "",
+      "path": "T",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField",
+      "keyword": "boundaryField",
+      "context": "T",
+      "path": "T/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}",
+      "keyword": "maxY",
+      "context": "T/boundaryField",
+      "path": "T/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/kappaMethod",
+      "keyword": "kappaMethod",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/kappaMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fluidThermo",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/qr",
+      "keyword": "qr",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/qr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/qrNbr",
+      "keyword": "qrNbr",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/qrNbr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/Tnbr",
+      "keyword": "Tnbr",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/Tnbr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "T",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "compressible::turbulentTemperatureRadCoupledMixed",
+          "occurrences": 1
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 1
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "T/boundaryField/{patch}",
+      "path": "T/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "T/internalField",
+      "keyword": "internalField",
+      "context": "T",
+      "path": "T/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U",
+      "keyword": "U",
+      "context": "",
+      "path": "U",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField",
+      "keyword": "boundaryField",
+      "context": "U",
+      "path": "U/boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}",
+      "keyword": "maxY",
+      "context": "U/boundaryField",
+      "path": "U/boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 1
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "U/boundaryField/{patch}",
+      "path": "U/boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    },
+    {
+      "key": "U/internalField",
+      "keyword": "internalField",
+      "context": "U",
+      "path": "U/internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionTwoPhaseEulerFoam/solidQuenching2D/system/water/changeDictionaryDict"
+      ]
+    }
+  ]
+}

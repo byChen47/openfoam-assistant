@@ -1,0 +1,577 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "O2",
+  "sourceFileCount": 31,
+  "occurrences": 621,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/0.orig/O2"
+      ]
+    },
+    {
+      "key": "#remove",
+      "keyword": "#remove",
+      "context": "",
+      "path": "#remove",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/membrane/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 31,
+      "fileCount": 31,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 133,
+      "fileCount": 31,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 21,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 0.23301",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.19",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.2",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.23",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.231843",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/massFluxFraction",
+      "keyword": "massFluxFraction",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/massFluxFraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/outlets",
+      "keyword": "outlets",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/outlets",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/outlets/intake1",
+      "keyword": "intake1",
+      "context": "boundaryField/{patch}/outlets",
+      "path": "boundaryField/{patch}/outlets/intake1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/outlets/intake1/fraction",
+      "keyword": "fraction",
+      "context": "boundaryField/{patch}/outlets/intake1",
+      "path": "boundaryField/{patch}/outlets/intake1/fraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/outlets/intake2",
+      "keyword": "intake2",
+      "context": "boundaryField/{patch}/outlets",
+      "path": "boundaryField/{patch}/outlets/intake2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/outlets/intake2/fraction",
+      "keyword": "fraction",
+      "context": "boundaryField/{patch}/outlets/intake2",
+      "path": "boundaryField/{patch}/outlets/intake2/fraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/outlets/intake3",
+      "keyword": "intake3",
+      "context": "boundaryField/{patch}/outlets",
+      "path": "boundaryField/{patch}/outlets/intake3",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/outlets/intake3/fraction",
+      "keyword": "fraction",
+      "context": "boundaryField/{patch}/outlets/intake3",
+      "path": "boundaryField/{patch}/outlets/intake3/fraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/outlets/intake4",
+      "keyword": "intake4",
+      "context": "boundaryField/{patch}/outlets",
+      "path": "boundaryField/{patch}/outlets/intake4",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/outlets/intake4/fraction",
+      "keyword": "fraction",
+      "context": "boundaryField/{patch}/outlets/intake4",
+      "path": "boundaryField/{patch}/outlets/intake4/fraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 133,
+      "fileCount": 31,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 42
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 33
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 26
+        },
+        {
+          "value": "empty",
+          "occurrences": 12
+        },
+        {
+          "value": "cyclic",
+          "occurrences": 8
+        },
+        {
+          "value": "outletMappedUniformInlet",
+          "occurrences": 4
+        },
+        {
+          "value": "wedge",
+          "occurrences": 4
+        },
+        {
+          "value": "semiPermeableBaffleMassFraction",
+          "occurrences": 2
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 1
+        },
+        {
+          "value": "totalFlowRateAdvectiveDiffusive",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 66,
+      "fileCount": 24,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 15
+        },
+        {
+          "value": "uniform 0.23",
+          "occurrences": 8
+        },
+        {
+          "value": "uniform 0.0",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 0.19",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.2",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.21",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.231843",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.23301",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.054",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.1966",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 31,
+      "fileCount": 31,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 31,
+      "fileCount": 31,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 31,
+      "fileCount": 31,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 31
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 31,
+      "fileCount": 31,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 31
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 31,
+      "fileCount": 31,
+      "values": [
+        {
+          "value": "O2",
+          "occurrences": 31
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 31,
+      "fileCount": 31,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 31,
+      "fileCount": 31,
+      "values": [
+        {
+          "value": "uniform 0.21",
+          "occurrences": 9
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 7
+        },
+        {
+          "value": "uniform 0.23301",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 0.234",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 0.23",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.19",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.2",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.231843",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.3",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/0.orig/O2",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/O2",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/O2",
+        "combustion/fireFoam/LES/simplePMMApanel/0.orig/O2",
+        "combustion/fireFoam/LES/smallPoolFire2D/0.orig/O2"
+      ]
+    }
+  ]
+}

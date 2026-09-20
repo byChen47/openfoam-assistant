@@ -1,0 +1,259 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "C3H8",
+  "sourceFileCount": 2,
+  "occurrences": 50,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "outlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 10,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/massFluxFraction",
+      "keyword": "massFluxFraction",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/massFluxFraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "inletOutlet",
+          "occurrences": 4
+        },
+        {
+          "value": "totalFlowRateAdvectiveDiffusive",
+          "occurrences": 4
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1.0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "C3H8",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/0.orig/C3H8",
+        "combustion/fireFoam/LES/oppositeBurningPanels/0.orig/C3H8"
+      ]
+    }
+  ]
+}

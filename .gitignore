@@ -1,28 +1,6 @@
-# OpenFOAM 源码软链接(指向本机安装,不入库)
-/OpenFOAM-v2206
-/ThirdParty-v2206
-
-# 工作区级 VS Code 配置(含本机路径)
-/.vscode/
-
-# 打包产物与依赖
-*.vsix
 node_modules/
-
-# 构建产物
-Make/linux64GccDPInt32Opt/
-Make/*.o
-Make/*.dep
-
-# Python
-__pycache__/
-*.pyc
-
-# 插件备份目录
-.openfoam-backup/
-
-# 插件在自身目录调试时生成的工作区配置
-openfoam-assistant/.vscode/c_cpp_properties.json
-openfoam-assistant/.vscode/tasks.json
-openfoam-assistant/.vscode/settings.json
-openfoam-assistant/.vscode/.openfoam-backup/
+.vscode/
+*.vsix
+OpenFOAM-v2606/
+.DS_Store
+Thumbs.db

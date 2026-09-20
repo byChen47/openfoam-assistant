@@ -1,0 +1,292 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "Theta.solids",
+  "sourceFileCount": 1,
+  "occurrences": 23,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/muF",
+      "keyword": "muF",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/muF",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/restitutionCoefficient",
+      "keyword": "restitutionCoefficient",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/restitutionCoefficient",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/sigma",
+      "keyword": "sigma",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/specularityCoefficient",
+      "keyword": "specularityCoefficient",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/specularityCoefficient",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "empty",
+          "occurrences": 1
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 1
+        },
+        {
+          "value": "JohnsonJacksonParticleTheta",
+          "occurrences": 1
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 1e-4",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Theta.solids",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    },
+    {
+      "key": "referenceLevel",
+      "keyword": "referenceLevel",
+      "context": "",
+      "path": "referenceLevel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/0/Theta.solids"
+      ]
+    }
+  ]
+}

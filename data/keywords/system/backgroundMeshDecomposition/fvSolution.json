@@ -1,0 +1,695 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "backgroundMeshDecomposition/fvSolution",
+  "sourceFileCount": 4,
+  "occurrences": 95,
+  "entries": [
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/blob/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/blob/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/blob/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "fvSolution",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/blob/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/blob/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE",
+      "keyword": "PIMPLE",
+      "context": "",
+      "path": "PIMPLE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/cAlpha",
+      "keyword": "cAlpha",
+      "context": "PIMPLE",
+      "path": "PIMPLE/cAlpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/correctPhi",
+      "keyword": "correctPhi",
+      "context": "PIMPLE",
+      "path": "PIMPLE/correctPhi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/momentumPredictor",
+      "keyword": "momentumPredictor",
+      "context": "PIMPLE",
+      "path": "PIMPLE/momentumPredictor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nAlphaCorr",
+      "keyword": "nAlphaCorr",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nAlphaCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nAlphaSubCycles",
+      "keyword": "nAlphaSubCycles",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nAlphaSubCycles",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nCorrectors",
+      "keyword": "nCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nOuterCorrectors",
+      "keyword": "nOuterCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nOuterCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors",
+      "keyword": "relaxationFactors",
+      "context": "",
+      "path": "relaxationFactors",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations",
+      "keyword": "equations",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/equations",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/epsilon",
+      "keyword": "epsilon",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/epsilon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/epsilon.*",
+      "keyword": "epsilon.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/epsilon.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/k",
+      "keyword": "k",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/k",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/k.*",
+      "keyword": "k.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/k.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/T.*",
+      "keyword": "T.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/T.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/U",
+      "keyword": "U",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/U.*",
+      "keyword": "U.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/U.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/fields",
+      "keyword": "fields",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/fields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/fields/{field}",
+      "keyword": "p",
+      "context": "relaxationFactors/fields",
+      "path": "relaxationFactors/fields/{field}",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE",
+      "keyword": "SIMPLE",
+      "context": "",
+      "path": "SIMPLE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "SIMPLE",
+      "path": "SIMPLE/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/nUCorrectors",
+      "keyword": "nUCorrectors",
+      "context": "SIMPLE",
+      "path": "SIMPLE/nUCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers",
+      "keyword": "solvers",
+      "context": "",
+      "path": "solvers",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/blob/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}",
+      "keyword": "p",
+      "context": "solvers",
+      "path": "solvers/{solver}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 11,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/cAlpha",
+      "keyword": "cAlpha",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/cAlpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nAlphaCorr",
+      "keyword": "nAlphaCorr",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nAlphaCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nAlphaSubCycles",
+      "keyword": "nAlphaSubCycles",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nAlphaSubCycles",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nCellsInCoarsestLevel",
+      "keyword": "nCellsInCoarsestLevel",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nCellsInCoarsestLevel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nSweeps",
+      "keyword": "nSweeps",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner",
+      "keyword": "preconditioner",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/preconditioner",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "DIC",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/relTol",
+      "keyword": "relTol",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/relTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/smoother",
+      "keyword": "smoother",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/smoother",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "symGaussSeidel",
+          "occurrences": 3
+        },
+        {
+          "value": "GaussSeidel",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/solver",
+      "keyword": "solver",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/solver",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "smoothSolver",
+          "occurrences": 3
+        },
+        {
+          "value": "GAMG",
+          "occurrences": 2
+        },
+        {
+          "value": "diagonal",
+          "occurrences": 1
+        },
+        {
+          "value": "PCG",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/tolerance",
+      "keyword": "tolerance",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/flange/system/backgroundMeshDecomposition/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/backgroundMeshDecomposition/fvSolution"
+      ]
+    }
+  ]
+}

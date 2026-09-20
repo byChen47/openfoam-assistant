@@ -1,0 +1,575 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "air/fvSolution",
+  "sourceFileCount": 3,
+  "occurrences": 103,
+  "entries": [
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "fvSolution",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE",
+      "keyword": "PIMPLE",
+      "context": "",
+      "path": "PIMPLE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/momentumPredictor",
+      "keyword": "momentumPredictor",
+      "context": "PIMPLE",
+      "path": "PIMPLE/momentumPredictor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nCorrectors",
+      "keyword": "nCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nOuterCorrectors",
+      "keyword": "nOuterCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nOuterCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors",
+      "keyword": "relaxationFactors",
+      "context": "",
+      "path": "relaxationFactors",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations",
+      "keyword": "equations",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/equations",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/.*",
+      "keyword": ".*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(h|e)",
+      "keyword": "(h|e)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(h|e)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/epsilon",
+      "keyword": "epsilon",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/epsilon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/k",
+      "keyword": "k",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/k",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/U",
+      "keyword": "U",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/fields",
+      "keyword": "fields",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/fields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/fields/{field}",
+      "keyword": "rho",
+      "context": "relaxationFactors/fields",
+      "path": "relaxationFactors/fields/{field}",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE",
+      "keyword": "SIMPLE",
+      "context": "",
+      "path": "SIMPLE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "SIMPLE",
+      "path": "SIMPLE/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/rhoMax",
+      "keyword": "rhoMax",
+      "context": "SIMPLE",
+      "path": "SIMPLE/rhoMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/rhoMin",
+      "keyword": "rhoMin",
+      "context": "SIMPLE",
+      "path": "SIMPLE/rhoMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers",
+      "keyword": "solvers",
+      "context": "",
+      "path": "solvers",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}",
+      "keyword": "rho.*",
+      "context": "solvers",
+      "path": "solvers/{solver}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/maxIter",
+      "keyword": "maxIter",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/maxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nPostSweeps",
+      "keyword": "nPostSweeps",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nPostSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner",
+      "keyword": "preconditioner",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/preconditioner",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "DIC",
+          "occurrences": 4
+        },
+        {
+          "value": "DILU",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/relTol",
+      "keyword": "relTol",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/relTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/smoother",
+      "keyword": "smoother",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/smoother",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "DIC",
+          "occurrences": 1
+        },
+        {
+          "value": "symGaussSeidel",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/solver",
+      "keyword": "solver",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/solver",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "PCG",
+          "occurrences": 4
+        },
+        {
+          "value": "PBiCGStab",
+          "occurrences": 3
+        },
+        {
+          "value": "GAMG",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/tolerance",
+      "keyword": "tolerance",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionFoam/externalSolarLoad/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionFoam/solarBeamWithTrees/system/air/fvSolution",
+        "heatTransfer/chtMultiRegionSimpleFoam/heatExchanger/system/air/fvSolution"
+      ]
+    }
+  ]
+}

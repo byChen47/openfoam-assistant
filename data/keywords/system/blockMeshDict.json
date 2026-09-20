@@ -1,0 +1,5692 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "blockMeshDict",
+  "sourceFileCount": 441,
+  "occurrences": 5394,
+  "entries": [
+    {
+      "key": "#if",
+      "keyword": "#if",
+      "context": "",
+      "path": "#if",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/blockMeshDict",
+        "incompressible/simpleFoam/squareBend/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "#inputMode",
+      "keyword": "#inputMode",
+      "context": "",
+      "path": "#inputMode",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "#message",
+      "keyword": "#message",
+      "context": "",
+      "path": "#message",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/movingCone/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "#remove",
+      "keyword": "#remove",
+      "context": "",
+      "path": "#remove",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict",
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "a",
+      "keyword": "a",
+      "context": "",
+      "path": "a",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/schemes/weightedFluxExample/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "aerofoil",
+      "keyword": "aerofoil",
+      "context": "",
+      "path": "aerofoil",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "aerofoil/xLead",
+      "keyword": "xLead",
+      "context": "aerofoil",
+      "path": "aerofoil/xLead",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "aerofoil/xLower",
+      "keyword": "xLower",
+      "context": "aerofoil",
+      "path": "aerofoil/xLower",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "aerofoil/xTrail",
+      "keyword": "xTrail",
+      "context": "aerofoil",
+      "path": "aerofoil/xTrail",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "aerofoil/xUpper",
+      "keyword": "xUpper",
+      "context": "aerofoil",
+      "path": "aerofoil/xUpper",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "aerofoil/zLead",
+      "keyword": "zLead",
+      "context": "aerofoil",
+      "path": "aerofoil/zLead",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "aerofoil/zLower",
+      "keyword": "zLower",
+      "context": "aerofoil",
+      "path": "aerofoil/zLower",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "aerofoil/zTrail",
+      "keyword": "zTrail",
+      "context": "aerofoil",
+      "path": "aerofoil/zTrail",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "aerofoil/zUpper",
+      "keyword": "zUpper",
+      "context": "aerofoil",
+      "path": "aerofoil/zUpper",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "alpha",
+      "keyword": "alpha",
+      "context": "",
+      "path": "alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/10/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/20/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/30/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/40/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/50/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "Ax",
+      "keyword": "Ax",
+      "context": "",
+      "path": "Ax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/refineMesh/refineFieldDirs/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "axisLevel",
+      "keyword": "axisLevel",
+      "context": "",
+      "path": "axisLevel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "Ay",
+      "keyword": "Ay",
+      "context": "",
+      "path": "Ay",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/refineMesh/refineFieldDirs/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "b",
+      "keyword": "b",
+      "context": "",
+      "path": "b",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/schemes/weightedFluxExample/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "bendAngle",
+      "keyword": "bendAngle",
+      "context": "",
+      "path": "bendAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "blocks",
+      "keyword": "blocks",
+      "context": "",
+      "path": "blocks",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 402,
+      "fileCount": 402,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "bottomAngle",
+      "keyword": "bottomAngle",
+      "context": "",
+      "path": "bottomAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/system/blockMeshDict",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "bottomLevel",
+      "keyword": "bottomLevel",
+      "context": "",
+      "path": "bottomLevel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "boundary",
+      "keyword": "boundary",
+      "context": "",
+      "path": "boundary",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 333,
+      "fileCount": 333,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "box",
+      "keyword": "box",
+      "context": "",
+      "path": "box",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "boxNeg",
+      "keyword": "boxNeg",
+      "context": "",
+      "path": "boxNeg",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "Bx",
+      "keyword": "Bx",
+      "context": "",
+      "path": "Bx",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/refineMesh/refineFieldDirs/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "By",
+      "keyword": "By",
+      "context": "",
+      "path": "By",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/refineMesh/refineFieldDirs/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "cellWidth",
+      "keyword": "cellWidth",
+      "context": "",
+      "path": "cellWidth",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "cosBend",
+      "keyword": "cosBend",
+      "context": "",
+      "path": "cosBend",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "Cx",
+      "keyword": "Cx",
+      "context": "",
+      "path": "Cx",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/refineMesh/refineFieldDirs/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "d0",
+      "keyword": "d0",
+      "context": "",
+      "path": "d0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "d1",
+      "keyword": "d1",
+      "context": "",
+      "path": "d1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "d2",
+      "keyword": "d2",
+      "context": "",
+      "path": "d2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "d3",
+      "keyword": "d3",
+      "context": "",
+      "path": "d3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "d4",
+      "keyword": "d4",
+      "context": "",
+      "path": "d4",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "d5",
+      "keyword": "d5",
+      "context": "",
+      "path": "d5",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "d6",
+      "keyword": "d6",
+      "context": "",
+      "path": "d6",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "d7",
+      "keyword": "d7",
+      "context": "",
+      "path": "d7",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "d8",
+      "keyword": "d8",
+      "context": "",
+      "path": "d8",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "d9",
+      "keyword": "d9",
+      "context": "",
+      "path": "d9",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "defaultPatch",
+      "keyword": "defaultPatch",
+      "context": "",
+      "path": "defaultPatch",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/oscillatingCylinder/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "defaultPatch/name",
+      "keyword": "name",
+      "context": "defaultPatch",
+      "path": "defaultPatch/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [
+        {
+          "value": "walls",
+          "occurrences": 15
+        },
+        {
+          "value": "frontAndBack",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/XiDyMFoam/oscillatingCylinder/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "defaultPatch/type",
+      "keyword": "type",
+      "context": "defaultPatch",
+      "path": "defaultPatch/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 16
+        },
+        {
+          "value": "empty",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/XiDyMFoam/oscillatingCylinder/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "depth",
+      "keyword": "depth",
+      "context": "",
+      "path": "depth",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/system/blockMeshDict",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain",
+      "keyword": "domain",
+      "context": "",
+      "path": "domain",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/leadGrading",
+      "keyword": "leadGrading",
+      "context": "domain",
+      "path": "domain/leadGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/xCells",
+      "keyword": "xCells",
+      "context": "domain",
+      "path": "domain/xCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/blockMeshDict",
+        "mesh/snappyHexMesh/faceZoneRegions/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/xDCells",
+      "keyword": "xDCells",
+      "context": "domain",
+      "path": "domain/xDCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/xDGrading",
+      "keyword": "xDGrading",
+      "context": "domain",
+      "path": "domain/xDGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/xMax",
+      "keyword": "xMax",
+      "context": "domain",
+      "path": "domain/xMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/xMCells",
+      "keyword": "xMCells",
+      "context": "domain",
+      "path": "domain/xMCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/xMin",
+      "keyword": "xMin",
+      "context": "domain",
+      "path": "domain/xMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/xUCells",
+      "keyword": "xUCells",
+      "context": "domain",
+      "path": "domain/xUCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/xUGrading",
+      "keyword": "xUGrading",
+      "context": "domain",
+      "path": "domain/xUGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/yCells",
+      "keyword": "yCells",
+      "context": "domain",
+      "path": "domain/yCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/blockMeshDict",
+        "mesh/snappyHexMesh/faceZoneRegions/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/yMax",
+      "keyword": "yMax",
+      "context": "domain",
+      "path": "domain/yMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/blockMeshDict",
+        "mesh/snappyHexMesh/faceZoneRegions/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/yMin",
+      "keyword": "yMin",
+      "context": "domain",
+      "path": "domain/yMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/blockMeshDict",
+        "mesh/snappyHexMesh/faceZoneRegions/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/zCells",
+      "keyword": "zCells",
+      "context": "domain",
+      "path": "domain/zCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/zGrading",
+      "keyword": "zGrading",
+      "context": "domain",
+      "path": "domain/zGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/zMax",
+      "keyword": "zMax",
+      "context": "domain",
+      "path": "domain/zMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "domain/zMin",
+      "keyword": "zMin",
+      "context": "domain",
+      "path": "domain/zMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/simpleFoam/rotorDisk/system/blockMeshDict",
+        "incompressible/simpleFoam/windAroundBuildings/system/blockMeshDict",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dxFocus",
+      "keyword": "dxFocus",
+      "context": "",
+      "path": "dxFocus",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dxInlet",
+      "keyword": "dxInlet",
+      "context": "",
+      "path": "dxInlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dxLE",
+      "keyword": "dxLE",
+      "context": "",
+      "path": "dxLE",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dxMidLow",
+      "keyword": "dxMidLow",
+      "context": "",
+      "path": "dxMidLow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dxMidUp",
+      "keyword": "dxMidUp",
+      "context": "",
+      "path": "dxMidUp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dxOutlet",
+      "keyword": "dxOutlet",
+      "context": "",
+      "path": "dxOutlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dxTE",
+      "keyword": "dxTE",
+      "context": "",
+      "path": "dxTE",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dy",
+      "keyword": "dy",
+      "context": "",
+      "path": "dy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dyFocus",
+      "keyword": "dyFocus",
+      "context": "",
+      "path": "dyFocus",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dyMid",
+      "keyword": "dyMid",
+      "context": "",
+      "path": "dyMid",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dyTop",
+      "keyword": "dyTop",
+      "context": "",
+      "path": "dyTop",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dyWall",
+      "keyword": "dyWall",
+      "context": "",
+      "path": "dyWall",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dz",
+      "keyword": "dz",
+      "context": "",
+      "path": "dz",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "dzaerofoil",
+      "keyword": "dzaerofoil",
+      "context": "",
+      "path": "dzaerofoil",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "edges",
+      "keyword": "edges",
+      "context": "",
+      "path": "edges",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 349,
+      "fileCount": 349,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/twoBlocks-processorAgglom/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "faces",
+      "keyword": "faces",
+      "context": "",
+      "path": "faces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "farFieldWall",
+      "keyword": "farFieldWall",
+      "context": "",
+      "path": "farFieldWall",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 441,
+      "fileCount": 441,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 441,
+      "fileCount": 441,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 441
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 441,
+      "fileCount": 441,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 441
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 441,
+      "fileCount": 441,
+      "values": [
+        {
+          "value": "blockMeshDict",
+          "occurrences": 441
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 441,
+      "fileCount": 441,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "gap",
+      "keyword": "gap",
+      "context": "",
+      "path": "gap",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/system/blockMeshDict",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geom",
+      "keyword": "geom",
+      "context": "",
+      "path": "geom",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotatingCylinders/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geom/g",
+      "keyword": "g",
+      "context": "geom",
+      "path": "geom/g",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotatingCylinders/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geom/nr",
+      "keyword": "nr",
+      "context": "geom",
+      "path": "geom/nr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotatingCylinders/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geom/ntheta",
+      "keyword": "ntheta",
+      "context": "geom",
+      "path": "geom/ntheta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotatingCylinders/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geom/r0",
+      "keyword": "r0",
+      "context": "geom",
+      "path": "geom/r0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotatingCylinders/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geom/r1",
+      "keyword": "r1",
+      "context": "geom",
+      "path": "geom/r1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotatingCylinders/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry",
+      "keyword": "geometry",
+      "context": "",
+      "path": "geometry",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict",
+        "mesh/blockMesh/pipe/system/blockMeshDict",
+        "mesh/blockMesh/sphere/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/aerofoil",
+      "keyword": "aerofoil",
+      "context": "geometry",
+      "path": "geometry/aerofoil",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/aerofoil/file",
+      "keyword": "file",
+      "context": "geometry/aerofoil",
+      "path": "geometry/aerofoil/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "\"NACA0012.obj\"",
+          "occurrences": 2
+        },
+        {
+          "value": "\"NACA4412.stl\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/aerofoil/type",
+      "keyword": "type",
+      "context": "geometry/aerofoil",
+      "path": "geometry/aerofoil/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cylinder",
+      "keyword": "cylinder",
+      "context": "geometry",
+      "path": "geometry/cylinder",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict",
+        "mesh/blockMesh/pipe/system/blockMeshDict",
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cylinder/point1",
+      "keyword": "point1",
+      "context": "geometry/cylinder",
+      "path": "geometry/cylinder/point1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict",
+        "mesh/blockMesh/pipe/system/blockMeshDict",
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cylinder/point2",
+      "keyword": "point2",
+      "context": "geometry/cylinder",
+      "path": "geometry/cylinder/point2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict",
+        "mesh/blockMesh/pipe/system/blockMeshDict",
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cylinder/radius",
+      "keyword": "radius",
+      "context": "geometry/cylinder",
+      "path": "geometry/cylinder/radius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict",
+        "mesh/blockMesh/pipe/system/blockMeshDict",
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cylinder/type",
+      "keyword": "type",
+      "context": "geometry/cylinder",
+      "path": "geometry/cylinder/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "cylinder",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict",
+        "mesh/blockMesh/pipe/system/blockMeshDict",
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cylinder2",
+      "keyword": "cylinder2",
+      "context": "geometry",
+      "path": "geometry/cylinder2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cylinder2/file",
+      "keyword": "file",
+      "context": "geometry/cylinder2",
+      "path": "geometry/cylinder2/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"curve2.vtk\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cylinder2/radius",
+      "keyword": "radius",
+      "context": "geometry/cylinder2",
+      "path": "geometry/cylinder2/radius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cylinder2/type",
+      "keyword": "type",
+      "context": "geometry/cylinder2",
+      "path": "geometry/cylinder2/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "extrudedCircle",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/inletPlane",
+      "keyword": "inletPlane",
+      "context": "geometry",
+      "path": "geometry/inletPlane",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/inletPlane/origin",
+      "keyword": "origin",
+      "context": "geometry/inletPlane",
+      "path": "geometry/inletPlane/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/inletPlane/span",
+      "keyword": "span",
+      "context": "geometry/inletPlane",
+      "path": "geometry/inletPlane/span",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/inletPlane/type",
+      "keyword": "type",
+      "context": "geometry/inletPlane",
+      "path": "geometry/inletPlane/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "plate",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/innerSphere",
+      "keyword": "innerSphere",
+      "context": "geometry",
+      "path": "geometry/innerSphere",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/sphere7ProjectedEdges/system/blockMeshDict",
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/sphere",
+      "keyword": "sphere",
+      "context": "geometry",
+      "path": "geometry/sphere",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/sphere/system/blockMeshDict",
+        "mesh/blockMesh/sphere7/system/blockMeshDict",
+        "mesh/blockMesh/sphere7ProjectedEdges/system/blockMeshDict",
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict",
+        "mesh/blockMesh/spheroidProjected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/sphere/origin",
+      "keyword": "origin",
+      "context": "geometry/sphere",
+      "path": "geometry/sphere/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/sphere/system/blockMeshDict",
+        "mesh/blockMesh/sphere7/system/blockMeshDict",
+        "mesh/blockMesh/sphere7ProjectedEdges/system/blockMeshDict",
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict",
+        "mesh/blockMesh/spheroidProjected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/sphere/radius",
+      "keyword": "radius",
+      "context": "geometry/sphere",
+      "path": "geometry/sphere/radius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/sphere/system/blockMeshDict",
+        "mesh/blockMesh/sphere7/system/blockMeshDict",
+        "mesh/blockMesh/sphere7ProjectedEdges/system/blockMeshDict",
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict",
+        "mesh/blockMesh/spheroidProjected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/sphere/type",
+      "keyword": "type",
+      "context": "geometry/sphere",
+      "path": "geometry/sphere/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "sphere",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/sphere/system/blockMeshDict",
+        "mesh/blockMesh/sphere7/system/blockMeshDict",
+        "mesh/blockMesh/sphere7ProjectedEdges/system/blockMeshDict",
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict",
+        "mesh/blockMesh/spheroidProjected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "gradingCoflow",
+      "keyword": "gradingCoflow",
+      "context": "",
+      "path": "gradingCoflow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "gradingFuel",
+      "keyword": "gradingFuel",
+      "context": "",
+      "path": "gradingFuel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "gradingLength",
+      "keyword": "gradingLength",
+      "context": "",
+      "path": "gradingLength",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "gradingLengthInverse",
+      "keyword": "gradingLengthInverse",
+      "context": "",
+      "path": "gradingLengthInverse",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "H",
+      "keyword": "H",
+      "context": "",
+      "path": "H",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/blockMeshDict",
+        "multiphase/interIsoFoam/discInConstantFlow/system/blockMeshDict",
+        "multiphase/interIsoFoam/discInConstantFlowCyclicBCs/system/blockMeshDict",
+        "multiphase/interIsoFoam/discInConstantPorousFlow/system/blockMeshDict",
+        "multiphase/interIsoFoam/discInReversedVortexFlow/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "h1",
+      "keyword": "h1",
+      "context": "",
+      "path": "h1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/schemes/weightedFluxExample/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "h2",
+      "keyword": "h2",
+      "context": "",
+      "path": "h2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict",
+        "verificationAndValidation/schemes/weightedFluxExample/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "halfAngle",
+      "keyword": "halfAngle",
+      "context": "",
+      "path": "halfAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pipeCyclic/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "hCells",
+      "keyword": "hCells",
+      "context": "",
+      "path": "hCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/blockMeshDict",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "height",
+      "keyword": "height",
+      "context": "",
+      "path": "height",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "hGrading",
+      "keyword": "hGrading",
+      "context": "",
+      "path": "hGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/blockMeshDict",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "hTotal",
+      "keyword": "hTotal",
+      "context": "",
+      "path": "hTotal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/blockMeshDict",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "innerRatio",
+      "keyword": "innerRatio",
+      "context": "",
+      "path": "innerRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/sphere7/system/blockMeshDict",
+        "mesh/blockMesh/sphere7ProjectedEdges/system/blockMeshDict",
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "L",
+      "keyword": "L",
+      "context": "",
+      "path": "L",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/blockMeshDict",
+        "multiphase/interIsoFoam/discInConstantFlow/system/blockMeshDict",
+        "multiphase/interIsoFoam/discInConstantFlowCyclicBCs/system/blockMeshDict",
+        "multiphase/interIsoFoam/discInConstantPorousFlow/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "leadLowGrading",
+      "keyword": "leadLowGrading",
+      "context": "",
+      "path": "leadLowGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "leadUpGrading",
+      "keyword": "leadUpGrading",
+      "context": "",
+      "path": "leadUpGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "len",
+      "keyword": "len",
+      "context": "",
+      "path": "len",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "lenInlet",
+      "keyword": "lenInlet",
+      "context": "",
+      "path": "lenInlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "lenOutlet",
+      "keyword": "lenOutlet",
+      "context": "",
+      "path": "lenOutlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "lenPoro",
+      "keyword": "lenPoro",
+      "context": "",
+      "path": "lenPoro",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "li",
+      "keyword": "li",
+      "context": "",
+      "path": "li",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/stitchMesh/simple-cube1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "Lm",
+      "keyword": "Lm",
+      "context": "",
+      "path": "Lm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "lo",
+      "keyword": "lo",
+      "context": "",
+      "path": "lo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/stitchMesh/simple-cube1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "lowerSphereBlock",
+      "keyword": "lowerSphereBlock",
+      "context": "",
+      "path": "lowerSphereBlock",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "LyBL",
+      "keyword": "LyBL",
+      "context": "",
+      "path": "LyBL",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "LyFocus",
+      "keyword": "LyFocus",
+      "context": "",
+      "path": "LyFocus",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "LyMid",
+      "keyword": "LyMid",
+      "context": "",
+      "path": "LyMid",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "mergeMatchPairs",
+      "keyword": "mergeMatchPairs",
+      "context": "",
+      "path": "mergeMatchPairs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/SRFSimpleFoam/mixer/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "mergePatchPairs",
+      "keyword": "mergePatchPairs",
+      "context": "",
+      "path": "mergePatchPairs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 225,
+      "fileCount": 225,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/twoBlocks-processorAgglom/system/blockMeshDict",
+        "basic/simpleFoam/implicitAMI/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "mergeType",
+      "keyword": "mergeType",
+      "context": "",
+      "path": "mergeType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [
+        {
+          "value": "points",
+          "occurrences": 11
+        }
+      ],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/system/blockMeshDict",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/system/blockMeshDict",
+        "compressible/rhoCentralFoam/LadenburgJet60psi/system/blockMeshDict",
+        "compressible/rhoCentralFoam/movingCone/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nBurner",
+      "keyword": "nBurner",
+      "context": "",
+      "path": "nBurner",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ncells",
+      "keyword": "ncells",
+      "context": "",
+      "path": "ncells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "NCELLS_X",
+      "keyword": "NCELLS_X",
+      "context": "",
+      "path": "NCELLS_X",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "NCELLS_Y",
+      "keyword": "NCELLS_Y",
+      "context": "",
+      "path": "NCELLS_Y",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "NCELLS_Z",
+      "keyword": "NCELLS_Z",
+      "context": "",
+      "path": "NCELLS_Z",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nCoflow",
+      "keyword": "nCoflow",
+      "context": "",
+      "path": "nCoflow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "negY",
+      "keyword": "negY",
+      "context": "",
+      "path": "negY",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/pitzDaily/system/blockMeshDict",
+        "basic/scalarTransportFoam/pitzDaily/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/system/blockMeshDict",
+        "incompressible/adjointShapeOptimizationFoam/pitzDaily/system/blockMeshDict",
+        "incompressible/pimpleFoam/RAS/pitzDaily/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nExternal",
+      "keyword": "nExternal",
+      "context": "",
+      "path": "nExternal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nFuel",
+      "keyword": "nFuel",
+      "context": "",
+      "path": "nFuel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nHeight",
+      "keyword": "nHeight",
+      "context": "",
+      "path": "nHeight",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nInlet",
+      "keyword": "nInlet",
+      "context": "",
+      "path": "nInlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nLength",
+      "keyword": "nLength",
+      "context": "",
+      "path": "nLength",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nLengthReverse",
+      "keyword": "nLengthReverse",
+      "context": "",
+      "path": "nLengthReverse",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nOutlet",
+      "keyword": "nOutlet",
+      "context": "",
+      "path": "nOutlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nPoro",
+      "keyword": "nPoro",
+      "context": "",
+      "path": "nPoro",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nQuarter",
+      "keyword": "nQuarter",
+      "context": "",
+      "path": "nQuarter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "finiteArea/liquidFilmFoam/cylinder/system/blockMeshDict",
+        "lagrangian/reactingParcelFoam/cylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nr",
+      "keyword": "nr",
+      "context": "",
+      "path": "nr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/sphere7/system/blockMeshDict",
+        "mesh/blockMesh/sphere7ProjectedEdges/system/blockMeshDict",
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nR",
+      "keyword": "nR",
+      "context": "",
+      "path": "nR",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nRadial",
+      "keyword": "nRadial",
+      "context": "",
+      "path": "nRadial",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "finiteArea/liquidFilmFoam/cylinder/system/blockMeshDict",
+        "lagrangian/reactingParcelFoam/cylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "NSLABS",
+      "keyword": "NSLABS",
+      "context": "",
+      "path": "NSLABS",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/top/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nWidth",
+      "keyword": "nWidth",
+      "context": "",
+      "path": "nWidth",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nx",
+      "keyword": "nx",
+      "context": "",
+      "path": "nx",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict",
+        "mesh/blockMesh/sphere/system/blockMeshDict",
+        "mesh/blockMesh/sphere7/system/blockMeshDict",
+        "mesh/blockMesh/sphere7ProjectedEdges/system/blockMeshDict",
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nx1",
+      "keyword": "nx1",
+      "context": "",
+      "path": "nx1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nx2",
+      "keyword": "nx2",
+      "context": "",
+      "path": "nx2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nx3",
+      "keyword": "nx3",
+      "context": "",
+      "path": "nx3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nxbend",
+      "keyword": "nxbend",
+      "context": "",
+      "path": "nxbend",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/blockMeshDict",
+        "incompressible/simpleFoam/squareBend/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nxin",
+      "keyword": "nxin",
+      "context": "",
+      "path": "nxin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/blockMeshDict",
+        "incompressible/simpleFoam/squareBend/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nxout",
+      "keyword": "nxout",
+      "context": "",
+      "path": "nxout",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/blockMeshDict",
+        "incompressible/simpleFoam/squareBend/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nxOuter",
+      "keyword": "nxOuter",
+      "context": "",
+      "path": "nxOuter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "finiteArea/liquidFilmFoam/cylinder/system/blockMeshDict",
+        "lagrangian/reactingParcelFoam/cylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ny",
+      "keyword": "ny",
+      "context": "",
+      "path": "ny",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 31,
+      "fileCount": 31,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/blockMeshDict",
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict",
+        "incompressible/simpleFoam/squareBend/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nyOuter",
+      "keyword": "nyOuter",
+      "context": "",
+      "path": "nyOuter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "finiteArea/liquidFilmFoam/cylinder/system/blockMeshDict",
+        "lagrangian/reactingParcelFoam/cylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nz",
+      "keyword": "nz",
+      "context": "",
+      "path": "nz",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 34,
+      "fileCount": 34,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/blockMeshDict",
+        "finiteArea/liquidFilmFoam/cylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "nZ",
+      "keyword": "nZ",
+      "context": "",
+      "path": "nZ",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "o",
+      "keyword": "o",
+      "context": "",
+      "path": "o",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "out",
+      "keyword": "out",
+      "context": "",
+      "path": "out",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "outerRadius",
+      "keyword": "outerRadius",
+      "context": "",
+      "path": "outerRadius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/sphere/system/blockMeshDict",
+        "mesh/blockMesh/sphere7/system/blockMeshDict",
+        "mesh/blockMesh/sphere7ProjectedEdges/system/blockMeshDict",
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "patches",
+      "keyword": "patches",
+      "context": "",
+      "path": "patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 65,
+      "fileCount": 65,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/simplePMMApanel/system/blockMeshDict",
+        "compressible/acousticFoam/obliqueAirJet/main/system/blockMeshDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_01x/system/blockMeshDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_05x_NB_02x/system/blockMeshDict",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/levelSet/R_10x_NB_01x/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "posY",
+      "keyword": "posY",
+      "context": "",
+      "path": "posY",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/pitzDaily/system/blockMeshDict",
+        "basic/scalarTransportFoam/pitzDaily/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/system/blockMeshDict",
+        "incompressible/adjointShapeOptimizationFoam/pitzDaily/system/blockMeshDict",
+        "incompressible/pimpleFoam/RAS/pitzDaily/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "posYR",
+      "keyword": "posYR",
+      "context": "",
+      "path": "posYR",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/pitzDaily/system/blockMeshDict",
+        "basic/scalarTransportFoam/pitzDaily/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/system/blockMeshDict",
+        "incompressible/adjointShapeOptimizationFoam/pitzDaily/system/blockMeshDict",
+        "incompressible/pimpleFoam/RAS/pitzDaily/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "prescale",
+      "keyword": "prescale",
+      "context": "",
+      "path": "prescale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "r",
+      "keyword": "r",
+      "context": "",
+      "path": "r",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R",
+      "keyword": "R",
+      "context": "",
+      "path": "R",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/blockMeshDict",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "r0",
+      "keyword": "r0",
+      "context": "",
+      "path": "r0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "r1",
+      "keyword": "r1",
+      "context": "",
+      "path": "r1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R1X",
+      "keyword": "R1X",
+      "context": "",
+      "path": "R1X",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R1Y",
+      "keyword": "R1Y",
+      "context": "",
+      "path": "R1Y",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R1Ym",
+      "keyword": "R1Ym",
+      "context": "",
+      "path": "R1Ym",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "r2",
+      "keyword": "r2",
+      "context": "",
+      "path": "r2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R2X",
+      "keyword": "R2X",
+      "context": "",
+      "path": "R2X",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R2Y",
+      "keyword": "R2Y",
+      "context": "",
+      "path": "R2Y",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R2Ym",
+      "keyword": "R2Ym",
+      "context": "",
+      "path": "R2Ym",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "r3",
+      "keyword": "r3",
+      "context": "",
+      "path": "r3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R3X",
+      "keyword": "R3X",
+      "context": "",
+      "path": "R3X",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R3Y",
+      "keyword": "R3Y",
+      "context": "",
+      "path": "R3Y",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R3Ym",
+      "keyword": "R3Ym",
+      "context": "",
+      "path": "R3Ym",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R4X",
+      "keyword": "R4X",
+      "context": "",
+      "path": "R4X",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R4Y",
+      "keyword": "R4Y",
+      "context": "",
+      "path": "R4Y",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "R4Ym",
+      "keyword": "R4Ym",
+      "context": "",
+      "path": "R4Ym",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rad0",
+      "keyword": "rad0",
+      "context": "",
+      "path": "rad0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/blockMeshDict",
+        "incompressible/simpleFoam/squareBend/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rad1",
+      "keyword": "rad1",
+      "context": "",
+      "path": "rad1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/blockMeshDict",
+        "incompressible/simpleFoam/squareBend/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "radius",
+      "keyword": "radius",
+      "context": "",
+      "path": "radius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pipeCyclic/system/blockMeshDict",
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "radiusNeg",
+      "keyword": "radiusNeg",
+      "context": "",
+      "path": "radiusNeg",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "Rc",
+      "keyword": "Rc",
+      "context": "",
+      "path": "Rc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/blockMeshDict",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rCells",
+      "keyword": "rCells",
+      "context": "",
+      "path": "rCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/blockMeshDict",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rGrading",
+      "keyword": "rGrading",
+      "context": "",
+      "path": "rGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/blockMeshDict",
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rInner",
+      "keyword": "rInner",
+      "context": "",
+      "path": "rInner",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "finiteArea/liquidFilmFoam/cylinder/system/blockMeshDict",
+        "lagrangian/reactingParcelFoam/cylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rMax",
+      "keyword": "rMax",
+      "context": "",
+      "path": "rMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rOuter",
+      "keyword": "rOuter",
+      "context": "",
+      "path": "rOuter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "finiteArea/liquidFilmFoam/cylinder/system/blockMeshDict",
+        "lagrangian/reactingParcelFoam/cylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rxInlet",
+      "keyword": "rxInlet",
+      "context": "",
+      "path": "rxInlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rxo",
+      "keyword": "rxo",
+      "context": "",
+      "path": "rxo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict",
+        "mesh/blockMesh/spheroidProjected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rxOutlet",
+      "keyword": "rxOutlet",
+      "context": "",
+      "path": "rxOutlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ryBL",
+      "keyword": "ryBL",
+      "context": "",
+      "path": "ryBL",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ryMid",
+      "keyword": "ryMid",
+      "context": "",
+      "path": "ryMid",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ryo",
+      "keyword": "ryo",
+      "context": "",
+      "path": "ryo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict",
+        "mesh/blockMesh/spheroidProjected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ryTop",
+      "keyword": "ryTop",
+      "context": "",
+      "path": "ryTop",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "rzo",
+      "keyword": "rzo",
+      "context": "",
+      "path": "rzo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict",
+        "mesh/blockMesh/spheroidProjected/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "scale",
+      "keyword": "scale",
+      "context": "",
+      "path": "scale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 431,
+      "fileCount": 431,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "shrink",
+      "keyword": "shrink",
+      "context": "",
+      "path": "shrink",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "sinBend",
+      "keyword": "sinBend",
+      "context": "",
+      "path": "sinBend",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "SLAB_OFFSET",
+      "keyword": "SLAB_OFFSET",
+      "context": "",
+      "path": "SLAB_OFFSET",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab2/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab3/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab4/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "sphereCentreHeight",
+      "keyword": "sphereCentreHeight",
+      "context": "",
+      "path": "sphereCentreHeight",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "sphereLayerThickness",
+      "keyword": "sphereLayerThickness",
+      "context": "",
+      "path": "sphereLayerThickness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "sphereRadius",
+      "keyword": "sphereRadius",
+      "context": "",
+      "path": "sphereRadius",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "t",
+      "keyword": "t",
+      "context": "",
+      "path": "t",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "topLevel",
+      "keyword": "topLevel",
+      "context": "",
+      "path": "topLevel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "totalHeight",
+      "keyword": "totalHeight",
+      "context": "",
+      "path": "totalHeight",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/system/blockMeshDict",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "transform",
+      "keyword": "transform",
+      "context": "",
+      "path": "transform",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab2/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab3/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab4/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/top/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "transform/angle",
+      "keyword": "angle",
+      "context": "transform",
+      "path": "transform/angle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "mesh/blockMesh/pipe/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "transform/axis",
+      "keyword": "axis",
+      "context": "transform",
+      "path": "transform/axis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "mesh/blockMesh/pipe/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "transform/origin",
+      "keyword": "origin",
+      "context": "transform",
+      "path": "transform/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab2/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab3/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab4/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/top/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "transform/rotation",
+      "keyword": "rotation",
+      "context": "transform",
+      "path": "transform/rotation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [
+        {
+          "value": "axisAngle",
+          "occurrences": 5
+        },
+        {
+          "value": "none",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab2/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab3/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab4/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/top/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "u",
+      "keyword": "u",
+      "context": "",
+      "path": "u",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ui",
+      "keyword": "ui",
+      "context": "",
+      "path": "ui",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/stitchMesh/simple-cube1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "uo",
+      "keyword": "uo",
+      "context": "",
+      "path": "uo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/stitchMesh/simple-cube1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "upperSphereBlock",
+      "keyword": "upperSphereBlock",
+      "context": "",
+      "path": "upperSphereBlock",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "verbose",
+      "keyword": "verbose",
+      "context": "",
+      "path": "verbose",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/sphere7/system/blockMeshDict",
+        "mesh/blockMesh/sphere7ProjectedEdges/system/blockMeshDict",
+        "mesh/blockMesh/spheroid7Projected/system/blockMeshDict",
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "vertices",
+      "keyword": "vertices",
+      "context": "",
+      "path": "vertices",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 402,
+      "fileCount": 402,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/blockMeshDict",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/left/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld1/right/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "w2",
+      "keyword": "w2",
+      "context": "",
+      "path": "w2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "wedgeAngle",
+      "keyword": "wedgeAngle",
+      "context": "",
+      "path": "wedgeAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "width",
+      "keyword": "width",
+      "context": "",
+      "path": "width",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/blockMeshDict",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/system/blockMeshDict",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x",
+      "keyword": "x",
+      "context": "",
+      "path": "x",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x_down",
+      "keyword": "x_down",
+      "context": "",
+      "path": "x_down",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x_max",
+      "keyword": "x_max",
+      "context": "",
+      "path": "x_max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "X_MAX_TUNNEL",
+      "keyword": "X_MAX_TUNNEL",
+      "context": "",
+      "path": "X_MAX_TUNNEL",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x_min",
+      "keyword": "x_min",
+      "context": "",
+      "path": "x_min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "X_MIN_TUNNEL",
+      "keyword": "X_MIN_TUNNEL",
+      "context": "",
+      "path": "X_MIN_TUNNEL",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x_up",
+      "keyword": "x_up",
+      "context": "",
+      "path": "x_up",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x0",
+      "keyword": "x0",
+      "context": "",
+      "path": "x0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/blockMeshDict",
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x0Max",
+      "keyword": "x0Max",
+      "context": "",
+      "path": "x0Max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x0Min",
+      "keyword": "x0Min",
+      "context": "",
+      "path": "x0Min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x1",
+      "keyword": "x1",
+      "context": "",
+      "path": "x1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/blockMeshDict",
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x1Bottom",
+      "keyword": "x1Bottom",
+      "context": "",
+      "path": "x1Bottom",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x1Top",
+      "keyword": "x1Top",
+      "context": "",
+      "path": "x1Top",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x2",
+      "keyword": "x2",
+      "context": "",
+      "path": "x2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict",
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/blockMeshDict",
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict",
+        "multiphase/interIsoFoam/sphereInReversedVortexFlow/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x2Bottom",
+      "keyword": "x2Bottom",
+      "context": "",
+      "path": "x2Bottom",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x2Top",
+      "keyword": "x2Top",
+      "context": "",
+      "path": "x2Top",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x3",
+      "keyword": "x3",
+      "context": "",
+      "path": "x3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict",
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x4",
+      "keyword": "x4",
+      "context": "",
+      "path": "x4",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict",
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "x5",
+      "keyword": "x5",
+      "context": "",
+      "path": "x5",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict",
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xcore",
+      "keyword": "xcore",
+      "context": "",
+      "path": "xcore",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xDCells",
+      "keyword": "xDCells",
+      "context": "",
+      "path": "xDCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xDffLowGrading",
+      "keyword": "xDffLowGrading",
+      "context": "",
+      "path": "xDffLowGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xDffUpGrading",
+      "keyword": "xDffUpGrading",
+      "context": "",
+      "path": "xDffUpGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xDGrading",
+      "keyword": "xDGrading",
+      "context": "",
+      "path": "xDGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xdim",
+      "keyword": "xdim",
+      "context": "",
+      "path": "xdim",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab2/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab3/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab4/system/blockMeshDict",
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xin",
+      "keyword": "xin",
+      "context": "",
+      "path": "xin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/blockMeshDict",
+        "incompressible/simpleFoam/squareBend/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xInlet",
+      "keyword": "xInlet",
+      "context": "",
+      "path": "xInlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xLead",
+      "keyword": "xLead",
+      "context": "",
+      "path": "xLead",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xLower",
+      "keyword": "xLower",
+      "context": "",
+      "path": "xLower",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xmax",
+      "keyword": "xmax",
+      "context": "",
+      "path": "xmax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "finiteArea/liquidFilmFoam/cylinder/system/blockMeshDict",
+        "lagrangian/reactingParcelFoam/cylinder/system/blockMeshDict",
+        "multiphase/overInterDyMFoam/rigidBodyHull/overset-2/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xMax",
+      "keyword": "xMax",
+      "context": "",
+      "path": "xMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/10/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/20/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/30/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xMffLowGrading",
+      "keyword": "xMffLowGrading",
+      "context": "",
+      "path": "xMffLowGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xmin",
+      "keyword": "xmin",
+      "context": "",
+      "path": "xmin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/overInterDyMFoam/rigidBodyHull/overset-2/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xMin",
+      "keyword": "xMin",
+      "context": "",
+      "path": "xMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/10/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/20/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/30/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/40/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xMLowCells",
+      "keyword": "xMLowCells",
+      "context": "",
+      "path": "xMLowCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xMLowGrading",
+      "keyword": "xMLowGrading",
+      "context": "",
+      "path": "xMLowGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xMUpCells",
+      "keyword": "xMUpCells",
+      "context": "",
+      "path": "xMUpCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xMUpGrading",
+      "keyword": "xMUpGrading",
+      "context": "",
+      "path": "xMUpGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xout",
+      "keyword": "xout",
+      "context": "",
+      "path": "xout",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/blockMeshDict",
+        "incompressible/simpleFoam/squareBend/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xOutlet",
+      "keyword": "xOutlet",
+      "context": "",
+      "path": "xOutlet",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xside",
+      "keyword": "xside",
+      "context": "",
+      "path": "xside",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xSpacing",
+      "keyword": "xSpacing",
+      "context": "",
+      "path": "xSpacing",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xTrail",
+      "keyword": "xTrail",
+      "context": "",
+      "path": "xTrail",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xUffLowGrading",
+      "keyword": "xUffLowGrading",
+      "context": "",
+      "path": "xUffLowGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xULowCells",
+      "keyword": "xULowCells",
+      "context": "",
+      "path": "xULowCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xUpper",
+      "keyword": "xUpper",
+      "context": "",
+      "path": "xUpper",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "xUUpCells",
+      "keyword": "xUUpCells",
+      "context": "",
+      "path": "xUUpCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "y",
+      "keyword": "y",
+      "context": "",
+      "path": "y",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "y_max",
+      "keyword": "y_max",
+      "context": "",
+      "path": "y_max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "Y_MAX_TUNNEL",
+      "keyword": "Y_MAX_TUNNEL",
+      "context": "",
+      "path": "Y_MAX_TUNNEL",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "y_min",
+      "keyword": "y_min",
+      "context": "",
+      "path": "y_min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "Y_MIN_TUNNEL",
+      "keyword": "Y_MIN_TUNNEL",
+      "context": "",
+      "path": "Y_MIN_TUNNEL",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "y_pad",
+      "keyword": "y_pad",
+      "context": "",
+      "path": "y_pad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "y0",
+      "keyword": "y0",
+      "context": "",
+      "path": "y0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "y1",
+      "keyword": "y1",
+      "context": "",
+      "path": "y1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/blockMeshDict",
+        "multiphase/interFoam/RAS/angledDuct/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "y2",
+      "keyword": "y2",
+      "context": "",
+      "path": "y2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantFlow/system/blockMeshDict",
+        "multiphase/interIsoFoam/discInConstantFlowCyclicBCs/system/blockMeshDict",
+        "multiphase/interIsoFoam/discInConstantPorousFlow/system/blockMeshDict",
+        "multiphase/interIsoFoam/discInReversedVortexFlow/system/blockMeshDict",
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "y3",
+      "keyword": "y3",
+      "context": "",
+      "path": "y3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "y4",
+      "keyword": "y4",
+      "context": "",
+      "path": "y4",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "y5",
+      "keyword": "y5",
+      "context": "",
+      "path": "y5",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "yc",
+      "keyword": "yc",
+      "context": "",
+      "path": "yc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "yCells",
+      "keyword": "yCells",
+      "context": "",
+      "path": "yCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ydim",
+      "keyword": "ydim",
+      "context": "",
+      "path": "ydim",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab2/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab3/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab4/system/blockMeshDict",
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "yExpansion",
+      "keyword": "yExpansion",
+      "context": "",
+      "path": "yExpansion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/10/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/20/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/30/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/40/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/50/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "yLower1",
+      "keyword": "yLower1",
+      "context": "",
+      "path": "yLower1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/backwardFacingStep2D/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "yLower2",
+      "keyword": "yLower2",
+      "context": "",
+      "path": "yLower2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/backwardFacingStep2D/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ymax",
+      "keyword": "ymax",
+      "context": "",
+      "path": "ymax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "finiteArea/liquidFilmFoam/cylinder/system/blockMeshDict",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/blockMeshDict",
+        "lagrangian/reactingParcelFoam/cylinder/system/blockMeshDict",
+        "multiphase/overInterDyMFoam/rigidBodyHull/overset-2/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "yMax",
+      "keyword": "yMax",
+      "context": "",
+      "path": "yMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/10/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/20/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ymin",
+      "keyword": "ymin",
+      "context": "",
+      "path": "ymin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/overInterDyMFoam/rigidBodyHull/overset-2/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "yMin",
+      "keyword": "yMin",
+      "context": "",
+      "path": "yMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/10/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/20/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ys",
+      "keyword": "ys",
+      "context": "",
+      "path": "ys",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ySpacing",
+      "keyword": "ySpacing",
+      "context": "",
+      "path": "ySpacing",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/system/blockMeshDict",
+        "incompressible/simpleFoam/backwardFacingStep2D/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "ySpacing2",
+      "keyword": "ySpacing2",
+      "context": "",
+      "path": "ySpacing2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/backwardFacingStep2D/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "yUpper1",
+      "keyword": "yUpper1",
+      "context": "",
+      "path": "yUpper1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/backwardFacingStep2D/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "yWall",
+      "keyword": "yWall",
+      "context": "",
+      "path": "yWall",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/backwardFacingStep2D/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "yyMax",
+      "keyword": "yyMax",
+      "context": "",
+      "path": "yyMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/turbulenceModels/planeChannel/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "z",
+      "keyword": "z",
+      "context": "",
+      "path": "z",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "z_max",
+      "keyword": "z_max",
+      "context": "",
+      "path": "z_max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "Z_MAX_TUNNEL",
+      "keyword": "Z_MAX_TUNNEL",
+      "context": "",
+      "path": "Z_MAX_TUNNEL",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "z_min",
+      "keyword": "z_min",
+      "context": "",
+      "path": "z_min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "Z_MIN_TUNNEL",
+      "keyword": "Z_MIN_TUNNEL",
+      "context": "",
+      "path": "Z_MIN_TUNNEL",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "z_pad",
+      "keyword": "z_pad",
+      "context": "",
+      "path": "z_pad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/blockMeshDict",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "z0",
+      "keyword": "z0",
+      "context": "",
+      "path": "z0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "z1",
+      "keyword": "z1",
+      "context": "",
+      "path": "z1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict",
+        "multiphase/interIsoFoam/sphereInReversedVortexFlow/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "z2",
+      "keyword": "z2",
+      "context": "",
+      "path": "z2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict",
+        "multiphase/interIsoFoam/sphereInReversedVortexFlow/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "z3",
+      "keyword": "z3",
+      "context": "",
+      "path": "z3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "z4",
+      "keyword": "z4",
+      "context": "",
+      "path": "z4",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "z5",
+      "keyword": "z5",
+      "context": "",
+      "path": "z5",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/iobasin/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zc",
+      "keyword": "zc",
+      "context": "",
+      "path": "zc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zCells",
+      "keyword": "zCells",
+      "context": "",
+      "path": "zCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zdim",
+      "keyword": "zdim",
+      "context": "",
+      "path": "zdim",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/multiWorld2/slab1/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab2/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab3/system/blockMeshDict",
+        "basic/laplacianFoam/multiWorld2/slab4/system/blockMeshDict",
+        "incompressible/pimpleFoam/RAS/propeller1/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zGrading",
+      "keyword": "zGrading",
+      "context": "",
+      "path": "zGrading",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zLead",
+      "keyword": "zLead",
+      "context": "",
+      "path": "zLead",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zLower",
+      "keyword": "zLower",
+      "context": "",
+      "path": "zLower",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zmax",
+      "keyword": "zmax",
+      "context": "",
+      "path": "zmax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBend/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zMax",
+      "keyword": "zMax",
+      "context": "",
+      "path": "zMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict",
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/10/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/20/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zmin",
+      "keyword": "zmin",
+      "context": "",
+      "path": "zmin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/potentialFoam/cylinder/system/blockMeshDict",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/blockMeshDict",
+        "compressible/rhoSimpleFoam/squareBend/system/blockMeshDict",
+        "finiteArea/liquidFilmFoam/cylinder/system/blockMeshDict",
+        "incompressible/nonNewtonianIcoFoam/offsetCylinder/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zMin",
+      "keyword": "zMin",
+      "context": "",
+      "path": "zMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/blockMeshDict",
+        "multiphase/interFoam/laminar/sloshingCylinder/system/blockMeshDict",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/10/system/blockMeshDict",
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/20/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zs",
+      "keyword": "zs",
+      "context": "",
+      "path": "zs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zTotalExpansion",
+      "keyword": "zTotalExpansion",
+      "context": "",
+      "path": "zTotalExpansion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zTrail",
+      "keyword": "zTrail",
+      "context": "",
+      "path": "zTrail",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    },
+    {
+      "key": "zUpper",
+      "keyword": "zUpper",
+      "context": "",
+      "path": "zUpper",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/blockMeshDict"
+      ]
+    }
+  ]
+}

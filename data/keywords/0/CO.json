@@ -1,0 +1,263 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "CO",
+  "sourceFileCount": 2,
+  "occurrences": 47,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/CO"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "wallTube",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/CO"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 5
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 3
+        },
+        {
+          "value": "wedge",
+          "occurrences": 2
+        },
+        {
+          "value": "empty",
+          "occurrences": 1
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 1
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/CO"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 4.07e-3",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/CO"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/CO"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/CO"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/CO"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "CO",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/CO"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/CO"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/CO",
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/0.orig/CO"
+      ]
+    }
+  ]
+}

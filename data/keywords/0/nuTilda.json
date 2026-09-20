@@ -1,0 +1,538 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "nuTilda",
+  "sourceFileCount": 72,
+  "occurrences": 1644,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 71,
+      "fileCount": 71,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunction/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 419,
+      "fileCount": 71,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunction/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/average",
+      "keyword": "average",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/average",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/LES/pitzDailyMapped/0/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamValue",
+      "keyword": "freestreamValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/freestreamValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/airFoil2D/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 7
+        },
+        {
+          "value": "uniform 2.5e-04",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.05",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/interpolationScheme",
+      "keyword": "interpolationScheme",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/interpolationScheme",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/LES/pitzDailyMapped/0/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/mapMethod",
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "nearest",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/offset",
+      "keyword": "offset",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/offset",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/nuTilda",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/setAverage",
+      "keyword": "setAverage",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/setAverage",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        },
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/nuTilda",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/nuTilda",
+        "incompressible/pisoFoam/LES/pitzDailyMapped/0/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 407,
+      "fileCount": 71,
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 197
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 118
+        },
+        {
+          "value": "empty",
+          "occurrences": 53
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 15
+        },
+        {
+          "value": "cyclic",
+          "occurrences": 8
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 5
+        },
+        {
+          "value": "freestream",
+          "occurrences": 2
+        },
+        {
+          "value": "overset",
+          "occurrences": 2
+        },
+        {
+          "value": "timeVaryingMappedFixedValue",
+          "occurrences": 2
+        },
+        {
+          "value": "wedge",
+          "occurrences": 2
+        },
+        {
+          "value": "mapped",
+          "occurrences": 1
+        },
+        {
+          "value": "processor",
+          "occurrences": 1
+        },
+        {
+          "value": "slip",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunction/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 216,
+      "fileCount": 59,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 167
+        },
+        {
+          "value": "uniform 1.e-4",
+          "occurrences": 20
+        },
+        {
+          "value": "uniform 4.5e-05",
+          "occurrences": 12
+        },
+        {
+          "value": "uniform 0.05",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 2.5e-04",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 72,
+      "fileCount": 72,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunction/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 72,
+      "fileCount": 72,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunction/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 72,
+      "fileCount": 72,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 72
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunction/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 72,
+      "fileCount": 72,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 72
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunction/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"0\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 72,
+      "fileCount": 72,
+      "values": [
+        {
+          "value": "nuTilda",
+          "occurrences": 72
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunction/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 72,
+      "fileCount": 72,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunction/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 71,
+      "fileCount": 71,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 27
+        },
+        {
+          "value": "uniform 1.e-4",
+          "occurrences": 20
+        },
+        {
+          "value": "uniform 4.5e-05",
+          "occurrences": 12
+        },
+        {
+          "value": "uniform 2.5e-4",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 0.05",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 0.14",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1.06837606838e-06",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1.51e-05",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-05",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e-8",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 6.93e-5",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 7.5e-5",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/nuTilda",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunction/0/nuTilda",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/nuTilda",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/nuTilda"
+      ]
+    }
+  ]
+}

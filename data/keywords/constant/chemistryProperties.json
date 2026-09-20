@@ -1,0 +1,1342 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "constant",
+  "fileKey": "chemistryProperties",
+  "sourceFileCount": 38,
+  "occurrences": 640,
+  "entries": [
+    {
+      "key": "chemistry",
+      "keyword": "chemistry",
+      "context": "",
+      "path": "chemistry",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 38,
+      "fileCount": 38,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 23
+        },
+        {
+          "value": "on",
+          "occurrences": 15
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "chemistryType",
+      "keyword": "chemistryType",
+      "context": "",
+      "path": "chemistryType",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 38,
+      "fileCount": 38,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "chemistryType/chemistrySolver",
+      "keyword": "chemistrySolver",
+      "context": "chemistryType",
+      "path": "chemistryType/chemistrySolver",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "noneode",
+          "occurrences": 2
+        },
+        {
+          "value": "EulerImplicit",
+          "occurrences": 1
+        },
+        {
+          "value": "noChemistrySolver",
+          "occurrences": 1
+        },
+        {
+          "value": "ode",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/chemistryProperties",
+        "mesh/parallel/filter/constant/chemistryProperties",
+        "multiphase/interFoam/laminar/vofToLagrangian/lagrangianDistributionInjection/constant/chemistryProperties",
+        "multiphase/interFoam/laminar/vofToLagrangian/lagrangianParticleInjection/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "chemistryType/chemistryThermo",
+      "keyword": "chemistryThermo",
+      "context": "chemistryType",
+      "path": "chemistryType/chemistryThermo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "nonwpsi",
+          "occurrences": 2
+        },
+        {
+          "value": "psi",
+          "occurrences": 2
+        },
+        {
+          "value": "rho",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/chemistryProperties",
+        "mesh/parallel/filter/constant/chemistryProperties",
+        "multiphase/interFoam/laminar/vofToLagrangian/lagrangianDistributionInjection/constant/chemistryProperties",
+        "multiphase/interFoam/laminar/vofToLagrangian/lagrangianParticleInjection/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "chemistryType/method",
+      "keyword": "method",
+      "context": "chemistryType",
+      "path": "chemistryType/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "TDAC",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "chemistryType/solver",
+      "keyword": "solver",
+      "context": "chemistryType",
+      "path": "chemistryType/solver",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 33,
+      "fileCount": 33,
+      "values": [
+        {
+          "value": "noChemistrySolver",
+          "occurrences": 17
+        },
+        {
+          "value": "ode",
+          "occurrences": 12
+        },
+        {
+          "value": "EulerImplicit",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "chemistryType/TDAC",
+      "keyword": "TDAC",
+      "context": "chemistryType",
+      "path": "chemistryType/TDAC",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "EulerImplicitCoeffs",
+      "keyword": "EulerImplicitCoeffs",
+      "context": "",
+      "path": "EulerImplicitCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "EulerImplicitCoeffs/cTauChem",
+      "keyword": "cTauChem",
+      "context": "EulerImplicitCoeffs",
+      "path": "EulerImplicitCoeffs/cTauChem",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "EulerImplicitCoeffs/equilibriumRateLimiter",
+      "keyword": "equilibriumRateLimiter",
+      "context": "EulerImplicitCoeffs",
+      "path": "EulerImplicitCoeffs/equilibriumRateLimiter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 13
+        },
+        {
+          "value": "no",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 38,
+      "fileCount": 38,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 38,
+      "fileCount": 38,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 38
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 38,
+      "fileCount": 38,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 38
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "\"constant\"",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/movingInjectorBox/constant/chemistryProperties",
+        "lagrangian/reactingParcelFoam/parcelInBox/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 38,
+      "fileCount": 38,
+      "values": [
+        {
+          "value": "chemistryProperties",
+          "occurrences": 38
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 38,
+      "fileCount": 38,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "importantSpecies",
+      "keyword": "importantSpecies",
+      "context": "",
+      "path": "importantSpecies",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "importantSpecies/CH4",
+      "keyword": "CH4",
+      "context": "importantSpecies",
+      "path": "importantSpecies/CH4",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "importantSpecies/CO2",
+      "keyword": "CO2",
+      "context": "importantSpecies",
+      "path": "importantSpecies/CO2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "importantSpecies/H2O",
+      "keyword": "H2O",
+      "context": "importantSpecies",
+      "path": "importantSpecies/H2O",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "importantSpecies/O2",
+      "keyword": "O2",
+      "context": "importantSpecies",
+      "path": "importantSpecies/O2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "initialChemicalTimeStep",
+      "keyword": "initialChemicalTimeStep",
+      "context": "",
+      "path": "initialChemicalTimeStep",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "odeCoeffs",
+      "keyword": "odeCoeffs",
+      "context": "",
+      "path": "odeCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 23,
+      "fileCount": 23,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "odeCoeffs/absTol",
+      "keyword": "absTol",
+      "context": "odeCoeffs",
+      "path": "odeCoeffs/absTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "odeCoeffs/eps",
+      "keyword": "eps",
+      "context": "odeCoeffs",
+      "path": "odeCoeffs/eps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/chemistryProperties",
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/constant/chemistryProperties",
+        "lagrangian/reactingParcelFoam/filter/constant/chemistryProperties",
+        "lagrangian/reactingParcelFoam/verticalChannel/constant/chemistryProperties",
+        "lagrangian/sprayFoam/aachenBomb/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "odeCoeffs/relTol",
+      "keyword": "relTol",
+      "context": "odeCoeffs",
+      "path": "odeCoeffs/relTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "odeCoeffs/solver",
+      "keyword": "solver",
+      "context": "odeCoeffs",
+      "path": "odeCoeffs/solver",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 23,
+      "fileCount": 23,
+      "values": [
+        {
+          "value": "seulex",
+          "occurrences": 17
+        },
+        {
+          "value": "Rosenbrock34",
+          "occurrences": 4
+        },
+        {
+          "value": "Rosenbrock43",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/gri/constant/chemistryProperties",
+        "combustion/chemFoam/h2/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18/constant/chemistryProperties",
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/chemFoam/nc7h16/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction",
+      "keyword": "reduction",
+      "context": "",
+      "path": "reduction",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/active",
+      "keyword": "active",
+      "context": "reduction",
+      "path": "reduction/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/automaticSIS",
+      "keyword": "automaticSIS",
+      "context": "reduction",
+      "path": "reduction/automaticSIS",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/fuelSpecies",
+      "keyword": "fuelSpecies",
+      "context": "reduction",
+      "path": "reduction/fuelSpecies",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/fuelSpecies/CH4",
+      "keyword": "CH4",
+      "context": "reduction/fuelSpecies",
+      "path": "reduction/fuelSpecies/CH4",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/fuelSpecies/IC8H18",
+      "keyword": "IC8H18",
+      "context": "reduction/fuelSpecies",
+      "path": "reduction/fuelSpecies/IC8H18",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/initialSet",
+      "keyword": "initialSet",
+      "context": "reduction",
+      "path": "reduction/initialSet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/initialSet/CH4",
+      "keyword": "CH4",
+      "context": "reduction/initialSet",
+      "path": "reduction/initialSet/CH4",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/initialSet/CO",
+      "keyword": "CO",
+      "context": "reduction/initialSet",
+      "path": "reduction/initialSet/CO",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/initialSet/HO2",
+      "keyword": "HO2",
+      "context": "reduction/initialSet",
+      "path": "reduction/initialSet/HO2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/initialSet/IC8H18",
+      "keyword": "IC8H18",
+      "context": "reduction/initialSet",
+      "path": "reduction/initialSet/IC8H18",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/log",
+      "keyword": "log",
+      "context": "reduction",
+      "path": "reduction/log",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 4
+        },
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/method",
+      "keyword": "method",
+      "context": "reduction",
+      "path": "reduction/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "DAC",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "reduction/tolerance",
+      "keyword": "tolerance",
+      "context": "reduction",
+      "path": "reduction/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation",
+      "keyword": "tabulation",
+      "context": "",
+      "path": "tabulation",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/active",
+      "keyword": "active",
+      "context": "tabulation",
+      "path": "tabulation/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/checkEntireTreeInterval",
+      "keyword": "checkEntireTreeInterval",
+      "context": "tabulation",
+      "path": "tabulation/checkEntireTreeInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/chPMaxLifeTime",
+      "keyword": "chPMaxLifeTime",
+      "context": "tabulation",
+      "path": "tabulation/chPMaxLifeTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/growPoints",
+      "keyword": "growPoints",
+      "context": "tabulation",
+      "path": "tabulation/growPoints",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/log",
+      "keyword": "log",
+      "context": "tabulation",
+      "path": "tabulation/log",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/maxDepthFactor",
+      "keyword": "maxDepthFactor",
+      "context": "tabulation",
+      "path": "tabulation/maxDepthFactor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/maxGrowth",
+      "keyword": "maxGrowth",
+      "context": "tabulation",
+      "path": "tabulation/maxGrowth",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/maxMRUSize",
+      "keyword": "maxMRUSize",
+      "context": "tabulation",
+      "path": "tabulation/maxMRUSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/maxNLeafs",
+      "keyword": "maxNLeafs",
+      "context": "tabulation",
+      "path": "tabulation/maxNLeafs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/maxNumNewDim",
+      "keyword": "maxNumNewDim",
+      "context": "tabulation",
+      "path": "tabulation/maxNumNewDim",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/method",
+      "keyword": "method",
+      "context": "tabulation",
+      "path": "tabulation/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "ISAT",
+          "occurrences": 4
+        },
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/chemFoam/ic8h18_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/minBalanceThreshold",
+      "keyword": "minBalanceThreshold",
+      "context": "tabulation",
+      "path": "tabulation/minBalanceThreshold",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/MRURetrieve",
+      "keyword": "MRURetrieve",
+      "context": "tabulation",
+      "path": "tabulation/MRURetrieve",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/printNumRetrieve",
+      "keyword": "printNumRetrieve",
+      "context": "tabulation",
+      "path": "tabulation/printNumRetrieve",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/printProportion",
+      "keyword": "printProportion",
+      "context": "tabulation",
+      "path": "tabulation/printProportion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/scaleFactor",
+      "keyword": "scaleFactor",
+      "context": "tabulation",
+      "path": "tabulation/scaleFactor",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/scaleFactor/deltaT",
+      "keyword": "deltaT",
+      "context": "tabulation/scaleFactor",
+      "path": "tabulation/scaleFactor/deltaT",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/scaleFactor/otherSpecies",
+      "keyword": "otherSpecies",
+      "context": "tabulation/scaleFactor",
+      "path": "tabulation/scaleFactor/otherSpecies",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/scaleFactor/Pressure",
+      "keyword": "Pressure",
+      "context": "tabulation/scaleFactor",
+      "path": "tabulation/scaleFactor/Pressure",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/scaleFactor/Temperature",
+      "keyword": "Temperature",
+      "context": "tabulation/scaleFactor",
+      "path": "tabulation/scaleFactor/Temperature",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/tolerance",
+      "keyword": "tolerance",
+      "context": "tabulation",
+      "path": "tabulation/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/chemistryProperties"
+      ]
+    },
+    {
+      "key": "tabulation/variableTimeStep",
+      "keyword": "variableTimeStep",
+      "context": "tabulation",
+      "path": "tabulation/variableTimeStep",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/chemistryProperties"
+      ]
+    }
+  ]
+}

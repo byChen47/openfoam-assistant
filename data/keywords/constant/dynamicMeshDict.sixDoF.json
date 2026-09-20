@@ -1,0 +1,718 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "constant",
+  "fileKey": "dynamicMeshDict.sixDoF",
+  "sourceFileCount": 2,
+  "occurrences": 51,
+  "entries": [
+    {
+      "key": "accelerationRelaxation",
+      "keyword": "accelerationRelaxation",
+      "context": "",
+      "path": "accelerationRelaxation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "centreOfMass",
+      "keyword": "centreOfMass",
+      "context": "",
+      "path": "centreOfMass",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "constraints",
+      "keyword": "constraints",
+      "context": "",
+      "path": "constraints",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "constraints/yPlane",
+      "keyword": "yPlane",
+      "context": "constraints",
+      "path": "constraints/yPlane",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "constraints/yPlane/axis",
+      "keyword": "axis",
+      "context": "constraints/yPlane",
+      "path": "constraints/yPlane/axis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "constraints/yPlane/sixDoFRigidBodyMotionConstraint",
+      "keyword": "sixDoFRigidBodyMotionConstraint",
+      "context": "constraints/yPlane",
+      "path": "constraints/yPlane/sixDoFRigidBodyMotionConstraint",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "axis",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "constraints/zAxis",
+      "keyword": "zAxis",
+      "context": "constraints",
+      "path": "constraints/zAxis",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "constraints/zAxis/direction",
+      "keyword": "direction",
+      "context": "constraints/zAxis",
+      "path": "constraints/zAxis/direction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "constraints/zAxis/sixDoFRigidBodyMotionConstraint",
+      "keyword": "sixDoFRigidBodyMotionConstraint",
+      "context": "constraints/zAxis",
+      "path": "constraints/zAxis/sixDoFRigidBodyMotionConstraint",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "line",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "dynamicFvMesh",
+      "keyword": "dynamicFvMesh",
+      "context": "",
+      "path": "dynamicFvMesh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "dynamicMotionSolverFvMesh",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF",
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF",
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF",
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF",
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "dynamicMeshDict",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF",
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF",
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "innerDistance",
+      "keyword": "innerDistance",
+      "context": "",
+      "path": "innerDistance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "mass",
+      "keyword": "mass",
+      "context": "",
+      "path": "mass",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "momentOfInertia",
+      "keyword": "momentOfInertia",
+      "context": "",
+      "path": "momentOfInertia",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "motionSolver",
+      "keyword": "motionSolver",
+      "context": "",
+      "path": "motionSolver",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "sixDoFRigidBodyMotion",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF",
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "motionSolverLibs",
+      "keyword": "motionSolverLibs",
+      "context": "",
+      "path": "motionSolverLibs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF",
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "outerDistance",
+      "keyword": "outerDistance",
+      "context": "",
+      "path": "outerDistance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "patches",
+      "keyword": "patches",
+      "context": "",
+      "path": "patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "report",
+      "keyword": "report",
+      "context": "",
+      "path": "report",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "restraints",
+      "keyword": "restraints",
+      "context": "",
+      "path": "restraints",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "restraints/rotationDamper",
+      "keyword": "rotationDamper",
+      "context": "restraints",
+      "path": "restraints/rotationDamper",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "restraints/rotationDamper/coeff",
+      "keyword": "coeff",
+      "context": "restraints/rotationDamper",
+      "path": "restraints/rotationDamper/coeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "restraints/rotationDamper/sixDoFRigidBodyMotionRestraint",
+      "keyword": "sixDoFRigidBodyMotionRestraint",
+      "context": "restraints/rotationDamper",
+      "path": "restraints/rotationDamper/sixDoFRigidBodyMotionRestraint",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "sphericalAngularDamper",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "restraints/translationDamper",
+      "keyword": "translationDamper",
+      "context": "restraints",
+      "path": "restraints/translationDamper",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "restraints/translationDamper/coeff",
+      "keyword": "coeff",
+      "context": "restraints/translationDamper",
+      "path": "restraints/translationDamper/coeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "restraints/translationDamper/sixDoFRigidBodyMotionRestraint",
+      "keyword": "sixDoFRigidBodyMotionRestraint",
+      "context": "restraints/translationDamper",
+      "path": "restraints/translationDamper/sixDoFRigidBodyMotionRestraint",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "linearDamper",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "rhoInf",
+      "keyword": "rhoInf",
+      "context": "",
+      "path": "rhoInf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "sixDoFRigidBodyMotionCoeffs",
+      "keyword": "sixDoFRigidBodyMotionCoeffs",
+      "context": "",
+      "path": "sixDoFRigidBodyMotionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "sixDoFRigidBodyMotionCoeffs/centreOfMass",
+      "keyword": "centreOfMass",
+      "context": "sixDoFRigidBodyMotionCoeffs",
+      "path": "sixDoFRigidBodyMotionCoeffs/centreOfMass",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "sixDoFRigidBodyMotionCoeffs/innerDistance",
+      "keyword": "innerDistance",
+      "context": "sixDoFRigidBodyMotionCoeffs",
+      "path": "sixDoFRigidBodyMotionCoeffs/innerDistance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "sixDoFRigidBodyMotionCoeffs/Lx",
+      "keyword": "Lx",
+      "context": "sixDoFRigidBodyMotionCoeffs",
+      "path": "sixDoFRigidBodyMotionCoeffs/Lx",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "sixDoFRigidBodyMotionCoeffs/Ly",
+      "keyword": "Ly",
+      "context": "sixDoFRigidBodyMotionCoeffs",
+      "path": "sixDoFRigidBodyMotionCoeffs/Ly",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "sixDoFRigidBodyMotionCoeffs/Lz",
+      "keyword": "Lz",
+      "context": "sixDoFRigidBodyMotionCoeffs",
+      "path": "sixDoFRigidBodyMotionCoeffs/Lz",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "sixDoFRigidBodyMotionCoeffs/outerDistance",
+      "keyword": "outerDistance",
+      "context": "sixDoFRigidBodyMotionCoeffs",
+      "path": "sixDoFRigidBodyMotionCoeffs/outerDistance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "sixDoFRigidBodyMotionCoeffs/patches",
+      "keyword": "patches",
+      "context": "sixDoFRigidBodyMotionCoeffs",
+      "path": "sixDoFRigidBodyMotionCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "sixDoFRigidBodyMotionCoeffs/rhoSolid",
+      "keyword": "rhoSolid",
+      "context": "sixDoFRigidBodyMotionCoeffs",
+      "path": "sixDoFRigidBodyMotionCoeffs/rhoSolid",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/floatingObject/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "solver",
+      "keyword": "solver",
+      "context": "",
+      "path": "solver",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "solver/type",
+      "keyword": "type",
+      "context": "solver",
+      "path": "solver/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Newmark",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    },
+    {
+      "key": "value",
+      "keyword": "value",
+      "context": "",
+      "path": "value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHullMoving/constant/dynamicMeshDict.sixDoF"
+      ]
+    }
+  ]
+}

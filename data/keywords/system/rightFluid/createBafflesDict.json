@@ -1,0 +1,575 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "rightFluid/createBafflesDict",
+  "sourceFileCount": 1,
+  "occurrences": 32,
+  "entries": [
+    {
+      "key": "baffles",
+      "keyword": "baffles",
+      "context": "",
+      "path": "baffles",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces",
+      "keyword": "cyclicFaces",
+      "context": "baffles",
+      "path": "baffles/cyclicFaces",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/origin",
+      "keyword": "origin",
+      "context": "baffles/cyclicFaces",
+      "path": "baffles/cyclicFaces/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches",
+      "keyword": "patches",
+      "context": "baffles/cyclicFaces",
+      "path": "baffles/cyclicFaces/patches",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master",
+      "keyword": "master",
+      "context": "baffles/cyclicFaces/patches",
+      "path": "baffles/cyclicFaces/patches/master",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/name",
+      "keyword": "name",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "porous_half0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "porous_half1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields",
+      "keyword": "patchFields",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/patchFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "keyword": "p_rgh",
+      "context": "baffles/cyclicFaces/patches/master/patchFields",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/D",
+      "keyword": "D",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/D",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/I",
+      "keyword": "I",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/I",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/jump",
+      "keyword": "jump",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/jump",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/length",
+      "keyword": "length",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/length",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/patchType",
+      "keyword": "patchType",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/patchType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/type",
+      "keyword": "type",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/uniformJump",
+      "keyword": "uniformJump",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/uniformJump",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/value",
+      "keyword": "value",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/master/type",
+      "keyword": "type",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave",
+      "keyword": "slave",
+      "context": "baffles/cyclicFaces/patches",
+      "path": "baffles/cyclicFaces/patches/slave",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/name",
+      "keyword": "name",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "porous_half1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/neighbourPatch",
+      "keyword": "neighbourPatch",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "porous_half0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/patchFields",
+      "keyword": "patchFields",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/patchFields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/patches/slave/type",
+      "keyword": "type",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cyclic",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/span",
+      "keyword": "span",
+      "context": "baffles/cyclicFaces",
+      "path": "baffles/cyclicFaces/span",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/surface",
+      "keyword": "surface",
+      "context": "baffles/cyclicFaces",
+      "path": "baffles/cyclicFaces/surface",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "plate",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "baffles/cyclicFaces/type",
+      "keyword": "type",
+      "context": "baffles/cyclicFaces",
+      "path": "baffles/cyclicFaces/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "searchableSurface",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "createBafflesDict",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    },
+    {
+      "key": "internalFacesOnly",
+      "keyword": "internalFacesOnly",
+      "context": "",
+      "path": "internalFacesOnly",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/rightFluid/createBafflesDict"
+      ]
+    }
+  ]
+}

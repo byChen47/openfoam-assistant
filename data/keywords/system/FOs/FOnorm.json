@@ -1,0 +1,600 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "FOs/FOnorm",
+  "sourceFileCount": 1,
+  "occurrences": 32,
+  "entries": [
+    {
+      "key": "norm_k_field",
+      "keyword": "norm_k_field",
+      "context": "",
+      "path": "norm_k_field",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_k_field/divisorField",
+      "keyword": "divisorField",
+      "context": "norm_k_field",
+      "path": "norm_k_field/divisorField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "p",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_k_field/field",
+      "keyword": "field",
+      "context": "norm_k_field",
+      "path": "norm_k_field/field",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "k",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_k_field/norm",
+      "keyword": "norm",
+      "context": "norm_k_field",
+      "path": "norm_k_field/norm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "divisorField",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_k_field/result",
+      "keyword": "result",
+      "context": "norm_k_field",
+      "path": "norm_k_field/result",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "norm_k_field",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_composite",
+      "keyword": "norm_U_composite",
+      "context": "",
+      "path": "norm_U_composite",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_composite/divisor",
+      "keyword": "divisor",
+      "context": "norm_U_composite",
+      "path": "norm_U_composite/divisor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant 2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_composite/norm",
+      "keyword": "norm",
+      "context": "norm_U_composite",
+      "path": "norm_U_composite/norm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "composite",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_composite/result",
+      "keyword": "result",
+      "context": "norm_U_composite",
+      "path": "norm_U_composite/result",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "norm_U_composite",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1",
+      "keyword": "norm_U_L1",
+      "context": "",
+      "path": "norm_U_L1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/enabled",
+      "keyword": "enabled",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/enabled",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/executeControl",
+      "keyword": "executeControl",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/executeControl",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "writeTime",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/field",
+      "keyword": "field",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/field",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "U",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/libs",
+      "keyword": "libs",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/libs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/log",
+      "keyword": "log",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/log",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/norm",
+      "keyword": "norm",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/norm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "L1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/region",
+      "keyword": "region",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "region0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/result",
+      "keyword": "result",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/result",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "norm_U_L1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/timeEnd",
+      "keyword": "timeEnd",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/timeEnd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/timeStart",
+      "keyword": "timeStart",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/timeStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/type",
+      "keyword": "type",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "norm",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L1/writeControl",
+      "keyword": "writeControl",
+      "context": "norm_U_L1",
+      "path": "norm_U_L1/writeControl",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "writeTime",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L2",
+      "keyword": "norm_U_L2",
+      "context": "",
+      "path": "norm_U_L2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L2/norm",
+      "keyword": "norm",
+      "context": "norm_U_L2",
+      "path": "norm_U_L2/norm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "L2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_L2/result",
+      "keyword": "result",
+      "context": "norm_U_L2",
+      "path": "norm_U_L2/result",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "norm_U_L2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_Lp",
+      "keyword": "norm_U_Lp",
+      "context": "",
+      "path": "norm_U_Lp",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_Lp/norm",
+      "keyword": "norm",
+      "context": "norm_U_Lp",
+      "path": "norm_U_Lp/norm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Lp",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_Lp/p",
+      "keyword": "p",
+      "context": "norm_U_Lp",
+      "path": "norm_U_Lp/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_Lp/result",
+      "keyword": "result",
+      "context": "norm_U_Lp",
+      "path": "norm_U_Lp/result",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "norm_U_Lp",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_max",
+      "keyword": "norm_U_max",
+      "context": "",
+      "path": "norm_U_max",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_max/norm",
+      "keyword": "norm",
+      "context": "norm_U_max",
+      "path": "norm_U_max/norm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "max",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    },
+    {
+      "key": "norm_U_max/result",
+      "keyword": "result",
+      "context": "norm_U_max",
+      "path": "norm_U_max/result",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "norm_U_max",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavity/system/FOs/FOnorm"
+      ]
+    }
+  ]
+}

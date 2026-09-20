@@ -1,0 +1,1360 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "meshDict.geometry",
+  "sourceFileCount": 3,
+  "occurrences": 104,
+  "entries": [
+    {
+      "key": "baffles.stl",
+      "keyword": "baffles.stl",
+      "context": "",
+      "path": "baffles.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "baffles.stl/name",
+      "keyword": "name",
+      "context": "baffles.stl",
+      "path": "baffles.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "baffles",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "baffles.stl/regions",
+      "keyword": "regions",
+      "context": "baffles.stl",
+      "path": "baffles.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "baffles.stl/regions/{region}",
+      "keyword": "baffles",
+      "context": "baffles.stl/regions",
+      "path": "baffles.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "baffles.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "baffles.stl/regions/{region}",
+      "path": "baffles.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "baffles",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "baffles.stl/type",
+      "keyword": "type",
+      "context": "baffles.stl",
+      "path": "baffles.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "flange.stl",
+      "keyword": "flange.stl",
+      "context": "",
+      "path": "flange.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "flange.stl/name",
+      "keyword": "name",
+      "context": "flange.stl",
+      "path": "flange.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "flange",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "flange.stl/regions",
+      "keyword": "regions",
+      "context": "flange.stl",
+      "path": "flange.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "flange.stl/regions/{region}",
+      "keyword": "patch1",
+      "context": "flange.stl/regions",
+      "path": "flange.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "flange.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "flange.stl/regions/{region}",
+      "path": "flange.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "outlet",
+          "occurrences": 1
+        },
+        {
+          "value": "plate",
+          "occurrences": 1
+        },
+        {
+          "value": "rings",
+          "occurrences": 1
+        },
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "flange.stl/type",
+      "keyword": "type",
+      "context": "flange.stl",
+      "path": "flange.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry",
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry",
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry",
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry",
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry",
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry",
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "meshDict.geometry",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry",
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry",
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry",
+        "mesh/foamyHexMesh/flange/system/meshDict.geometry",
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "porosity_inflated.stl",
+      "keyword": "porosity_inflated.stl",
+      "context": "",
+      "path": "porosity_inflated.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "porosity_inflated.stl/name",
+      "keyword": "name",
+      "context": "porosity_inflated.stl",
+      "path": "porosity_inflated.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "porosity",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "porosity_inflated.stl/type",
+      "keyword": "type",
+      "context": "porosity_inflated.stl",
+      "path": "porosity_inflated.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "rotating.stl",
+      "keyword": "rotating.stl",
+      "context": "",
+      "path": "rotating.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "rotating.stl/name",
+      "keyword": "name",
+      "context": "rotating.stl",
+      "path": "rotating.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "rotating",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "rotating.stl/regions",
+      "keyword": "regions",
+      "context": "rotating.stl",
+      "path": "rotating.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "rotating.stl/regions/{region}",
+      "keyword": "rotating",
+      "context": "rotating.stl/regions",
+      "path": "rotating.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "rotating.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "rotating.stl/regions/{region}",
+      "path": "rotating.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "rotating",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "rotating.stl/type",
+      "keyword": "type",
+      "context": "rotating.stl",
+      "path": "rotating.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaft.stl",
+      "keyword": "shaft.stl",
+      "context": "",
+      "path": "shaft.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaft.stl/name",
+      "keyword": "name",
+      "context": "shaft.stl",
+      "path": "shaft.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "shaft",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaft.stl/regions",
+      "keyword": "regions",
+      "context": "shaft.stl",
+      "path": "shaft.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaft.stl/regions/{region}",
+      "keyword": "shaft",
+      "context": "shaft.stl/regions",
+      "path": "shaft.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaft.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "shaft.stl/regions/{region}",
+      "path": "shaft.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "shaft",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaft.stl/type",
+      "keyword": "type",
+      "context": "shaft.stl",
+      "path": "shaft.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaftRotating.stl",
+      "keyword": "shaftRotating.stl",
+      "context": "",
+      "path": "shaftRotating.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaftRotating.stl/name",
+      "keyword": "name",
+      "context": "shaftRotating.stl",
+      "path": "shaftRotating.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "shaftRotating",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaftRotating.stl/regions",
+      "keyword": "regions",
+      "context": "shaftRotating.stl",
+      "path": "shaftRotating.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaftRotating.stl/regions/{region}",
+      "keyword": "shaftRotating",
+      "context": "shaftRotating.stl/regions",
+      "path": "shaftRotating.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaftRotating.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "shaftRotating.stl/regions/{region}",
+      "path": "shaftRotating.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "shaftRotating",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "shaftRotating.stl/type",
+      "keyword": "type",
+      "context": "shaftRotating.stl",
+      "path": "shaftRotating.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerInlet.stl",
+      "keyword": "spargerInlet.stl",
+      "context": "",
+      "path": "spargerInlet.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerInlet.stl/name",
+      "keyword": "name",
+      "context": "spargerInlet.stl",
+      "path": "spargerInlet.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "spargerInlet",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerInlet.stl/regions",
+      "keyword": "regions",
+      "context": "spargerInlet.stl",
+      "path": "spargerInlet.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerInlet.stl/regions/{region}",
+      "keyword": "gasInlet",
+      "context": "spargerInlet.stl/regions",
+      "path": "spargerInlet.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerInlet.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "spargerInlet.stl/regions/{region}",
+      "path": "spargerInlet.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "gasInlet",
+          "occurrences": 1
+        },
+        {
+          "value": "sparger",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerInlet.stl/type",
+      "keyword": "type",
+      "context": "spargerInlet.stl",
+      "path": "spargerInlet.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerShaft.stl",
+      "keyword": "spargerShaft.stl",
+      "context": "",
+      "path": "spargerShaft.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerShaft.stl/name",
+      "keyword": "name",
+      "context": "spargerShaft.stl",
+      "path": "spargerShaft.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "spargerShaft",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerShaft.stl/regions",
+      "keyword": "regions",
+      "context": "spargerShaft.stl",
+      "path": "spargerShaft.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerShaft.stl/regions/{region}",
+      "keyword": "sparger",
+      "context": "spargerShaft.stl/regions",
+      "path": "spargerShaft.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerShaft.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "spargerShaft.stl/regions/{region}",
+      "path": "spargerShaft.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "spargerShaft",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "spargerShaft.stl/type",
+      "keyword": "type",
+      "context": "spargerShaft.stl",
+      "path": "spargerShaft.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer_baffles.stl",
+      "keyword": "stirrer_baffles.stl",
+      "context": "",
+      "path": "stirrer_baffles.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer_baffles.stl/name",
+      "keyword": "name",
+      "context": "stirrer_baffles.stl",
+      "path": "stirrer_baffles.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "stirrer_baffles",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer_baffles.stl/regions",
+      "keyword": "regions",
+      "context": "stirrer_baffles.stl",
+      "path": "stirrer_baffles.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer_baffles.stl/regions/{region}",
+      "keyword": "stirrer",
+      "context": "stirrer_baffles.stl/regions",
+      "path": "stirrer_baffles.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer_baffles.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "stirrer_baffles.stl/regions/{region}",
+      "path": "stirrer_baffles.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "stirrer_baffles",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer_baffles.stl/type",
+      "keyword": "type",
+      "context": "stirrer_baffles.stl",
+      "path": "stirrer_baffles.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer.stl",
+      "keyword": "stirrer.stl",
+      "context": "",
+      "path": "stirrer.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer.stl/name",
+      "keyword": "name",
+      "context": "stirrer.stl",
+      "path": "stirrer.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "stirrer",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer.stl/regions",
+      "keyword": "regions",
+      "context": "stirrer.stl",
+      "path": "stirrer.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer.stl/regions/{region}",
+      "keyword": "stirrer",
+      "context": "stirrer.stl/regions",
+      "path": "stirrer.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "stirrer.stl/regions/{region}",
+      "path": "stirrer.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "stirrer",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "stirrer.stl/type",
+      "keyword": "type",
+      "context": "stirrer.stl",
+      "path": "stirrer.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "straightDuct.stl",
+      "keyword": "straightDuct.stl",
+      "context": "",
+      "path": "straightDuct.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "straightDuct.stl/name",
+      "keyword": "name",
+      "context": "straightDuct.stl",
+      "path": "straightDuct.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "angledDuct",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "straightDuct.stl/regions",
+      "keyword": "regions",
+      "context": "straightDuct.stl",
+      "path": "straightDuct.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "straightDuct.stl/regions/{region}",
+      "keyword": "wall",
+      "context": "straightDuct.stl/regions",
+      "path": "straightDuct.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "straightDuct.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "straightDuct.stl/regions/{region}",
+      "path": "straightDuct.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "back",
+          "occurrences": 1
+        },
+        {
+          "value": "front",
+          "occurrences": 1
+        },
+        {
+          "value": "inlet",
+          "occurrences": 1
+        },
+        {
+          "value": "outlet",
+          "occurrences": 1
+        },
+        {
+          "value": "porosityWall",
+          "occurrences": 1
+        },
+        {
+          "value": "walls",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "straightDuct.stl/type",
+      "keyword": "type",
+      "context": "straightDuct.stl",
+      "path": "straightDuct.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "vessel.stl",
+      "keyword": "vessel.stl",
+      "context": "",
+      "path": "vessel.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "vessel.stl/name",
+      "keyword": "name",
+      "context": "vessel.stl",
+      "path": "vessel.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "vessel",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "vessel.stl/regions",
+      "keyword": "regions",
+      "context": "vessel.stl",
+      "path": "vessel.stl/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "vessel.stl/regions/{region}",
+      "keyword": "outlet",
+      "context": "vessel.stl/regions",
+      "path": "vessel.stl/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "vessel.stl/regions/{region}/name",
+      "keyword": "name",
+      "context": "vessel.stl/regions/{region}",
+      "path": "vessel.stl/regions/{region}/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "outlet",
+          "occurrences": 1
+        },
+        {
+          "value": "vessel",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    },
+    {
+      "key": "vessel.stl/type",
+      "keyword": "type",
+      "context": "vessel.stl",
+      "path": "vessel.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/meshDict.geometry"
+      ]
+    }
+  ]
+}

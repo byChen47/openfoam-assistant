@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "include/frontBackUpperPatches",
+  "sourceFileCount": 5,
+  "occurrences": 20,
+  "entries": [
+    {
+      "key": "(front|back)",
+      "keyword": "(front|back)",
+      "context": "",
+      "path": "(front|back)",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/include/frontBackUpperPatches"
+      ]
+    },
+    {
+      "key": "(front|back)/type",
+      "keyword": "type",
+      "context": "(front|back)",
+      "path": "(front|back)/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "symmetryPlane",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/include/frontBackUpperPatches"
+      ]
+    },
+    {
+      "key": "frontAndBack",
+      "keyword": "frontAndBack",
+      "context": "",
+      "path": "frontAndBack",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/include/frontBackUpperPatches",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/0.orig/include/frontBackUpperPatches",
+        "incompressible/simpleFoam/motorBike/0.orig/include/frontBackUpperPatches",
+        "IO/systemCall/0.orig/include/frontBackUpperPatches"
+      ]
+    },
+    {
+      "key": "frontAndBack/type",
+      "keyword": "type",
+      "context": "frontAndBack",
+      "path": "frontAndBack/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "slip",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/include/frontBackUpperPatches",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/0.orig/include/frontBackUpperPatches",
+        "incompressible/simpleFoam/motorBike/0.orig/include/frontBackUpperPatches",
+        "IO/systemCall/0.orig/include/frontBackUpperPatches"
+      ]
+    },
+    {
+      "key": "upperWall",
+      "keyword": "upperWall",
+      "context": "",
+      "path": "upperWall",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/include/frontBackUpperPatches",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/0.orig/include/frontBackUpperPatches",
+        "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/include/frontBackUpperPatches",
+        "incompressible/simpleFoam/motorBike/0.orig/include/frontBackUpperPatches",
+        "IO/systemCall/0.orig/include/frontBackUpperPatches"
+      ]
+    },
+    {
+      "key": "upperWall/type",
+      "keyword": "type",
+      "context": "upperWall",
+      "path": "upperWall/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "slip",
+          "occurrences": 4
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/include/frontBackUpperPatches",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/0.orig/include/frontBackUpperPatches",
+        "incompressible/pisoFoam/LES/motorBike/motorBike/0.orig/include/frontBackUpperPatches",
+        "incompressible/simpleFoam/motorBike/0.orig/include/frontBackUpperPatches",
+        "IO/systemCall/0.orig/include/frontBackUpperPatches"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "b",
+  "sourceFileCount": 5,
+  "occurrences": 99,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/0/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "outer",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 25,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/0/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 24,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 10
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 6
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 4
+        },
+        {
+          "value": "empty",
+          "occurrences": 2
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/0/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/0/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/0/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/0/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/0/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "b",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/0/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/0/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/b",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/b",
+        "combustion/XiDyMFoam/oscillatingCylinder/0.orig/b",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/0/b",
+        "preProcessing/PDRsetFields/simplePipeCage/0.orig/b"
+      ]
+    }
+  ]
+}

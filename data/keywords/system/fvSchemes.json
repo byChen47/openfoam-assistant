@@ -1,0 +1,2711 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "fvSchemes",
+  "sourceFileCount": 581,
+  "occurrences": 13349,
+  "entries": [
+    {
+      "key": "_$",
+      "keyword": "_$",
+      "context": "",
+      "path": "_$",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSchemes",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "_simpleFoam",
+      "keyword": "_simpleFoam",
+      "context": "",
+      "path": "_simpleFoam",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSchemes",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "_simpleFoam/ddtSchemes",
+      "keyword": "ddtSchemes",
+      "context": "_simpleFoam",
+      "path": "_simpleFoam/ddtSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSchemes",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "_simpleFoam/ddtSchemes/default",
+      "keyword": "default",
+      "context": "_simpleFoam/ddtSchemes",
+      "path": "_simpleFoam/ddtSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "steadyState",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSchemes",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "d2dt2Schemes",
+      "keyword": "d2dt2Schemes",
+      "context": "",
+      "path": "d2dt2Schemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/fvSchemes",
+        "lagrangian/MPPICDyMFoam/column/system/fvSchemes",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/system/fvSchemes",
+        "lagrangian/MPPICFoam/column/system/fvSchemes",
+        "mesh/foamyHexMesh/simpleShapes/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "d2dt2Schemes/default",
+      "keyword": "default",
+      "context": "d2dt2Schemes",
+      "path": "d2dt2Schemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "Euler",
+          "occurrences": 4
+        },
+        {
+          "value": "steadyState",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/fvSchemes",
+        "lagrangian/MPPICDyMFoam/column/system/fvSchemes",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/system/fvSchemes",
+        "lagrangian/MPPICFoam/column/system/fvSchemes",
+        "mesh/foamyHexMesh/simpleShapes/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "ddtSchemes",
+      "keyword": "ddtSchemes",
+      "context": "",
+      "path": "ddtSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 576,
+      "fileCount": 576,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "ddtSchemes/default",
+      "keyword": "default",
+      "context": "ddtSchemes",
+      "path": "ddtSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 535,
+      "fileCount": 535,
+      "values": [
+        {
+          "value": "Euler",
+          "occurrences": 294
+        },
+        {
+          "value": "steadyState",
+          "occurrences": 166
+        },
+        {
+          "value": "none",
+          "occurrences": 43
+        },
+        {
+          "value": "backward",
+          "occurrences": 18
+        },
+        {
+          "value": "localEuler",
+          "occurrences": 9
+        },
+        {
+          "value": "backward 1",
+          "occurrences": 2
+        },
+        {
+          "value": "CrankNicolson 0.5",
+          "occurrences": 2
+        },
+        {
+          "value": "CrankNicolson 0.9",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes",
+      "keyword": "divSchemes",
+      "context": "",
+      "path": "divSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 581,
+      "fileCount": 581,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/DDt",
+      "keyword": "DDt",
+      "context": "divSchemes",
+      "path": "divSchemes/DDt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/solidMelting2D/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/default",
+      "keyword": "default",
+      "context": "divSchemes",
+      "path": "divSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 450,
+      "fileCount": 450,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 353
+        },
+        {
+          "value": "Gauss linear",
+          "occurrences": 94
+        },
+        {
+          "value": "Gauss cubic",
+          "occurrences": 2
+        },
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div",
+      "keyword": "div",
+      "context": "divSchemes",
+      "path": "divSchemes/div",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2330,
+      "fileCount": 458,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSchemes",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/fvSchemes",
+        "basic/potentialFoam/cylinder/system/fvSchemes",
+        "basic/potentialFoam/pitzDaily/system/fvSchemes",
+        "basic/scalarTransportFoam/movingSource/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(-phi,nuaTilda.*)",
+      "keyword": "div(-phi,nuaTilda.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(-phi,nuaTilda.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "bounded Gauss linearUpwind gradConv",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/losses-massConstr/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/uniformity-losses/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/linear/losses-massConstr/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/linear/uniformity-losses/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(-phi,Ua.*)",
+      "keyword": "div(-phi,Ua.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(-phi,Ua.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "bounded Gauss linearUpwind gradUConv",
+          "occurrences": 6
+        },
+        {
+          "value": "bounded Gauss linearUpwindV gradUaConv",
+          "occurrences": 5
+        },
+        {
+          "value": "bounded Gauss linearUpwind gradConv",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet_Dual_Bottleneck/losses-mass-30-70/reEval/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet_Dual_Bottleneck/losses-mass-30-70/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet_Dual_Bottleneck/losses-mass-50-50/reEval/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet_Dual_Bottleneck/losses-mass-50-50/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet_Dual_Bottleneck/losses-mass-70-30/reEval/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(-yPhi,da.*)",
+      "keyword": "div(-yPhi,da.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(-yPhi,da.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "Gauss linearUpwind gradDaConv",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/losses-massConstr/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/BP/uniformity-losses/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/linear/losses-massConstr/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/porosityBased/linear/uniformity-losses/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div((((alpha.**thermo:rho.*)*nuEff.*)*dev2(T(grad(U.*)))))",
+      "keyword": "div((((alpha.**thermo:rho.*)*nuEff.*)*dev2(T(grad(U.*)))))",
+      "context": "divSchemes",
+      "path": "divSchemes/div((((alpha.**thermo:rho.*)*nuEff.*)*dev2(T(grad(U.*)))))",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 24,
+      "fileCount": 24,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 24
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaPhi.*,p)",
+      "keyword": "div(alphaPhi.*,p)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaPhi.*,p)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 29,
+      "fileCount": 29,
+      "values": [
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 29
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaPhi.*,U.*)",
+      "keyword": "div(alphaPhi.*,U.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaPhi.*,U.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "Gauss limitedLinearV 1",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSchemes",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/system/fvSchemes",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/system/fvSchemes",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaPhi.*,Yi)",
+      "keyword": "div(alphaPhi.*,Yi)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaPhi.*,Yi)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/solidMelting2D/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,(h|e).*)",
+      "keyword": "div(alphaRhoPhi.*,(h|e).*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,(h|e).*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 28,
+      "fileCount": 28,
+      "values": [
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 28
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,(h|e|f).*)",
+      "keyword": "div(alphaRhoPhi.*,(h|e|f).*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,(h|e|f).*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnPolydisperse/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,(k|epsilon).*)",
+      "keyword": "div(alphaRhoPhi.*,(k|epsilon).*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,(k|epsilon).*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 8
+        },
+        {
+          "value": "Gauss upwind",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/steamInjection/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumn/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,k.*)",
+      "keyword": "div(alphaRhoPhi.*,k.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,k.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/LES/bubbleColumn/system/fvSchemes",
+        "multiphase/twoPhaseEulerFoam/LES/bubbleColumn/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,K.*)",
+      "keyword": "div(alphaRhoPhi.*,K.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,K.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 29,
+      "fileCount": 29,
+      "values": [
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 29
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,U.*)",
+      "keyword": "div(alphaRhoPhi.*,U.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,U.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 29,
+      "fileCount": 29,
+      "values": [
+        {
+          "value": "Gauss limitedLinearV 1",
+          "occurrences": 28
+        },
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(alphaRhoPhi.*,Yi)",
+      "keyword": "div(alphaRhoPhi.*,Yi)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(alphaRhoPhi.*,Yi)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporating/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/steamInjection/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phi,.*.gas.*)",
+      "keyword": "div(phi,.*.gas.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phi,.*.gas.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "Gauss vanLeer",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phi,.*.liquid.*)",
+      "keyword": "div(phi,.*.liquid.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phi,.*.liquid.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "Gauss vanLeer",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phi,.*rho.*)",
+      "keyword": "div(phi,.*rho.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phi,.*rho.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phi,(k|omega))",
+      "keyword": "div(phi,(k|omega))",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phi,(k|omega))",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "Gauss upwind",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/waterChannel/system/fvSchemes",
+        "multiphase/interIsoFoam/iobasin/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phi,alpha.*)",
+      "keyword": "div(phi,alpha.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phi,alpha.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 32,
+      "fileCount": 30,
+      "values": [
+        {
+          "value": "Gauss vanLeer",
+          "occurrences": 32
+        }
+      ],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/system/fvSchemes",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/system/fvSchemes",
+        "multiphase/driftFluxFoam/RAS/tank3D/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phi.*,kappai.*)",
+      "keyword": "div(phi.*,kappai.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phi.*,kappai.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Gauss vanLeer",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phi.*,U.*)",
+      "keyword": "div(phi.*,U.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phi.*,U.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 33,
+      "fileCount": 33,
+      "values": [
+        {
+          "value": "Gauss limitedLinearV 1",
+          "occurrences": 32
+        },
+        {
+          "value": "Gauss upwind",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSchemes",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/system/fvSchemes",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/system/fvSchemes",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phim,(k|epsilon)m)",
+      "keyword": "div(phim,(k|epsilon)m)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phim,(k|epsilon)m)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 5
+        },
+        {
+          "value": "Gauss upwind",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/steamInjection/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumn/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnEvaporatingReacting/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phir,alpha.*,alpha.*)",
+      "keyword": "div(phir,alpha.*,alpha.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phir,alpha.*,alpha.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "Gauss vanLeer",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSchemes",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/system/fvSchemes",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/system/fvSchemes",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/system/fvSchemes",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phir,alpha.*)",
+      "keyword": "div(phir,alpha.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phir,alpha.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 22,
+      "fileCount": 22,
+      "values": [
+        {
+          "value": "Gauss vanLeer",
+          "occurrences": 14
+        },
+        {
+          "value": "Gauss linear",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(phirb,alpha.*)",
+      "keyword": "div(phirb,alpha.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(phirb,alpha.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/system/fvSchemes",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/system/fvSchemes",
+        "multiphase/driftFluxFoam/RAS/tank3D/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/div(Yiphir,alpha.*)",
+      "keyword": "div(Yiphir,alpha.*)",
+      "context": "divSchemes",
+      "path": "divSchemes/div(Yiphir,alpha.*)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 4
+        },
+        {
+          "value": "Gauss vanLeer",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/energy",
+      "keyword": "energy",
+      "context": "divSchemes",
+      "path": "divSchemes/energy",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "bounded Gauss limitedLinear 0.2",
+          "occurrences": 3
+        },
+        {
+          "value": "bounded Gauss upwind",
+          "occurrences": 3
+        },
+        {
+          "value": "bounded Gauss linearUpwind limited",
+          "occurrences": 2
+        },
+        {
+          "value": "Gauss upwind",
+          "occurrences": 2
+        },
+        {
+          "value": "bounded Gauss limitedLinear 1.0",
+          "occurrences": 1
+        },
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 1
+        },
+        {
+          "value": "Gauss linear",
+          "occurrences": 1
+        },
+        {
+          "value": "Gauss linearUpwind limited",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSchemes",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSchemes",
+        "heatTransfer/buoyantPimpleFoam/hotRoom/system/fvSchemes",
+        "heatTransfer/buoyantPimpleFoam/thermocoupleTestCase/system/fvSchemes",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "divSchemes/turbulence",
+      "keyword": "turbulence",
+      "context": "divSchemes",
+      "path": "divSchemes/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 90,
+      "fileCount": 90,
+      "values": [
+        {
+          "value": "bounded Gauss upwind",
+          "occurrences": 29
+        },
+        {
+          "value": "Gauss limitedLinear 1",
+          "occurrences": 23
+        },
+        {
+          "value": "Gauss upwind",
+          "occurrences": 14
+        },
+        {
+          "value": "bounded Gauss limitedLinear 1",
+          "occurrences": 10
+        },
+        {
+          "value": "bounded Gauss linearUpwind limited",
+          "occurrences": 4
+        },
+        {
+          "value": "bounded Gauss limitedLinear 0.2",
+          "occurrences": 3
+        },
+        {
+          "value": "bounded Gauss linear",
+          "occurrences": 2
+        },
+        {
+          "value": "Gauss linearUpwind limited",
+          "occurrences": 2
+        },
+        {
+          "value": "bounded fusedGauss limitedLinear 1",
+          "occurrences": 1
+        },
+        {
+          "value": "bounded Gauss linearUpwind grad",
+          "occurrences": 1
+        },
+        {
+          "value": "Gauss linearUpwind limitedGrad",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/system/fvSchemes",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/fvSchemes",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSchemes",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSchemes",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired",
+      "keyword": "fluxRequired",
+      "context": "",
+      "path": "fluxRequired",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 46,
+      "fileCount": 46,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSchemes",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSchemes",
+        "combustion/coldEngineFoam/freePiston/system/fvSchemes",
+        "compressible/overRhoPimpleDyMFoam/twoSimpleRotors/system/fvSchemes",
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/alpha",
+      "keyword": "alpha",
+      "context": "fluxRequired",
+      "path": "fluxRequired/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/system/fvSchemes",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddleFlap/system/fvSchemes",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddlePiston/system/fvSchemes",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/alpha.*",
+      "keyword": "alpha.*",
+      "context": "fluxRequired",
+      "path": "fluxRequired/alpha.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/solidMelting2D/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/alpha.gas",
+      "keyword": "alpha.gas",
+      "context": "fluxRequired",
+      "path": "fluxRequired/alpha.gas",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/alpha.liquid",
+      "keyword": "alpha.liquid",
+      "context": "fluxRequired",
+      "path": "fluxRequired/alpha.liquid",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/alpha.oxide",
+      "keyword": "alpha.oxide",
+      "context": "fluxRequired",
+      "path": "fluxRequired/alpha.oxide",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/alpha.water",
+      "keyword": "alpha.water",
+      "context": "fluxRequired",
+      "path": "fluxRequired/alpha.water",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/damBreak/system/fvSchemes",
+        "multiphase/interIsoFoam/standingWave/system/fvSchemes",
+        "multiphase/overInterDyMFoam/floatingBody/background/system/fvSchemes",
+        "multiphase/overInterDyMFoam/floatingBody/floatingBody/system/fvSchemes",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/background/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/alpha1",
+      "keyword": "alpha1",
+      "context": "fluxRequired",
+      "path": "fluxRequired/alpha1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantFlow/system/fvSchemes",
+        "multiphase/interIsoFoam/discInConstantPorousFlow/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/default",
+      "keyword": "default",
+      "context": "fluxRequired",
+      "path": "fluxRequired/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 45,
+      "fileCount": 45,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 45
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSchemes",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSchemes",
+        "combustion/coldEngineFoam/freePiston/system/fvSchemes",
+        "compressible/overRhoPimpleDyMFoam/twoSimpleRotors/system/fvSchemes",
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/p",
+      "keyword": "p",
+      "context": "fluxRequired",
+      "path": "fluxRequired/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSchemes",
+        "combustion/coldEngineFoam/freePiston/system/fvSchemes",
+        "compressible/overRhoPimpleDyMFoam/twoSimpleRotors/system/fvSchemes",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/system/fvSchemes",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/p_rgh",
+      "keyword": "p_rgh",
+      "context": "fluxRequired",
+      "path": "fluxRequired/p_rgh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 27,
+      "fileCount": 27,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/p_rghPotential",
+      "keyword": "p_rghPotential",
+      "context": "fluxRequired",
+      "path": "fluxRequired/p_rghPotential",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/common/system/fvSchemes",
+        "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/pcorr",
+      "keyword": "pcorr",
+      "context": "fluxRequired",
+      "path": "fluxRequired/pcorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSchemes",
+        "compressible/overRhoPimpleDyMFoam/twoSimpleRotors/system/fvSchemes",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/system/fvSchemes",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/system/fvSchemes",
+        "incompressible/overPimpleDyMFoam/rotatingSquare/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/T",
+      "keyword": "T",
+      "context": "fluxRequired",
+      "path": "fluxRequired/T",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/XCO2.gas",
+      "keyword": "XCO2.gas",
+      "context": "fluxRequired",
+      "path": "fluxRequired/XCO2.gas",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/XO2.liquid",
+      "keyword": "XO2.liquid",
+      "context": "fluxRequired",
+      "path": "fluxRequired/XO2.liquid",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/Xvapour.gas",
+      "keyword": "Xvapour.gas",
+      "context": "fluxRequired",
+      "path": "fluxRequired/Xvapour.gas",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSchemes",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxRequired/yPsi",
+      "keyword": "yPsi",
+      "context": "fluxRequired",
+      "path": "fluxRequired/yPsi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/overSimpleFoam/aeroFoil/background_overset/system/fvSchemes",
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "fluxScheme",
+      "keyword": "fluxScheme",
+      "context": "",
+      "path": "fluxScheme",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "Kurganov",
+          "occurrences": 7
+        },
+        {
+          "value": "Tadmor",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoCentralFoam/biconic25-55Run35/system/fvSchemes",
+        "compressible/rhoCentralFoam/forwardStep/system/fvSchemes",
+        "compressible/rhoCentralFoam/LadenburgJet60psi/system/fvSchemes",
+        "compressible/rhoCentralFoam/movingCone/system/fvSchemes",
+        "compressible/rhoCentralFoam/obliqueShock/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 581,
+      "fileCount": 581,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 581,
+      "fileCount": 581,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 581
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 581,
+      "fileCount": 581,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 581
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 33,
+      "fileCount": 33,
+      "values": [
+        {
+          "value": "\"system\"",
+          "occurrences": 33
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld2/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld2/slab1/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld2/slab2/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld2/slab3/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 581,
+      "fileCount": 581,
+      "values": [
+        {
+          "value": "fvSchemes",
+          "occurrences": 581
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 581,
+      "fileCount": 581,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "geometry",
+      "keyword": "geometry",
+      "context": "",
+      "path": "geometry",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/airfoilWithLayers/system/fvSchemes",
+        "mesh/snappyHexMesh/block_with_curvature/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "geometry/maxAspect",
+      "keyword": "maxAspect",
+      "context": "geometry",
+      "path": "geometry/maxAspect",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/airfoilWithLayers/system/fvSchemes",
+        "mesh/snappyHexMesh/block_with_curvature/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "geometry/minAspect",
+      "keyword": "minAspect",
+      "context": "geometry",
+      "path": "geometry/minAspect",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/snappyHexMesh/airfoilWithLayers/system/fvSchemes",
+        "mesh/snappyHexMesh/block_with_curvature/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "geometry/type",
+      "keyword": "type",
+      "context": "geometry",
+      "path": "geometry/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "highAspectRatio",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/snappyHexMesh/airfoilWithLayers/system/fvSchemes",
+        "mesh/snappyHexMesh/block_with_curvature/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes",
+      "keyword": "gradSchemes",
+      "context": "",
+      "path": "gradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 581,
+      "fileCount": 581,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/default",
+      "keyword": "default",
+      "context": "gradSchemes",
+      "path": "gradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 537,
+      "fileCount": 537,
+      "values": [
+        {
+          "value": "Gauss linear",
+          "occurrences": 479
+        },
+        {
+          "value": "none",
+          "occurrences": 19
+        },
+        {
+          "value": "leastSquares",
+          "occurrences": 10
+        },
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 2
+        },
+        {
+          "value": "cellLimited leastSquares 1",
+          "occurrences": 2
+        },
+        {
+          "value": "Gauss cubic",
+          "occurrences": 2
+        },
+        {
+          "value": "cellLimited Gauss pointLinear 1",
+          "occurrences": 1
+        },
+        {
+          "value": "cellMDLimited Gauss linear 1",
+          "occurrences": 1
+        },
+        {
+          "value": "cellMDLimited Gauss pointLinear 1",
+          "occurrences": 1
+        },
+        {
+          "value": "cellMDLimited leastSquares 1",
+          "occurrences": 1
+        },
+        {
+          "value": "faceLimited Gauss linear 1",
+          "occurrences": 1
+        },
+        {
+          "value": "faceLimited Gauss pointLinear 1",
+          "occurrences": 1
+        },
+        {
+          "value": "faceLimited leastSquares 1",
+          "occurrences": 1
+        },
+        {
+          "value": "faceMDLimited Gauss linear 1",
+          "occurrences": 1
+        },
+        {
+          "value": "faceMDLimited Gauss pointLinear 1",
+          "occurrences": 1
+        },
+        {
+          "value": "faceMDLimited leastSquares 1",
+          "occurrences": 1
+        },
+        {
+          "value": "fusedGauss linear",
+          "occurrences": 1
+        },
+        {
+          "value": "Gauss pointLinear",
+          "occurrences": 1
+        },
+        {
+          "value": "iterativeGauss linear 1",
+          "occurrences": 1
+        },
+        {
+          "value": "iterativeGauss linear 10",
+          "occurrences": 1
+        },
+        {
+          "value": "iterativeGauss linear 2",
+          "occurrences": 1
+        },
+        {
+          "value": "iterativeGauss linear 20",
+          "occurrences": 1
+        },
+        {
+          "value": "iterativeGauss linear 3",
+          "occurrences": 1
+        },
+        {
+          "value": "iterativeGauss linear 4",
+          "occurrences": 1
+        },
+        {
+          "value": "iterativeGauss linear 5",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/grad",
+      "keyword": "grad",
+      "context": "gradSchemes",
+      "path": "gradSchemes/grad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 153,
+      "fileCount": 109,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/gradConv",
+      "keyword": "gradConv",
+      "context": "gradSchemes",
+      "path": "gradSchemes/gradConv",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 22,
+      "fileCount": 22,
+      "values": [
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 22
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/porosityBased/R_05x/reEval/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/porosityBased/R_05x/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/porosityBased/R_10x/reEval/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/porosityBased/R_10x/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/1_Inlet_2_Outlet/porosityBased/R_10x-init/reEval/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/gradDaConv",
+      "keyword": "gradDaConv",
+      "context": "gradSchemes",
+      "path": "gradSchemes/gradDaConv",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 22,
+      "fileCount": 22,
+      "values": [
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 22
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/gradDConv",
+      "keyword": "gradDConv",
+      "context": "gradSchemes",
+      "path": "gradSchemes/gradDConv",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 36
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/gradNuaTildaConv",
+      "keyword": "gradNuaTildaConv",
+      "context": "gradSchemes",
+      "path": "gradSchemes/gradNuaTildaConv",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/gradNuTildaConv",
+      "keyword": "gradNuTildaConv",
+      "context": "gradSchemes",
+      "path": "gradSchemes/gradNuTildaConv",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/gradUaConv",
+      "keyword": "gradUaConv",
+      "context": "gradSchemes",
+      "path": "gradSchemes/gradUaConv",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 12
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses/reEval/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses-mass/reEval/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/gradUATC",
+      "keyword": "gradUATC",
+      "context": "gradSchemes",
+      "path": "gradSchemes/gradUATC",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 12
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses/reEval/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/laminar/3DBox/losses-mass/reEval/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/gradUConv",
+      "keyword": "gradUConv",
+      "context": "gradSchemes",
+      "path": "gradSchemes/gradUConv",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 25,
+      "fileCount": 25,
+      "values": [
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 18
+        },
+        {
+          "value": "cellLimited Gauss linear 0.5",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/limited",
+      "keyword": "limited",
+      "context": "gradSchemes",
+      "path": "gradSchemes/limited",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 11
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSchemes",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/fvSchemes",
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/fvSchemes",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSchemes",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "gradSchemes/limitedGrad",
+      "keyword": "limitedGrad",
+      "context": "gradSchemes",
+      "path": "gradSchemes/limitedGrad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "cellLimited Gauss linear 1",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHull/system/fvSchemes",
+        "multiphase/interFoam/RAS/DTCHullMoving/system/fvSchemes",
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes",
+      "keyword": "interpolationSchemes",
+      "context": "",
+      "path": "interpolationSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 558,
+      "fileCount": 558,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes/default",
+      "keyword": "default",
+      "context": "interpolationSchemes",
+      "path": "interpolationSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 522,
+      "fileCount": 522,
+      "values": [
+        {
+          "value": "linear",
+          "occurrences": 505
+        },
+        {
+          "value": "none",
+          "occurrences": 14
+        },
+        {
+          "value": "cubic",
+          "occurrences": 2
+        },
+        {
+          "value": "skewCorrected linear",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes/interpolate",
+      "keyword": "interpolate",
+      "context": "interpolationSchemes",
+      "path": "interpolationSchemes/interpolate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/fvSchemes",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/fvSchemes",
+        "incompressible/pimpleFoam/laminar/mixerVesselAMI2D/mixerVesselAMI2D/system/fvSchemes",
+        "incompressible/pimpleFoam/laminar/mixerVesselAMI2D/mixerVesselAMI2D-topologyChange/system/fvSchemes",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "interpolationSchemes/reconstruct",
+      "keyword": "reconstruct",
+      "context": "interpolationSchemes",
+      "path": "interpolationSchemes/reconstruct",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 24,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "compressible/rhoCentralFoam/biconic25-55Run35/system/fvSchemes",
+        "compressible/rhoCentralFoam/forwardStep/system/fvSchemes",
+        "compressible/rhoCentralFoam/LadenburgJet60psi/system/fvSchemes",
+        "compressible/rhoCentralFoam/movingCone/system/fvSchemes",
+        "compressible/rhoCentralFoam/obliqueShock/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes",
+      "keyword": "laplacianSchemes",
+      "context": "",
+      "path": "laplacianSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 567,
+      "fileCount": 567,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/bounded",
+      "keyword": "bounded",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/bounded",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "Gauss linear uncorrected",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/fluidisedBed/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/fluidisedBed/system/fvSchemes",
+        "multiphase/twoPhaseEulerFoam/laminar/fluidisedBed/system/fvSchemes",
+        "multiphase/twoPhaseEulerFoam/RAS/fluidisedBed/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/default",
+      "keyword": "default",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 523,
+      "fileCount": 523,
+      "values": [
+        {
+          "value": "Gauss linear corrected",
+          "occurrences": 294
+        },
+        {
+          "value": "Gauss linear uncorrected",
+          "occurrences": 72
+        },
+        {
+          "value": "none",
+          "occurrences": 67
+        },
+        {
+          "value": "Gauss linear orthogonal",
+          "occurrences": 60
+        },
+        {
+          "value": "Gauss linear limited 0.333",
+          "occurrences": 6
+        },
+        {
+          "value": "fusedGauss linear corrected",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "laplacianSchemes/laplacian",
+      "keyword": "laplacian",
+      "context": "laplacianSchemes",
+      "path": "laplacianSchemes/laplacian",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 62,
+      "fileCount": 39,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolation",
+      "keyword": "oversetInterpolation",
+      "context": "",
+      "path": "oversetInterpolation",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSchemes",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSchemes",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/fvSchemes",
+        "compressible/overRhoPimpleDyMFoam/twoSimpleRotors/system/fvSchemes",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolation/allowHoleDonors",
+      "keyword": "allowHoleDonors",
+      "context": "oversetInterpolation",
+      "path": "oversetInterpolation/allowHoleDonors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/overPimpleDyMFoam/rotatingSquare/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolation/holeLayers",
+      "keyword": "holeLayers",
+      "context": "oversetInterpolation",
+      "path": "oversetInterpolation/holeLayers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/overPimpleDyMFoam/simpleRotor/system/fvSchemes",
+        "multiphase/overInterDyMFoam/floatingBody/background/system/fvSchemes",
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolation/method",
+      "keyword": "method",
+      "context": "oversetInterpolation",
+      "path": "oversetInterpolation/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [
+        {
+          "value": "inverseDistance",
+          "occurrences": 14
+        },
+        {
+          "value": "trackingInverseDistance",
+          "occurrences": 3
+        },
+        {
+          "value": "cellVolumeWeight",
+          "occurrences": 2
+        },
+        {
+          "value": "leastSquares",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSchemes",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSchemes",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/fvSchemes",
+        "compressible/overRhoPimpleDyMFoam/twoSimpleRotors/system/fvSchemes",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolation/searchBox",
+      "keyword": "searchBox",
+      "context": "oversetInterpolation",
+      "path": "oversetInterpolation/searchBox",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSchemes",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/system/fvSchemes",
+        "incompressible/overPimpleDyMFoam/rotatingSquare/system/fvSchemes",
+        "incompressible/overPimpleDyMFoam/simpleRotor/system/fvSchemes",
+        "incompressible/overPimpleDyMFoam/twoSimpleRotors/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolation/searchBoxDivisions",
+      "keyword": "searchBoxDivisions",
+      "context": "oversetInterpolation",
+      "path": "oversetInterpolation/searchBoxDivisions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSchemes",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/system/fvSchemes",
+        "incompressible/overPimpleDyMFoam/rotatingSquare/system/fvSchemes",
+        "incompressible/overPimpleDyMFoam/simpleRotor/system/fvSchemes",
+        "incompressible/overSimpleFoam/aeroFoil/background_overset/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolation/tolerance",
+      "keyword": "tolerance",
+      "context": "oversetInterpolation",
+      "path": "oversetInterpolation/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolation/useLayer",
+      "keyword": "useLayer",
+      "context": "oversetInterpolation",
+      "path": "oversetInterpolation/useLayer",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/overPimpleDyMFoam/simpleRotor/system/fvSchemes",
+        "multiphase/overInterDyMFoam/floatingBody/background/system/fvSchemes",
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolationSuppresed",
+      "keyword": "oversetInterpolationSuppresed",
+      "context": "",
+      "path": "oversetInterpolationSuppresed",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolationSuppresed/grad",
+      "keyword": "grad",
+      "context": "oversetInterpolationSuppresed",
+      "path": "oversetInterpolationSuppresed/grad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolationSuppressed",
+      "keyword": "oversetInterpolationSuppressed",
+      "context": "",
+      "path": "oversetInterpolationSuppressed",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSchemes",
+        "compressible/overRhoPimpleDyMFoam/twoSimpleRotors/system/fvSchemes",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/system/fvSchemes",
+        "incompressible/overSimpleFoam/aeroFoil/background_overset/system/fvSchemes",
+        "multiphase/overCompressibleInterDyMFoam/compressibleTwoSimpleRotors/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolationSuppressed/grad",
+      "keyword": "grad",
+      "context": "oversetInterpolationSuppressed",
+      "path": "oversetInterpolationSuppressed/grad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/system/fvSchemes",
+        "multiphase/overCompressibleInterDyMFoam/compressibleTwoSimpleRotors/system/fvSchemes",
+        "multiphase/overInterDyMFoam/floatingBody/background/system/fvSchemes",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/background/system/fvSchemes",
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "oversetInterpolationSuppressed/surfaceIntegrate",
+      "keyword": "surfaceIntegrate",
+      "context": "oversetInterpolationSuppressed",
+      "path": "oversetInterpolationSuppressed/surfaceIntegrate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/system/fvSchemes",
+        "multiphase/overCompressibleInterDyMFoam/compressibleTwoSimpleRotors/system/fvSchemes",
+        "multiphase/overInterDyMFoam/floatingBody/background/system/fvSchemes",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/background/system/fvSchemes",
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes",
+      "keyword": "snGradSchemes",
+      "context": "",
+      "path": "snGradSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 554,
+      "fileCount": 554,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSchemes",
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes/bounded",
+      "keyword": "bounded",
+      "context": "snGradSchemes",
+      "path": "snGradSchemes/bounded",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "uncorrected",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/fluidisedBed/system/fvSchemes",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/fluidisedBed/system/fvSchemes",
+        "multiphase/twoPhaseEulerFoam/laminar/fluidisedBed/system/fvSchemes",
+        "multiphase/twoPhaseEulerFoam/RAS/fluidisedBed/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "snGradSchemes/default",
+      "keyword": "default",
+      "context": "snGradSchemes",
+      "path": "snGradSchemes/default",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 518,
+      "fileCount": 518,
+      "values": [
+        {
+          "value": "corrected",
+          "occurrences": 324
+        },
+        {
+          "value": "uncorrected",
+          "occurrences": 73
+        },
+        {
+          "value": "orthogonal",
+          "occurrences": 59
+        },
+        {
+          "value": "none",
+          "occurrences": 40
+        },
+        {
+          "value": "limited corrected 0.33",
+          "occurrences": 13
+        },
+        {
+          "value": "limited 0.333",
+          "occurrences": 4
+        },
+        {
+          "value": "limited corrected 0.333",
+          "occurrences": 2
+        },
+        {
+          "value": "limited corrected 0.5",
+          "occurrences": 2
+        },
+        {
+          "value": "no",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSchemes",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSchemes",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist",
+      "keyword": "wallDist",
+      "context": "",
+      "path": "wallDist",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 121,
+      "fileCount": 121,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/fvSchemes",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/fvSchemes",
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvSchemes",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/system/fvSchemes",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/advectionDiffusionCoeffs",
+      "keyword": "advectionDiffusionCoeffs",
+      "context": "wallDist",
+      "path": "wallDist/advectionDiffusionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/advectionDiffusionCoeffs/epsilon",
+      "keyword": "epsilon",
+      "context": "wallDist/advectionDiffusionCoeffs",
+      "path": "wallDist/advectionDiffusionCoeffs/epsilon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/advectionDiffusionCoeffs/maxIter",
+      "keyword": "maxIter",
+      "context": "wallDist/advectionDiffusionCoeffs",
+      "path": "wallDist/advectionDiffusionCoeffs/maxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/advectionDiffusionCoeffs/method",
+      "keyword": "method",
+      "context": "wallDist/advectionDiffusionCoeffs",
+      "path": "wallDist/advectionDiffusionCoeffs/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [
+        {
+          "value": "meshWave",
+          "occurrences": 36
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/advectionDiffusionCoeffs/tolerance",
+      "keyword": "tolerance",
+      "context": "wallDist/advectionDiffusionCoeffs",
+      "path": "wallDist/advectionDiffusionCoeffs/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSchemes",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/method",
+      "keyword": "method",
+      "context": "wallDist",
+      "path": "wallDist/method",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 116,
+      "fileCount": 116,
+      "values": [
+        {
+          "value": "meshWave",
+          "occurrences": 74
+        },
+        {
+          "value": "advectionDiffusion",
+          "occurrences": 36
+        },
+        {
+          "value": "directionalMeshWave",
+          "occurrences": 2
+        },
+        {
+          "value": "exactDistance",
+          "occurrences": 2
+        },
+        {
+          "value": "Poisson",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/fvSchemes",
+        "compressible/acousticFoam/obliqueAirJet/precursor/system/fvSchemes",
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvSchemes",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/system/fvSchemes",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/normal",
+      "keyword": "normal",
+      "context": "wallDist",
+      "path": "wallDist/normal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/SnakeRiverCanyon/system/fvSchemes",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/fvSchemes"
+      ]
+    },
+    {
+      "key": "wallDist/nRequired",
+      "keyword": "nRequired",
+      "context": "wallDist",
+      "path": "wallDist/nRequired",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 11
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/fvSchemes",
+        "incompressible/pimpleFoam/LES/NACA4412/system/fvSchemes",
+        "incompressible/pimpleFoam/LES/periodicHill/steadyState/system/fvSchemes",
+        "incompressible/pimpleFoam/LES/periodicHill/transient/system/fvSchemes",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/system/fvSchemes"
+      ]
+    }
+  ]
+}

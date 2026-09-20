@@ -1,0 +1,286 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "water.liquid",
+  "sourceFileCount": 3,
+  "occurrences": 60,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "bottom",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phi",
+      "keyword": "phi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "phi.liquid",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 6
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 3
+        },
+        {
+          "value": "empty",
+          "occurrences": 2
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "water.liquid",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "uniform 1",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnEvaporatingDissolving/0.orig/water.liquid",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/0.orig/water.liquid"
+      ]
+    }
+  ]
+}

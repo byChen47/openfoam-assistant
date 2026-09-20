@@ -1,0 +1,1629 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "pointDisplacement",
+  "sourceFileCount": 40,
+  "occurrences": 934,
+  "entries": [
+    {
+      "key": "__blockMeshDict",
+      "keyword": "__blockMeshDict",
+      "context": "",
+      "path": "__blockMeshDict",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__blockMeshDict/#include",
+      "keyword": "#include",
+      "context": "__blockMeshDict",
+      "path": "__blockMeshDict/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__edgeSlipDisplacement",
+      "keyword": "__edgeSlipDisplacement",
+      "context": "",
+      "path": "__edgeSlipDisplacement",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__edgeSlipDisplacement/file",
+      "keyword": "file",
+      "context": "__edgeSlipDisplacement",
+      "path": "__edgeSlipDisplacement/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "\"blockMesh.eMesh\"",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__edgeSlipDisplacement/type",
+      "keyword": "type",
+      "context": "__edgeSlipDisplacement",
+      "path": "__edgeSlipDisplacement/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "edgeSlipDisplacement",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__edgeSlipDisplacement/velocity",
+      "keyword": "velocity",
+      "context": "__edgeSlipDisplacement",
+      "path": "__edgeSlipDisplacement/velocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__surfaceSlipDisplacement",
+      "keyword": "__surfaceSlipDisplacement",
+      "context": "",
+      "path": "__surfaceSlipDisplacement",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__surfaceSlipDisplacement/geometry",
+      "keyword": "geometry",
+      "context": "__surfaceSlipDisplacement",
+      "path": "__surfaceSlipDisplacement/geometry",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__surfaceSlipDisplacement/geometry/box",
+      "keyword": "box",
+      "context": "__surfaceSlipDisplacement/geometry",
+      "path": "__surfaceSlipDisplacement/geometry/box",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__surfaceSlipDisplacement/geometry/box/file",
+      "keyword": "file",
+      "context": "__surfaceSlipDisplacement/geometry/box",
+      "path": "__surfaceSlipDisplacement/geometry/box/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "blockMesh.obj",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__surfaceSlipDisplacement/geometry/box/type",
+      "keyword": "type",
+      "context": "__surfaceSlipDisplacement/geometry/box",
+      "path": "__surfaceSlipDisplacement/geometry/box/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__surfaceSlipDisplacement/projectMode",
+      "keyword": "projectMode",
+      "context": "__surfaceSlipDisplacement",
+      "path": "__surfaceSlipDisplacement/projectMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "nearest",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__surfaceSlipDisplacement/type",
+      "keyword": "type",
+      "context": "__surfaceSlipDisplacement",
+      "path": "__surfaceSlipDisplacement/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "surfaceSlipDisplacement",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "__surfaceSlipDisplacement/value",
+      "keyword": "value",
+      "context": "__surfaceSlipDisplacement",
+      "path": "__surfaceSlipDisplacement/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "_surfaceDisplacement",
+      "keyword": "_surfaceDisplacement",
+      "context": "",
+      "path": "_surfaceDisplacement",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/0/pointDisplacement"
+      ]
+    },
+    {
+      "key": "_surfaceDisplacement/projectMode",
+      "keyword": "projectMode",
+      "context": "_surfaceDisplacement",
+      "path": "_surfaceDisplacement/projectMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "nearest",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/0/pointDisplacement"
+      ]
+    },
+    {
+      "key": "_surfaceDisplacement/type",
+      "keyword": "type",
+      "context": "_surfaceDisplacement",
+      "path": "_surfaceDisplacement/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "surfaceSlipDisplacement",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/0/pointDisplacement"
+      ]
+    },
+    {
+      "key": "_surfaceDisplacement/value",
+      "keyword": "value",
+      "context": "_surfaceDisplacement",
+      "path": "_surfaceDisplacement/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/0/pointDisplacement"
+      ]
+    },
+    {
+      "key": "_surfaceDisplacement/velocity",
+      "keyword": "velocity",
+      "context": "_surfaceDisplacement",
+      "path": "_surfaceDisplacement/velocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/bendJunction/0/pointDisplacement"
+      ]
+    },
+    {
+      "key": "#remove",
+      "keyword": "#remove",
+      "context": "",
+      "path": "#remove",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 40,
+      "fileCount": 40,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": ".*",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 190,
+      "fileCount": 40,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/#include",
+      "keyword": "#include",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/accelerationDamping",
+      "keyword": "accelerationDamping",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/accelerationDamping",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/accelerationRelaxation",
+      "keyword": "accelerationRelaxation",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/accelerationRelaxation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/amplitude",
+      "keyword": "amplitude",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/amplitude",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceDyMFoam/oscillatingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/constraints",
+      "keyword": "constraints",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/constraints",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/constraints/fixedLine1",
+      "keyword": "fixedLine1",
+      "context": "boundaryField/{patch}/constraints",
+      "path": "boundaryField/{patch}/constraints/fixedLine1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/constraints/fixedLine1/centreOfRotation",
+      "keyword": "centreOfRotation",
+      "context": "boundaryField/{patch}/constraints/fixedLine1",
+      "path": "boundaryField/{patch}/constraints/fixedLine1/centreOfRotation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/constraints/fixedLine1/direction",
+      "keyword": "direction",
+      "context": "boundaryField/{patch}/constraints/fixedLine1",
+      "path": "boundaryField/{patch}/constraints/fixedLine1/direction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/constraints/fixedLine1/sixDoFRigidBodyMotionConstraint",
+      "keyword": "sixDoFRigidBodyMotionConstraint",
+      "context": "boundaryField/{patch}/constraints/fixedLine1",
+      "path": "boundaryField/{patch}/constraints/fixedLine1/sixDoFRigidBodyMotionConstraint",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "line",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/constraints/fixedOrientation1",
+      "keyword": "fixedOrientation1",
+      "context": "boundaryField/{patch}/constraints",
+      "path": "boundaryField/{patch}/constraints/fixedOrientation1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/constraints/fixedOrientation1/sixDoFRigidBodyMotionConstraint",
+      "keyword": "sixDoFRigidBodyMotionConstraint",
+      "context": "boundaryField/{patch}/constraints/fixedOrientation1",
+      "path": "boundaryField/{patch}/constraints/fixedOrientation1/sixDoFRigidBodyMotionConstraint",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "orientation",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/constraints/maxIterations",
+      "keyword": "maxIterations",
+      "context": "boundaryField/{patch}/constraints",
+      "path": "boundaryField/{patch}/constraints/maxIterations",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/controllers",
+      "keyword": "controllers",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/controllers",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/building/steady/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/file",
+      "keyword": "file",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"box222.eMesh\"",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/sphere7/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/geometry",
+      "keyword": "geometry",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/geometry",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/sphere7/0.orig/pointDisplacement",
+        "mesh/moveDynamicMesh/SnakeRiverCanyon/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/geometry/AcrossRiver.stl",
+      "keyword": "AcrossRiver.stl",
+      "context": "boundaryField/{patch}/geometry",
+      "path": "boundaryField/{patch}/geometry/AcrossRiver.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/SnakeRiverCanyon/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/geometry/AcrossRiver.stl/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/geometry/AcrossRiver.stl",
+      "path": "boundaryField/{patch}/geometry/AcrossRiver.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/moveDynamicMesh/SnakeRiverCanyon/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/geometry/box",
+      "keyword": "box",
+      "context": "boundaryField/{patch}/geometry",
+      "path": "boundaryField/{patch}/geometry/box",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/sphere7/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/geometry/box/file",
+      "keyword": "file",
+      "context": "boundaryField/{patch}/geometry/box",
+      "path": "boundaryField/{patch}/geometry/box/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "box222.obj",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/sphere7/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/geometry/box/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/geometry/box",
+      "path": "boundaryField/{patch}/geometry/box/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/sphere7/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/initialDepth",
+      "keyword": "initialDepth",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/initialDepth",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddleFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddlePiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerSolitary/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/motionType",
+      "keyword": "motionType",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/motionType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "flap",
+          "occurrences": 2
+        },
+        {
+          "value": "piston",
+          "occurrences": 2
+        },
+        {
+          "value": "solitary",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddleFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddlePiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerSolitary/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/n",
+      "keyword": "n",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/SnakeRiverCanyon/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddleFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddlePiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/nPaddle",
+      "keyword": "nPaddle",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/nPaddle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddleFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddlePiston/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/omega",
+      "keyword": "omega",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/omega",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/potentialFreeSurfaceDyMFoam/oscillatingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs",
+      "keyword": "oscillatingRotatingMotionCoeffs",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs/amplitude",
+      "keyword": "amplitude",
+      "context": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs",
+      "path": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs/amplitude",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs/axis",
+      "keyword": "axis",
+      "context": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs",
+      "path": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs/axis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs/omega",
+      "keyword": "omega",
+      "context": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs",
+      "path": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs/omega",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs/origin",
+      "keyword": "origin",
+      "context": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs",
+      "path": "boundaryField/{patch}/oscillatingRotatingMotionCoeffs/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/patchType",
+      "keyword": "patchType",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/patchType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 22,
+      "fileCount": 18,
+      "values": [
+        {
+          "value": "overset",
+          "occurrences": 20
+        },
+        {
+          "value": "cyclicAMI",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/projectDirection",
+      "keyword": "projectDirection",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/projectDirection",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/SnakeRiverCanyon/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/projectMode",
+      "keyword": "projectMode",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/projectMode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "fixedNormal",
+          "occurrences": 1
+        },
+        {
+          "value": "nearest",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/sphere7/0.orig/pointDisplacement",
+        "mesh/moveDynamicMesh/SnakeRiverCanyon/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/rampTime",
+      "keyword": "rampTime",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rampTime",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddleFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddlePiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerSolitary/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/report",
+      "keyword": "report",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/report",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/rotatingMotionCoeffs",
+      "keyword": "rotatingMotionCoeffs",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotatingMotionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/rotorDisk_inclined/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/rotatingMotionCoeffs/axis",
+      "keyword": "axis",
+      "context": "boundaryField/{patch}/rotatingMotionCoeffs",
+      "path": "boundaryField/{patch}/rotatingMotionCoeffs/axis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/rotorDisk_inclined/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/rotatingMotionCoeffs/origin",
+      "keyword": "origin",
+      "context": "boundaryField/{patch}/rotatingMotionCoeffs",
+      "path": "boundaryField/{patch}/rotatingMotionCoeffs/origin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/rotorDisk_inclined/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/solidBodyMotionFunction",
+      "keyword": "solidBodyMotionFunction",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/solidBodyMotionFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "oscillatingRotatingMotion",
+          "occurrences": 1
+        },
+        {
+          "value": "rotatingMotion",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/pointDisplacement",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/solver",
+      "keyword": "solver",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/solver",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/solver/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/solver",
+      "path": "boundaryField/{patch}/solver/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "Newmark",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 168,
+      "fileCount": 37,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 42
+        },
+        {
+          "value": "uniformFixedValue",
+          "occurrences": 38
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 36
+        },
+        {
+          "value": "empty",
+          "occurrences": 13
+        },
+        {
+          "value": "calculated",
+          "occurrences": 9
+        },
+        {
+          "value": "fixedNormalSlip",
+          "occurrences": 6
+        },
+        {
+          "value": "waveMaker",
+          "occurrences": 5
+        },
+        {
+          "value": "slip",
+          "occurrences": 3
+        },
+        {
+          "value": "cyclicAMI",
+          "occurrences": 2
+        },
+        {
+          "value": "lumpedPointDisplacement",
+          "occurrences": 2
+        },
+        {
+          "value": "processor",
+          "occurrences": 2
+        },
+        {
+          "value": "solidBodyMotionDisplacement",
+          "occurrences": 2
+        },
+        {
+          "value": "wedge",
+          "occurrences": 2
+        },
+        {
+          "value": "edgeSlipDisplacement",
+          "occurrences": 1
+        },
+        {
+          "value": "oscillatingDisplacement",
+          "occurrences": 1
+        },
+        {
+          "value": "pointAttraction",
+          "occurrences": 1
+        },
+        {
+          "value": "sixDoFRigidBodyDisplacement",
+          "occurrences": 1
+        },
+        {
+          "value": "surfaceDisplacement",
+          "occurrences": 1
+        },
+        {
+          "value": "surfaceSlipDisplacement",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue",
+      "keyword": "uniformValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/uniformValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 38,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 59,
+      "fileCount": 21,
+      "values": [],
+      "examples": [
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement",
+        "incompressible/lumpedPointMotion/bridge/steady/0.orig/pointDisplacement",
+        "incompressible/lumpedPointMotion/building/steady/0.orig/pointDisplacement",
+        "incompressible/pimpleFoam/RAS/wingMotion/wingMotion2D_pimpleFoam/0.orig/pointDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/velocity",
+      "keyword": "velocity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/velocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/blockMesh/sphere7/0.orig/pointDisplacement",
+        "mesh/moveDynamicMesh/SnakeRiverCanyon/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/waveAngle",
+      "keyword": "waveAngle",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/waveAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddleFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddlePiston/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/waveHeight",
+      "keyword": "waveHeight",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/waveHeight",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddleFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddlePiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerSolitary/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/wavePeriod",
+      "keyword": "wavePeriod",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/wavePeriod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddleFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddlePiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerSolitary/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/wavePhase",
+      "keyword": "wavePhase",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/wavePhase",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddleFlap/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerMultiPaddlePiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/0.orig/pointDisplacement",
+        "multiphase/interFoam/laminar/waves/waveMakerSolitary/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/wedgePlane",
+      "keyword": "wedgePlane",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/wedgePlane",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/SnakeRiverCanyon/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 40,
+      "fileCount": 40,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 40,
+      "fileCount": 40,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/arch",
+      "keyword": "arch",
+      "context": "FoamFile",
+      "path": "FoamFile/arch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "\"LSB;label=32;scalar=64\"",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/pointDisplacement",
+        "mesh/moveDynamicMesh/badMove/0/pointDisplacement",
+        "mesh/moveDynamicMesh/faceZoneBlock/0/pointDisplacement",
+        "mesh/polyDualMesh/missingCorner/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 40,
+      "fileCount": 40,
+      "values": [
+        {
+          "value": "pointVectorField",
+          "occurrences": 40
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 40,
+      "fileCount": 40,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 40
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "\"0\"",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/0.orig/pointDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/pointDisplacement",
+        "mesh/moveDynamicMesh/badMove/0/pointDisplacement",
+        "mesh/moveDynamicMesh/bendJunction/0/pointDisplacement",
+        "mesh/moveDynamicMesh/faceZoneBlock/0/pointDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 40,
+      "fileCount": 40,
+      "values": [
+        {
+          "value": "pointDisplacement",
+          "occurrences": 40
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 40,
+      "fileCount": 40,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 40,
+      "fileCount": 40,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/pointDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/pointDisplacement",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/pointDisplacement",
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "sphereProperties",
+      "keyword": "sphereProperties",
+      "context": "",
+      "path": "sphereProperties",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "sphereProperties/centreOfMass",
+      "keyword": "centreOfMass",
+      "context": "sphereProperties",
+      "path": "sphereProperties/centreOfMass",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "sphereProperties/mass",
+      "keyword": "mass",
+      "context": "sphereProperties",
+      "path": "sphereProperties/mass",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "sphereProperties/momentOfInertia",
+      "keyword": "momentOfInertia",
+      "context": "sphereProperties",
+      "path": "sphereProperties/momentOfInertia",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    },
+    {
+      "key": "sphereProperties/velocity",
+      "keyword": "velocity",
+      "context": "sphereProperties",
+      "path": "sphereProperties/velocity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/pointDisplacement"
+      ]
+    }
+  ]
+}

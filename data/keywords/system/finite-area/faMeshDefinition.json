@@ -1,0 +1,1499 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "finite-area/faMeshDefinition",
+  "sourceFileCount": 16,
+  "occurrences": 249,
+  "entries": [
+    {
+      "key": "boundary",
+      "keyword": "boundary",
+      "context": "",
+      "path": "boundary",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faMeshDefinition",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/bottom",
+      "keyword": "bottom",
+      "context": "boundary",
+      "path": "boundary/bottom",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/motorBike/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/bottom/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/bottom",
+      "path": "boundary/bottom/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "bottom",
+          "occurrences": 1
+        },
+        {
+          "value": "lowerWall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/motorBike/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/bottom/ownerPolyPatch",
+      "keyword": "ownerPolyPatch",
+      "context": "boundary/bottom",
+      "path": "boundary/bottom/ownerPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "filmWalls",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/bottom/type",
+      "keyword": "type",
+      "context": "boundary/bottom",
+      "path": "boundary/bottom/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/motorBike/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/bound",
+      "keyword": "bound",
+      "context": "boundary",
+      "path": "boundary/bound",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/bound/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/bound",
+      "path": "boundary/bound/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "bound",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/bound/type",
+      "keyword": "type",
+      "context": "boundary/bound",
+      "path": "boundary/bound/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "symmetry",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/cylinder",
+      "keyword": "cylinder",
+      "context": "boundary",
+      "path": "boundary/cylinder",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/cylinder/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/cylinder",
+      "path": "boundary/cylinder/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "cylinder",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/cylinder/type",
+      "keyword": "type",
+      "context": "boundary/cylinder",
+      "path": "boundary/cylinder/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/frontAndBack",
+      "keyword": "frontAndBack",
+      "context": "boundary",
+      "path": "boundary/frontAndBack",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/frontAndBack/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/frontAndBack",
+      "path": "boundary/frontAndBack/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "frontAndBack",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/frontAndBack/ownerPolyPatch",
+      "keyword": "ownerPolyPatch",
+      "context": "boundary/frontAndBack",
+      "path": "boundary/frontAndBack/ownerPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "filmWalls",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/frontAndBack/type",
+      "keyword": "type",
+      "context": "boundary/frontAndBack",
+      "path": "boundary/frontAndBack/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "empty",
+          "occurrences": 3
+        },
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet",
+      "keyword": "inlet",
+      "context": "boundary",
+      "path": "boundary/inlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/inlet",
+      "path": "boundary/inlet/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "inlet",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet/type",
+      "keyword": "type",
+      "context": "boundary/inlet",
+      "path": "boundary/inlet/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet1",
+      "keyword": "inlet1",
+      "context": "boundary",
+      "path": "boundary/inlet1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet1/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/inlet1",
+      "path": "boundary/inlet1/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "inlet",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet1/ownerPolyPatch",
+      "keyword": "ownerPolyPatch",
+      "context": "boundary/inlet1",
+      "path": "boundary/inlet1/ownerPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "top1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet1/type",
+      "keyword": "type",
+      "context": "boundary/inlet1",
+      "path": "boundary/inlet1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet2",
+      "keyword": "inlet2",
+      "context": "boundary",
+      "path": "boundary/inlet2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet2/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/inlet2",
+      "path": "boundary/inlet2/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "inlet",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet2/ownerPolyPatch",
+      "keyword": "ownerPolyPatch",
+      "context": "boundary/inlet2",
+      "path": "boundary/inlet2/ownerPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "top2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/inlet2/type",
+      "keyword": "type",
+      "context": "boundary/inlet2",
+      "path": "boundary/inlet2/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/left",
+      "keyword": "left",
+      "context": "boundary",
+      "path": "boundary/left",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/left/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/left",
+      "path": "boundary/left/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "left",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/left/type",
+      "keyword": "type",
+      "context": "boundary/left",
+      "path": "boundary/left/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/outlet",
+      "keyword": "outlet",
+      "context": "boundary",
+      "path": "boundary/outlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/outlet/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/outlet",
+      "path": "boundary/outlet/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "outlet",
+          "occurrences": 5
+        },
+        {
+          "value": "outflow",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/outlet/type",
+      "keyword": "type",
+      "context": "boundary/outlet",
+      "path": "boundary/outlet/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/right",
+      "keyword": "right",
+      "context": "boundary",
+      "path": "boundary/right",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/right/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/right",
+      "path": "boundary/right/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "right",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/right/type",
+      "keyword": "type",
+      "context": "boundary/right",
+      "path": "boundary/right/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/sloshing2D/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/sealing",
+      "keyword": "sealing",
+      "context": "boundary",
+      "path": "boundary/sealing",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/sealing/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/sealing",
+      "path": "boundary/sealing/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fixedWall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/sealing/type",
+      "keyword": "type",
+      "context": "boundary/sealing",
+      "path": "boundary/sealing/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side",
+      "keyword": "side",
+      "context": "boundary",
+      "path": "boundary/side",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/side",
+      "path": "boundary/side/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "side",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side/type",
+      "keyword": "type",
+      "context": "boundary/side",
+      "path": "boundary/side/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/filmPanel0/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side1",
+      "keyword": "side1",
+      "context": "boundary",
+      "path": "boundary/side1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side1/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/side1",
+      "path": "boundary/side1/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fixedWall1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side1/type",
+      "keyword": "type",
+      "context": "boundary/side1",
+      "path": "boundary/side1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side2",
+      "keyword": "side2",
+      "context": "boundary",
+      "path": "boundary/side2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side2/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/side2",
+      "path": "boundary/side2/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fixedWall2",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side2/type",
+      "keyword": "type",
+      "context": "boundary/side2",
+      "path": "boundary/side2/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side3",
+      "keyword": "side3",
+      "context": "boundary",
+      "path": "boundary/side3",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side3/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/side3",
+      "path": "boundary/side3/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fixedWall3",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side3/type",
+      "keyword": "type",
+      "context": "boundary/side3",
+      "path": "boundary/side3/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side4",
+      "keyword": "side4",
+      "context": "boundary",
+      "path": "boundary/side4",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side4/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/side4",
+      "path": "boundary/side4/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fixedWall4",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/side4/type",
+      "keyword": "type",
+      "context": "boundary/side4",
+      "path": "boundary/side4/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/sides",
+      "keyword": "sides",
+      "context": "boundary",
+      "path": "boundary/sides",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faMeshDefinition",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faMeshDefinition",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/sides/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/sides",
+      "path": "boundary/sides/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "sides",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faMeshDefinition",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faMeshDefinition",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/sides/type",
+      "keyword": "type",
+      "context": "boundary/sides",
+      "path": "boundary/sides/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faMeshDefinition",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/system/finite-area/faMeshDefinition",
+        "lagrangian/reactingParcelFoam/splashPanelFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/symmetry",
+      "keyword": "symmetry",
+      "context": "boundary",
+      "path": "boundary/symmetry",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/symmetry/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/symmetry",
+      "path": "boundary/symmetry/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "bottom",
+          "occurrences": 1
+        },
+        {
+          "value": "symmetry",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/symmetry/type",
+      "keyword": "type",
+      "context": "boundary/symmetry",
+      "path": "boundary/symmetry/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        },
+        {
+          "value": "symmetry",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "incompressible/pimpleFoam/laminar/inclinedPlaneFilm/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/top",
+      "keyword": "top",
+      "context": "boundary",
+      "path": "boundary/top",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/top/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/top",
+      "path": "boundary/top/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "top",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/top/ownerPolyPatch",
+      "keyword": "ownerPolyPatch",
+      "context": "boundary/top",
+      "path": "boundary/top/ownerPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "filmWalls",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/top/type",
+      "keyword": "type",
+      "context": "boundary/top",
+      "path": "boundary/top/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/windshield",
+      "keyword": "windshield",
+      "context": "boundary",
+      "path": "boundary/windshield",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/windshield/neighbourPolyPatch",
+      "keyword": "neighbourPolyPatch",
+      "context": "boundary/windshield",
+      "path": "boundary/windshield/neighbourPolyPatch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "windshield",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "boundary/windshield/type",
+      "keyword": "type",
+      "context": "boundary/windshield",
+      "path": "boundary/windshield/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "defaultPatch",
+      "keyword": "defaultPatch",
+      "context": "",
+      "path": "defaultPatch",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "defaultPatch/name",
+      "keyword": "name",
+      "context": "defaultPatch",
+      "path": "defaultPatch/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "empty",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "defaultPatch/type",
+      "keyword": "type",
+      "context": "defaultPatch",
+      "path": "defaultPatch/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "empty",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "lagrangian/kinematicParcelFoam/windshield/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faMeshDefinition",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 16
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faMeshDefinition",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 16
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faMeshDefinition",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [
+        {
+          "value": "faMeshDefinition",
+          "occurrences": 16
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faMeshDefinition",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faMeshDefinition",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    },
+    {
+      "key": "polyMeshPatches",
+      "keyword": "polyMeshPatches",
+      "context": "",
+      "path": "polyMeshPatches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/finite-area/faMeshDefinition",
+        "finiteArea/liquidFilmFoam/cylinder/system/finite-area/faMeshDefinition",
+        "finiteArea/sphereSurfactantFoam/sphereTransport/system/finite-area/faMeshDefinition",
+        "finiteArea/surfactantFoam/planeTransport/system/finite-area/faMeshDefinition",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/finite-area/faMeshDefinition"
+      ]
+    }
+  ]
+}

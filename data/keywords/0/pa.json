@@ -1,0 +1,468 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "pa",
+  "sourceFileCount": 91,
+  "occurrences": 2108,
+  "entries": [
+    {
+      "key": "__vibrationShell",
+      "keyword": "__vibrationShell",
+      "context": "",
+      "path": "__vibrationShell",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
+      ]
+    },
+    {
+      "key": "__vibrationShell/p",
+      "keyword": "p",
+      "context": "__vibrationShell",
+      "path": "__vibrationShell/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "pa",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
+      ]
+    },
+    {
+      "key": "__vibrationShell/solid",
+      "keyword": "solid",
+      "context": "__vibrationShell",
+      "path": "__vibrationShell/solid",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
+      ]
+    },
+    {
+      "key": "__vibrationShell/solid/E",
+      "keyword": "E",
+      "context": "__vibrationShell/solid",
+      "path": "__vibrationShell/solid/E",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
+      ]
+    },
+    {
+      "key": "__vibrationShell/solid/nu",
+      "keyword": "nu",
+      "context": "__vibrationShell/solid",
+      "path": "__vibrationShell/solid/nu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
+      ]
+    },
+    {
+      "key": "__vibrationShell/solid/rho",
+      "keyword": "rho",
+      "context": "__vibrationShell/solid",
+      "path": "__vibrationShell/solid/rho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
+      ]
+    },
+    {
+      "key": "__vibrationShell/vibrationShellModel",
+      "keyword": "vibrationShellModel",
+      "context": "__vibrationShell",
+      "path": "__vibrationShell/vibrationShellModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "KirchhoffShell",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
+      ]
+    },
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/0.orig/pa"
+      ]
+    },
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 91,
+      "fileCount": 91,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "box",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 619,
+      "fileCount": 91,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/active",
+      "keyword": "active",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/advectiveSpeed",
+      "keyword": "advectiveSpeed",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/advectiveSpeed",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/region",
+      "keyword": "region",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/region",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "vibration",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 610,
+      "fileCount": 91,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 383
+        },
+        {
+          "value": "adjointOutletPressure",
+          "occurrences": 125
+        },
+        {
+          "value": "empty",
+          "occurrences": 78
+        },
+        {
+          "value": "adjointFarFieldPressure",
+          "occurrences": 12
+        },
+        {
+          "value": "symmetry",
+          "occurrences": 10
+        },
+        {
+          "value": "acousticWaveTransmissive",
+          "occurrences": 1
+        },
+        {
+          "value": "vibrationShell",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 139,
+      "fileCount": 91,
+      "values": [
+        {
+          "value": "uniform 0.0",
+          "occurrences": 88
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 47
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 91,
+      "fileCount": 91,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 91,
+      "fileCount": 91,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 91,
+      "fileCount": 91,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 91
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 91,
+      "fileCount": 91,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 91
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 91,
+      "fileCount": 91,
+      "values": [
+        {
+          "value": "pa",
+          "occurrences": 78
+        },
+        {
+          "value": "p",
+          "occurrences": 13
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 91,
+      "fileCount": 91,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 91,
+      "fileCount": 91,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 91
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/pa",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/pa"
+      ]
+    }
+  ]
+}

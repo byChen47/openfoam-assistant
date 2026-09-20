@@ -1,0 +1,289 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "Theta",
+  "sourceFileCount": 15,
+  "occurrences": 263,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 55,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [
+        {
+          "value": "uniform 1.0e-7",
+          "occurrences": 11
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnIATE/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/LES/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 55,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 19
+        },
+        {
+          "value": "empty",
+          "occurrences": 14
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 11
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 11
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 22,
+      "fileCount": 11,
+      "values": [
+        {
+          "value": "uniform 1.0e-7",
+          "occurrences": 22
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnIATE/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/LES/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 15
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 15
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "Theta",
+          "occurrences": 15
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "uniform 0.0",
+          "occurrences": 11
+        },
+        {
+          "value": "uniform 0",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/Theta",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/Theta",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/Theta",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/Theta"
+      ]
+    }
+  ]
+}

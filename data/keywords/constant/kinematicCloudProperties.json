@@ -1,0 +1,3976 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "constant",
+  "fileKey": "kinematicCloudProperties",
+  "sourceFileCount": 17,
+  "occurrences": 1204,
+  "entries": [
+    {
+      "key": "cloudFunctions",
+      "keyword": "cloudFunctions",
+      "context": "",
+      "path": "cloudFunctions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "cloudFunctions/KinematicWeberNumber1",
+      "keyword": "KinematicWeberNumber1",
+      "context": "cloudFunctions",
+      "path": "cloudFunctions/KinematicWeberNumber1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "cloudFunctions/KinematicWeberNumber1/sigma",
+      "keyword": "sigma",
+      "context": "cloudFunctions/KinematicWeberNumber1",
+      "path": "cloudFunctions/KinematicWeberNumber1/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "cloudFunctions/KinematicWeberNumber1/type",
+      "keyword": "type",
+      "context": "cloudFunctions/KinematicWeberNumber1",
+      "path": "cloudFunctions/KinematicWeberNumber1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "WeberNumber",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "cloudFunctions/ReynoldsNumber1",
+      "keyword": "ReynoldsNumber1",
+      "context": "cloudFunctions",
+      "path": "cloudFunctions/ReynoldsNumber1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "cloudFunctions/ReynoldsNumber1/type",
+      "keyword": "type",
+      "context": "cloudFunctions/ReynoldsNumber1",
+      "path": "cloudFunctions/ReynoldsNumber1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "ReynoldsNumber",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "constantProperties",
+      "keyword": "constantProperties",
+      "context": "",
+      "path": "constantProperties",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "constantProperties/alphaMax",
+      "keyword": "alphaMax",
+      "context": "constantProperties",
+      "path": "constantProperties/alphaMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "constantProperties/constantVolume",
+      "keyword": "constantVolume",
+      "context": "constantProperties",
+      "path": "constantProperties/constantVolume",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 2
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/uncoupledKinematicParcelDyMFoam/rotor2DAMI/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "constantProperties/minParcelMass",
+      "keyword": "minParcelMass",
+      "context": "constantProperties",
+      "path": "constantProperties/minParcelMass",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "constantProperties/parcelTypeId",
+      "keyword": "parcelTypeId",
+      "context": "constantProperties",
+      "path": "constantProperties/parcelTypeId",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "constantProperties/poissonsRatio",
+      "keyword": "poissonsRatio",
+      "context": "constantProperties",
+      "path": "constantProperties/poissonsRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "constantProperties/rho0",
+      "keyword": "rho0",
+      "context": "constantProperties",
+      "path": "constantProperties/rho0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "constantProperties/rhoMin",
+      "keyword": "rhoMin",
+      "context": "constantProperties",
+      "path": "constantProperties/rhoMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "constantProperties/youngsModulus",
+      "keyword": "youngsModulus",
+      "context": "constantProperties",
+      "path": "constantProperties/youngsModulus",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "kinematicCloudProperties",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution",
+      "keyword": "solution",
+      "context": "",
+      "path": "solution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/active",
+      "keyword": "active",
+      "context": "solution",
+      "path": "solution/active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/averagingMethod",
+      "keyword": "averagingMethod",
+      "context": "solution",
+      "path": "solution/averagingMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "dual",
+          "occurrences": 6
+        },
+        {
+          "value": "basic",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/cellValueSourceCorrection",
+      "keyword": "cellValueSourceCorrection",
+      "context": "solution",
+      "path": "solution/cellValueSourceCorrection",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 11
+        },
+        {
+          "value": "no",
+          "occurrences": 5
+        },
+        {
+          "value": "on",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/coupled",
+      "keyword": "coupled",
+      "context": "solution",
+      "path": "solution/coupled",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 8
+        },
+        {
+          "value": "false",
+          "occurrences": 5
+        },
+        {
+          "value": "yes",
+          "occurrences": 3
+        },
+        {
+          "value": "no",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/integrationSchemes",
+      "keyword": "integrationSchemes",
+      "context": "solution",
+      "path": "solution/integrationSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/integrationSchemes/U",
+      "keyword": "U",
+      "context": "solution/integrationSchemes",
+      "path": "solution/integrationSchemes/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "Euler",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes",
+      "keyword": "interpolationSchemes",
+      "context": "solution",
+      "path": "solution/interpolationSchemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes/gradAlpha",
+      "keyword": "gradAlpha",
+      "context": "solution/interpolationSchemes",
+      "path": "solution/interpolationSchemes/gradAlpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cellPoint",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes/mu",
+      "keyword": "mu",
+      "context": "solution/interpolationSchemes",
+      "path": "solution/interpolationSchemes/mu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes/mu.air",
+      "keyword": "mu.air",
+      "context": "solution/interpolationSchemes",
+      "path": "solution/interpolationSchemes/mu.air",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes/muc",
+      "keyword": "muc",
+      "context": "solution/interpolationSchemes",
+      "path": "solution/interpolationSchemes/muc",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes/p",
+      "keyword": "p",
+      "context": "solution/interpolationSchemes",
+      "path": "solution/interpolationSchemes/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes/rho",
+      "keyword": "rho",
+      "context": "solution/interpolationSchemes",
+      "path": "solution/interpolationSchemes/rho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 11
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes/rho.air",
+      "keyword": "rho.air",
+      "context": "solution/interpolationSchemes",
+      "path": "solution/interpolationSchemes/rho.air",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes/thermo:mu",
+      "keyword": "thermo:mu",
+      "context": "solution/interpolationSchemes",
+      "path": "solution/interpolationSchemes/thermo:mu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cell",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/uncoupledKinematicParcelDyMFoam/rotor2DAMI/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes/U",
+      "keyword": "U",
+      "context": "solution/interpolationSchemes",
+      "path": "solution/interpolationSchemes/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [
+        {
+          "value": "cellPoint",
+          "occurrences": 10
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/interpolationSchemes/U.air",
+      "keyword": "U.air",
+      "context": "solution/interpolationSchemes",
+      "path": "solution/interpolationSchemes/U.air",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "cellPoint",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/maxCo",
+      "keyword": "maxCo",
+      "context": "solution",
+      "path": "solution/maxCo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/sourceTerms",
+      "keyword": "sourceTerms",
+      "context": "solution",
+      "path": "solution/sourceTerms",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/sourceTerms/schemes",
+      "keyword": "schemes",
+      "context": "solution/sourceTerms",
+      "path": "solution/sourceTerms/schemes",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/sourceTerms/schemes/U",
+      "keyword": "U",
+      "context": "solution/sourceTerms/schemes",
+      "path": "solution/sourceTerms/schemes/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [
+        {
+          "value": "semiImplicit 1",
+          "occurrences": 12
+        },
+        {
+          "value": "explicit 1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "solution/transient",
+      "keyword": "transient",
+      "context": "solution",
+      "path": "solution/transient",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels",
+      "keyword": "subModels",
+      "context": "",
+      "path": "subModels",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/collisionModel",
+      "keyword": "collisionModel",
+      "context": "subModels",
+      "path": "subModels/collisionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "pairCollision",
+          "occurrences": 5
+        },
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/dampingModel",
+      "keyword": "dampingModel",
+      "context": "subModels",
+      "path": "subModels/dampingModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 6
+        },
+        {
+          "value": "relaxation",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/dispersionModel",
+      "keyword": "dispersionModel",
+      "context": "subModels",
+      "path": "subModels/dispersionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/explicitCoeffs",
+      "keyword": "explicitCoeffs",
+      "context": "subModels",
+      "path": "subModels/explicitCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/explicitCoeffs/correctionLimitingMethod",
+      "keyword": "correctionLimitingMethod",
+      "context": "subModels/explicitCoeffs",
+      "path": "subModels/explicitCoeffs/correctionLimitingMethod",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/explicitCoeffs/correctionLimitingMethod/e",
+      "keyword": "e",
+      "context": "subModels/explicitCoeffs/correctionLimitingMethod",
+      "path": "subModels/explicitCoeffs/correctionLimitingMethod/e",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/explicitCoeffs/correctionLimitingMethod/type",
+      "keyword": "type",
+      "context": "subModels/explicitCoeffs/correctionLimitingMethod",
+      "path": "subModels/explicitCoeffs/correctionLimitingMethod/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "absolute",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/explicitCoeffs/particleStressModel",
+      "keyword": "particleStressModel",
+      "context": "subModels/explicitCoeffs",
+      "path": "subModels/explicitCoeffs/particleStressModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/explicitCoeffs/particleStressModel/alphaPacked",
+      "keyword": "alphaPacked",
+      "context": "subModels/explicitCoeffs/particleStressModel",
+      "path": "subModels/explicitCoeffs/particleStressModel/alphaPacked",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/explicitCoeffs/particleStressModel/beta",
+      "keyword": "beta",
+      "context": "subModels/explicitCoeffs/particleStressModel",
+      "path": "subModels/explicitCoeffs/particleStressModel/beta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/explicitCoeffs/particleStressModel/eps",
+      "keyword": "eps",
+      "context": "subModels/explicitCoeffs/particleStressModel",
+      "path": "subModels/explicitCoeffs/particleStressModel/eps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/explicitCoeffs/particleStressModel/pSolid",
+      "keyword": "pSolid",
+      "context": "subModels/explicitCoeffs/particleStressModel",
+      "path": "subModels/explicitCoeffs/particleStressModel/pSolid",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/explicitCoeffs/particleStressModel/type",
+      "keyword": "type",
+      "context": "subModels/explicitCoeffs/particleStressModel",
+      "path": "subModels/explicitCoeffs/particleStressModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "HarrisCrighton",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/heatTransferModel",
+      "keyword": "heatTransferModel",
+      "context": "subModels",
+      "path": "subModels/heatTransferModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs",
+      "keyword": "implicitCoeffs",
+      "context": "subModels",
+      "path": "subModels/implicitCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs/alphaMin",
+      "keyword": "alphaMin",
+      "context": "subModels/implicitCoeffs",
+      "path": "subModels/implicitCoeffs/alphaMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs/applyGravity",
+      "keyword": "applyGravity",
+      "context": "subModels/implicitCoeffs",
+      "path": "subModels/implicitCoeffs/applyGravity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 3
+        },
+        {
+          "value": "true",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs/applyLimiting",
+      "keyword": "applyLimiting",
+      "context": "subModels/implicitCoeffs",
+      "path": "subModels/implicitCoeffs/applyLimiting",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 4
+        },
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs/particleStressModel",
+      "keyword": "particleStressModel",
+      "context": "subModels/implicitCoeffs",
+      "path": "subModels/implicitCoeffs/particleStressModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs/particleStressModel/alphaPacked",
+      "keyword": "alphaPacked",
+      "context": "subModels/implicitCoeffs/particleStressModel",
+      "path": "subModels/implicitCoeffs/particleStressModel/alphaPacked",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs/particleStressModel/beta",
+      "keyword": "beta",
+      "context": "subModels/implicitCoeffs/particleStressModel",
+      "path": "subModels/implicitCoeffs/particleStressModel/beta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs/particleStressModel/eps",
+      "keyword": "eps",
+      "context": "subModels/implicitCoeffs/particleStressModel",
+      "path": "subModels/implicitCoeffs/particleStressModel/eps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs/particleStressModel/pSolid",
+      "keyword": "pSolid",
+      "context": "subModels/implicitCoeffs/particleStressModel",
+      "path": "subModels/implicitCoeffs/particleStressModel/pSolid",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs/particleStressModel/type",
+      "keyword": "type",
+      "context": "subModels/implicitCoeffs/particleStressModel",
+      "path": "subModels/implicitCoeffs/particleStressModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "HarrisCrighton",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/implicitCoeffs/rhoMin",
+      "keyword": "rhoMin",
+      "context": "subModels/implicitCoeffs",
+      "path": "subModels/implicitCoeffs/rhoMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels",
+      "keyword": "injectionModels",
+      "context": "subModels",
+      "path": "subModels/injectionModels",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1",
+      "keyword": "model1",
+      "context": "subModels/injectionModels",
+      "path": "subModels/injectionModels/model1",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/duration",
+      "keyword": "duration",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/flowRateProfile",
+      "keyword": "flowRateProfile",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/flowRateProfile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "constant 1",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/massTotal",
+      "keyword": "massTotal",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/massTotal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/nParticle",
+      "keyword": "nParticle",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/nParticle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/parcelBasisType",
+      "keyword": "parcelBasisType",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/parcelBasisType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "fixed",
+          "occurrences": 11
+        },
+        {
+          "value": "mass",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/parcelsPerInjector",
+      "keyword": "parcelsPerInjector",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/parcelsPerInjector",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/parcelsPerSecond",
+      "keyword": "parcelsPerSecond",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/parcelsPerSecond",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/patch",
+      "keyword": "patch",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/patch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "inlet",
+          "occurrences": 5
+        },
+        {
+          "value": "cylinder",
+          "occurrences": 1
+        },
+        {
+          "value": "lowerInlet",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/positionAxis",
+      "keyword": "positionAxis",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/positionAxis",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/positionsFile",
+      "keyword": "positionsFile",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/positionsFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "\"kinematicCloudPositions\"",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution",
+      "keyword": "sizeDistribution",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/sizeDistribution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/fixedValueDistribution",
+      "keyword": "fixedValueDistribution",
+      "context": "subModels/injectionModels/model1/sizeDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/fixedValueDistribution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/fixedValueDistribution/value",
+      "keyword": "value",
+      "context": "subModels/injectionModels/model1/sizeDistribution/fixedValueDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/fixedValueDistribution/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/normalDistribution",
+      "keyword": "normalDistribution",
+      "context": "subModels/injectionModels/model1/sizeDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/normalDistribution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/normalDistribution/maxValue",
+      "keyword": "maxValue",
+      "context": "subModels/injectionModels/model1/sizeDistribution/normalDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/normalDistribution/maxValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/normalDistribution/minValue",
+      "keyword": "minValue",
+      "context": "subModels/injectionModels/model1/sizeDistribution/normalDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/normalDistribution/minValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/normalDistribution/mu",
+      "keyword": "mu",
+      "context": "subModels/injectionModels/model1/sizeDistribution/normalDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/normalDistribution/mu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/normalDistribution/sigma",
+      "keyword": "sigma",
+      "context": "subModels/injectionModels/model1/sizeDistribution/normalDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/normalDistribution/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution",
+      "keyword": "RosinRammlerDistribution",
+      "context": "subModels/injectionModels/model1/sizeDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution/lambda",
+      "keyword": "lambda",
+      "context": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution/lambda",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution/maxValue",
+      "keyword": "maxValue",
+      "context": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution/maxValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution/minValue",
+      "keyword": "minValue",
+      "context": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution/minValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution/n",
+      "keyword": "n",
+      "context": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/RosinRammlerDistribution/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/type",
+      "keyword": "type",
+      "context": "subModels/injectionModels/model1/sizeDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "fixedValue",
+          "occurrences": 7
+        },
+        {
+          "value": "normal",
+          "occurrences": 4
+        },
+        {
+          "value": "RosinRammler",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/uniformDistribution",
+      "keyword": "uniformDistribution",
+      "context": "subModels/injectionModels/model1/sizeDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/uniformDistribution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/uncoupledKinematicParcelDyMFoam/rotor2DAMI/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/uniformDistribution/maxValue",
+      "keyword": "maxValue",
+      "context": "subModels/injectionModels/model1/sizeDistribution/uniformDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/uniformDistribution/maxValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/uncoupledKinematicParcelDyMFoam/rotor2DAMI/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/sizeDistribution/uniformDistribution/minValue",
+      "keyword": "minValue",
+      "context": "subModels/injectionModels/model1/sizeDistribution/uniformDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/uniformDistribution/minValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/uncoupledKinematicParcelDyMFoam/rotor2DAMI/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/SOI",
+      "keyword": "SOI",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/SOI",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/thetaInner",
+      "keyword": "thetaInner",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/thetaInner",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/thetaOuter",
+      "keyword": "thetaOuter",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/thetaOuter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant 45",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/type",
+      "keyword": "type",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "manualInjection",
+          "occurrences": 7
+        },
+        {
+          "value": "patchInjection",
+          "occurrences": 7
+        },
+        {
+          "value": "coneInjection",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/U0",
+      "keyword": "U0",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/U0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/Umag",
+      "keyword": "Umag",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/Umag",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant 1.0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model1/velocityType",
+      "keyword": "velocityType",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/velocityType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patchValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2",
+      "keyword": "model2",
+      "context": "subModels/injectionModels",
+      "path": "subModels/injectionModels/model2",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/duration",
+      "keyword": "duration",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/flowRateProfile",
+      "keyword": "flowRateProfile",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/flowRateProfile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant 1",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/massTotal",
+      "keyword": "massTotal",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/massTotal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/nParticle",
+      "keyword": "nParticle",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/nParticle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/parcelBasisType",
+      "keyword": "parcelBasisType",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/parcelBasisType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "fixed",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/parcelsPerSecond",
+      "keyword": "parcelsPerSecond",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/parcelsPerSecond",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/patch",
+      "keyword": "patch",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/patch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "upperInlet",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/sizeDistribution",
+      "keyword": "sizeDistribution",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/sizeDistribution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/sizeDistribution/normalDistribution",
+      "keyword": "normalDistribution",
+      "context": "subModels/injectionModels/model2/sizeDistribution",
+      "path": "subModels/injectionModels/model2/sizeDistribution/normalDistribution",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/sizeDistribution/normalDistribution/maxValue",
+      "keyword": "maxValue",
+      "context": "subModels/injectionModels/model2/sizeDistribution/normalDistribution",
+      "path": "subModels/injectionModels/model2/sizeDistribution/normalDistribution/maxValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/sizeDistribution/normalDistribution/minValue",
+      "keyword": "minValue",
+      "context": "subModels/injectionModels/model2/sizeDistribution/normalDistribution",
+      "path": "subModels/injectionModels/model2/sizeDistribution/normalDistribution/minValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/sizeDistribution/normalDistribution/mu",
+      "keyword": "mu",
+      "context": "subModels/injectionModels/model2/sizeDistribution/normalDistribution",
+      "path": "subModels/injectionModels/model2/sizeDistribution/normalDistribution/mu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/sizeDistribution/normalDistribution/sigma",
+      "keyword": "sigma",
+      "context": "subModels/injectionModels/model2/sizeDistribution/normalDistribution",
+      "path": "subModels/injectionModels/model2/sizeDistribution/normalDistribution/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/sizeDistribution/type",
+      "keyword": "type",
+      "context": "subModels/injectionModels/model2/sizeDistribution",
+      "path": "subModels/injectionModels/model2/sizeDistribution/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "normal",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/SOI",
+      "keyword": "SOI",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/SOI",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/type",
+      "keyword": "type",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "patchInjection",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/injectionModels/model2/U0",
+      "keyword": "U0",
+      "context": "subModels/injectionModels/model2",
+      "path": "subModels/injectionModels/model2/U0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/isotropyModel",
+      "keyword": "isotropyModel",
+      "context": "subModels",
+      "path": "subModels/isotropyModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "stochastic",
+          "occurrences": 6
+        },
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/kinematicSurfaceFilmCoeffs",
+      "keyword": "kinematicSurfaceFilmCoeffs",
+      "context": "subModels",
+      "path": "subModels/kinematicSurfaceFilmCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/kinematicSurfaceFilmCoeffs/interactionType",
+      "keyword": "interactionType",
+      "context": "subModels/kinematicSurfaceFilmCoeffs",
+      "path": "subModels/kinematicSurfaceFilmCoeffs/interactionType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "absorb",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/localInteractionCoeffs",
+      "keyword": "localInteractionCoeffs",
+      "context": "subModels",
+      "path": "subModels/localInteractionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/localInteractionCoeffs/patches",
+      "keyword": "patches",
+      "context": "subModels/localInteractionCoeffs",
+      "path": "subModels/localInteractionCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/packingModel",
+      "keyword": "packingModel",
+      "context": "subModels",
+      "path": "subModels/packingModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "explicit",
+          "occurrences": 3
+        },
+        {
+          "value": "implicit",
+          "occurrences": 3
+        },
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs",
+      "keyword": "pairCollisionCoeffs",
+      "context": "subModels",
+      "path": "subModels/pairCollisionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/maxInteractionDistance",
+      "keyword": "maxInteractionDistance",
+      "context": "subModels/pairCollisionCoeffs",
+      "path": "subModels/pairCollisionCoeffs/maxInteractionDistance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/pairModel",
+      "keyword": "pairModel",
+      "context": "subModels/pairCollisionCoeffs",
+      "path": "subModels/pairCollisionCoeffs/pairModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "pairSpringSliderDashpot",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs",
+      "keyword": "pairSpringSliderDashpotCoeffs",
+      "context": "subModels/pairCollisionCoeffs",
+      "path": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/alpha",
+      "keyword": "alpha",
+      "context": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/b",
+      "keyword": "b",
+      "context": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/b",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/cohesionEnergyDensity",
+      "keyword": "cohesionEnergyDensity",
+      "context": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/cohesionEnergyDensity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/collisionResolutionSteps",
+      "keyword": "collisionResolutionSteps",
+      "context": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/collisionResolutionSteps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/mu",
+      "keyword": "mu",
+      "context": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/mu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/useEquivalentSize",
+      "keyword": "useEquivalentSize",
+      "context": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/pairSpringSliderDashpotCoeffs/useEquivalentSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/U",
+      "keyword": "U",
+      "context": "subModels/pairCollisionCoeffs",
+      "path": "subModels/pairCollisionCoeffs/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "U",
+          "occurrences": 1
+        },
+        {
+          "value": "U.air",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs",
+      "keyword": "wallLocalSpringSliderDashpotCoeffs",
+      "context": "subModels/pairCollisionCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/collisionResolutionSteps",
+      "keyword": "collisionResolutionSteps",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/collisionResolutionSteps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack",
+      "keyword": "frontAndBack",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/alpha",
+      "keyword": "alpha",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/b",
+      "keyword": "b",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/b",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/cohesionEnergyDensity",
+      "keyword": "cohesionEnergyDensity",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/cohesionEnergyDensity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/mu",
+      "keyword": "mu",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/mu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/poissonsRatio",
+      "keyword": "poissonsRatio",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/poissonsRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/youngsModulus",
+      "keyword": "youngsModulus",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/frontAndBack/youngsModulus",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/useEquivalentSize",
+      "keyword": "useEquivalentSize",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/useEquivalentSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls",
+      "keyword": "walls",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/alpha",
+      "keyword": "alpha",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/b",
+      "keyword": "b",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/b",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/cohesionEnergyDensity",
+      "keyword": "cohesionEnergyDensity",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/cohesionEnergyDensity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/mu",
+      "keyword": "mu",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/mu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/poissonsRatio",
+      "keyword": "poissonsRatio",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/poissonsRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/youngsModulus",
+      "keyword": "youngsModulus",
+      "context": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls",
+      "path": "subModels/pairCollisionCoeffs/wallLocalSpringSliderDashpotCoeffs/walls/youngsModulus",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallModel",
+      "keyword": "wallModel",
+      "context": "subModels/pairCollisionCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "wallLocalSpringSliderDashpot",
+          "occurrences": 3
+        },
+        {
+          "value": "wallSpringSliderDashpot",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs",
+      "keyword": "wallSpringSliderDashpotCoeffs",
+      "context": "subModels/pairCollisionCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/alpha",
+      "keyword": "alpha",
+      "context": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/b",
+      "keyword": "b",
+      "context": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/b",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/cohesionEnergyDensity",
+      "keyword": "cohesionEnergyDensity",
+      "context": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/cohesionEnergyDensity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/collisionResolutionSteps",
+      "keyword": "collisionResolutionSteps",
+      "context": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/collisionResolutionSteps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/mu",
+      "keyword": "mu",
+      "context": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/mu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/poissonsRatio",
+      "keyword": "poissonsRatio",
+      "context": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/poissonsRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/useEquivalentSize",
+      "keyword": "useEquivalentSize",
+      "context": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/useEquivalentSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/youngsModulus",
+      "keyword": "youngsModulus",
+      "context": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs",
+      "path": "subModels/pairCollisionCoeffs/wallSpringSliderDashpotCoeffs/youngsModulus",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/pairCollisionCoeffs/writeReferredParticleCloud",
+      "keyword": "writeReferredParticleCloud",
+      "context": "subModels/pairCollisionCoeffs",
+      "path": "subModels/pairCollisionCoeffs/writeReferredParticleCloud",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces",
+      "keyword": "particleForces",
+      "context": "subModels",
+      "path": "subModels/particleForces",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/ErgunWenYuDrag",
+      "keyword": "ErgunWenYuDrag",
+      "context": "subModels/particleForces",
+      "path": "subModels/particleForces/ErgunWenYuDrag",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/ErgunWenYuDrag/alphac",
+      "keyword": "alphac",
+      "context": "subModels/particleForces/ErgunWenYuDrag",
+      "path": "subModels/particleForces/ErgunWenYuDrag/alphac",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "alpha.air",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/gravity",
+      "keyword": "gravity",
+      "context": "subModels/particleForces",
+      "path": "subModels/particleForces/gravity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/interface",
+      "keyword": "interface",
+      "context": "subModels/particleForces",
+      "path": "subModels/particleForces/interface",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/interface/alpha",
+      "keyword": "alpha",
+      "context": "subModels/particleForces/interface",
+      "path": "subModels/particleForces/interface/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "alpha.water",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/interface/C",
+      "keyword": "C",
+      "context": "subModels/particleForces/interface",
+      "path": "subModels/particleForces/interface/C",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/PlessisMasliyahDrag",
+      "keyword": "PlessisMasliyahDrag",
+      "context": "subModels/particleForces",
+      "path": "subModels/particleForces/PlessisMasliyahDrag",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/PlessisMasliyahDrag/alphac",
+      "keyword": "alphac",
+      "context": "subModels/particleForces/PlessisMasliyahDrag",
+      "path": "subModels/particleForces/PlessisMasliyahDrag/alphac",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "alpha.air",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/sphereDrag",
+      "keyword": "sphereDrag",
+      "context": "subModels/particleForces",
+      "path": "subModels/particleForces/sphereDrag",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/WenYuDrag",
+      "keyword": "WenYuDrag",
+      "context": "subModels/particleForces",
+      "path": "subModels/particleForces/WenYuDrag",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/particleForces/WenYuDrag/alphac",
+      "keyword": "alphac",
+      "context": "subModels/particleForces/WenYuDrag",
+      "path": "subModels/particleForces/WenYuDrag/alphac",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "alpha.air",
+          "occurrences": 1
+        },
+        {
+          "value": "alphac",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties",
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/patchInteractionModel",
+      "keyword": "patchInteractionModel",
+      "context": "subModels",
+      "path": "subModels/patchInteractionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "localInteraction",
+          "occurrences": 7
+        },
+        {
+          "value": "standardWallInteraction",
+          "occurrences": 7
+        },
+        {
+          "value": "none",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/radiation",
+      "keyword": "radiation",
+      "context": "subModels",
+      "path": "subModels/radiation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/MPPICInterFoam/twoPhasePachuka/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/relaxationCoeffs",
+      "keyword": "relaxationCoeffs",
+      "context": "subModels",
+      "path": "subModels/relaxationCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/relaxationCoeffs/timeScaleModel",
+      "keyword": "timeScaleModel",
+      "context": "subModels/relaxationCoeffs",
+      "path": "subModels/relaxationCoeffs/timeScaleModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/relaxationCoeffs/timeScaleModel/alphaPacked",
+      "keyword": "alphaPacked",
+      "context": "subModels/relaxationCoeffs/timeScaleModel",
+      "path": "subModels/relaxationCoeffs/timeScaleModel/alphaPacked",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/relaxationCoeffs/timeScaleModel/e",
+      "keyword": "e",
+      "context": "subModels/relaxationCoeffs/timeScaleModel",
+      "path": "subModels/relaxationCoeffs/timeScaleModel/e",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/relaxationCoeffs/timeScaleModel/type",
+      "keyword": "type",
+      "context": "subModels/relaxationCoeffs/timeScaleModel",
+      "path": "subModels/relaxationCoeffs/timeScaleModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "nonEquilibrium",
+          "occurrences": 5
+        },
+        {
+          "value": "isotropic",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/injectionChannel/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/standardWallInteractionCoeffs",
+      "keyword": "standardWallInteractionCoeffs",
+      "context": "subModels",
+      "path": "subModels/standardWallInteractionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/standardWallInteractionCoeffs/e",
+      "keyword": "e",
+      "context": "subModels/standardWallInteractionCoeffs",
+      "path": "subModels/standardWallInteractionCoeffs/e",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/uncoupledKinematicParcelDyMFoam/rotor2DAMI/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/standardWallInteractionCoeffs/mu",
+      "keyword": "mu",
+      "context": "subModels/standardWallInteractionCoeffs",
+      "path": "subModels/standardWallInteractionCoeffs/mu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/uncoupledKinematicParcelDyMFoam/rotor2DAMI/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/standardWallInteractionCoeffs/type",
+      "keyword": "type",
+      "context": "subModels/standardWallInteractionCoeffs",
+      "path": "subModels/standardWallInteractionCoeffs/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "rebound",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/drippingChair/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/pitzDailyWithSprinklers/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/spinningDisk/constant/kinematicCloudProperties",
+        "lagrangian/kinematicParcelFoam/windshield/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/standardWallInteractionCoeffs/UrMax",
+      "keyword": "UrMax",
+      "context": "subModels/standardWallInteractionCoeffs",
+      "path": "subModels/standardWallInteractionCoeffs/UrMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/uncoupledKinematicParcelDyMFoam/rotor2DAMI/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/stochasticCoeffs",
+      "keyword": "stochasticCoeffs",
+      "context": "subModels",
+      "path": "subModels/stochasticCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/stochasticCoeffs/timeScaleModel",
+      "keyword": "timeScaleModel",
+      "context": "subModels/stochasticCoeffs",
+      "path": "subModels/stochasticCoeffs/timeScaleModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/stochasticCoeffs/timeScaleModel/alphaPacked",
+      "keyword": "alphaPacked",
+      "context": "subModels/stochasticCoeffs/timeScaleModel",
+      "path": "subModels/stochasticCoeffs/timeScaleModel/alphaPacked",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/stochasticCoeffs/timeScaleModel/e",
+      "keyword": "e",
+      "context": "subModels/stochasticCoeffs/timeScaleModel",
+      "path": "subModels/stochasticCoeffs/timeScaleModel/e",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/stochasticCoeffs/timeScaleModel/type",
+      "keyword": "type",
+      "context": "subModels/stochasticCoeffs/timeScaleModel",
+      "path": "subModels/stochasticCoeffs/timeScaleModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "isotropic",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/column/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/cyclone/constant/kinematicCloudProperties",
+        "lagrangian/MPPICFoam/Goldschmidt/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/stochasticCollisionModel",
+      "keyword": "stochasticCollisionModel",
+      "context": "subModels",
+      "path": "subModels/stochasticCollisionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    },
+    {
+      "key": "subModels/surfaceFilmModel",
+      "keyword": "surfaceFilmModel",
+      "context": "subModels",
+      "path": "subModels/surfaceFilmModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 14
+        },
+        {
+          "value": "kinematicSurfaceFilm",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "IO/fileHandler/constant/kinematicCloudProperties",
+        "lagrangian/DPMFoam/Goldschmidt/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelDyMFoam/mixerVesselAMI2D/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperEmptying/constant/kinematicCloudProperties",
+        "lagrangian/icoUncoupledKinematicParcelFoam/hopper/hopperInitialState/constant/kinematicCloudProperties"
+      ]
+    }
+  ]
+}

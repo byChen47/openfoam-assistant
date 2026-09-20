@@ -1,0 +1,1441 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "constant",
+  "fileKey": "combustionProperties",
+  "sourceFileCount": 44,
+  "occurrences": 488,
+  "entries": [
+    {
+      "key": "active",
+      "keyword": "active",
+      "context": "",
+      "path": "active",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 12
+        },
+        {
+          "value": "false",
+          "occurrences": 2
+        },
+        {
+          "value": "on",
+          "occurrences": 2
+        },
+        {
+          "value": "off",
+          "occurrences": 1
+        },
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/combustionProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "combustionModel",
+      "keyword": "combustionModel",
+      "context": "",
+      "path": "combustionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 37,
+      "fileCount": 37,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 19
+        },
+        {
+          "value": "laminar",
+          "occurrences": 7
+        },
+        {
+          "value": "EDC",
+          "occurrences": 3
+        },
+        {
+          "value": "EDM",
+          "occurrences": 3
+        },
+        {
+          "value": "infinitelyFastChemistry",
+          "occurrences": 3
+        },
+        {
+          "value": "PaSR",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/combustionProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "EDCCoeffs",
+      "keyword": "EDCCoeffs",
+      "context": "",
+      "path": "EDCCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/combustionProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/combustionProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "EDCCoeffs/version",
+      "keyword": "version",
+      "context": "EDCCoeffs",
+      "path": "EDCCoeffs/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "v2005",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/combustionProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/combustionProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "EDMCoeffs",
+      "keyword": "EDMCoeffs",
+      "context": "",
+      "path": "EDMCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/combustionProperties",
+        "combustion/rhoReactingFoam/groundAbsorption/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "EDMCoeffs/Cd",
+      "keyword": "Cd",
+      "context": "EDMCoeffs",
+      "path": "EDMCoeffs/Cd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/combustionProperties",
+        "combustion/rhoReactingFoam/groundAbsorption/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "EDMCoeffs/CEDC",
+      "keyword": "CEDC",
+      "context": "EDMCoeffs",
+      "path": "EDMCoeffs/CEDC",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/combustionProperties",
+        "combustion/rhoReactingFoam/groundAbsorption/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "EDMCoeffs/semiImplicit",
+      "keyword": "semiImplicit",
+      "context": "EDMCoeffs",
+      "path": "EDMCoeffs/semiImplicit",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 3
+        },
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/combustionProperties",
+        "combustion/rhoReactingFoam/groundAbsorption/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "equivalenceRatio",
+      "keyword": "equivalenceRatio",
+      "context": "",
+      "path": "equivalenceRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 44,
+      "fileCount": 44,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/combustionProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 44,
+      "fileCount": 44,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 44
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/combustionProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 44,
+      "fileCount": 44,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 44
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/combustionProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "\"constant\"",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "lagrangian/reactingParcelFoam/movingInjectorBox/constant/combustionProperties",
+        "lagrangian/reactingParcelFoam/parcelInBox/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 44,
+      "fileCount": 44,
+      "values": [
+        {
+          "value": "combustionProperties",
+          "occurrences": 44
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/combustionProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 44,
+      "fileCount": 44,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/combustionProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "fuel",
+      "keyword": "fuel",
+      "context": "",
+      "path": "fuel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "Methane",
+          "occurrences": 3
+        },
+        {
+          "value": "Propane",
+          "occurrences": 3
+        },
+        {
+          "value": "IsoOctane",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/combustionProperties",
+        "combustion/PDRFoam/pipeLattice/constant/combustionProperties",
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "fuelFile",
+      "keyword": "fuelFile",
+      "context": "",
+      "path": "fuelFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "\"fuels/propane.dat\"",
+          "occurrences": 2
+        },
+        {
+          "value": "\"fuels/methane\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/combustionProperties",
+        "combustion/PDRFoam/pipeLattice/constant/combustionProperties",
+        "preProcessing/PDRsetFields/simplePipeCage/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs",
+      "keyword": "GuldersCoeffs",
+      "context": "",
+      "path": "GuldersCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/IsoOctane",
+      "keyword": "IsoOctane",
+      "context": "GuldersCoeffs",
+      "path": "GuldersCoeffs/IsoOctane",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/IsoOctane/alpha",
+      "keyword": "alpha",
+      "context": "GuldersCoeffs/IsoOctane",
+      "path": "GuldersCoeffs/IsoOctane/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/IsoOctane/beta",
+      "keyword": "beta",
+      "context": "GuldersCoeffs/IsoOctane",
+      "path": "GuldersCoeffs/IsoOctane/beta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/IsoOctane/eta",
+      "keyword": "eta",
+      "context": "GuldersCoeffs/IsoOctane",
+      "path": "GuldersCoeffs/IsoOctane/eta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/IsoOctane/f",
+      "keyword": "f",
+      "context": "GuldersCoeffs/IsoOctane",
+      "path": "GuldersCoeffs/IsoOctane/f",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/IsoOctane/W",
+      "keyword": "W",
+      "context": "GuldersCoeffs/IsoOctane",
+      "path": "GuldersCoeffs/IsoOctane/W",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/IsoOctane/xi",
+      "keyword": "xi",
+      "context": "GuldersCoeffs/IsoOctane",
+      "path": "GuldersCoeffs/IsoOctane/xi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Methane",
+      "keyword": "Methane",
+      "context": "GuldersCoeffs",
+      "path": "GuldersCoeffs/Methane",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Methane/alpha",
+      "keyword": "alpha",
+      "context": "GuldersCoeffs/Methane",
+      "path": "GuldersCoeffs/Methane/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Methane/beta",
+      "keyword": "beta",
+      "context": "GuldersCoeffs/Methane",
+      "path": "GuldersCoeffs/Methane/beta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Methane/eta",
+      "keyword": "eta",
+      "context": "GuldersCoeffs/Methane",
+      "path": "GuldersCoeffs/Methane/eta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Methane/f",
+      "keyword": "f",
+      "context": "GuldersCoeffs/Methane",
+      "path": "GuldersCoeffs/Methane/f",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Methane/W",
+      "keyword": "W",
+      "context": "GuldersCoeffs/Methane",
+      "path": "GuldersCoeffs/Methane/W",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Methane/xi",
+      "keyword": "xi",
+      "context": "GuldersCoeffs/Methane",
+      "path": "GuldersCoeffs/Methane/xi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Propane",
+      "keyword": "Propane",
+      "context": "GuldersCoeffs",
+      "path": "GuldersCoeffs/Propane",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Propane/alpha",
+      "keyword": "alpha",
+      "context": "GuldersCoeffs/Propane",
+      "path": "GuldersCoeffs/Propane/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Propane/beta",
+      "keyword": "beta",
+      "context": "GuldersCoeffs/Propane",
+      "path": "GuldersCoeffs/Propane/beta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Propane/eta",
+      "keyword": "eta",
+      "context": "GuldersCoeffs/Propane",
+      "path": "GuldersCoeffs/Propane/eta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Propane/f",
+      "keyword": "f",
+      "context": "GuldersCoeffs/Propane",
+      "path": "GuldersCoeffs/Propane/f",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Propane/W",
+      "keyword": "W",
+      "context": "GuldersCoeffs/Propane",
+      "path": "GuldersCoeffs/Propane/W",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "GuldersCoeffs/Propane/xi",
+      "keyword": "xi",
+      "context": "GuldersCoeffs/Propane",
+      "path": "GuldersCoeffs/Propane/xi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignite",
+      "keyword": "ignite",
+      "context": "",
+      "path": "ignite",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/combustionProperties",
+        "combustion/PDRFoam/pipeLattice/constant/combustionProperties",
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignitionCircleFraction",
+      "keyword": "ignitionCircleFraction",
+      "context": "",
+      "path": "ignitionCircleFraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/combustionProperties",
+        "combustion/PDRFoam/pipeLattice/constant/combustionProperties",
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignitionKernelArea",
+      "keyword": "ignitionKernelArea",
+      "context": "",
+      "path": "ignitionKernelArea",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/combustionProperties",
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignitionProperties",
+      "keyword": "ignitionProperties",
+      "context": "",
+      "path": "ignitionProperties",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignitionProperties/diameter",
+      "keyword": "diameter",
+      "context": "ignitionProperties",
+      "path": "ignitionProperties/diameter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignitionProperties/duration",
+      "keyword": "duration",
+      "context": "ignitionProperties",
+      "path": "ignitionProperties/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignitionProperties/start",
+      "keyword": "start",
+      "context": "ignitionProperties",
+      "path": "ignitionProperties/start",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignitionProperties/strength",
+      "keyword": "strength",
+      "context": "ignitionProperties",
+      "path": "ignitionProperties/strength",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignitionSites",
+      "keyword": "ignitionSites",
+      "context": "",
+      "path": "ignitionSites",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/combustionProperties",
+        "combustion/PDRFoam/pipeLattice/constant/combustionProperties",
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignitionSphereFraction",
+      "keyword": "ignitionSphereFraction",
+      "context": "",
+      "path": "ignitionSphereFraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/combustionProperties",
+        "combustion/PDRFoam/pipeLattice/constant/combustionProperties",
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "ignitionThickness",
+      "keyword": "ignitionThickness",
+      "context": "",
+      "path": "ignitionThickness",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/combustionProperties",
+        "combustion/PDRFoam/pipeLattice/constant/combustionProperties",
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "infinitelyFastChemistryCoeffs",
+      "keyword": "infinitelyFastChemistryCoeffs",
+      "context": "",
+      "path": "infinitelyFastChemistryCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/combustionProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "infinitelyFastChemistryCoeffs/C",
+      "keyword": "C",
+      "context": "infinitelyFastChemistryCoeffs",
+      "path": "infinitelyFastChemistryCoeffs/C",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/combustionProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "infinitelyFastChemistryCoeffs/semiImplicit",
+      "keyword": "semiImplicit",
+      "context": "infinitelyFastChemistryCoeffs",
+      "path": "infinitelyFastChemistryCoeffs/semiImplicit",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 3
+        },
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/combustionProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/combustionProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/combustionProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "laminarCoeffs",
+      "keyword": "laminarCoeffs",
+      "context": "",
+      "path": "laminarCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/constant/combustionProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/constant/combustionProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/constant/combustionProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/constant/combustionProperties",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "laminarFlameSpeedCorrelation",
+      "keyword": "laminarFlameSpeedCorrelation",
+      "context": "",
+      "path": "laminarFlameSpeedCorrelation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "Gulders",
+          "occurrences": 4
+        },
+        {
+          "value": "SCOPE",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/combustionProperties",
+        "combustion/PDRFoam/pipeLattice/constant/combustionProperties",
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "noIgnitionProperties",
+      "keyword": "noIgnitionProperties",
+      "context": "",
+      "path": "noIgnitionProperties",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "noIgnitionProperties/diameter",
+      "keyword": "diameter",
+      "context": "noIgnitionProperties",
+      "path": "noIgnitionProperties/diameter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "noIgnitionProperties/duration",
+      "keyword": "duration",
+      "context": "noIgnitionProperties",
+      "path": "noIgnitionProperties/duration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "noIgnitionProperties/start",
+      "keyword": "start",
+      "context": "noIgnitionProperties",
+      "path": "noIgnitionProperties/start",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "noIgnitionProperties/strength",
+      "keyword": "strength",
+      "context": "noIgnitionProperties",
+      "path": "noIgnitionProperties/strength",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "PaSRCoeffs",
+      "keyword": "PaSRCoeffs",
+      "context": "",
+      "path": "PaSRCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/combustionProperties",
+        "lagrangian/sprayFoam/aachenBomb/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "PaSRCoeffs/Cmix",
+      "keyword": "Cmix",
+      "context": "PaSRCoeffs",
+      "path": "PaSRCoeffs/Cmix",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/combustionProperties",
+        "lagrangian/sprayFoam/aachenBomb/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "RaviPetersenCoeffs",
+      "keyword": "RaviPetersenCoeffs",
+      "context": "",
+      "path": "RaviPetersenCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "RaviPetersenCoeffs/HydrogenInAir",
+      "keyword": "HydrogenInAir",
+      "context": "RaviPetersenCoeffs",
+      "path": "RaviPetersenCoeffs/HydrogenInAir",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "RaviPetersenCoeffs/HydrogenInAir/alpha",
+      "keyword": "alpha",
+      "context": "RaviPetersenCoeffs/HydrogenInAir",
+      "path": "RaviPetersenCoeffs/HydrogenInAir/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "RaviPetersenCoeffs/HydrogenInAir/beta",
+      "keyword": "beta",
+      "context": "RaviPetersenCoeffs/HydrogenInAir",
+      "path": "RaviPetersenCoeffs/HydrogenInAir/beta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "RaviPetersenCoeffs/HydrogenInAir/EqRPoints",
+      "keyword": "EqRPoints",
+      "context": "RaviPetersenCoeffs/HydrogenInAir",
+      "path": "RaviPetersenCoeffs/HydrogenInAir/EqRPoints",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "RaviPetersenCoeffs/HydrogenInAir/pPoints",
+      "keyword": "pPoints",
+      "context": "RaviPetersenCoeffs/HydrogenInAir",
+      "path": "RaviPetersenCoeffs/HydrogenInAir/pPoints",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "RaviPetersenCoeffs/HydrogenInAir/TRef",
+      "keyword": "TRef",
+      "context": "RaviPetersenCoeffs/HydrogenInAir",
+      "path": "RaviPetersenCoeffs/HydrogenInAir/TRef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "sigmaExt",
+      "keyword": "sigmaExt",
+      "context": "",
+      "path": "sigmaExt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "Su",
+      "keyword": "Su",
+      "context": "",
+      "path": "Su",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "SuModel",
+      "keyword": "SuModel",
+      "context": "",
+      "path": "SuModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "unstrained",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "uPrimeCoef",
+      "keyword": "uPrimeCoef",
+      "context": "",
+      "path": "uPrimeCoef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "XiCoef",
+      "keyword": "XiCoef",
+      "context": "",
+      "path": "XiCoef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "XiModel",
+      "keyword": "XiModel",
+      "context": "",
+      "path": "XiModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "transport",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    },
+    {
+      "key": "XiShapeCoef",
+      "keyword": "XiShapeCoef",
+      "context": "",
+      "path": "XiShapeCoef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/combustionProperties",
+        "combustion/XiDyMFoam/oscillatingCylinder/constant/combustionProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/combustionProperties",
+        "combustion/XiFoam/RAS/moriyoshiHomogeneous/constant/combustionProperties"
+      ]
+    }
+  ]
+}

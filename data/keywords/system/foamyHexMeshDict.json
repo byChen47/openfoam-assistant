@@ -1,0 +1,3200 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "foamyHexMeshDict",
+  "sourceFileCount": 5,
+  "occurrences": 327,
+  "entries": [
+    {
+      "key": "#includeEtc",
+      "keyword": "#includeEtc",
+      "context": "",
+      "path": "#includeEtc",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "backgroundMeshDecomposition",
+      "keyword": "backgroundMeshDecomposition",
+      "context": "",
+      "path": "backgroundMeshDecomposition",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "backgroundMeshDecomposition/maxCellWeightCoeff",
+      "keyword": "maxCellWeightCoeff",
+      "context": "backgroundMeshDecomposition",
+      "path": "backgroundMeshDecomposition/maxCellWeightCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "backgroundMeshDecomposition/minLevels",
+      "keyword": "minLevels",
+      "context": "backgroundMeshDecomposition",
+      "path": "backgroundMeshDecomposition/minLevels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "backgroundMeshDecomposition/sampleResolution",
+      "keyword": "sampleResolution",
+      "context": "backgroundMeshDecomposition",
+      "path": "backgroundMeshDecomposition/sampleResolution",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "backgroundMeshDecomposition/spanScale",
+      "keyword": "spanScale",
+      "context": "backgroundMeshDecomposition",
+      "path": "backgroundMeshDecomposition/spanScale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "foamyHexMeshDict",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry",
+      "keyword": "geometry",
+      "context": "",
+      "path": "geometry",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/#include",
+      "keyword": "#include",
+      "context": "geometry",
+      "path": "geometry/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/blob.stl",
+      "keyword": "blob.stl",
+      "context": "geometry",
+      "path": "geometry/blob.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/blob.stl/name",
+      "keyword": "name",
+      "context": "geometry/blob.stl",
+      "path": "geometry/blob.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "blob",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/blob.stl/type",
+      "keyword": "type",
+      "context": "geometry/blob.stl",
+      "path": "geometry/blob.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cone_orient.stl",
+      "keyword": "cone_orient.stl",
+      "context": "geometry",
+      "path": "geometry/cone_orient.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cone_orient.stl/name",
+      "keyword": "name",
+      "context": "geometry/cone_orient.stl",
+      "path": "geometry/cone_orient.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "cone",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/cone_orient.stl/type",
+      "keyword": "type",
+      "context": "geometry/cone_orient.stl",
+      "path": "geometry/cone_orient.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/domain",
+      "keyword": "domain",
+      "context": "geometry",
+      "path": "geometry/domain",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/domain/max",
+      "keyword": "max",
+      "context": "geometry/domain",
+      "path": "geometry/domain/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/domain/min",
+      "keyword": "min",
+      "context": "geometry/domain",
+      "path": "geometry/domain/min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/domain/type",
+      "keyword": "type",
+      "context": "geometry/domain",
+      "path": "geometry/domain/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "box",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/refinementBox",
+      "keyword": "refinementBox",
+      "context": "geometry",
+      "path": "geometry/refinementBox",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/refinementBox/max",
+      "keyword": "max",
+      "context": "geometry/refinementBox",
+      "path": "geometry/refinementBox/max",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/refinementBox/min",
+      "keyword": "min",
+      "context": "geometry/refinementBox",
+      "path": "geometry/refinementBox/min",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/refinementBox/type",
+      "keyword": "type",
+      "context": "geometry/refinementBox",
+      "path": "geometry/refinementBox/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "box",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/sphere_orient.stl",
+      "keyword": "sphere_orient.stl",
+      "context": "geometry",
+      "path": "geometry/sphere_orient.stl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/sphere_orient.stl/name",
+      "keyword": "name",
+      "context": "geometry/sphere_orient.stl",
+      "path": "geometry/sphere_orient.stl/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "sphere",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "geometry/sphere_orient.stl/type",
+      "keyword": "type",
+      "context": "geometry/sphere_orient.stl",
+      "path": "geometry/sphere_orient.stl/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "triSurfaceMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints",
+      "keyword": "initialPoints",
+      "context": "",
+      "path": "initialPoints",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/autoDensityCoeffs",
+      "keyword": "autoDensityCoeffs",
+      "context": "initialPoints",
+      "path": "initialPoints/autoDensityCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/autoDensityCoeffs/maxSizeRatio",
+      "keyword": "maxSizeRatio",
+      "context": "initialPoints/autoDensityCoeffs",
+      "path": "initialPoints/autoDensityCoeffs/maxSizeRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/autoDensityCoeffs/minCellSizeLimit",
+      "keyword": "minCellSizeLimit",
+      "context": "initialPoints/autoDensityCoeffs",
+      "path": "initialPoints/autoDensityCoeffs/minCellSizeLimit",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/autoDensityCoeffs/minLevels",
+      "keyword": "minLevels",
+      "context": "initialPoints/autoDensityCoeffs",
+      "path": "initialPoints/autoDensityCoeffs/minLevels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/autoDensityCoeffs/sampleResolution",
+      "keyword": "sampleResolution",
+      "context": "initialPoints/autoDensityCoeffs",
+      "path": "initialPoints/autoDensityCoeffs/sampleResolution",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/autoDensityCoeffs/surfaceSampleResolution",
+      "keyword": "surfaceSampleResolution",
+      "context": "initialPoints/autoDensityCoeffs",
+      "path": "initialPoints/autoDensityCoeffs/surfaceSampleResolution",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/initialPointsMethod",
+      "keyword": "initialPointsMethod",
+      "context": "initialPoints",
+      "path": "initialPoints/initialPointsMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "autoDensity",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/pointFileCoeffs",
+      "keyword": "pointFileCoeffs",
+      "context": "initialPoints",
+      "path": "initialPoints/pointFileCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/pointFileCoeffs/insideOutsideCheck",
+      "keyword": "insideOutsideCheck",
+      "context": "initialPoints/pointFileCoeffs",
+      "path": "initialPoints/pointFileCoeffs/insideOutsideCheck",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/pointFileCoeffs/pointFile",
+      "keyword": "pointFile",
+      "context": "initialPoints/pointFileCoeffs",
+      "path": "initialPoints/pointFileCoeffs/pointFile",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "\"<constant>/internalDelaunayVertices\"",
+          "occurrences": 1
+        },
+        {
+          "value": "\"0/internalDelaunayVertices\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/pointFileCoeffs/randomiseInitialGrid",
+      "keyword": "randomiseInitialGrid",
+      "context": "initialPoints/pointFileCoeffs",
+      "path": "initialPoints/pointFileCoeffs/randomiseInitialGrid",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "initialPoints/pointFileCoeffs/randomPerturbationCoeff",
+      "keyword": "randomPerturbationCoeff",
+      "context": "initialPoints/pointFileCoeffs",
+      "path": "initialPoints/pointFileCoeffs/randomPerturbationCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "meshQualityControls",
+      "keyword": "meshQualityControls",
+      "context": "",
+      "path": "meshQualityControls",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "meshQualityControls/#include",
+      "keyword": "#include",
+      "context": "meshQualityControls",
+      "path": "meshQualityControls/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl",
+      "keyword": "motionControl",
+      "context": "",
+      "path": "motionControl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/adaptiveLinearCoeffs",
+      "keyword": "adaptiveLinearCoeffs",
+      "context": "motionControl",
+      "path": "motionControl/adaptiveLinearCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/adaptiveLinearCoeffs/relaxationEnd",
+      "keyword": "relaxationEnd",
+      "context": "motionControl/adaptiveLinearCoeffs",
+      "path": "motionControl/adaptiveLinearCoeffs/relaxationEnd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/adaptiveLinearCoeffs/relaxationStart",
+      "keyword": "relaxationStart",
+      "context": "motionControl/adaptiveLinearCoeffs",
+      "path": "motionControl/adaptiveLinearCoeffs/relaxationStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/defaultCellSize",
+      "keyword": "defaultCellSize",
+      "context": "motionControl",
+      "path": "motionControl/defaultCellSize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/maxRefinementIterations",
+      "keyword": "maxRefinementIterations",
+      "context": "motionControl",
+      "path": "motionControl/maxRefinementIterations",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/maxSmoothingIterations",
+      "keyword": "maxSmoothingIterations",
+      "context": "motionControl",
+      "path": "motionControl/maxSmoothingIterations",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/minimumCellSizeCoeff",
+      "keyword": "minimumCellSizeCoeff",
+      "context": "motionControl",
+      "path": "motionControl/minimumCellSizeCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/objOutput",
+      "keyword": "objOutput",
+      "context": "motionControl",
+      "path": "motionControl/objOutput",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 4
+        },
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/printVertexInfo",
+      "keyword": "printVertexInfo",
+      "context": "motionControl",
+      "path": "motionControl/printVertexInfo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions",
+      "keyword": "shapeControlFunctions",
+      "context": "motionControl",
+      "path": "motionControl/shapeControlFunctions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/#include",
+      "keyword": "#include",
+      "context": "motionControl/shapeControlFunctions",
+      "path": "motionControl/shapeControlFunctions/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/blob",
+      "keyword": "blob",
+      "context": "motionControl/shapeControlFunctions",
+      "path": "motionControl/shapeControlFunctions/blob",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/blob/cellSizeFunction",
+      "keyword": "cellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/blob",
+      "path": "motionControl/shapeControlFunctions/blob/cellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/blob/mode",
+      "keyword": "mode",
+      "context": "motionControl/shapeControlFunctions/blob",
+      "path": "motionControl/shapeControlFunctions/blob/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "bothSides",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/blob/priority",
+      "keyword": "priority",
+      "context": "motionControl/shapeControlFunctions/blob",
+      "path": "motionControl/shapeControlFunctions/blob/priority",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/blob/surfaceCellSizeFunction",
+      "keyword": "surfaceCellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/blob",
+      "path": "motionControl/shapeControlFunctions/blob/surfaceCellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniformValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/blob/type",
+      "keyword": "type",
+      "context": "motionControl/shapeControlFunctions/blob",
+      "path": "motionControl/shapeControlFunctions/blob/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "searchableSurfaceControl",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/blob/uniformCoeffs",
+      "keyword": "uniformCoeffs",
+      "context": "motionControl/shapeControlFunctions/blob",
+      "path": "motionControl/shapeControlFunctions/blob/uniformCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/blob/uniformValueCoeffs",
+      "keyword": "uniformValueCoeffs",
+      "context": "motionControl/shapeControlFunctions/blob",
+      "path": "motionControl/shapeControlFunctions/blob/uniformValueCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/blob/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "keyword": "surfaceCellSizeCoeff",
+      "context": "motionControl/shapeControlFunctions/blob/uniformValueCoeffs",
+      "path": "motionControl/shapeControlFunctions/blob/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/cone",
+      "keyword": "cone",
+      "context": "motionControl/shapeControlFunctions",
+      "path": "motionControl/shapeControlFunctions/cone",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/cone/cellSizeFunction",
+      "keyword": "cellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/cone",
+      "path": "motionControl/shapeControlFunctions/cone/cellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/cone/mode",
+      "keyword": "mode",
+      "context": "motionControl/shapeControlFunctions/cone",
+      "path": "motionControl/shapeControlFunctions/cone/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "bothSides",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/cone/priority",
+      "keyword": "priority",
+      "context": "motionControl/shapeControlFunctions/cone",
+      "path": "motionControl/shapeControlFunctions/cone/priority",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/cone/surfaceCellSizeFunction",
+      "keyword": "surfaceCellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/cone",
+      "path": "motionControl/shapeControlFunctions/cone/surfaceCellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniformValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/cone/type",
+      "keyword": "type",
+      "context": "motionControl/shapeControlFunctions/cone",
+      "path": "motionControl/shapeControlFunctions/cone/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "searchableSurfaceControl",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/cone/uniformCoeffs",
+      "keyword": "uniformCoeffs",
+      "context": "motionControl/shapeControlFunctions/cone",
+      "path": "motionControl/shapeControlFunctions/cone/uniformCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/cone/uniformValueCoeffs",
+      "keyword": "uniformValueCoeffs",
+      "context": "motionControl/shapeControlFunctions/cone",
+      "path": "motionControl/shapeControlFunctions/cone/uniformValueCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/cone/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "keyword": "surfaceCellSizeCoeff",
+      "context": "motionControl/shapeControlFunctions/cone/uniformValueCoeffs",
+      "path": "motionControl/shapeControlFunctions/cone/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/domain",
+      "keyword": "domain",
+      "context": "motionControl/shapeControlFunctions",
+      "path": "motionControl/shapeControlFunctions/domain",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/domain/cellSizeFunction",
+      "keyword": "cellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/domain",
+      "path": "motionControl/shapeControlFunctions/domain/cellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/domain/mode",
+      "keyword": "mode",
+      "context": "motionControl/shapeControlFunctions/domain",
+      "path": "motionControl/shapeControlFunctions/domain/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "bothSides",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/domain/priority",
+      "keyword": "priority",
+      "context": "motionControl/shapeControlFunctions/domain",
+      "path": "motionControl/shapeControlFunctions/domain/priority",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/domain/surfaceCellSizeFunction",
+      "keyword": "surfaceCellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/domain",
+      "path": "motionControl/shapeControlFunctions/domain/surfaceCellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniformValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/domain/type",
+      "keyword": "type",
+      "context": "motionControl/shapeControlFunctions/domain",
+      "path": "motionControl/shapeControlFunctions/domain/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "searchableSurfaceControl",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/domain/uniformCoeffs",
+      "keyword": "uniformCoeffs",
+      "context": "motionControl/shapeControlFunctions/domain",
+      "path": "motionControl/shapeControlFunctions/domain/uniformCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/domain/uniformValueCoeffs",
+      "keyword": "uniformValueCoeffs",
+      "context": "motionControl/shapeControlFunctions/domain",
+      "path": "motionControl/shapeControlFunctions/domain/uniformValueCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/domain/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "keyword": "surfaceCellSizeCoeff",
+      "context": "motionControl/shapeControlFunctions/domain/uniformValueCoeffs",
+      "path": "motionControl/shapeControlFunctions/domain/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange",
+      "keyword": "flange",
+      "context": "motionControl/shapeControlFunctions",
+      "path": "motionControl/shapeControlFunctions/flange",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/cellSizeFunction",
+      "keyword": "cellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/flange",
+      "path": "motionControl/shapeControlFunctions/flange/cellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "surfaceOffsetLinearDistance",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/mode",
+      "keyword": "mode",
+      "context": "motionControl/shapeControlFunctions/flange",
+      "path": "motionControl/shapeControlFunctions/flange/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "inside",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/priority",
+      "keyword": "priority",
+      "context": "motionControl/shapeControlFunctions/flange",
+      "path": "motionControl/shapeControlFunctions/flange/priority",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions",
+      "keyword": "regions",
+      "context": "motionControl/shapeControlFunctions/flange",
+      "path": "motionControl/shapeControlFunctions/flange/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}",
+      "keyword": "patch3",
+      "context": "motionControl/shapeControlFunctions/flange/regions",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/cellSizeFunction",
+      "keyword": "cellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/cellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "surfaceOffsetLinearDistance",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/mode",
+      "keyword": "mode",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "inside",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/priority",
+      "keyword": "priority",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/priority",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceCellSizeFunction",
+      "keyword": "surfaceCellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceCellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniformValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs",
+      "keyword": "surfaceOffsetLinearDistanceCoeffs",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs/distanceCellSizeCoeff",
+      "keyword": "distanceCellSizeCoeff",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs/distanceCellSizeCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs/linearDistanceCoeff",
+      "keyword": "linearDistanceCoeff",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs/linearDistanceCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs/surfaceOffsetCoeff",
+      "keyword": "surfaceOffsetCoeff",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/surfaceOffsetLinearDistanceCoeffs/surfaceOffsetCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/type",
+      "keyword": "type",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "searchableSurfaceControl",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/uniformValueCoeffs",
+      "keyword": "uniformValueCoeffs",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/uniformValueCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/regions/{region}/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "keyword": "surfaceCellSizeCoeff",
+      "context": "motionControl/shapeControlFunctions/flange/regions/{region}/uniformValueCoeffs",
+      "path": "motionControl/shapeControlFunctions/flange/regions/{region}/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/surfaceCellSizeFunction",
+      "keyword": "surfaceCellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/flange",
+      "path": "motionControl/shapeControlFunctions/flange/surfaceCellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniformValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs",
+      "keyword": "surfaceOffsetLinearDistanceCoeffs",
+      "context": "motionControl/shapeControlFunctions/flange",
+      "path": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs/distanceCellSizeCoeff",
+      "keyword": "distanceCellSizeCoeff",
+      "context": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs",
+      "path": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs/distanceCellSizeCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs/linearDistanceCoeff",
+      "keyword": "linearDistanceCoeff",
+      "context": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs",
+      "path": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs/linearDistanceCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs/surfaceOffsetCoeff",
+      "keyword": "surfaceOffsetCoeff",
+      "context": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs",
+      "path": "motionControl/shapeControlFunctions/flange/surfaceOffsetLinearDistanceCoeffs/surfaceOffsetCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/type",
+      "keyword": "type",
+      "context": "motionControl/shapeControlFunctions/flange",
+      "path": "motionControl/shapeControlFunctions/flange/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "searchableSurfaceControl",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/uniformValueCoeffs",
+      "keyword": "uniformValueCoeffs",
+      "context": "motionControl/shapeControlFunctions/flange",
+      "path": "motionControl/shapeControlFunctions/flange/uniformValueCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/flange/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "keyword": "surfaceCellSizeCoeff",
+      "context": "motionControl/shapeControlFunctions/flange/uniformValueCoeffs",
+      "path": "motionControl/shapeControlFunctions/flange/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere",
+      "keyword": "sphere",
+      "context": "motionControl/shapeControlFunctions",
+      "path": "motionControl/shapeControlFunctions/sphere",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere/cellSizeFunction",
+      "keyword": "cellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/sphere",
+      "path": "motionControl/shapeControlFunctions/sphere/cellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "linearDistance",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere/linearDistanceCoeffs",
+      "keyword": "linearDistanceCoeffs",
+      "context": "motionControl/shapeControlFunctions/sphere",
+      "path": "motionControl/shapeControlFunctions/sphere/linearDistanceCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere/linearDistanceCoeffs/distanceCellSizeCoeff",
+      "keyword": "distanceCellSizeCoeff",
+      "context": "motionControl/shapeControlFunctions/sphere/linearDistanceCoeffs",
+      "path": "motionControl/shapeControlFunctions/sphere/linearDistanceCoeffs/distanceCellSizeCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere/linearDistanceCoeffs/distanceCoeff",
+      "keyword": "distanceCoeff",
+      "context": "motionControl/shapeControlFunctions/sphere/linearDistanceCoeffs",
+      "path": "motionControl/shapeControlFunctions/sphere/linearDistanceCoeffs/distanceCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere/mode",
+      "keyword": "mode",
+      "context": "motionControl/shapeControlFunctions/sphere",
+      "path": "motionControl/shapeControlFunctions/sphere/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "inside",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere/priority",
+      "keyword": "priority",
+      "context": "motionControl/shapeControlFunctions/sphere",
+      "path": "motionControl/shapeControlFunctions/sphere/priority",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere/surfaceCellSizeFunction",
+      "keyword": "surfaceCellSizeFunction",
+      "context": "motionControl/shapeControlFunctions/sphere",
+      "path": "motionControl/shapeControlFunctions/sphere/surfaceCellSizeFunction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniformValue",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere/type",
+      "keyword": "type",
+      "context": "motionControl/shapeControlFunctions/sphere",
+      "path": "motionControl/shapeControlFunctions/sphere/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "searchableSurfaceControl",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere/uniformValueCoeffs",
+      "keyword": "uniformValueCoeffs",
+      "context": "motionControl/shapeControlFunctions/sphere",
+      "path": "motionControl/shapeControlFunctions/sphere/uniformValueCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/shapeControlFunctions/sphere/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "keyword": "surfaceCellSizeCoeff",
+      "context": "motionControl/shapeControlFunctions/sphere/uniformValueCoeffs",
+      "path": "motionControl/shapeControlFunctions/sphere/uniformValueCoeffs/surfaceCellSizeCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "motionControl/timeChecks",
+      "keyword": "timeChecks",
+      "context": "motionControl",
+      "path": "motionControl/timeChecks",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 4
+        },
+        {
+          "value": "off",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "polyMeshFiltering",
+      "keyword": "polyMeshFiltering",
+      "context": "",
+      "path": "polyMeshFiltering",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "polyMeshFiltering/filterEdges",
+      "keyword": "filterEdges",
+      "context": "polyMeshFiltering",
+      "path": "polyMeshFiltering/filterEdges",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 2
+        },
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "polyMeshFiltering/filterFaces",
+      "keyword": "filterFaces",
+      "context": "polyMeshFiltering",
+      "path": "polyMeshFiltering/filterFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 2
+        },
+        {
+          "value": "on",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "polyMeshFiltering/writeBackgroundMeshDecomposition",
+      "keyword": "writeBackgroundMeshDecomposition",
+      "context": "polyMeshFiltering",
+      "path": "polyMeshFiltering/writeBackgroundMeshDecomposition",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "polyMeshFiltering/writeCellShapeControlMesh",
+      "keyword": "writeCellShapeControlMesh",
+      "context": "polyMeshFiltering",
+      "path": "polyMeshFiltering/writeCellShapeControlMesh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "polyMeshFiltering/writeTetDualMesh",
+      "keyword": "writeTetDualMesh",
+      "context": "polyMeshFiltering",
+      "path": "polyMeshFiltering/writeTetDualMesh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 2
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation",
+      "keyword": "surfaceConformation",
+      "context": "",
+      "path": "surfaceConformation",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/#include",
+      "keyword": "#include",
+      "context": "surfaceConformation",
+      "path": "surfaceConformation/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/additionalFeatures",
+      "keyword": "additionalFeatures",
+      "context": "surfaceConformation",
+      "path": "surfaceConformation/additionalFeatures",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/additionalFeatures/boundaryAndFaceZones",
+      "keyword": "boundaryAndFaceZones",
+      "context": "surfaceConformation/additionalFeatures",
+      "path": "surfaceConformation/additionalFeatures/boundaryAndFaceZones",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/additionalFeatures/boundaryAndFaceZones/extendedFeatureEdgeMesh",
+      "keyword": "extendedFeatureEdgeMesh",
+      "context": "surfaceConformation/additionalFeatures/boundaryAndFaceZones",
+      "path": "surfaceConformation/additionalFeatures/boundaryAndFaceZones/extendedFeatureEdgeMesh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"boundaryAndFaceZones.extendedFeatureEdgeMesh\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/additionalFeatures/boundaryAndFaceZones/featureMethod",
+      "keyword": "featureMethod",
+      "context": "surfaceConformation/additionalFeatures/boundaryAndFaceZones",
+      "path": "surfaceConformation/additionalFeatures/boundaryAndFaceZones/featureMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "extendedFeatureEdgeMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/additionalFeatures/coneSphereIntersection",
+      "keyword": "coneSphereIntersection",
+      "context": "surfaceConformation/additionalFeatures",
+      "path": "surfaceConformation/additionalFeatures/coneSphereIntersection",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/additionalFeatures/coneSphereIntersection/extendedFeatureEdgeMesh",
+      "keyword": "extendedFeatureEdgeMesh",
+      "context": "surfaceConformation/additionalFeatures/coneSphereIntersection",
+      "path": "surfaceConformation/additionalFeatures/coneSphereIntersection/extendedFeatureEdgeMesh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"cone_orient_sphere_orient_intersection.extendedFeatureEdgeMesh\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/additionalFeatures/coneSphereIntersection/featureMethod",
+      "keyword": "featureMethod",
+      "context": "surfaceConformation/additionalFeatures/coneSphereIntersection",
+      "path": "surfaceConformation/additionalFeatures/coneSphereIntersection/featureMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "extendedFeatureEdgeMesh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/conformationControls",
+      "keyword": "conformationControls",
+      "context": "surfaceConformation",
+      "path": "surfaceConformation/conformationControls",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/conformationControls/edgeSearchDistCoeff",
+      "keyword": "edgeSearchDistCoeff",
+      "context": "surfaceConformation/conformationControls",
+      "path": "surfaceConformation/conformationControls/edgeSearchDistCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/conformationControls/iterationToInitialHitRatioLimit",
+      "keyword": "iterationToInitialHitRatioLimit",
+      "context": "surfaceConformation/conformationControls",
+      "path": "surfaceConformation/conformationControls/iterationToInitialHitRatioLimit",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/conformationControls/maxIterations",
+      "keyword": "maxIterations",
+      "context": "surfaceConformation/conformationControls",
+      "path": "surfaceConformation/conformationControls/maxIterations",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/conformationControls/surfacePtExclusionDistanceCoeff",
+      "keyword": "surfacePtExclusionDistanceCoeff",
+      "context": "surfaceConformation/conformationControls",
+      "path": "surfaceConformation/conformationControls/surfacePtExclusionDistanceCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/conformationControls/surfacePtReplaceDistCoeff",
+      "keyword": "surfacePtReplaceDistCoeff",
+      "context": "surfaceConformation/conformationControls",
+      "path": "surfaceConformation/conformationControls/surfacePtReplaceDistCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/featureEdgeExclusionDistanceCoeff",
+      "keyword": "featureEdgeExclusionDistanceCoeff",
+      "context": "surfaceConformation",
+      "path": "surfaceConformation/featureEdgeExclusionDistanceCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/featurePointControls",
+      "keyword": "featurePointControls",
+      "context": "surfaceConformation",
+      "path": "surfaceConformation/featurePointControls",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/featurePointControls/circulateEdges",
+      "keyword": "circulateEdges",
+      "context": "surfaceConformation/featurePointControls",
+      "path": "surfaceConformation/featurePointControls/circulateEdges",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/featurePointControls/edgeAiming",
+      "keyword": "edgeAiming",
+      "context": "surfaceConformation/featurePointControls",
+      "path": "surfaceConformation/featurePointControls/edgeAiming",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 2
+        },
+        {
+          "value": "on",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/featurePointControls/guardFeaturePoints",
+      "keyword": "guardFeaturePoints",
+      "context": "surfaceConformation/featurePointControls",
+      "path": "surfaceConformation/featurePointControls/guardFeaturePoints",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/featurePointControls/snapFeaturePoints",
+      "keyword": "snapFeaturePoints",
+      "context": "surfaceConformation/featurePointControls",
+      "path": "surfaceConformation/featurePointControls/snapFeaturePoints",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/featurePointControls/specialiseFeaturePoints",
+      "keyword": "specialiseFeaturePoints",
+      "context": "surfaceConformation/featurePointControls",
+      "path": "surfaceConformation/featurePointControls/specialiseFeaturePoints",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 2
+        },
+        {
+          "value": "on",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/featurePointExclusionDistanceCoeff",
+      "keyword": "featurePointExclusionDistanceCoeff",
+      "context": "surfaceConformation",
+      "path": "surfaceConformation/featurePointExclusionDistanceCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo",
+      "keyword": "geometryToConformTo",
+      "context": "surfaceConformation",
+      "path": "surfaceConformation/geometryToConformTo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/#include",
+      "keyword": "#include",
+      "context": "surfaceConformation/geometryToConformTo",
+      "path": "surfaceConformation/geometryToConformTo/#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/blob",
+      "keyword": "blob",
+      "context": "surfaceConformation/geometryToConformTo",
+      "path": "surfaceConformation/geometryToConformTo/blob",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/blob/featureMethod",
+      "keyword": "featureMethod",
+      "context": "surfaceConformation/geometryToConformTo/blob",
+      "path": "surfaceConformation/geometryToConformTo/blob/featureMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/cone",
+      "keyword": "cone",
+      "context": "surfaceConformation/geometryToConformTo",
+      "path": "surfaceConformation/geometryToConformTo/cone",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/cone/featureMethod",
+      "keyword": "featureMethod",
+      "context": "surfaceConformation/geometryToConformTo/cone",
+      "path": "surfaceConformation/geometryToConformTo/cone/featureMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "extractFeatures",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/cone/includedAngle",
+      "keyword": "includedAngle",
+      "context": "surfaceConformation/geometryToConformTo/cone",
+      "path": "surfaceConformation/geometryToConformTo/cone/includedAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/cone/patchInfo",
+      "keyword": "patchInfo",
+      "context": "surfaceConformation/geometryToConformTo/cone",
+      "path": "surfaceConformation/geometryToConformTo/cone/patchInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/cone/patchInfo/inGroups",
+      "keyword": "inGroups",
+      "context": "surfaceConformation/geometryToConformTo/cone/patchInfo",
+      "path": "surfaceConformation/geometryToConformTo/cone/patchInfo/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/cone/patchInfo/type",
+      "keyword": "type",
+      "context": "surfaceConformation/geometryToConformTo/cone/patchInfo",
+      "path": "surfaceConformation/geometryToConformTo/cone/patchInfo/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/domain",
+      "keyword": "domain",
+      "context": "surfaceConformation/geometryToConformTo",
+      "path": "surfaceConformation/geometryToConformTo/domain",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/domain/featureMethod",
+      "keyword": "featureMethod",
+      "context": "surfaceConformation/geometryToConformTo/domain",
+      "path": "surfaceConformation/geometryToConformTo/domain/featureMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "extractFeatures",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/domain/includedAngle",
+      "keyword": "includedAngle",
+      "context": "surfaceConformation/geometryToConformTo/domain",
+      "path": "surfaceConformation/geometryToConformTo/domain/includedAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/domain/mode",
+      "keyword": "mode",
+      "context": "surfaceConformation/geometryToConformTo/domain",
+      "path": "surfaceConformation/geometryToConformTo/domain/mode",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "outside",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/flange",
+      "keyword": "flange",
+      "context": "surfaceConformation/geometryToConformTo",
+      "path": "surfaceConformation/geometryToConformTo/flange",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/flange/featureMethod",
+      "keyword": "featureMethod",
+      "context": "surfaceConformation/geometryToConformTo/flange",
+      "path": "surfaceConformation/geometryToConformTo/flange/featureMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "extractFeatures",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/flange/includedAngle",
+      "keyword": "includedAngle",
+      "context": "surfaceConformation/geometryToConformTo/flange",
+      "path": "surfaceConformation/geometryToConformTo/flange/includedAngle",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/flange/regions",
+      "keyword": "regions",
+      "context": "surfaceConformation/geometryToConformTo/flange",
+      "path": "surfaceConformation/geometryToConformTo/flange/regions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/flange/regions/{region}",
+      "keyword": "patch1",
+      "context": "surfaceConformation/geometryToConformTo/flange/regions",
+      "path": "surfaceConformation/geometryToConformTo/flange/regions/{region}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/flange/regions/{region}/patchInfo",
+      "keyword": "patchInfo",
+      "context": "surfaceConformation/geometryToConformTo/flange/regions/{region}",
+      "path": "surfaceConformation/geometryToConformTo/flange/regions/{region}/patchInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/flange/regions/{region}/patchInfo/inGroups",
+      "keyword": "inGroups",
+      "context": "surfaceConformation/geometryToConformTo/flange/regions/{region}/patchInfo",
+      "path": "surfaceConformation/geometryToConformTo/flange/regions/{region}/patchInfo/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/flange/regions/{region}/patchInfo/type",
+      "keyword": "type",
+      "context": "surfaceConformation/geometryToConformTo/flange/regions/{region}/patchInfo",
+      "path": "surfaceConformation/geometryToConformTo/flange/regions/{region}/patchInfo/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 3
+        },
+        {
+          "value": "patch",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/sphere",
+      "keyword": "sphere",
+      "context": "surfaceConformation/geometryToConformTo",
+      "path": "surfaceConformation/geometryToConformTo/sphere",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/sphere/featureMethod",
+      "keyword": "featureMethod",
+      "context": "surfaceConformation/geometryToConformTo/sphere",
+      "path": "surfaceConformation/geometryToConformTo/sphere/featureMethod",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/sphere/patchInfo",
+      "keyword": "patchInfo",
+      "context": "surfaceConformation/geometryToConformTo/sphere",
+      "path": "surfaceConformation/geometryToConformTo/sphere/patchInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/sphere/patchInfo/inGroups",
+      "keyword": "inGroups",
+      "context": "surfaceConformation/geometryToConformTo/sphere/patchInfo",
+      "path": "surfaceConformation/geometryToConformTo/sphere/patchInfo/inGroups",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/geometryToConformTo/sphere/patchInfo/type",
+      "keyword": "type",
+      "context": "surfaceConformation/geometryToConformTo/sphere/patchInfo",
+      "path": "surfaceConformation/geometryToConformTo/sphere/patchInfo/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "wall",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/locationInMesh",
+      "keyword": "locationInMesh",
+      "context": "surfaceConformation",
+      "path": "surfaceConformation/locationInMesh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/blob/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/flange/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict",
+        "mesh/foamyHexMesh/simpleShapes/system/foamyHexMeshDict"
+      ]
+    },
+    {
+      "key": "surfaceConformation/maxSurfaceProtrusionCoeff",
+      "keyword": "maxSurfaceProtrusionCoeff",
+      "context": "surfaceConformation",
+      "path": "surfaceConformation/maxSurfaceProtrusionCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/foamyHexMeshDict"
+      ]
+    }
+  ]
+}

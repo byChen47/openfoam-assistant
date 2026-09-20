@@ -1,0 +1,1303 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "p",
+  "sourceFileCount": 353,
+  "occurrences": 6845,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "combustion/coldEngineFoam/freePiston/0/p",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/0.orig/p",
+        "compressible/rhoPimpleFoam/RAS/annularThermalMixer/0.orig/p",
+        "compressible/sonicFoam/RAS/nacaAirfoil/0.orig/p"
+      ]
+    },
+    {
+      "key": "#remove",
+      "keyword": "#remove",
+      "context": "",
+      "path": "#remove",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "#include",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 1685,
+      "fileCount": 353,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/choked",
+      "keyword": "choked",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/choked",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/direction",
+      "keyword": "direction",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/direction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "in",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunctionFan/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/fanCurve",
+      "keyword": "fanCurve",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/fanCurve",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunctionFan/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/fanCurve/file",
+      "keyword": "file",
+      "context": "boundaryField/{patch}/fanCurve",
+      "path": "boundaryField/{patch}/fanCurve/file",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"<constant>/FluxVsdP.dat\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunctionFan/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/fanCurve/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/fanCurve",
+      "path": "boundaryField/{patch}/fanCurve/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "table",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunctionFan/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/field",
+      "keyword": "field",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/field",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "p",
+          "occurrences": 8
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/p",
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/p",
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/0.orig/p",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/p",
+        "compressible/sonicFoam/laminar/forwardStep/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/fieldInf",
+      "keyword": "fieldInf",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/fieldInf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/p",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/p",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/p",
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/p",
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/freestreamValue",
+      "keyword": "freestreamValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/freestreamValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/p",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/p",
+        "incompressible/simpleFoam/airFoil2D/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/gamma",
+      "keyword": "gamma",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/gamma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 16,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/p",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/p",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/p",
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/p",
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletAreaRatio",
+      "keyword": "inletAreaRatio",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletAreaRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletDischargeCoefficient",
+      "keyword": "inletDischargeCoefficient",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletDischargeCoefficient",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/overSimpleFoam/aeroFoil/background_overset/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/lInf",
+      "keyword": "lInf",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/lInf",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/0.orig/p",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/p",
+        "combustion/XiDyMFoam/annularCombustorTurbine/0.orig/p",
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/p",
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/M",
+      "keyword": "M",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/M",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/meanValue",
+      "keyword": "meanValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/meanValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "constant 1e5",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/p",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/outletValue",
+      "keyword": "outletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/outletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 11,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 12
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/p",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/p",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/p",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/p",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/p0",
+      "keyword": "p0",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/p0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 300e5",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 30",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2D/0/p",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI/0/p",
+        "combustion/reactingFoam/laminar/counterFlowFlame2D_GRI_TDAC/0/p",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/0/p",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/pa",
+      "keyword": "pa",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/pa",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/0.orig/p",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/0.orig/p",
+        "incompressible/pimpleFoam/laminar/sloshing2D/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/pBack",
+      "keyword": "pBack",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/pBack",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phi",
+      "keyword": "phi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "phi",
+          "occurrences": 3
+        },
+        {
+          "value": "phi.air",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/p",
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/0.orig/p",
+        "lagrangian/DPMFoam/Goldschmidt/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/plenumDensity",
+      "keyword": "plenumDensity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/plenumDensity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/plenumTemperature",
+      "keyword": "plenumTemperature",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/plenumTemperature",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/plenumVolume",
+      "keyword": "plenumVolume",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/plenumVolume",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/psi",
+      "keyword": "psi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/psi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "thermo:psi",
+          "occurrences": 9
+        },
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/reactingFoam/RAS/SandiaD_LTS/0.orig/p",
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/p",
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/0.orig/p",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/0/p",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/R",
+      "keyword": "R",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/R",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/refGradient",
+      "keyword": "refGradient",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/refGradient",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/squareBend/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/refValue",
+      "keyword": "refValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/refValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/squareBend/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/relax",
+      "keyword": "relax",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/relax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/rho",
+      "keyword": "rho",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "rho",
+          "occurrences": 3
+        },
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/precursor/0.orig/p",
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/0.orig/p",
+        "incompressible/pimpleFoam/LES/vortexShed/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/supplyMassFlowRate",
+      "keyword": "supplyMassFlowRate",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/supplyMassFlowRate",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/supplyTotalTemperature",
+      "keyword": "supplyTotalTemperature",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/supplyTotalTemperature",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/timeScale",
+      "keyword": "timeScale",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/timeScale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1605,
+      "fileCount": 352,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 725
+        },
+        {
+          "value": "calculated",
+          "occurrences": 261
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 225
+        },
+        {
+          "value": "empty",
+          "occurrences": 192
+        },
+        {
+          "value": "symmetryPlane",
+          "occurrences": 33
+        },
+        {
+          "value": "fixedFluxPressure",
+          "occurrences": 21
+        },
+        {
+          "value": "symmetry",
+          "occurrences": 21
+        },
+        {
+          "value": "totalPressure",
+          "occurrences": 19
+        },
+        {
+          "value": "cyclic",
+          "occurrences": 18
+        },
+        {
+          "value": "cyclicAMI",
+          "occurrences": 15
+        },
+        {
+          "value": "wedge",
+          "occurrences": 15
+        },
+        {
+          "value": "waveTransmissive",
+          "occurrences": 13
+        },
+        {
+          "value": "outletInlet",
+          "occurrences": 12
+        },
+        {
+          "value": "overset",
+          "occurrences": 10
+        },
+        {
+          "value": "uniformTotalPressure",
+          "occurrences": 5
+        },
+        {
+          "value": "freestreamPressure",
+          "occurrences": 4
+        },
+        {
+          "value": "uniformFixedValue",
+          "occurrences": 4
+        },
+        {
+          "value": "freeSurfacePressure",
+          "occurrences": 3
+        },
+        {
+          "value": "slip",
+          "occurrences": 3
+        },
+        {
+          "value": "fixedMean",
+          "occurrences": 2
+        },
+        {
+          "value": "fanPressure",
+          "occurrences": 1
+        },
+        {
+          "value": "outletMachNumberPressure",
+          "occurrences": 1
+        },
+        {
+          "value": "plenumPressure",
+          "occurrences": 1
+        },
+        {
+          "value": "processor",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue",
+      "keyword": "uniformValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/uniformValue",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "constant 0",
+          "occurrences": 1
+        },
+        {
+          "value": "sine",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/0.orig/p",
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/p",
+        "incompressible/simpleFoam/turbineSiting/0.orig/p",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/expression",
+      "keyword": "expression",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/expression",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "expression",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue/variables",
+      "keyword": "variables",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/variables",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/TJunctionAverage/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValueCoeffs",
+      "keyword": "uniformValueCoeffs",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/uniformValueCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValueCoeffs/frequency",
+      "keyword": "frequency",
+      "context": "boundaryField/{patch}/uniformValueCoeffs",
+      "path": "boundaryField/{patch}/uniformValueCoeffs/frequency",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant 3000",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValueCoeffs/level",
+      "keyword": "level",
+      "context": "boundaryField/{patch}/uniformValueCoeffs",
+      "path": "boundaryField/{patch}/uniformValueCoeffs/level",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant 101325",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValueCoeffs/scale",
+      "keyword": "scale",
+      "context": "boundaryField/{patch}/uniformValueCoeffs",
+      "path": "boundaryField/{patch}/uniformValueCoeffs/scale",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "constant 50",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/0.orig/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/useImplicit",
+      "keyword": "useImplicit",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/useImplicit",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 555,
+      "fileCount": 298,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 105
+        },
+        {
+          "value": "uniform 0.0",
+          "occurrences": 89
+        },
+        {
+          "value": "uniform 100000",
+          "occurrences": 31
+        },
+        {
+          "value": "uniform 101325",
+          "occurrences": 20
+        },
+        {
+          "value": "uniform 1e5",
+          "occurrences": 8
+        },
+        {
+          "value": "uniform 1",
+          "occurrences": 6
+        },
+        {
+          "value": "uniform 10",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 100e5",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 1.0",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/valueFraction",
+      "keyword": "valueFraction",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/valueFraction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "uniform 0.3",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/squareBend/0.orig/p"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 353
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 353
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "\"0\"",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/0.orig/p",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/0.orig/p",
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/0.orig/p",
+        "lagrangian/reactingParcelFoam/movingInjectorBox/0/p",
+        "lagrangian/reactingParcelFoam/parcelInBox/0.orig/p"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [
+        {
+          "value": "p",
+          "occurrences": 352
+        },
+        {
+          "value": "p_rgh",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 353,
+      "fileCount": 353,
+      "values": [
+        {
+          "value": "uniform 0",
+          "occurrences": 192
+        },
+        {
+          "value": "uniform 1e5",
+          "occurrences": 76
+        },
+        {
+          "value": "uniform 100000",
+          "occurrences": 30
+        },
+        {
+          "value": "uniform 101325",
+          "occurrences": 17
+        },
+        {
+          "value": "uniform 1",
+          "occurrences": 5
+        },
+        {
+          "value": "uniform 1.0e5",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 300e5",
+          "occurrences": 3
+        },
+        {
+          "value": "uniform 10e5",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 101325.0",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 110000",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 118000",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e+07",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 1e6",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 250000",
+          "occurrences": 1
+        },
+        {
+          "value": "uniform 5e06",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/0.orig/p",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/0.orig/p",
+        "basic/potentialFoam/cylinder/0.orig/p",
+        "basic/potentialFoam/pitzDaily/0.orig/p",
+        "basic/simpleFoam/implicitAMI/0/p"
+      ]
+    },
+    {
+      "key": "pOut",
+      "keyword": "pOut",
+      "context": "",
+      "path": "pOut",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/0.orig/p",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/0.orig/p"
+      ]
+    }
+  ]
+}

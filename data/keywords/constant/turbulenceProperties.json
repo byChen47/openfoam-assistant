@@ -1,0 +1,3141 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "constant",
+  "fileKey": "turbulenceProperties",
+  "sourceFileCount": 412,
+  "occurrences": 4143,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/decayIsoTurb/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "density",
+      "keyword": "density",
+      "context": "",
+      "path": "density",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "variable",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/damBreakPermeable/constant/turbulenceProperties",
+        "multiphase/interFoam/RAS/damBreak/damBreak/constant/turbulenceProperties",
+        "multiphase/overCompressibleInterDyMFoam/compressibleTwoSimpleRotors/constant/turbulenceProperties",
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/constant/turbulenceProperties",
+        "multiphase/overInterDyMFoam/twoSquaresOutDomain/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 412,
+      "fileCount": 412,
+      "values": [],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/constant/turbulenceProperties",
+        "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 412,
+      "fileCount": 412,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 412
+        }
+      ],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/constant/turbulenceProperties",
+        "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 412,
+      "fileCount": 412,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 412
+        }
+      ],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/constant/turbulenceProperties",
+        "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [
+        {
+          "value": "\"constant\"",
+          "occurrences": 11
+        }
+      ],
+      "examples": [
+        "incompressible/simpleFoam/rotatingCylinders/constant/turbulenceProperties",
+        "multiphase/interIsoFoam/damBreak/constant/turbulenceProperties",
+        "multiphase/interIsoFoam/damBreakWithObstacle/constant/turbulenceProperties",
+        "multiphase/interIsoFoam/discInConstantFlow/constant/turbulenceProperties",
+        "multiphase/interIsoFoam/discInConstantFlowCyclicBCs/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 412,
+      "fileCount": 412,
+      "values": [
+        {
+          "value": "turbulenceProperties",
+          "occurrences": 409
+        },
+        {
+          "value": "turbulenceProperties.air",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/constant/turbulenceProperties",
+        "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 412,
+      "fileCount": 412,
+      "values": [],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/constant/turbulenceProperties",
+        "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar",
+      "keyword": "laminar",
+      "context": "",
+      "path": "laminar",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarContraction/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Maxwell/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Stokes/constant/turbulenceProperties",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/k",
+      "keyword": "k",
+      "context": "laminar",
+      "path": "laminar/k",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/lambda",
+      "keyword": "lambda",
+      "context": "laminar",
+      "path": "laminar/lambda",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/planarContraction/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/MaxwellCoeffs",
+      "keyword": "MaxwellCoeffs",
+      "context": "laminar",
+      "path": "laminar/MaxwellCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Maxwell/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Stokes/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/MaxwellCoeffs/lambda",
+      "keyword": "lambda",
+      "context": "laminar/MaxwellCoeffs",
+      "path": "laminar/MaxwellCoeffs/lambda",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Maxwell/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Stokes/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/MaxwellCoeffs/nuM",
+      "keyword": "nuM",
+      "context": "laminar/MaxwellCoeffs",
+      "path": "laminar/MaxwellCoeffs/nuM",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Maxwell/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Stokes/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/model",
+      "keyword": "model",
+      "context": "laminar",
+      "path": "laminar/model",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "generalizedNewtonian",
+          "occurrences": 2
+        },
+        {
+          "value": "Maxwell",
+          "occurrences": 2
+        },
+        {
+          "value": "Stokes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarContraction/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Maxwell/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Stokes/constant/turbulenceProperties",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/n",
+      "keyword": "n",
+      "context": "laminar",
+      "path": "laminar/n",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/nuM",
+      "keyword": "nuM",
+      "context": "laminar",
+      "path": "laminar/nuM",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/planarContraction/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/nuMax",
+      "keyword": "nuMax",
+      "context": "laminar",
+      "path": "laminar/nuMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/nuMin",
+      "keyword": "nuMin",
+      "context": "laminar",
+      "path": "laminar/nuMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/printCoeffs",
+      "keyword": "printCoeffs",
+      "context": "laminar",
+      "path": "laminar/printCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/planarContraction/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Maxwell/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/Stokes/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "laminar/viscosityModel",
+      "keyword": "viscosityModel",
+      "context": "laminar",
+      "path": "laminar/viscosityModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "powerLaw",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/constant/turbulenceProperties",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES",
+      "keyword": "LES",
+      "context": "",
+      "path": "LES",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 27,
+      "fileCount": 27,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/cubeRootVolCoeffs",
+      "keyword": "cubeRootVolCoeffs",
+      "context": "LES",
+      "path": "LES/cubeRootVolCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/cubeRootVolCoeffs/deltaCoeff",
+      "keyword": "deltaCoeff",
+      "context": "LES/cubeRootVolCoeffs",
+      "path": "LES/cubeRootVolCoeffs/deltaCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/delta",
+      "keyword": "delta",
+      "context": "LES",
+      "path": "LES/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 26,
+      "fileCount": 26,
+      "values": [
+        {
+          "value": "cubeRootVol",
+          "occurrences": 12
+        },
+        {
+          "value": "vanDriest",
+          "occurrences": 4
+        },
+        {
+          "value": "IDDESDelta",
+          "occurrences": 3
+        },
+        {
+          "value": "smooth",
+          "occurrences": 3
+        },
+        {
+          "value": "DeltaOmegaTilde",
+          "occurrences": 2
+        },
+        {
+          "value": "maxDeltaxyzCubeRoot",
+          "occurrences": 1
+        },
+        {
+          "value": "SLADelta",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/DeltaOmegaTildeCoeffs",
+      "keyword": "DeltaOmegaTildeCoeffs",
+      "context": "LES",
+      "path": "LES/DeltaOmegaTildeCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/kOmegaSSTDDES-DeltaOmegaTilde-useSigmaTrue/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-DeltaOmegaTilde-useSigmaTrue/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/dynamicKEqnCoeffs",
+      "keyword": "dynamicKEqnCoeffs",
+      "context": "LES",
+      "path": "LES/dynamicKEqnCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pisoFoam/LES/pitzDaily/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/dynamicKEqnCoeffs/filter",
+      "keyword": "filter",
+      "context": "LES/dynamicKEqnCoeffs",
+      "path": "LES/dynamicKEqnCoeffs/filter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "simple",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/LES/pitzDaily/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/IDDESDeltaCoeffs",
+      "keyword": "IDDESDeltaCoeffs",
+      "context": "LES",
+      "path": "LES/IDDESDeltaCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/periodicHill/transient/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasIDDES-IDDESDelta/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/IDDESDeltaCoeffs/hmax",
+      "keyword": "hmax",
+      "context": "LES/IDDESDeltaCoeffs",
+      "path": "LES/IDDESDeltaCoeffs/hmax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "maxDeltaxyzCubeRoot",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/periodicHill/transient/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/IDDESDeltaCoeffs/maxDeltaxyzCubeRootCoeffs",
+      "keyword": "maxDeltaxyzCubeRootCoeffs",
+      "context": "LES/IDDESDeltaCoeffs",
+      "path": "LES/IDDESDeltaCoeffs/maxDeltaxyzCubeRootCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/periodicHill/transient/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/kEqnCoeffs",
+      "keyword": "kEqnCoeffs",
+      "context": "LES",
+      "path": "LES/kEqnCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/kEqnCoeffs/ck",
+      "keyword": "ck",
+      "context": "LES/kEqnCoeffs",
+      "path": "LES/kEqnCoeffs/ck",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/kEqnCoeffs/Ck",
+      "keyword": "Ck",
+      "context": "LES/kEqnCoeffs",
+      "path": "LES/kEqnCoeffs/Ck",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/kEqnCoeffs/Prt",
+      "keyword": "Prt",
+      "context": "LES/kEqnCoeffs",
+      "path": "LES/kEqnCoeffs/Prt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/kOmegaSSTDDESCoeffs",
+      "keyword": "kOmegaSSTDDESCoeffs",
+      "context": "LES",
+      "path": "LES/kOmegaSSTDDESCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/kOmegaSSTDDES-DeltaOmegaTilde-useSigmaTrue/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/kOmegaSSTDDESCoeffs/useSigma",
+      "keyword": "useSigma",
+      "context": "LES/kOmegaSSTDDESCoeffs",
+      "path": "LES/kOmegaSSTDDESCoeffs/useSigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/kOmegaSSTDDES-DeltaOmegaTilde-useSigmaTrue/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/LESModel",
+      "keyword": "LESModel",
+      "context": "LES",
+      "path": "LES/LESModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 27,
+      "fileCount": 27,
+      "values": [
+        {
+          "value": "kEqn",
+          "occurrences": 14
+        },
+        {
+          "value": "SpalartAllmarasDDES",
+          "occurrences": 5
+        },
+        {
+          "value": "SpalartAllmarasIDDES",
+          "occurrences": 3
+        },
+        {
+          "value": "Smagorinsky",
+          "occurrences": 2
+        },
+        {
+          "value": "dynamicKEqn",
+          "occurrences": 1
+        },
+        {
+          "value": "kOmegaSSTDDES",
+          "occurrences": 1
+        },
+        {
+          "value": "WALE",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/maxDeltaxyzCubeRootCoeffs",
+      "keyword": "maxDeltaxyzCubeRootCoeffs",
+      "context": "LES",
+      "path": "LES/maxDeltaxyzCubeRootCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-maxDeltaxyzCubeRoot/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/oneEqEddyCoeffs",
+      "keyword": "oneEqEddyCoeffs",
+      "context": "LES",
+      "path": "LES/oneEqEddyCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/oneEqEddyCoeffs/Prt",
+      "keyword": "Prt",
+      "context": "LES/oneEqEddyCoeffs",
+      "path": "LES/oneEqEddyCoeffs/Prt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/PrandtlCoeffs",
+      "keyword": "PrandtlCoeffs",
+      "context": "LES",
+      "path": "LES/PrandtlCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/PrandtlCoeffs/Cdelta",
+      "keyword": "Cdelta",
+      "context": "LES/PrandtlCoeffs",
+      "path": "LES/PrandtlCoeffs/Cdelta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/PrandtlCoeffs/cubeRootVolCoeffs",
+      "keyword": "cubeRootVolCoeffs",
+      "context": "LES/PrandtlCoeffs",
+      "path": "LES/PrandtlCoeffs/cubeRootVolCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/PrandtlCoeffs/cubeRootVolCoeffs/deltaCoeff",
+      "keyword": "deltaCoeff",
+      "context": "LES/PrandtlCoeffs/cubeRootVolCoeffs",
+      "path": "LES/PrandtlCoeffs/cubeRootVolCoeffs/deltaCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/PrandtlCoeffs/delta",
+      "keyword": "delta",
+      "context": "LES/PrandtlCoeffs",
+      "path": "LES/PrandtlCoeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [
+        {
+          "value": "cubeRootVol",
+          "occurrences": 13
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/PrandtlCoeffs/smoothCoeffs",
+      "keyword": "smoothCoeffs",
+      "context": "LES/PrandtlCoeffs",
+      "path": "LES/PrandtlCoeffs/smoothCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/PrandtlCoeffs/smoothCoeffs/cubeRootVolCoeffs",
+      "keyword": "cubeRootVolCoeffs",
+      "context": "LES/PrandtlCoeffs/smoothCoeffs",
+      "path": "LES/PrandtlCoeffs/smoothCoeffs/cubeRootVolCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/PrandtlCoeffs/smoothCoeffs/cubeRootVolCoeffs/deltaCoeff",
+      "keyword": "deltaCoeff",
+      "context": "LES/PrandtlCoeffs/smoothCoeffs/cubeRootVolCoeffs",
+      "path": "LES/PrandtlCoeffs/smoothCoeffs/cubeRootVolCoeffs/deltaCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/PrandtlCoeffs/smoothCoeffs/delta",
+      "keyword": "delta",
+      "context": "LES/PrandtlCoeffs/smoothCoeffs",
+      "path": "LES/PrandtlCoeffs/smoothCoeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [
+        {
+          "value": "cubeRootVol",
+          "occurrences": 13
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/PrandtlCoeffs/smoothCoeffs/maxDeltaRatio",
+      "keyword": "maxDeltaRatio",
+      "context": "LES/PrandtlCoeffs/smoothCoeffs",
+      "path": "LES/PrandtlCoeffs/smoothCoeffs/maxDeltaRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/printCoeffs",
+      "keyword": "printCoeffs",
+      "context": "LES",
+      "path": "LES/printCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 22,
+      "fileCount": 22,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 21
+        },
+        {
+          "value": "no",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/SLADeltaCoeffs",
+      "keyword": "SLADeltaCoeffs",
+      "context": "LES",
+      "path": "LES/SLADeltaCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-SLADelta-useSigmaFalse/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/SmagorinskyCoeffs",
+      "keyword": "SmagorinskyCoeffs",
+      "context": "LES",
+      "path": "LES/SmagorinskyCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/constant/turbulenceProperties",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/common/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/SmagorinskyCoeffs/Ce",
+      "keyword": "Ce",
+      "context": "LES/SmagorinskyCoeffs",
+      "path": "LES/SmagorinskyCoeffs/Ce",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/constant/turbulenceProperties",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/common/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/SmagorinskyCoeffs/Ck",
+      "keyword": "Ck",
+      "context": "LES/SmagorinskyCoeffs",
+      "path": "LES/SmagorinskyCoeffs/Ck",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/constant/turbulenceProperties",
+        "verificationAndValidation/turbulentInflow/oneCellThickPlaneChannel/setups.orig/common/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/smoothCoeffs",
+      "keyword": "smoothCoeffs",
+      "context": "LES",
+      "path": "LES/smoothCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/smoothCoeffs/cubeRootVolCoeffs",
+      "keyword": "cubeRootVolCoeffs",
+      "context": "LES/smoothCoeffs",
+      "path": "LES/smoothCoeffs/cubeRootVolCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/smoothCoeffs/cubeRootVolCoeffs/deltaCoeff",
+      "keyword": "deltaCoeff",
+      "context": "LES/smoothCoeffs/cubeRootVolCoeffs",
+      "path": "LES/smoothCoeffs/cubeRootVolCoeffs/deltaCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/smoothCoeffs/delta",
+      "keyword": "delta",
+      "context": "LES/smoothCoeffs",
+      "path": "LES/smoothCoeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [
+        {
+          "value": "cubeRootVol",
+          "occurrences": 13
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/smoothCoeffs/maxDeltaRatio",
+      "keyword": "maxDeltaRatio",
+      "context": "LES/smoothCoeffs",
+      "path": "LES/smoothCoeffs/maxDeltaRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/SpalartAllmarasDDESCoeffs",
+      "keyword": "SpalartAllmarasDDESCoeffs",
+      "context": "LES",
+      "path": "LES/SpalartAllmarasDDESCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-DeltaOmegaTilde-useSigmaTrue/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-maxDeltaxyzCubeRoot/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-SLADelta-useSigmaFalse/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/SpalartAllmarasDDESCoeffs/useSigma",
+      "keyword": "useSigma",
+      "context": "LES/SpalartAllmarasDDESCoeffs",
+      "path": "LES/SpalartAllmarasDDESCoeffs/useSigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-DeltaOmegaTilde-useSigmaTrue/constant/turbulenceProperties",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasDDES-SLADelta-useSigmaFalse/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/SpalartAllmarasIDDESCoeffs",
+      "keyword": "SpalartAllmarasIDDESCoeffs",
+      "context": "LES",
+      "path": "LES/SpalartAllmarasIDDESCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/SpalartAllmarasIDDES-IDDESDelta/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/turbulence",
+      "keyword": "turbulence",
+      "context": "LES",
+      "path": "LES/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 22,
+      "fileCount": 22,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 21
+        },
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs",
+      "keyword": "vanDriestCoeffs",
+      "context": "LES",
+      "path": "LES/vanDriestCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs/Aplus",
+      "keyword": "Aplus",
+      "context": "LES/vanDriestCoeffs",
+      "path": "LES/vanDriestCoeffs/Aplus",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs/Cdelta",
+      "keyword": "Cdelta",
+      "context": "LES/vanDriestCoeffs",
+      "path": "LES/vanDriestCoeffs/Cdelta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs/cubeRootVolCoeffs",
+      "keyword": "cubeRootVolCoeffs",
+      "context": "LES/vanDriestCoeffs",
+      "path": "LES/vanDriestCoeffs/cubeRootVolCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs/cubeRootVolCoeffs/deltaCoeff",
+      "keyword": "deltaCoeff",
+      "context": "LES/vanDriestCoeffs/cubeRootVolCoeffs",
+      "path": "LES/vanDriestCoeffs/cubeRootVolCoeffs/deltaCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs/delta",
+      "keyword": "delta",
+      "context": "LES/vanDriestCoeffs",
+      "path": "LES/vanDriestCoeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "cubeRootVol",
+          "occurrences": 17
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs/smoothCoeffs",
+      "keyword": "smoothCoeffs",
+      "context": "LES/vanDriestCoeffs",
+      "path": "LES/vanDriestCoeffs/smoothCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs/smoothCoeffs/cubeRootVolCoeffs",
+      "keyword": "cubeRootVolCoeffs",
+      "context": "LES/vanDriestCoeffs/smoothCoeffs",
+      "path": "LES/vanDriestCoeffs/smoothCoeffs/cubeRootVolCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs/smoothCoeffs/cubeRootVolCoeffs/deltaCoeff",
+      "keyword": "deltaCoeff",
+      "context": "LES/vanDriestCoeffs/smoothCoeffs/cubeRootVolCoeffs",
+      "path": "LES/vanDriestCoeffs/smoothCoeffs/cubeRootVolCoeffs/deltaCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs/smoothCoeffs/delta",
+      "keyword": "delta",
+      "context": "LES/vanDriestCoeffs/smoothCoeffs",
+      "path": "LES/vanDriestCoeffs/smoothCoeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [
+        {
+          "value": "cubeRootVol",
+          "occurrences": 13
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "LES/vanDriestCoeffs/smoothCoeffs/maxDeltaRatio",
+      "keyword": "maxDeltaRatio",
+      "context": "LES/vanDriestCoeffs/smoothCoeffs",
+      "path": "LES/vanDriestCoeffs/smoothCoeffs/maxDeltaRatio",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS",
+      "keyword": "RAS",
+      "context": "",
+      "path": "RAS",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 237,
+      "fileCount": 237,
+      "values": [],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/turbulenceProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/buoyantKEpsilonCoeffs",
+      "keyword": "buoyantKEpsilonCoeffs",
+      "context": "RAS",
+      "path": "RAS/buoyantKEpsilonCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/constant/turbulenceProperties",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/constant/turbulenceProperties",
+        "multiphase/driftFluxFoam/RAS/tank3D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/buoyantKEpsilonCoeffs/Cg",
+      "keyword": "Cg",
+      "context": "RAS/buoyantKEpsilonCoeffs",
+      "path": "RAS/buoyantKEpsilonCoeffs/Cg",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/constant/turbulenceProperties",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/constant/turbulenceProperties",
+        "multiphase/driftFluxFoam/RAS/tank3D/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kEpsilonCoeffs",
+      "keyword": "kEpsilonCoeffs",
+      "context": "RAS",
+      "path": "RAS/kEpsilonCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/turbulenceProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/turbulenceProperties",
+        "combustion/XiEngineFoam/kivaTest/constant/turbulenceProperties",
+        "incompressible/simpleFoam/turbineSiting/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/kEpsilon/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kEpsilonCoeffs/betaStar",
+      "keyword": "betaStar",
+      "context": "RAS/kEpsilonCoeffs",
+      "path": "RAS/kEpsilonCoeffs/betaStar",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kEpsilonCoeffs/C1",
+      "keyword": "C1",
+      "context": "RAS/kEpsilonCoeffs",
+      "path": "RAS/kEpsilonCoeffs/C1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/turbineSiting/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kEpsilonCoeffs/C2",
+      "keyword": "C2",
+      "context": "RAS/kEpsilonCoeffs",
+      "path": "RAS/kEpsilonCoeffs/C2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/turbineSiting/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kEpsilonCoeffs/C3",
+      "keyword": "C3",
+      "context": "RAS/kEpsilonCoeffs",
+      "path": "RAS/kEpsilonCoeffs/C3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/XiEngineFoam/kivaTest/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kEpsilonCoeffs/Cmu",
+      "keyword": "Cmu",
+      "context": "RAS/kEpsilonCoeffs",
+      "path": "RAS/kEpsilonCoeffs/Cmu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/turbineSiting/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kEpsilonCoeffs/Prt",
+      "keyword": "Prt",
+      "context": "RAS/kEpsilonCoeffs",
+      "path": "RAS/kEpsilonCoeffs/Prt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/turbulenceProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kEpsilonCoeffs/sigmaEps",
+      "keyword": "sigmaEps",
+      "context": "RAS/kEpsilonCoeffs",
+      "path": "RAS/kEpsilonCoeffs/sigmaEps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/turbineSiting/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kEpsilonCoeffs/sigmaK",
+      "keyword": "sigmaK",
+      "context": "RAS/kEpsilonCoeffs",
+      "path": "RAS/kEpsilonCoeffs/sigmaK",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kEpsilon/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kLCoeffs",
+      "keyword": "kLCoeffs",
+      "context": "RAS",
+      "path": "RAS/kLCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kL/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kLCoeffs/CbStable",
+      "keyword": "CbStable",
+      "context": "RAS/kLCoeffs",
+      "path": "RAS/kLCoeffs/CbStable",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kL/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kLCoeffs/CbUnstable",
+      "keyword": "CbUnstable",
+      "context": "RAS/kLCoeffs",
+      "path": "RAS/kLCoeffs/CbUnstable",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kL/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kLCoeffs/Lmax",
+      "keyword": "Lmax",
+      "context": "RAS/kLCoeffs",
+      "path": "RAS/kLCoeffs/Lmax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kL/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kOmegaSSTCoeffs",
+      "keyword": "kOmegaSSTCoeffs",
+      "context": "RAS",
+      "path": "RAS/kOmegaSSTCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kOmegaSST/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kOmegaSSTCoeffs/betaStar",
+      "keyword": "betaStar",
+      "context": "RAS/kOmegaSSTCoeffs",
+      "path": "RAS/kOmegaSSTCoeffs/betaStar",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kOmegaSST/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kOmegaSSTCoeffs/C1",
+      "keyword": "C1",
+      "context": "RAS/kOmegaSSTCoeffs",
+      "path": "RAS/kOmegaSSTCoeffs/C1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kOmegaSST/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kOmegaSSTCoeffs/C2",
+      "keyword": "C2",
+      "context": "RAS/kOmegaSSTCoeffs",
+      "path": "RAS/kOmegaSSTCoeffs/C2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kOmegaSST/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kOmegaSSTCoeffs/Cmu",
+      "keyword": "Cmu",
+      "context": "RAS/kOmegaSSTCoeffs",
+      "path": "RAS/kOmegaSSTCoeffs/Cmu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kOmegaSST/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/kOmegaSSTCoeffs/sigmaK",
+      "keyword": "sigmaK",
+      "context": "RAS/kOmegaSSTCoeffs",
+      "path": "RAS/kOmegaSSTCoeffs/sigmaK",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/kOmegaSST/constant/turbulenceProperties",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/kOmegaSST/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/model",
+      "keyword": "model",
+      "context": "RAS",
+      "path": "RAS/model",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "kEpsilon",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonCoeffs",
+      "keyword": "PDRkEpsilonCoeffs",
+      "context": "RAS",
+      "path": "RAS/PDRkEpsilonCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "preProcessing/PDRsetFields/simplePipeCage/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonCoeffs/alphaEps",
+      "keyword": "alphaEps",
+      "context": "RAS/PDRkEpsilonCoeffs",
+      "path": "RAS/PDRkEpsilonCoeffs/alphaEps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "preProcessing/PDRsetFields/simplePipeCage/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonCoeffs/alphah",
+      "keyword": "alphah",
+      "context": "RAS/PDRkEpsilonCoeffs",
+      "path": "RAS/PDRkEpsilonCoeffs/alphah",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "preProcessing/PDRsetFields/simplePipeCage/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonCoeffs/alphak",
+      "keyword": "alphak",
+      "context": "RAS/PDRkEpsilonCoeffs",
+      "path": "RAS/PDRkEpsilonCoeffs/alphak",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "preProcessing/PDRsetFields/simplePipeCage/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonCoeffs/C1",
+      "keyword": "C1",
+      "context": "RAS/PDRkEpsilonCoeffs",
+      "path": "RAS/PDRkEpsilonCoeffs/C1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "preProcessing/PDRsetFields/simplePipeCage/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonCoeffs/C2",
+      "keyword": "C2",
+      "context": "RAS/PDRkEpsilonCoeffs",
+      "path": "RAS/PDRkEpsilonCoeffs/C2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "preProcessing/PDRsetFields/simplePipeCage/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonCoeffs/C3",
+      "keyword": "C3",
+      "context": "RAS/PDRkEpsilonCoeffs",
+      "path": "RAS/PDRkEpsilonCoeffs/C3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "preProcessing/PDRsetFields/simplePipeCage/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonCoeffs/C4",
+      "keyword": "C4",
+      "context": "RAS/PDRkEpsilonCoeffs",
+      "path": "RAS/PDRkEpsilonCoeffs/C4",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "preProcessing/PDRsetFields/simplePipeCage/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonCoeffs/Cmu",
+      "keyword": "Cmu",
+      "context": "RAS/PDRkEpsilonCoeffs",
+      "path": "RAS/PDRkEpsilonCoeffs/Cmu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "preProcessing/PDRsetFields/simplePipeCage/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs",
+      "keyword": "PDRkEpsilonFiltCoeffs",
+      "context": "RAS",
+      "path": "RAS/PDRkEpsilonFiltCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/alphaEps",
+      "keyword": "alphaEps",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/alphaEps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/alphah",
+      "keyword": "alphah",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/alphah",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/alphak",
+      "keyword": "alphak",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/alphak",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/bFilt",
+      "keyword": "bFilt",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/bFilt",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/C1",
+      "keyword": "C1",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/C1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/C2",
+      "keyword": "C2",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/C2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/C3",
+      "keyword": "C3",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/C3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/C5",
+      "keyword": "C5",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/C5",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/C6",
+      "keyword": "C6",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/C6",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/Cmu",
+      "keyword": "Cmu",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/Cmu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/filtRadMult",
+      "keyword": "filtRadMult",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/filtRadMult",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/flameFilteredG",
+      "keyword": "flameFilteredG",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/flameFilteredG",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/lCoef",
+      "keyword": "lCoef",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/lCoef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/LOverLobs",
+      "keyword": "LOverLobs",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/LOverLobs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/LOverMobs",
+      "keyword": "LOverMobs",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/LOverMobs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/maxLOverCellW",
+      "keyword": "maxLOverCellW",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/maxLOverCellW",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/maxResFac",
+      "keyword": "maxResFac",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/maxResFac",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/noTurbUntil",
+      "keyword": "noTurbUntil",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/noTurbUntil",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRkEpsilonFiltCoeffs/resCoef",
+      "keyword": "resCoef",
+      "context": "RAS/PDRkEpsilonFiltCoeffs",
+      "path": "RAS/PDRkEpsilonFiltCoeffs/resCoef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs",
+      "keyword": "PDRrealkEpsilonCoeffs",
+      "context": "RAS",
+      "path": "RAS/PDRrealkEpsilonCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/A0",
+      "keyword": "A0",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/A0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/alphaEps",
+      "keyword": "alphaEps",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/alphaEps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/alphah",
+      "keyword": "alphah",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/alphah",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/alphak",
+      "keyword": "alphak",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/alphak",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/beta",
+      "keyword": "beta",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/beta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/C2",
+      "keyword": "C2",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/C2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/C3",
+      "keyword": "C3",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/C3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/C5",
+      "keyword": "C5",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/C5",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/C6",
+      "keyword": "C6",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/C6",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/Cmu",
+      "keyword": "Cmu",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/Cmu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/eta0",
+      "keyword": "eta0",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/eta0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/lCoef",
+      "keyword": "lCoef",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/lCoef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/LOverLobs",
+      "keyword": "LOverLobs",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/LOverLobs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/LOverMobs",
+      "keyword": "LOverMobs",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/LOverMobs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/maxLOverCellW",
+      "keyword": "maxLOverCellW",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/maxLOverCellW",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/sigmaEps",
+      "keyword": "sigmaEps",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/sigmaEps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRrealkEpsilonCoeffs/sigmak",
+      "keyword": "sigmak",
+      "context": "RAS/PDRrealkEpsilonCoeffs",
+      "path": "RAS/PDRrealkEpsilonCoeffs/sigmak",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs",
+      "keyword": "PDRRNGkEpsilonCoeffs",
+      "context": "RAS",
+      "path": "RAS/PDRRNGkEpsilonCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/alphaEps",
+      "keyword": "alphaEps",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/alphaEps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/alphah",
+      "keyword": "alphah",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/alphah",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/alphak",
+      "keyword": "alphak",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/alphak",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/beta",
+      "keyword": "beta",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/beta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/C1",
+      "keyword": "C1",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/C1",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/C2",
+      "keyword": "C2",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/C2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/C3",
+      "keyword": "C3",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/C3",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/C5",
+      "keyword": "C5",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/C5",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/C6",
+      "keyword": "C6",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/C6",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/Cmu",
+      "keyword": "Cmu",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/Cmu",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/eta0",
+      "keyword": "eta0",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/eta0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/lCoef",
+      "keyword": "lCoef",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/lCoef",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/LOverLobs",
+      "keyword": "LOverLobs",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/LOverLobs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/LOverMobs",
+      "keyword": "LOverMobs",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/LOverMobs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/maxLOverCellW",
+      "keyword": "maxLOverCellW",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/maxLOverCellW",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/sigmaEps",
+      "keyword": "sigmaEps",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/sigmaEps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/PDRRNGkEpsilonCoeffs/sigmak",
+      "keyword": "sigmak",
+      "context": "RAS/PDRRNGkEpsilonCoeffs",
+      "path": "RAS/PDRRNGkEpsilonCoeffs/sigmak",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/printCoeffs",
+      "keyword": "printCoeffs",
+      "context": "RAS",
+      "path": "RAS/printCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 228,
+      "fileCount": 228,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 222
+        },
+        {
+          "value": "no",
+          "occurrences": 3
+        },
+        {
+          "value": "off",
+          "occurrences": 2
+        },
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/turbulenceProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/RASModel",
+      "keyword": "RASModel",
+      "context": "RAS",
+      "path": "RAS/RASModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 236,
+      "fileCount": 236,
+      "values": [
+        {
+          "value": "kEpsilon",
+          "occurrences": 105
+        },
+        {
+          "value": "SpalartAllmaras",
+          "occurrences": 40
+        },
+        {
+          "value": "kOmegaSST",
+          "occurrences": 39
+        },
+        {
+          "value": "laminar",
+          "occurrences": 31
+        },
+        {
+          "value": "LaunderSharmaKE",
+          "occurrences": 4
+        },
+        {
+          "value": "buoyantKEpsilon",
+          "occurrences": 3
+        },
+        {
+          "value": "PDRkEpsilon",
+          "occurrences": 3
+        },
+        {
+          "value": "EBRSM",
+          "occurrences": 2
+        },
+        {
+          "value": "kL",
+          "occurrences": 2
+        },
+        {
+          "value": "realizableKE",
+          "occurrences": 2
+        },
+        {
+          "value": "incompressibleKOmegaSST",
+          "occurrences": 1
+        },
+        {
+          "value": "kEpsilonPhitF",
+          "occurrences": 1
+        },
+        {
+          "value": "kkLOmega",
+          "occurrences": 1
+        },
+        {
+          "value": "kOmegaSSTLM",
+          "occurrences": 1
+        },
+        {
+          "value": "RNGkEpsilon",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/turbulenceProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "RAS/turbulence",
+      "keyword": "turbulence",
+      "context": "RAS",
+      "path": "RAS/turbulence",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 228,
+      "fileCount": 228,
+      "values": [
+        {
+          "value": "on",
+          "occurrences": 227
+        },
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
+        "combustion/PDRFoam/flamePropagationWithObstacles/constant/turbulenceProperties",
+        "combustion/PDRFoam/pipeLattice/constant/turbulenceProperties",
+        "combustion/reactingFoam/RAS/chokedNozzle/constant/turbulenceProperties",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "simulationType",
+      "keyword": "simulationType",
+      "context": "",
+      "path": "simulationType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 411,
+      "fileCount": 411,
+      "values": [
+        {
+          "value": "RAS",
+          "occurrences": 200
+        },
+        {
+          "value": "laminar",
+          "occurrences": 182
+        },
+        {
+          "value": "LES",
+          "occurrences": 27
+        },
+        {
+          "value": "twoPhaseTransport",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/constant/turbulenceProperties",
+        "combustion/coldEngineFoam/freePiston/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/compartmentFire/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/turbulenceProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "UOalpha",
+      "keyword": "UOalpha",
+      "context": "",
+      "path": "UOalpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "DNS/dnsFoam/boxTurb16/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "UOKlower",
+      "keyword": "UOKlower",
+      "context": "",
+      "path": "UOKlower",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "DNS/dnsFoam/boxTurb16/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "UOKupper",
+      "keyword": "UOKupper",
+      "context": "",
+      "path": "UOKupper",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "DNS/dnsFoam/boxTurb16/constant/turbulenceProperties"
+      ]
+    },
+    {
+      "key": "UOsigma",
+      "keyword": "UOsigma",
+      "context": "",
+      "path": "UOsigma",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "DNS/dnsFoam/boxTurb16/constant/turbulenceProperties"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1123 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "constant",
+  "fileKey": "boundaryRadiationProperties",
+  "sourceFileCount": 14,
+  "occurrences": 182,
+  "entries": [
+    {
+      "key": ".*",
+      "keyword": ".*",
+      "context": "",
+      "path": ".*",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": ".*/absorptivity",
+      "keyword": "absorptivity",
+      "context": ".*",
+      "path": ".*/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/constant/boundaryRadiationProperties",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/constant/boundaryRadiationProperties",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": ".*/emissivity",
+      "keyword": "emissivity",
+      "context": ".*",
+      "path": ".*/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": ".*/transmissivity",
+      "keyword": "transmissivity",
+      "context": ".*",
+      "path": ".*/transmissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/boundaryRadiationProperties",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/constant/boundaryRadiationProperties",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": ".*/type",
+      "keyword": "type",
+      "context": ".*",
+      "path": ".*/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [
+        {
+          "value": "lookup",
+          "occurrences": 12
+        },
+        {
+          "value": "transparent",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire3D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": ".*/wallAbsorptionEmissionModel",
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": ".*",
+      "path": ".*/wallAbsorptionEmissionModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": ".*/wallAbsorptionEmissionModel/absorptivity",
+      "keyword": "absorptivity",
+      "context": ".*/wallAbsorptionEmissionModel",
+      "path": ".*/wallAbsorptionEmissionModel/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": ".*/wallAbsorptionEmissionModel/emissivity",
+      "keyword": "emissivity",
+      "context": ".*/wallAbsorptionEmissionModel",
+      "path": ".*/wallAbsorptionEmissionModel/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": ".*/wallAbsorptionEmissionModel/type",
+      "keyword": "type",
+      "context": ".*/wallAbsorptionEmissionModel",
+      "path": ".*/wallAbsorptionEmissionModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "multiBandAbsorption",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "(region0_to.*)",
+      "keyword": "(region0_to.*)",
+      "context": "",
+      "path": "(region0_to.*)",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "(region0_to.*)/type",
+      "keyword": "type",
+      "context": "(region0_to.*)",
+      "path": "(region0_to.*)/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "opaqueDiffusive",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "(region0_to.*)/wallAbsorptionEmissionModel",
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": "(region0_to.*)",
+      "path": "(region0_to.*)/wallAbsorptionEmissionModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "(region0_to.*)/wallAbsorptionEmissionModel/type",
+      "keyword": "type",
+      "context": "(region0_to.*)/wallAbsorptionEmissionModel",
+      "path": "(region0_to.*)/wallAbsorptionEmissionModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "solidAbsorption",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "(solarpanel.*)",
+      "keyword": "(solarpanel.*)",
+      "context": "",
+      "path": "(solarpanel.*)",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "(solarpanel.*)/type",
+      "keyword": "type",
+      "context": "(solarpanel.*)",
+      "path": "(solarpanel.*)/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "opaqueDiffusive",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "(solarpanel.*)/wallAbsorptionEmissionModel",
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": "(solarpanel.*)",
+      "path": "(solarpanel.*)/wallAbsorptionEmissionModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "(solarpanel.*)/wallAbsorptionEmissionModel/absorptivity",
+      "keyword": "absorptivity",
+      "context": "(solarpanel.*)/wallAbsorptionEmissionModel",
+      "path": "(solarpanel.*)/wallAbsorptionEmissionModel/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "(solarpanel.*)/wallAbsorptionEmissionModel/emissivity",
+      "keyword": "emissivity",
+      "context": "(solarpanel.*)/wallAbsorptionEmissionModel",
+      "path": "(solarpanel.*)/wallAbsorptionEmissionModel/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "(solarpanel.*)/wallAbsorptionEmissionModel/type",
+      "keyword": "type",
+      "context": "(solarpanel.*)/wallAbsorptionEmissionModel",
+      "path": "(solarpanel.*)/wallAbsorptionEmissionModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "multiBandAbsorption",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "base",
+      "keyword": "base",
+      "context": "",
+      "path": "base",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "base/emissivity",
+      "keyword": "emissivity",
+      "context": "base",
+      "path": "base/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "base/transmissivity",
+      "keyword": "transmissivity",
+      "context": "base",
+      "path": "base/transmissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "base/type",
+      "keyword": "type",
+      "context": "base",
+      "path": "base/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "lookup",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "body_bottom",
+      "keyword": "body_bottom",
+      "context": "",
+      "path": "body_bottom",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "body_bottom/type",
+      "keyword": "type",
+      "context": "body_bottom",
+      "path": "body_bottom/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "opaqueDiffusive",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "body_bottom/wallAbsorptionEmissionModel",
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": "body_bottom",
+      "path": "body_bottom/wallAbsorptionEmissionModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "body_bottom/wallAbsorptionEmissionModel/absorptivity",
+      "keyword": "absorptivity",
+      "context": "body_bottom/wallAbsorptionEmissionModel",
+      "path": "body_bottom/wallAbsorptionEmissionModel/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "body_bottom/wallAbsorptionEmissionModel/emissivity",
+      "keyword": "emissivity",
+      "context": "body_bottom/wallAbsorptionEmissionModel",
+      "path": "body_bottom/wallAbsorptionEmissionModel/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "body_bottom/wallAbsorptionEmissionModel/type",
+      "keyword": "type",
+      "context": "body_bottom/wallAbsorptionEmissionModel",
+      "path": "body_bottom/wallAbsorptionEmissionModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "multiBandAbsorption",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 14
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 14
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "boundaryRadiationProperties",
+          "occurrences": 14
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/oppositeBurningPanels/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/simplePMMApanel/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "inlet",
+      "keyword": "inlet",
+      "context": "",
+      "path": "inlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "inlet/absorptivity",
+      "keyword": "absorptivity",
+      "context": "inlet",
+      "path": "inlet/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "inlet/emissivity",
+      "keyword": "emissivity",
+      "context": "inlet",
+      "path": "inlet/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "inlet/transmissivity",
+      "keyword": "transmissivity",
+      "context": "inlet",
+      "path": "inlet/transmissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "inlet/type",
+      "keyword": "type",
+      "context": "inlet",
+      "path": "inlet/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "lookup",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/constant/boundaryRadiationProperties",
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "outlet",
+      "keyword": "outlet",
+      "context": "",
+      "path": "outlet",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "outlet/emissivity",
+      "keyword": "emissivity",
+      "context": "outlet",
+      "path": "outlet/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "outlet/transmissivity",
+      "keyword": "transmissivity",
+      "context": "outlet",
+      "path": "outlet/transmissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "outlet/type",
+      "keyword": "type",
+      "context": "outlet",
+      "path": "outlet/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "lookup",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ref_wall",
+      "keyword": "ref_wall",
+      "context": "",
+      "path": "ref_wall",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ref_wall/fd",
+      "keyword": "fd",
+      "context": "ref_wall",
+      "path": "ref_wall/fd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ref_wall/type",
+      "keyword": "type",
+      "context": "ref_wall",
+      "path": "ref_wall/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "opaqueReflective",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ref_wall/wallAbsorptionEmissionModel",
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": "ref_wall",
+      "path": "ref_wall/wallAbsorptionEmissionModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ref_wall/wallAbsorptionEmissionModel/absorptivity",
+      "keyword": "absorptivity",
+      "context": "ref_wall/wallAbsorptionEmissionModel",
+      "path": "ref_wall/wallAbsorptionEmissionModel/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ref_wall/wallAbsorptionEmissionModel/emissivity",
+      "keyword": "emissivity",
+      "context": "ref_wall/wallAbsorptionEmissionModel",
+      "path": "ref_wall/wallAbsorptionEmissionModel/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ref_wall/wallAbsorptionEmissionModel/type",
+      "keyword": "type",
+      "context": "ref_wall/wallAbsorptionEmissionModel",
+      "path": "ref_wall/wallAbsorptionEmissionModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "multiBandAbsorption",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "region0_to_pyrolysisRegion_coupledWall",
+      "keyword": "region0_to_pyrolysisRegion_coupledWall",
+      "context": "",
+      "path": "region0_to_pyrolysisRegion_coupledWall",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "region0_to_pyrolysisRegion_coupledWall/type",
+      "keyword": "type",
+      "context": "region0_to_pyrolysisRegion_coupledWall",
+      "path": "region0_to_pyrolysisRegion_coupledWall/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "opaqueDiffusive",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "region0_to_pyrolysisRegion_coupledWall/wallAbsorptionEmissionModel",
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": "region0_to_pyrolysisRegion_coupledWall",
+      "path": "region0_to_pyrolysisRegion_coupledWall/wallAbsorptionEmissionModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "region0_to_pyrolysisRegion_coupledWall/wallAbsorptionEmissionModel/type",
+      "keyword": "type",
+      "context": "region0_to_pyrolysisRegion_coupledWall/wallAbsorptionEmissionModel",
+      "path": "region0_to_pyrolysisRegion_coupledWall/wallAbsorptionEmissionModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "solidAbsorption",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "sides",
+      "keyword": "sides",
+      "context": "",
+      "path": "sides",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "sides/emissivity",
+      "keyword": "emissivity",
+      "context": "sides",
+      "path": "sides/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "sides/transmissivity",
+      "keyword": "transmissivity",
+      "context": "sides",
+      "path": "sides/transmissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "sides/type",
+      "keyword": "type",
+      "context": "sides",
+      "path": "sides/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "lookup",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire2D/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ZMin",
+      "keyword": "ZMin",
+      "context": "",
+      "path": "ZMin",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ZMin/type",
+      "keyword": "type",
+      "context": "ZMin",
+      "path": "ZMin/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "opaqueDiffusive",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ZMin/wallAbsorptionEmissionModel",
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": "ZMin",
+      "path": "ZMin/wallAbsorptionEmissionModel",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ZMin/wallAbsorptionEmissionModel/absorptivity",
+      "keyword": "absorptivity",
+      "context": "ZMin/wallAbsorptionEmissionModel",
+      "path": "ZMin/wallAbsorptionEmissionModel/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ZMin/wallAbsorptionEmissionModel/emissivity",
+      "keyword": "emissivity",
+      "context": "ZMin/wallAbsorptionEmissionModel",
+      "path": "ZMin/wallAbsorptionEmissionModel/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    },
+    {
+      "key": "ZMin/wallAbsorptionEmissionModel/type",
+      "keyword": "type",
+      "context": "ZMin/wallAbsorptionEmissionModel",
+      "path": "ZMin/wallAbsorptionEmissionModel/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "multiBandAbsorption",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/simpleCarSolarPanel/constant/boundaryRadiationProperties"
+      ]
+    }
+  ]
+}

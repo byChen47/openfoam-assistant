@@ -1,0 +1,334 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "cellDisplacement",
+  "sourceFileCount": 5,
+  "occurrences": 109,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "free",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 23,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/patchType",
+      "keyword": "patchType",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/patchType",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "overset",
+          "occurrences": 3
+        },
+        {
+          "value": "cyclicAMI",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 21,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "cellMotion",
+          "occurrences": 15
+        },
+        {
+          "value": "uniformFixedValue",
+          "occurrences": 3
+        },
+        {
+          "value": "empty",
+          "occurrences": 2
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/uniformValue",
+      "keyword": "uniformValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/uniformValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/arch",
+      "keyword": "arch",
+      "context": "FoamFile",
+      "path": "FoamFile/arch",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"LSB;label=32;scalar=64\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "volVectorField",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"1\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "cellDisplacement",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/0.orig/cellDisplacement",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/0.orig/cellDisplacement",
+        "incompressible/overPimpleDyMFoam/cylinder/cylinderAndBackground/0.orig/cellDisplacement",
+        "mesh/blockMesh/sphere7/0.orig/cellDisplacement",
+        "mesh/moveDynamicMesh/relativeMotion/box2D_moveDynamicMesh/0.orig/cellDisplacement"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "Ua",
+  "sourceFileCount": 90,
+  "occurrences": 2463,
+  "entries": [
+    {
+      "key": "#include",
+      "keyword": "#include",
+      "context": "",
+      "path": "#include",
+      "kinds": [
+        "directive"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 90,
+      "fileCount": 90,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "directive",
+        "subdict"
+      ],
+      "occurrences": 617,
+      "fileCount": 90,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 606,
+      "fileCount": 90,
+      "values": [
+        {
+          "value": "adjointWallVelocity",
+          "occurrences": 190
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 110
+        },
+        {
+          "value": "adjointInletVelocity",
+          "occurrences": 79
+        },
+        {
+          "value": "empty",
+          "occurrences": 78
+        },
+        {
+          "value": "adjointOutletVelocity",
+          "occurrences": 77
+        },
+        {
+          "value": "adjointOutletVelocityFlux",
+          "occurrences": 50
+        },
+        {
+          "value": "adjointFarFieldVelocity",
+          "occurrences": 10
+        },
+        {
+          "value": "symmetry",
+          "occurrences": 10
+        },
+        {
+          "value": "noSlip",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 516,
+      "fileCount": 90,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 90,
+      "fileCount": 90,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 90,
+      "fileCount": 90,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 90,
+      "fileCount": 90,
+      "values": [
+        {
+          "value": "volVectorField",
+          "occurrences": 90
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 90,
+      "fileCount": 90,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 90
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 90,
+      "fileCount": 90,
+      "values": [
+        {
+          "value": "Ua",
+          "occurrences": 80
+        },
+        {
+          "value": "U",
+          "occurrences": 10
+        }
+      ],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 90,
+      "fileCount": 90,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 90,
+      "fileCount": 90,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/0.orig/Ua",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/0.orig/Ua"
+      ]
+    }
+  ]
+}

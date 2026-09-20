@@ -1,0 +1,5251 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "system",
+  "fileKey": "fvSolution",
+  "sourceFileCount": 557,
+  "occurrences": 18101,
+  "entries": [
+    {
+      "key": "_simpleFoam",
+      "keyword": "_simpleFoam",
+      "context": "",
+      "path": "_simpleFoam",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSolution"
+      ]
+    },
+    {
+      "key": "_simpleFoam/equations",
+      "keyword": "equations",
+      "context": "_simpleFoam",
+      "path": "_simpleFoam/equations",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSolution"
+      ]
+    },
+    {
+      "key": "_simpleFoam/equations/(U|k|epsilon)",
+      "keyword": "(U|k|epsilon)",
+      "context": "_simpleFoam/equations",
+      "path": "_simpleFoam/equations/(U|k|epsilon)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSolution"
+      ]
+    },
+    {
+      "key": "_simpleFoam/fields",
+      "keyword": "fields",
+      "context": "_simpleFoam",
+      "path": "_simpleFoam/fields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSolution"
+      ]
+    },
+    {
+      "key": "_simpleFoam/fields/{field}",
+      "keyword": "p",
+      "context": "_simpleFoam/fields",
+      "path": "_simpleFoam/fields/{field}",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSolution"
+      ]
+    },
+    {
+      "key": "BPISO",
+      "keyword": "BPISO",
+      "context": "",
+      "path": "BPISO",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "electromagnetics/mhdFoam/hartmann/system/fvSolution"
+      ]
+    },
+    {
+      "key": "BPISO/nCorrectors",
+      "keyword": "nCorrectors",
+      "context": "BPISO",
+      "path": "BPISO/nCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "electromagnetics/mhdFoam/hartmann/system/fvSolution"
+      ]
+    },
+    {
+      "key": "cache",
+      "keyword": "cache",
+      "context": "",
+      "path": "cache",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 32,
+      "fileCount": 32,
+      "values": [],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/system/fvSolution",
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSolution"
+      ]
+    },
+    {
+      "key": "cache/grad",
+      "keyword": "grad",
+      "context": "cache",
+      "path": "cache/grad",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 31,
+      "fileCount": 31,
+      "values": [],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/system/fvSolution",
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSolution"
+      ]
+    },
+    {
+      "key": "cache/GRADIENT",
+      "keyword": "GRADIENT",
+      "context": "cache",
+      "path": "cache/GRADIENT",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/pitzDaily_fused/system/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 557,
+      "fileCount": 557,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSolution",
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 557,
+      "fileCount": 557,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 557
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSolution",
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 557,
+      "fileCount": 557,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 557
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSolution",
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [
+        {
+          "value": "\"system\"",
+          "occurrences": 30
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld2/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld2/slab1/system/fvSolution",
+        "basic/laplacianFoam/multiWorld2/slab2/system/fvSolution",
+        "basic/laplacianFoam/multiWorld2/slab3/system/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 557,
+      "fileCount": 557,
+      "values": [
+        {
+          "value": "fvSolution",
+          "occurrences": 557
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSolution",
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 557,
+      "fileCount": 557,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSolution",
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE",
+      "keyword": "PIMPLE",
+      "context": "",
+      "path": "PIMPLE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 297,
+      "fileCount": 297,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/system/fvSolution",
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSolution",
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/fvSolution",
+        "combustion/coldEngineFoam/freePiston/system/fvSolution",
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/alphaTemp",
+      "keyword": "alphaTemp",
+      "context": "PIMPLE",
+      "path": "PIMPLE/alphaTemp",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/system/fvSolution",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/system/fvSolution",
+        "lagrangian/reactingParcelFoam/counterFlowFlame2DLTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/alphaY",
+      "keyword": "alphaY",
+      "context": "PIMPLE",
+      "path": "PIMPLE/alphaY",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/cAlpha",
+      "keyword": "cAlpha",
+      "context": "PIMPLE",
+      "path": "PIMPLE/cAlpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/system/fvSolution",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/checkMeshCourantNo",
+      "keyword": "checkMeshCourantNo",
+      "context": "PIMPLE",
+      "path": "PIMPLE/checkMeshCourantNo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "lagrangian/MPPICDyMFoam/column/system/fvSolution",
+        "lagrangian/MPPICDyMFoam/denseRotor2DAMI/system/fvSolution",
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/consistent",
+      "keyword": "consistent",
+      "context": "PIMPLE",
+      "path": "PIMPLE/consistent",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 3
+        },
+        {
+          "value": "true",
+          "occurrences": 3
+        },
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/fvSolution",
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/fvSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/correctPhi",
+      "keyword": "correctPhi",
+      "context": "PIMPLE",
+      "path": "PIMPLE/correctPhi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 54,
+      "fileCount": 54,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 30
+        },
+        {
+          "value": "yes",
+          "occurrences": 17
+        },
+        {
+          "value": "false",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/system/fvSolution",
+        "compressible/sonicDyMFoam/movingCone/system/fvSolution",
+        "heatTransfer/solidFoam/movingCone/system/fvSolution",
+        "incompressible/overPimpleDyMFoam/rotatingSquare/system/fvSolution",
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/faceMomentum",
+      "keyword": "faceMomentum",
+      "context": "PIMPLE",
+      "path": "PIMPLE/faceMomentum",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 8
+        },
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/system/fvSolution",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSolution",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSolution",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/steamInjection/system/fvSolution",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/fluidisedBed/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/finalOnLastPimpleIterOnly",
+      "keyword": "finalOnLastPimpleIterOnly",
+      "context": "PIMPLE",
+      "path": "PIMPLE/finalOnLastPimpleIterOnly",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/cavity/system/fvSolution",
+        "incompressible/pimpleFoam/LES/NACA4412/system/fvSolution",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/frozenFlow",
+      "keyword": "frozenFlow",
+      "context": "PIMPLE",
+      "path": "PIMPLE/frozenFlow",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 6
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantFlow/system/fvSolution",
+        "multiphase/interIsoFoam/discInConstantFlowCyclicBCs/system/fvSolution",
+        "multiphase/interIsoFoam/discInConstantPorousFlow/system/fvSolution",
+        "multiphase/interIsoFoam/discInReversedVortexFlow/system/fvSolution",
+        "multiphase/interIsoFoam/notchedDiscInSolidBodyRotation/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/hydrostaticInitialization",
+      "keyword": "hydrostaticInitialization",
+      "context": "PIMPLE",
+      "path": "PIMPLE/hydrostaticInitialization",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 4
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire2D/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire3D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/maxAlphaCo",
+      "keyword": "maxAlphaCo",
+      "context": "PIMPLE",
+      "path": "PIMPLE/maxAlphaCo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHull/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/maxCo",
+      "keyword": "maxCo",
+      "context": "PIMPLE",
+      "path": "PIMPLE/maxCo",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/system/fvSolution",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/maxDeltaT",
+      "keyword": "maxDeltaT",
+      "context": "PIMPLE",
+      "path": "PIMPLE/maxDeltaT",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/system/fvSolution",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/meshFluxCorrection",
+      "keyword": "meshFluxCorrection",
+      "context": "PIMPLE",
+      "path": "PIMPLE/meshFluxCorrection",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "heatTransfer/solidFoam/movingCone/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/momentumPredictor",
+      "keyword": "momentumPredictor",
+      "context": "PIMPLE",
+      "path": "PIMPLE/momentumPredictor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 180,
+      "fileCount": 180,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 97
+        },
+        {
+          "value": "yes",
+          "occurrences": 69
+        },
+        {
+          "value": "false",
+          "occurrences": 9
+        },
+        {
+          "value": "true",
+          "occurrences": 3
+        },
+        {
+          "value": "off",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/coldEngineFoam/freePiston/system/fvSolution",
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution",
+        "combustion/fireFoam/LES/simplePMMApanel/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/moveMeshOuterCorrectors",
+      "keyword": "moveMeshOuterCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/moveMeshOuterCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 3
+        },
+        {
+          "value": "true",
+          "occurrences": 3
+        },
+        {
+          "value": "yes",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contactAngleCavity/system/fvSolution",
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/fvSolution",
+        "incompressible/pimpleFoam/laminar/sloshing2D/system/fvSolution",
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/fvSolution",
+        "multiphase/interFoam/RAS/DTCHullMoving/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nAlphaCorr",
+      "keyword": "nAlphaCorr",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nAlphaCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/system/fvSolution",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nAlphaSpreadIter",
+      "keyword": "nAlphaSpreadIter",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nAlphaSpreadIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHull/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nAlphaSubCycles",
+      "keyword": "nAlphaSubCycles",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nAlphaSubCycles",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
+        "multiphase/interFoam/laminar/waves/waveMakerFlap/system/fvSolution",
+        "multiphase/interFoam/laminar/waves/waveMakerPiston/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nAlphaSweepIter",
+      "keyword": "nAlphaSweepIter",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nAlphaSweepIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHull/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nCorrectors",
+      "keyword": "nCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 270,
+      "fileCount": 270,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSolution",
+        "combustion/coldEngineFoam/freePiston/system/fvSolution",
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nCOrrectors",
+      "keyword": "nCOrrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nCOrrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/acousticFoam/obliqueAirJet/main/system/fvSolution",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/fullCase/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nEnergyCorrectors",
+      "keyword": "nEnergyCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nEnergyCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSolution",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSolution",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/steamInjection/system/fvSolution",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling/system/fvSolution",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nHydrostaticCorrectors",
+      "keyword": "nHydrostaticCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nHydrostaticCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire2D/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire3D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 272,
+      "fileCount": 272,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSolution",
+        "combustion/coldEngineFoam/freePiston/system/fvSolution",
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/nOuterCorrectors",
+      "keyword": "nOuterCorrectors",
+      "context": "PIMPLE",
+      "path": "PIMPLE/nOuterCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 213,
+      "fileCount": 213,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSolution",
+        "basic/overPotentialFoam/cylinder/cylinderMesh/system/fvSolution",
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/oversetAdjustPhi",
+      "keyword": "oversetAdjustPhi",
+      "context": "PIMPLE",
+      "path": "PIMPLE/oversetAdjustPhi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 3
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/overInterDyMFoam/floatingBody/background/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/background/system/fvSolution",
+        "multiphase/overInterDyMFoam/rigidBodyHull/background/system/fvSolution",
+        "multiphase/overInterDyMFoam/simpleRotor/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/pMax",
+      "keyword": "pMax",
+      "context": "PIMPLE",
+      "path": "PIMPLE/pMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/cavity/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/pMaxFactor",
+      "keyword": "pMaxFactor",
+      "context": "PIMPLE",
+      "path": "PIMPLE/pMaxFactor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/fvSolution",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/pMin",
+      "keyword": "pMin",
+      "context": "PIMPLE",
+      "path": "PIMPLE/pMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/cavity/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/pMinFactor",
+      "keyword": "pMinFactor",
+      "context": "PIMPLE",
+      "path": "PIMPLE/pMinFactor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/laminar/helmholtzResonance/system/fvSolution",
+        "compressible/rhoPimpleFoam/LES/pitzDaily/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/pRefCell",
+      "keyword": "pRefCell",
+      "context": "PIMPLE",
+      "path": "PIMPLE/pRefCell",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 60,
+      "fileCount": 60,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantBoussinesqPimpleFoam/BenardCells/system/fvSolution",
+        "heatTransfer/buoyantBoussinesqPimpleFoam/hotRoom/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoom/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/pRefPoint",
+      "keyword": "pRefPoint",
+      "context": "PIMPLE",
+      "path": "PIMPLE/pRefPoint",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "heatTransfer/overBuoyantPimpleDyMFoam/movingBox/system/fvSolution",
+        "incompressible/overPimpleDyMFoam/rotatingSquare/system/fvSolution",
+        "incompressible/overPimpleDyMFoam/simpleRotor/system/fvSolution",
+        "incompressible/overPimpleDyMFoam/twoSimpleRotors/system/fvSolution",
+        "multiphase/interFoam/laminar/damBreakWithObstacle/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/pRefValue",
+      "keyword": "pRefValue",
+      "context": "PIMPLE",
+      "path": "PIMPLE/pRefValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 78,
+      "fileCount": 78,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantBoussinesqPimpleFoam/BenardCells/system/fvSolution",
+        "heatTransfer/buoyantBoussinesqPimpleFoam/hotRoom/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoom/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/rDeltaTDampingCoeff",
+      "keyword": "rDeltaTDampingCoeff",
+      "context": "PIMPLE",
+      "path": "PIMPLE/rDeltaTDampingCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/system/fvSolution",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/rDeltaTSmoothingCoeff",
+      "keyword": "rDeltaTSmoothingCoeff",
+      "context": "PIMPLE",
+      "path": "PIMPLE/rDeltaTSmoothingCoeff",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/system/fvSolution",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuctLTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/residualControl",
+      "keyword": "residualControl",
+      "context": "PIMPLE",
+      "path": "PIMPLE/residualControl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
+        "preProcessing/PDRsetFields/simplePipeCage/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/residualControl/{field}",
+      "keyword": "b",
+      "context": "PIMPLE/residualControl",
+      "path": "PIMPLE/residualControl/{field}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 23,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
+        "preProcessing/PDRsetFields/simplePipeCage/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/residualControl/{field}/relTol",
+      "keyword": "relTol",
+      "context": "PIMPLE/residualControl/{field}",
+      "path": "PIMPLE/residualControl/{field}/relTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 23,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
+        "preProcessing/PDRsetFields/simplePipeCage/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/residualControl/{field}/tolerance",
+      "keyword": "tolerance",
+      "context": "PIMPLE/residualControl/{field}",
+      "path": "PIMPLE/residualControl/{field}/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 23,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
+        "preProcessing/PDRsetFields/simplePipeCage/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/rhoMax",
+      "keyword": "rhoMax",
+      "context": "PIMPLE",
+      "path": "PIMPLE/rhoMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/system/fvSolution",
+        "compressible/rhoPimpleFoam/laminar/sineWaveDamping/system/fvSolution",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution",
+        "compressible/sonicDyMFoam/movingCone/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/rhoMin",
+      "keyword": "rhoMin",
+      "context": "PIMPLE",
+      "path": "PIMPLE/rhoMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/system/fvSolution",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution",
+        "compressible/sonicDyMFoam/movingCone/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/SIMPLErho",
+      "keyword": "SIMPLErho",
+      "context": "PIMPLE",
+      "path": "PIMPLE/SIMPLErho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/solvePrimaryRegion",
+      "keyword": "solvePrimaryRegion",
+      "context": "PIMPLE",
+      "path": "PIMPLE/solvePrimaryRegion",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 3
+        },
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/kinematicParcelFoam/particleDrag/parcelInBox/system/fvSolution",
+        "lagrangian/kinematicParcelFoam/windshield/system/fvSolution",
+        "lagrangian/reactingParcelFoam/movingInjectorBox/system/fvSolution",
+        "lagrangian/reactingParcelFoam/rivuletPanel/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/transonic",
+      "keyword": "transonic",
+      "context": "PIMPLE",
+      "path": "PIMPLE/transonic",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 27,
+      "fileCount": 27,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 22
+        },
+        {
+          "value": "yes",
+          "occurrences": 3
+        },
+        {
+          "value": "false",
+          "occurrences": 1
+        },
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoCentralFoam/movingCone/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/annularThermalMixer/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/externalCoupledSquareBendLiq/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/squareBendLiq/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/turbOnFinalIterOnly",
+      "keyword": "turbOnFinalIterOnly",
+      "context": "PIMPLE",
+      "path": "PIMPLE/turbOnFinalIterOnly",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 3
+        },
+        {
+          "value": "yes",
+          "occurrences": 2
+        },
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
+        "incompressible/pimpleFoam/laminar/planarContraction/system/fvSolution",
+        "incompressible/pimpleFoam/laminar/planarPoiseuille/setups.orig/common/system/fvSolution",
+        "incompressible/pimpleFoam/LES/NACA4412/system/fvSolution",
+        "multiphase/interFoam/RAS/DTCHullMoving/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/Yref",
+      "keyword": "Yref",
+      "context": "PIMPLE",
+      "path": "PIMPLE/Yref",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/Yref/CH4",
+      "keyword": "CH4",
+      "context": "PIMPLE/Yref",
+      "path": "PIMPLE/Yref/CH4",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PIMPLE/Yref/O2",
+      "keyword": "O2",
+      "context": "PIMPLE/Yref",
+      "path": "PIMPLE/Yref/O2",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution",
+        "combustion/reactingFoam/RAS/SandiaD_LTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PISO",
+      "keyword": "PISO",
+      "context": "",
+      "path": "PISO",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [],
+      "examples": [
+        "DNS/dnsFoam/boxTurb16/system/fvSolution",
+        "electromagnetics/mhdFoam/hartmann/system/fvSolution",
+        "incompressible/boundaryFoam/steadyBoundaryLayer/setups.orig/common/system/fvSolution",
+        "incompressible/icoFoam/cavity/cavity/system/fvSolution",
+        "incompressible/icoFoam/cavity/cavityClipped/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PISO/momentumPredictor",
+      "keyword": "momentumPredictor",
+      "context": "PISO",
+      "path": "PISO/momentumPredictor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/boundaryFoam/steadyBoundaryLayer/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PISO/nCorrectors",
+      "keyword": "nCorrectors",
+      "context": "PISO",
+      "path": "PISO/nCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [],
+      "examples": [
+        "DNS/dnsFoam/boxTurb16/system/fvSolution",
+        "electromagnetics/mhdFoam/hartmann/system/fvSolution",
+        "incompressible/boundaryFoam/steadyBoundaryLayer/setups.orig/common/system/fvSolution",
+        "incompressible/icoFoam/cavity/cavity/system/fvSolution",
+        "incompressible/icoFoam/cavity/cavityClipped/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PISO/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "PISO",
+      "path": "PISO/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [],
+      "examples": [
+        "DNS/dnsFoam/boxTurb16/system/fvSolution",
+        "electromagnetics/mhdFoam/hartmann/system/fvSolution",
+        "incompressible/boundaryFoam/steadyBoundaryLayer/setups.orig/common/system/fvSolution",
+        "incompressible/icoFoam/cavity/cavity/system/fvSolution",
+        "incompressible/icoFoam/cavity/cavityClipped/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PISO/pRefCell",
+      "keyword": "pRefCell",
+      "context": "PISO",
+      "path": "PISO/pRefCell",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "incompressible/icoFoam/cavity/cavity/system/fvSolution",
+        "incompressible/icoFoam/cavity/cavityClipped/system/fvSolution",
+        "incompressible/icoFoam/cavity/cavityGrade/system/fvSolution",
+        "incompressible/icoFoam/cavityMappingTest/system/fvSolution",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "PISO/pRefValue",
+      "keyword": "pRefValue",
+      "context": "PISO",
+      "path": "PISO/pRefValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "incompressible/icoFoam/cavity/cavity/system/fvSolution",
+        "incompressible/icoFoam/cavity/cavityClipped/system/fvSolution",
+        "incompressible/icoFoam/cavity/cavityGrade/system/fvSolution",
+        "incompressible/icoFoam/cavityMappingTest/system/fvSolution",
+        "incompressible/pimpleFoam/LES/planeChannel/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "potentialFlow",
+      "keyword": "potentialFlow",
+      "context": "",
+      "path": "potentialFlow",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 23,
+      "fileCount": 23,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/fvSolution",
+        "basic/potentialFoam/cylinder/system/fvSolution",
+        "basic/potentialFoam/pitzDaily/system/fvSolution",
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/fvSolution",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "potentialFlow/nCorrectors",
+      "keyword": "nCorrectors",
+      "context": "potentialFlow",
+      "path": "potentialFlow/nCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/fvSolution"
+      ]
+    },
+    {
+      "key": "potentialFlow/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "potentialFlow",
+      "path": "potentialFlow/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 23,
+      "fileCount": 23,
+      "values": [],
+      "examples": [
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/fvSolution",
+        "basic/potentialFoam/cylinder/system/fvSolution",
+        "basic/potentialFoam/pitzDaily/system/fvSolution",
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/fvSolution",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors",
+      "keyword": "relaxationFactors",
+      "context": "",
+      "path": "relaxationFactors",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 340,
+      "fileCount": 338,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
+        "basic/simpleFoam/implicitAMI/system/fvSolution",
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-PIMPLE",
+      "keyword": "relaxationFactors-PIMPLE",
+      "context": "",
+      "path": "relaxationFactors-PIMPLE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-PIMPLE/equations",
+      "keyword": "equations",
+      "context": "relaxationFactors-PIMPLE",
+      "path": "relaxationFactors-PIMPLE/equations",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-PIMPLE/equations/.*Final",
+      "keyword": ".*Final",
+      "context": "relaxationFactors-PIMPLE/equations",
+      "path": "relaxationFactors-PIMPLE/equations/.*Final",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-PIMPLE/equations/(k|epsilon)",
+      "keyword": "(k|epsilon)",
+      "context": "relaxationFactors-PIMPLE/equations",
+      "path": "relaxationFactors-PIMPLE/equations/(k|epsilon)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-PIMPLE/equations/e",
+      "keyword": "e",
+      "context": "relaxationFactors-PIMPLE/equations",
+      "path": "relaxationFactors-PIMPLE/equations/e",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-PIMPLE/equations/tracer0",
+      "keyword": "tracer0",
+      "context": "relaxationFactors-PIMPLE/equations",
+      "path": "relaxationFactors-PIMPLE/equations/tracer0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-PIMPLE/equations/U",
+      "keyword": "U",
+      "context": "relaxationFactors-PIMPLE/equations",
+      "path": "relaxationFactors-PIMPLE/equations/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-SIMPLE",
+      "keyword": "relaxationFactors-SIMPLE",
+      "context": "",
+      "path": "relaxationFactors-SIMPLE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-SIMPLE/equations",
+      "keyword": "equations",
+      "context": "relaxationFactors-SIMPLE",
+      "path": "relaxationFactors-SIMPLE/equations",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-SIMPLE/equations/.*Final",
+      "keyword": ".*Final",
+      "context": "relaxationFactors-SIMPLE/equations",
+      "path": "relaxationFactors-SIMPLE/equations/.*Final",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-SIMPLE/equations/(k|epsilon)",
+      "keyword": "(k|epsilon)",
+      "context": "relaxationFactors-SIMPLE/equations",
+      "path": "relaxationFactors-SIMPLE/equations/(k|epsilon)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-SIMPLE/equations/e",
+      "keyword": "e",
+      "context": "relaxationFactors-SIMPLE/equations",
+      "path": "relaxationFactors-SIMPLE/equations/e",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-SIMPLE/equations/tracer0",
+      "keyword": "tracer0",
+      "context": "relaxationFactors-SIMPLE/equations",
+      "path": "relaxationFactors-SIMPLE/equations/tracer0",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-SIMPLE/equations/U",
+      "keyword": "U",
+      "context": "relaxationFactors-SIMPLE/equations",
+      "path": "relaxationFactors-SIMPLE/equations/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-SIMPLE/fields",
+      "keyword": "fields",
+      "context": "relaxationFactors-SIMPLE",
+      "path": "relaxationFactors-SIMPLE/fields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors-SIMPLE/fields/{field}",
+      "keyword": "p",
+      "context": "relaxationFactors-SIMPLE/fields",
+      "path": "relaxationFactors-SIMPLE/fields/{field}",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/_$",
+      "keyword": "_$",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/_$",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution",
+        "incompressible/lumpedPointMotion/building/steady/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/.*Final",
+      "keyword": ".*Final",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/.*Final",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/vortexShed/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/(k|epsilon|omega)",
+      "keyword": "(k|epsilon|omega)",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/(k|epsilon|omega)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/(U|k|epsilon).*",
+      "keyword": "(U|k|epsilon).*",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/(U|k|epsilon).*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/propeller/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/propeller1/system/fvSolution",
+        "mesh/moveDynamicMesh/relativeMotion/box_snappyHexMesh/system/fvSolution",
+        "multiphase/interPhaseChangeDyMFoam/propeller/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/alpha.*",
+      "keyword": "alpha.*",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/alpha.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/epsilon",
+      "keyword": "epsilon",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/epsilon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/epsilon.*",
+      "keyword": "epsilon.*",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/epsilon.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations",
+      "keyword": "equations",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/equations",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 321,
+      "fileCount": 321,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
+        "basic/simpleFoam/implicitAMI/system/fvSolution",
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/.*",
+      "keyword": ".*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 127,
+      "fileCount": 127,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS/system/fvSolution",
+        "combustion/reactingFoam/laminar/counterFlowFlame2DLTS_GRI_TDAC/system/fvSolution",
+        "combustion/reactingFoam/RAS/chokedNozzle/system/fvSolution",
+        "combustion/reactingFoam/RAS/DLR_A_LTS/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/.*Final",
+      "keyword": ".*Final",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/.*Final",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 10,
+      "fileCount": 10,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/transient/system/fvSolution",
+        "lagrangian/reactingParcelFoam/cylinder/system/fvSolution",
+        "lagrangian/reactingParcelFoam/filter/system/fvSolution",
+        "lagrangian/reactingParcelFoam/hotBoxes/system/fvSolution",
+        "lagrangian/reactingParcelFoam/recycleParticles/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(b|Xi|Xp|Ep|GRxp|GRep|ft|ha|hau|k|epsilon|H2OPS)",
+      "keyword": "(b|Xi|Xp|Ep|GRxp|GRep|ft|ha|hau|k|epsilon|H2OPS)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(b|Xi|Xp|Ep|GRxp|GRep|ft|ha|hau|k|epsilon|H2OPS)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/system/fvSolution",
+        "preProcessing/PDRsetFields/simplePipeCage/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(b|Xi|Xp|Ep|GRxp|GRep|ft|ha|hau|k|epsilon|H2OPS)Final",
+      "keyword": "(b|Xi|Xp|Ep|GRxp|GRep|ft|ha|hau|k|epsilon|H2OPS)Final",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(b|Xi|Xp|Ep|GRxp|GRep|ft|ha|hau|k|epsilon|H2OPS)Final",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/system/fvSolution",
+        "preProcessing/PDRsetFields/simplePipeCage/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(C3H8|O2|H2O|CO2|h).*",
+      "keyword": "(C3H8|O2|H2O|CO2|h).*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(C3H8|O2|H2O|CO2|h).*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
+        "combustion/fireFoam/LES/simplePMMApanel/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(C7H16|O2|H2O|CO2|h).*",
+      "keyword": "(C7H16|O2|H2O|CO2|h).*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(C7H16|O2|H2O|CO2|h).*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(CH4|O2|H2O|CO2|h).*",
+      "keyword": "(CH4|O2|H2O|CO2|h).*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(CH4|O2|H2O|CO2|h).*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/smallPoolFire3D/system/fvSolution",
+        "combustion/rhoReactingFoam/groundAbsorption/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(epsilon|omega)",
+      "keyword": "(epsilon|omega)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(epsilon|omega)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/squareBend/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(k|epsilon)",
+      "keyword": "(k|epsilon)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(k|epsilon)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/implicit/system/fvSolution",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/fvSolution",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/system/fvSolution",
+        "incompressible/adjointShapeOptimizationFoam/pitzDaily/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(k|epsilon|omega)",
+      "keyword": "(k|epsilon|omega)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(k|epsilon|omega)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/system/fvSolution",
+        "verificationAndValidation/atmosphericModels/atmDownstreamDevelopment/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(k|epsilon|omega|nuTilda|phit|f)",
+      "keyword": "(k|epsilon|omega|nuTilda|phit|f)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(k|epsilon|omega|nuTilda|phit|f)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/bump2D/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(k|epsilon|R)",
+      "keyword": "(k|epsilon|R)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(k|epsilon|R)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantBoussinesqSimpleFoam/hotRoom/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/hotRadiationRoom/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(k|kFinal)",
+      "keyword": "(k|kFinal)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(k|kFinal)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/fvSolution",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(k|omega)",
+      "keyword": "(k|omega)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(k|omega)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSolution",
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/steady/system/fvSolution",
+        "mesh/snappyHexMesh/aerofoilNACA0012_directionalRefinement/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(k|omega|epsilon)",
+      "keyword": "(k|omega|epsilon)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(k|omega|epsilon)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/rotorDisk/system/fvSolution",
+        "mesh/moveDynamicMesh/rotorDisk_inclined/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(k|omega|epsilon).*",
+      "keyword": "(k|omega|epsilon).*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(k|omega|epsilon).*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/simpleFoam/windAroundBuildings/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(nuTilda|nuTildaFinal)",
+      "keyword": "(nuTilda|nuTildaFinal)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(nuTilda|nuTildaFinal)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/fvSolution",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(omega|omegaFinal)",
+      "keyword": "(omega|omegaFinal)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(omega|omegaFinal)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/fvSolution",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(phit|f)",
+      "keyword": "(phit|f)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(phit|f)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/schemes/nonOrthogonalChannel/setups.orig/common/system/fvSolution",
+        "verificationAndValidation/turbulenceModels/planeChannel/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(U|e|k|epsilon).*",
+      "keyword": "(U|e|k|epsilon).*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(U|e|k|epsilon).*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(U|h|k|epsilon|omega).*",
+      "keyword": "(U|h|k|epsilon|omega).*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(U|h|k|epsilon|omega).*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/annularThermalMixer/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(U|k).*",
+      "keyword": "(U|k).*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(U|k).*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution",
+        "combustion/fireFoam/LES/simplePMMApanel/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire2D/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire3D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(U|k|omega)",
+      "keyword": "(U|k|omega)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(U|k|omega)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/overSimpleFoam/aeroFoil/aeroFoil_overset/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/wingMotion/wingMotion2D_pimpleFoam/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/wingMotion/wingMotion2D_simpleFoam/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(U|k|omega)Final",
+      "keyword": "(U|k|omega)Final",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(U|k|omega)Final",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/overSimpleFoam/aeroFoil/aeroFoil_overset/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/wingMotion/wingMotion2D_pimpleFoam/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/wingMotion/wingMotion2D_simpleFoam/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(U|T|k|epsilon|R)",
+      "keyword": "(U|T|k|epsilon|R)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(U|T|k|epsilon|R)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantBoussinesqPimpleFoam/hotRoom/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(U|T|k|epsilon|R)Final",
+      "keyword": "(U|T|k|epsilon|R)Final",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(U|T|k|epsilon|R)Final",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantBoussinesqPimpleFoam/hotRoom/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(U|Ua)",
+      "keyword": "(U|Ua)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(U|Ua)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/adjointShapeOptimizationFoam/pitzDaily/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/(U|UFinal)",
+      "keyword": "(U|UFinal)",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/(U|UFinal)",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/NACA4412/system/fvSolution",
+        "incompressible/pimpleFoam/LES/wallMountedHump/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/age",
+      "keyword": "age",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/age",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/da",
+      "keyword": "da",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/da",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/singlePoint/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/SA/opt/losses/BFGS/op1/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/da.*",
+      "keyword": "da.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/da.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 25,
+      "fileCount": 25,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/SA/opt/losses/BFGS/multiPoint/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/e",
+      "keyword": "e",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/e",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/implicit/system/fvSolution",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSolution",
+        "compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBend/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/e.*",
+      "keyword": "e.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/e.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_2phase/system/fvSolution",
+        "multiphase/reactingMultiphaseEulerFoam/RAS/wallBoiling1D_3phase/system/fvSolution",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling1D/system/fvSolution",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/electricPotential:V",
+      "keyword": "electricPotential:V",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/electricPotential:V",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/electrostaticDeposition/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/epsilon",
+      "keyword": "epsilon",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/epsilon",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 21,
+      "fileCount": 21,
+      "values": [],
+      "examples": [
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBend/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/hotRadiationRoomFvDOM/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/epsilon.*",
+      "keyword": "epsilon.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/epsilon.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/TJunction/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/TJunctionArrheniusBirdCarreauTransport/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/TJunctionFan/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/TJunctionSwitching/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/G",
+      "keyword": "G",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/G",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/hotRadiationRoom/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/h",
+      "keyword": "h",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/h",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/hotRadiationRoom/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/hotRadiationRoomFvDOM/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/h.*",
+      "keyword": "h.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/h.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution",
+        "heatTransfer/solidFoam/movingCone/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/ILambda.*",
+      "keyword": "ILambda.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/ILambda.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/hotRadiationRoomFvDOM/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/k",
+      "keyword": "k",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/k",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 30,
+      "fileCount": 30,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBend/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/k.*",
+      "keyword": "k.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/k.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 13,
+      "fileCount": 13,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/TJunction/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/TJunctionArrheniusBirdCarreauTransport/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/TJunctionFan/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/ka",
+      "keyword": "ka",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/ka",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/kOmegaSST/opt/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/ka.*",
+      "keyword": "ka.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/ka.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/name",
+      "keyword": "name",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/name",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "banana",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "mesh/blockMesh/pipe/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/nua.*",
+      "keyword": "nua.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/nua.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/nuaTilda",
+      "keyword": "nuaTilda",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/nuaTilda",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 12,
+      "fileCount": 12,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/singlePoint/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/SA/opt/losses/BFGS/op1/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/nuaTilda.*",
+      "keyword": "nuaTilda.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/nuaTilda.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/SA/opt/losses/BFGS/multiPoint/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/nuT.*",
+      "keyword": "nuT.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/nuT.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/reEval/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_05x_NB_01/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/reEval/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_01/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/topologyOptimisation/monoFluidAero/turbulent/1_Inlet_2_Outlet/levelSet/R_10x_NB_02/reEval/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/nuTilda",
+      "keyword": "nuTilda",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/nuTilda",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/singlePoint/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/SA/opt/losses/BFGS/op1/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/nuTilda.*",
+      "keyword": "nuTilda.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/nuTilda.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/SA/opt/losses/BFGS/multiPoint/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/omega",
+      "keyword": "omega",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/omega",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/kOmegaSST/opt/system/fvSolution",
+        "incompressible/boundaryFoam/steadyBoundaryLayer/setups.orig/common/system/fvSolution",
+        "incompressible/overSimpleFoam/aeroFoil/background_overset/system/fvSolution",
+        "incompressible/simpleFoam/motorBike/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/omega.*",
+      "keyword": "omega.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/omega.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/p",
+      "keyword": "p",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/squareBend/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/p_rgh",
+      "keyword": "p_rgh",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/p_rgh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/R",
+      "keyword": "R",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/R",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "incompressible/boundaryFoam/steadyBoundaryLayer/setups.orig/common/system/fvSolution",
+        "incompressible/pimpleFoam/LES/surfaceMountedCube/initChannel/system/fvSolution",
+        "incompressible/simpleFoam/pitzDailyExptInlet/system/fvSolution",
+        "verificationAndValidation/turbulenceModels/planeChannel/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/s.*",
+      "keyword": "s.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/s.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 6,
+      "fileCount": 6,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunction/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/TJunctionSwitching/system/fvSolution",
+        "mesh/createPatch/TJunctionSwitching_createPatch/bottom/system/fvSolution",
+        "mesh/createPatch/TJunctionSwitching_createPatch/inlet/system/fvSolution",
+        "mesh/createPatch/TJunctionSwitching_createPatch/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/T",
+      "keyword": "T",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/T",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantBoussinesqSimpleFoam/hotRoom/system/fvSolution",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/system/fvSolution",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/precursor/setups.orig/common/system/fvSolution",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/fvSolution",
+        "verificationAndValidation/atmosphericModels/atmForestStability/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/T.*",
+      "keyword": "T.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/T.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/TJunctionArrheniusBirdCarreauTransport/system/fvSolution",
+        "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
+        "multiphase/interFoam/RAS/mixerVesselAMI/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/U",
+      "keyword": "U",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 129,
+      "fileCount": 129,
+      "values": [
+        {
+          "value": "lookup",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
+        "basic/simpleFoam/implicitAMI/system/fvSolution",
+        "combustion/PDRFoam/pipeLattice/system/fvSolution",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/U.*",
+      "keyword": "U.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/U.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 42,
+      "fileCount": 42,
+      "values": [],
+      "examples": [
+        "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/Ua",
+      "keyword": "Ua",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/Ua",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 19,
+      "fileCount": 19,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/laminar/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/singlePoint/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/Ua.*",
+      "keyword": "Ua.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/Ua.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 65,
+      "fileCount": 65,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/drag/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/lift/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/laminar/moment/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/UFinal",
+      "keyword": "UFinal",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/UFinal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "combustion/PDRFoam/pipeLattice/system/fvSolution",
+        "preProcessing/PDRsetFields/simplePipeCage/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/Urel.*",
+      "keyword": "Urel.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/Urel.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/SRFPimpleFoam/rotor2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/wa",
+      "keyword": "wa",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/wa",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/sbend/turbulent/kOmegaSST/opt/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/wa.*",
+      "keyword": "wa.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/wa.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/yWall",
+      "keyword": "yWall",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/yWall",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 34,
+      "fileCount": 34,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/motorBike/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/highRe/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/multiPoint/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/sbend/turbulent/lowRe/singlePoint/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/motorBike/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/equations/yWall.*",
+      "keyword": "yWall.*",
+      "context": "relaxationFactors/equations",
+      "path": "relaxationFactors/equations/yWall.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftFullSetup/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/sensitivityMaps/naca0012/turbulent/liftMinimumSetup/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/naca0012/kOmegaSST/lift/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/fields",
+      "keyword": "fields",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/fields",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 167,
+      "fileCount": 167,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
+        "basic/simpleFoam/implicitAMI/system/fvSolution",
+        "combustion/PDRFoam/pipeLattice/system/fvSolution",
+        "compressible/overRhoPimpleDyMFoam/twoSimpleRotors/system/fvSolution",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/fields/{field}",
+      "keyword": "p",
+      "context": "relaxationFactors/fields",
+      "path": "relaxationFactors/fields/{field}",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 235,
+      "fileCount": 137,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
+        "basic/simpleFoam/implicitAMI/system/fvSolution",
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/angledDuct/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/h",
+      "keyword": "h",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/h",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/k",
+      "keyword": "k",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/k",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/k.*",
+      "keyword": "k.*",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/k.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/nuTilda",
+      "keyword": "nuTilda",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/nuTilda",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/vortexShed/system/fvSolution",
+        "incompressible/pisoFoam/LES/motorBike/motorBike/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/p",
+      "keyword": "p",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/p",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/LES/vortexShed/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/fvSolution",
+        "incompressible/pisoFoam/LES/motorBike/motorBike/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/p_rgh",
+      "keyword": "p_rgh",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/p_rgh",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/rho",
+      "keyword": "rho",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/rho",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/T.*",
+      "keyword": "T.*",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/T.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/Theta.*",
+      "keyword": "Theta.*",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/Theta.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/U",
+      "keyword": "U",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/U",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/fvSolution",
+        "incompressible/pimpleFoam/LES/vortexShed/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/fvSolution",
+        "incompressible/pisoFoam/LES/motorBike/motorBike/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/U.*",
+      "keyword": "U.*",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/U.*",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/system/fvSolution",
+        "multiphase/multiphaseEulerFoam/damBreak4phase/system/fvSolution",
+        "multiphase/multiphaseEulerFoam/damBreak4phaseFine/system/fvSolution",
+        "multiphase/multiphaseEulerFoam/mixerVessel2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "relaxationFactors/UFinal",
+      "keyword": "UFinal",
+      "context": "relaxationFactors",
+      "path": "relaxationFactors/UFinal",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/RAS/axialTurbine_rotating_oneBlade/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE",
+      "keyword": "SIMPLE",
+      "context": "",
+      "path": "SIMPLE",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 174,
+      "fileCount": 174,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/consistent",
+      "keyword": "consistent",
+      "context": "SIMPLE",
+      "path": "SIMPLE/consistent",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 25,
+      "fileCount": 25,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 20
+        },
+        {
+          "value": "true",
+          "occurrences": 3
+        },
+        {
+          "value": "no",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBend/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/fvSolution",
+        "incompressible/lumpedPointMotion/bridge/steady/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/energyCoupling",
+      "keyword": "energyCoupling",
+      "context": "SIMPLE",
+      "path": "SIMPLE/energyCoupling",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/energyCoupling/convergence",
+      "keyword": "convergence",
+      "context": "SIMPLE/energyCoupling",
+      "path": "SIMPLE/energyCoupling/convergence",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/energyCoupling/convergence/h",
+      "keyword": "h",
+      "context": "SIMPLE/energyCoupling/convergence",
+      "path": "SIMPLE/energyCoupling/convergence/h",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/energyCoupling/interval",
+      "keyword": "interval",
+      "context": "SIMPLE/energyCoupling",
+      "path": "SIMPLE/energyCoupling/interval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/energyCoupling/iterations",
+      "keyword": "iterations",
+      "context": "SIMPLE/energyCoupling",
+      "path": "SIMPLE/energyCoupling/iterations",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/energyCoupling/onConverged",
+      "keyword": "onConverged",
+      "context": "SIMPLE/energyCoupling",
+      "path": "SIMPLE/energyCoupling/onConverged",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/energyCoupling/onEnd",
+      "keyword": "onEnd",
+      "context": "SIMPLE/energyCoupling",
+      "path": "SIMPLE/energyCoupling/onEnd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/energyCoupling/onLoop",
+      "keyword": "onLoop",
+      "context": "SIMPLE/energyCoupling",
+      "path": "SIMPLE/energyCoupling/onLoop",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/energyCoupling/timeEnd",
+      "keyword": "timeEnd",
+      "context": "SIMPLE/energyCoupling",
+      "path": "SIMPLE/energyCoupling/timeEnd",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/energyCoupling/timeStart",
+      "keyword": "timeStart",
+      "context": "SIMPLE/energyCoupling",
+      "path": "SIMPLE/energyCoupling/timeStart",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/externalCoupledHeater/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/momentumPredictor",
+      "keyword": "momentumPredictor",
+      "context": "SIMPLE",
+      "path": "SIMPLE/momentumPredictor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 4
+        },
+        {
+          "value": "true",
+          "occurrences": 2
+        },
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/comfortHotRoom/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/roomWithThickCeiling/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/nCorrectors",
+      "keyword": "nCorrectors",
+      "context": "SIMPLE",
+      "path": "SIMPLE/nCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "incompressible/overSimpleFoam/aeroFoil/background_overset/system/fvSolution",
+        "lagrangian/simpleReactingParcelFoam/verticalChannel/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/nNonOrthogonalCorrectors",
+      "keyword": "nNonOrthogonalCorrectors",
+      "context": "SIMPLE",
+      "path": "SIMPLE/nNonOrthogonalCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 171,
+      "fileCount": 171,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/nOuterCorrectors",
+      "keyword": "nOuterCorrectors",
+      "context": "SIMPLE",
+      "path": "SIMPLE/nOuterCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "incompressible/overSimpleFoam/aeroFoil/background_overset/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/nUCorrectors",
+      "keyword": "nUCorrectors",
+      "context": "SIMPLE",
+      "path": "SIMPLE/nUCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "compressible/rhoPorousSimpleFoam/angledDuct/implicit/system/fvSolution",
+        "incompressible/porousSimpleFoam/angledDuct/implicit/system/fvSolution",
+        "incompressible/porousSimpleFoam/straightDuctImplicit/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/oversetPatchErrOutput",
+      "keyword": "oversetPatchErrOutput",
+      "context": "SIMPLE",
+      "path": "SIMPLE/oversetPatchErrOutput",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/pMaxFactor",
+      "keyword": "pMaxFactor",
+      "context": "SIMPLE",
+      "path": "SIMPLE/pMaxFactor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [],
+      "examples": [
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/implicit/system/fvSolution",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/pMinFactor",
+      "keyword": "pMinFactor",
+      "context": "SIMPLE",
+      "path": "SIMPLE/pMinFactor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [],
+      "examples": [
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/implicit/system/fvSolution",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/pRefCell",
+      "keyword": "pRefCell",
+      "context": "SIMPLE",
+      "path": "SIMPLE/pRefCell",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantBoussinesqSimpleFoam/hotRoom/system/fvSolution",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/hotRadiationRoom/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/pRefValue",
+      "keyword": "pRefValue",
+      "context": "SIMPLE",
+      "path": "SIMPLE/pRefValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 20,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantBoussinesqSimpleFoam/hotRoom/system/fvSolution",
+        "heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/buoyantCavity/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/circuitBoardCooling/system/fvSolution",
+        "heatTransfer/buoyantSimpleFoam/hotRadiationRoom/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/residualControl",
+      "keyword": "residualControl",
+      "context": "SIMPLE",
+      "path": "SIMPLE/residualControl",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/implicit/system/fvSolution",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/residualControl/{field}",
+      "keyword": "p",
+      "context": "SIMPLE/residualControl",
+      "path": "SIMPLE/residualControl/{field}",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 125,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "compressible/overRhoSimpleFoam/hotCylinder/cylinderAndBackground/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/aerofoilNACA0012/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/explicit/system/fvSolution",
+        "compressible/rhoPorousSimpleFoam/angledDuct/implicit/system/fvSolution",
+        "compressible/rhoSimpleFoam/aerofoilNACA0012/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/rhoMax",
+      "keyword": "rhoMax",
+      "context": "SIMPLE",
+      "path": "SIMPLE/rhoMax",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution",
+        "lagrangian/simpleReactingParcelFoam/verticalChannel/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/rhoMin",
+      "keyword": "rhoMin",
+      "context": "SIMPLE",
+      "path": "SIMPLE/rhoMin",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution",
+        "lagrangian/simpleReactingParcelFoam/verticalChannel/system/fvSolution"
+      ]
+    },
+    {
+      "key": "SIMPLE/transonic",
+      "keyword": "transonic",
+      "context": "SIMPLE",
+      "path": "SIMPLE/transonic",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 2
+        },
+        {
+          "value": "false",
+          "occurrences": 1
+        },
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBend/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBendLiq/system/fvSolution",
+        "compressible/rhoSimpleFoam/squareBendLiqNoNewtonian/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers",
+      "keyword": "solvers",
+      "context": "",
+      "path": "solvers",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 515,
+      "fileCount": 515,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}",
+      "keyword": "T",
+      "context": "solvers",
+      "path": "solvers/{solver}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2137,
+      "fileCount": 498,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/agglomerator",
+      "keyword": "agglomerator",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/agglomerator",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 42,
+      "fileCount": 35,
+      "values": [
+        {
+          "value": "faceAreaPair",
+          "occurrences": 42
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/simplePMMApanel/system/fvSolution",
+        "combustion/reactingFoam/RAS/chokedNozzle/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/alphaApplyPrevCorr",
+      "keyword": "alphaApplyPrevCorr",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/alphaApplyPrevCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "no",
+          "occurrences": 10
+        },
+        {
+          "value": "yes",
+          "occurrences": 5
+        },
+        {
+          "value": "true",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/driftFluxFoam/RAS/dahl/system/fvSolution",
+        "multiphase/driftFluxFoam/RAS/mixerVessel2D/system/fvSolution",
+        "multiphase/driftFluxFoam/RAS/tank3D/system/fvSolution",
+        "multiphase/interFoam/RAS/DTCHull/system/fvSolution",
+        "multiphase/interFoam/RAS/DTCHullMoving/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/alphaOuterCorrectors",
+      "keyword": "alphaOuterCorrectors",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/alphaOuterCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interFoam/laminar/waves/waveMakerSolitary/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/cacheAgglomeration",
+      "keyword": "cacheAgglomeration",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/cacheAgglomeration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 38,
+      "fileCount": 33,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 20
+        },
+        {
+          "value": "on",
+          "occurrences": 10
+        },
+        {
+          "value": "yes",
+          "occurrences": 6
+        },
+        {
+          "value": "no",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/simplePMMApanel/system/fvSolution",
+        "combustion/reactingFoam/RAS/chokedNozzle/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/cAlpha",
+      "keyword": "cAlpha",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/cAlpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 86,
+      "fileCount": 86,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
+        "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/cAlphas",
+      "keyword": "cAlphas",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/cAlphas",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/oxideFormation/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/clip",
+      "keyword": "clip",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/clip",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 10
+        },
+        {
+          "value": "false",
+          "occurrences": 7
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/interIsoFoam/damBreak/system/fvSolution",
+        "multiphase/interIsoFoam/damBreakWithObstacle/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/cYi",
+      "keyword": "cYi",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/cYi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporationMultiComponent/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/icAlpha",
+      "keyword": "icAlpha",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/icAlpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 11,
+      "fileCount": 11,
+      "values": [],
+      "examples": [
+        "multiphase/interFoam/RAS/DTCHull/system/fvSolution",
+        "multiphase/interFoam/RAS/DTCHullMoving/system/fvSolution",
+        "multiphase/interFoam/RAS/electrostaticDeposition/system/fvSolution",
+        "multiphase/overCompressibleInterDyMFoam/compressibleTwoSimpleRotors/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBody/background/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/implicitPhasePressure",
+      "keyword": "implicitPhasePressure",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/implicitPhasePressure",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/fluidisedBed/system/fvSolution",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/fluidisedBed/system/fvSolution",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/system/fvSolution",
+        "multiphase/twoPhaseEulerFoam/laminar/fluidisedBed/system/fvSolution",
+        "multiphase/twoPhaseEulerFoam/RAS/fluidisedBed/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/isoFaceTol",
+      "keyword": "isoFaceTol",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/isoFaceTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 16,
+      "fileCount": 16,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/interIsoFoam/damBreak/system/fvSolution",
+        "multiphase/interIsoFoam/damBreakWithObstacle/system/fvSolution",
+        "multiphase/interIsoFoam/discInConstantFlow/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/maxIter",
+      "keyword": "maxIter",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/maxIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 145,
+      "fileCount": 91,
+      "values": [],
+      "examples": [
+        "basic/overLaplacianDyMFoam/heatTransfer/system/fvSolution",
+        "basic/overLaplacianDyMFoam/heatTransferFluxConservation1D/system/fvSolution",
+        "basic/overPotentialFoam/cylinder/cylinderAndBackground/system/fvSolution",
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/mergeLevels",
+      "keyword": "mergeLevels",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/mergeLevels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 40,
+      "fileCount": 35,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/simplePMMApanel/system/fvSolution",
+        "combustion/reactingFoam/RAS/chokedNozzle/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/minIter",
+      "keyword": "minIter",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/minIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 159,
+      "fileCount": 61,
+      "values": [],
+      "examples": [
+        "combustion/XiDyMFoam/annularCombustorTurbine/system/fvSolution",
+        "combustion/XiDyMFoam/oscillatingCylinder/system/fvSolution",
+        "compressible/rhoPimpleAdiabaticFoam/rutlandVortex2D/system/fvSolution",
+        "compressible/rhoSimpleFoam/gasMixing/injectorPipe/system/fvSolution",
+        "heatTransfer/solidFoam/multiSolidWithAnisoConduction/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/MULESCorr",
+      "keyword": "MULESCorr",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/MULESCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 31
+        },
+        {
+          "value": "no",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/waterCooler/fluid/system/fvSolution",
+        "multiphase/driftFluxFoam/RAS/dahl/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nAgglomeratingCells",
+      "keyword": "nAgglomeratingCells",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nAgglomeratingCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/system/fvSolution",
+        "verificationAndValidation/atmosphericModels/atmFlatTerrain/successor/setups.orig/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nAlphaBounds",
+      "keyword": "nAlphaBounds",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nAlphaBounds",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/interIsoFoam/damBreak/system/fvSolution",
+        "multiphase/interIsoFoam/damBreakWithObstacle/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nAlphaCorr",
+      "keyword": "nAlphaCorr",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nAlphaCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 110,
+      "fileCount": 110,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
+        "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nAlphaSubCycles",
+      "keyword": "nAlphaSubCycles",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nAlphaSubCycles",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 131,
+      "fileCount": 131,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/mixerVessel/system/fvSolution",
+        "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nCellsInCoarsestLevel",
+      "keyword": "nCellsInCoarsestLevel",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nCellsInCoarsestLevel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 61,
+      "fileCount": 53,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution",
+        "combustion/fireFoam/LES/simplePMMApanel/system/fvSolution",
+        "combustion/reactingFoam/RAS/chokedNozzle/system/fvSolution",
+        "compressible/rhoPimpleFoam/RAS/mixerVessel2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nCorr",
+      "keyword": "nCorr",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nCorr",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnPolydisperse/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nFinestSweeps",
+      "keyword": "nFinestSweeps",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nFinestSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 4,
+      "fileCount": 4,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/steady/system/fvSolution",
+        "multiphase/interFoam/RAS/motorBike/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBody/floatingBody/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/floatingBody/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nLimiterIter",
+      "keyword": "nLimiterIter",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nLimiterIter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 36,
+      "fileCount": 36,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/waterCooler/fluid/system/fvSolution",
+        "multiphase/driftFluxFoam/RAS/dahl/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/norm",
+      "keyword": "norm",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/norm",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "default",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/scalarTransportFoam/movingSource/system/fvSolution",
+        "basic/scalarTransportFoam/pitzDaily/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nPostSweeps",
+      "keyword": "nPostSweeps",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nPostSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 25,
+      "fileCount": 25,
+      "values": [],
+      "examples": [
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire2D/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire3D/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nPreSweeps",
+      "keyword": "nPreSweeps",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nPreSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 21,
+      "fileCount": 21,
+      "values": [],
+      "examples": [
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/hotRoomWithThermalShell.multi-area/system/fvSolution",
+        "heatTransfer/buoyantPimpleFoam/thermocoupleTestCase/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/fork-uneven/flowRate/system/fvSolution",
+        "incompressible/adjointOptimisationFoam/shapeOptimisation/fork-uneven/flowRatePartition/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nSweeps",
+      "keyword": "nSweeps",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 99,
+      "fileCount": 71,
+      "values": [],
+      "examples": [
+        "basic/simpleFoam/implicitAMI/system/fvSolution",
+        "combustion/fireFoam/LES/oppositeBurningPanels/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire2D/system/fvSolution",
+        "combustion/fireFoam/LES/smallPoolFire3D/system/fvSolution",
+        "combustion/rhoReactingFoam/groundAbsorption/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/nVcycles",
+      "keyword": "nVcycles",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/nVcycles",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/reactingParcelFoam/airRecirculationRoom/steady/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner",
+      "keyword": "preconditioner",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/preconditioner",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "occurrences": 720,
+      "fileCount": 351,
+      "values": [
+        {
+          "value": "DIC",
+          "occurrences": 378
+        },
+        {
+          "value": "DILU",
+          "occurrences": 289
+        },
+        {
+          "value": "FDIC",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSolution",
+        "basic/laplacianFoam/multiWorld2/common/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/agglomerator",
+      "keyword": "agglomerator",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/agglomerator",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "faceAreaPair",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBody/floatingBody/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/floatingBody/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/cacheAgglomeration",
+      "keyword": "cacheAgglomeration",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/cacheAgglomeration",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/mergeLevels",
+      "keyword": "mergeLevels",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/mergeLevels",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBody/floatingBody/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/floatingBody/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/nCellsInCoarsestLevel",
+      "keyword": "nCellsInCoarsestLevel",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/nCellsInCoarsestLevel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBody/floatingBody/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/floatingBody/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/nFinestSweeps",
+      "keyword": "nFinestSweeps",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/nFinestSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBody/floatingBody/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/floatingBody/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/nPostSweeps",
+      "keyword": "nPostSweeps",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/nPostSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/interCondensatingEvaporatingFoam/condensatingVessel/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBody/floatingBody/system/fvSolution",
+        "multiphase/overInterDyMFoam/floatingBodyWithSpring/floatingBody/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/nPreSweeps",
+      "keyword": "nPreSweeps",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/nPreSweeps",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 20,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/waterCooler/fluid/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/nVcycles",
+      "keyword": "nVcycles",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/nVcycles",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 25,
+      "fileCount": 25,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/waterCooler/fluid/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/preconditioner",
+      "keyword": "preconditioner",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/preconditioner",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 51,
+      "fileCount": 31,
+      "values": [
+        {
+          "value": "GAMG",
+          "occurrences": 51
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/waterCooler/fluid/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/relTol",
+      "keyword": "relTol",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/relTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 49,
+      "fileCount": 29,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/waterCooler/fluid/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/smoother",
+      "keyword": "smoother",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/smoother",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 51,
+      "fileCount": 31,
+      "values": [
+        {
+          "value": "DICGaussSeidel",
+          "occurrences": 36
+        },
+        {
+          "value": "GaussSeidel",
+          "occurrences": 15
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/waterCooler/fluid/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/preconditioner/tolerance",
+      "keyword": "tolerance",
+      "context": "solvers/{solver}/preconditioner",
+      "path": "solvers/{solver}/preconditioner/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 49,
+      "fileCount": 29,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sloshingTank2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/compressibleInterFoam/laminar/waterCooler/fluid/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/prescribedU",
+      "keyword": "prescribedU",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/prescribedU",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/discInConstantFlowCyclicBCs/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/processorAgglomerator",
+      "keyword": "processorAgglomerator",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/processorAgglomerator",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "masterCoarsest",
+          "occurrences": 1
+        },
+        {
+          "value": "procFaces",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/LBend/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/reconstructionScheme",
+      "keyword": "reconstructionScheme",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/reconstructionScheme",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [
+        {
+          "value": "isoAlpha",
+          "occurrences": 10
+        },
+        {
+          "value": "plicRDF",
+          "occurrences": 6
+        },
+        {
+          "value": "gradAlpha",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/interIsoFoam/damBreak/system/fvSolution",
+        "multiphase/interIsoFoam/damBreakWithObstacle/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/relTol",
+      "keyword": "relTol",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/relTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1937,
+      "fileCount": 493,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/renormalize",
+      "keyword": "renormalize",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/renormalize",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnPolydisperse/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/residualAlpha",
+      "keyword": "residualAlpha",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/residualAlpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [],
+      "examples": [
+        "multiphase/icoReactingMultiphaseInterFoam/evaporationMultiComponent/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/inertMultiphaseMultiComponent/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/mixerVesselAMI2D/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/poolEvaporation/system/fvSolution",
+        "multiphase/icoReactingMultiphaseInterFoam/solidMelting2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/scAlpha",
+      "keyword": "scAlpha",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/scAlpha",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 5,
+      "fileCount": 5,
+      "values": [],
+      "examples": [
+        "multiphase/overCompressibleInterDyMFoam/compressibleTwoSimpleRotors/system/fvSolution",
+        "multiphase/overInterDyMFoam/simpleRotor/system/fvSolution",
+        "multiphase/overInterDyMFoam/twoSimpleRotors/system/fvSolution",
+        "multiphase/overInterDyMFoam/twoSquaresOutDomain/system/fvSolution",
+        "multiphase/overInterPhaseChangeDyMFoam/twoSimpleRotors/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/smoother",
+      "keyword": "smoother",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/smoother",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 771,
+      "fileCount": 355,
+      "values": [
+        {
+          "value": "symGaussSeidel",
+          "occurrences": 363
+        },
+        {
+          "value": "GaussSeidel",
+          "occurrences": 293
+        },
+        {
+          "value": "DIC",
+          "occurrences": 71
+        },
+        {
+          "value": "DICGaussSeidel",
+          "occurrences": 43
+        },
+        {
+          "value": "DILU",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/potentialFoam/cylinder/system/fvSolution",
+        "basic/potentialFoam/pitzDaily/system/fvSolution",
+        "basic/simpleFoam/implicitAMI/system/fvSolution",
+        "combustion/fireFoam/LES/compartmentFire/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/smoothLimiter",
+      "keyword": "smoothLimiter",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/smoothLimiter",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/fluidisedBed/system/fvSolution",
+        "multiphase/twoPhaseEulerFoam/laminar/fluidisedBed/system/fvSolution",
+        "multiphase/twoPhaseEulerFoam/RAS/fluidisedBed/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/snapTol",
+      "keyword": "snapTol",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/snapTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/interIsoFoam/damBreak/system/fvSolution",
+        "multiphase/interIsoFoam/damBreakWithObstacle/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/solveOnFinalIterOnly",
+      "keyword": "solveOnFinalIterOnly",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/solveOnFinalIterOnly",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/reactingTwoPhaseEulerFoam/RAS/bubbleColumnPolydisperse/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/solver",
+      "keyword": "solver",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/solver",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1521,
+      "fileCount": 493,
+      "values": [
+        {
+          "value": "smoothSolver",
+          "occurrences": 465
+        },
+        {
+          "value": "PCG",
+          "occurrences": 415
+        },
+        {
+          "value": "GAMG",
+          "occurrences": 293
+        },
+        {
+          "value": "PBiCGStab",
+          "occurrences": 250
+        },
+        {
+          "value": "PBiCG",
+          "occurrences": 53
+        },
+        {
+          "value": "diagonal",
+          "occurrences": 42
+        },
+        {
+          "value": "nthn",
+          "occurrences": 2
+        },
+        {
+          "value": "PBiCCCG",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/surfCellTol",
+      "keyword": "surfCellTol",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/surfCellTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 17,
+      "fileCount": 17,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterIsoFoam/laminar/climbingRod/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge2D/system/fvSolution",
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge3D/system/fvSolution",
+        "multiphase/interIsoFoam/damBreak/system/fvSolution",
+        "multiphase/interIsoFoam/damBreakWithObstacle/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/tolerance",
+      "keyword": "tolerance",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/tolerance",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1735,
+      "fileCount": 493,
+      "values": [],
+      "examples": [
+        "basic/laplacianFoam/flange/system/fvSolution",
+        "basic/laplacianFoam/implicitAMI-nonblocking/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/common/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/left/system/fvSolution",
+        "basic/laplacianFoam/multiWorld1/right/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/type",
+      "keyword": "type",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "coupled",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "incompressible/pisoFoam/RAS/cavityCoupledU/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/updateInterval",
+      "keyword": "updateInterval",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/updateInterval",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 7,
+      "fileCount": 7,
+      "values": [],
+      "examples": [
+        "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/system/fvSolution",
+        "incompressible/pimpleFoam/laminar/mixerVesselAMI2D/mixerVesselAMI2D/system/fvSolution",
+        "incompressible/pimpleFoam/laminar/movingCone/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/oscillatingInletACMI2D/system/fvSolution",
+        "incompressible/pimpleFoam/RAS/oscillatingInletPeriodicAMI2D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/vof2IsoTol",
+      "keyword": "vof2IsoTol",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/vof2IsoTol",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterIsoFoam/laminar/depthCharge3D/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/writeBoundedCells",
+      "keyword": "writeBoundedCells",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/writeBoundedCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/damBreakWithObstacle/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/writeFields",
+      "keyword": "writeFields",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/writeFields",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "true",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/damBreak/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/writeIsoFaces",
+      "keyword": "writeIsoFaces",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/writeIsoFaces",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/damBreakWithObstacle/system/fvSolution"
+      ]
+    },
+    {
+      "key": "solvers/{solver}/writeSurfCells",
+      "keyword": "writeSurfCells",
+      "context": "solvers/{solver}",
+      "path": "solvers/{solver}/writeSurfCells",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "false",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/interIsoFoam/damBreakWithObstacle/system/fvSolution"
+      ]
+    },
+    {
+      "key": "stressAnalysis",
+      "keyword": "stressAnalysis",
+      "context": "",
+      "path": "stressAnalysis",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/fvSolution",
+        "stressAnalysis/solidDisplacementFoam/plateHole/system/fvSolution",
+        "stressAnalysis/solidEquilibriumDisplacementFoam/beamEndLoad/system/fvSolution"
+      ]
+    },
+    {
+      "key": "stressAnalysis/accelerationFactor",
+      "keyword": "accelerationFactor",
+      "context": "stressAnalysis",
+      "path": "stressAnalysis/accelerationFactor",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/fvSolution",
+        "stressAnalysis/solidEquilibriumDisplacementFoam/beamEndLoad/system/fvSolution"
+      ]
+    },
+    {
+      "key": "stressAnalysis/compactNormalStress",
+      "keyword": "compactNormalStress",
+      "context": "stressAnalysis",
+      "path": "stressAnalysis/compactNormalStress",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "yes",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "stressAnalysis/solidDisplacementFoam/plateHole/system/fvSolution"
+      ]
+    },
+    {
+      "key": "stressAnalysis/D",
+      "keyword": "D",
+      "context": "stressAnalysis",
+      "path": "stressAnalysis/D",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/fvSolution",
+        "stressAnalysis/solidDisplacementFoam/plateHole/system/fvSolution",
+        "stressAnalysis/solidEquilibriumDisplacementFoam/beamEndLoad/system/fvSolution"
+      ]
+    },
+    {
+      "key": "stressAnalysis/nCorrectors",
+      "keyword": "nCorrectors",
+      "context": "stressAnalysis",
+      "path": "stressAnalysis/nCorrectors",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [],
+      "examples": [
+        "mesh/foamyHexMesh/simpleShapes/system/fvSolution",
+        "stressAnalysis/solidDisplacementFoam/plateHole/system/fvSolution",
+        "stressAnalysis/solidEquilibriumDisplacementFoam/beamEndLoad/system/fvSolution"
+      ]
+    }
+  ]
+}

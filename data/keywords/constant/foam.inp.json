@@ -1,0 +1,248 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "constant",
+  "fileKey": "foam.inp",
+  "sourceFileCount": 9,
+  "occurrences": 30,
+  "entries": [
+    {
+      "key": "reactions",
+      "keyword": "reactions",
+      "context": "",
+      "path": "reactions",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp",
+        "lagrangian/reactingHeterogenousParcelFoam/rectangularDuct/constant/foam.inp",
+        "lagrangian/reactingParcelFoam/cylinder/constant/foam.inp",
+        "lagrangian/reactingParcelFoam/hotBoxes/constant/foam.inp",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/hydrogenReaction",
+      "keyword": "hydrogenReaction",
+      "context": "reactions",
+      "path": "reactions/hydrogenReaction",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/hydrogenReaction/A",
+      "keyword": "A",
+      "context": "reactions/hydrogenReaction",
+      "path": "reactions/hydrogenReaction/A",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/hydrogenReaction/beta",
+      "keyword": "beta",
+      "context": "reactions/hydrogenReaction",
+      "path": "reactions/hydrogenReaction/beta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/hydrogenReaction/reaction",
+      "keyword": "reaction",
+      "context": "reactions/hydrogenReaction",
+      "path": "reactions/hydrogenReaction/reaction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"H2 + 0.5O2^1.0 = H2O\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/hydrogenReaction/Ta",
+      "keyword": "Ta",
+      "context": "reactions/hydrogenReaction",
+      "path": "reactions/hydrogenReaction/Ta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/hydrogenReaction/type",
+      "keyword": "type",
+      "context": "reactions/hydrogenReaction",
+      "path": "reactions/hydrogenReaction/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "irreversibleArrheniusReaction",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/methaneReaction",
+      "keyword": "methaneReaction",
+      "context": "reactions",
+      "path": "reactions/methaneReaction",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/methaneReaction/A",
+      "keyword": "A",
+      "context": "reactions/methaneReaction",
+      "path": "reactions/methaneReaction/A",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/methaneReaction/beta",
+      "keyword": "beta",
+      "context": "reactions/methaneReaction",
+      "path": "reactions/methaneReaction/beta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/methaneReaction/reaction",
+      "keyword": "reaction",
+      "context": "reactions/methaneReaction",
+      "path": "reactions/methaneReaction/reaction",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "\"CH4 + 2O2^1.0 = CO2 + 2H2O^1.0\"",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/methaneReaction/Ta",
+      "keyword": "Ta",
+      "context": "reactions/methaneReaction",
+      "path": "reactions/methaneReaction/Ta",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "reactions/methaneReaction/type",
+      "keyword": "type",
+      "context": "reactions/methaneReaction",
+      "path": "reactions/methaneReaction/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [
+        {
+          "value": "irreversibleArrheniusReaction",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp"
+      ]
+    },
+    {
+      "key": "species",
+      "keyword": "species",
+      "context": "",
+      "path": "species",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "lagrangian/coalChemistryFoam/simplifiedSiwek/constant/foam.inp",
+        "lagrangian/reactingHeterogenousParcelFoam/rectangularDuct/constant/foam.inp",
+        "lagrangian/reactingParcelFoam/cylinder/constant/foam.inp",
+        "lagrangian/reactingParcelFoam/hotBoxes/constant/foam.inp",
+        "lagrangian/reactingParcelFoam/liquidFilmStepWithSprinklers/constant/foam.inp"
+      ]
+    }
+  ]
+}

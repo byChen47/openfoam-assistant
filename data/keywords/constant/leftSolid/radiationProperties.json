@@ -1,0 +1,430 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "constant",
+  "fileKey": "leftSolid/radiationProperties",
+  "sourceFileCount": 9,
+  "occurrences": 87,
+  "entries": [
+    {
+      "key": "absorptionEmissionModel",
+      "keyword": "absorptionEmissionModel",
+      "context": "",
+      "path": "absorptionEmissionModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "constantAbsorptionEmission",
+          "occurrences": 2
+        },
+        {
+          "value": "multiBandSolidAbsorptionEmission",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/leftSolid/radiationProperties",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "constantAbsorptionEmissionCoeffs",
+      "keyword": "constantAbsorptionEmissionCoeffs",
+      "context": "",
+      "path": "constantAbsorptionEmissionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/leftSolid/radiationProperties",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "constantAbsorptionEmissionCoeffs/absorptivity",
+      "keyword": "absorptivity",
+      "context": "constantAbsorptionEmissionCoeffs",
+      "path": "constantAbsorptionEmissionCoeffs/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/leftSolid/radiationProperties",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "constantAbsorptionEmissionCoeffs/E",
+      "keyword": "E",
+      "context": "constantAbsorptionEmissionCoeffs",
+      "path": "constantAbsorptionEmissionCoeffs/E",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/leftSolid/radiationProperties",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "constantAbsorptionEmissionCoeffs/emissivity",
+      "keyword": "emissivity",
+      "context": "constantAbsorptionEmissionCoeffs",
+      "path": "constantAbsorptionEmissionCoeffs/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [],
+      "examples": [
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/leftSolid/radiationProperties",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "dictionary",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/location",
+      "keyword": "location",
+      "context": "FoamFile",
+      "path": "FoamFile/location",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "\"constant\"",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "radiationProperties",
+          "occurrences": 9
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "multiBandSolidAbsorptionEmissionCoeffs",
+      "keyword": "multiBandSolidAbsorptionEmissionCoeffs",
+      "context": "",
+      "path": "multiBandSolidAbsorptionEmissionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "multiBandSolidAbsorptionEmissionCoeffs/absorptivity",
+      "keyword": "absorptivity",
+      "context": "multiBandSolidAbsorptionEmissionCoeffs",
+      "path": "multiBandSolidAbsorptionEmissionCoeffs/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "multiBandSolidAbsorptionEmissionCoeffs/emissivity",
+      "keyword": "emissivity",
+      "context": "multiBandSolidAbsorptionEmissionCoeffs",
+      "path": "multiBandSolidAbsorptionEmissionCoeffs/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "multiBandSolidTransmissivityCoeffs",
+      "keyword": "multiBandSolidTransmissivityCoeffs",
+      "context": "",
+      "path": "multiBandSolidTransmissivityCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "multiBandSolidTransmissivityCoeffs/transmissivity",
+      "keyword": "transmissivity",
+      "context": "multiBandSolidTransmissivityCoeffs",
+      "path": "multiBandSolidTransmissivityCoeffs/transmissivity",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 1,
+      "fileCount": 1,
+      "values": [],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "radiation",
+      "keyword": "radiation",
+      "context": "",
+      "path": "radiation",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 8,
+      "fileCount": 8,
+      "values": [
+        {
+          "value": "off",
+          "occurrences": 7
+        },
+        {
+          "value": "on",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "radiationModel",
+      "keyword": "radiationModel",
+      "context": "",
+      "path": "radiationModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 9,
+      "fileCount": 9,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 7
+        },
+        {
+          "value": "opaqueSolid",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/externalCoupledHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/multiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeaterImplicit/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "scatterModel",
+      "keyword": "scatterModel",
+      "context": "",
+      "path": "scatterModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 3,
+      "fileCount": 3,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 3
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/leftSolid/radiationProperties",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "sootModel",
+      "keyword": "sootModel",
+      "context": "",
+      "path": "sootModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "none",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation/constant/leftSolid/radiationProperties"
+      ]
+    },
+    {
+      "key": "transmissivityModel",
+      "keyword": "transmissivityModel",
+      "context": "",
+      "path": "transmissivityModel",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 2,
+      "fileCount": 2,
+      "values": [
+        {
+          "value": "multiBandSolidTransmissivity",
+          "occurrences": 1
+        },
+        {
+          "value": "none",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "basic/chtMultiRegionFoam/2DImplicitCyclic/constant/leftSolid/radiationProperties",
+        "preProcessing/createZeroDirectory/snappyMultiRegionHeater/constant/leftSolid/radiationProperties"
+      ]
+    }
+  ]
+}

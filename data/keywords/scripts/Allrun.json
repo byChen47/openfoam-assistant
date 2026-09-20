@@ -1,0 +1,1551 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "scripts",
+  "fileKey": "Allrun",
+  "sourceFileCount": 494,
+  "commands": [
+    {
+      "name": "runApplication",
+      "occurrences": 1386
+    },
+    {
+      "name": "cd",
+      "occurrences": 566
+    },
+    {
+      "name": "exit",
+      "occurrences": 543
+    },
+    {
+      "name": ".",
+      "occurrences": 485
+    },
+    {
+      "name": "[",
+      "occurrences": 359
+    },
+    {
+      "name": "runParallel",
+      "occurrences": 345
+    },
+    {
+      "name": "restore0Dir",
+      "occurrences": 288
+    },
+    {
+      "name": "cp",
+      "occurrences": 281
+    },
+    {
+      "name": "echo",
+      "occurrences": 152
+    },
+    {
+      "name": "printf",
+      "occurrences": 146
+    },
+    {
+      "name": "mkdir",
+      "occurrences": 105
+    },
+    {
+      "name": "foamDictionary",
+      "occurrences": 73
+    },
+    {
+      "name": "setup",
+      "occurrences": 45
+    },
+    {
+      "name": "notTest",
+      "occurrences": 44
+    },
+    {
+      "name": "dirSetup",
+      "occurrences": 30
+    },
+    {
+      "name": "dirSetupOrig",
+      "occurrences": 30
+    },
+    {
+      "name": "dry_run_setup",
+      "occurrences": 30
+    },
+    {
+      "name": "resourcesDir",
+      "occurrences": 30
+    },
+    {
+      "name": "rm",
+      "occurrences": 30
+    },
+    {
+      "name": "sed",
+      "occurrences": 28
+    },
+    {
+      "name": "mv",
+      "occurrences": 25
+    },
+    {
+      "name": "canCompile",
+      "occurrences": 21
+    },
+    {
+      "name": "parallel",
+      "occurrences": 21
+    },
+    {
+      "name": "run",
+      "occurrences": 17
+    },
+    {
+      "name": "common_mesh",
+      "occurrences": 15
+    },
+    {
+      "name": "continue",
+      "occurrences": 15
+    },
+    {
+      "name": "dirConstant",
+      "occurrences": 15
+    },
+    {
+      "name": "dirOrig",
+      "occurrences": 15
+    },
+    {
+      "name": "dirResult",
+      "occurrences": 15
+    },
+    {
+      "name": "dirSystem",
+      "occurrences": 15
+    },
+    {
+      "name": "m4",
+      "occurrences": 15
+    },
+    {
+      "name": "run_setup",
+      "occurrences": 15
+    },
+    {
+      "name": "setups",
+      "occurrences": 15
+    },
+    {
+      "name": "common_dynamic_code",
+      "occurrences": 13
+    },
+    {
+      "name": "cloneCase",
+      "occurrences": 9
+    },
+    {
+      "name": "grep",
+      "occurrences": 9
+    },
+    {
+      "name": "region",
+      "occurrences": 9
+    },
+    {
+      "name": "awk",
+      "occurrences": 8
+    },
+    {
+      "name": "unset",
+      "occurrences": 8
+    },
+    {
+      "name": "foamListTimes",
+      "occurrences": 7
+    },
+    {
+      "name": "extractVal",
+      "occurrences": 6
+    },
+    {
+      "name": "kOmegaSST",
+      "occurrences": 6
+    },
+    {
+      "name": "mpirun",
+      "occurrences": 6
+    },
+    {
+      "name": "shift",
+      "occurrences": 6
+    },
+    {
+      "name": "controlDict",
+      "occurrences": 5
+    },
+    {
+      "name": "i",
+      "occurrences": 5
+    },
+    {
+      "name": "blockMeshDict",
+      "occurrences": 4
+    },
+    {
+      "name": "dir",
+      "occurrences": 4
+    },
+    {
+      "name": "foamRunTutorials",
+      "occurrences": 4
+    },
+    {
+      "name": "kEpsilon",
+      "occurrences": 4
+    },
+    {
+      "name": "ln",
+      "occurrences": 4
+    },
+    {
+      "name": "pointSet",
+      "occurrences": 4
+    },
+    {
+      "name": "set",
+      "occurrences": 4
+    },
+    {
+      "name": "setDamBreakFine",
+      "occurrences": 4
+    },
+    {
+      "name": "application",
+      "occurrences": 3
+    },
+    {
+      "name": "caseName",
+      "occurrences": 3
+    },
+    {
+      "name": "cat",
+      "occurrences": 3
+    },
+    {
+      "name": "cloneParallelCase",
+      "occurrences": 3
+    },
+    {
+      "name": "command",
+      "occurrences": 3
+    },
+    {
+      "name": "EOF",
+      "occurrences": 3
+    },
+    {
+      "name": "exponent",
+      "occurrences": 3
+    },
+    {
+      "name": "ls",
+      "occurrences": 3
+    },
+    {
+      "name": "refineMesh",
+      "occurrences": 3
+    },
+    {
+      "name": "refineMeshByCellSet",
+      "occurrences": 3
+    },
+    {
+      "name": "setSet",
+      "occurrences": 3
+    },
+    {
+      "name": "tee",
+      "occurrences": 3
+    },
+    {
+      "name": "topoSet",
+      "occurrences": 3
+    },
+    {
+      "name": "trap",
+      "occurrences": 3
+    },
+    {
+      "name": "xargs",
+      "occurrences": 3
+    },
+    {
+      "name": "yp",
+      "occurrences": 3
+    },
+    {
+      "name": "alphat",
+      "occurrences": 2
+    },
+    {
+      "name": "cavityFine",
+      "occurrences": 2
+    },
+    {
+      "name": "CONTROLS",
+      "occurrences": 2
+    },
+    {
+      "name": "copyLagrangianData",
+      "occurrences": 2
+    },
+    {
+      "name": "copyParallelPointDisplacement",
+      "occurrences": 2
+    },
+    {
+      "name": "cut",
+      "occurrences": 2
+    },
+    {
+      "name": "DFM",
+      "occurrences": 2
+    },
+    {
+      "name": "DFSEM",
+      "occurrences": 2
+    },
+    {
+      "name": "enabled",
+      "occurrences": 2
+    },
+    {
+      "name": "eulerianCase",
+      "occurrences": 2
+    },
+    {
+      "name": "externalCoupled.control",
+      "occurrences": 2
+    },
+    {
+      "name": "false",
+      "occurrences": 2
+    },
+    {
+      "name": "find",
+      "occurrences": 2
+    },
+    {
+      "name": "foamSequenceVTKFiles",
+      "occurrences": 2
+    },
+    {
+      "name": "FSM",
+      "occurrences": 2
+    },
+    {
+      "name": "index",
+      "occurrences": 2
+    },
+    {
+      "name": "isTest",
+      "occurrences": 2
+    },
+    {
+      "name": "isTrue",
+      "occurrences": 2
+    },
+    {
+      "name": "kL",
+      "occurrences": 2
+    },
+    {
+      "name": "ldir",
+      "occurrences": 2
+    },
+    {
+      "name": "linkFiles",
+      "occurrences": 2
+    },
+    {
+      "name": "local",
+      "occurrences": 2
+    },
+    {
+      "name": "mapFields",
+      "occurrences": 2
+    },
+    {
+      "name": "paste",
+      "occurrences": 2
+    },
+    {
+      "name": "printRunHeader",
+      "occurrences": 2
+    },
+    {
+      "name": "remove0DirFields",
+      "occurrences": 2
+    },
+    {
+      "name": "solver",
+      "occurrences": 2
+    },
+    {
+      "name": "suffix",
+      "occurrences": 2
+    },
+    {
+      "name": "touch",
+      "occurrences": 2
+    },
+    {
+      "name": "tr",
+      "occurrences": 2
+    },
+    {
+      "name": "true",
+      "occurrences": 2
+    },
+    {
+      "name": "udir",
+      "occurrences": 2
+    },
+    {
+      "name": "wmake",
+      "occurrences": 2
+    },
+    {
+      "name": "APP",
+      "occurrences": 1
+    },
+    {
+      "name": "BASE",
+      "occurrences": 1
+    },
+    {
+      "name": "blockMesh",
+      "occurrences": 1
+    },
+    {
+      "name": "break",
+      "occurrences": 1
+    },
+    {
+      "name": "cavity",
+      "occurrences": 1
+    },
+    {
+      "name": "cavityCases",
+      "occurrences": 1
+    },
+    {
+      "name": "cavityClipped",
+      "occurrences": 1
+    },
+    {
+      "name": "cavityGrade",
+      "occurrences": 1
+    },
+    {
+      "name": "cavityHighRe",
+      "occurrences": 1
+    },
+    {
+      "name": "cellLimited-Gauss-linear-1",
+      "occurrences": 1
+    },
+    {
+      "name": "cellLimited-Gauss-pointLinear-1",
+      "occurrences": 1
+    },
+    {
+      "name": "cellLimited-iterativeGauss-linear-5-1",
+      "occurrences": 1
+    },
+    {
+      "name": "cellLimited-leastSquares-1",
+      "occurrences": 1
+    },
+    {
+      "name": "cellMDLimited-Gauss-linear-1",
+      "occurrences": 1
+    },
+    {
+      "name": "cellMDLimited-Gauss-pointLinear-1",
+      "occurrences": 1
+    },
+    {
+      "name": "cellMDLimited-iterativeGauss-linear-5-1",
+      "occurrences": 1
+    },
+    {
+      "name": "cellMDLimited-leastSquares-1",
+      "occurrences": 1
+    },
+    {
+      "name": "channelCase",
+      "occurrences": 1
+    },
+    {
+      "name": "channelDataDir",
+      "occurrences": 1
+    },
+    {
+      "name": "cleanTimeDirectories",
+      "occurrences": 1
+    },
+    {
+      "name": "collated",
+      "occurrences": 1
+    },
+    {
+      "name": "collectLogs",
+      "occurrences": 1
+    },
+    {
+      "name": "cont",
+      "occurrences": 1
+    },
+    {
+      "name": "contamination",
+      "occurrences": 1
+    },
+    {
+      "name": "copySolutionDirs",
+      "occurrences": 1
+    },
+    {
+      "name": "coupling",
+      "occurrences": 1
+    },
+    {
+      "name": "d",
+      "occurrences": 1
+    },
+    {
+      "name": "D_VS_U",
+      "occurrences": 1
+    },
+    {
+      "name": "date",
+      "occurrences": 1
+    },
+    {
+      "name": "declare",
+      "occurrences": 1
+    },
+    {
+      "name": "dType",
+      "occurrences": 1
+    },
+    {
+      "name": "EBRSM",
+      "occurrences": 1
+    },
+    {
+      "name": "EBRSM.setTurbulenceFields",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "EXPONENT",
+      "occurrences": 1
+    },
+    {
+      "name": "f",
+      "occurrences": 1
+    },
+    {
+      "name": "faceLimited-Gauss-linear-1",
+      "occurrences": 1
+    },
+    {
+      "name": "faceLimited-Gauss-pointLinear-1",
+      "occurrences": 1
+    },
+    {
+      "name": "faceLimited-iterativeGauss-linear-5-1",
+      "occurrences": 1
+    },
+    {
+      "name": "faceLimited-leastSquares-1",
+      "occurrences": 1
+    },
+    {
+      "name": "faceMDLimited-Gauss-linear-1",
+      "occurrences": 1
+    },
+    {
+      "name": "faceMDLimited-Gauss-pointLinear-1",
+      "occurrences": 1
+    },
+    {
+      "name": "faceMDLimited-iterativeGauss-linear-5-1",
+      "occurrences": 1
+    },
+    {
+      "name": "faceMDLimited-leastSquares-1",
+      "occurrences": 1
+    },
+    {
+      "name": "Gauss-linear",
+      "occurrences": 1
+    },
+    {
+      "name": "Gauss-pointLinear",
+      "occurrences": 1
+    },
+    {
+      "name": "gnuplot",
+      "occurrences": 1
+    },
+    {
+      "name": "grading",
+      "occurrences": 1
+    },
+    {
+      "name": "gunzip",
+      "occurrences": 1
+    },
+    {
+      "name": "icoReactingMultiphaseInterFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "interCondensatingEvaporatingFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "isParallel",
+      "occurrences": 1
+    },
+    {
+      "name": "iterativeGauss-linear-1",
+      "occurrences": 1
+    },
+    {
+      "name": "iterativeGauss-linear-10",
+      "occurrences": 1
+    },
+    {
+      "name": "iterativeGauss-linear-2",
+      "occurrences": 1
+    },
+    {
+      "name": "iterativeGauss-linear-20",
+      "occurrences": 1
+    },
+    {
+      "name": "iterativeGauss-linear-3",
+      "occurrences": 1
+    },
+    {
+      "name": "iterativeGauss-linear-4",
+      "occurrences": 1
+    },
+    {
+      "name": "iterativeGauss-linear-5",
+      "occurrences": 1
+    },
+    {
+      "name": "kEpsilon-nutkWallFunction",
+      "occurrences": 1
+    },
+    {
+      "name": "kEpsilonPhitF",
+      "occurrences": 1
+    },
+    {
+      "name": "kOmegaSSTDDES-DeltaOmegaTilde-useSigmaTrue",
+      "occurrences": 1
+    },
+    {
+      "name": "LaunderSharmaKE-nutkWallFunction",
+      "occurrences": 1
+    },
+    {
+      "name": "leastSquares",
+      "occurrences": 1
+    },
+    {
+      "name": "Maxwell",
+      "occurrences": 1
+    },
+    {
+      "name": "neutral",
+      "occurrences": 1
+    },
+    {
+      "name": "parent",
+      "occurrences": 1
+    },
+    {
+      "name": "plot",
+      "occurrences": 1
+    },
+    {
+      "name": "POINTPATCH",
+      "occurrences": 1
+    },
+    {
+      "name": "previousCase",
+      "occurrences": 1
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    },
+    {
+      "name": "printRunEnviron",
+      "occurrences": 1
+    },
+    {
+      "name": "proc",
+      "occurrences": 1
+    },
+    {
+      "name": "read",
+      "occurrences": 1
+    },
+    {
+      "name": "reconstructPar",
+      "occurrences": 1
+    },
+    {
+      "name": "reconstructParMesh",
+      "occurrences": 1
+    },
+    {
+      "name": "rmdir",
+      "occurrences": 1
+    },
+    {
+      "name": "Run",
+      "occurrences": 1
+    },
+    {
+      "name": "runMapFields",
+      "occurrences": 1
+    },
+    {
+      "name": "runMapFieldsConsistent",
+      "occurrences": 1
+    },
+    {
+      "name": "savePlots",
+      "occurrences": 1
+    },
+    {
+      "name": "setCavityFine",
+      "occurrences": 1
+    },
+    {
+      "name": "setCavityHighRe",
+      "occurrences": 1
+    },
+    {
+      "name": "setCombustionProperties",
+      "occurrences": 1
+    },
+    {
+      "name": "setControlDict",
+      "occurrences": 1
+    },
+    {
+      "name": "setDecompressionTankFine",
+      "occurrences": 1
+    },
+    {
+      "name": "slightlyStable",
+      "occurrences": 1
+    },
+    {
+      "name": "slightlyUnstable",
+      "occurrences": 1
+    },
+    {
+      "name": "SpalartAllmaras",
+      "occurrences": 1
+    },
+    {
+      "name": "SpalartAllmarasDDES-DeltaOmegaTilde-useSigmaTrue",
+      "occurrences": 1
+    },
+    {
+      "name": "SpalartAllmarasDDES-maxDeltaxyzCubeRoot",
+      "occurrences": 1
+    },
+    {
+      "name": "SpalartAllmarasDDES-SLADelta-useSigmaFalse",
+      "occurrences": 1
+    },
+    {
+      "name": "SpalartAllmarasIDDES-IDDESDelta",
+      "occurrences": 1
+    },
+    {
+      "name": "stable",
+      "occurrences": 1
+    },
+    {
+      "name": "Stokes",
+      "occurrences": 1
+    },
+    {
+      "name": "tail",
+      "occurrences": 1
+    },
+    {
+      "name": "transportProperties",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "runApplication",
+      "occurrences": 1386
+    },
+    {
+      "name": "getApplication",
+      "occurrences": 442
+    },
+    {
+      "name": "runParallel",
+      "occurrences": 345
+    },
+    {
+      "name": "restore0Dir",
+      "occurrences": 288
+    },
+    {
+      "name": "foamDictionary",
+      "occurrences": 75
+    },
+    {
+      "name": "foamListTimes",
+      "occurrences": 21
+    },
+    {
+      "name": "foamRunTutorials",
+      "occurrences": 9
+    },
+    {
+      "name": "foamListRegions",
+      "occurrences": 7
+    },
+    {
+      "name": "foamLog",
+      "occurrences": 5
+    },
+    {
+      "name": "foamToVTK",
+      "occurrences": 5
+    },
+    {
+      "name": "foamyHexMesh",
+      "occurrences": 3
+    },
+    {
+      "name": "foamyQuadMesh",
+      "occurrences": 3
+    },
+    {
+      "name": "foamFormatConvert",
+      "occurrences": 2
+    },
+    {
+      "name": "foamSequenceVTKFiles",
+      "occurrences": 2
+    },
+    {
+      "name": "foamToEnsight",
+      "occurrences": 2
+    },
+    {
+      "name": "cleanTimeDirectories",
+      "occurrences": 1
+    },
+    {
+      "name": "foamDataToFluent",
+      "occurrences": 1
+    },
+    {
+      "name": "foamMeshToFluent",
+      "occurrences": 1
+    }
+  ],
+  "utilities": [
+    {
+      "name": "blockMesh",
+      "occurrences": 307
+    },
+    {
+      "name": "decomposePar",
+      "occurrences": 179
+    },
+    {
+      "name": "setFields",
+      "occurrences": 105
+    },
+    {
+      "name": "topoSet",
+      "occurrences": 97
+    },
+    {
+      "name": "reconstructPar",
+      "occurrences": 63
+    },
+    {
+      "name": "snappyHexMesh",
+      "occurrences": 42
+    },
+    {
+      "name": "postProcess",
+      "occurrences": 36
+    },
+    {
+      "name": "redistributePar",
+      "occurrences": 36
+    },
+    {
+      "name": "checkMesh",
+      "occurrences": 31
+    },
+    {
+      "name": "setsToZones",
+      "occurrences": 30
+    },
+    {
+      "name": "surfaceFeatureExtract",
+      "occurrences": 29
+    },
+    {
+      "name": "createPatch",
+      "occurrences": 23
+    },
+    {
+      "name": "cumulativeDisplacement",
+      "occurrences": 13
+    },
+    {
+      "name": "makeFaMesh",
+      "occurrences": 13
+    },
+    {
+      "name": "refineMesh",
+      "occurrences": 13
+    },
+    {
+      "name": "renumberMesh",
+      "occurrences": 13
+    },
+    {
+      "name": "extrudeMesh",
+      "occurrences": 10
+    },
+    {
+      "name": "reconstructParMesh",
+      "occurrences": 10
+    },
+    {
+      "name": "surfaceRefineRedGreen",
+      "occurrences": 10
+    },
+    {
+      "name": "createBaffles",
+      "occurrences": 9
+    },
+    {
+      "name": "moveDynamicMesh",
+      "occurrences": 8
+    },
+    {
+      "name": "potentialFoam",
+      "occurrences": 8
+    },
+    {
+      "name": "refineHexMesh",
+      "occurrences": 8
+    },
+    {
+      "name": "setAlphaField",
+      "occurrences": 8
+    },
+    {
+      "name": "subsetMesh",
+      "occurrences": 8
+    },
+    {
+      "name": "collapseEdges",
+      "occurrences": 7
+    },
+    {
+      "name": "simpleFoam",
+      "occurrences": 7
+    },
+    {
+      "name": "surfaceMeshExtract",
+      "occurrences": 7
+    },
+    {
+      "name": "extrudeToRegionMesh",
+      "occurrences": 5
+    },
+    {
+      "name": "foamLog",
+      "occurrences": 5
+    },
+    {
+      "name": "foamToVTK",
+      "occurrences": 5
+    },
+    {
+      "name": "mergeMeshes",
+      "occurrences": 5
+    },
+    {
+      "name": "changeDictionary",
+      "occurrences": 4
+    },
+    {
+      "name": "dsmcInitialise",
+      "occurrences": 4
+    },
+    {
+      "name": "surfaceAdd",
+      "occurrences": 4
+    },
+    {
+      "name": "surfaceTransformPoints",
+      "occurrences": 4
+    },
+    {
+      "name": "Allrun.pre",
+      "occurrences": 3
+    },
+    {
+      "name": "chemkinToFoam",
+      "occurrences": 3
+    },
+    {
+      "name": "createZeroDirectory",
+      "occurrences": 3
+    },
+    {
+      "name": "externalSolver",
+      "occurrences": 3
+    },
+    {
+      "name": "extrude2DMesh",
+      "occurrences": 3
+    },
+    {
+      "name": "foamyHexMesh",
+      "occurrences": 3
+    },
+    {
+      "name": "foamyQuadMesh",
+      "occurrences": 3
+    },
+    {
+      "name": "mdInitialise",
+      "occurrences": 3
+    },
+    {
+      "name": "mergeOrSplitBaffles",
+      "occurrences": 3
+    },
+    {
+      "name": "PDRblockMesh",
+      "occurrences": 3
+    },
+    {
+      "name": "PDRsetFields",
+      "occurrences": 3
+    },
+    {
+      "name": "splitMeshRegions",
+      "occurrences": 3
+    },
+    {
+      "name": "surfaceOrient",
+      "occurrences": 3
+    },
+    {
+      "name": "5",
+      "occurrences": 2
+    },
+    {
+      "name": "Allmesh",
+      "occurrences": 2
+    },
+    {
+      "name": "calcRadiusField",
+      "occurrences": 2
+    },
+    {
+      "name": "createBoxTurb",
+      "occurrences": 2
+    },
+    {
+      "name": "createROMfields",
+      "occurrences": 2
+    },
+    {
+      "name": "foamFormatConvert",
+      "occurrences": 2
+    },
+    {
+      "name": "foamToEnsight",
+      "occurrences": 2
+    },
+    {
+      "name": "icoFoam",
+      "occurrences": 2
+    },
+    {
+      "name": "mapFields",
+      "occurrences": 2
+    },
+    {
+      "name": "noise",
+      "occurrences": 2
+    },
+    {
+      "name": "transformPoints",
+      "occurrences": 2
+    },
+    {
+      "name": "viewFactorsGen",
+      "occurrences": 2
+    },
+    {
+      "name": "6",
+      "occurrences": 1
+    },
+    {
+      "name": "ansysToFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "applyBoundaryLayer",
+      "occurrences": 1
+    },
+    {
+      "name": "boxTurb",
+      "occurrences": 1
+    },
+    {
+      "name": "createExternalCoupledPatchGeometry",
+      "occurrences": 1
+    },
+    {
+      "name": "datToFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "fluentMeshToFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "foamDataToFluent",
+      "occurrences": 1
+    },
+    {
+      "name": "foamMeshToFluent",
+      "occurrences": 1
+    },
+    {
+      "name": "kivaToFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "makePerturbation",
+      "occurrences": 1
+    },
+    {
+      "name": "makeWave",
+      "occurrences": 1
+    },
+    {
+      "name": "patchSummary",
+      "occurrences": 1
+    },
+    {
+      "name": "PDRMesh",
+      "occurrences": 1
+    },
+    {
+      "name": "pimpleFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "pisoFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "plot",
+      "occurrences": 1
+    },
+    {
+      "name": "polyDualMesh",
+      "occurrences": 1
+    },
+    {
+      "name": "postChannel",
+      "occurrences": 1
+    },
+    {
+      "name": "reactingFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "scalarTransportFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "setExprBoundaryFields",
+      "occurrences": 1
+    },
+    {
+      "name": "setExprFields",
+      "occurrences": 1
+    },
+    {
+      "name": "setTurbulenceFields",
+      "occurrences": 1
+    },
+    {
+      "name": "star4ToFoam",
+      "occurrences": 1
+    },
+    {
+      "name": "stitchMesh",
+      "occurrences": 1
+    },
+    {
+      "name": "surfaceBooleanFeatures",
+      "occurrences": 1
+    },
+    {
+      "name": "TestParsing",
+      "occurrences": 1
+    },
+    {
+      "name": "WatersKing",
+      "occurrences": 1
+    },
+    {
+      "name": "writeMorpherCPs",
+      "occurrences": 1
+    }
+  ],
+  "variables": [
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 484
+    },
+    {
+      "name": "setup",
+      "occurrences": 210
+    },
+    {
+      "name": "dirResult",
+      "occurrences": 142
+    },
+    {
+      "name": "dirSetup",
+      "occurrences": 135
+    },
+    {
+      "name": "dirSetupOrig",
+      "occurrences": 90
+    },
+    {
+      "name": "FOAM_TUTORIALS",
+      "occurrences": 80
+    },
+    {
+      "name": "resourcesDir",
+      "occurrences": 36
+    },
+    {
+      "name": "decompDict",
+      "occurrences": 34
+    },
+    {
+      "name": "caseName",
+      "occurrences": 30
+    },
+    {
+      "name": "common_mesh",
+      "occurrences": 30
+    },
+    {
+      "name": "dirConstant",
+      "occurrences": 30
+    },
+    {
+      "name": "dirOrig",
+      "occurrences": 30
+    },
+    {
+      "name": "dirSystem",
+      "occurrences": 30
+    },
+    {
+      "name": "latestTime",
+      "occurrences": 30
+    },
+    {
+      "name": "run",
+      "occurrences": 28
+    },
+    {
+      "name": "common_dynamic_code",
+      "occurrences": 26
+    },
+    {
+      "name": "parallel",
+      "occurrences": 25
+    },
+    {
+      "name": "fileHandler",
+      "occurrences": 23
+    },
+    {
+      "name": "dir",
+      "occurrences": 16
+    },
+    {
+      "name": "region",
+      "occurrences": 16
+    },
+    {
+      "name": "setups",
+      "occurrences": 15
+    },
+    {
+      "name": "d",
+      "occurrences": 12
+    },
+    {
+      "name": "i",
+      "occurrences": 12
+    },
+    {
+      "name": "application",
+      "occurrences": 10
+    },
+    {
+      "name": "controlDict",
+      "occurrences": 10
+    },
+    {
+      "name": "exponent",
+      "occurrences": 9
+    },
+    {
+      "name": "suffix",
+      "occurrences": 9
+    },
+    {
+      "name": "yp",
+      "occurrences": 9
+    },
+    {
+      "name": "blockMeshDict",
+      "occurrences": 8
+    },
+    {
+      "name": "PWD",
+      "occurrences": 7
+    },
+    {
+      "name": "channelDataDir",
+      "occurrences": 6
+    },
+    {
+      "name": "endTime",
+      "occurrences": 6
+    },
+    {
+      "name": "ldir",
+      "occurrences": 6
+    },
+    {
+      "name": "solver",
+      "occurrences": 6
+    },
+    {
+      "name": "decompDict5",
+      "occurrences": 5
+    },
+    {
+      "name": "dict",
+      "occurrences": 5
+    },
+    {
+      "name": "parent",
+      "occurrences": 5
+    },
+    {
+      "name": "channelTimeDir",
+      "occurrences": 4
+    },
+    {
+      "name": "APP",
+      "occurrences": 3
+    },
+    {
+      "name": "BASE",
+      "occurrences": 3
+    },
+    {
+      "name": "cont",
+      "occurrences": 3
+    },
+    {
+      "name": "dType",
+      "occurrences": 3
+    },
+    {
+      "name": "f",
+      "occurrences": 3
+    },
+    {
+      "name": "index",
+      "occurrences": 3
+    },
+    {
+      "name": "scheme",
+      "occurrences": 3
+    },
+    {
+      "name": "channelCase",
+      "occurrences": 2
+    },
+    {
+      "name": "coupling",
+      "occurrences": 2
+    },
+    {
+      "name": "DYLD_LIBRARY_PATH",
+      "occurrences": 2
+    },
+    {
+      "name": "eulerianCase",
+      "occurrences": 2
+    },
+    {
+      "name": "fields",
+      "occurrences": 2
+    },
+    {
+      "name": "LD_LIBRARY_PATH",
+      "occurrences": 2
+    },
+    {
+      "name": "optCollect",
+      "occurrences": 2
+    },
+    {
+      "name": "proc",
+      "occurrences": 2
+    },
+    {
+      "name": "schemeTag",
+      "occurrences": 2
+    },
+    {
+      "name": "transportProperties",
+      "occurrences": 2
+    },
+    {
+      "name": "udir",
+      "occurrences": 2
+    },
+    {
+      "name": "cavityCases",
+      "occurrences": 1
+    },
+    {
+      "name": "contamination",
+      "occurrences": 1
+    },
+    {
+      "name": "D_VS_U",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_MPI",
+      "occurrences": 1
+    },
+    {
+      "name": "grading",
+      "occurrences": 1
+    },
+    {
+      "name": "grading_vs_yp",
+      "occurrences": 1
+    },
+    {
+      "name": "lastTimeStep",
+      "occurrences": 1
+    },
+    {
+      "name": "nuExponents",
+      "occurrences": 1
+    },
+    {
+      "name": "PATH",
+      "occurrences": 1
+    },
+    {
+      "name": "previousCase",
+      "occurrences": 1
+    },
+    {
+      "name": "savePlots",
+      "occurrences": 1
+    },
+    {
+      "name": "testCreate",
+      "occurrences": 1
+    },
+    {
+      "name": "U",
+      "occurrences": 1
+    },
+    {
+      "name": "uPlus",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_COMPILER",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_COMPILER_TYPE",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_MPLIB",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_OPTIONS",
+      "occurrences": 1
+    },
+    {
+      "name": "yPlus",
+      "occurrences": 1
+    }
+  ]
+}

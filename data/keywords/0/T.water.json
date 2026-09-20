@@ -1,0 +1,329 @@
+{
+  "generatedAt": "2026-09-20T11:06:48.508Z",
+  "source": "OpenFOAM-v2606/tutorials",
+  "category": "0",
+  "fileKey": "T.water",
+  "sourceFileCount": 18,
+  "occurrences": 336,
+  "entries": [
+    {
+      "key": "boundaryField",
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}",
+      "keyword": "front",
+      "context": "boundaryField",
+      "path": "boundaryField/{patch}",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 66,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/inletValue",
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 15,
+      "fileCount": 15,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnIATE/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/phi",
+      "keyword": "phi",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/phi",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 14,
+      "fileCount": 14,
+      "values": [
+        {
+          "value": "phi.water",
+          "occurrences": 14
+        }
+      ],
+      "examples": [
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumnIATE/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/injection/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/type",
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 66,
+      "fileCount": 18,
+      "values": [
+        {
+          "value": "zeroGradient",
+          "occurrences": 23
+        },
+        {
+          "value": "inletOutlet",
+          "occurrences": 15
+        },
+        {
+          "value": "empty",
+          "occurrences": 12
+        },
+        {
+          "value": "fixedValue",
+          "occurrences": 12
+        },
+        {
+          "value": "cyclicAMI",
+          "occurrences": 2
+        },
+        {
+          "value": "wedge",
+          "occurrences": 2
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "boundaryField/{patch}/value",
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 31,
+      "fileCount": 16,
+      "values": [
+        {
+          "value": "uniform 300",
+          "occurrences": 5
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "dimensions",
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "FoamFile",
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "FoamFile/class",
+      "keyword": "class",
+      "context": "FoamFile",
+      "path": "FoamFile/class",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [
+        {
+          "value": "volScalarField",
+          "occurrences": 18
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "FoamFile/format",
+      "keyword": "format",
+      "context": "FoamFile",
+      "path": "FoamFile/format",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [
+        {
+          "value": "ascii",
+          "occurrences": 18
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "FoamFile/object",
+      "keyword": "object",
+      "context": "FoamFile",
+      "path": "FoamFile/object",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [
+        {
+          "value": "T.water",
+          "occurrences": 18
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "FoamFile/version",
+      "keyword": "version",
+      "context": "FoamFile",
+      "path": "FoamFile/version",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    },
+    {
+      "key": "internalField",
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "occurrences": 18,
+      "fileCount": 18,
+      "values": [
+        {
+          "value": "uniform 350",
+          "occurrences": 11
+        },
+        {
+          "value": "uniform 300",
+          "occurrences": 4
+        },
+        {
+          "value": "uniform 500",
+          "occurrences": 2
+        },
+        {
+          "value": "uniform 360",
+          "occurrences": 1
+        }
+      ],
+      "examples": [
+        "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/0.orig/T.water",
+        "multiphase/multiphaseEulerFoam/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/bubbleColumn/0.orig/T.water",
+        "multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D/0.orig/T.water",
+        "multiphase/reactingTwoPhaseEulerFoam/laminar/bubbleColumn/0.orig/T.water"
+      ]
+    }
+  ]
+}
