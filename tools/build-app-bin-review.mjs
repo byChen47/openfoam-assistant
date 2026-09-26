@@ -4,17 +4,22 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { scanOpenFoamSources } from './openfoam-source-scanner.mjs';
+import { resolveOpenFoamRoot } from './openfoam-source-root.mjs';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDir, '..');
-const applicationsRoot = path.join(projectRoot, 'OpenFOAM-v2606', 'applications');
-const binRoot = path.join(projectRoot, 'OpenFOAM-v2606', 'bin');
+const openfoamRoot = resolveOpenFoamRoot(projectRoot);
+const applicationsRoot = path.join(openfoamRoot, 'applications');
+const binRoot = path.join(openfoamRoot, 'bin');
 const reviewRoot = path.join(projectRoot, 'data', 'source-supplements');
 const applicationsOut = path.join(reviewRoot, 'applications');
 const binOut = path.join(reviewRoot, 'bin');
 const SHELL_CONTROL_WORDS = new Set(['if', 'then', 'elif', 'else', 'fi', 'for', 'while', 'until', 'do', 'done', 'case', 'esac', 'function', 'in']);
 const compare = (a, b) => a.localeCompare(b, 'en');
 const toPosix = (value) => value.split(path.sep).join('/');
+const openfoamRootLabel = toPosix(path.relative(projectRoot, openfoamRoot));
+const applicationsLabel = `${openfoamRootLabel}/applications`;
+const binLabel = `${openfoamRootLabel}/bin`;
 
 function writeJson(file, value) {
   fs.mkdirSync(path.dirname(file), { recursive: true });
@@ -93,6 +98,37 @@ function parseShell(text) {
   return { commands: serialize(commands), functions: serialize(functions), helpers, variables: serialize(variables), options: serialize(options) };
 }
 
+const REVIEW_MARKER = '## Applications Supplement';
+
+// The Applications/Bin summary lives in the same REVIEW.md that
+// build-source-review.mjs regenerates, so these sections are rebuilt here
+// rather than hand-maintained - a manual edit would be silently overwritten.
+function writeReviewSupplements(data) {
+  const reviewPath = path.join(reviewRoot, 'REVIEW.md');
+  const existing = fs.existsSync(reviewPath) ? fs.readFileSync(reviewPath, 'utf8') : '';
+  const markerIndex = existing.indexOf(REVIEW_MARKER);
+  const header = (markerIndex === -1 ? existing : existing.slice(0, markerIndex)).trimEnd();
+  const total = (files, key) => files.reduce((sum, item) => sum + (item[key] || 0), 0);
+
+  const sections = [
+    REVIEW_MARKER, '',
+    `- Source files scanned: ${data.applicationScan.scannedFiles}`,
+    `- Application groups: ${data.applicationFiles.length}`,
+    `- Dictionary keywords: ${data.applicationKeywordCount}`,
+    `- Command-line options/arguments: ${data.applicationOptionCount}`,
+    '- Output: `applications/`, one independent JSON file per application group', '',
+    '## Bin Supplement', '',
+    `- Shell script files: ${data.binFiles.length}`,
+    `- Commands collected: ${total(data.binFiles, 'commandCount')}`,
+    `- Functions collected: ${total(data.binFiles, 'functionCount')}`,
+    `- Variables collected: ${total(data.binFiles, 'variableCount')}`,
+    `- Options collected: ${total(data.binFiles, 'optionCount')}`,
+    '- Output: `bin/`, one independent JSON file per script', '',
+  ].join('\n');
+
+  fs.writeFileSync(reviewPath, `${header}\n\n${sections}`, 'utf8');
+}
+
 function main() {
   if (!fs.existsSync(applicationsRoot) || !fs.existsSync(binRoot)) throw new Error('OpenFOAM applications or bin directory not found.');
   resetDirectory(applicationsOut);
@@ -140,10 +176,12 @@ function main() {
       const [optionType, keyword] = key.split('|');
       return { keyword, optionType };
     });
-    writeJson(outputPath, { generatedAt, sourceRoot: 'OpenFOAM-v2606/applications', group, keywordCount: keywords.length, keywords, optionCount: options.length, options, records: dictionaryRecords.sort((a, b) => compare(a.keyword, b.keyword) || compare(a.sourceFile, b.sourceFile) || a.line - b.line), commandLineRecords: commandLineRecords.sort((a, b) => compare(a.keyword, b.keyword) || compare(a.sourceFile, b.sourceFile) || a.line - b.line) });
+    writeJson(outputPath, { generatedAt, sourceRoot: applicationsLabel, group, keywordCount: keywords.length, keywords, optionCount: options.length, options, records: dictionaryRecords.sort((a, b) => compare(a.keyword, b.keyword) || compare(a.sourceFile, b.sourceFile) || a.line - b.line), commandLineRecords: commandLineRecords.sort((a, b) => compare(a.keyword, b.keyword) || compare(a.sourceFile, b.sourceFile) || a.line - b.line) });
     applicationFiles.push({ group, output: toPosix(path.relative(reviewRoot, outputPath)), keywordCount: keywords.length, optionCount: options.length, recordCount: dictionaryRecords.length, commandLineCount: commandLineRecords.length });
   }
-  writeJson(path.join(applicationsOut, 'manifest.json'), { generatedAt, sourceRoot: 'OpenFOAM-v2606/applications', sourceScan: appScan.stats, groupCount: applicationFiles.length, keywordCount: [...new Set(appScan.records.map((record) => record.keyword))].length, optionCount: [...new Set([...groups.values()].flat().filter((record) => record.recordType === 'commandLine').map((record) => record.keyword))].length, files: applicationFiles });
+  const applicationKeywordCount = [...new Set(appScan.records.map((record) => record.keyword))].length;
+  const applicationOptionCount = [...new Set([...groups.values()].flat().filter((record) => record.recordType === 'commandLine').map((record) => record.keyword))].length;
+  writeJson(path.join(applicationsOut, 'manifest.json'), { generatedAt, sourceRoot: applicationsLabel, sourceScan: appScan.stats, groupCount: applicationFiles.length, keywordCount: applicationKeywordCount, optionCount: applicationOptionCount, files: applicationFiles });
 
   const binFiles = [];
   for (const fullPath of walkFiles(binRoot)) {
@@ -154,10 +192,18 @@ function main() {
     if (!isShell) continue;
     const parsed = parseShell(text);
     const outputPath = path.join(binOut, ...relative.split('/')) + '.json';
-    writeJson(outputPath, { generatedAt, sourceRoot: 'OpenFOAM-v2606/bin', file: toPosix(path.relative(projectRoot, fullPath)), shebang: firstLine, ...parsed });
+    writeJson(outputPath, { generatedAt, sourceRoot: binLabel, file: toPosix(path.relative(projectRoot, fullPath)), shebang: firstLine, ...parsed });
     binFiles.push({ file: relative, output: toPosix(path.relative(reviewRoot, outputPath)), commandCount: parsed.commands.length, functionCount: parsed.functions.length, variableCount: parsed.variables.length, optionCount: parsed.options.length });
   }
-  writeJson(path.join(binOut, 'manifest.json'), { generatedAt, sourceRoot: 'OpenFOAM-v2606/bin', fileCount: binFiles.length, files: binFiles.sort((a, b) => compare(a.file, b.file)) });
+  writeJson(path.join(binOut, 'manifest.json'), { generatedAt, sourceRoot: binLabel, fileCount: binFiles.length, files: binFiles.sort((a, b) => compare(a.file, b.file)) });
+
+  writeReviewSupplements({
+    applicationScan: appScan.stats,
+    applicationFiles,
+    applicationKeywordCount,
+    applicationOptionCount,
+    binFiles,
+  });
 
   process.stdout.write(`${JSON.stringify({ applications: { sourceScan: appScan.stats, groupCount: applicationFiles.length }, bin: { fileCount: binFiles.length } }, null, 2)}\n`);
 }

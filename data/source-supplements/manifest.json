@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "generatedAt": "2026-09-26T08:08:00.893Z",
   "sourceRoots": [
     "OpenFOAM-v2606/src",
     "OpenFOAM-v2606/applications"
@@ -11,14 +11,14 @@
     "typedCallCount": 2514
   },
   "candidateOrigins": {
-    "src": 4390,
+    "src": 4328,
     "applications": 322,
     "etc": 4156,
     "other": 0
   },
   "targetFileCount": 463,
-  "candidateCount": 6657,
-  "boundaryConditionCount": 148,
+  "candidateCount": 6597,
+  "boundaryConditionCount": 162,
   "unmappedTypeCount": 982,
   "files": [
     {
@@ -1537,7 +1537,7 @@
       "category": "constant",
       "fileKey": "phaseProperties",
       "output": "constant/phaseProperties.json",
-      "candidateCount": 115
+      "candidateCount": 105
     },
     {
       "category": "constant",
@@ -1651,7 +1651,7 @@
       "category": "constant",
       "fileKey": "thermodynamicProperties",
       "output": "constant/thermodynamicProperties.json",
-      "candidateCount": 4
+      "candidateCount": 2
     },
     {
       "category": "constant",
@@ -1771,7 +1771,7 @@
       "category": "constant",
       "fileKey": "water/phaseProperties",
       "output": "constant/water/phaseProperties.json",
-      "candidateCount": 30
+      "candidateCount": 20
     },
     {
       "category": "constant",
@@ -1813,7 +1813,7 @@
       "category": "system",
       "fileKey": "air/changeDictionaryDict",
       "output": "system/air/changeDictionaryDict.json",
-      "candidateCount": 4
+      "candidateCount": 1
     },
     {
       "category": "system",
@@ -1861,7 +1861,7 @@
       "category": "system",
       "fileKey": "bottomAir/changeDictionaryDict",
       "output": "system/bottomAir/changeDictionaryDict.json",
-      "candidateCount": 16
+      "candidateCount": 13
     },
     {
       "category": "system",
@@ -1879,7 +1879,7 @@
       "category": "system",
       "fileKey": "bottomWater/changeDictionaryDict",
       "output": "system/bottomWater/changeDictionaryDict.json",
-      "candidateCount": 7
+      "candidateCount": 4
     },
     {
       "category": "system",
@@ -1897,7 +1897,7 @@
       "category": "system",
       "fileKey": "changeDictionaryDict",
       "output": "system/changeDictionaryDict.json",
-      "candidateCount": 83
+      "candidateCount": 82
     },
     {
       "category": "system",
@@ -1939,7 +1939,7 @@
       "category": "system",
       "fileKey": "createBafflesDict",
       "output": "system/createBafflesDict.json",
-      "candidateCount": 85
+      "candidateCount": 84
     },
     {
       "category": "system",
@@ -2137,7 +2137,7 @@
       "category": "system",
       "fileKey": "floor/changeDictionaryDict",
       "output": "system/floor/changeDictionaryDict.json",
-      "candidateCount": 7
+      "candidateCount": 4
     },
     {
       "category": "system",
@@ -2221,7 +2221,7 @@
       "category": "system",
       "fileKey": "heater/changeDictionaryDict",
       "output": "system/heater/changeDictionaryDict.json",
-      "candidateCount": 30
+      "candidateCount": 27
     },
     {
       "category": "system",
@@ -2233,7 +2233,7 @@
       "category": "system",
       "fileKey": "leftSolid/changeDictionaryDict",
       "output": "system/leftSolid/changeDictionaryDict.json",
-      "candidateCount": 47
+      "candidateCount": 44
     },
     {
       "category": "system",
@@ -2425,7 +2425,7 @@
       "category": "system",
       "fileKey": "rightFluid/changeDictionaryDict",
       "output": "system/rightFluid/changeDictionaryDict.json",
-      "candidateCount": 5
+      "candidateCount": 2
     },
     {
       "category": "system",
@@ -2437,7 +2437,7 @@
       "category": "system",
       "fileKey": "rightSolid/changeDictionaryDict",
       "output": "system/rightSolid/changeDictionaryDict.json",
-      "candidateCount": 21
+      "candidateCount": 18
     },
     {
       "category": "system",
@@ -2671,7 +2671,7 @@
       "category": "system",
       "fileKey": "solid/changeDictionaryDict",
       "output": "system/solid/changeDictionaryDict.json",
-      "candidateCount": 11
+      "candidateCount": 5
     },
     {
       "category": "system",
@@ -2737,7 +2737,7 @@
       "category": "system",
       "fileKey": "topAir/changeDictionaryDict",
       "output": "system/topAir/changeDictionaryDict.json",
-      "candidateCount": 20
+      "candidateCount": 17
     },
     {
       "category": "system",
@@ -2785,7 +2785,7 @@
       "category": "system",
       "fileKey": "water/changeDictionaryDict",
       "output": "system/water/changeDictionaryDict.json",
-      "candidateCount": 5
+      "candidateCount": 2
     },
     {
       "category": "system",
@@ -2817,9 +2817,54 @@
       "keywordCount": 8
     },
     {
+      "typeName": "adjointFarFieldNuaTilda",
+      "output": "boundary-conditions/adjointFarFieldNuaTilda.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointFarFieldTMVar1",
+      "output": "boundary-conditions/adjointFarFieldTMVar1.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointFarFieldTMVar2",
+      "output": "boundary-conditions/adjointFarFieldTMVar2.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointInletNuaTilda",
+      "output": "boundary-conditions/adjointInletNuaTilda.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointOutletKa",
+      "output": "boundary-conditions/adjointOutletKa.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointOutletNuaTilda",
+      "output": "boundary-conditions/adjointOutletNuaTilda.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointOutletNuaTildaFlux",
+      "output": "boundary-conditions/adjointOutletNuaTildaFlux.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointOutletWa",
+      "output": "boundary-conditions/adjointOutletWa.json",
+      "keywordCount": 1
+    },
+    {
       "typeName": "advective",
       "output": "boundary-conditions/advective.json",
       "keywordCount": 0
+    },
+    {
+      "typeName": "alphatJayatillekeWallFunction",
+      "output": "boundary-conditions/alphatJayatillekeWallFunction.json",
+      "keywordCount": 1
     },
     {
       "typeName": "angularOscillatingDisplacement",
@@ -2830,6 +2875,11 @@
       "typeName": "angularOscillatingVelocity",
       "output": "boundary-conditions/angularOscillatingVelocity.json",
       "keywordCount": 5
+    },
+    {
+      "typeName": "atmTurbulentHeatFluxTemperature",
+      "output": "boundary-conditions/atmTurbulentHeatFluxTemperature.json",
+      "keywordCount": 1
     },
     {
       "typeName": "calculated",
@@ -2852,6 +2902,46 @@
       "keywordCount": 0
     },
     {
+      "typeName": "compressible::alphatFixedDmdtWallBoilingWallFunction",
+      "output": "boundary-conditions/compressible__alphatFixedDmdtWallBoilingWallFunction.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "compressible::alphatWallBoilingWallFunction",
+      "output": "boundary-conditions/compressible__alphatWallBoilingWallFunction.json",
+      "keywordCount": 7
+    },
+    {
+      "typeName": "compressible::thermalBaffle",
+      "output": "boundary-conditions/compressible__thermalBaffle.json",
+      "keywordCount": 12
+    },
+    {
+      "typeName": "compressible::turbulentTemperatureCoupledBaffleMixed",
+      "output": "boundary-conditions/compressible__turbulentTemperatureCoupledBaffleMixed.json",
+      "keywordCount": 3
+    },
+    {
+      "typeName": "compressible::turbulentTemperatureRadCoupledMixed",
+      "output": "boundary-conditions/compressible__turbulentTemperatureRadCoupledMixed.json",
+      "keywordCount": 3
+    },
+    {
+      "typeName": "compressible::turbulentTemperatureTwoPhaseRadCoupledMixed",
+      "output": "boundary-conditions/compressible__turbulentTemperatureTwoPhaseRadCoupledMixed.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "convectiveHeatTransfer",
+      "output": "boundary-conditions/convectiveHeatTransfer.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "copiedFixedValue",
+      "output": "boundary-conditions/copiedFixedValue.json",
+      "keywordCount": 1
+    },
+    {
       "typeName": "cylindricalInletVelocity",
       "output": "boundary-conditions/cylindricalInletVelocity.json",
       "keywordCount": 1
@@ -2859,21 +2949,6 @@
     {
       "typeName": "directionMixed",
       "output": "boundary-conditions/directionMixed.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "eddy",
-      "output": "boundary-conditions/eddy.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "eddyI",
-      "output": "boundary-conditions/eddyI.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "eddyIO",
-      "output": "boundary-conditions/eddyIO.json",
       "keywordCount": 0
     },
     {
@@ -2885,6 +2960,11 @@
       "typeName": "electrostaticDeposition",
       "output": "boundary-conditions/electrostaticDeposition.json",
       "keywordCount": 0
+    },
+    {
+      "typeName": "enthalpySorption",
+      "output": "boundary-conditions/enthalpySorption.json",
+      "keywordCount": 1
     },
     {
       "typeName": "exprFixedValue",
@@ -2902,6 +2982,11 @@
       "keywordCount": 0
     },
     {
+      "typeName": "externalWallHeatFluxTemperature",
+      "output": "boundary-conditions/externalWallHeatFluxTemperature.json",
+      "keywordCount": 2
+    },
+    {
       "typeName": "extrapolatedCalculated",
       "output": "boundary-conditions/extrapolatedCalculated.json",
       "keywordCount": 0
@@ -2915,6 +3000,11 @@
       "typeName": "fanPressure",
       "output": "boundary-conditions/fanPressure.json",
       "keywordCount": 0
+    },
+    {
+      "typeName": "filmPyrolysisRadiativeCoupledMixed",
+      "output": "boundary-conditions/filmPyrolysisRadiativeCoupledMixed.json",
+      "keywordCount": 4
     },
     {
       "typeName": "fixedFluxExtrapolatedPressure",
@@ -3012,39 +3102,9 @@
       "keywordCount": 0
     },
     {
-      "typeName": "fvPatchField",
-      "output": "boundary-conditions/fvPatchField.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "fvPatchFieldBase",
-      "output": "boundary-conditions/fvPatchFieldBase.json",
-      "keywordCount": 2
-    },
-    {
-      "typeName": "fvPatchFieldDoc",
-      "output": "boundary-conditions/fvPatchFieldDoc.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "fvPatchFieldMacros",
-      "output": "boundary-conditions/fvPatchFieldMacros.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "fvPatchFieldMapper",
-      "output": "boundary-conditions/fvPatchFieldMapper.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "fvPatchFields",
-      "output": "boundary-conditions/fvPatchFields.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "fvPatchFieldsFwd",
-      "output": "boundary-conditions/fvPatchFieldsFwd.json",
-      "keywordCount": 0
+      "typeName": "humidityTemperatureCoupledMixed",
+      "output": "boundary-conditions/humidityTemperatureCoupledMixed.json",
+      "keywordCount": 7
     },
     {
       "typeName": "inletOutlet",
@@ -3057,11 +3117,6 @@
       "keywordCount": 1
     },
     {
-      "typeName": "IntegralScaleBox",
-      "output": "boundary-conditions/IntegralScaleBox.json",
-      "keywordCount": 0
-    },
-    {
       "typeName": "interfaceCompression",
       "output": "boundary-conditions/interfaceCompression.json",
       "keywordCount": 0
@@ -3070,6 +3125,16 @@
       "typeName": "interstitialInletVelocity",
       "output": "boundary-conditions/interstitialInletVelocity.json",
       "keywordCount": 0
+    },
+    {
+      "typeName": "JohnsonJacksonParticleSlip",
+      "output": "boundary-conditions/JohnsonJacksonParticleSlip.json",
+      "keywordCount": 2
+    },
+    {
+      "typeName": "JohnsonJacksonParticleTheta",
+      "output": "boundary-conditions/JohnsonJacksonParticleTheta.json",
+      "keywordCount": 2
     },
     {
       "typeName": "jumpCyclic",
@@ -3082,14 +3147,19 @@
       "keywordCount": 0
     },
     {
-      "typeName": "lumpedPointDisplacement",
-      "output": "boundary-conditions/lumpedPointDisplacement.json",
+      "typeName": "kaqRWallFunction",
+      "output": "boundary-conditions/kaqRWallFunction.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "lumpedMassWallTemperature",
+      "output": "boundary-conditions/lumpedMassWallTemperature.json",
       "keywordCount": 2
     },
     {
-      "typeName": "makeSampledPatchFunction1s",
-      "output": "boundary-conditions/makeSampledPatchFunction1s.json",
-      "keywordCount": 0
+      "typeName": "lumpedPointDisplacement",
+      "output": "boundary-conditions/lumpedPointDisplacement.json",
+      "keywordCount": 2
     },
     {
       "typeName": "mapped",
@@ -3127,11 +3197,6 @@
       "keywordCount": 0
     },
     {
-      "typeName": "mappedPatchFieldBase",
-      "output": "boundary-conditions/mappedPatchFieldBase.json",
-      "keywordCount": 0
-    },
-    {
       "typeName": "mappedVelocityFlux",
       "output": "boundary-conditions/mappedVelocityFlux.json",
       "keywordCount": 0
@@ -3152,9 +3217,24 @@
       "keywordCount": 0
     },
     {
+      "typeName": "multiphaseEuler::alphaContactAngle",
+      "output": "boundary-conditions/multiphaseEuler__alphaContactAngle.json",
+      "keywordCount": 1
+    },
+    {
       "typeName": "noSlip",
       "output": "boundary-conditions/noSlip.json",
       "keywordCount": 0
+    },
+    {
+      "typeName": "nutTabulatedWallFunction",
+      "output": "boundary-conditions/nutTabulatedWallFunction.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "nutURoughWallFunction",
+      "output": "boundary-conditions/nutURoughWallFunction.json",
+      "keywordCount": 3
     },
     {
       "typeName": "oscillatingDisplacement",
@@ -3172,9 +3252,19 @@
       "keywordCount": 0
     },
     {
+      "typeName": "outletMachNumberPressure",
+      "output": "boundary-conditions/outletMachNumberPressure.json",
+      "keywordCount": 2
+    },
+    {
       "typeName": "outletMappedUniformInlet",
       "output": "boundary-conditions/outletMappedUniformInlet.json",
       "keywordCount": 0
+    },
+    {
+      "typeName": "outletMappedUniformInletHeatAddition",
+      "output": "boundary-conditions/outletMappedUniformInletHeatAddition.json",
+      "keywordCount": 1
     },
     {
       "typeName": "outletPhaseMeanVelocity",
@@ -3207,54 +3297,9 @@
       "keywordCount": 2
     },
     {
-      "typeName": "pointConstraint",
-      "output": "boundary-conditions/pointConstraint.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "pointConstraintI",
-      "output": "boundary-conditions/pointConstraintI.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "pointPatchField",
-      "output": "boundary-conditions/pointPatchField.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "pointPatchFieldBase",
-      "output": "boundary-conditions/pointPatchFieldBase.json",
+      "typeName": "porousBafflePressure",
+      "output": "boundary-conditions/porousBafflePressure.json",
       "keywordCount": 1
-    },
-    {
-      "typeName": "pointPatchFieldFunctions",
-      "output": "boundary-conditions/pointPatchFieldFunctions.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "pointPatchFieldMacros",
-      "output": "boundary-conditions/pointPatchFieldMacros.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "pointPatchFieldMapper",
-      "output": "boundary-conditions/pointPatchFieldMapper.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "pointPatchFieldMapperPatchRef",
-      "output": "boundary-conditions/pointPatchFieldMapperPatchRef.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "pointPatchFields",
-      "output": "boundary-conditions/pointPatchFields.json",
-      "keywordCount": 0
-    },
-    {
-      "typeName": "pointPatchFieldsFwd",
-      "output": "boundary-conditions/pointPatchFieldsFwd.json",
-      "keywordCount": 0
     },
     {
       "typeName": "pressureDirectedInletOutletVelocity",
@@ -3317,6 +3362,11 @@
       "keywordCount": 0
     },
     {
+      "typeName": "reactingMultiphaseEuler::alphaContactAngle",
+      "output": "boundary-conditions/reactingMultiphaseEuler__alphaContactAngle.json",
+      "keywordCount": 1
+    },
+    {
       "typeName": "rotatingPressureInletOutletVelocity",
       "output": "boundary-conditions/rotatingPressureInletOutletVelocity.json",
       "keywordCount": 0
@@ -3330,11 +3380,6 @@
       "typeName": "rotatingWallVelocity",
       "output": "boundary-conditions/rotatingWallVelocity.json",
       "keywordCount": 2
-    },
-    {
-      "typeName": "sampled",
-      "output": "boundary-conditions/sampled.json",
-      "keywordCount": 0
     },
     {
       "typeName": "scaledFixedValue",
@@ -3355,6 +3400,21 @@
       "typeName": "slip",
       "output": "boundary-conditions/slip.json",
       "keywordCount": 0
+    },
+    {
+      "typeName": "speciesSorption",
+      "output": "boundary-conditions/speciesSorption.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "SRFFreestreamVelocity",
+      "output": "boundary-conditions/SRFFreestreamVelocity.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "SRFVelocity",
+      "output": "boundary-conditions/SRFVelocity.json",
+      "keywordCount": 1
     },
     {
       "typeName": "supersonicFreestream",
@@ -3447,6 +3507,11 @@
       "keywordCount": 1
     },
     {
+      "typeName": "turbulentMixingLengthFrequencyInlet",
+      "output": "boundary-conditions/turbulentMixingLengthFrequencyInlet.json",
+      "keywordCount": 1
+    },
+    {
       "typeName": "uniformDensityHydrostaticPressure",
       "output": "boundary-conditions/uniformDensityHydrostaticPressure.json",
       "keywordCount": 3
@@ -3530,6 +3595,11 @@
       "typeName": "waveTransmissive",
       "output": "boundary-conditions/waveTransmissive.json",
       "keywordCount": 0
+    },
+    {
+      "typeName": "waWallFunction",
+      "output": "boundary-conditions/waWallFunction.json",
+      "keywordCount": 1
     },
     {
       "typeName": "zeroGradient",

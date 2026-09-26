@@ -4,7 +4,7 @@
 
 [Releases](https://github.com/byChen47/openfoam-assistant/releases/latest) | [Issues](https://github.com/byChen47/openfoam-assistant/issues) | [MIT License](LICENSE)
 
-**最新版本 / Latest version:** `1.1.8` | **VS Code:** `1.111+` | **许可证 / License:** MIT
+**最新版本 / Latest version:** `1.1.9` | **VS Code:** `1.111+` | **许可证 / License:** MIT
 
 OpenFOAM 算例字典关键词与候选值补全扩展。
 
@@ -34,6 +34,7 @@ OpenFOAM Dict IntelliSense 是一个 Visual Studio Code 扩展，用于在编写
 - 为关键词和值提供 Hover 说明
 - 为 `Allrun`、`Allclean` 提示命令、OpenFOAM 函数、工具和环境变量
 - 自动把已识别的字典文件设置为 `OpenFOAM Dictionary` 语言模式
+- 为 `OpenFOAM Dictionary` 语言模式提供语法高亮：注释、`#` 指令、`#{...}#` 代码流、字符串、变量、量纲、数值、布尔值和键名
 - 支持关键词和值的大小写区分
 
 ### 支持的文件
@@ -52,10 +53,10 @@ OpenFOAM Dict IntelliSense 是一个 Visual Studio Code 扩展，用于在编写
 
 ### 安装
 
-从 [GitHub Releases](https://github.com/byChen47/openfoam-assistant/releases/latest) 下载 `openfoam-dict-intellisense-1.1.8.vsix`，然后执行：
+从 [GitHub Releases](https://github.com/byChen47/openfoam-assistant/releases/latest) 下载 `openfoam-dict-intellisense-1.1.9.vsix`，然后执行：
 
 ```powershell
-code --install-extension openfoam-dict-intellisense-1.1.8.vsix --force
+code --install-extension openfoam-dict-intellisense-1.1.9.vsix --force
 ```
 
 也可以直接在 VS Code 的扩展面板中选择：
@@ -241,19 +242,20 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - 索引以 `OpenFOAM-v2606/tutorials/` 为教学案例基础
 - 同时扫描 `OpenFOAM-v2606/src/` 和 `OpenFOAM-v2606/applications/` 中的 dictionary 读取调用
 - 源码关键词按运行类型和源码路径映射到 `0`、`constant`、`system` 的具体文件
-- 当前源码补充映射了 4,555 条调用、613 个关键词，覆盖 415 个目标文件
+- 当前源码补充映射了 4,704 条调用、623 个关键词，覆盖 423 个目标文件
 - 每个源码补充条目记录 `sourceTypes` 和 `sourceLocations`，便于审查
 - 扩展不编译 OpenFOAM、不执行求解器，也不替代 OpenFOAM 自身的输入校验
 
-### 1.1.8 索引覆盖
+### 1.1.9 索引覆盖
 
 - `0` 文件：347 个文件级索引
 - `constant` 文件：198 个文件级索引
 - `system` 文件：537 个文件级索引
 - 脚本：`Allrun`、`Allclean`
-- 边界条件：148 个独立定义，其中 38 个带额外 dictionary 关键词
+- 边界条件：162 个独立定义，其中 74 个带额外 dictionary 关键词
 - `applications`：247 个应用/工具组，532 个 dictionary 关键词，297 个命令行选项或参数
 - `bin`：64 个 Shell 脚本，包含命令、函数、变量和选项
+- `OpenFOAM Dictionary` 语言模式：新增语法高亮（注释、`#` 指令、`#{...}#` 代码流、字符串、变量、量纲、数值、布尔值、键名）
 - VS Code 最低版本：1.111
 
 ### 开发与构建
@@ -272,7 +274,24 @@ node --test tests\openfoam.test.js
 重新生成关键词数据：
 
 ```powershell
+npm run extract:keywords
+```
+
+`OpenFOAM-v2606` 源码树是提取语料，体积较大，因此不纳入版本库。脚本按以下顺序定位语料：
+
+1. 环境变量 `OPENFOAM_SOURCE_ROOT`
+2. 项目根目录下的 `OpenFOAM-v2606`
+3. 项目根目录下唯一的 `OpenFOAM-v*` 目录
+
+如果都找不到，脚本会给出明确报错而不是中途失败。语料路径不会写入生成结果，生成结果中的来源路径始终相对于项目根目录。
+
+完整数据管线（顺序不可调换，后一步依赖前一步的输出；第一步会整体重建 `data/keywords/`，因此单独运行它会删掉 `applications/`、`bin/`、`boundary-conditions/` 和 `manifest.auxiliary`，必须四步一起运行）：
+
+```powershell
 node tools\extract-openfoam-keywords.mjs
+node tools\build-source-review.mjs
+node tools\build-app-bin-review.mjs
+node tools\merge-source-supplements.mjs
 ```
 
 重新构建 VSIX：
@@ -284,7 +303,7 @@ powershell -ExecutionPolicy Bypass -File tools\build-vsix.ps1
 输出：
 
 ```text
-openfoam-dict-intellisense-1.1.8.vsix
+openfoam-dict-intellisense-1.1.9.vsix
 ```
 
 ---
@@ -311,6 +330,7 @@ Typical use cases:
 - Provides hover documentation for keywords and values
 - Suggests commands, OpenFOAM functions, utilities, and environment variables in `Allrun` and `Allclean`
 - Automatically applies the `OpenFOAM Dictionary` language mode to recognized dictionary files
+- Highlights the `OpenFOAM Dictionary` language mode: comments, `#` directives, `#{...}#` code streams, strings, variables, dimensions, numbers, booleans, and entry keys
 - Preserves keyword and value case
 
 ### Supported Files
@@ -329,10 +349,10 @@ Notes:
 
 ### Installation
 
-Download `openfoam-dict-intellisense-1.1.8.vsix` from [GitHub Releases](https://github.com/byChen47/openfoam-assistant/releases/latest), then run:
+Download `openfoam-dict-intellisense-1.1.9.vsix` from [GitHub Releases](https://github.com/byChen47/openfoam-assistant/releases/latest), then run:
 
 ```powershell
-code --install-extension openfoam-dict-intellisense-1.1.8.vsix --force
+code --install-extension openfoam-dict-intellisense-1.1.9.vsix --force
 ```
 
 Or use the VS Code UI:
@@ -518,19 +538,20 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - The index is based on `OpenFOAM-v2606/tutorials/` as the tutorial corpus.
 - It also scans dictionary reads in `OpenFOAM-v2606/src/` and `OpenFOAM-v2606/applications/`.
 - Source keywords are mapped to concrete `0`, `constant`, and `system` files by runtime type and source path.
-- The current source supplement maps 4,766 calls and 625 keywords across 423 target files; the `etc` supplement adds 4,702 calls and 1,811 keywords across 87 target files.
+- The current source supplement maps 4,704 calls and 623 keywords across 423 target files; the `etc` supplement adds 4,702 calls and 1,811 keywords across 87 target files.
 - Each source-derived entry records `sourceTypes` and `sourceLocations` for auditing.
 - The extension does not compile OpenFOAM, run solvers, or replace OpenFOAM input validation.
 
-### 1.1.8 Index Coverage
+### 1.1.9 Index Coverage
 
 - `0` files: 347 file-level indexes
 - `constant` files: 198 file-level indexes
 - `system` files: 537 file-level indexes
 - Scripts: `Allrun`, `Allclean`
-- Boundary conditions: 148 independent definitions, including 38 with additional dictionary keywords
+- Boundary conditions: 162 independent definitions, including 74 with additional dictionary keywords
 - `applications`: 247 application/tool groups, 532 dictionary keywords, and 297 command-line options or arguments
 - `bin`: 64 shell scripts with commands, functions, variables, and options
+- `OpenFOAM Dictionary` language mode: new syntax highlighting (comments, `#` directives, `#{...}#` code streams, strings, variables, dimensions, numbers, booleans, entry keys)
 - Minimum VS Code version: 1.111
 
 ### Development and Build
@@ -549,7 +570,24 @@ node --test tests\openfoam.test.js
 Regenerate keyword data:
 
 ```powershell
+npm run extract:keywords
+```
+
+The `OpenFOAM-v2606` source tree is the extraction corpus. It is large and therefore not committed. The scripts locate it in this order:
+
+1. the `OPENFOAM_SOURCE_ROOT` environment variable
+2. `OpenFOAM-v2606` in the project root
+3. the single `OpenFOAM-v*` directory in the project root
+
+If none is found, the scripts fail with an explicit message instead of failing halfway. The corpus location is never written into the generated output; recorded source paths stay relative to the project root.
+
+Full data pipeline (the order matters, each step consumes the previous output; the first step rebuilds `data/keywords/` from scratch, so running it alone drops `applications/`, `bin/`, `boundary-conditions/`, and `manifest.auxiliary` - always run all four, or use `npm run extract:keywords` above):
+
+```powershell
 node tools\extract-openfoam-keywords.mjs
+node tools\build-source-review.mjs
+node tools\build-app-bin-review.mjs
+node tools\merge-source-supplements.mjs
 ```
 
 Build the VSIX:
@@ -561,7 +599,7 @@ powershell -ExecutionPolicy Bypass -File tools\build-vsix.ps1
 Output:
 
 ```text
-openfoam-dict-intellisense-1.1.8.vsix
+openfoam-dict-intellisense-1.1.9.vsix
 ```
 
 ## License / 许可证

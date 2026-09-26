@@ -49,7 +49,6 @@ try {
     $VsceArguments = @(
         'package',
         '--no-dependencies',
-        '--allow-missing-repository',
         '--out',
         $Output
     )

@@ -4,6 +4,7 @@ const vscode = require('vscode');
 const { KeywordStore } = require('./keyword-store');
 const {
   findHoverEntries,
+  formatIndexStats,
   getCompletionContext,
   getContextPath,
   getKeywordCandidates,
@@ -256,8 +257,13 @@ function activate(context) {
     ),
     vscode.languages.registerHoverProvider(DOCUMENT_SELECTOR, { provideHover }),
     vscode.commands.registerCommand('openfoamIntellisense.reload', () => {
-      keywordStore.reload();
-      vscode.window.showInformationMessage('OpenFOAM 关键词索引已重新加载。');
+      try {
+        keywordStore.reload();
+        vscode.window.showInformationMessage('OpenFOAM 关键词索引已重新加载。');
+      }
+      catch (error) {
+        vscode.window.showWarningMessage(`OpenFOAM 关键词索引重新加载失败：${error.message}`);
+      }
     }),
     vscode.commands.registerCommand('openfoamIntellisense.setLanguage', async () => {
       const editor = vscode.window.activeTextEditor;
@@ -269,13 +275,12 @@ function activate(context) {
       vscode.window.showInformationMessage('当前文件已设置为 OpenFOAM Dictionary 语言模式。');
     }),
     vscode.commands.registerCommand('openfoamIntellisense.showIndexInfo', () => {
-      const stats = keywordStore.getStats();
-      const parts = Object.entries(stats.categories).map(
-        ([category, value]) => `${category}: ${value.files} 个文件`,
-      );
-      vscode.window.showInformationMessage(
-        `OpenFOAM 索引：${parts.join('，')}；数据源 ${stats.source}`,
-      );
+      try {
+        vscode.window.showInformationMessage(formatIndexStats(keywordStore.getStats()));
+      }
+      catch (error) {
+        vscode.window.showWarningMessage(`无法读取 OpenFOAM 关键词索引：${error.message}`);
+      }
     }),
   );
 }

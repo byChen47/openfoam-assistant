@@ -5,10 +5,13 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { scanOpenFoamSources } from './openfoam-source-scanner.mjs';
+import { resolveOpenFoamRoot } from './openfoam-source-root.mjs';
 
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(scriptDir, '..');
-const tutorialRoot = path.join(projectRoot, 'OpenFOAM-v2606', 'tutorials');
+const openfoamRoot = resolveOpenFoamRoot(projectRoot);
+const openfoamRootLabel = toPosix(path.relative(projectRoot, openfoamRoot));
+const tutorialRoot = path.join(openfoamRoot, 'tutorials');
 const outputRoot = path.join(projectRoot, 'data', 'keywords');
 const MAX_TEXT_FILE_SIZE = 4 * 1024 * 1024;
 
@@ -742,7 +745,9 @@ function inferEtcTargets(relativePath, categoryFiles) {
       context: `${basename}Coeffs`,
     }];
   }
-  if (lowerPath === 'openfoam-v2606/etc/controldict' || basename === 'controlDict') {
+  // The basename check already covers etc/controlDict, so no corpus directory
+  // name needs to be hard-coded here.
+  if (basename === 'controlDict') {
     return [{ category: 'system', fileKey: 'controlDict', context: '' }];
   }
 
@@ -762,9 +767,9 @@ function inferEtcTargets(relativePath, categoryFiles) {
 }
 
 function supplementFromEtc(categoryFiles) {
-  const etcRoot = path.join(projectRoot, 'OpenFOAM-v2606', 'etc');
+  const etcRoot = path.join(openfoamRoot, 'etc');
   const stats = {
-    sourceRoot: 'OpenFOAM-v2606/etc',
+    sourceRoot: `${openfoamRootLabel}/etc`,
     scannedFiles: 0,
     classifiedFiles: 0,
     skippedFiles: 0,
@@ -921,7 +926,7 @@ function sourcePathAllowsUsage(sourcePath, usage) {
   }
   if (
     lowerPath.includes('/finitevolume/fields/fvpatchfields/')
-    || lowerPath.includes('/derivedfvpitchfields/')
+    || lowerPath.includes('/derivedfvpatchfields/')
   ) {
     return usage.category === '0';
   }
@@ -962,8 +967,8 @@ function inferSourceTargetContext(usage, typeName) {
 
 function supplementFromSourceKeywords(categoryFiles) {
   const sourceRoots = [
-    path.join(projectRoot, 'OpenFOAM-v2606', 'src'),
-    path.join(projectRoot, 'OpenFOAM-v2606', 'applications'),
+    path.join(openfoamRoot, 'src'),
+    path.join(openfoamRoot, 'applications'),
   ];
   const scan = scanOpenFoamSources(sourceRoots);
   const typeUsageIndex = buildTypeUsageIndex(categoryFiles);
@@ -1163,7 +1168,7 @@ function main() {
       const serialized = serializeFileModel(model);
       writeJson(outputPath, {
         generatedAt,
-        source: 'OpenFOAM-v2606/tutorials',
+        source: `${openfoamRootLabel}/tutorials`,
         category,
         fileKey,
         ...serialized,
@@ -1203,7 +1208,7 @@ function main() {
     };
     writeJson(outputPath, {
       generatedAt,
-      source: 'OpenFOAM-v2606/tutorials',
+      source: `${openfoamRootLabel}/tutorials`,
       category: 'scripts',
       fileKey,
       ...serialized,
@@ -1222,7 +1227,7 @@ function main() {
 
   const manifest = {
     generatedAt,
-    source: 'OpenFOAM-v2606/tutorials',
+    source: `${openfoamRootLabel}/tutorials`,
     layout: 'one-json-per-source-file',
     sourceSupplement,
     etcSupplement,

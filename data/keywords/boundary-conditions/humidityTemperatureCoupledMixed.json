@@ -1,0 +1,72 @@
+{
+  "typeName": "humidityTemperatureCoupledMixed",
+  "patchKind": "fvPatchField",
+  "sourceFiles": [
+    "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C"
+  ],
+  "keywords": [
+    {
+      "keyword": "carrierMolWeight",
+      "method": "readEntry",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:282"
+      ]
+    },
+    {
+      "keyword": "kappaLayers",
+      "method": "readEntry",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:263"
+      ]
+    },
+    {
+      "keyword": "L",
+      "method": "readEntry",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:283"
+      ]
+    },
+    {
+      "keyword": "liquid",
+      "method": "subDict",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:285"
+      ]
+    },
+    {
+      "keyword": "mode",
+      "method": "readIfPresent",
+      "receiver": "massModeTypeNames_",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:256"
+      ]
+    },
+    {
+      "keyword": "thicknessLayers",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:261"
+      ]
+    },
+    {
+      "keyword": "Tvap",
+      "method": "readEntry",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:284"
+      ]
+    }
+  ]
+}

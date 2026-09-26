@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "generatedAt": "2026-09-26T08:08:00.893Z",
   "source": "OpenFOAM-v2606/src",
-  "conditionCount": 148,
+  "conditionCount": 162,
   "conditions": [
     {
       "typeName": "acousticWaveTransmissive",
@@ -149,12 +149,174 @@
       ]
     },
     {
+      "typeName": "adjointFarFieldNuaTilda",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointFarFieldNuaTilda/adjointFarFieldNuaTildaFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "solverName",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointFarFieldNuaTilda/adjointFarFieldNuaTildaFvPatchScalarField.C:78"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "adjointFarFieldTMVar1",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointFarFieldTMVar1/adjointFarFieldTMVar1FvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "solverName",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointFarFieldTMVar1/adjointFarFieldTMVar1FvPatchScalarField.C:77"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "adjointFarFieldTMVar2",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointFarFieldTMVar2/adjointFarFieldTMVar2FvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "solverName",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointFarFieldTMVar2/adjointFarFieldTMVar2FvPatchScalarField.C:77"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "adjointInletNuaTilda",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointInletNuaTilda/adjointInletNuaTildaFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "solverName",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointInletNuaTilda/adjointInletNuaTildaFvPatchScalarField.C:72"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "adjointOutletKa",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletKa/adjointOutletKaFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "solverName",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletKa/adjointOutletKaFvPatchScalarField.C:73"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "adjointOutletNuaTilda",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletNuaTilda/adjointOutletNuaTildaFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "solverName",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletNuaTilda/adjointOutletNuaTildaFvPatchScalarField.C:74"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "adjointOutletNuaTildaFlux",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletNuaTildaFlux/adjointOutletNuaTildaFluxFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "solverName",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletNuaTildaFlux/adjointOutletNuaTildaFluxFvPatchScalarField.C:77"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "adjointOutletWa",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletWa/adjointOutletWaFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "solverName",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletWa/adjointOutletWaFvPatchScalarField.C:73"
+          ]
+        }
+      ]
+    },
+    {
       "typeName": "advective",
       "patchKind": "fvPatchField",
       "sourceFiles": [
         "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/advective/advectiveFvPatchField.H"
       ],
       "keywords": []
+    },
+    {
+      "typeName": "alphatJayatillekeWallFunction",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/TurbulenceModels/incompressible/turbulentTransportModels/derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatJayatillekeWallFunction/alphatJayatillekeWallFunctionFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "Prt",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/TurbulenceModels/incompressible/turbulentTransportModels/derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatJayatillekeWallFunction/alphatJayatillekeWallFunctionFvPatchScalarField.C:181"
+          ]
+        }
+      ]
     },
     {
       "typeName": "angularOscillatingDisplacement",
@@ -265,6 +427,24 @@
       ]
     },
     {
+      "typeName": "atmTurbulentHeatFluxTemperature",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/atmTurbulentHeatFluxTemperature/atmTurbulentHeatFluxTemperatureFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "alphaEff",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/atmTurbulentHeatFluxTemperature/atmTurbulentHeatFluxTemperatureFvPatchScalarField.C:105"
+          ]
+        }
+      ]
+    },
+    {
       "typeName": "calculated",
       "patchKind": "fvPatchField",
       "sourceFiles": [
@@ -299,6 +479,342 @@
       "keywords": []
     },
     {
+      "typeName": "compressible::alphatFixedDmdtWallBoilingWallFunction",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatFixedDmdtWallBoilingWallFunction/alphatFixedDmdtWallBoilingWallFunctionFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "vaporPhase",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatFixedDmdtWallBoilingWallFunction/alphatFixedDmdtWallBoilingWallFunctionFvPatchScalarField.C:68"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "compressible::alphatWallBoilingWallFunction",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "departureDiamModel",
+          "method": "subDict",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:194"
+          ]
+        },
+        {
+          "keyword": "departureFreqModel",
+          "method": "subDict",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:200"
+          ]
+        },
+        {
+          "keyword": "K",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:259"
+          ]
+        },
+        {
+          "keyword": "nucleationSiteModel",
+          "method": "subDict",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:188"
+          ]
+        },
+        {
+          "keyword": "otherPhase",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:117"
+          ]
+        },
+        {
+          "keyword": "partitioningModel",
+          "method": "subDict",
+          "receiver": "dict",
+          "occurrences": 2,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:154",
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:170"
+          ]
+        },
+        {
+          "keyword": "wp",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.C:261"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "compressible::thermalBaffle",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "active",
+          "method": "get<Switch>",
+          "receiver": "dict_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:338"
+          ]
+        },
+        {
+          "keyword": "columnCells",
+          "method": "get<bool>",
+          "receiver": "dict_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:166"
+          ]
+        },
+        {
+          "keyword": "columnCells",
+          "method": "get<Switch>",
+          "receiver": "dict_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:328"
+          ]
+        },
+        {
+          "keyword": "expansionRatio",
+          "method": "get<scalar>",
+          "receiver": "dict_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:326"
+          ]
+        },
+        {
+          "keyword": "extrudeModel",
+          "method": "get<word>",
+          "receiver": "dict_",
+          "occurrences": 2,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:322",
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:330"
+          ]
+        },
+        {
+          "keyword": "internal",
+          "method": "readIfPresent",
+          "receiver": "dict_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:103"
+          ]
+        },
+        {
+          "keyword": "mixture",
+          "method": "subDict",
+          "receiver": "dict_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:341"
+          ]
+        },
+        {
+          "keyword": "nLayers",
+          "method": "get<label>",
+          "receiver": "dict_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:324"
+          ]
+        },
+        {
+          "keyword": "radiation",
+          "method": "subDict",
+          "receiver": "dict_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:342"
+          ]
+        },
+        {
+          "keyword": "region",
+          "method": "get<word>",
+          "receiver": "dict_",
+          "occurrences": 2,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:144",
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:334"
+          ]
+        },
+        {
+          "keyword": "region",
+          "method": "readIfPresent",
+          "receiver": "dict_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:101"
+          ]
+        },
+        {
+          "keyword": "thermoType",
+          "method": "subDict",
+          "receiver": "dict_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:340"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "compressible::turbulentTemperatureCoupledBaffleMixed",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "kappaLayers",
+          "method": "readEntry",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C:129"
+          ]
+        },
+        {
+          "keyword": "thicknessLayers",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C:127"
+          ]
+        },
+        {
+          "keyword": "Tnbr",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C:107"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "compressible::turbulentTemperatureRadCoupledMixed",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "kappaLayers",
+          "method": "readEntry",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:280"
+          ]
+        },
+        {
+          "keyword": "thicknessLayers",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:278"
+          ]
+        },
+        {
+          "keyword": "useImplicit",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:314"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "compressible::turbulentTemperatureTwoPhaseRadCoupledMixed",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/applications/solvers/heatTransfer/chtMultiRegionFoam/chtMultiRegionTwoPhaseEulerFoam/derivedFvPatchFields/turbulentTemperatureTwoPhaseRadCoupledMixed/turbulentTemperatureTwoPhaseRadCoupledMixedFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "otherPhase",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/applications/solvers/heatTransfer/chtMultiRegionFoam/chtMultiRegionTwoPhaseEulerFoam/derivedFvPatchFields/turbulentTemperatureTwoPhaseRadCoupledMixed/turbulentTemperatureTwoPhaseRadCoupledMixedFvPatchScalarField.C:231"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "convectiveHeatTransfer",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/convectiveHeatTransfer/convectiveHeatTransferFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "L",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/convectiveHeatTransfer/convectiveHeatTransferFvPatchScalarField.C:77"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "copiedFixedValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/copiedFixedValue/copiedFixedValueFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "sourceFieldName",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/copiedFixedValue/copiedFixedValueFvPatchScalarField.C:54"
+          ]
+        }
+      ]
+    },
+    {
       "typeName": "cylindricalInletVelocity",
       "patchKind": "fvPatchField",
       "sourceFiles": [
@@ -322,31 +838,6 @@
       "patchKind": "fvPatchField",
       "sourceFiles": [
         "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchField.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "eddy",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddy.cxx",
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddy.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "eddyI",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddyI.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "eddyIO",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddyIO.cxx"
       ],
       "keywords": []
     },
@@ -388,6 +879,24 @@
       "keywords": []
     },
     {
+      "typeName": "enthalpySorption",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/derivedFvPatchFields/enthalpySorption/enthalpySorptionFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "species",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/derivedFvPatchFields/enthalpySorption/enthalpySorptionFvPatchScalarField.C:82"
+          ]
+        }
+      ]
+    },
+    {
       "typeName": "exprFixedValue",
       "patchKind": "fvPatchField",
       "sourceFiles": [
@@ -410,6 +919,33 @@
         "OpenFOAM-v2606/src/finiteVolume/expressions/fields/pointPatchFields/exprValuePointPatchField.H"
       ],
       "keywords": []
+    },
+    {
+      "typeName": "externalWallHeatFluxTemperature",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/externalWallHeatFluxTemperature/externalWallHeatFluxTemperatureFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "kappaLayers",
+          "method": "readEntry",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/externalWallHeatFluxTemperature/externalWallHeatFluxTemperatureFvPatchScalarField.C:121"
+          ]
+        },
+        {
+          "keyword": "thicknessLayers",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/externalWallHeatFluxTemperature/externalWallHeatFluxTemperatureFvPatchScalarField.C:119"
+          ]
+        }
+      ]
     },
     {
       "typeName": "extrapolatedCalculated",
@@ -435,6 +971,51 @@
         "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fanPressure/fanPressureFvPatchScalarField.H"
       ],
       "keywords": []
+    },
+    {
+      "typeName": "filmPyrolysisRadiativeCoupledMixed",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "filmDeltaDry",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.C:174"
+          ]
+        },
+        {
+          "keyword": "filmDeltaWet",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.C:175"
+          ]
+        },
+        {
+          "keyword": "qr",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.C:172"
+          ]
+        },
+        {
+          "keyword": "Tnbr",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.C:171"
+          ]
+        }
+      ]
     },
     {
       "typeName": "fixedFluxExtrapolatedPressure",
@@ -639,80 +1220,76 @@
       "keywords": []
     },
     {
-      "typeName": "fvPatchField",
+      "typeName": "humidityTemperatureCoupledMixed",
       "patchKind": "fvPatchField",
       "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "fvPatchFieldBase",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldBase.cxx"
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C"
       ],
       "keywords": [
         {
-          "keyword": "patchType",
-          "method": "readIfPresent",
+          "keyword": "carrierMolWeight",
+          "method": "readEntry",
           "receiver": "dict",
           "occurrences": 1,
           "examples": [
-            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldBase.cxx:108"
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:282"
           ]
         },
         {
-          "keyword": "useImplicit",
+          "keyword": "kappaLayers",
+          "method": "readEntry",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:263"
+          ]
+        },
+        {
+          "keyword": "L",
+          "method": "readEntry",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:283"
+          ]
+        },
+        {
+          "keyword": "liquid",
+          "method": "subDict",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:285"
+          ]
+        },
+        {
+          "keyword": "mode",
+          "method": "readIfPresent",
+          "receiver": "massModeTypeNames_",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:256"
+          ]
+        },
+        {
+          "keyword": "thicknessLayers",
           "method": "readIfPresent",
           "receiver": "dict",
           "occurrences": 1,
           "examples": [
-            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldBase.cxx:109"
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:261"
+          ]
+        },
+        {
+          "keyword": "Tvap",
+          "method": "readEntry",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/humidityTemperatureCoupledMixed/humidityTemperatureCoupledMixedFvPatchScalarField.C:284"
           ]
         }
       ]
-    },
-    {
-      "typeName": "fvPatchFieldDoc",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/doc/fvPatchFieldDoc.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "fvPatchFieldMacros",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMacros.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "fvPatchFieldMapper",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "fvPatchFields",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.cxx",
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "fvPatchFieldsFwd",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldsFwd.H"
-      ],
-      "keywords": []
     },
     {
       "typeName": "inletOutlet",
@@ -742,14 +1319,6 @@
       ]
     },
     {
-      "typeName": "IntegralScaleBox",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDigitalFilterInlet/IntegralScaleBox/IntegralScaleBox.H"
-      ],
-      "keywords": []
-    },
-    {
       "typeName": "interfaceCompression",
       "patchKind": "fvPatchField",
       "sourceFiles": [
@@ -768,6 +1337,66 @@
       "keywords": []
     },
     {
+      "typeName": "JohnsonJacksonParticleSlip",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/twoPhaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "kineticTheoryCoeffs",
+          "method": "subDict",
+          "receiver": "",
+          "occurrences": 2,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/twoPhaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C:204",
+            "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C:200"
+          ]
+        },
+        {
+          "keyword": "RAS",
+          "method": "subDict",
+          "receiver": "",
+          "occurrences": 2,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/twoPhaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C:203",
+            "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip/JohnsonJacksonParticleSlipFvPatchVectorField.C:199"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "JohnsonJacksonParticleTheta",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/twoPhaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.C",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "kineticTheoryCoeffs",
+          "method": "subDict",
+          "receiver": "",
+          "occurrences": 2,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/twoPhaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.C:212",
+            "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.C:204"
+          ]
+        },
+        {
+          "keyword": "RAS",
+          "method": "subDict",
+          "receiver": "",
+          "occurrences": 2,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/twoPhaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.C:211",
+            "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/phaseCompressibleTurbulenceModels/kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.C:203"
+          ]
+        }
+      ]
+    },
+    {
       "typeName": "jumpCyclic",
       "patchKind": "fvPatchField",
       "sourceFiles": [
@@ -782,6 +1411,51 @@
         "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/constraint/jumpCyclicAMI/jumpCyclicAMIFvPatchField.H"
       ],
       "keywords": []
+    },
+    {
+      "typeName": "kaqRWallFunction",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/kaqRWallFunction/kaqRWallFunctionFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "solverName",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/kaqRWallFunction/kaqRWallFunctionFvPatchScalarField.C:55"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "lumpedMassWallTemperature",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/lumpedMassWallTemperature/lumpedMassWallTemperatureFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "Cp",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/lumpedMassWallTemperature/lumpedMassWallTemperatureFvPatchScalarField.C:82"
+          ]
+        },
+        {
+          "keyword": "mass",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/lumpedMassWallTemperature/lumpedMassWallTemperatureFvPatchScalarField.C:83"
+          ]
+        }
+      ]
     },
     {
       "typeName": "lumpedPointDisplacement",
@@ -809,14 +1483,6 @@
           ]
         }
       ]
-    },
-    {
-      "typeName": "makeSampledPatchFunction1s",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedField/Sampled/makeSampledPatchFunction1s.cxx"
-      ],
-      "keywords": []
     },
     {
       "typeName": "mapped",
@@ -876,14 +1542,6 @@
       "keywords": []
     },
     {
-      "typeName": "mappedPatchFieldBase",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedField/mappedPatchFieldBase.H"
-      ],
-      "keywords": []
-    },
-    {
       "typeName": "mappedVelocityFlux",
       "patchKind": "fvPatchField",
       "sourceFiles": [
@@ -929,6 +1587,24 @@
       "keywords": []
     },
     {
+      "typeName": "multiphaseEuler::alphaContactAngle",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/phaseSystemModels/multiphaseEuler/multiphaseSystem/derivedFvPatchFields/alphaContactAngle/alphaContactAngleFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "thetaProperties",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/multiphaseEuler/multiphaseSystem/derivedFvPatchFields/alphaContactAngle/alphaContactAngleFvPatchScalarField.C:111"
+          ]
+        }
+      ]
+    },
+    {
       "typeName": "noSlip",
       "patchKind": "fvPatchField",
       "sourceFiles": [
@@ -936,6 +1612,60 @@
         "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/noSlip/noSlipFvPatchVectorField.H"
       ],
       "keywords": []
+    },
+    {
+      "typeName": "nutTabulatedWallFunction",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUTabulatedWallFunction/nutUTabulatedWallFunctionFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "uPlusTable",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUTabulatedWallFunction/nutUTabulatedWallFunctionFvPatchScalarField.C:149"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "nutURoughWallFunction",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/derivedFvPatchFields/wallFunctions/nutWallFunctions/nutURoughWallFunction/nutURoughWallFunctionFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "roughnessConstant",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/derivedFvPatchFields/wallFunctions/nutWallFunctions/nutURoughWallFunction/nutURoughWallFunctionFvPatchScalarField.C:278"
+          ]
+        },
+        {
+          "keyword": "roughnessFactor",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/derivedFvPatchFields/wallFunctions/nutWallFunctions/nutURoughWallFunction/nutURoughWallFunctionFvPatchScalarField.C:279"
+          ]
+        },
+        {
+          "keyword": "roughnessHeight",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/derivedFvPatchFields/wallFunctions/nutWallFunctions/nutURoughWallFunction/nutURoughWallFunctionFvPatchScalarField.C:277"
+          ]
+        }
+      ]
     },
     {
       "typeName": "oscillatingDisplacement",
@@ -1000,12 +1730,57 @@
       "keywords": []
     },
     {
+      "typeName": "outletMachNumberPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/outletMachNumberPressure/outletMachNumberPressureFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "choked",
+          "method": "get<Switch>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/outletMachNumberPressure/outletMachNumberPressureFvPatchScalarField.C:74"
+          ]
+        },
+        {
+          "keyword": "pBack",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/outletMachNumberPressure/outletMachNumberPressureFvPatchScalarField.C:68"
+          ]
+        }
+      ]
+    },
+    {
       "typeName": "outletMappedUniformInlet",
       "patchKind": "fvPatchField",
       "sourceFiles": [
         "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletMappedUniformInlet/outletMappedUniformInletFvPatchField.H"
       ],
       "keywords": []
+    },
+    {
+      "typeName": "outletMappedUniformInletHeatAddition",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/outletMappedUniformInletHeatAddition/outletMappedUniformInletHeatAdditionFvPatchField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "outletPatch",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/outletMappedUniformInletHeatAddition/outletMappedUniformInletHeatAdditionFvPatchField.C:80"
+          ]
+        }
+      ]
     },
     {
       "typeName": "outletPhaseMeanVelocity",
@@ -1217,96 +1992,22 @@
       ]
     },
     {
-      "typeName": "pointConstraint",
-      "patchKind": "pointPatchField",
+      "typeName": "porousBafflePressure",
+      "patchKind": "fvPatchField",
       "sourceFiles": [
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.cxx",
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "pointConstraintI",
-      "patchKind": "pointPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraintI.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "pointPatchField",
-      "patchKind": "pointPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "pointPatchFieldBase",
-      "patchKind": "pointPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldBase.cxx"
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/derivedFvPatchFields/porousBafflePressure/porousBafflePressureFvPatchField.C"
       ],
       "keywords": [
         {
-          "keyword": "patchType",
-          "method": "readIfPresent",
+          "keyword": "length",
+          "method": "get<scalar>",
           "receiver": "dict",
           "occurrences": 1,
           "examples": [
-            "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldBase.cxx:102"
+            "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/derivedFvPatchFields/porousBafflePressure/porousBafflePressureFvPatchField.C:65"
           ]
         }
       ]
-    },
-    {
-      "typeName": "pointPatchFieldFunctions",
-      "patchKind": "pointPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldFunctions.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "pointPatchFieldMacros",
-      "patchKind": "pointPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMacros.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "pointPatchFieldMapper",
-      "patchKind": "pointPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "pointPatchFieldMapperPatchRef",
-      "patchKind": "pointPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapperPatchRef.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "pointPatchFields",
-      "patchKind": "pointPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.cxx",
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.H"
-      ],
-      "keywords": []
-    },
-    {
-      "typeName": "pointPatchFieldsFwd",
-      "patchKind": "pointPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldsFwd.H"
-      ],
-      "keywords": []
     },
     {
       "typeName": "pressureDirectedInletOutletVelocity",
@@ -1472,6 +2173,24 @@
       "keywords": []
     },
     {
+      "typeName": "reactingMultiphaseEuler::alphaContactAngle",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphaContactAngle/alphaContactAngleFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "thetaProperties",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/derivedFvPatchFields/alphaContactAngle/alphaContactAngleFvPatchScalarField.C:111"
+          ]
+        }
+      ]
+    },
+    {
       "typeName": "rotatingPressureInletOutletVelocity",
       "patchKind": "fvPatchField",
       "sourceFiles": [
@@ -1516,14 +2235,6 @@
           ]
         }
       ]
-    },
-    {
-      "typeName": "sampled",
-      "patchKind": "fvPatchField",
-      "sourceFiles": [
-        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedField/Sampled/Sampled.H"
-      ],
-      "keywords": []
     },
     {
       "typeName": "scaledFixedValue",
@@ -1576,6 +2287,60 @@
         "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/derived/slip/slipPointPatchField.H"
       ],
       "keywords": []
+    },
+    {
+      "typeName": "speciesSorption",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/derivedFvPatchFields/speciesSorption/speciesSorptionFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "rhoS",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/derivedFvPatchFields/speciesSorption/speciesSorptionFvPatchScalarField.C:179"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "SRFFreestreamVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/cfdTools/general/SRF/derivedFvPatchFields/SRFFreestreamVelocityFvPatchVectorField/SRFFreestreamVelocityFvPatchVectorField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "UInf",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/cfdTools/general/SRF/derivedFvPatchFields/SRFFreestreamVelocityFvPatchVectorField/SRFFreestreamVelocityFvPatchVectorField.C:77"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "SRFVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/cfdTools/general/SRF/derivedFvPatchFields/SRFVelocityFvPatchVectorField/SRFVelocityFvPatchVectorField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "relative",
+          "method": "get<Switch>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/cfdTools/general/SRF/derivedFvPatchFields/SRFVelocityFvPatchVectorField/SRFVelocityFvPatchVectorField.C:70"
+          ]
+        }
+      ]
     },
     {
       "typeName": "supersonicFreestream",
@@ -1957,6 +2722,24 @@
       ]
     },
     {
+      "typeName": "turbulentMixingLengthFrequencyInlet",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/derivedFvPatchFields/turbulentMixingLengthFrequencyInlet/turbulentMixingLengthFrequencyInletFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "mixingLength",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/RAS/derivedFvPatchFields/turbulentMixingLengthFrequencyInlet/turbulentMixingLengthFrequencyInletFvPatchScalarField.C:82"
+          ]
+        }
+      ]
+    },
+    {
       "typeName": "uniformDensityHydrostaticPressure",
       "patchKind": "fvPatchField",
       "sourceFiles": [
@@ -2258,6 +3041,24 @@
         "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/waveTransmissive/waveTransmissiveFvPatchField.H"
       ],
       "keywords": []
+    },
+    {
+      "typeName": "waWallFunction",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/waWallFunction/waWallFunctionFvPatchScalarField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "solverName",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/waWallFunction/waWallFunctionFvPatchScalarField.C:95"
+          ]
+        }
+      ]
     },
     {
       "typeName": "zeroGradient",

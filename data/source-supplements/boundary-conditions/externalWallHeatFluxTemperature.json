@@ -1,0 +1,27 @@
+{
+  "typeName": "externalWallHeatFluxTemperature",
+  "patchKind": "fvPatchField",
+  "sourceFiles": [
+    "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/externalWallHeatFluxTemperature/externalWallHeatFluxTemperatureFvPatchScalarField.C"
+  ],
+  "keywords": [
+    {
+      "keyword": "kappaLayers",
+      "method": "readEntry",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/externalWallHeatFluxTemperature/externalWallHeatFluxTemperatureFvPatchScalarField.C:121"
+      ]
+    },
+    {
+      "keyword": "thicknessLayers",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/externalWallHeatFluxTemperature/externalWallHeatFluxTemperatureFvPatchScalarField.C:119"
+      ]
+    }
+  ]
+}

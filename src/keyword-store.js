@@ -11,7 +11,16 @@ class KeywordStore {
     this.manifest = null;
     this.documentCache = new Map();
     this.manifestFiles = new Map();
-    this.reload();
+  }
+
+  // The manifest is ~220 KB, so it is read on first use instead of during
+  // activation. Combined with lookup() classifying the path first, workspaces
+  // that contain no OpenFOAM case never pay for the index at all.
+  getManifest() {
+    if (!this.manifest) {
+      this.reload();
+    }
+    return this.manifest;
   }
 
   reload() {
@@ -40,6 +49,7 @@ class KeywordStore {
       return null;
     }
 
+    this.getManifest();
     const categoryFiles = this.manifestFiles.get(classification.category);
     if (!categoryFiles) {
       return null;
@@ -75,7 +85,7 @@ class KeywordStore {
 
   getStats() {
     const categories = {};
-    for (const [category, categoryInfo] of Object.entries(this.manifest.categories || {})) {
+    for (const [category, categoryInfo] of Object.entries(this.getManifest().categories || {})) {
       categories[category] = {
         files: categoryInfo.fileKeyCount || 0,
         sourceFiles: categoryInfo.sourceFileCount || 0,

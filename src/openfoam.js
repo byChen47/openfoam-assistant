@@ -378,9 +378,17 @@ function findHoverEntries(entries, word, contextPath) {
   return exact.length > 0 ? exact : matches;
 }
 
+function formatIndexStats(stats) {
+  const parts = Object.entries(stats.categories || {}).map(
+    ([category, value]) => `${category}: ${value.files} 个文件`,
+  );
+  return `OpenFOAM 索引：${parts.join('，')}；数据源 ${stats.source}`;
+}
+
 module.exports = {
   classifyRelativePath,
   findHoverEntries,
+  formatIndexStats,
   getCompletionContext,
   getContextPath,
   getKeywordCandidates,

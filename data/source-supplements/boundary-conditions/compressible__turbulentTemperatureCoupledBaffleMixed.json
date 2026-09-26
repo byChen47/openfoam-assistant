@@ -1,0 +1,36 @@
+{
+  "typeName": "compressible::turbulentTemperatureCoupledBaffleMixed",
+  "patchKind": "fvPatchField",
+  "sourceFiles": [
+    "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C"
+  ],
+  "keywords": [
+    {
+      "keyword": "kappaLayers",
+      "method": "readEntry",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C:129"
+      ]
+    },
+    {
+      "keyword": "thicknessLayers",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C:127"
+      ]
+    },
+    {
+      "keyword": "Tnbr",
+      "method": "get<word>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed/turbulentTemperatureCoupledBaffleMixedFvPatchScalarField.C:107"
+      ]
+    }
+  ]
+}

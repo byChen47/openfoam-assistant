@@ -1,0 +1,86 @@
+{
+  "name": "OpenFOAM Dictionary",
+  "scopeName": "source.openfoam-dict",
+  "patterns": [
+    { "include": "#comments" },
+    { "include": "#code-stream" },
+    { "include": "#directives" },
+    { "include": "#strings" },
+    { "include": "#variables" },
+    { "include": "#dimensions" },
+    { "include": "#numbers" },
+    { "include": "#booleans" },
+    { "include": "#entry-keys" },
+    { "include": "#punctuation" }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "name": "comment.line.double-slash.openfoam-dict",
+          "match": "//.*$"
+        },
+        {
+          "name": "comment.block.openfoam-dict",
+          "begin": "/\\*",
+          "end": "\\*/"
+        }
+      ]
+    },
+    "code-stream": {
+      "name": "meta.embedded.block.cpp.openfoam-dict",
+      "begin": "#\\{",
+      "end": "#\\}",
+      "patterns": [
+        { "include": "source.cpp" }
+      ]
+    },
+    "directives": {
+      "patterns": [
+        {
+          "name": "keyword.control.import.openfoam-dict",
+          "match": "^[ \\t]*(#include|#includeIfPresent|#includeEtc|#includeFunc|#inputMode|#remove|#calc|#eval)\\b"
+        }
+      ]
+    },
+    "strings": {
+      "name": "string.quoted.double.openfoam-dict",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.openfoam-dict",
+          "match": "\\\\."
+        }
+      ]
+    },
+    "variables": {
+      "name": "variable.other.openfoam-dict",
+      "match": "\\$\\{?[A-Za-z_][A-Za-z0-9_]*\\}?"
+    },
+    "dimensions": {
+      "name": "constant.numeric.dimensions.openfoam-dict",
+      "match": "\\[[ \\t]*[-+]?[0-9]+(?:[ \\t]+[-+]?[0-9]+)*[ \\t]*\\]"
+    },
+    "numbers": {
+      "patterns": [
+        {
+          "name": "constant.numeric.openfoam-dict",
+          "match": "\\b[-+]?(?:[0-9]+\\.?[0-9]*|\\.[0-9]+)(?:[eE][-+]?[0-9]+)?"
+        }
+      ]
+    },
+    "booleans": {
+      "name": "constant.language.openfoam-dict",
+      "match": "\\b(?:true|false|on|off|yes|no|none)\\b"
+    },
+    "entry-keys": {
+      "name": "entity.name.tag.openfoam-dict",
+      "match": "^[ \\t]*([A-Za-z_][A-Za-z0-9_.]*)(?=[ \\t]*(?:\\{|[^\\s{]|$))"
+    },
+    "punctuation": {
+      "name": "punctuation.separator.openfoam-dict",
+      "match": "[{};]"
+    }
+  }
+}
