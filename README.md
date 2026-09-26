@@ -2,6 +2,10 @@
 
 [中文](#中文) | [English](#english)
 
+[Releases](https://github.com/byChen47/openfoam-assistant/releases/latest) | [Issues](https://github.com/byChen47/openfoam-assistant/issues) | [MIT License](LICENSE)
+
+**最新版本 / Latest version:** `1.1.8` | **VS Code:** `1.111+` | **许可证 / License:** MIT
+
 OpenFOAM 算例字典关键词与候选值补全扩展。
 
 OpenFOAM case dictionary keyword and value completion extension for VS Code.
@@ -48,7 +52,7 @@ OpenFOAM Dict IntelliSense 是一个 Visual Studio Code 扩展，用于在编写
 
 ### 安装
 
-安装构建好的 VSIX：
+从 [GitHub Releases](https://github.com/byChen47/openfoam-assistant/releases/latest) 下载 `openfoam-dict-intellisense-1.1.8.vsix`，然后执行：
 
 ```powershell
 code --install-extension openfoam-dict-intellisense-1.1.8.vsix --force
@@ -251,6 +255,7 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - `applications`：247 个应用/工具组，532 个 dictionary 关键词，297 个命令行选项或参数
 - `bin`：64 个 Shell 脚本，包含命令、函数、变量和选项
 - VS Code 最低版本：1.111
+
 ### 开发与构建
 
 运行环境：
@@ -324,7 +329,7 @@ Notes:
 
 ### Installation
 
-Install the packaged VSIX:
+Download `openfoam-dict-intellisense-1.1.8.vsix` from [GitHub Releases](https://github.com/byChen47/openfoam-assistant/releases/latest), then run:
 
 ```powershell
 code --install-extension openfoam-dict-intellisense-1.1.8.vsix --force
@@ -527,6 +532,7 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - `applications`: 247 application/tool groups, 532 dictionary keywords, and 297 command-line options or arguments
 - `bin`: 64 shell scripts with commands, functions, variables, and options
 - Minimum VS Code version: 1.111
+
 ### Development and Build
 
 Requirements:
@@ -557,6 +563,7 @@ Output:
 ```text
 openfoam-dict-intellisense-1.1.8.vsix
 ```
+
 ## License / 许可证
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
