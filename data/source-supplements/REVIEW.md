@@ -1,20 +1,20 @@
 # OpenFOAM Keyword Supplement Review
 
-Generated: 2026-09-26T08:08:00.893Z
+Generated: 2026-09-26T10:54:12.933Z
 
 ## Summary
 
 - Source roots: `OpenFOAM-v2606/src`, `OpenFOAM-v2606/applications`
 - Source files scanned: 11362
-- Dictionary calls found: 4092
+- Dictionary calls found: 4093
 - Files with source-derived candidates: 463
 - Source-derived candidate entries: 6597
 - Candidate origins: `src` 4328, `applications` 322, `etc` 4156
-- Boundary condition types: 162
-- Boundary conditions with explicit keywords: 74
-- Boundary conditions without extra keywords: 88
+- Boundary condition types: 253
+- Boundary conditions with explicit keywords: 90
+- Boundary conditions without extra keywords: 163
 - Mapped source types: 342
-- Unmapped source types: 982
+- Unmapped source types: 983
 
 ## Output
 
@@ -30,8 +30,8 @@ All keywords preserve OpenFOAM source casing.
 ## Applications Supplement
 
 - Source files scanned: 1791
-- Application groups: 247
-- Dictionary keywords: 532
+- Application groups: 248
+- Dictionary keywords: 533
 - Command-line options/arguments: 297
 - Output: `applications/`, one independent JSON file per application group
 

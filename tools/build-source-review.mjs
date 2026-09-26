@@ -70,8 +70,7 @@ function walkFiles(root) {
 //     :
 //         public processorLduInterfaceField,
 //         public coupledFvPatchField<Type>
-const CLASS_DECLARATION_RE = /\bclass\s+[A-Za-z_]\w*\s*:\s*([^{;]+)\{/g;
-const PATCH_FIELD_BASE_RE = /^[A-Za-z_]\w*Patch\w*Field$/;
+const CLASS_DECLARATION_RE = /\bclass\s+[A-Za-z_]\w*\s*(?:final\s*)?:\s*([^{;]+)\{/g;
 const headerTextCache = new Map();
 
 function readHeaderText(sourcePath) {
@@ -85,25 +84,29 @@ function readHeaderText(sourcePath) {
   return headerTextCache.get(candidate);
 }
 
-function headerDefinesPatchField(text) {
+function patchFieldKind(sourcePath) {
+  const text = readHeaderText(sourcePath);
+  const lowerPath = toPosix(sourcePath).toLowerCase();
+  let kind = null;
+
   for (const declaration of text.matchAll(CLASS_DECLARATION_RE)) {
     for (const token of declaration[1].matchAll(/[A-Za-z_]\w*/g)) {
-      if (PATCH_FIELD_BASE_RE.test(token[0])) {
-        return true;
-      }
+      const name = token[0];
+      if (/^(?:[A-Za-z_]\w*)?pointPatch\w*Field$/i.test(name)) kind = 'pointPatchField';
+      else if (/^(?:[A-Za-z_]\w*)?fvPatch\w*Field$/i.test(name)) kind = 'fvPatchField';
     }
   }
 
-  return false;
+  void lowerPath;
+  return kind;
 }
 
 function boundaryTypeNames(sourcePath) {
-  const text = readHeaderText(sourcePath);
-  if (!headerDefinesPatchField(text)) {
+  if (!patchFieldKind(sourcePath)) {
     return [];
   }
 
-  return extractTypeNames(text);
+  return extractTypeNames(readHeaderText(sourcePath));
 }
 
 // A selectable type name may carry a C++ scope qualifier - wall functions are
@@ -116,21 +119,20 @@ function boundaryFileName(typeName) {
 }
 
 function collectBoundaryConditionClasses(root, conditions) {
-  const files = walkFiles(root).filter((fullPath) => {
-    const posix = toPosix(fullPath).toLowerCase();
-    return (posix.includes('/fields/fvpatchfields/') || posix.includes('/fields/pointpatchfields/'))
-      && /\.(?:C|H|Hpp|Cpp|cc|cxx)$/.test(fullPath);
-  });
+  const files = walkFiles(root).filter((fullPath) => /\.(?:C|H|Hpp|Cpp|cc|cxx)$/.test(fullPath));
 
   for (const fullPath of files) {
+    const patchKind = patchFieldKind(fullPath);
     const typeNames = boundaryTypeNames(fullPath);
-    if (typeNames.length === 0) continue;
-    const patchKind = fullPath.toLowerCase().includes('pointpatchfield') ? 'pointPatchField' : 'fvPatchField';
+    if (!patchKind || typeNames.length === 0) continue;
     for (const typeName of typeNames) {
       let condition = conditions.get(typeName);
       if (!condition) {
         condition = { typeName, patchKind, sourceFiles: new Set(), keywords: new Map() };
         conditions.set(typeName, condition);
+      }
+      else if (condition.patchKind !== 'fvPatchField' && patchKind === 'fvPatchField') {
+        condition.patchKind = 'fvPatchField';
       }
       condition.sourceFiles.add(toPosix(path.relative(projectRoot, fullPath)));
     }
@@ -138,14 +140,11 @@ function collectBoundaryConditionClasses(root, conditions) {
 }
 
 function isBoundaryCondition(record) {
-  const source = record.source.toLowerCase();
-  return source.includes('/fields/fvpatchfields/')
-    || source.includes('/fields/pointpatchfields/')
-    || source.includes('fvpatchfield')
-    || source.includes('pointpatchfield');
+  return patchFieldKind(record.source) !== null;
 }
 
 function main() {
+  headerTextCache.clear();
   if (!fs.existsSync(sourceRoot)) throw new Error(`OpenFOAM src directory not found: ${sourceRoot}`);
   const generatedAt = new Date().toISOString();
   const manifest = readJson(path.join(keywordRoot, 'manifest.json'));
@@ -155,12 +154,18 @@ function main() {
   const boundaryMap = new Map();
   collectBoundaryConditionClasses(sourceRoot, boundaryMap);
   const allSourceTypes = new Set();
+  const recordsByType = new Map();
   const files = [];
   const mappedTypeNames = new Set();
   const candidateOrigins = { src: 0, applications: 0, etc: 0, other: 0 };
 
   for (const record of scan.records) {
-    for (const typeName of typeNamesFor(record)) allSourceTypes.add(typeName);
+    for (const typeName of typeNamesFor(record)) {
+      allSourceTypes.add(typeName);
+      const typeRecords = recordsByType.get(typeName) || [];
+      typeRecords.push(record);
+      recordsByType.set(typeName, typeRecords);
+    }
     if (!isBoundaryCondition(record)) continue;
     for (const typeName of boundaryTypeNames(record.source)) {
       let condition = boundaryMap.get(typeName);
@@ -196,6 +201,7 @@ function main() {
           path: entry.path,
           kinds: entry.kinds,
           sourceOccurrences: entry.sourceOccurrences,
+          fileCount: entry.fileCount || 0,
           sourceTypes: entry.sourceTypes || [],
           sourceLocations: entry.sourceLocations || [],
           reviewStatus: 'already-merged-pending-review',
@@ -223,7 +229,7 @@ function main() {
   }
 
   const unmappedTypes = [...allSourceTypes].filter((typeName) => !mappedTypeNames.has(typeName)).sort(compare).map((typeName) => {
-    const records = scan.records.filter((record) => typeNamesFor(record).includes(typeName));
+    const records = recordsByType.get(typeName) || [];
     return { typeName, sourceFiles: [...new Set(records.map((record) => toPosix(path.relative(projectRoot, record.source))))].sort(compare), keywords: [...new Set(records.map((record) => record.keyword))].sort(compare) };
   });
   writeJson(path.join(outputRoot, 'unmapped.json'), { generatedAt, source: sourceLabel, typeCount: unmappedTypes.length, types: unmappedTypes });

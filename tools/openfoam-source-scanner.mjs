@@ -115,14 +115,29 @@ function stripCppComments(text) {
   return output;
 }
 
-function lineNumberAt(text, offset) {
-  let line = 1;
-  for (let index = 0; index < offset; index += 1) {
+function buildLineOffsetIndex(text) {
+  const offsets = [0];
+  for (let index = 0; index < text.length; index += 1) {
     if (text[index] === '\n') {
-      line += 1;
+      offsets.push(index + 1);
     }
   }
-  return line;
+  return offsets;
+}
+
+function lineNumberAt(lineOffsets, offset) {
+  let low = 0;
+  let high = lineOffsets.length;
+  while (low < high) {
+    const middle = (low + high) >> 1;
+    if (lineOffsets[middle] <= offset) {
+      low = middle + 1;
+    }
+    else {
+      high = middle;
+    }
+  }
+  return low;
 }
 
 function extractTypeNames(text) {
@@ -157,7 +172,9 @@ function isDictionaryCall(receiver, method) {
 function extractDictionaryCalls(text) {
   const cleaned = stripCppComments(text);
   const calls = [];
-  const pattern = /(?:(?:\b([A-Za-z_][A-Za-z0-9_.>\-]*))\s*\.\s*)?\b(readIfPresent|readEntry|lookupOrDefault|lookup|subDict|optionalSubDict|get(?:<[^>\n]+>)?)\s*\(\s*"([^"\n]+)"/g;
+  const typeNames = extractTypeNames(cleaned);
+  const lineOffsets = buildLineOffsetIndex(cleaned);
+  const pattern = /(?:(?:\b([A-Za-z_][A-Za-z0-9_.:>\-]*))\s*(?:\.|->|::)\s*)?\b(readIfPresent|readEntry|lookupOrDefault|lookup|subDict|optionalSubDict|get(?:<[^>\n]+>)?)\s*\(\s*"([^"\n]+)"/g;
 
   for (const match of cleaned.matchAll(pattern)) {
     const receiver = match[1] || '';
@@ -172,8 +189,8 @@ function extractDictionaryCalls(text) {
       keyword,
       method,
       receiver,
-      typeNames: extractTypeNames(cleaned),
-      line: lineNumberAt(cleaned, match.index),
+      typeNames,
+      line: lineNumberAt(lineOffsets, match.index),
     });
   }
 

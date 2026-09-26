@@ -1,0 +1,376 @@
+{
+  "generatedAt": "2026-09-26T10:54:20.628Z",
+  "sourceRoot": "OpenFOAM-v2606/src",
+  "group": "fvSolution/solvers",
+  "casePolicy": "preserve-source-case",
+  "itemCount": 22,
+  "items": [
+    {
+      "name": "algebraicPair",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:GAMGAgglomeration",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/algebraicPairGAMGAgglomeration/algebraicPairGAMGAgglomeration.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/algebraicPairGAMGAgglomeration/algebraicPairGAMGAgglomeration.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/algebraicPairGAMGAgglomeration/algebraicPairGAMGAgglomeration.C:41",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/algebraicPairGAMGAgglomeration/algebraicPairGAMGAgglomeration.H:59"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "cyclic",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:GAMGInterface",
+        "addToRunTimeSelectionTable:GAMGInterfaceField",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/cyclicGAMGInterfaceField/cyclicGAMGInterfaceField.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/cyclicGAMGInterfaceField/cyclicGAMGInterfaceField.H",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/cyclicGAMGInterface/cyclicGAMGInterface.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/cyclicGAMGInterface/cyclicGAMGInterface.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/cyclicGAMGInterfaceField/cyclicGAMGInterfaceField.C:38",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/cyclicGAMGInterfaceField/cyclicGAMGInterfaceField.C:44",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/cyclicGAMGInterfaceField/cyclicGAMGInterfaceField.C:50",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/cyclicGAMGInterfaceField/cyclicGAMGInterfaceField.H:83",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/cyclicGAMGInterface/cyclicGAMGInterface.C:38",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/cyclicGAMGInterface/cyclicGAMGInterface.C:44",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/cyclicGAMGInterface/cyclicGAMGInterface.H:85"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "diagonal",
+      "registeredBy": [
+        "makeLduAsymSolver",
+        "makeLduSolver",
+        "makeLduSymSolver",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/DiagonalSolver/DiagonalSolver.H",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/DiagonalSolver/DiagonalSolver.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:36",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:37",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:38"
+      ],
+      "sourceLine": 70
+    },
+    {
+      "name": "dummy",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:GAMGAgglomeration",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/dummyAgglomeration/dummyAgglomeration.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/dummyAgglomeration/dummyAgglomeration.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/dummyAgglomeration/dummyAgglomeration.C:37",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/dummyAgglomeration/dummyAgglomeration.H:73"
+      ],
+      "sourceLine": 37
+    },
+    {
+      "name": "eager",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:GAMGProcAgglomeration",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/eagerGAMGProcAgglomeration/eagerGAMGProcAgglomeration.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/eagerGAMGProcAgglomeration/eagerGAMGProcAgglomeration.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/eagerGAMGProcAgglomeration/eagerGAMGProcAgglomeration.C:39",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/eagerGAMGProcAgglomeration/eagerGAMGProcAgglomeration.H:67"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "FPCG",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/FPCG/FPCG.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/FPCG/FPCG.H:91"
+      ],
+      "sourceLine": 91
+    },
+    {
+      "name": "GAMG",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGSolver.H:332"
+      ],
+      "sourceLine": 332
+    },
+    {
+      "name": "manual",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:GAMGProcAgglomeration",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/manualGAMGProcAgglomeration/manualGAMGProcAgglomeration.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/manualGAMGProcAgglomeration/manualGAMGProcAgglomeration.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/manualGAMGProcAgglomeration/manualGAMGProcAgglomeration.C:39",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/manualGAMGProcAgglomeration/manualGAMGProcAgglomeration.H:90"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "masterCoarsest",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:GAMGProcAgglomeration",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/masterCoarsestGAMGProcAgglomeration/masterCoarsestGAMGProcAgglomeration.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/masterCoarsestGAMGProcAgglomeration/masterCoarsestGAMGProcAgglomeration.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/masterCoarsestGAMGProcAgglomeration/masterCoarsestGAMGProcAgglomeration.C:39",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/masterCoarsestGAMGProcAgglomeration/masterCoarsestGAMGProcAgglomeration.H:119"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "pair",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/pairGAMGAgglomeration/pairGAMGAgglomeration.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/pairGAMGAgglomeration/pairGAMGAgglomeration.H:94"
+      ],
+      "sourceLine": 94
+    },
+    {
+      "name": "PBiCCCG",
+      "registeredBy": [
+        "makeLduAsymSolver",
+        "makeLduSolver",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PBiCCCG/PBiCCCG.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:43",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:44",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PBiCCCG/PBiCCCG.H:70"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "PBiCG",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PBiCG/PBiCG.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PBiCG/PBiCG.H:75"
+      ],
+      "sourceLine": 75
+    },
+    {
+      "name": "PBiCGStab",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PBiCGStab/PBiCGStab.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PBiCGStab/PBiCGStab.H:90"
+      ],
+      "sourceLine": 90
+    },
+    {
+      "name": "PBiCICG",
+      "registeredBy": [
+        "makeLduAsymSolver",
+        "makeLduSolver",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PBiCICG/PBiCICG.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:46",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:47",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PBiCICG/PBiCICG.H:70"
+      ],
+      "sourceLine": 46
+    },
+    {
+      "name": "PCG",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PCG/PCG.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PCG/PCG.H:78"
+      ],
+      "sourceLine": 78
+    },
+    {
+      "name": "PCICG",
+      "registeredBy": [
+        "makeLduSolver",
+        "makeLduSymSolver",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PCICG/PCICG.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:40",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:41",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PCICG/PCICG.H:70"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "PPCG",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PPCG/PPCG.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PPCG/PPCG.H:112"
+      ],
+      "sourceLine": 112
+    },
+    {
+      "name": "PPCR",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PPCR/PPCR.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/PPCR/PPCR.H:83"
+      ],
+      "sourceLine": 83
+    },
+    {
+      "name": "processor",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:GAMGInterface",
+        "addToRunTimeSelectionTable:GAMGInterfaceField",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorGAMGInterfaceField/processorGAMGInterfaceField.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorGAMGInterfaceField/processorGAMGInterfaceField.H",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorGAMGInterfaceField/processorGAMGInterfaceField.C:38",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorGAMGInterfaceField/processorGAMGInterfaceField.C:44",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorGAMGInterfaceField/processorGAMGInterfaceField.C:50",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorGAMGInterfaceField/processorGAMGInterfaceField.H:102",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.C:38",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.C:44",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.H:88"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "processorCyclic",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:GAMGInterface",
+        "addToRunTimeSelectionTable:GAMGInterfaceField",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorCyclicGAMGInterfaceField/processorCyclicGAMGInterfaceField.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorCyclicGAMGInterfaceField/processorCyclicGAMGInterfaceField.H",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/processorCyclicGAMGInterface/processorCyclicGAMGInterface.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/processorCyclicGAMGInterface/processorCyclicGAMGInterface.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorCyclicGAMGInterfaceField/processorCyclicGAMGInterfaceField.C:37",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorCyclicGAMGInterfaceField/processorCyclicGAMGInterfaceField.C:43",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorCyclicGAMGInterfaceField/processorCyclicGAMGInterfaceField.C:49",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaceFields/processorCyclicGAMGInterfaceField/processorCyclicGAMGInterfaceField.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/processorCyclicGAMGInterface/processorCyclicGAMGInterface.C:37",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/processorCyclicGAMGInterface/processorCyclicGAMGInterface.C:43",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/interfaces/processorCyclicGAMGInterface/processorCyclicGAMGInterface.H:71"
+      ],
+      "sourceLine": 37
+    },
+    {
+      "name": "procFaces",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:GAMGProcAgglomeration",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/procFacesGAMGProcAgglomeration/procFacesGAMGProcAgglomeration.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/procFacesGAMGProcAgglomeration/procFacesGAMGProcAgglomeration.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/procFacesGAMGProcAgglomeration/procFacesGAMGProcAgglomeration.C:43",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/procFacesGAMGProcAgglomeration/procFacesGAMGProcAgglomeration.H:147"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "smoothSolver",
+      "registeredBy": [
+        "makeLduAsymSolver",
+        "makeLduSolver",
+        "makeLduSymSolver",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/SmoothSolver/SmoothSolver.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:49",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:50",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/lduSolvers.C:51",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/SmoothSolver/SmoothSolver.H:78"
+      ],
+      "sourceLine": 49
+    }
+  ],
+  "manualItems": []
+}

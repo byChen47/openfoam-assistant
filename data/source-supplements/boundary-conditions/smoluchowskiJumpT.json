@@ -1,0 +1,36 @@
+{
+  "typeName": "smoluchowskiJumpT",
+  "patchKind": "fvPatchField",
+  "sourceFiles": [
+    "OpenFOAM-v2606/applications/solvers/compressible/rhoCentralFoam/BCs/T/smoluchowskiJumpTFvPatchScalarField.C"
+  ],
+  "keywords": [
+    {
+      "keyword": "accommodationCoeff",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/applications/solvers/compressible/rhoCentralFoam/BCs/T/smoluchowskiJumpTFvPatchScalarField.C:90"
+      ]
+    },
+    {
+      "keyword": "mixture",
+      "method": "subDict",
+      "receiver": "thermophysicalProperties",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/applications/solvers/compressible/rhoCentralFoam/BCs/T/smoluchowskiJumpTFvPatchScalarField.C:175"
+      ]
+    },
+    {
+      "keyword": "transport",
+      "method": "subDict",
+      "receiver": "",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/applications/solvers/compressible/rhoCentralFoam/BCs/T/smoluchowskiJumpTFvPatchScalarField.C:175"
+      ]
+    }
+  ]
+}

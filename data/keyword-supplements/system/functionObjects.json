@@ -1,0 +1,2939 @@
+{
+  "generatedAt": "2026-09-26T10:54:20.628Z",
+  "sourceRoot": "OpenFOAM-v2606/src",
+  "group": "system/functionObjects",
+  "casePolicy": "preserve-source-case",
+  "itemCount": 189,
+  "items": [
+    {
+      "name": "abort",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/abort/abort.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/abort/abort.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/abort/abort.C:46",
+        "OpenFOAM-v2606/src/functionObjects/utilities/abort/abort.H:144"
+      ],
+      "sourceLine": 46
+    },
+    {
+      "name": "add",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/add/add.C",
+        "OpenFOAM-v2606/src/functionObjects/field/add/add.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/add/add.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/add/add.H:123"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "age",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/age/age.C",
+        "OpenFOAM-v2606/src/functionObjects/field/age/age.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/age/age.C:48",
+        "OpenFOAM-v2606/src/functionObjects/field/age/age.H:157"
+      ],
+      "sourceLine": 48
+    },
+    {
+      "name": "agglomerationInfo",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/agglomerationInfo/agglomerationInfo.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/agglomerationInfo/agglomerationInfo.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/agglomerationInfo/agglomerationInfo.C:43",
+        "OpenFOAM-v2606/src/functionObjects/utilities/agglomerationInfo/agglomerationInfo.H:142"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "AMIWeights",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/AMIWeights/AMIWeights.C",
+        "OpenFOAM-v2606/src/functionObjects/field/AMIWeights/AMIWeights.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/AMIWeights/AMIWeights.C:42",
+        "OpenFOAM-v2606/src/functionObjects/field/AMIWeights/AMIWeights.H:136"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "areaWrite",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/areaWrite/areaWrite.cxx",
+        "OpenFOAM-v2606/src/functionObjects/utilities/areaWrite/areaWrite.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/areaWrite/areaWrite.cxx:48",
+        "OpenFOAM-v2606/src/functionObjects/utilities/areaWrite/areaWrite.H:186"
+      ],
+      "sourceLine": 48
+    },
+    {
+      "name": "average",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:runTimeCondition",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/averageCondition/averageCondition.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/averageCondition/averageCondition.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/averageCondition/averageCondition.C:40",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/averageCondition/averageCondition.H:80"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "BilgerMixtureFraction",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/functionObjects/BilgerMixtureFraction/BilgerMixtureFraction.C",
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/functionObjects/BilgerMixtureFraction/BilgerMixtureFraction.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/functionObjects/BilgerMixtureFraction/BilgerMixtureFraction.C:47",
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/functionObjects/BilgerMixtureFraction/BilgerMixtureFraction.H:252"
+      ],
+      "sourceLine": 47
+    },
+    {
+      "name": "binField",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binField.C",
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binField.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binField.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binField.H:160"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "binModel",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binModels/binModel/binModel.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binModels/binModel/binModel.H:136"
+      ],
+      "sourceLine": 136
+    },
+    {
+      "name": "bladeForces",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/forces/bladeForces/bladeForces.cxx",
+        "OpenFOAM-v2606/src/functionObjects/forces/bladeForces/bladeForces.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/forces/bladeForces/bladeForces.cxx:47",
+        "OpenFOAM-v2606/src/functionObjects/forces/bladeForces/bladeForces.H:337"
+      ],
+      "sourceLine": 47
+    },
+    {
+      "name": "blendingFactor",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/blendingFactor/blendingFactor.C",
+        "OpenFOAM-v2606/src/functionObjects/field/blendingFactor/blendingFactor.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/blendingFactor/blendingFactor.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/blendingFactor/blendingFactor.H:159"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "caseInfo",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/caseInfo/caseInfo.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/caseInfo/caseInfo.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/caseInfo/caseInfo.C:47",
+        "OpenFOAM-v2606/src/functionObjects/utilities/caseInfo/caseInfo.H:266"
+      ],
+      "sourceLine": 47
+    },
+    {
+      "name": "CelikEtaIndex",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:resolutionIndexModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/CelikEtaIndex/CelikEtaIndex.C",
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/CelikEtaIndex/CelikEtaIndex.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/CelikEtaIndex/CelikEtaIndex.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/CelikEtaIndex/CelikEtaIndex.H:211"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "CelikNuIndex",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:resolutionIndexModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/CelikNuIndex/CelikNuIndex.C",
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/CelikNuIndex/CelikNuIndex.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/CelikNuIndex/CelikNuIndex.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/CelikNuIndex/CelikNuIndex.H:200"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "cellDecomposer",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/cellDecomposer/cellDecomposer.C",
+        "OpenFOAM-v2606/src/functionObjects/field/cellDecomposer/cellDecomposer.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/cellDecomposer/cellDecomposer.C:57",
+        "OpenFOAM-v2606/src/functionObjects/field/cellDecomposer/cellDecomposer.H:208"
+      ],
+      "sourceLine": 57
+    },
+    {
+      "name": "cloudInfo",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/cloudInfo/cloudInfo.C",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/cloudInfo/cloudInfo.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/cloudInfo/cloudInfo.C:45",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/cloudInfo/cloudInfo.H:160"
+      ],
+      "sourceLine": 45
+    },
+    {
+      "name": "coded",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/codedFunctionObject/codedFunctionObject.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/codedFunctionObject/codedFunctionObject.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/codedFunctionObject/codedFunctionObject.C:45",
+        "OpenFOAM-v2606/src/functionObjects/utilities/codedFunctionObject/codedFunctionObject.H:175"
+      ],
+      "sourceLine": 45
+    },
+    {
+      "name": "columnAverage",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/columnAverage/columnAverage.C",
+        "OpenFOAM-v2606/src/functionObjects/field/columnAverage/columnAverage.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/columnAverage/columnAverage.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/columnAverage/columnAverage.H:146"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "comfort",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/comfort/comfort.C",
+        "OpenFOAM-v2606/src/functionObjects/field/comfort/comfort.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/comfort/comfort.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/comfort/comfort.H:217"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "components",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/components/components.C",
+        "OpenFOAM-v2606/src/functionObjects/field/components/components.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/components/components.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/components/components.H:138"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "continuityError",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/continuityError/continuityError.C",
+        "OpenFOAM-v2606/src/functionObjects/field/continuityError/continuityError.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/continuityError/continuityError.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/continuityError/continuityError.H:143"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "CourantNo",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/CourantNo/CourantNo.C",
+        "OpenFOAM-v2606/src/functionObjects/field/CourantNo/CourantNo.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/CourantNo/CourantNo.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/CourantNo/CourantNo.H:113"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "Curle",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/Curle/Curle.C",
+        "OpenFOAM-v2606/src/functionObjects/field/Curle/Curle.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/Curle/Curle.C:42",
+        "OpenFOAM-v2606/src/functionObjects/field/Curle/Curle.H:178"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "dataCloud",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/dataCloud/dataCloud.C",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/dataCloud/dataCloud.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/dataCloud/dataCloud.C:43",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/dataCloud/dataCloud.H:218"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "ddt",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/ddt/ddt.C",
+        "OpenFOAM-v2606/src/functionObjects/field/ddt/ddt.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/ddt/ddt.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/ddt/ddt.H:116"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "ddt2",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/ddt2/ddt2.C",
+        "OpenFOAM-v2606/src/functionObjects/field/ddt2/ddt2.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/ddt2/ddt2.C:43",
+        "OpenFOAM-v2606/src/functionObjects/field/ddt2/ddt2.H:157"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "derivedFields",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/derivedFields/derivedFields.C",
+        "OpenFOAM-v2606/src/functionObjects/field/derivedFields/derivedFields.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/derivedFields/derivedFields.C:42",
+        "OpenFOAM-v2606/src/functionObjects/field/derivedFields/derivedFields.H:147"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "DESModelRegions",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/DESModelRegions/DESModelRegions.C",
+        "OpenFOAM-v2606/src/functionObjects/field/DESModelRegions/DESModelRegions.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/DESModelRegions/DESModelRegions.C:42",
+        "OpenFOAM-v2606/src/functionObjects/field/DESModelRegions/DESModelRegions.H:128"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "dictionaryValue",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:substitutionModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/dictionaryValue/dictionaryValue.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/dictionaryValue/dictionaryValue.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/dictionaryValue/dictionaryValue.C:40",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/dictionaryValue/dictionaryValue.H:149"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "div",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/div/div.C",
+        "OpenFOAM-v2606/src/functionObjects/field/div/div.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/div/div.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/div/div.H:121"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "DMD",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/DMD/DMD.C",
+        "OpenFOAM-v2606/src/functionObjects/field/DMD/DMD.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/DMD/DMD.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/DMD/DMD.H:231"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "DMDModel",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/DMD/DMDModels/DMDModel/DMDModel.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/DMD/DMDModels/DMDModel/DMDModel.H:99"
+      ],
+      "sourceLine": 99
+    },
+    {
+      "name": "dsmcFields",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/dsmcFields/dsmcFields.C",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/dsmcFields/dsmcFields.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/dsmcFields/dsmcFields.C:47",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/dsmcFields/dsmcFields.H:103"
+      ],
+      "sourceLine": 47
+    },
+    {
+      "name": "electricPotential",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/solvers/electricPotential/electricPotential.C",
+        "OpenFOAM-v2606/src/functionObjects/solvers/electricPotential/electricPotential.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/solvers/electricPotential/electricPotential.C:40",
+        "OpenFOAM-v2606/src/functionObjects/solvers/electricPotential/electricPotential.H:261"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "energySpectrum",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/randomProcesses/energySpectrum/energySpectrum.C",
+        "OpenFOAM-v2606/src/functionObjects/randomProcesses/energySpectrum/energySpectrum.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/randomProcesses/energySpectrum/energySpectrum.C:44",
+        "OpenFOAM-v2606/src/functionObjects/randomProcesses/energySpectrum/energySpectrum.H:151"
+      ],
+      "sourceLine": 44
+    },
+    {
+      "name": "energyTransport",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/solvers/energyTransport/energyTransport.C",
+        "OpenFOAM-v2606/src/functionObjects/solvers/energyTransport/energyTransport.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/solvers/energyTransport/energyTransport.C:41",
+        "OpenFOAM-v2606/src/functionObjects/solvers/energyTransport/energyTransport.H:310"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "ensightCloud",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/ensightCloud/ensightCloudWriteObject.cxx",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/ensightCloud/ensightCloudWriteObject.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/ensightCloud/ensightCloudWriteObject.cxx:46",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/ensightCloud/ensightCloudWriteObject.H:223"
+      ],
+      "sourceLine": 46
+    },
+    {
+      "name": "ensightWrite",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/ensightWrite/ensightWrite.cxx",
+        "OpenFOAM-v2606/src/functionObjects/utilities/ensightWrite/ensightWrite.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/ensightWrite/ensightWrite.cxx:42",
+        "OpenFOAM-v2606/src/functionObjects/utilities/ensightWrite/ensightWrite.H:252"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "enstrophy",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/enstrophy/enstrophy.C",
+        "OpenFOAM-v2606/src/functionObjects/field/enstrophy/enstrophy.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/enstrophy/enstrophy.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/enstrophy/enstrophy.H:110"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "environmentVariable",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:substitutionModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/environmentVariable/environmentVariable.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/environmentVariable/environmentVariable.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/environmentVariable/environmentVariable.C:38",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/environmentVariable/environmentVariable.H:103"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "equalBinWidth",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:histogramModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogramModels/equalBinWidth/equalBinWidth.C",
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogramModels/equalBinWidth/equalBinWidth.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogramModels/equalBinWidth/equalBinWidth.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogramModels/equalBinWidth/equalBinWidth.H:101"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "equationInitialResidual",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:runTimeCondition",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/equationInitialResidualCondition/equationInitialResidualCondition.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/equationInitialResidualCondition/equationInitialResidualCondition.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/equationInitialResidualCondition/equationInitialResidualCondition.C:47",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/equationInitialResidualCondition/equationInitialResidualCondition.H:111"
+      ],
+      "sourceLine": 47
+    },
+    {
+      "name": "equationMaxIter",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:runTimeCondition",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/equationMaxIterCondition/equationMaxIterCondition.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/equationMaxIterCondition/equationMaxIterCondition.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/equationMaxIterCondition/equationMaxIterCondition.C:43",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/equationMaxIterCondition/equationMaxIterCondition.H:78"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "exprField",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/expressions/fvExpressionField.C",
+        "OpenFOAM-v2606/src/functionObjects/field/expressions/fvExpressionField.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/expressions/fvExpressionField.C:44",
+        "OpenFOAM-v2606/src/functionObjects/field/expressions/fvExpressionField.H:213"
+      ],
+      "sourceLine": 44
+    },
+    {
+      "name": "externalCoupled",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/externalCoupled/externalCoupled.C",
+        "OpenFOAM-v2606/src/functionObjects/field/externalCoupled/externalCoupled.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/externalCoupled/externalCoupled.C:46",
+        "OpenFOAM-v2606/src/functionObjects/field/externalCoupled/externalCoupled.H:286"
+      ],
+      "sourceLine": 46
+    },
+    {
+      "name": "extractEulerianParticles",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/extractEulerianParticles/extractEulerianParticles/extractEulerianParticles.C",
+        "OpenFOAM-v2606/src/functionObjects/field/extractEulerianParticles/extractEulerianParticles/extractEulerianParticles.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/extractEulerianParticles/extractEulerianParticles/extractEulerianParticles.C:47",
+        "OpenFOAM-v2606/src/functionObjects/field/extractEulerianParticles/extractEulerianParticles/extractEulerianParticles.H:270"
+      ],
+      "sourceLine": 47
+    },
+    {
+      "name": "faceZoneReferenceTemperature",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:heatTransferCoeffModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/faceZoneReferenceTemperature/faceZoneReferenceTemperature.C",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/faceZoneReferenceTemperature/faceZoneReferenceTemperature.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/faceZoneReferenceTemperature/faceZoneReferenceTemperature.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/faceZoneReferenceTemperature/faceZoneReferenceTemperature.H:132"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "fieldAverage",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldAverage/fieldAverage.C",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldAverage/fieldAverage.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldAverage/fieldAverage.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldAverage/fieldAverage.H:295"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "fieldCoordinateSystemTransform",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldCoordinateSystemTransform/fieldCoordinateSystemTransform.C",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldCoordinateSystemTransform/fieldCoordinateSystemTransform.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldCoordinateSystemTransform/fieldCoordinateSystemTransform.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldCoordinateSystemTransform/fieldCoordinateSystemTransform.H:164"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "fieldExpression",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldExpression/fieldExpression.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldExpression/fieldExpression.H:120"
+      ],
+      "sourceLine": 120
+    },
+    {
+      "name": "fieldExtents",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldExtents/fieldExtents.cxx",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldExtents/fieldExtents.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldExtents/fieldExtents.cxx:41",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldExtents/fieldExtents.H:151"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "fieldMinMax",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldMinMax/fieldMinMax.cxx",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldMinMax/fieldMinMax.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldMinMax/fieldMinMax.cxx:41",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldMinMax/fieldMinMax.H:213"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "fieldsExpression",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldsExpression/fieldsExpression.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldsExpression/fieldsExpression.H:131"
+      ],
+      "sourceLine": 131
+    },
+    {
+      "name": "fieldStatistics",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldStatistics/fieldStatistics.cxx",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldStatistics/fieldStatistics.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldStatistics/fieldStatistics.cxx:40",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldStatistics/fieldStatistics.H:334"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "fieldValue",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/fieldValue/fieldValue.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/fieldValue/fieldValue.H:129"
+      ],
+      "sourceLine": 129
+    },
+    {
+      "name": "fileRegEx",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:substitutionModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/fileRegEx/fileRegEx.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/fileRegEx/fileRegEx.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/fileRegEx/fileRegEx.C:39",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/fileRegEx/fileRegEx.H:129"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "filmFlux",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/functionObjects/filmFlux/filmFlux.C",
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/functionObjects/filmFlux/filmFlux.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/functionObjects/filmFlux/filmFlux.C:41",
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/functionObjects/filmFlux/filmFlux.H:124"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "fixedReferenceTemperature",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:heatTransferCoeffModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/fixedReferenceTemperature/fixedReferenceTemperature.C",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/fixedReferenceTemperature/fixedReferenceTemperature.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/fixedReferenceTemperature/fixedReferenceTemperature.C:38",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/fixedReferenceTemperature/fixedReferenceTemperature.H:114"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "flowType",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/flowType/flowType.C",
+        "OpenFOAM-v2606/src/functionObjects/field/flowType/flowType.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/flowType/flowType.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/flowType/flowType.H:121"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "flux",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/flux/flux.C",
+        "OpenFOAM-v2606/src/functionObjects/field/flux/flux.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/flux/flux.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/flux/flux.H:120"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "fluxSummary",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fluxSummary/fluxSummary.C",
+        "OpenFOAM-v2606/src/functionObjects/field/fluxSummary/fluxSummary.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fluxSummary/fluxSummary.C:49",
+        "OpenFOAM-v2606/src/functionObjects/field/fluxSummary/fluxSummary.H:274"
+      ],
+      "sourceLine": 49
+    },
+    {
+      "name": "foamReport",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/foamReport.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/foamReport.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/foamReport.C:47",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/foamReport.H:231"
+      ],
+      "sourceLine": 47
+    },
+    {
+      "name": "forceCoeffs",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/forces/forceCoeffs/forceCoeffs.C",
+        "OpenFOAM-v2606/src/functionObjects/forces/forceCoeffs/forceCoeffs.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/forces/forceCoeffs/forceCoeffs.C:46",
+        "OpenFOAM-v2606/src/functionObjects/forces/forceCoeffs/forceCoeffs.H:517"
+      ],
+      "sourceLine": 46
+    },
+    {
+      "name": "forces",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/forces/forces/forces.C",
+        "OpenFOAM-v2606/src/functionObjects/forces/forces/forces.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/forces/forces/forces.C:44",
+        "OpenFOAM-v2606/src/functionObjects/forces/forces/forces.H:369"
+      ],
+      "sourceLine": 44
+    },
+    {
+      "name": "functionObjectValue",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:substitutionModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/functionObjectValue/functionObjectValue.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/functionObjectValue/functionObjectValue.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/functionObjectValue/functionObjectValue.C:39",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/functionObjectValue/functionObjectValue.H:127"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "fvMeshFunctionObject",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H:89"
+      ],
+      "sourceLine": 89
+    },
+    {
+      "name": "gauge",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:wallHeatFluxModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFluxModels/gauge/wallHeatFlux_gauge.cxx",
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFluxModels/gauge/wallHeatFlux_gauge.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFluxModels/gauge/wallHeatFlux_gauge.cxx:39",
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFluxModels/gauge/wallHeatFlux_gauge.H:203"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "grad",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/grad/grad.C",
+        "OpenFOAM-v2606/src/functionObjects/field/grad/grad.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/grad/grad.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/grad/grad.H:112"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "graphFunctionObject",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/graphFunctionObject/graphFunctionObject.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/graphFunctionObject/graphFunctionObject.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/graphFunctionObject/graphFunctionObject.C:42",
+        "OpenFOAM-v2606/src/functionObjects/utilities/graphFunctionObject/graphFunctionObject.H:268"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "heatTransferCoeff",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeff.C",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeff.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeff.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeff.H:166"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "HeatTransferCoeff",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeff.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeff.C:39"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "heatTransferCoeffModel",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/heatTransferCoeffModel/heatTransferCoeffModel.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/heatTransferCoeffModel/heatTransferCoeffModel.H:93"
+      ],
+      "sourceLine": 93
+    },
+    {
+      "name": "histogram",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogram.C",
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogram.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogram.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogram.H:129"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "histogramModel",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogramModels/histogramModel/histogramModel.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogramModels/histogramModel/histogramModel.H:98"
+      ],
+      "sourceLine": 98
+    },
+    {
+      "name": "hydrostaticPressure",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/initialisation/hydrostaticPressure/hydrostaticPressure.C",
+        "OpenFOAM-v2606/src/functionObjects/initialisation/hydrostaticPressure/hydrostaticPressure.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/initialisation/hydrostaticPressure/hydrostaticPressure.C:48",
+        "OpenFOAM-v2606/src/functionObjects/initialisation/hydrostaticPressure/hydrostaticPressure.H:163"
+      ],
+      "sourceLine": 48
+    },
+    {
+      "name": "icoUncoupledKinematicCloud",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/icoUncoupledKinematicCloud/icoUncoupledKinematicCloud.C",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/icoUncoupledKinematicCloud/icoUncoupledKinematicCloud.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/icoUncoupledKinematicCloud/icoUncoupledKinematicCloud.C:41",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/icoUncoupledKinematicCloud/icoUncoupledKinematicCloud.H:149"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "interfaceHeight",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/interfaceHeight/interfaceHeight.C",
+        "OpenFOAM-v2606/src/functionObjects/field/interfaceHeight/interfaceHeight.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/interfaceHeight/interfaceHeight.C:47",
+        "OpenFOAM-v2606/src/functionObjects/field/interfaceHeight/interfaceHeight.H:159"
+      ],
+      "sourceLine": 47
+    },
+    {
+      "name": "Lambda2",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/Lambda2/Lambda2.C",
+        "OpenFOAM-v2606/src/functionObjects/field/Lambda2/Lambda2.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/Lambda2/Lambda2.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/Lambda2/Lambda2.H:112"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "LambVector",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/LambVector/LambVector.C",
+        "OpenFOAM-v2606/src/functionObjects/field/LambVector/LambVector.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/LambVector/LambVector.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/LambVector/LambVector.H:115"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "limitFields",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/limitFields/limitFields.C",
+        "OpenFOAM-v2606/src/functionObjects/field/limitFields/limitFields.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/limitFields/limitFields.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/limitFields/limitFields.H:171"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "localReferenceTemperature",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:heatTransferCoeffModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/localReferenceTemperature/localReferenceTemperature.C",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/localReferenceTemperature/localReferenceTemperature.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/localReferenceTemperature/localReferenceTemperature.C:38",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/localReferenceTemperature/localReferenceTemperature.H:112"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "log",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/log/log.C",
+        "OpenFOAM-v2606/src/functionObjects/field/log/log.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/log/log.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/log/log.H:151"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "MachNo",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/MachNo/MachNo.C",
+        "OpenFOAM-v2606/src/functionObjects/field/MachNo/MachNo.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/MachNo/MachNo.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/MachNo/MachNo.H:102"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "mag",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/mag/mag.C",
+        "OpenFOAM-v2606/src/functionObjects/field/mag/mag.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/mag/mag.C:38",
+        "OpenFOAM-v2606/src/functionObjects/field/mag/mag.H:115"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "magSqr",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/magSqr/magSqr.C",
+        "OpenFOAM-v2606/src/functionObjects/field/magSqr/magSqr.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/magSqr/magSqr.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/magSqr/magSqr.H:117"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "mapFields",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/mapFields/mapFields.C",
+        "OpenFOAM-v2606/src/functionObjects/field/mapFields/mapFields.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/mapFields/mapFields.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/mapFields/mapFields.H:193"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "maxDuration",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:runTimeCondition",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/maxDurationCondition/maxDurationCondition.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/maxDurationCondition/maxDurationCondition.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/maxDurationCondition/maxDurationCondition.C:41",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/maxDurationCondition/maxDurationCondition.H:80"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "minMax",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:runTimeCondition",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/minMaxCondition/minMaxCondition.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/minMaxCondition/minMaxCondition.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/minMaxCondition/minMaxCondition.C:57",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/minMaxCondition/minMaxCondition.H:106"
+      ],
+      "sourceLine": 57
+    },
+    {
+      "name": "minTimeStep",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:runTimeCondition",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/minTimeStepCondition/minTimeStepCondition.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/minTimeStepCondition/minTimeStepCondition.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/minTimeStepCondition/minTimeStepCondition.C:42",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/minTimeStepCondition/minTimeStepCondition.H:72"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "moleFractions",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/functionObjects/moleFractions/moleFractions.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/functionObjects/moleFractions/moleFractions.H:136"
+      ],
+      "sourceLine": 136
+    },
+    {
+      "name": "momentum",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/momentum/momentum.C",
+        "OpenFOAM-v2606/src/functionObjects/field/momentum/momentum.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/momentum/momentum.C:43",
+        "OpenFOAM-v2606/src/functionObjects/field/momentum/momentum.H:226"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "momentumError",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/momentumError/momentumError.C",
+        "OpenFOAM-v2606/src/functionObjects/field/momentumError/momentumError.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/momentumError/momentumError.C:44",
+        "OpenFOAM-v2606/src/functionObjects/field/momentumError/momentumError.H:135"
+      ],
+      "sourceLine": 44
+    },
+    {
+      "name": "multiFieldValue",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/multiFieldValue/multiFieldValue.C",
+        "OpenFOAM-v2606/src/functionObjects/field/multiFieldValue/multiFieldValue.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/multiFieldValue/multiFieldValue.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/multiFieldValue/multiFieldValue.H:205"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "multiphaseInterHtcModel",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/multiphaseInterHtcModel/multiphaseInterHtcModel.C",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/multiphaseInterHtcModel/multiphaseInterHtcModel.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/multiphaseInterHtcModel/multiphaseInterHtcModel.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/multiphaseInterHtcModel/multiphaseInterHtcModel.H:137"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "multiply",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/multiply/multiply.C",
+        "OpenFOAM-v2606/src/functionObjects/field/multiply/multiply.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/multiply/multiply.C:38",
+        "OpenFOAM-v2606/src/functionObjects/field/multiply/multiply.H:143"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "multiRegion",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/multiRegion/multiRegion.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/multiRegion/multiRegion.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/multiRegion/multiRegion.C:41",
+        "OpenFOAM-v2606/src/functionObjects/utilities/multiRegion/multiRegion.H:118"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "nearWallFields",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/nearWallFields/nearWallFields.C",
+        "OpenFOAM-v2606/src/functionObjects/field/nearWallFields/nearWallFields.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/nearWallFields/nearWallFields.C:43",
+        "OpenFOAM-v2606/src/functionObjects/field/nearWallFields/nearWallFields.H:184"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "noneCondition",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:runTimeCondition"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/noneCondition/noneCondition.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/noneCondition/noneCondition.C:40"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "norm",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/norm/norm.C",
+        "OpenFOAM-v2606/src/functionObjects/field/norm/norm.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/norm/norm.C:38",
+        "OpenFOAM-v2606/src/functionObjects/field/norm/norm.H:243"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "ObukhovLength",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/atmosphericModels/functionObjects/ObukhovLength/ObukhovLength.C",
+        "OpenFOAM-v2606/src/atmosphericModels/functionObjects/ObukhovLength/ObukhovLength.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/atmosphericModels/functionObjects/ObukhovLength/ObukhovLength.C:46",
+        "OpenFOAM-v2606/src/atmosphericModels/functionObjects/ObukhovLength/ObukhovLength.H:216"
+      ],
+      "sourceLine": 46
+    },
+    {
+      "name": "parProfiling",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/parProfiling/parProfiling.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/parProfiling/parProfiling.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/parProfiling/parProfiling.C:41",
+        "OpenFOAM-v2606/src/functionObjects/utilities/parProfiling/parProfiling.H:109"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "parProfilingSolver",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/parProfiling/parProfilingSolver.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/parProfiling/parProfilingSolver.H:91"
+      ],
+      "sourceLine": 91
+    },
+    {
+      "name": "particleDistribution",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/particleDistribution/particleDistribution.C",
+        "OpenFOAM-v2606/src/functionObjects/field/particleDistribution/particleDistribution.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/particleDistribution/particleDistribution.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/particleDistribution/particleDistribution.H:158"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "patchProbes",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/sampling/probes/patchProbes.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/probes/patchProbes.C:37"
+      ],
+      "sourceLine": 37
+    },
+    {
+      "name": "PecletNo",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/PecletNo/PecletNo.C",
+        "OpenFOAM-v2606/src/functionObjects/field/PecletNo/PecletNo.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/PecletNo/PecletNo.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/PecletNo/PecletNo.H:116"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "phaseForces",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/phaseSystems/phaseForces/phaseForces.C",
+        "OpenFOAM-v2606/src/functionObjects/phaseSystems/phaseForces/phaseForces.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/phaseSystems/phaseForces/phaseForces.C:44",
+        "OpenFOAM-v2606/src/functionObjects/phaseSystems/phaseForces/phaseForces.H:123"
+      ],
+      "sourceLine": 44
+    },
+    {
+      "name": "pointHistory",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/pointHistory/pointHistory.C",
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/pointHistory/pointHistory.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/pointHistory/pointHistory.C:38",
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/pointHistory/pointHistory.H:97"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "PopeIndex",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:resolutionIndexModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/PopeIndex/PopeIndex.C",
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/PopeIndex/PopeIndex.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/PopeIndex/PopeIndex.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/PopeIndex/PopeIndex.H:191"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "pow",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/pow/pow.C",
+        "OpenFOAM-v2606/src/functionObjects/field/pow/pow.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/pow/pow.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/pow/pow.H:141"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "pressure",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/pressure/pressure.C",
+        "OpenFOAM-v2606/src/functionObjects/field/pressure/pressure.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/pressure/pressure.C:42",
+        "OpenFOAM-v2606/src/functionObjects/field/pressure/pressure.H:311"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "probes",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/sampling/probes/probes.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/probes/probes.C:37"
+      ],
+      "sourceLine": 37
+    },
+    {
+      "name": "processorField",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/processorField/processorField.C",
+        "OpenFOAM-v2606/src/functionObjects/field/processorField/processorField.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/processorField/processorField.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/processorField/processorField.H:97"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "propellerInfo",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/forces/propellerInfo/propellerInfo.C",
+        "OpenFOAM-v2606/src/functionObjects/forces/propellerInfo/propellerInfo.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/forces/propellerInfo/propellerInfo.C:46",
+        "OpenFOAM-v2606/src/functionObjects/forces/propellerInfo/propellerInfo.H:364"
+      ],
+      "sourceLine": 46
+    },
+    {
+      "name": "proudmanAcousticPower",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/proudmanAcousticPower/proudmanAcousticPower.C",
+        "OpenFOAM-v2606/src/functionObjects/field/proudmanAcousticPower/proudmanAcousticPower.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/proudmanAcousticPower/proudmanAcousticPower.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/proudmanAcousticPower/proudmanAcousticPower.H:179"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "psiReactionsSensitivityAnalysisFunctionObject",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/reactionSensitivityAnalysis/reactionsSensitivityAnalysisObjects.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/reactionSensitivityAnalysis/reactionsSensitivityAnalysisObjects.C:74"
+      ],
+      "sourceLine": 74
+    },
+    {
+      "name": "psiReactionThermoMoleFractionsFunctionObject",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/functionObjects/moleFractions/moleFractionsFunctionObjects.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/functionObjects/moleFractions/moleFractionsFunctionObjects.C:42"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "psiSpecieReactionRates",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/functionObjects/specieReactionRates/specieReactionRates.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/functionObjects/specieReactionRates/specieReactionRates.C:185"
+      ],
+      "sourceLine": 185
+    },
+    {
+      "name": "Q",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/Q/Q.C",
+        "OpenFOAM-v2606/src/functionObjects/field/Q/Q.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/Q/Q.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/Q/Q.H:114"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "radiometerProbes",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/radiometerProbes/radiometerProbes.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/radiometerProbes/radiometerProbes.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/radiometerProbes/radiometerProbes.C:38",
+        "OpenFOAM-v2606/src/functionObjects/utilities/radiometerProbes/radiometerProbes.H:152"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "randomise",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/randomise/randomise.C",
+        "OpenFOAM-v2606/src/functionObjects/field/randomise/randomise.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/randomise/randomise.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/randomise/randomise.H:135"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "reactingEulerHtcModel",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/reactingEulerHtcModel/reactingEulerHtcModel.C",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/reactingEulerHtcModel/reactingEulerHtcModel.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/reactingEulerHtcModel/reactingEulerHtcModel.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/reactingEulerHtcModel/reactingEulerHtcModel.H:136"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "reactionsSensitivityAnalysis",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/reactionSensitivityAnalysis/reactionsSensitivityAnalysis.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/reactionSensitivityAnalysis/reactionsSensitivityAnalysis.H:172"
+      ],
+      "sourceLine": 172
+    },
+    {
+      "name": "readFields",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/readFields/readFields.C",
+        "OpenFOAM-v2606/src/functionObjects/field/readFields/readFields.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/readFields/readFields.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/readFields/readFields.H:131"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "reference",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/reference/reference.C",
+        "OpenFOAM-v2606/src/functionObjects/field/reference/reference.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/reference/reference.C:38",
+        "OpenFOAM-v2606/src/functionObjects/field/reference/reference.H:144"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "regionFunctionObject",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/db/functionObjects/regionFunctionObject/regionFunctionObject.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/db/functionObjects/regionFunctionObject/regionFunctionObject.H:178"
+      ],
+      "sourceLine": 178
+    },
+    {
+      "name": "regionSizeDistribution",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/regionSizeDistribution/regionSizeDistribution.C",
+        "OpenFOAM-v2606/src/functionObjects/field/regionSizeDistribution/regionSizeDistribution.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/regionSizeDistribution/regionSizeDistribution.C:45",
+        "OpenFOAM-v2606/src/functionObjects/field/regionSizeDistribution/regionSizeDistribution.H:292"
+      ],
+      "sourceLine": 45
+    },
+    {
+      "name": "relativeVelocity",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/relativeVelocity/relativeVelocityFunctionObject.cxx",
+        "OpenFOAM-v2606/src/functionObjects/field/relativeVelocity/relativeVelocityFunctionObject.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/relativeVelocity/relativeVelocityFunctionObject.cxx:46",
+        "OpenFOAM-v2606/src/functionObjects/field/relativeVelocity/relativeVelocityFunctionObject.H:224"
+      ],
+      "sourceLine": 46
+    },
+    {
+      "name": "removeRegisteredObject",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/removeRegisteredObject/removeRegisteredObject.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/removeRegisteredObject/removeRegisteredObject.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/removeRegisteredObject/removeRegisteredObject.C:42",
+        "OpenFOAM-v2606/src/functionObjects/utilities/removeRegisteredObject/removeRegisteredObject.H:106"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "resolutionIndex",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndex.C",
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndex.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndex.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndex.H:148"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "resolutionIndexModel",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModel.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModel.H:88"
+      ],
+      "sourceLine": 88
+    },
+    {
+      "name": "ReynoldsAnalogy",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:heatTransferCoeffModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/ReynoldsAnalogy/ReynoldsAnalogy.C",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/ReynoldsAnalogy/ReynoldsAnalogy.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/ReynoldsAnalogy/ReynoldsAnalogy.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/heatTransferCoeff/heatTransferCoeffModels/ReynoldsAnalogy/ReynoldsAnalogy.H:171"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "rhoReactionsSensitivityAnalysisFunctionObject",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/reactionSensitivityAnalysis/reactionsSensitivityAnalysisObjects.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/reactionSensitivityAnalysis/reactionsSensitivityAnalysisObjects.C:81"
+      ],
+      "sourceLine": 81
+    },
+    {
+      "name": "rhoReactionThermoMoleFractionsFunctionObject",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/functionObjects/moleFractions/moleFractionsFunctionObjects.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/functionObjects/moleFractions/moleFractionsFunctionObjects.C:56"
+      ],
+      "sourceLine": 56
+    },
+    {
+      "name": "rhoSpecieReactionRates",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/functionObjects/specieReactionRates/specieReactionRates.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/functionObjects/specieReactionRates/specieReactionRates.C:210"
+      ],
+      "sourceLine": 210
+    },
+    {
+      "name": "runTimeCondition",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/runTimeCondition/runTimeCondition.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeCondition/runTimeCondition/runTimeCondition.H:104"
+      ],
+      "sourceLine": 104
+    },
+    {
+      "name": "runTimeControl",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeControl.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeControl.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeControl.C:45",
+        "OpenFOAM-v2606/src/functionObjects/utilities/runTimeControl/runTimeControl.H:176"
+      ],
+      "sourceLine": 45
+    },
+    {
+      "name": "scalarTransport",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/solvers/scalarTransport/scalarTransport.C",
+        "OpenFOAM-v2606/src/functionObjects/solvers/scalarTransport/scalarTransport.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/solvers/scalarTransport/scalarTransport.C:43",
+        "OpenFOAM-v2606/src/functionObjects/solvers/scalarTransport/scalarTransport.H:257"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "setFlow",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/setFlow/setFlow.C",
+        "OpenFOAM-v2606/src/functionObjects/field/setFlow/setFlow.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/setFlow/setFlow.C:42",
+        "OpenFOAM-v2606/src/functionObjects/field/setFlow/setFlow.H:216"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "sets",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/sampledSets/sampledSets.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSet/sampledSets/sampledSets.C:47"
+      ],
+      "sourceLine": 47
+    },
+    {
+      "name": "setTimeStep",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/setTimeStep/setTimeStepFunctionObject.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/setTimeStep/setTimeStepFunctionObject.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/setTimeStep/setTimeStepFunctionObject.C:40",
+        "OpenFOAM-v2606/src/functionObjects/utilities/setTimeStep/setTimeStepFunctionObject.H:114"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "setTimeStepFaRegion",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/regionFaModels/functionObjects/setTimeStep/setTimeStepFaRegionsFunctionObject.C",
+        "OpenFOAM-v2606/src/regionFaModels/functionObjects/setTimeStep/setTimeStepFaRegionsFunctionObject.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionFaModels/functionObjects/setTimeStep/setTimeStepFaRegionsFunctionObject.C:38",
+        "OpenFOAM-v2606/src/regionFaModels/functionObjects/setTimeStep/setTimeStepFaRegionsFunctionObject.H:113"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "singleDirectionUniformBin",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:binModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binModels/singleDirectionUniformBin/singleDirectionUniformBin.C",
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binModels/singleDirectionUniformBin/singleDirectionUniformBin.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binModels/singleDirectionUniformBin/singleDirectionUniformBin.C:38",
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binModels/singleDirectionUniformBin/singleDirectionUniformBin.H:134"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "sixDoFRigidBodyState",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyState/sixDoFRigidBodyState.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyState/sixDoFRigidBodyState.C:43"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "sizeDistribution",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/phaseSystems/sizeDistribution/sizeDistribution.C",
+        "OpenFOAM-v2606/src/functionObjects/phaseSystems/sizeDistribution/sizeDistribution.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/phaseSystems/sizeDistribution/sizeDistribution.C:40",
+        "OpenFOAM-v2606/src/functionObjects/phaseSystems/sizeDistribution/sizeDistribution.H:254"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "solverInfo",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/solverInfo/solverInfo.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/solverInfo/solverInfo.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/solverInfo/solverInfo.C:39",
+        "OpenFOAM-v2606/src/functionObjects/utilities/solverInfo/solverInfo.H:163"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "specieReactionRates",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/functionObjects/specieReactionRates/specieReactionRates.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/chemistryModel/functionObjects/specieReactionRates/specieReactionRates.H:92"
+      ],
+      "sourceLine": 92
+    },
+    {
+      "name": "stabilityBlendingFactor",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/stabilityBlendingFactor/stabilityBlendingFactor.C",
+        "OpenFOAM-v2606/src/functionObjects/field/stabilityBlendingFactor/stabilityBlendingFactor.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/stabilityBlendingFactor/stabilityBlendingFactor.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/stabilityBlendingFactor/stabilityBlendingFactor.H:453"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "STDMD",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:DMDModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/DMD/DMDModels/derived/STDMD/STDMD.C",
+        "OpenFOAM-v2606/src/functionObjects/field/DMD/DMDModels/derived/STDMD/STDMD.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/DMD/DMDModels/derived/STDMD/STDMD.C:42",
+        "OpenFOAM-v2606/src/functionObjects/field/DMD/DMDModels/derived/STDMD/STDMD.H:445"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "streamFunction",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/streamFunction/streamFunction.C",
+        "OpenFOAM-v2606/src/functionObjects/field/streamFunction/streamFunction.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/streamFunction/streamFunction.C:45",
+        "OpenFOAM-v2606/src/functionObjects/field/streamFunction/streamFunction.H:107"
+      ],
+      "sourceLine": 45
+    },
+    {
+      "name": "streamLine",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/streamLine/streamLine.C",
+        "OpenFOAM-v2606/src/functionObjects/field/streamLine/streamLine.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/streamLine/streamLine.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/streamLine/streamLine.H:173"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "streamLineBase",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/streamLine/streamLineBase.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/streamLine/streamLineBase.H:216"
+      ],
+      "sourceLine": 216
+    },
+    {
+      "name": "substitutionModel",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/substitutionModel/substitutionModel.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/substitutionModel/substitutionModel.H:137"
+      ],
+      "sourceLine": 137
+    },
+    {
+      "name": "subtract",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/subtract/subtract.C",
+        "OpenFOAM-v2606/src/functionObjects/field/subtract/subtract.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/subtract/subtract.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/subtract/subtract.H:123"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "surfaceCourantNumber",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/regionFaModels/functionObjects/surfaceCourantNumber/surfaceCourantNumber.C",
+        "OpenFOAM-v2606/src/regionFaModels/functionObjects/surfaceCourantNumber/surfaceCourantNumber.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionFaModels/functionObjects/surfaceCourantNumber/surfaceCourantNumber.C:43",
+        "OpenFOAM-v2606/src/regionFaModels/functionObjects/surfaceCourantNumber/surfaceCourantNumber.H:137"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "surfaceDistance",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/surfaceDistance/surfaceDistance.C",
+        "OpenFOAM-v2606/src/functionObjects/field/surfaceDistance/surfaceDistance.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/surfaceDistance/surfaceDistance.C:38",
+        "OpenFOAM-v2606/src/functionObjects/field/surfaceDistance/surfaceDistance.H:127"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "surfaceFieldValue",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:fieldValue",
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/surfaceFieldValue/surfaceFieldValue.C",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/surfaceFieldValue/surfaceFieldValue.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/surfaceFieldValue/surfaceFieldValue.C:50",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/surfaceFieldValue/surfaceFieldValue.C:51",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/surfaceFieldValue/surfaceFieldValue.H:558"
+      ],
+      "sourceLine": 50
+    },
+    {
+      "name": "surfaceInterpolate",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/surfaceInterpolate/surfaceInterpolate.C",
+        "OpenFOAM-v2606/src/functionObjects/field/surfaceInterpolate/surfaceInterpolate.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/surfaceInterpolate/surfaceInterpolate.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/surfaceInterpolate/surfaceInterpolate.H:125"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "surfaces",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledSurfaces/sampledSurfaces.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledSurfaces/sampledSurfaces.C:47"
+      ],
+      "sourceLine": 47
+    },
+    {
+      "name": "syncObjects",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/syncObjects/syncObjects.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/syncObjects/syncObjects.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/syncObjects/syncObjects.C:42",
+        "OpenFOAM-v2606/src/functionObjects/utilities/syncObjects/syncObjects.H:134"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "systemCall",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/systemCall/systemCall.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/systemCall/systemCall.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/systemCall/systemCall.C:43",
+        "OpenFOAM-v2606/src/functionObjects/utilities/systemCall/systemCall.H:153"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "thermoCoupleProbes",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/thermoCoupleProbes/thermoCoupleProbes.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/thermoCoupleProbes/thermoCoupleProbes.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/thermoCoupleProbes/thermoCoupleProbes.C:42",
+        "OpenFOAM-v2606/src/functionObjects/utilities/thermoCoupleProbes/thermoCoupleProbes.H:168"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "timeActivatedFileUpdate",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/timeActivatedFileUpdate/timeActivatedFileUpdate.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/timeActivatedFileUpdate/timeActivatedFileUpdate.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/timeActivatedFileUpdate/timeActivatedFileUpdate.C:42",
+        "OpenFOAM-v2606/src/functionObjects/utilities/timeActivatedFileUpdate/timeActivatedFileUpdate.H:132"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "timeControl",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/db/functionObjects/timeControl/timeControlFunctionObject.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/db/functionObjects/timeControl/timeControlFunctionObject.H:191"
+      ],
+      "sourceLine": 191
+    },
+    {
+      "name": "timeInfo",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/timeInfo/timeInfo.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/timeInfo/timeInfo.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/timeInfo/timeInfo.C:36",
+        "OpenFOAM-v2606/src/functionObjects/utilities/timeInfo/timeInfo.H:123"
+      ],
+      "sourceLine": 36
+    },
+    {
+      "name": "turbulenceFields",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/turbulenceFields/turbulenceFields.C",
+        "OpenFOAM-v2606/src/functionObjects/field/turbulenceFields/turbulenceFields.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/turbulenceFields/turbulenceFields.C:42",
+        "OpenFOAM-v2606/src/functionObjects/field/turbulenceFields/turbulenceFields.H:253"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "unequalBinWidth",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:histogramModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogramModels/unequalBinWidth/unequalBinWidth.C",
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogramModels/unequalBinWidth/unequalBinWidth.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogramModels/unequalBinWidth/unequalBinWidth.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/histogram/histogramModels/unequalBinWidth/unequalBinWidth.H:102"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "uniformBin",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:binModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binModels/uniformBin/uniformBin.C",
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binModels/uniformBin/uniformBin.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binModels/uniformBin/uniformBin.C:38",
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binModels/uniformBin/uniformBin.H:167"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "userValue",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:substitutionModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/userValue/userValue.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/userValue/userValue.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/userValue/userValue.C:38",
+        "OpenFOAM-v2606/src/functionObjects/utilities/foamReport/substitutionModels/userValue/userValue.H:104"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "valueAverage",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/valueAverage/valueAverage.C",
+        "OpenFOAM-v2606/src/functionObjects/field/valueAverage/valueAverage.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/valueAverage/valueAverage.C:38",
+        "OpenFOAM-v2606/src/functionObjects/field/valueAverage/valueAverage.H:113"
+      ],
+      "sourceLine": 38
+    },
+    {
+      "name": "viewFactorHeatFlux",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/viewFactorHeatFlux/viewFactorHeatFlux.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/viewFactorHeatFlux/viewFactorHeatFlux.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/viewFactorHeatFlux/viewFactorHeatFlux.C:39",
+        "OpenFOAM-v2606/src/functionObjects/utilities/viewFactorHeatFlux/viewFactorHeatFlux.H:125"
+      ],
+      "sourceLine": 39
+    },
+    {
+      "name": "volFieldValue",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:fieldValue",
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/volFieldValue/volFieldValue.C",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/volFieldValue/volFieldValue.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/volFieldValue/volFieldValue.C:43",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/volFieldValue/volFieldValue.C:44",
+        "OpenFOAM-v2606/src/functionObjects/field/fieldValues/volFieldValue/volFieldValue.H:272"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "volRegion",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/functionObjects/volRegion/volRegion.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/functionObjects/volRegion/volRegion.H:171"
+      ],
+      "sourceLine": 171
+    },
+    {
+      "name": "vorticity",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/vorticity/vorticity.C",
+        "OpenFOAM-v2606/src/functionObjects/field/vorticity/vorticity.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/vorticity/vorticity.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/vorticity/vorticity.H:112"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "vtkCloud",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/vtkCloud/vtkCloud.cxx",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/vtkCloud/vtkCloud.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/vtkCloud/vtkCloud.cxx:45",
+        "OpenFOAM-v2606/src/functionObjects/lagrangian/vtkCloud/vtkCloud.H:227"
+      ],
+      "sourceLine": 45
+    },
+    {
+      "name": "vtkWrite",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/vtkWrite/vtkWrite.cxx",
+        "OpenFOAM-v2606/src/functionObjects/utilities/vtkWrite/vtkWrite.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/vtkWrite/vtkWrite.cxx:46",
+        "OpenFOAM-v2606/src/functionObjects/utilities/vtkWrite/vtkWrite.H:305"
+      ],
+      "sourceLine": 46
+    },
+    {
+      "name": "wall",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:wallHeatFluxModel",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFluxModels/wall/wallHeatFlux_wall.cxx",
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFluxModels/wall/wallHeatFlux_wall.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFluxModels/wall/wallHeatFlux_wall.cxx:46",
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFluxModels/wall/wallHeatFlux_wall.H:123"
+      ],
+      "sourceLine": 46
+    },
+    {
+      "name": "wallBoundedStreamLine",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallBoundedStreamLine/wallBoundedStreamLine.C",
+        "OpenFOAM-v2606/src/functionObjects/field/wallBoundedStreamLine/wallBoundedStreamLine.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallBoundedStreamLine/wallBoundedStreamLine.C:42",
+        "OpenFOAM-v2606/src/functionObjects/field/wallBoundedStreamLine/wallBoundedStreamLine.H:186"
+      ],
+      "sourceLine": 42
+    },
+    {
+      "name": "wallHeatFlux",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFlux.cxx",
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFlux.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFlux.cxx:40",
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFlux.H:142"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "wallHeatFluxModel",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFluxModels/wallHeatFluxModel/wallHeatFluxModel.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallHeatFlux/wallHeatFluxModels/wallHeatFluxModel/wallHeatFluxModel.H:83"
+      ],
+      "sourceLine": 83
+    },
+    {
+      "name": "wallShearStress",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallShearStress/wallShearStress.C",
+        "OpenFOAM-v2606/src/functionObjects/field/wallShearStress/wallShearStress.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/wallShearStress/wallShearStress.C:44",
+        "OpenFOAM-v2606/src/functionObjects/field/wallShearStress/wallShearStress.H:150"
+      ],
+      "sourceLine": 44
+    },
+    {
+      "name": "writeCellCentres",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/writeCellCentres/writeCellCentres.C",
+        "OpenFOAM-v2606/src/functionObjects/field/writeCellCentres/writeCellCentres.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/writeCellCentres/writeCellCentres.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/writeCellCentres/writeCellCentres.H:98"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "writeCellVolumes",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/writeCellVolumes/writeCellVolumes.C",
+        "OpenFOAM-v2606/src/functionObjects/field/writeCellVolumes/writeCellVolumes.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/writeCellVolumes/writeCellVolumes.C:40",
+        "OpenFOAM-v2606/src/functionObjects/field/writeCellVolumes/writeCellVolumes.H:96"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "writeDictionary",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/writeDictionary/writeDictionary.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/writeDictionary/writeDictionary.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/writeDictionary/writeDictionary.C:44",
+        "OpenFOAM-v2606/src/functionObjects/utilities/writeDictionary/writeDictionary.H:125"
+      ],
+      "sourceLine": 44
+    },
+    {
+      "name": "writeFreeSurface",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/writeFreeSurface/writeFreeSurface.C",
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/writeFreeSurface/writeFreeSurface.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/writeFreeSurface/writeFreeSurface.C:40",
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/writeFreeSurface/writeFreeSurface.H:66"
+      ],
+      "sourceLine": 40
+    },
+    {
+      "name": "writeObjects",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/writeObjects/writeObjects.C",
+        "OpenFOAM-v2606/src/functionObjects/utilities/writeObjects/writeObjects.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/utilities/writeObjects/writeObjects.C:43",
+        "OpenFOAM-v2606/src/functionObjects/utilities/writeObjects/writeObjects.H:161"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "XiReactionRate",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/XiReactionRate/XiReactionRate.C",
+        "OpenFOAM-v2606/src/functionObjects/field/XiReactionRate/XiReactionRate.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/XiReactionRate/XiReactionRate.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/XiReactionRate/XiReactionRate.H:97"
+      ],
+      "sourceLine": 41
+    },
+    {
+      "name": "yPlus",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/yPlus/yPlus.C",
+        "OpenFOAM-v2606/src/functionObjects/field/yPlus/yPlus.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/yPlus/yPlus.C:43",
+        "OpenFOAM-v2606/src/functionObjects/field/yPlus/yPlus.H:130"
+      ],
+      "sourceLine": 43
+    },
+    {
+      "name": "zeroGradient",
+      "registeredBy": [
+        "addToRunTimeSelectionTable:functionObject",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/functionObjects/field/zeroGradient/zeroGradient.C",
+        "OpenFOAM-v2606/src/functionObjects/field/zeroGradient/zeroGradient.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/functionObjects/field/zeroGradient/zeroGradient.C:41",
+        "OpenFOAM-v2606/src/functionObjects/field/zeroGradient/zeroGradient.H:149"
+      ],
+      "sourceLine": 41
+    }
+  ],
+  "manualItems": []
+}

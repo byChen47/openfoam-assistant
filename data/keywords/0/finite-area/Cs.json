@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T08:07:58.257Z",
+  "generatedAt": "2026-09-26T10:54:09.519Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "0",
   "fileKey": "finite-area/Cs",
@@ -105,13 +105,40 @@
       ],
       "occurrences": 5,
       "fileCount": 2,
-      "sourceOccurrences": 0,
-      "sourceTypes": [],
-      "sourceLocations": [],
+      "sourceOccurrences": 231,
+      "sourceTypes": [
+        "0/fvPatchFields"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/atmBoundaryLayerInletEpsilon/atmBoundaryLayerInletEpsilonFvPatchScalarField.H:124",
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/atmBoundaryLayerInletK/atmBoundaryLayerInletKFvPatchScalarField.H:123",
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/atmBoundaryLayerInletOmega/atmBoundaryLayerInletOmegaFvPatchScalarField.H:120",
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/atmBoundaryLayerInletVelocity/atmBoundaryLayerInletVelocityFvPatchVectorField.H:127",
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/atmTurbulentHeatFluxTemperature/atmTurbulentHeatFluxTemperatureFvPatchScalarField.H:146",
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/wallFunctions/atmAlphatkWallFunction/atmAlphatkWallFunctionFvPatchScalarField.H:148",
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/wallFunctions/atmEpsilonWallFunction/atmEpsilonWallFunctionFvPatchScalarField.H:139",
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/wallFunctions/atmNutkWallFunction/atmNutkWallFunctionFvPatchScalarField.H:160",
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/wallFunctions/atmNutUWallFunction/atmNutUWallFunctionFvPatchScalarField.H:139",
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/wallFunctions/atmNutWallFunction/atmNutWallFunctionFvPatchScalarField.H:175",
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/wallFunctions/atmOmegaWallFunction/atmOmegaWallFunctionFvPatchScalarField.H:138",
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/fvPatchFields/freeSurfacePressure/freeSurfacePressureFvPatchScalarField.H:102",
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/fvPatchFields/freeSurfaceVelocity/freeSurfaceVelocityFvPatchVectorField.H:66",
+        "OpenFOAM-v2606/src/finiteVolume/cfdTools/general/SRF/derivedFvPatchFields/SRFFreestreamVelocityFvPatchVectorField/SRFFreestreamVelocityFvPatchVectorField.H:113",
+        "OpenFOAM-v2606/src/finiteVolume/cfdTools/general/SRF/derivedFvPatchFields/SRFVelocityFvPatchVectorField/SRFVelocityFvPatchVectorField.H:124",
+        "OpenFOAM-v2606/src/finiteVolume/cfdTools/general/SRF/derivedFvPatchFields/SRFWallVelocityFvPatchVectorField/SRFWallVelocityFvPatchVectorField.H:98",
+        "OpenFOAM-v2606/src/finiteVolume/expressions/fields/fvPatchFields/exprFixedValueFvPatchField.H:98",
+        "OpenFOAM-v2606/src/finiteVolume/expressions/fields/fvPatchFields/exprMixedFvPatchField.H:103",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchField.H:83",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchField.H:77"
+      ],
       "values": [
         {
           "value": "fixedValue",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
         },
         {
           "value": "empty",
@@ -119,11 +146,1847 @@
         },
         {
           "value": "inletOutlet",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
         },
         {
           "value": "symmetry",
           "occurrences": 1
+        },
+        {
+          "value": "acousticWaveTransmissive",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "activeBaffleVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "activePressureForceBaffleVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointFarFieldNuaTilda",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointFarFieldPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointFarFieldTMVar1",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointFarFieldTMVar2",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointFarFieldVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointInletNuaTilda",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointOutletFlux",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointOutletKa",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointOutletNuaTilda",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointOutletNuaTildaFlux",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointOutletPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointOutletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointOutletVelocityFlux",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointOutletWa",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointRotatingWallVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointWallVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointWallVelocityLowRe",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "adjointZeroInlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "advective",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "alphaFixedPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "alphatFilmWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "alphatJayatillekeWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmAlphatkWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmBoundaryLayerInletEpsilon",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmBoundaryLayerInletK",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmBoundaryLayerInletOmega",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmBoundaryLayerInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmEpsilonWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmNutkWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmNutUWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmNutWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmOmegaWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "atmTurbulentHeatFluxTemperature",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "calculated",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "calculatedProcessor",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "cellMotion",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "codedFixedValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "codedMixed",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::alphatFixedDmdtWallBoilingWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::alphatJayatillekeWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::alphatPhaseChangeJayatillekeWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::alphatPhaseChangeWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::alphatWallBoilingWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::alphatWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::thermalBaffle",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::thermalBaffle1D",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::thermalShell",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::turbulentTemperatureCoupledBaffleMixed",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "compressible::turbulentTemperatureRadCoupledMixed",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "constantAlphaContactAngle",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "convectiveHeatTransfer",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "copiedFixedValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "cylindricalInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "directionMixed",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "dynamicAlphaContactAngle",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "electrostaticDeposition",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "energyJump",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "energyJumpAMI",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "enthalpySorption",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "epsilonWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "exprFixedValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "exprMixed",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "externalCoupled",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "externalCoupledTemperature",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "externalWallHeatFluxTemperature",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "extrapolatedCalculated",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fan",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fanPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "filmHeightInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "filmPyrolysisRadiativeCoupledMixed",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "filmPyrolysisTemperatureCoupled",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "filmPyrolysisVelocityCoupled",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedEnergy",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedFluxExtrapolatedPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedFluxPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedGradient",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedIncidentRadiation",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedInternalValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedJump",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedJumpAMI",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedMean",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedMeanOutletInlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedMultiPhaseHeatFlux",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedNormalInletOutletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedNormalSlip",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedPressureCompressibleDensity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedProfile",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedShearStress",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fixedUnburntEnthalpy",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "flowRateInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "flowRateOutletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "fluxCorrectedVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "freestream",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "freestreamPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "freestreamVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "freeSurfacePressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "freeSurfaceVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "generic",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "gradientEnergy",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "gradientUnburntEnthalpy",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "greyDiffusiveRadiation",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "greyDiffusiveRadiationViewFactor",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "humidityTemperatureCoupledMixed",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "inclinedFilmNusseltHeight",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "inclinedFilmNusseltInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "inletOutletTotalTemperature",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "interfaceCompression",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "interstitialInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "JohnsonJacksonParticleSlip",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "JohnsonJacksonParticleTheta",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "jumpCyclic",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "jumpCyclicAMI",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "kaqRWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "kLowReWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "kqRWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "lumpedMassWallTemperature",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mapped",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mappedField",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mappedFixedInternalValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mappedFixedPushedInternalValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mappedFlowRate",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mappedMixed",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mappedMixedField",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mappedVelocityFlux",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "MarshakRadiation",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "MarshakRadiationFixedTemperature",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "matchedFlowRateOutletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mixed",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mixedEnergy",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "mixedUnburntEnthalpy",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "movingWallVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "multiphaseEuler::alphaContactAngle",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "noSlip",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "nutkFilmWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "nutkRoughWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "nutkWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "nutLowReWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "nutTabulatedWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "nutUBlendedWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "nutURoughWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "nutUSpaldingWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "nutUWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "nutWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "omegaWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "outletInlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "outletMachNumberPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "outletMappedUniformInlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "outletMappedUniformInletHeatAddition",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "outletPhaseMeanVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "partialSlip",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "permeableAlphaPressureInletOutletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "phaseHydrostaticPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "plenumPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "porousBafflePressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "pressureDirectedInletOutletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "pressureDirectedInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "pressureInletOutletParSlipVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "pressureInletOutletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "pressureInletUniformVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "pressureInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "pressureNormalInletOutletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "pressurePIDControlInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "prghPermeableAlphaTotalPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "prghPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "prghTotalHydrostaticPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "prghTotalPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "reactingMultiphaseEuler::alphaContactAngle",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "rotatingPressureInletOutletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "rotatingTotalPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "rotatingWallVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "scaledFixedValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "semiPermeableBaffleMassFraction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "semiPermeableBaffleVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "sliced",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "slip",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "sorptionWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "speciesSorption",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "specularRadiation",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "SRFFreestreamVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "SRFVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "SRFWallVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "supersonicFreestream",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "surfaceNormalFixedValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "surfaceSlipDisplacement",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "swirlFanVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "swirlFlowRateInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "swirlInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "syringePressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "temperatureDependentAlphaContactAngle",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "timeVaryingAlphaContactAngle",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "timeVaryingMappedFixedValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "timeVaryingMassSorption",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "totalFlowRateAdvectiveDiffusive",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "totalPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "totalTemperature",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "transform",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "translatingWallVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "turbulentDFSEMInlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "turbulentDigitalFilterInlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "turbulentInlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "turbulentIntensityKineticEnergyInlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "turbulentMixingLengthDissipationRateInlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "turbulentMixingLengthFrequencyInlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "uniformDensityHydrostaticPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "uniformFixedGradient",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "uniformFixedValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "uniformInletOutlet",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "uniformJump",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "uniformJumpAMI",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "uniformMixed",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "uniformNormalFixedValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "uniformTotalPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "variableHeightFlowRate",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "variableHeightFlowRateInletVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "velocityFilmShell",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "vibrationShell",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "wallHeatTransfer",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "waveAlpha",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "waveSurfacePressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "waveTransmissive",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "waveVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "waWallFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "wideBandDiffusiveRadiation",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
+        },
+        {
+          "value": "zeroValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "0/fvPatchFields"
+          ]
         }
       ],
       "examples": [
@@ -342,5 +2205,9 @@
         "incompressible/pimpleFoam/laminar/contaminatedDroplet2D/0.orig/finite-area/Cs"
       ]
     }
-  ]
+  ],
+  "supplemental": {
+    "directory": "data/keyword-supplements",
+    "casePolicy": "preserve-source-case"
+  }
 }

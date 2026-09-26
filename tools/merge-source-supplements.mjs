@@ -42,7 +42,7 @@ function mergeCaseFiles() {
           path: candidate.path,
           kinds: candidate.kinds || ['entry'],
           occurrences: candidate.sourceOccurrences || 0,
-          fileCount: new Set(candidate.sourceLocations || []).size,
+          fileCount: Math.max(candidate.fileCount || 0, new Set(candidate.sourceLocations || []).size),
           sourceOccurrences: candidate.sourceOccurrences || 0,
           sourceTypes: candidate.sourceTypes || [],
           sourceLocations: candidate.sourceLocations || [],
@@ -56,6 +56,7 @@ function mergeCaseFiles() {
       else {
         entry.sourceOccurrences = Math.max(entry.sourceOccurrences || 0, candidate.sourceOccurrences || 0);
         entry.sourceTypes = sortedUnique([...(entry.sourceTypes || []), ...(candidate.sourceTypes || [])]);
+        entry.fileCount = Math.max(entry.fileCount || 0, candidate.fileCount || 0);
         entry.sourceLocations = sortedUnique([...(entry.sourceLocations || []), ...(candidate.sourceLocations || [])]).slice(0, 20);
         merged += 1;
       }

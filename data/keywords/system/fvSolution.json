@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T08:07:58.257Z",
+  "generatedAt": "2026-09-26T10:54:09.519Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "fvSolution",
@@ -5824,21 +5824,102 @@
       ],
       "occurrences": 720,
       "fileCount": 351,
-      "sourceOccurrences": 0,
-      "sourceTypes": [],
-      "sourceLocations": [],
+      "sourceOccurrences": 9,
+      "sourceTypes": [
+        "fvSolution/preconditioners"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/distributedDICPreconditioner.H:105",
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/distributedDILUPreconditioner.H:241",
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/processorColour.H:100",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DiagonalPreconditioner/DiagonalPreconditioner.H:80",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DICPreconditioner/DICPreconditioner.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DILUPreconditioner/DILUPreconditioner.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DILUPreconditioner/TDILUPreconditioner.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/FDICPreconditioner/FDICPreconditioner.H:83",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/GAMGPreconditioner/GAMGPreconditioner.H:76",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:35",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:36",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:37",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:39",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:40",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:41",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:43",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:44",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/NoPreconditioner/NoPreconditioner.H:71"
+      ],
       "values": [
         {
           "value": "DIC",
-          "occurrences": 378
+          "occurrences": 378,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
         },
         {
           "value": "DILU",
-          "occurrences": 289
+          "occurrences": 289,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
         },
         {
           "value": "FDIC",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "diagonal",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "distributedDIC",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "distributedDILU",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "GAMG",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "none",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "processorColour",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
         }
       ],
       "examples": [
@@ -6358,35 +6439,147 @@
       "fileCount": 361,
       "sourceOccurrences": 12,
       "sourceTypes": [
-        "etc"
+        "etc",
+        "fvSolution/preconditioners",
+        "fvSolution/smoothers"
       ],
       "sourceLocations": [
         "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:22",
         "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:30",
         "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:22",
         "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:30",
-        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:22"
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:22",
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/distributedDICPreconditioner.H:105",
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/distributedDILUPreconditioner.H:241",
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/processorColour.H:100",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DiagonalPreconditioner/DiagonalPreconditioner.H:80",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DICPreconditioner/DICPreconditioner.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DILUPreconditioner/DILUPreconditioner.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DILUPreconditioner/TDILUPreconditioner.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/FDICPreconditioner/FDICPreconditioner.H:83",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/GAMGPreconditioner/GAMGPreconditioner.H:76",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:35",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:36",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:37",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:39",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:40",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:41"
       ],
       "values": [
         {
           "value": "symGaussSeidel",
-          "occurrences": 369
+          "occurrences": 369,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/smoothers"
+          ]
         },
         {
           "value": "GaussSeidel",
-          "occurrences": 299
+          "occurrences": 299,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/smoothers"
+          ]
         },
         {
           "value": "DIC",
-          "occurrences": 71
+          "occurrences": 71,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners",
+            "fvSolution/smoothers"
+          ]
         },
         {
           "value": "DICGaussSeidel",
-          "occurrences": 43
+          "occurrences": 43,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/smoothers"
+          ]
         },
         {
           "value": "DILU",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners",
+            "fvSolution/smoothers"
+          ]
+        },
+        {
+          "value": "DILUGaussSeidel",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/smoothers"
+          ]
+        },
+        {
+          "value": "FDIC",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners",
+            "fvSolution/smoothers"
+          ]
+        },
+        {
+          "value": "nonBlockingGaussSeidel",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/smoothers"
+          ]
+        },
+        {
+          "value": "diagonal",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "distributedDIC",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "distributedDILU",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "GAMG",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "none",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
+        },
+        {
+          "value": "processorColour",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/preconditioners"
+          ]
         }
       ],
       "examples": [
@@ -6474,39 +6667,79 @@
       "fileCount": 499,
       "sourceOccurrences": 12,
       "sourceTypes": [
-        "etc"
+        "etc",
+        "fvSolution/solvers"
       ],
       "sourceLocations": [
         "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:21",
         "OpenFOAM-v2606/etc/templates/axisymmetricJet/system/fvSolution:29",
         "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:21",
         "OpenFOAM-v2606/etc/templates/closedVolume/system/fvSolution:29",
-        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:21"
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/fvSolution:21",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/DiagonalSolver/DiagonalSolver.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/FPCG/FPCG.H:91",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/algebraicPairGAMGAgglomeration/algebraicPairGAMGAgglomeration.C:41",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/algebraicPairGAMGAgglomeration/algebraicPairGAMGAgglomeration.H:59",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/dummyAgglomeration/dummyAgglomeration.C:37",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/dummyAgglomeration/dummyAgglomeration.H:73",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGAgglomerations/pairGAMGAgglomeration/pairGAMGAgglomeration.H:94",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/eagerGAMGProcAgglomeration/eagerGAMGProcAgglomeration.C:39",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/eagerGAMGProcAgglomeration/eagerGAMGProcAgglomeration.H:67",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/manualGAMGProcAgglomeration/manualGAMGProcAgglomeration.C:39",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/manualGAMGProcAgglomeration/manualGAMGProcAgglomeration.H:90",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/masterCoarsestGAMGProcAgglomeration/masterCoarsestGAMGProcAgglomeration.C:39",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/masterCoarsestGAMGProcAgglomeration/masterCoarsestGAMGProcAgglomeration.H:119",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/procFacesGAMGProcAgglomeration/procFacesGAMGProcAgglomeration.C:43",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Solvers/GAMG/GAMGProcAgglomerations/procFacesGAMGProcAgglomeration/procFacesGAMGProcAgglomeration.H:147"
       ],
       "values": [
         {
           "value": "smoothSolver",
-          "occurrences": 471
+          "occurrences": 471,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
         },
         {
           "value": "PCG",
-          "occurrences": 415
+          "occurrences": 415,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
         },
         {
           "value": "GAMG",
-          "occurrences": 299
+          "occurrences": 299,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
         },
         {
           "value": "PBiCGStab",
-          "occurrences": 250
+          "occurrences": 250,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
         },
         {
           "value": "PBiCG",
-          "occurrences": 53
+          "occurrences": 53,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
         },
         {
           "value": "diagonal",
-          "occurrences": 42
+          "occurrences": 42,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
         },
         {
           "value": "nthn",
@@ -6514,7 +6747,51 @@
         },
         {
           "value": "PBiCCCG",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
+        },
+        {
+          "value": "FPCG",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
+        },
+        {
+          "value": "PBiCICG",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
+        },
+        {
+          "value": "PCICG",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
+        },
+        {
+          "value": "PPCG",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
+        },
+        {
+          "value": "PPCR",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "fvSolution/solvers"
+          ]
         }
       ],
       "examples": [
@@ -6921,5 +7198,9 @@
         "stressAnalysis/solidEquilibriumDisplacementFoam/beamEndLoad/system/fvSolution"
       ]
     }
-  ]
+  ],
+  "supplemental": {
+    "directory": "data/keyword-supplements",
+    "casePolicy": "preserve-source-case"
+  }
 }

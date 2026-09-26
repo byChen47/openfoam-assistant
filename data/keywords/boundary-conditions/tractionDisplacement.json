@@ -1,0 +1,29 @@
+{
+  "typeName": "tractionDisplacement",
+  "patchKind": "fvPatchField",
+  "sourceFiles": [
+    "OpenFOAM-v2606/applications/solvers/stressAnalysis/solidDisplacementFoam/tractionDisplacement/tractionDisplacementFvPatchVectorField.C",
+    "OpenFOAM-v2606/applications/solvers/stressAnalysis/solidEquilibriumDisplacementFoam/tractionDisplacementCorrection/tractionDisplacementCorrectionFvPatchVectorField.C"
+  ],
+  "keywords": [
+    {
+      "keyword": "planeStress",
+      "method": "get<bool>",
+      "receiver": "mechanicalProperties",
+      "occurrences": 2,
+      "examples": [
+        "OpenFOAM-v2606/applications/solvers/stressAnalysis/solidDisplacementFoam/tractionDisplacement/tractionDisplacementFvPatchVectorField.C:151",
+        "OpenFOAM-v2606/applications/solvers/stressAnalysis/solidEquilibriumDisplacementFoam/tractionDisplacementCorrection/tractionDisplacementCorrectionFvPatchVectorField.C:150"
+      ]
+    },
+    {
+      "keyword": "thermalStress",
+      "method": "get<bool>",
+      "receiver": "thermalProperties",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/applications/solvers/stressAnalysis/solidDisplacementFoam/tractionDisplacement/tractionDisplacementFvPatchVectorField.C:169"
+      ]
+    }
+  ]
+}

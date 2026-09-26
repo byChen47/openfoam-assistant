@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T08:07:58.257Z",
+  "generatedAt": "2026-09-26T10:54:09.519Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "turbulenceProperties",
@@ -1895,8 +1895,9 @@
       ],
       "occurrences": 32,
       "fileCount": 32,
-      "sourceOccurrences": 6,
+      "sourceOccurrences": 9,
       "sourceTypes": [
+        "constant/turbulenceModels/LES/LESdelta",
         "etc"
       ],
       "sourceLocations": [
@@ -1904,36 +1905,95 @@
         "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:30",
         "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:30",
         "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:30",
-        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:30"
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:30",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/cubeRootVolDelta/cubeRootVolDelta.C:39",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/cubeRootVolDelta/cubeRootVolDelta.H:75",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/DeltaOmegaTildeDelta/DeltaOmegaTildeDelta.C:41",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/DeltaOmegaTildeDelta/DeltaOmegaTildeDelta.H:99",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/IDDESDelta/IDDESDelta.C:41",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/IDDESDelta/IDDESDelta.H:84",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/maxDeltaxyz/maxDeltaxyz.C:39",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/maxDeltaxyz/maxDeltaxyz.H:79",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/maxDeltaxyzCubeRootLESDelta/maxDeltaxyzCubeRootLESDelta.C:38",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/maxDeltaxyzCubeRootLESDelta/maxDeltaxyzCubeRootLESDelta.H:84",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/PrandtlDelta/PrandtlDelta.C:40",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/PrandtlDelta/PrandtlDelta.H:104",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/SLADelta/SLADelta.C:106",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/SLADelta/SLADelta.H:106",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESdeltas/smoothDelta/smoothDelta.C:40"
       ],
       "values": [
         {
           "value": "cubeRootVol",
-          "occurrences": 18
+          "occurrences": 18,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESdelta"
+          ]
         },
         {
           "value": "vanDriest",
-          "occurrences": 4
+          "occurrences": 4,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESdelta"
+          ]
         },
         {
           "value": "IDDESDelta",
-          "occurrences": 3
+          "occurrences": 3,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESdelta"
+          ]
         },
         {
           "value": "smooth",
-          "occurrences": 3
+          "occurrences": 3,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESdelta"
+          ]
         },
         {
           "value": "DeltaOmegaTilde",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESdelta"
+          ]
         },
         {
           "value": "maxDeltaxyzCubeRoot",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESdelta"
+          ]
         },
         {
           "value": "SLADelta",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESdelta"
+          ]
+        },
+        {
+          "value": "maxDeltaxyz",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESdelta"
+          ]
+        },
+        {
+          "value": "Prandtl",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESdelta"
+          ]
         }
       ],
       "examples": [
@@ -1991,13 +2051,42 @@
       ],
       "occurrences": 1,
       "fileCount": 1,
-      "sourceOccurrences": 0,
-      "sourceTypes": [],
-      "sourceLocations": [],
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "constant/turbulenceModels/LES/LESfilter"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESfilters/anisotropicFilter/anisotropicFilter.C:39",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESfilters/anisotropicFilter/anisotropicFilter.H:82",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESfilters/laplaceFilter/laplaceFilter.C:39",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESfilters/laplaceFilter/laplaceFilter.H:81",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESfilters/simpleFilter/simpleFilter.C:37",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/LESfilters/simpleFilter/simpleFilter.H:70"
+      ],
       "values": [
         {
           "value": "simple",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESfilter"
+          ]
+        },
+        {
+          "value": "anisotropic",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESfilter"
+          ]
+        },
+        {
+          "value": "laplace",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES/LESfilter"
+          ]
         }
       ],
       "examples": [
@@ -2196,8 +2285,9 @@
       ],
       "occurrences": 33,
       "fileCount": 33,
-      "sourceOccurrences": 6,
+      "sourceOccurrences": 16,
       "sourceTypes": [
+        "constant/turbulenceModels/LES",
         "etc"
       ],
       "sourceLocations": [
@@ -2205,36 +2295,151 @@
         "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:29",
         "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:29",
         "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:29",
-        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:29"
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:29",
+        "OpenFOAM-v2606/src/TurbulenceModels/phaseCompressible/LES/continuousGasKEqn/continuousGasKEqn.H:121",
+        "OpenFOAM-v2606/src/TurbulenceModels/phaseCompressible/LES/Niceno/NicenoKEqn.H:134",
+        "OpenFOAM-v2606/src/TurbulenceModels/phaseCompressible/LES/SmagorinskyZhang/SmagorinskyZhang.H:126",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/DES/kOmegaSSTDDES/kOmegaSSTDDES.H:133",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/DES/kOmegaSSTDES/kOmegaSSTDES.H:162",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/DES/kOmegaSSTIDDES/kOmegaSSTIDDES.H:127",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/DES/SpalartAllmarasDDES/SpalartAllmarasDDES.H:158",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/DES/SpalartAllmarasDES/SpalartAllmarasDES.H:156",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/DES/SpalartAllmarasIDDES/SpalartAllmarasIDDES.H:130",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/DeardorffDiffStress/DeardorffDiffStress.H:125",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/dynamicKEqn/dynamicKEqn.H:147",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/dynamicLagrangian/dynamicLagrangian.H:111",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/kEqn/kEqn.H:117",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/sigma/sigma.H:118",
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/LES/Smagorinsky/Smagorinsky.H:131"
       ],
       "values": [
         {
           "value": "kEqn",
-          "occurrences": 14
+          "occurrences": 14,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
         },
         {
           "value": "SpalartAllmarasDDES",
-          "occurrences": 11
+          "occurrences": 11,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
         },
         {
           "value": "SpalartAllmarasIDDES",
-          "occurrences": 3
+          "occurrences": 3,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
         },
         {
           "value": "Smagorinsky",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
         },
         {
           "value": "dynamicKEqn",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
         },
         {
           "value": "kOmegaSSTDDES",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
         },
         {
           "value": "WALE",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
+        },
+        {
+          "value": "continuousGasKEqn",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
+        },
+        {
+          "value": "DeardorffDiffStress",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
+        },
+        {
+          "value": "dynamicLagrangian",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
+        },
+        {
+          "value": "kOmegaSSTDES",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
+        },
+        {
+          "value": "kOmegaSSTIDDES",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
+        },
+        {
+          "value": "NicenoKEqn",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
+        },
+        {
+          "value": "sigma",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
+        },
+        {
+          "value": "SmagorinskyZhang",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
+        },
+        {
+          "value": "SpalartAllmarasDES",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/LES"
+          ]
         }
       ],
       "examples": [
@@ -5124,8 +5329,9 @@
       ],
       "occurrences": 242,
       "fileCount": 242,
-      "sourceOccurrences": 6,
+      "sourceOccurrences": 28,
       "sourceTypes": [
+        "constant/turbulenceModels/RAS",
         "etc"
       ],
       "sourceLocations": [
@@ -5133,32 +5339,71 @@
         "OpenFOAM-v2606/etc/templates/closedVolume/constant/turbulenceProperties:21",
         "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/turbulenceProperties:21",
         "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/constant/turbulenceProperties:21",
-        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:21"
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/turbulenceProperties:21",
+        "OpenFOAM-v2606/src/atmosphericModels/turbulenceModels/RAS/kEpsilonLopesdaCosta/kEpsilonLopesdaCosta.H:163",
+        "OpenFOAM-v2606/src/atmosphericModels/turbulenceModels/RAS/kL/kL.H:249",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.C:45",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H:80",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/turbulenceModelVariables/RAS/kOmegaSST/kOmegaSST.C:46",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/turbulenceModelVariables/RAS/kOmegaSST/kOmegaSST.H:80",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/turbulenceModelVariables/RAS/laminar/laminar.C:45",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/turbulenceModelVariables/RAS/laminar/laminar.H:65",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/turbulenceModelVariables/RAS/LaunderSharmaKE/LaunderSharmaKE.C:45",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/turbulenceModelVariables/RAS/LaunderSharmaKE/LaunderSharmaKE.H:65",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/turbulenceModelVariables/RAS/SpalartAllmaras/SpalartAllmaras.C:46",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/turbulenceModelVariables/RAS/SpalartAllmaras/SpalartAllmaras.H:65",
+        "OpenFOAM-v2606/src/TurbulenceModels/compressible/RAS/buoyantKEpsilon/buoyantKEpsilon.H:121",
+        "OpenFOAM-v2606/src/TurbulenceModels/incompressible/turbulentTransportModels/RAS/kkLOmega/kkLOmega.C:46",
+        "OpenFOAM-v2606/src/TurbulenceModels/incompressible/turbulentTransportModels/RAS/kkLOmega/kkLOmega.H:214"
       ],
       "values": [
         {
           "value": "kEpsilon",
-          "occurrences": 107
+          "occurrences": 107,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "kOmegaSST",
-          "occurrences": 43
+          "occurrences": 43,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "SpalartAllmaras",
-          "occurrences": 40
+          "occurrences": 40,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "laminar",
-          "occurrences": 31
+          "occurrences": 31,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "LaunderSharmaKE",
-          "occurrences": 4
+          "occurrences": 4,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "buoyantKEpsilon",
-          "occurrences": 3
+          "occurrences": 3,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "PDRkEpsilon",
@@ -5166,15 +5411,27 @@
         },
         {
           "value": "EBRSM",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "kL",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "realizableKE",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "incompressibleKOmegaSST",
@@ -5182,19 +5439,155 @@
         },
         {
           "value": "kEpsilonPhitF",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "kkLOmega",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "kOmegaSSTLM",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         },
         {
           "value": "RNGkEpsilon",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "continuousGasKEpsilon",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "GEKO",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "kEpsilonLopesdaCosta",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "kOmega",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "kOmegaSSTSAS",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "kOmegaSSTSato",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "LaheyKEpsilon",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "LamBremhorstKE",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "LienCubicKE",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "LienLeschziner",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "LRR",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "mixtureKEpsilon",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "qZeta",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "ShihQuadraticKE",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
+        },
+        {
+          "value": "SSG",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/turbulenceModels/RAS"
+          ]
         }
       ],
       "examples": [
@@ -5404,5 +5797,9 @@
         "DNS/dnsFoam/boxTurb16/constant/turbulenceProperties"
       ]
     }
-  ]
+  ],
+  "supplemental": {
+    "directory": "data/keyword-supplements",
+    "casePolicy": "preserve-source-case"
+  }
 }

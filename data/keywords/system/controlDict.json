@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T08:07:58.257Z",
+  "generatedAt": "2026-09-26T10:54:09.519Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "system",
   "fileKey": "controlDict",
@@ -32975,269 +32975,537 @@
       ],
       "occurrences": 295,
       "fileCount": 203,
-      "sourceOccurrences": 53,
+      "sourceOccurrences": 189,
       "sourceTypes": [
-        "etc"
+        "etc",
+        "system/functionObjects"
       ],
       "sourceLocations": [
         "OpenFOAM-v2606/etc/caseDicts/postProcessing/fields/add:13",
         "OpenFOAM-v2606/etc/caseDicts/postProcessing/fields/AMIWeights:16",
         "OpenFOAM-v2606/etc/caseDicts/postProcessing/fields/components:13",
         "OpenFOAM-v2606/etc/caseDicts/postProcessing/fields/CourantNo:13",
-        "OpenFOAM-v2606/etc/caseDicts/postProcessing/fields/ddt:13"
+        "OpenFOAM-v2606/etc/caseDicts/postProcessing/fields/ddt:13",
+        "OpenFOAM-v2606/src/atmosphericModels/functionObjects/ObukhovLength/ObukhovLength.C:46",
+        "OpenFOAM-v2606/src/atmosphericModels/functionObjects/ObukhovLength/ObukhovLength.H:216",
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/pointHistory/pointHistory.C:38",
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/pointHistory/pointHistory.H:97",
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/writeFreeSurface/writeFreeSurface.C:40",
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/functionObjects/writeFreeSurface/writeFreeSurface.H:66",
+        "OpenFOAM-v2606/src/finiteVolume/functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H:89",
+        "OpenFOAM-v2606/src/finiteVolume/functionObjects/volRegion/volRegion.H:171",
+        "OpenFOAM-v2606/src/functionObjects/field/add/add.C:39",
+        "OpenFOAM-v2606/src/functionObjects/field/add/add.H:123",
+        "OpenFOAM-v2606/src/functionObjects/field/age/age.C:48",
+        "OpenFOAM-v2606/src/functionObjects/field/age/age.H:157",
+        "OpenFOAM-v2606/src/functionObjects/field/AMIWeights/AMIWeights.C:42",
+        "OpenFOAM-v2606/src/functionObjects/field/AMIWeights/AMIWeights.H:136",
+        "OpenFOAM-v2606/src/functionObjects/field/binField/binField.C:39"
       ],
       "values": [
         {
           "value": "fieldAverage",
-          "occurrences": 33
+          "occurrences": 33,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "sets",
-          "occurrences": 25
+          "occurrences": 25,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "probes",
-          "occurrences": 23
+          "occurrences": 23,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "surfaceFieldValue",
-          "occurrences": 18
+          "occurrences": 18,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "fieldMinMax",
-          "occurrences": 15
+          "occurrences": 15,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "surfaces",
-          "occurrences": 14
+          "occurrences": 14,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "coded",
-          "occurrences": 11
+          "occurrences": 11,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "syncObjects",
-          "occurrences": 11
+          "occurrences": 11,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "volFieldValue",
-          "occurrences": 9
+          "occurrences": 9,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "forces",
-          "occurrences": 8
+          "occurrences": 8,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "turbulenceFields",
-          "occurrences": 7
+          "occurrences": 7,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "scalarTransport",
-          "occurrences": 6
+          "occurrences": 6,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "yPlus",
-          "occurrences": 6
+          "occurrences": 6,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "dsmcFields",
-          "occurrences": 5
+          "occurrences": 5,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "wallShearStress",
-          "occurrences": 5
+          "occurrences": 5,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "solverInfo",
-          "occurrences": 4
+          "occurrences": 4,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "writeCellCentres",
-          "occurrences": 4
+          "occurrences": 4,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "div",
-          "occurrences": 3
+          "occurrences": 3,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "forceCoeffs",
-          "occurrences": 3
+          "occurrences": 3,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "pointHistory",
-          "occurrences": 3
+          "occurrences": 3,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "processorField",
-          "occurrences": 3
+          "occurrences": 3,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "setFlow",
-          "occurrences": 3
+          "occurrences": 3,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "timeActivatedFileUpdate",
-          "occurrences": 3
+          "occurrences": 3,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "add",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "Curle",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "energySpectrum",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "energyTransport",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "heatTransferCoeff",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "interfaceHeight",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "MachNo",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "mag",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "mapFields",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "momentumError",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "ObukhovLength",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "patchProbes",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "pressure",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "Q",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "readFields",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "thermoCoupleProbes",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "vorticity",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "wallHeatFlux",
-          "occurrences": 2
+          "occurrences": 2,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "AMIWeights",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "columnAverage",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "components",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "CourantNo",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "ddt",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "DESModelRegions",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "enstrophy",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "extractEulerianParticles",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "fieldCoordinateSystemTransform",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "fieldExtents",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "filmFlux",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "flowType",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "grad",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "Lambda2",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "LambVector",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "log",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "magSqr",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "multiFieldValue",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "multiphaseInterHtcModel",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "multiRegion",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "particleDistribution",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "PecletNo",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "psiReactionsSensitivityAnalysis",
@@ -33245,15 +33513,27 @@
         },
         {
           "value": "randomise",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "reactingEulerHtcModel",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "regionSizeDistribution",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "runTimePostProcessing",
@@ -33261,43 +33541,987 @@
         },
         {
           "value": "setTimeStep",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "setTimeStepFaRegion",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "sixDoFRigidBodyState",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "sizeDistribution",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "streamFunction",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "streamLine",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "subtract",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "writeCellVolumes",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "writeObjects",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         },
         {
           "value": "XiReactionRate",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "abort",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "age",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "agglomerationInfo",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "areaWrite",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "average",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "BilgerMixtureFraction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "binField",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "binModel",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "bladeForces",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "blendingFactor",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "caseInfo",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "CelikEtaIndex",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "CelikNuIndex",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "cellDecomposer",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "cloudInfo",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "comfort",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "continuityError",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "dataCloud",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "ddt2",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "derivedFields",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "dictionaryValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "DMD",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "DMDModel",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "electricPotential",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "ensightCloud",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "ensightWrite",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "environmentVariable",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "equalBinWidth",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "equationInitialResidual",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "equationMaxIter",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "exprField",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "externalCoupled",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "faceZoneReferenceTemperature",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "fieldExpression",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "fieldsExpression",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "fieldStatistics",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "fieldValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "fileRegEx",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "fixedReferenceTemperature",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "flux",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "fluxSummary",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "foamReport",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "functionObjectValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "fvMeshFunctionObject",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "gauge",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "graphFunctionObject",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "HeatTransferCoeff",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "heatTransferCoeffModel",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "histogram",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "histogramModel",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "hydrostaticPressure",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "icoUncoupledKinematicCloud",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "limitFields",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "localReferenceTemperature",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "maxDuration",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "minMax",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "minTimeStep",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "moleFractions",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "momentum",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "multiply",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "nearWallFields",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "noneCondition",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "norm",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "parProfiling",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "parProfilingSolver",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "phaseForces",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "PopeIndex",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "pow",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "propellerInfo",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "proudmanAcousticPower",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "psiReactionsSensitivityAnalysisFunctionObject",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "psiReactionThermoMoleFractionsFunctionObject",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "psiSpecieReactionRates",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "radiometerProbes",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "reactionsSensitivityAnalysis",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "reference",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "regionFunctionObject",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "relativeVelocity",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "removeRegisteredObject",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "resolutionIndex",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "resolutionIndexModel",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "ReynoldsAnalogy",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "rhoReactionsSensitivityAnalysisFunctionObject",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "rhoReactionThermoMoleFractionsFunctionObject",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "rhoSpecieReactionRates",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "runTimeCondition",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "runTimeControl",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "singleDirectionUniformBin",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "specieReactionRates",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "stabilityBlendingFactor",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "STDMD",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "streamLineBase",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "substitutionModel",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "surfaceCourantNumber",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "surfaceDistance",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "surfaceInterpolate",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "systemCall",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "timeControl",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "timeInfo",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "unequalBinWidth",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "uniformBin",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "userValue",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "valueAverage",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "viewFactorHeatFlux",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "volRegion",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "vtkCloud",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "vtkWrite",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "wall",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "wallBoundedStreamLine",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "wallHeatFluxModel",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "writeDictionary",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "writeFreeSurface",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
+        },
+        {
+          "value": "zeroGradient",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "system/functionObjects"
+          ]
         }
       ],
       "examples": [
@@ -35579,5 +36803,9 @@
         "basic/laplacianFoam/multiWorld1/left/system/controlDict"
       ]
     }
-  ]
+  ],
+  "supplemental": {
+    "directory": "data/keyword-supplements",
+    "casePolicy": "preserve-source-case"
+  }
 }

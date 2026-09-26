@@ -1,7 +1,7 @@
 {
   "name": "openfoam-dict-intellisense",
   "displayName": "OpenFOAM Dict IntelliSense",
-  "description": "OpenFOAM case dictionary keyword and value completion based on OpenFOAM v2606 tutorials.",
+  "description": "OpenFOAM case dictionary keyword and value completion based on tutorials and source-registered setup types.",
   "version": "1.1.9",
   "publisher": "boyaoChen",
   "license": "MIT",
@@ -82,11 +82,13 @@
     ]
   },
   "scripts": {
-    "extract:keywords": "node tools/extract-openfoam-keywords.mjs && node tools/build-source-review.mjs && node tools/build-app-bin-review.mjs && node tools/merge-source-supplements.mjs",
+    "extract:keywords": "node tools/extract-openfoam-keywords.mjs && node tools/build-source-review.mjs && node tools/build-app-bin-review.mjs && node tools/build-keyword-supplements.mjs && node tools/merge-source-supplements.mjs && node tools/merge-keyword-supplements.mjs",
     "test": "node --test tests/openfoam.test.js",
     "package:vsix": "vsce package --no-dependencies",
-    "review:supplements": "node tools/build-source-review.mjs && node tools/build-app-bin-review.mjs",
-    "merge:supplements": "node tools/merge-source-supplements.mjs"
+    "review:supplements": "node tools/build-source-review.mjs && node tools/build-app-bin-review.mjs && node tools/build-keyword-supplements.mjs",
+    "merge:supplements": "node tools/merge-source-supplements.mjs && node tools/merge-keyword-supplements.mjs",
+    "build:keyword-supplements": "node tools/build-keyword-supplements.mjs",
+    "merge:keyword-supplements": "node tools/merge-keyword-supplements.mjs"
   },
   "repository": {
     "type": "git",

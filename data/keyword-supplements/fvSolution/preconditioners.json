@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-09-26T10:54:20.628Z",
+  "sourceRoot": "OpenFOAM-v2606/src",
+  "group": "fvSolution/preconditioners",
+  "casePolicy": "preserve-source-case",
+  "itemCount": 9,
+  "items": [
+    {
+      "name": "diagonal",
+      "registeredBy": [
+        "makeLduAsymPreconditioner",
+        "makeLduPreconditioner",
+        "makeLduSymPreconditioner",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DiagonalPreconditioner/DiagonalPreconditioner.H",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DiagonalPreconditioner/DiagonalPreconditioner.H:80",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:39",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:40",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:41"
+      ],
+      "sourceLine": 80
+    },
+    {
+      "name": "DIC",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DICPreconditioner/DICPreconditioner.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DICPreconditioner/DICPreconditioner.H:70"
+      ],
+      "sourceLine": 70
+    },
+    {
+      "name": "DILU",
+      "registeredBy": [
+        "makeLduAsymPreconditioner",
+        "makeLduPreconditioner",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DILUPreconditioner/DILUPreconditioner.H",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DILUPreconditioner/TDILUPreconditioner.H",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DILUPreconditioner/DILUPreconditioner.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/DILUPreconditioner/TDILUPreconditioner.H:70",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:43",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:44"
+      ],
+      "sourceLine": 70
+    },
+    {
+      "name": "distributedDIC",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/distributedDICPreconditioner.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/distributedDICPreconditioner.H:105"
+      ],
+      "sourceLine": 105
+    },
+    {
+      "name": "distributedDILU",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/distributedDILUPreconditioner.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/distributedDILUPreconditioner.H:241"
+      ],
+      "sourceLine": 241
+    },
+    {
+      "name": "FDIC",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/FDICPreconditioner/FDICPreconditioner.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/FDICPreconditioner/FDICPreconditioner.H:83"
+      ],
+      "sourceLine": 83
+    },
+    {
+      "name": "GAMG",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/GAMGPreconditioner/GAMGPreconditioner.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/GAMGPreconditioner/GAMGPreconditioner.H:76"
+      ],
+      "sourceLine": 76
+    },
+    {
+      "name": "none",
+      "registeredBy": [
+        "makeLduAsymPreconditioner",
+        "makeLduPreconditioner",
+        "makeLduSymPreconditioner",
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/NoPreconditioner/NoPreconditioner.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:35",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:36",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/lduPreconditioners.C:37",
+        "OpenFOAM-v2606/src/OpenFOAM/matrices/LduMatrix/Preconditioners/NoPreconditioner/NoPreconditioner.H:71"
+      ],
+      "sourceLine": 35
+    },
+    {
+      "name": "processorColour",
+      "registeredBy": [
+        "TypeName"
+      ],
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/processorColour.H"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/processorColour.H:100"
+      ],
+      "sourceLine": 100
+    }
+  ],
+  "manualItems": []
+}

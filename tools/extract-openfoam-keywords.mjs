@@ -17,16 +17,7 @@ const MAX_TEXT_FILE_SIZE = 4 * 1024 * 1024;
 
 const ZERO_DIR_RE = /^0(?:\.(?:orig|org))?$/;
 const MESH_DATA_FILES = new Set(['points', 'faces', 'owner', 'neighbour', 'cells']);
-const DYNAMIC_CONTAINERS = new Map([
-  ['boundaryField', 'patch'],
-  ['solvers', 'solver'],
-  ['functions', 'function'],
-  ['fieldFunctions', 'function'],
-  ['regions', 'region'],
-  ['zones', 'zone'],
-  ['residualControl', 'field'],
-  ['fields', 'field'],
-]);
+const DYNAMIC_CONTAINERS = new Map(Object.entries(JSON.parse(fs.readFileSync(path.join(projectRoot, 'src', 'dynamic-containers.json'), 'utf8'))));
 const SHELL_CONTROL_WORDS = new Set([
   'if', 'then', 'elif', 'else', 'fi', 'for', 'while', 'until', 'do', 'done',
   'case', 'esac', 'function', 'time',

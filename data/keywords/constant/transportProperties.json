@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T08:07:58.257Z",
+  "generatedAt": "2026-09-26T10:54:09.519Z",
   "source": "OpenFOAM-v2606/tutorials",
   "category": "constant",
   "fileKey": "transportProperties",
@@ -3190,8 +3190,9 @@
       ],
       "occurrences": 215,
       "fileCount": 215,
-      "sourceOccurrences": 5,
+      "sourceOccurrences": 8,
       "sourceTypes": [
+        "constant/transportModels",
         "etc"
       ],
       "sourceLocations": [
@@ -3199,12 +3200,31 @@
         "OpenFOAM-v2606/etc/templates/closedVolume/constant/transportProperties:17",
         "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/transportProperties:17",
         "OpenFOAM-v2606/etc/templates/inflowOutflow/constant/transportProperties:17",
-        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/constant/transportProperties:17"
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/constant/transportProperties:17",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/Arrhenius/Arrhenius.H:92",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/BirdCarreau/BirdCarreau.C:40",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/BirdCarreau/BirdCarreau.H:89",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/Casson/Casson.C:40",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/Casson/Casson.H:114",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/CrossPowerLaw/CrossPowerLaw.C:41",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/CrossPowerLaw/CrossPowerLaw.H:86",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/HerschelBulkley/HerschelBulkley.C:41",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/HerschelBulkley/HerschelBulkley.H:86",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/Newtonian/Newtonian.C:41",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/Newtonian/Newtonian.H:84",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/powerLaw/powerLaw.C:41",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/powerLaw/powerLaw.H:86",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/strainRateFunction/strainRateFunction.C:42",
+        "OpenFOAM-v2606/src/transportModels/incompressible/viscosityModels/strainRateFunction/strainRateFunction.H:101"
       ],
       "values": [
         {
           "value": "Newtonian",
-          "occurrences": 213
+          "occurrences": 213,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/transportModels"
+          ]
         },
         {
           "value": "ArrheniusBirdCarreau",
@@ -3212,7 +3232,59 @@
         },
         {
           "value": "CrossPowerLaw",
-          "occurrences": 1
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/transportModels"
+          ]
+        },
+        {
+          "value": "Arrhenius",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/transportModels"
+          ]
+        },
+        {
+          "value": "BirdCarreau",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/transportModels"
+          ]
+        },
+        {
+          "value": "Casson",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/transportModels"
+          ]
+        },
+        {
+          "value": "HerschelBulkley",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/transportModels"
+          ]
+        },
+        {
+          "value": "powerLaw",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/transportModels"
+          ]
+        },
+        {
+          "value": "strainRateFunction",
+          "occurrences": 1,
+          "supplemental": true,
+          "sourceGroups": [
+            "constant/transportModels"
+          ]
         }
       ],
       "examples": [
@@ -3771,5 +3843,9 @@
         "multiphase/compressibleInterDyMFoam/laminar/sphereDrop/constant/transportProperties"
       ]
     }
-  ]
+  ],
+  "supplemental": {
+    "directory": "data/keyword-supplements",
+    "casePolicy": "preserve-source-case"
+  }
 }

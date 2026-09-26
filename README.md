@@ -28,14 +28,14 @@ OpenFOAM Dict IntelliSense 是一个 Visual Studio Code 扩展，用于在编写
 ### 主要功能
 
 - 按具体文件加载独立关键词索引，例如 `0/U`、`system/controlDict`、`constant/transportProperties`
-- 输入部分关键词时提示当前文件中可用的关键词
+- 输入部分关键词（前缀、片段、简写）时提示当前文件中可用的关键词
 - 输入 `keyword ` 后提示该关键词的候选值
 - 根据 `boundaryField/{patch}`、`solvers/{solver}` 等父级上下文过滤提示
 - 为关键词和值提供 Hover 说明
 - 为 `Allrun`、`Allclean` 提示命令、OpenFOAM 函数、工具和环境变量
 - 自动把已识别的字典文件设置为 `OpenFOAM Dictionary` 语言模式
 - 为 `OpenFOAM Dictionary` 语言模式提供语法高亮：注释、`#` 指令、`#{...}#` 代码流、字符串、变量、量纲、数值、布尔值和键名
-- 支持关键词和值的大小写区分
+- 提示内容保持 OpenFOAM 原始大小写；关键词和值匹配默认不区分大小写
 
 ### 支持的文件
 
@@ -152,6 +152,14 @@ solver GAM
 GAMG
 ```
 
+在 `system/fvSchemes` 中输入：
+
+```text
+div(phi,U) Gauss limitedLinearV
+```
+
+会提示 `Gauss limitedLinearV 1`；输入 `limitedLinearV`、`limitedLinear` 或 `MUSCLV` 也会按片段匹配。
+
 #### 4. 上下文补全
 
 扩展会区分同名的关键词。例如：
@@ -241,8 +249,10 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 
 - 索引以 `OpenFOAM-v2606/tutorials/` 为教学案例基础
 - 同时扫描 `OpenFOAM-v2606/src/` 和 `OpenFOAM-v2606/applications/` 中的 dictionary 读取调用
-- 源码关键词按运行类型和源码路径映射到 `0`、`constant`、`system` 的具体文件
+- 数值格式、边界条件、线性求解器、预条件器、湍流/传输模型、函数对象类型和 `fvSchemes` 注册类型由 `data/keyword-supplements/` 中的独立 JSON 维护
+- 注册名解析会先把 `TypeName("...")` 与 `make*`/`addToRunTimeSelectionTable` 宏中的 C++ 类名关联，再按真实运行时名称写入索引，避免把 `smoothDelta`、`anisotropicFilter` 等类名误当作 OpenFOAM 设置值
 - 当前源码补充映射了 4,704 条调用、623 个关键词，覆盖 423 个目标文件
+- 独立关键词目录包含 19 组、662 个类型；其中 `fvSchemes/surfaceInterpolation.json` 收录 79 个面插值格式，包含 `limitedLinearV`、`limitedLinear`、`vanLeer`、`MUSCLV`、`linearUpwindV` 等；`LES/LESdelta.json` 与 `LES/LESfilter.json` 分别维护 LES 尺度与过滤模型
 - 每个源码补充条目记录 `sourceTypes` 和 `sourceLocations`，便于审查
 - 扩展不编译 OpenFOAM、不执行求解器，也不替代 OpenFOAM 自身的输入校验
 
@@ -252,11 +262,25 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - `constant` 文件：198 个文件级索引
 - `system` 文件：537 个文件级索引
 - 脚本：`Allrun`、`Allclean`
-- 边界条件：162 个独立定义，其中 74 个带额外 dictionary 关键词
-- `applications`：247 个应用/工具组，532 个 dictionary 关键词，297 个命令行选项或参数
+- 边界条件：253 个源码/应用定义，其中 90 个带额外 dictionary 关键词；正式索引的 `boundaryField/{patch}/type` 候选由源码补充
+- 数值格式：79 个面插值格式、8 个时间格式、9 个梯度格式、8 个法向梯度格式、2 个拉普拉斯格式、2 个对流格式、2 个二阶时间导数格式
+- `fvSolution`：求解器、预条件器和光滑器候选均已从源码合并
+- `applications`：248 个应用/工具组，533 个 dictionary 关键词，297 个命令行选项或参数
 - `bin`：64 个 Shell 脚本，包含命令、函数、变量和选项
 - `OpenFOAM Dictionary` 语言模式：新增语法高亮（注释、`#` 指令、`#{...}#` 代码流、字符串、变量、量纲、数值、布尔值、键名）
 - VS Code 最低版本：1.111
+
+### 散度项格式审查
+
+网上资料中的常见格式已逐一核对 OpenFOAM-v2606：
+
+- 通用/对流：`linear`、`midPoint`、`upwind`、`linearUpwind`、`linearUpwindV` 已收录。
+- 限制器：`limitedLinear`、`limitedLinearV`、`vanLeer`、`vanLeerV`、`Gamma`、`GammaV`、`limitedCubic`、`limitedCubicV`、`MUSCL`、`MUSCLV`、`SFCD`、`SFCDV`、`Minmod`、`SuperBee`、`UMIST`、`QUICK` 及其源码中注册的 `*V`/范围限定版本已收录。
+- 特殊格式：`interfaceCompression` 已收录；`noInterfaceCompression` 在 OpenFOAM-v2606 源码中未注册，因此未加入，避免提供不可用候选。
+- `skewLinear` 和 `cubicCorrected` 不是 OpenFOAM-v2606 的注册名称；对应的有效名称分别是 `skewCorrected` 和 `cubic`，均已收录。
+- `bounded` 不是面插值类型，而是 `divSchemes` 的可选前缀。正式索引保留了教程中的完整值（如 `bounded Gauss upwind`、`bounded Gauss limitedLinear 1`），但它不会被当作独立格式。
+- 另外从源码注册宏补充了 `DEShybrid`、`Phi`、`blended`、`biLinearFit`、`linearFit`、`quadraticFit`、`quadraticLinearFit`、`linearPureUpwindFit`、`quadraticLinearPureUpwindFit`、`cubicUpwindFit`、`quadraticLinearUpwindFit`、`quadraticUpwindFit` 等格式。
+- 所有名称保持 OpenFOAM 源码大小写；独立维护文件为 `data/keyword-supplements/fvSchemes/surfaceInterpolation.json`，当前共 79 项。
 
 ### 开发与构建
 
@@ -274,7 +298,7 @@ node --test tests\openfoam.test.js
 重新生成关键词数据：
 
 ```powershell
-npm run extract:keywords
+npm.cmd run extract:keywords
 ```
 
 `OpenFOAM-v2606` 源码树是提取语料，体积较大，因此不纳入版本库。脚本按以下顺序定位语料：
@@ -285,19 +309,23 @@ npm run extract:keywords
 
 如果都找不到，脚本会给出明确报错而不是中途失败。语料路径不会写入生成结果，生成结果中的来源路径始终相对于项目根目录。
 
-完整数据管线（顺序不可调换，后一步依赖前一步的输出；第一步会整体重建 `data/keywords/`，因此单独运行它会删掉 `applications/`、`bin/`、`boundary-conditions/` 和 `manifest.auxiliary`，必须四步一起运行）：
+完整数据管线（顺序不可调换，后一步依赖前一步的输出；第一步会整体重建 `data/keywords/`，因此必须执行全部六步，或直接运行 `npm.cmd run extract:keywords`）：
 
 ```powershell
 node tools\extract-openfoam-keywords.mjs
 node tools\build-source-review.mjs
 node tools\build-app-bin-review.mjs
+node tools\build-keyword-supplements.mjs
 node tools\merge-source-supplements.mjs
+node tools\merge-keyword-supplements.mjs
 ```
 
 重新构建 VSIX：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File tools\build-vsix.ps1
+# Rebuild icon.png from OpenFOAM.ico only when needed:
+powershell -ExecutionPolicy Bypass -File tools\build-vsix.ps1 -RegenerateIcon
 ```
 
 输出：
@@ -448,6 +476,14 @@ Suggested values include:
 GAMG
 ```
 
+In `system/fvSchemes`, type:
+
+```text
+div(phi,U) Gauss limitedLinearV
+```
+
+The extension suggests `Gauss limitedLinearV 1`. Fragments such as `limitedLinear`, `limitedLinearV`, or `MUSCLV` also match.
+
 #### 4. Context-Aware Completion
 
 The same keyword can have different meanings in different scopes. For example:
@@ -539,7 +575,12 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - It also scans dictionary reads in `OpenFOAM-v2606/src/` and `OpenFOAM-v2606/applications/`.
 - Source keywords are mapped to concrete `0`, `constant`, and `system` files by runtime type and source path.
 - The current source supplement maps 4,704 calls and 623 keywords across 423 target files; the `etc` supplement adds 4,702 calls and 1,811 keywords across 87 target files.
+- Numerical schemes, boundary conditions, linear solvers, preconditioners, turbulence/transport models, and function-object types are maintained in independent JSON files under `data/keyword-supplements/`.
+- The independent keyword directory contains 19 groups and 662 types; `fvSchemes/surfaceInterpolation.json` alone contains 79 surface-interpolation schemes, including `limitedLinearV`, `limitedLinear`, `vanLeer`, `MUSCLV`, and `linearUpwindV`. `LES/LESdelta.json` and `LES/LESfilter.json` separately maintain the LES delta and filter models. Runtime registration names are resolved through the `TypeName("...")` associated with the class passed to `make*` and `addToRunTimeSelectionTable` macros, so implementation class names such as `smoothDelta` and `anisotropicFilter` are not exposed as setting values.
 - Each source-derived entry records `sourceTypes` and `sourceLocations` for auditing.
+- Keyword and value matching is case-insensitive, supports prefix, substring, and compact-initial fragments (for example, `wc` -> `writeControl`), and falls back to broader contexts when the current dictionary context has no exact match.
+- Shell variable completion supports both `$NAME` and `${NAME}` forms.
+- Known limitation: completion is only enabled for files recognized under `0`, `0.orig`, `0.org`, `constant`, or `system`; `.C` files remain C++ source files.
 - The extension does not compile OpenFOAM, run solvers, or replace OpenFOAM input validation.
 
 ### 1.1.9 Index Coverage
@@ -548,8 +589,16 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - `constant` files: 198 file-level indexes
 - `system` files: 537 file-level indexes
 - Scripts: `Allrun`, `Allclean`
-- Boundary conditions: 162 independent definitions, including 74 with additional dictionary keywords
-- `applications`: 247 application/tool groups, 532 dictionary keywords, and 297 command-line options or arguments
+- Boundary conditions: 253 source/application definitions, including 90 with additional dictionary keywords; `boundaryField/{patch}/type` candidates are merged from source-derived supplements.
+- Numerical schemes: 79 surface-interpolation, 8 time, 9 gradient, 8 snGrad, 2 laplacian, 2 convection, and 2 second-order time derivative schemes.
+
+### Divergence Scheme Audit
+
+According to the OpenFOAM-v2606 runtime registration macros, the surface-interpolation index now also includes `interfaceCompression`, `DEShybrid`, `Phi`, `blended`, and the Fit schemes (`biLinearFit`, `linearFit`, `quadraticFit`, `quadraticLinearFit`, `linearPureUpwindFit`, `quadraticLinearPureUpwindFit`, `cubicUpwindFit`, `quadraticLinearUpwindFit`, and `quadraticUpwindFit`).
+
+The names `skewLinear` and `cubicCorrected` are not registered in OpenFOAM-v2606; the corresponding registered names are `skewCorrected` and `cubic`. `noInterfaceCompression` was not found in the current source tree and is therefore not added to the runtime index. `bounded` is not a surface-interpolation scheme; it is a `divSchemes` value prefix, for example `bounded Gauss linearUpwind grad(U)`.
+- `fvSolution`: solver, preconditioner, and smoother candidates are merged from source-derived supplements.
+- `applications`: 248 application/tool groups, 533 dictionary keywords, and 297 command-line options or arguments.
 - `bin`: 64 shell scripts with commands, functions, variables, and options
 - `OpenFOAM Dictionary` language mode: new syntax highlighting (comments, `#` directives, `#{...}#` code streams, strings, variables, dimensions, numbers, booleans, entry keys)
 - Minimum VS Code version: 1.111
@@ -570,7 +619,7 @@ node --test tests\openfoam.test.js
 Regenerate keyword data:
 
 ```powershell
-npm run extract:keywords
+npm.cmd run extract:keywords
 ```
 
 The `OpenFOAM-v2606` source tree is the extraction corpus. It is large and therefore not committed. The scripts locate it in this order:
@@ -581,13 +630,15 @@ The `OpenFOAM-v2606` source tree is the extraction corpus. It is large and there
 
 If none is found, the scripts fail with an explicit message instead of failing halfway. The corpus location is never written into the generated output; recorded source paths stay relative to the project root.
 
-Full data pipeline (the order matters, each step consumes the previous output; the first step rebuilds `data/keywords/` from scratch, so running it alone drops `applications/`, `bin/`, `boundary-conditions/`, and `manifest.auxiliary` - always run all four, or use `npm run extract:keywords` above):
+Full data pipeline (the order matters, each step consumes the previous output; the first step rebuilds `data/keywords/` from scratch, so always run all six steps or use `npm.cmd run extract:keywords` above):
 
 ```powershell
 node tools\extract-openfoam-keywords.mjs
 node tools\build-source-review.mjs
 node tools\build-app-bin-review.mjs
+node tools\build-keyword-supplements.mjs
 node tools\merge-source-supplements.mjs
+node tools\merge-keyword-supplements.mjs
 ```
 
 Build the VSIX:

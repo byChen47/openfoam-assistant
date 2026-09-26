@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T08:08:00.893Z",
+  "generatedAt": "2026-09-26T10:54:12.933Z",
   "sourceRoots": [
     "OpenFOAM-v2606/src",
     "OpenFOAM-v2606/applications"
@@ -7,7 +7,7 @@
   "sourceScan": {
     "scannedFiles": 11362,
     "skippedFiles": 1,
-    "callCount": 4092,
+    "callCount": 4093,
     "typedCallCount": 2514
   },
   "candidateOrigins": {
@@ -18,8 +18,8 @@
   },
   "targetFileCount": 463,
   "candidateCount": 6597,
-  "boundaryConditionCount": 162,
-  "unmappedTypeCount": 982,
+  "boundaryConditionCount": 253,
+  "unmappedTypeCount": 983,
   "files": [
     {
       "category": "0",
@@ -2822,6 +2822,11 @@
       "keywordCount": 1
     },
     {
+      "typeName": "adjointFarFieldPressure",
+      "output": "boundary-conditions/adjointFarFieldPressure.json",
+      "keywordCount": 1
+    },
+    {
       "typeName": "adjointFarFieldTMVar1",
       "output": "boundary-conditions/adjointFarFieldTMVar1.json",
       "keywordCount": 1
@@ -2832,9 +2837,24 @@
       "keywordCount": 1
     },
     {
+      "typeName": "adjointFarFieldVelocity",
+      "output": "boundary-conditions/adjointFarFieldVelocity.json",
+      "keywordCount": 1
+    },
+    {
       "typeName": "adjointInletNuaTilda",
       "output": "boundary-conditions/adjointInletNuaTilda.json",
       "keywordCount": 1
+    },
+    {
+      "typeName": "adjointInletVelocity",
+      "output": "boundary-conditions/adjointInletVelocity.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointOutletFlux",
+      "output": "boundary-conditions/adjointOutletFlux.json",
+      "keywordCount": 0
     },
     {
       "typeName": "adjointOutletKa",
@@ -2852,13 +2872,63 @@
       "keywordCount": 1
     },
     {
+      "typeName": "adjointOutletPressure",
+      "output": "boundary-conditions/adjointOutletPressure.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointOutletVelocity",
+      "output": "boundary-conditions/adjointOutletVelocity.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointOutletVelocityFlux",
+      "output": "boundary-conditions/adjointOutletVelocityFlux.json",
+      "keywordCount": 1
+    },
+    {
       "typeName": "adjointOutletWa",
       "output": "boundary-conditions/adjointOutletWa.json",
       "keywordCount": 1
     },
     {
+      "typeName": "adjointRotatingWallVelocity",
+      "output": "boundary-conditions/adjointRotatingWallVelocity.json",
+      "keywordCount": 2
+    },
+    {
+      "typeName": "adjointWallVelocity",
+      "output": "boundary-conditions/adjointWallVelocity.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointWallVelocityLowRe",
+      "output": "boundary-conditions/adjointWallVelocityLowRe.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "adjointZeroInlet",
+      "output": "boundary-conditions/adjointZeroInlet.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "advective",
       "output": "boundary-conditions/advective.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "alphaContactAngle",
+      "output": "boundary-conditions/alphaContactAngle.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "alphaFixedPressure",
+      "output": "boundary-conditions/alphaFixedPressure.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "alphatFilmWallFunction",
+      "output": "boundary-conditions/alphatFilmWallFunction.json",
       "keywordCount": 0
     },
     {
@@ -2877,6 +2947,56 @@
       "keywordCount": 5
     },
     {
+      "typeName": "atmAlphatkWallFunction",
+      "output": "boundary-conditions/atmAlphatkWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "atmBoundaryLayerInletEpsilon",
+      "output": "boundary-conditions/atmBoundaryLayerInletEpsilon.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "atmBoundaryLayerInletK",
+      "output": "boundary-conditions/atmBoundaryLayerInletK.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "atmBoundaryLayerInletOmega",
+      "output": "boundary-conditions/atmBoundaryLayerInletOmega.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "atmBoundaryLayerInletVelocity",
+      "output": "boundary-conditions/atmBoundaryLayerInletVelocity.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "atmEpsilonWallFunction",
+      "output": "boundary-conditions/atmEpsilonWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "atmNutkWallFunction",
+      "output": "boundary-conditions/atmNutkWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "atmNutUWallFunction",
+      "output": "boundary-conditions/atmNutUWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "atmNutWallFunction",
+      "output": "boundary-conditions/atmNutWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "atmOmegaWallFunction",
+      "output": "boundary-conditions/atmOmegaWallFunction.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "atmTurbulentHeatFluxTemperature",
       "output": "boundary-conditions/atmTurbulentHeatFluxTemperature.json",
       "keywordCount": 1
@@ -2889,6 +3009,11 @@
     {
       "typeName": "calculatedProcessor",
       "output": "boundary-conditions/calculatedProcessor.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "cellMotion",
+      "output": "boundary-conditions/cellMotion.json",
       "keywordCount": 0
     },
     {
@@ -2907,14 +3032,44 @@
       "keywordCount": 1
     },
     {
+      "typeName": "compressible::alphatJayatillekeWallFunction",
+      "output": "boundary-conditions/compressible__alphatJayatillekeWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "compressible::alphatPhaseChangeJayatillekeWallFunction",
+      "output": "boundary-conditions/compressible__alphatPhaseChangeJayatillekeWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "compressible::alphatPhaseChangeWallFunction",
+      "output": "boundary-conditions/compressible__alphatPhaseChangeWallFunction.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "compressible::alphatWallBoilingWallFunction",
       "output": "boundary-conditions/compressible__alphatWallBoilingWallFunction.json",
       "keywordCount": 7
     },
     {
+      "typeName": "compressible::alphatWallFunction",
+      "output": "boundary-conditions/compressible__alphatWallFunction.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "compressible::thermalBaffle",
       "output": "boundary-conditions/compressible__thermalBaffle.json",
       "keywordCount": 12
+    },
+    {
+      "typeName": "compressible::thermalBaffle1D",
+      "output": "boundary-conditions/compressible__thermalBaffle1D.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "compressible::thermalShell",
+      "output": "boundary-conditions/compressible__thermalShell.json",
+      "keywordCount": 0
     },
     {
       "typeName": "compressible::turbulentTemperatureCoupledBaffleMixed",
@@ -2929,6 +3084,11 @@
     {
       "typeName": "compressible::turbulentTemperatureTwoPhaseRadCoupledMixed",
       "output": "boundary-conditions/compressible__turbulentTemperatureTwoPhaseRadCoupledMixed.json",
+      "keywordCount": 1
+    },
+    {
+      "typeName": "constantAlphaContactAngle",
+      "output": "boundary-conditions/constantAlphaContactAngle.json",
       "keywordCount": 1
     },
     {
@@ -2952,6 +3112,11 @@
       "keywordCount": 0
     },
     {
+      "typeName": "dynamicAlphaContactAngle",
+      "output": "boundary-conditions/dynamicAlphaContactAngle.json",
+      "keywordCount": 4
+    },
+    {
       "typeName": "edgeSlipDisplacement",
       "output": "boundary-conditions/edgeSlipDisplacement.json",
       "keywordCount": 2
@@ -2962,9 +3127,24 @@
       "keywordCount": 0
     },
     {
+      "typeName": "energyJump",
+      "output": "boundary-conditions/energyJump.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "energyJumpAMI",
+      "output": "boundary-conditions/energyJumpAMI.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "enthalpySorption",
       "output": "boundary-conditions/enthalpySorption.json",
       "keywordCount": 1
+    },
+    {
+      "typeName": "epsilonWallFunction",
+      "output": "boundary-conditions/epsilonWallFunction.json",
+      "keywordCount": 0
     },
     {
       "typeName": "exprFixedValue",
@@ -2979,6 +3159,16 @@
     {
       "typeName": "exprValue",
       "output": "boundary-conditions/exprValue.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "externalCoupled",
+      "output": "boundary-conditions/externalCoupled.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "externalCoupledTemperature",
+      "output": "boundary-conditions/externalCoupledTemperature.json",
       "keywordCount": 0
     },
     {
@@ -3002,9 +3192,29 @@
       "keywordCount": 0
     },
     {
+      "typeName": "filmHeightInletVelocity",
+      "output": "boundary-conditions/filmHeightInletVelocity.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "filmPyrolysisRadiativeCoupledMixed",
       "output": "boundary-conditions/filmPyrolysisRadiativeCoupledMixed.json",
       "keywordCount": 4
+    },
+    {
+      "typeName": "filmPyrolysisTemperatureCoupled",
+      "output": "boundary-conditions/filmPyrolysisTemperatureCoupled.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "filmPyrolysisVelocityCoupled",
+      "output": "boundary-conditions/filmPyrolysisVelocityCoupled.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "fixedEnergy",
+      "output": "boundary-conditions/fixedEnergy.json",
+      "keywordCount": 0
     },
     {
       "typeName": "fixedFluxExtrapolatedPressure",
@@ -3019,6 +3229,11 @@
     {
       "typeName": "fixedGradient",
       "output": "boundary-conditions/fixedGradient.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "fixedIncidentRadiation",
+      "output": "boundary-conditions/fixedIncidentRadiation.json",
       "keywordCount": 0
     },
     {
@@ -3047,6 +3262,11 @@
       "keywordCount": 0
     },
     {
+      "typeName": "fixedMultiPhaseHeatFlux",
+      "output": "boundary-conditions/fixedMultiPhaseHeatFlux.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "fixedNormalInletOutletVelocity",
       "output": "boundary-conditions/fixedNormalInletOutletVelocity.json",
       "keywordCount": 2
@@ -3064,6 +3284,16 @@
     {
       "typeName": "fixedProfile",
       "output": "boundary-conditions/fixedProfile.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "fixedShearStress",
+      "output": "boundary-conditions/fixedShearStress.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "fixedUnburntEnthalpy",
+      "output": "boundary-conditions/fixedUnburntEnthalpy.json",
       "keywordCount": 0
     },
     {
@@ -3102,9 +3332,54 @@
       "keywordCount": 0
     },
     {
+      "typeName": "freeSurfacePressure",
+      "output": "boundary-conditions/freeSurfacePressure.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "freeSurfaceVelocity",
+      "output": "boundary-conditions/freeSurfaceVelocity.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "generic",
+      "output": "boundary-conditions/generic.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "gradientEnergy",
+      "output": "boundary-conditions/gradientEnergy.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "gradientUnburntEnthalpy",
+      "output": "boundary-conditions/gradientUnburntEnthalpy.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "greyDiffusiveRadiation",
+      "output": "boundary-conditions/greyDiffusiveRadiation.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "greyDiffusiveRadiationViewFactor",
+      "output": "boundary-conditions/greyDiffusiveRadiationViewFactor.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "humidityTemperatureCoupledMixed",
       "output": "boundary-conditions/humidityTemperatureCoupledMixed.json",
       "keywordCount": 7
+    },
+    {
+      "typeName": "inclinedFilmNusseltHeight",
+      "output": "boundary-conditions/inclinedFilmNusseltHeight.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "inclinedFilmNusseltInletVelocity",
+      "output": "boundary-conditions/inclinedFilmNusseltInletVelocity.json",
+      "keywordCount": 0
     },
     {
       "typeName": "inletOutlet",
@@ -3150,6 +3425,16 @@
       "typeName": "kaqRWallFunction",
       "output": "boundary-conditions/kaqRWallFunction.json",
       "keywordCount": 1
+    },
+    {
+      "typeName": "kLowReWallFunction",
+      "output": "boundary-conditions/kLowReWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "kqRWallFunction",
+      "output": "boundary-conditions/kqRWallFunction.json",
+      "keywordCount": 0
     },
     {
       "typeName": "lumpedMassWallTemperature",
@@ -3202,13 +3487,38 @@
       "keywordCount": 0
     },
     {
+      "typeName": "MarshakRadiation",
+      "output": "boundary-conditions/MarshakRadiation.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "MarshakRadiationFixedTemperature",
+      "output": "boundary-conditions/MarshakRadiationFixedTemperature.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "matchedFlowRateOutletVelocity",
       "output": "boundary-conditions/matchedFlowRateOutletVelocity.json",
       "keywordCount": 1
     },
     {
+      "typeName": "maxwellSlipU",
+      "output": "boundary-conditions/maxwellSlipU.json",
+      "keywordCount": 1
+    },
+    {
       "typeName": "mixed",
       "output": "boundary-conditions/mixed.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "mixedEnergy",
+      "output": "boundary-conditions/mixedEnergy.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "mixedUnburntEnthalpy",
+      "output": "boundary-conditions/mixedUnburntEnthalpy.json",
       "keywordCount": 0
     },
     {
@@ -3227,14 +3537,59 @@
       "keywordCount": 0
     },
     {
+      "typeName": "nutkFilmWallFunction",
+      "output": "boundary-conditions/nutkFilmWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "nutkRoughWallFunction",
+      "output": "boundary-conditions/nutkRoughWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "nutkWallFunction",
+      "output": "boundary-conditions/nutkWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "nutLowReWallFunction",
+      "output": "boundary-conditions/nutLowReWallFunction.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "nutTabulatedWallFunction",
       "output": "boundary-conditions/nutTabulatedWallFunction.json",
       "keywordCount": 1
     },
     {
+      "typeName": "nutUBlendedWallFunction",
+      "output": "boundary-conditions/nutUBlendedWallFunction.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "nutURoughWallFunction",
       "output": "boundary-conditions/nutURoughWallFunction.json",
       "keywordCount": 3
+    },
+    {
+      "typeName": "nutUSpaldingWallFunction",
+      "output": "boundary-conditions/nutUSpaldingWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "nutUWallFunction",
+      "output": "boundary-conditions/nutUWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "nutWallFunction",
+      "output": "boundary-conditions/nutWallFunction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "omegaWallFunction",
+      "output": "boundary-conditions/omegaWallFunction.json",
+      "keywordCount": 0
     },
     {
       "typeName": "oscillatingDisplacement",
@@ -3387,6 +3742,16 @@
       "keywordCount": 0
     },
     {
+      "typeName": "semiPermeableBaffleMassFraction",
+      "output": "boundary-conditions/semiPermeableBaffleMassFraction.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "semiPermeableBaffleVelocity",
+      "output": "boundary-conditions/semiPermeableBaffleVelocity.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "sixDoFRigidBodyDisplacement",
       "output": "boundary-conditions/sixDoFRigidBodyDisplacement.json",
       "keywordCount": 2
@@ -3402,9 +3767,29 @@
       "keywordCount": 0
     },
     {
+      "typeName": "smoluchowskiJumpT",
+      "output": "boundary-conditions/smoluchowskiJumpT.json",
+      "keywordCount": 3
+    },
+    {
+      "typeName": "solidBodyMotionDisplacement",
+      "output": "boundary-conditions/solidBodyMotionDisplacement.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "sorptionWallFunction",
+      "output": "boundary-conditions/sorptionWallFunction.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "speciesSorption",
       "output": "boundary-conditions/speciesSorption.json",
       "keywordCount": 1
+    },
+    {
+      "typeName": "specularRadiation",
+      "output": "boundary-conditions/specularRadiation.json",
+      "keywordCount": 0
     },
     {
       "typeName": "SRFFreestreamVelocity",
@@ -3415,6 +3800,11 @@
       "typeName": "SRFVelocity",
       "output": "boundary-conditions/SRFVelocity.json",
       "keywordCount": 1
+    },
+    {
+      "typeName": "SRFWallVelocity",
+      "output": "boundary-conditions/SRFWallVelocity.json",
+      "keywordCount": 0
     },
     {
       "typeName": "supersonicFreestream",
@@ -3457,13 +3847,33 @@
       "keywordCount": 10
     },
     {
+      "typeName": "temperatureDependentAlphaContactAngle",
+      "output": "boundary-conditions/temperatureDependentAlphaContactAngle.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "timeVaryingAlphaContactAngle",
+      "output": "boundary-conditions/timeVaryingAlphaContactAngle.json",
+      "keywordCount": 4
+    },
+    {
       "typeName": "timeVaryingMappedFixedValue",
       "output": "boundary-conditions/timeVaryingMappedFixedValue.json",
       "keywordCount": 0
     },
     {
+      "typeName": "timeVaryingMassSorption",
+      "output": "boundary-conditions/timeVaryingMassSorption.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "timeVaryingUniformFixedValue",
       "output": "boundary-conditions/timeVaryingUniformFixedValue.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "totalFlowRateAdvectiveDiffusive",
+      "output": "boundary-conditions/totalFlowRateAdvectiveDiffusive.json",
       "keywordCount": 0
     },
     {
@@ -3475,6 +3885,11 @@
       "typeName": "totalTemperature",
       "output": "boundary-conditions/totalTemperature.json",
       "keywordCount": 1
+    },
+    {
+      "typeName": "tractionDisplacement",
+      "output": "boundary-conditions/tractionDisplacement.json",
+      "keywordCount": 2
     },
     {
       "typeName": "transform",
@@ -3507,9 +3922,19 @@
       "keywordCount": 1
     },
     {
+      "typeName": "turbulentMixingLengthDissipationRateInlet",
+      "output": "boundary-conditions/turbulentMixingLengthDissipationRateInlet.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "turbulentMixingLengthFrequencyInlet",
       "output": "boundary-conditions/turbulentMixingLengthFrequencyInlet.json",
       "keywordCount": 1
+    },
+    {
+      "typeName": "uncoupledSixDoFRigidBodyDisplacement",
+      "output": "boundary-conditions/uncoupledSixDoFRigidBodyDisplacement.json",
+      "keywordCount": 0
     },
     {
       "typeName": "uniformDensityHydrostaticPressure",
@@ -3577,6 +4002,26 @@
       "keywordCount": 1
     },
     {
+      "typeName": "velocityFilmShell",
+      "output": "boundary-conditions/velocityFilmShell.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "vibrationShell",
+      "output": "boundary-conditions/vibrationShell.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "wallHeatTransfer",
+      "output": "boundary-conditions/wallHeatTransfer.json",
+      "keywordCount": 0
+    },
+    {
+      "typeName": "waveAlpha",
+      "output": "boundary-conditions/waveAlpha.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "waveDisplacement",
       "output": "boundary-conditions/waveDisplacement.json",
       "keywordCount": 2
@@ -3597,9 +4042,19 @@
       "keywordCount": 0
     },
     {
+      "typeName": "waveVelocity",
+      "output": "boundary-conditions/waveVelocity.json",
+      "keywordCount": 0
+    },
+    {
       "typeName": "waWallFunction",
       "output": "boundary-conditions/waWallFunction.json",
       "keywordCount": 1
+    },
+    {
+      "typeName": "wideBandDiffusiveRadiation",
+      "output": "boundary-conditions/wideBandDiffusiveRadiation.json",
+      "keywordCount": 0
     },
     {
       "typeName": "zeroGradient",
