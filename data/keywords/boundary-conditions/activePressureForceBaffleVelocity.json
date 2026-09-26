@@ -1,0 +1,82 @@
+{
+  "typeName": "activePressureForceBaffleVelocity",
+  "patchKind": "fvPatchField",
+  "sourceFiles": [
+    "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx",
+    "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.H"
+  ],
+  "keywords": [
+    {
+      "keyword": "cyclicPatch",
+      "method": "lookup",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:99"
+      ]
+    },
+    {
+      "keyword": "forceBased",
+      "method": "get<bool>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:109"
+      ]
+    },
+    {
+      "keyword": "maxOpenFractionDelta",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:106"
+      ]
+    },
+    {
+      "keyword": "minThresholdValue",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:108"
+      ]
+    },
+    {
+      "keyword": "openFraction",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:104"
+      ]
+    },
+    {
+      "keyword": "opening",
+      "method": "get<bool>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:111"
+      ]
+    },
+    {
+      "keyword": "openingTime",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:105"
+      ]
+    },
+    {
+      "keyword": "p",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:126"
+      ]
+    }
+  ]
+}

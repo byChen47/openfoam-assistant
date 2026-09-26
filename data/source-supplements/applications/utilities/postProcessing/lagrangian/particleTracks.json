@@ -1,0 +1,129 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/postProcessing/lagrangian/particleTracks",
+  "keywordCount": 7,
+  "keywords": [
+    "cloud",
+    "exclude",
+    "fields",
+    "format",
+    "maxPositions",
+    "sampleFrequency",
+    "stride"
+  ],
+  "optionCount": 4,
+  "options": [
+    {
+      "keyword": "dict",
+      "optionType": "option"
+    },
+    {
+      "keyword": "fields",
+      "optionType": "option"
+    },
+    {
+      "keyword": "format",
+      "optionType": "option"
+    },
+    {
+      "keyword": "stride",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/createControls.H",
+      "line": 9,
+      "keyword": "cloud",
+      "method": "get<word>",
+      "receiver": "propsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/createControls.H",
+      "line": 25,
+      "keyword": "exclude",
+      "method": "readIfPresent",
+      "receiver": "propsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/createControls.H",
+      "line": 21,
+      "keyword": "fields",
+      "method": "readIfPresent",
+      "receiver": "propsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/particleTracks.C",
+      "line": 131,
+      "keyword": "format",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/createControls.H",
+      "line": 13,
+      "keyword": "maxPositions",
+      "method": "get<label>",
+      "receiver": "propsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/createControls.H",
+      "line": 11,
+      "keyword": "sampleFrequency",
+      "method": "get<label>",
+      "receiver": "propsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/particleTracks.C",
+      "line": 133,
+      "keyword": "stride",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "dict",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/particleTracks.C",
+      "line": 91
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "fields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/particleTracks.C",
+      "line": 103
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "format",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/particleTracks.C",
+      "line": 111
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "stride",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/lagrangian/particleTracks/particleTracks.C",
+      "line": 97
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "constant",
+  "fileKey": "bottomAir/boundaryRadiationProperties",
+  "candidateCount": 3,
+  "candidates": [
+    {
+      "keyword": "absorptivity",
+      "context": ".*",
+      "path": ".*/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:101",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:114"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "emissivity",
+      "context": ".*",
+      "path": ".*/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "lookup"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:74",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/lookup/lookup.C:87"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": "bottomAir_to_.*",
+      "path": "bottomAir_to_.*/wallAbsorptionEmissionModel",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "opaqueDiffusive"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

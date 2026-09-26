@@ -1,0 +1,28 @@
+{
+  "typeName": "outletPhaseMeanVelocity",
+  "patchKind": "fvPatchField",
+  "sourceFiles": [
+    "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.cxx",
+    "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.H"
+  ],
+  "keywords": [
+    {
+      "keyword": "alpha",
+      "method": "lookup",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.cxx:79"
+      ]
+    },
+    {
+      "keyword": "Umean",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.cxx:78"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "0",
+  "fileKey": "D",
+  "candidateCount": 3,
+  "candidates": [
+    {
+      "keyword": "planeStress",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/planeStress",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "tractionDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/stressAnalysis/solidDisplacementFoam/tractionDisplacement/tractionDisplacementFvPatchVectorField.C:151",
+        "OpenFOAM-v2606/applications/solvers/stressAnalysis/solidEquilibriumDisplacementFoam/tractionDisplacementCorrection/tractionDisplacementCorrectionFvPatchVectorField.C:150"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "thermalStress",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/thermalStress",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "tractionDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/stressAnalysis/solidDisplacementFoam/tractionDisplacement/tractionDisplacementFvPatchVectorField.C:169"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

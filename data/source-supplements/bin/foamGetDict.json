@@ -1,0 +1,444 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/foamGetDict",
+  "shebang": "#!/bin/bash",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 25
+    },
+    {
+      "name": "die",
+      "occurrences": 9
+    },
+    {
+      "name": "local",
+      "occurrences": 8
+    },
+    {
+      "name": "findFilesInDirs",
+      "occurrences": 7
+    },
+    {
+      "name": "shift",
+      "occurrences": 6
+    },
+    {
+      "name": "targetDir",
+      "occurrences": 6
+    },
+    {
+      "name": "exit",
+      "occurrences": 5
+    },
+    {
+      "name": "foamGetDict",
+      "occurrences": 4
+    },
+    {
+      "name": "copyFile",
+      "occurrences": 3
+    },
+    {
+      "name": "message",
+      "occurrences": 3
+    },
+    {
+      "name": "searchExt",
+      "occurrences": 3
+    },
+    {
+      "name": "unset",
+      "occurrences": 3
+    },
+    {
+      "name": "break",
+      "occurrences": 2
+    },
+    {
+      "name": "grep",
+      "occurrences": 2
+    },
+    {
+      "name": "n",
+      "occurrences": 2
+    },
+    {
+      "name": "nFilesFound",
+      "occurrences": 2
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 2
+    },
+    {
+      "name": "suggest",
+      "occurrences": 2
+    },
+    {
+      "name": "All",
+      "occurrences": 1
+    },
+    {
+      "name": "and",
+      "occurrences": 1
+    },
+    {
+      "name": "arg",
+      "occurrences": 1
+    },
+    {
+      "name": "awk",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "cd",
+      "occurrences": 1
+    },
+    {
+      "name": "dir",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "file",
+      "occurrences": 1
+    },
+    {
+      "name": "filePrefix",
+      "occurrences": 1
+    },
+    {
+      "name": "filesFound",
+      "occurrences": 1
+    },
+    {
+      "name": "find",
+      "occurrences": 1
+    },
+    {
+      "name": "Find",
+      "occurrences": 1
+    },
+    {
+      "name": "findFiles",
+      "occurrences": 1
+    },
+    {
+      "name": "i",
+      "occurrences": 1
+    },
+    {
+      "name": "listArgs",
+      "occurrences": 1
+    },
+    {
+      "name": "loc",
+      "occurrences": 1
+    },
+    {
+      "name": "optForce",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "pri",
+      "occurrences": 1
+    },
+    {
+      "name": "priorityLocations",
+      "occurrences": 1
+    },
+    {
+      "name": "projectApi",
+      "occurrences": 1
+    },
+    {
+      "name": "projectDir",
+      "occurrences": 1
+    },
+    {
+      "name": "read",
+      "occurrences": 1
+    },
+    {
+      "name": "s",
+      "occurrences": 1
+    },
+    {
+      "name": "searchDirs",
+      "occurrences": 1
+    },
+    {
+      "name": "selectFile",
+      "occurrences": 1
+    },
+    {
+      "name": "sort",
+      "occurrences": 1
+    },
+    {
+      "name": "targetFile",
+      "occurrences": 1
+    },
+    {
+      "name": "tr",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "wc",
+      "occurrences": 1
+    },
+    {
+      "name": "xargs",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "foamGetDict",
+      "occurrences": 4
+    }
+  ],
+  "variables": [
+    {
+      "name": "filesFound",
+      "occurrences": 6
+    },
+    {
+      "name": "nFile",
+      "occurrences": 6
+    },
+    {
+      "name": "prefix",
+      "occurrences": 6
+    },
+    {
+      "name": "searchExt",
+      "occurrences": 6
+    },
+    {
+      "name": "targetDir",
+      "occurrences": 5
+    },
+    {
+      "name": "filePrefix",
+      "occurrences": 4
+    },
+    {
+      "name": "nFilesFound",
+      "occurrences": 4
+    },
+    {
+      "name": "suggest",
+      "occurrences": 4
+    },
+    {
+      "name": "message",
+      "occurrences": 3
+    },
+    {
+      "name": "n",
+      "occurrences": 3
+    },
+    {
+      "name": "arg",
+      "occurrences": 2
+    },
+    {
+      "name": "dir",
+      "occurrences": 2
+    },
+    {
+      "name": "i",
+      "occurrences": 2
+    },
+    {
+      "name": "projectApi",
+      "occurrences": 2
+    },
+    {
+      "name": "projectDir",
+      "occurrences": 2
+    },
+    {
+      "name": "targetFile",
+      "occurrences": 2
+    },
+    {
+      "name": "file",
+      "occurrences": 1
+    },
+    {
+      "name": "fileName",
+      "occurrences": 1
+    },
+    {
+      "name": "files",
+      "occurrences": 1
+    },
+    {
+      "name": "index",
+      "occurrences": 1
+    },
+    {
+      "name": "loc",
+      "occurrences": 1
+    },
+    {
+      "name": "optForce",
+      "occurrences": 1
+    },
+    {
+      "name": "pri",
+      "occurrences": 1
+    },
+    {
+      "name": "priorityLocations",
+      "occurrences": 1
+    },
+    {
+      "name": "searchDirs",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-ge",
+      "occurrences": 4
+    },
+    {
+      "name": "-z",
+      "occurrences": 4
+    },
+    {
+      "name": "-d",
+      "occurrences": 3
+    },
+    {
+      "name": "-f",
+      "occurrences": 3
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-target",
+      "occurrences": 3
+    },
+    {
+      "name": "-case",
+      "occurrences": 2
+    },
+    {
+      "name": "-cfg",
+      "occurrences": 2
+    },
+    {
+      "name": "-eq",
+      "occurrences": 2
+    },
+    {
+      "name": "-ext",
+      "occurrences": 2
+    },
+    {
+      "name": "-force",
+      "occurrences": 2
+    },
+    {
+      "name": "-gt",
+      "occurrences": 2
+    },
+    {
+      "name": "-lt",
+      "occurrences": 2
+    },
+    {
+      "name": "-mode",
+      "occurrences": 2
+    },
+    {
+      "name": "-n",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-ext",
+      "occurrences": 2
+    },
+    {
+      "name": "-q",
+      "occurrences": 2
+    },
+    {
+      "name": "-s",
+      "occurrences": 2
+    },
+    {
+      "name": "-with-api",
+      "occurrences": 2
+    },
+    {
+      "name": "-h",
+      "occurrences": 1
+    },
+    {
+      "name": "-l",
+      "occurrences": 1
+    },
+    {
+      "name": "-list",
+      "occurrences": 1
+    },
+    {
+      "name": "-list-test",
+      "occurrences": 1
+    },
+    {
+      "name": "-name",
+      "occurrences": 1
+    },
+    {
+      "name": "-r",
+      "occurrences": 1
+    },
+    {
+      "name": "-type",
+      "occurrences": 1
+    },
+    {
+      "name": "-v",
+      "occurrences": 1
+    }
+  ]
+}

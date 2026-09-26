@@ -141,3 +141,28 @@ test('contains source-derived settings in the generated indexes', () => {
     (entry) => entry.keyword === 'cacheAgglomeration' && entry.sourceTypes.includes('GAMG'),
   ));
 });
+test('contains auxiliary application, bin, and boundary-condition indexes', () => {
+  const path = require('node:path');
+  const fs = require('node:fs');
+  const root = path.resolve(__dirname, '..', 'data', 'keywords');
+  const manifest = JSON.parse(fs.readFileSync(path.join(root, 'manifest.json'), 'utf8'));
+
+  assert.ok(manifest.auxiliary);
+  assert.ok(manifest.auxiliary.applications.groupCount > 0);
+  assert.ok(manifest.auxiliary.bin.fileCount > 0);
+  assert.ok(manifest.auxiliary.boundaryConditions.conditionCount > 0);
+  assert.ok(fs.existsSync(path.join(root, 'applications', 'manifest.json')));
+  assert.ok(fs.existsSync(path.join(root, 'bin', 'manifest.json')));
+  assert.ok(fs.existsSync(path.join(root, 'boundary-conditions', 'fixedValue.json')));
+});
+test('uses the MIT open-source license', () => {
+  const path = require('node:path');
+  const fs = require('node:fs');
+  const projectRoot = path.resolve(__dirname, '..');
+  const packageJson = JSON.parse(fs.readFileSync(path.join(projectRoot, 'package.json'), 'utf8'));
+  const license = fs.readFileSync(path.join(projectRoot, 'LICENSE'), 'utf8');
+
+  assert.equal(packageJson.license, 'MIT');
+  assert.match(license, /^MIT License/m);
+  assert.match(license, /Copyright \(c\) 2026 boyaoChen/);
+});

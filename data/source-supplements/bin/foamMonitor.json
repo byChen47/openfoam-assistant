@@ -1,0 +1,572 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/foamMonitor",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "die",
+      "occurrences": 13
+    },
+    {
+      "name": "echo",
+      "occurrences": 10
+    },
+    {
+      "name": "shift",
+      "occurrences": 7
+    },
+    {
+      "name": "set",
+      "occurrences": 6
+    },
+    {
+      "name": "j",
+      "occurrences": 5
+    },
+    {
+      "name": "KEYS",
+      "occurrences": 5
+    },
+    {
+      "name": "TEMPKEYS",
+      "occurrences": 5
+    },
+    {
+      "name": "cat",
+      "occurrences": 3
+    },
+    {
+      "name": "cut",
+      "occurrences": 3
+    },
+    {
+      "name": "exit",
+      "occurrences": 3
+    },
+    {
+      "name": "i",
+      "occurrences": 3
+    },
+    {
+      "name": "sed",
+      "occurrences": 3
+    },
+    {
+      "name": "tail",
+      "occurrences": 3
+    },
+    {
+      "name": "awk",
+      "occurrences": 2
+    },
+    {
+      "name": "break",
+      "occurrences": 2
+    },
+    {
+      "name": "command",
+      "occurrences": 2
+    },
+    {
+      "name": "grep",
+      "occurrences": 2
+    },
+    {
+      "name": "GRID",
+      "occurrences": 2
+    },
+    {
+      "name": "IDLE",
+      "occurrences": 2
+    },
+    {
+      "name": "LOGSCALE",
+      "occurrences": 2
+    },
+    {
+      "name": "NKEYS",
+      "occurrences": 2
+    },
+    {
+      "name": "plotFileFooter",
+      "occurrences": 2
+    },
+    {
+      "name": "plotFileHeader",
+      "occurrences": 2
+    },
+    {
+      "name": "PLOTLINE",
+      "occurrences": 2
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 2
+    },
+    {
+      "name": "REFRESH",
+      "occurrences": 2
+    },
+    {
+      "name": "XRANGE",
+      "occurrences": 2
+    },
+    {
+      "name": "YRANGE",
+      "occurrences": 2
+    },
+    {
+      "name": "_count",
+      "occurrences": 1
+    },
+    {
+      "name": "_matches",
+      "occurrences": 1
+    },
+    {
+      "name": "_text",
+      "occurrences": 1
+    },
+    {
+      "name": "continue",
+      "occurrences": 1
+    },
+    {
+      "name": "count_components",
+      "occurrences": 1
+    },
+    {
+      "name": "e.g.",
+      "occurrences": 1
+    },
+    {
+      "name": "EOF",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "field",
+      "occurrences": 1
+    },
+    {
+      "name": "FILE",
+      "occurrences": 1
+    },
+    {
+      "name": "foamMonitor",
+      "occurrences": 1
+    },
+    {
+      "name": "GNUPLOT",
+      "occurrences": 1
+    },
+    {
+      "name": "GPFILE",
+      "occurrences": 1
+    },
+    {
+      "name": "howMany",
+      "occurrences": 1
+    },
+    {
+      "name": "IDLEAGO",
+      "occurrences": 1
+    },
+    {
+      "name": "kill",
+      "occurrences": 1
+    },
+    {
+      "name": "MODTIME",
+      "occurrences": 1
+    },
+    {
+      "name": "Monitor",
+      "occurrences": 1
+    },
+    {
+      "name": "mv",
+      "occurrences": 1
+    },
+    {
+      "name": "NCOLOURS",
+      "occurrences": 1
+    },
+    {
+      "name": "NCOLS",
+      "occurrences": 1
+    },
+    {
+      "name": "NCOLSPONE",
+      "occurrences": 1
+    },
+    {
+      "name": "NCOMPS",
+      "occurrences": 1
+    },
+    {
+      "name": "NUM_ELEMENTS",
+      "occurrences": 1
+    },
+    {
+      "name": "Options",
+      "occurrences": 1
+    },
+    {
+      "name": "pause",
+      "occurrences": 1
+    },
+    {
+      "name": "PID",
+      "occurrences": 1
+    },
+    {
+      "name": "plot",
+      "occurrences": 1
+    },
+    {
+      "name": "PLOT_TITLE",
+      "occurrences": 1
+    },
+    {
+      "name": "reread",
+      "occurrences": 1
+    },
+    {
+      "name": "rm",
+      "occurrences": 1
+    },
+    {
+      "name": "SIZE",
+      "occurrences": 1
+    },
+    {
+      "name": "sleep",
+      "occurrences": 1
+    },
+    {
+      "name": "test",
+      "occurrences": 1
+    },
+    {
+      "name": "TITLE",
+      "occurrences": 1
+    },
+    {
+      "name": "touch",
+      "occurrences": 1
+    },
+    {
+      "name": "true",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "wc",
+      "occurrences": 1
+    },
+    {
+      "name": "XLABEL",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "count_components",
+      "occurrences": 1
+    },
+    {
+      "name": "howMany",
+      "occurrences": 1
+    },
+    {
+      "name": "plotFileFooter",
+      "occurrences": 1
+    },
+    {
+      "name": "plotFileHeader",
+      "occurrences": 1
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "foamMonitor",
+      "occurrences": 1
+    }
+  ],
+  "variables": [
+    {
+      "name": "GPFILE",
+      "occurrences": 9
+    },
+    {
+      "name": "KEYS",
+      "occurrences": 8
+    },
+    {
+      "name": "FILE",
+      "occurrences": 7
+    },
+    {
+      "name": "i",
+      "occurrences": 6
+    },
+    {
+      "name": "TEMPKEYS",
+      "occurrences": 5
+    },
+    {
+      "name": "j",
+      "occurrences": 4
+    },
+    {
+      "name": "field",
+      "occurrences": 2
+    },
+    {
+      "name": "GNUPLOT",
+      "occurrences": 2
+    },
+    {
+      "name": "NCOLSPONE",
+      "occurrences": 2
+    },
+    {
+      "name": "NCOMPS",
+      "occurrences": 2
+    },
+    {
+      "name": "PLOTLINE",
+      "occurrences": 2
+    },
+    {
+      "name": "REFRESH",
+      "occurrences": 2
+    },
+    {
+      "name": "_count",
+      "occurrences": 1
+    },
+    {
+      "name": "_matches",
+      "occurrences": 1
+    },
+    {
+      "name": "_text",
+      "occurrences": 1
+    },
+    {
+      "name": "GRID",
+      "occurrences": 1
+    },
+    {
+      "name": "IDLEAGO",
+      "occurrences": 1
+    },
+    {
+      "name": "LOGSCALE",
+      "occurrences": 1
+    },
+    {
+      "name": "MODTIME",
+      "occurrences": 1
+    },
+    {
+      "name": "NCOLOURS",
+      "occurrences": 1
+    },
+    {
+      "name": "NCOLS",
+      "occurrences": 1
+    },
+    {
+      "name": "NF",
+      "occurrences": 1
+    },
+    {
+      "name": "NKEYS",
+      "occurrences": 1
+    },
+    {
+      "name": "NUM_ELEMENTS",
+      "occurrences": 1
+    },
+    {
+      "name": "PID",
+      "occurrences": 1
+    },
+    {
+      "name": "PLOT_TITLE",
+      "occurrences": 1
+    },
+    {
+      "name": "SIZE",
+      "occurrences": 1
+    },
+    {
+      "name": "TITLE",
+      "occurrences": 1
+    },
+    {
+      "name": "XLABEL",
+      "occurrences": 1
+    },
+    {
+      "name": "XRANGE",
+      "occurrences": 1
+    },
+    {
+      "name": "YRANGE",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-n",
+      "occurrences": 6
+    },
+    {
+      "name": "-ge",
+      "occurrences": 5
+    },
+    {
+      "name": "-f",
+      "occurrences": 4
+    },
+    {
+      "name": "-l",
+      "occurrences": 4
+    },
+    {
+      "name": "-d",
+      "occurrences": 3
+    },
+    {
+      "name": "-gt",
+      "occurrences": 3
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-1",
+      "occurrences": 2
+    },
+    {
+      "name": "-eq",
+      "occurrences": 2
+    },
+    {
+      "name": "-g",
+      "occurrences": 2
+    },
+    {
+      "name": "-grid",
+      "occurrences": 2
+    },
+    {
+      "name": "-h",
+      "occurrences": 2
+    },
+    {
+      "name": "-i",
+      "occurrences": 2
+    },
+    {
+      "name": "-idle",
+      "occurrences": 2
+    },
+    {
+      "name": "-logscale",
+      "occurrences": 2
+    },
+    {
+      "name": "-m",
+      "occurrences": 2
+    },
+    {
+      "name": "-r",
+      "occurrences": 2
+    },
+    {
+      "name": "-refresh",
+      "occurrences": 2
+    },
+    {
+      "name": "-v",
+      "occurrences": 2
+    },
+    {
+      "name": "-x",
+      "occurrences": 2
+    },
+    {
+      "name": "-xrange",
+      "occurrences": 2
+    },
+    {
+      "name": "-y",
+      "occurrences": 2
+    },
+    {
+      "name": "-yrange",
+      "occurrences": 2
+    },
+    {
+      "name": "--format",
+      "occurrences": 1
+    },
+    {
+      "name": "-9",
+      "occurrences": 1
+    },
+    {
+      "name": "-E",
+      "occurrences": 1
+    },
+    {
+      "name": "-Eo",
+      "occurrences": 1
+    },
+    {
+      "name": "-F",
+      "occurrences": 1
+    },
+    {
+      "name": "-f1-",
+      "occurrences": 1
+    },
+    {
+      "name": "-f2",
+      "occurrences": 1
+    },
+    {
+      "name": "-f3-",
+      "occurrences": 1
+    },
+    {
+      "name": "-lt",
+      "occurrences": 1
+    },
+    {
+      "name": "-q",
+      "occurrences": 1
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/mesh/generation/snappyHexMesh",
+  "keywordCount": 11,
+  "keywords": [
+    "debugFlags",
+    "defaultCellSize",
+    "geometryToConformTo",
+    "motionControl",
+    "patchInfo",
+    "regions",
+    "shapeControlFunctions",
+    "surfaceCellSizeCoeff",
+    "surfaceCellSizeFunction",
+    "surfaceConformation",
+    "writeFlags"
+  ],
+  "optionCount": 6,
+  "options": [
+    {
+      "keyword": "checkGeometry",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-intermediate-write",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "dict",
+      "optionType": "option"
+    },
+    {
+      "keyword": "outFile",
+      "optionType": "option"
+    },
+    {
+      "keyword": "patches",
+      "optionType": "option"
+    },
+    {
+      "keyword": "surfaceSimplify",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 988,
+      "keyword": "debugFlags",
+      "method": "readIfPresent",
+      "receiver": "meshDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 1105,
+      "keyword": "defaultCellSize",
+      "method": "get<scalar>",
+      "receiver": "motionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 1092,
+      "keyword": "geometryToConformTo",
+      "method": "subDict",
+      "receiver": "",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 1098,
+      "keyword": "motionControl",
+      "method": "subDict",
+      "receiver": "foamyHexMeshDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 186,
+      "keyword": "patchInfo",
+      "method": "subDict",
+      "receiver": "shapeDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 214,
+      "keyword": "patchInfo",
+      "method": "subDict",
+      "receiver": "regionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 195,
+      "keyword": "regions",
+      "method": "subDict",
+      "receiver": "shapeDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 225,
+      "keyword": "regions",
+      "method": "subDict",
+      "receiver": "shapeDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 1101,
+      "keyword": "shapeControlFunctions",
+      "method": "subDict",
+      "receiver": "motionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 155,
+      "keyword": "surfaceCellSizeCoeff",
+      "method": "get<scalar>",
+      "receiver": "scsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 251,
+      "keyword": "surfaceCellSizeCoeff",
+      "method": "get<scalar>",
+      "receiver": "scsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 149,
+      "keyword": "surfaceCellSizeFunction",
+      "method": "get<word>",
+      "receiver": "shapeDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 240,
+      "keyword": "surfaceCellSizeFunction",
+      "method": "get<word>",
+      "receiver": "shapeControlRegionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 1092,
+      "keyword": "surfaceConformation",
+      "method": "subDict",
+      "receiver": "foamyHexMeshDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 1011,
+      "keyword": "writeFlags",
+      "method": "readIfPresent",
+      "receiver": "meshDict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "checkGeometry",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 767
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "dict",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 800
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-intermediate-write",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 772
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "outFile",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 794
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "patches",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 788
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "surfaceSimplify",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/snappyHexMesh/snappyHexMesh.C",
+      "line": 782
+    }
+  ]
+}

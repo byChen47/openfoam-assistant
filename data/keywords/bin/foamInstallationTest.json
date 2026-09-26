@@ -1,0 +1,539 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/foamInstallationTest",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 73
+    },
+    {
+      "name": "hline",
+      "occurrences": 16
+    },
+    {
+      "name": "reportEnv",
+      "occurrences": 14
+    },
+    {
+      "name": "return",
+      "occurrences": 10
+    },
+    {
+      "name": "VERSION",
+      "occurrences": 10
+    },
+    {
+      "name": "fatalError",
+      "occurrences": 7
+    },
+    {
+      "name": "heading",
+      "occurrences": 7
+    },
+    {
+      "name": "IFS",
+      "occurrences": 7
+    },
+    {
+      "name": "reportExecutable",
+      "occurrences": 6
+    },
+    {
+      "name": "sed",
+      "occurrences": 6
+    },
+    {
+      "name": "local",
+      "occurrences": 4
+    },
+    {
+      "name": "ON_PATH",
+      "occurrences": 4
+    },
+    {
+      "name": "criticalError",
+      "occurrences": 3
+    },
+    {
+      "name": "LDIFF",
+      "occurrences": 3
+    },
+    {
+      "name": "oldIFS",
+      "occurrences": 3
+    },
+    {
+      "name": "WORD",
+      "occurrences": 3
+    },
+    {
+      "name": "checkEnvironment",
+      "occurrences": 2
+    },
+    {
+      "name": "checkHostName",
+      "occurrences": 2
+    },
+    {
+      "name": "checkOS",
+      "occurrences": 2
+    },
+    {
+      "name": "checkUserShell",
+      "occurrences": 2
+    },
+    {
+      "name": "CRIT",
+      "occurrences": 2
+    },
+    {
+      "name": "ERROR",
+      "occurrences": 2
+    },
+    {
+      "name": "eval",
+      "occurrences": 2
+    },
+    {
+      "name": "EXISTS",
+      "occurrences": 2
+    },
+    {
+      "name": "exit",
+      "occurrences": 2
+    },
+    {
+      "name": "set",
+      "occurrences": 2
+    },
+    {
+      "name": "APP_NAME",
+      "occurrences": 1
+    },
+    {
+      "name": "APP_PATH",
+      "occurrences": 1
+    },
+    {
+      "name": "APP_SPEC",
+      "occurrences": 1
+    },
+    {
+      "name": "break",
+      "occurrences": 1
+    },
+    {
+      "name": "COL1",
+      "occurrences": 1
+    },
+    {
+      "name": "COL2",
+      "occurrences": 1
+    },
+    {
+      "name": "COL3",
+      "occurrences": 1
+    },
+    {
+      "name": "COL4",
+      "occurrences": 1
+    },
+    {
+      "name": "COL5",
+      "occurrences": 1
+    },
+    {
+      "name": "compiler",
+      "occurrences": 1
+    },
+    {
+      "name": "compilerType",
+      "occurrences": 1
+    },
+    {
+      "name": "cut",
+      "occurrences": 1
+    },
+    {
+      "name": "d",
+      "occurrences": 1
+    },
+    {
+      "name": "Darwin",
+      "occurrences": 1
+    },
+    {
+      "name": "e",
+      "occurrences": 1
+    },
+    {
+      "name": "findExec",
+      "occurrences": 1
+    },
+    {
+      "name": "fixlen",
+      "occurrences": 1
+    },
+    {
+      "name": "flex",
+      "occurrences": 1
+    },
+    {
+      "name": "foamTestApp",
+      "occurrences": 1
+    },
+    {
+      "name": "HOST",
+      "occurrences": 1
+    },
+    {
+      "name": "Linux",
+      "occurrences": 1
+    },
+    {
+      "name": "make",
+      "occurrences": 1
+    },
+    {
+      "name": "MIN_VERSION_GCC",
+      "occurrences": 1
+    },
+    {
+      "name": "MIN_VERSION_LLVM",
+      "occurrences": 1
+    },
+    {
+      "name": "OSTYPE",
+      "occurrences": 1
+    },
+    {
+      "name": "SunOS",
+      "occurrences": 1
+    },
+    {
+      "name": "unset",
+      "occurrences": 1
+    },
+    {
+      "name": "vercmp_3",
+      "occurrences": 1
+    },
+    {
+      "name": "WIDTH",
+      "occurrences": 1
+    },
+    {
+      "name": "wmake",
+      "occurrences": 1
+    }
+  ],
+  "functions": [],
+  "helpers": [
+    {
+      "name": "foamTestApp",
+      "occurrences": 1
+    }
+  ],
+  "variables": [
+    {
+      "name": "APP_NAME",
+      "occurrences": 10
+    },
+    {
+      "name": "fatalError",
+      "occurrences": 7
+    },
+    {
+      "name": "EXP_ENV",
+      "occurrences": 6
+    },
+    {
+      "name": "PATH",
+      "occurrences": 6
+    },
+    {
+      "name": "VERSION",
+      "occurrences": 6
+    },
+    {
+      "name": "WIDTH",
+      "occurrences": 6
+    },
+    {
+      "name": "foamTestApp",
+      "occurrences": 5
+    },
+    {
+      "name": "LD_LIBRARY_PATH",
+      "occurrences": 5
+    },
+    {
+      "name": "LDIFF",
+      "occurrences": 5
+    },
+    {
+      "name": "oldIFS",
+      "occurrences": 4
+    },
+    {
+      "name": "WM_PROJECT_VERSION",
+      "occurrences": 4
+    },
+    {
+      "name": "WORD",
+      "occurrences": 4
+    },
+    {
+      "name": "APP_PATH",
+      "occurrences": 3
+    },
+    {
+      "name": "APP_SPEC",
+      "occurrences": 3
+    },
+    {
+      "name": "COL1",
+      "occurrences": 3
+    },
+    {
+      "name": "COL2",
+      "occurrences": 3
+    },
+    {
+      "name": "COL3",
+      "occurrences": 3
+    },
+    {
+      "name": "COL5",
+      "occurrences": 3
+    },
+    {
+      "name": "criticalError",
+      "occurrences": 3
+    },
+    {
+      "name": "d",
+      "occurrences": 3
+    },
+    {
+      "name": "IFS",
+      "occurrences": 3
+    },
+    {
+      "name": "OSTYPE",
+      "occurrences": 3
+    },
+    {
+      "name": "SHELL",
+      "occurrences": 3
+    },
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 3
+    },
+    {
+      "name": "WM_THIRD_PARTY_DIR",
+      "occurrences": 3
+    },
+    {
+      "name": "arg1Major",
+      "occurrences": 2
+    },
+    {
+      "name": "arg1Minor",
+      "occurrences": 2
+    },
+    {
+      "name": "arg1Patch",
+      "occurrences": 2
+    },
+    {
+      "name": "arg2Major",
+      "occurrences": 2
+    },
+    {
+      "name": "arg2Minor",
+      "occurrences": 2
+    },
+    {
+      "name": "arg2Patch",
+      "occurrences": 2
+    },
+    {
+      "name": "COL4",
+      "occurrences": 2
+    },
+    {
+      "name": "compiler",
+      "occurrences": 2
+    },
+    {
+      "name": "compilerType",
+      "occurrences": 2
+    },
+    {
+      "name": "EXISTS",
+      "occurrences": 2
+    },
+    {
+      "name": "FOAM_APPBIN",
+      "occurrences": 2
+    },
+    {
+      "name": "HOST",
+      "occurrences": 2
+    },
+    {
+      "name": "MIN_VERSION_GCC",
+      "occurrences": 2
+    },
+    {
+      "name": "MIN_VERSION_LLVM",
+      "occurrences": 2
+    },
+    {
+      "name": "ON_PATH",
+      "occurrences": 2
+    },
+    {
+      "name": "SHORT_NAME",
+      "occurrences": 2
+    },
+    {
+      "name": "arg1",
+      "occurrences": 1
+    },
+    {
+      "name": "arg2",
+      "occurrences": 1
+    },
+    {
+      "name": "CRIT",
+      "occurrences": 1
+    },
+    {
+      "name": "e",
+      "occurrences": 1
+    },
+    {
+      "name": "ERROR",
+      "occurrences": 1
+    },
+    {
+      "name": "EXP_PATH",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_EXT_LIBBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_LIBBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_SITE_APPBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_SITE_LIBBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_USER_APPBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_USER_LIBBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "MPI_ARCH_PATH",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_COMPILER",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_DIR",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_PROJECT_SITE",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_PROJECT_USER_DIR",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-gt",
+      "occurrences": 7
+    },
+    {
+      "name": "-n",
+      "occurrences": 7
+    },
+    {
+      "name": "-ne",
+      "occurrences": 6
+    },
+    {
+      "name": "--version",
+      "occurrences": 5
+    },
+    {
+      "name": "-d",
+      "occurrences": 4
+    },
+    {
+      "name": "-lt",
+      "occurrences": 3
+    },
+    {
+      "name": "-z",
+      "occurrences": 3
+    },
+    {
+      "name": "-x",
+      "occurrences": 2
+    },
+    {
+      "name": "-c",
+      "occurrences": 1
+    },
+    {
+      "name": "-e",
+      "occurrences": 1
+    },
+    {
+      "name": "-help",
+      "occurrences": 1
+    },
+    {
+      "name": "-le",
+      "occurrences": 1
+    },
+    {
+      "name": "-r",
+      "occurrences": 1
+    },
+    {
+      "name": "-s",
+      "occurrences": 1
+    },
+    {
+      "name": "-show-path-",
+      "occurrences": 1
+    },
+    {
+      "name": "-v",
+      "occurrences": 1
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/preProcessing/setExprFields",
+  "keywordCount": 6,
+  "keywords": [
+    "correctResultBoundaryFields",
+    "dimensions",
+    "expressions",
+    "field",
+    "field-mask",
+    "readFields"
+  ],
+  "optionCount": 15,
+  "options": [
+    {
+      "keyword": "ascii",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "correctResultBoundaryFields",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "create",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "debug-parser",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "dummy-phi",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "keepPatches",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-variable-cache",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "noCorrectPatches",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "dict",
+      "optionType": "option"
+    },
+    {
+      "keyword": "dimensions",
+      "optionType": "option"
+    },
+    {
+      "keyword": "expression",
+      "optionType": "option"
+    },
+    {
+      "keyword": "field",
+      "optionType": "option"
+    },
+    {
+      "keyword": "field-mask",
+      "optionType": "option"
+    },
+    {
+      "keyword": "load-fields",
+      "optionType": "option"
+    },
+    {
+      "keyword": "value-patches",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 849,
+      "keyword": "correctResultBoundaryFields",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 877,
+      "keyword": "dimensions",
+      "method": "readIfPresent",
+      "receiver": "dims",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 810,
+      "keyword": "expressions",
+      "method": "lookup",
+      "receiver": "exprDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 856,
+      "keyword": "field",
+      "method": "get<word>",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 776,
+      "keyword": "field-mask",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 805,
+      "keyword": "readFields",
+      "method": "readIfPresent",
+      "receiver": "exprDict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "ascii",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 503
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "correctResultBoundaryFields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 613
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "create",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 576
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "debug-parser",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 564
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "dict",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 508
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "dimensions",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 555
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "dummy-phi",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 598
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "expression",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 538
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "field",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 530
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "field-mask",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 546
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "keepPatches",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 583
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "load-fields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 523
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-variable-cache",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 570
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "noCorrectPatches",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 608
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "value-patches",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/setExprFields/setExprFields.C",
+      "line": 590
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/foamNewBC",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "sed",
+      "occurrences": 10
+    },
+    {
+      "name": "usage",
+      "occurrences": 7
+    },
+    {
+      "name": "TYPE",
+      "occurrences": 6
+    },
+    {
+      "name": "UNIT",
+      "occurrences": 6
+    },
+    {
+      "name": "echo",
+      "occurrences": 5
+    },
+    {
+      "name": "fixedValue",
+      "occurrences": 3
+    },
+    {
+      "name": "ls",
+      "occurrences": 3
+    },
+    {
+      "name": "mixed",
+      "occurrences": 3
+    },
+    {
+      "name": "shift",
+      "occurrences": 3
+    },
+    {
+      "name": "all",
+      "occurrences": 2
+    },
+    {
+      "name": "BASE",
+      "occurrences": 2
+    },
+    {
+      "name": "FIELD",
+      "occurrences": 2
+    },
+    {
+      "name": "FILES",
+      "occurrences": 2
+    },
+    {
+      "name": "n",
+      "occurrences": 2
+    },
+    {
+      "name": "scalar",
+      "occurrences": 2
+    },
+    {
+      "name": "sphericalTensor",
+      "occurrences": 2
+    },
+    {
+      "name": "symmTensor",
+      "occurrences": 2
+    },
+    {
+      "name": "template",
+      "occurrences": 2
+    },
+    {
+      "name": "tensor",
+      "occurrences": 2
+    },
+    {
+      "name": "vector",
+      "occurrences": 2
+    },
+    {
+      "name": "cap",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "CLASS",
+      "occurrences": 1
+    },
+    {
+      "name": "COMPILED",
+      "occurrences": 1
+    },
+    {
+      "name": "Compiles",
+      "occurrences": 1
+    },
+    {
+      "name": "CONSTRUCT",
+      "occurrences": 1
+    },
+    {
+      "name": "cp",
+      "occurrences": 1
+    },
+    {
+      "name": "DIR",
+      "occurrences": 1
+    },
+    {
+      "name": "eval",
+      "occurrences": 1
+    },
+    {
+      "name": "exit",
+      "occurrences": 1
+    },
+    {
+      "name": "EXT",
+      "occurrences": 1
+    },
+    {
+      "name": "F",
+      "occurrences": 1
+    },
+    {
+      "name": "FVPATCHF",
+      "occurrences": 1
+    },
+    {
+      "name": "head",
+      "occurrences": 1
+    },
+    {
+      "name": "mkdir",
+      "occurrences": 1
+    },
+    {
+      "name": "N",
+      "occurrences": 1
+    },
+    {
+      "name": "NAME",
+      "occurrences": 1
+    },
+    {
+      "name": "NEWFILE",
+      "occurrences": 1
+    },
+    {
+      "name": "PARENT",
+      "occurrences": 1
+    },
+    {
+      "name": "Script",
+      "occurrences": 1
+    },
+    {
+      "name": "Type",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "YEAR",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "cap",
+      "occurrences": 1
+    },
+    {
+      "name": "usage",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [],
+  "variables": [
+    {
+      "name": "NAME",
+      "occurrences": 15
+    },
+    {
+      "name": "NEWFILE",
+      "occurrences": 6
+    },
+    {
+      "name": "TYPE",
+      "occurrences": 6
+    },
+    {
+      "name": "DIR",
+      "occurrences": 4
+    },
+    {
+      "name": "BASE",
+      "occurrences": 3
+    },
+    {
+      "name": "FVPATCHF",
+      "occurrences": 3
+    },
+    {
+      "name": "CLASS",
+      "occurrences": 2
+    },
+    {
+      "name": "CONSTRUCT",
+      "occurrences": 2
+    },
+    {
+      "name": "F",
+      "occurrences": 2
+    },
+    {
+      "name": "FIELD",
+      "occurrences": 2
+    },
+    {
+      "name": "FOAM_USER_LIBBIN",
+      "occurrences": 2
+    },
+    {
+      "name": "n",
+      "occurrences": 2
+    },
+    {
+      "name": "COMPILED",
+      "occurrences": 1
+    },
+    {
+      "name": "EXT",
+      "occurrences": 1
+    },
+    {
+      "name": "FILES",
+      "occurrences": 1
+    },
+    {
+      "name": "FOUR",
+      "occurrences": 1
+    },
+    {
+      "name": "N",
+      "occurrences": 1
+    },
+    {
+      "name": "ONE",
+      "occurrences": 1
+    },
+    {
+      "name": "PARENT",
+      "occurrences": 1
+    },
+    {
+      "name": "Script",
+      "occurrences": 1
+    },
+    {
+      "name": "THREE",
+      "occurrences": 1
+    },
+    {
+      "name": "TWO",
+      "occurrences": 1
+    },
+    {
+      "name": "UNIT",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 1
+    },
+    {
+      "name": "YEAR",
+      "occurrences": 1
+    },
+    {
+      "name": "ZERO",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-e",
+      "occurrences": 29
+    },
+    {
+      "name": "-i",
+      "occurrences": 5
+    },
+    {
+      "name": "-all",
+      "occurrences": 2
+    },
+    {
+      "name": "-fixedValue",
+      "occurrences": 2
+    },
+    {
+      "name": "-help",
+      "occurrences": 2
+    },
+    {
+      "name": "-mixed",
+      "occurrences": 2
+    },
+    {
+      "name": "-scalar",
+      "occurrences": 2
+    },
+    {
+      "name": "-tensor",
+      "occurrences": 2
+    },
+    {
+      "name": "-vector",
+      "occurrences": 2
+    },
+    {
+      "name": "-1",
+      "occurrences": 1
+    },
+    {
+      "name": "-a",
+      "occurrences": 1
+    },
+    {
+      "name": "-d",
+      "occurrences": 1
+    },
+    {
+      "name": "-eq",
+      "occurrences": 1
+    },
+    {
+      "name": "-f",
+      "occurrences": 1
+    },
+    {
+      "name": "-ge",
+      "occurrences": 1
+    },
+    {
+      "name": "-gt",
+      "occurrences": 1
+    },
+    {
+      "name": "-m",
+      "occurrences": 1
+    },
+    {
+      "name": "-r",
+      "occurrences": 1
+    },
+    {
+      "name": "-r1",
+      "occurrences": 1
+    },
+    {
+      "name": "-s",
+      "occurrences": 1
+    },
+    {
+      "name": "-sphericalTensor",
+      "occurrences": 1
+    },
+    {
+      "name": "-symmTensor",
+      "occurrences": 1
+    },
+    {
+      "name": "-t",
+      "occurrences": 1
+    },
+    {
+      "name": "-v",
+      "occurrences": 1
+    }
+  ]
+}

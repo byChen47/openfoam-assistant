@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "solvers/compressible/rhoPimpleAdiabaticFoam",
+  "keywordCount": 4,
+  "keywords": [
+    "equationOfState",
+    "mixture",
+    "p0",
+    "T0"
+  ],
+  "optionCount": 0,
+  "options": [],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/solvers/compressible/rhoPimpleAdiabaticFoam/EEqn.H",
+      "line": 18,
+      "keyword": "equationOfState",
+      "method": "subDict",
+      "receiver": "thermoDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/solvers/compressible/rhoPimpleAdiabaticFoam/EEqn.H",
+      "line": 16,
+      "keyword": "mixture",
+      "method": "subDict",
+      "receiver": "thermo",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/solvers/compressible/rhoPimpleAdiabaticFoam/EEqn.H",
+      "line": 29,
+      "keyword": "p0",
+      "method": "get<scalar>",
+      "receiver": "eosDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/solvers/compressible/rhoPimpleAdiabaticFoam/EEqn.H",
+      "line": 28,
+      "keyword": "T0",
+      "method": "get<scalar>",
+      "receiver": "eosDict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": []
+}

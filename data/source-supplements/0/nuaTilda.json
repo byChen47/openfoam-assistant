@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "0",
+  "fileKey": "nuaTilda",
+  "candidateCount": 2,
+  "candidates": [
+    {
+      "keyword": "solverName",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/solverName",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "adjointFarFieldNuaTilda",
+        "adjointInletNuaTilda",
+        "adjointOutletNuaTilda",
+        "adjointOutletNuaTildaFlux"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointFarFieldNuaTilda/adjointFarFieldNuaTildaFvPatchScalarField.C:78",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointInletNuaTilda/adjointInletNuaTildaFvPatchScalarField.C:72",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletNuaTilda/adjointOutletNuaTildaFvPatchScalarField.C:74",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletNuaTildaFlux/adjointOutletNuaTildaFluxFvPatchScalarField.C:77"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

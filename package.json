@@ -2,13 +2,13 @@
   "name": "openfoam-dict-intellisense",
   "displayName": "OpenFOAM Dict IntelliSense",
   "description": "OpenFOAM case dictionary keyword and value completion based on OpenFOAM v2606 tutorials.",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "publisher": "boyaoChen",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "main": "./src/extension.js",
   "icon": "icon.png",
   "engines": {
-    "vscode": "^1.90.0",
+    "vscode": "^1.111.0",
     "node": ">=20"
   },
   "categories": [
@@ -75,8 +75,14 @@
     ]
   },
   "scripts": {
-    "extract:keywords": "node tools/extract-openfoam-keywords.mjs",
+    "extract:keywords": "node tools/extract-openfoam-keywords.mjs && node tools/build-source-review.mjs && node tools/build-app-bin-review.mjs && node tools/merge-source-supplements.mjs",
     "test": "node --test tests/openfoam.test.js",
-    "package:vsix": "vsce package --no-dependencies --allow-missing-repository"
+    "package:vsix": "vsce package --no-dependencies --allow-missing-repository",
+    "review:supplements": "node tools/build-source-review.mjs && node tools/build-app-bin-review.mjs",
+    "merge:supplements": "node tools/merge-source-supplements.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/byChen47/openfoam-assistant.git"
   }
 }

@@ -1,0 +1,520 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/foamEndJob",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 43
+    },
+    {
+      "name": "exit",
+      "occurrences": 16
+    },
+    {
+      "name": "sed",
+      "occurrences": 7
+    },
+    {
+      "name": "setRawEntry",
+      "occurrences": 5
+    },
+    {
+      "name": "usage",
+      "occurrences": 5
+    },
+    {
+      "name": "processExists",
+      "occurrences": 4
+    },
+    {
+      "name": "shift",
+      "occurrences": 4
+    },
+    {
+      "name": "break",
+      "occurrences": 3
+    },
+    {
+      "name": "rm",
+      "occurrences": 3
+    },
+    {
+      "name": "sleep",
+      "occurrences": 3
+    },
+    {
+      "name": "touch",
+      "occurrences": 3
+    },
+    {
+      "name": "cp",
+      "occurrences": 2
+    },
+    {
+      "name": "export",
+      "occurrences": 2
+    },
+    {
+      "name": "getBoolEntry",
+      "occurrences": 2
+    },
+    {
+      "name": "getLine",
+      "occurrences": 2
+    },
+    {
+      "name": "getNumberedLine",
+      "occurrences": 2
+    },
+    {
+      "name": "getRawEntry",
+      "occurrences": 2
+    },
+    {
+      "name": "grep",
+      "occurrences": 2
+    },
+    {
+      "name": "iter",
+      "occurrences": 2
+    },
+    {
+      "name": "pid",
+      "occurrences": 2
+    },
+    {
+      "name": "pidFile",
+      "occurrences": 2
+    },
+    {
+      "name": "restoreDict",
+      "occurrences": 2
+    },
+    {
+      "name": "return",
+      "occurrences": 2
+    },
+    {
+      "name": "trap",
+      "occurrences": 2
+    },
+    {
+      "name": "true",
+      "occurrences": 2
+    },
+    {
+      "name": "Usage",
+      "occurrences": 2
+    },
+    {
+      "name": "_XPG",
+      "occurrences": 1
+    },
+    {
+      "name": "at",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "cd",
+      "occurrences": 1
+    },
+    {
+      "name": "clearOpt",
+      "occurrences": 1
+    },
+    {
+      "name": "controlDict",
+      "occurrences": 1
+    },
+    {
+      "name": "controlDict.",
+      "occurrences": 1
+    },
+    {
+      "name": "endTime",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "false",
+      "occurrences": 1
+    },
+    {
+      "name": "fgrep",
+      "occurrences": 1
+    },
+    {
+      "name": "getEntry",
+      "occurrences": 1
+    },
+    {
+      "name": "getKey",
+      "occurrences": 1
+    },
+    {
+      "name": "head",
+      "occurrences": 1
+    },
+    {
+      "name": "HP-UX",
+      "occurrences": 1
+    },
+    {
+      "name": "IRIX",
+      "occurrences": 1
+    },
+    {
+      "name": "job",
+      "occurrences": 1
+    },
+    {
+      "name": "kill",
+      "occurrences": 1
+    },
+    {
+      "name": "lineNo",
+      "occurrences": 1
+    },
+    {
+      "name": "mv",
+      "occurrences": 1
+    },
+    {
+      "name": "n",
+      "occurrences": 1
+    },
+    {
+      "name": "no",
+      "occurrences": 1
+    },
+    {
+      "name": "off",
+      "occurrences": 1
+    },
+    {
+      "name": "oldKey",
+      "occurrences": 1
+    },
+    {
+      "name": "oldLine",
+      "occurrences": 1
+    },
+    {
+      "name": "oldNumLine",
+      "occurrences": 1
+    },
+    {
+      "name": "oldVal",
+      "occurrences": 1
+    },
+    {
+      "name": "on",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "PID",
+      "occurrences": 1
+    },
+    {
+      "name": "pidFiles",
+      "occurrences": 1
+    },
+    {
+      "name": "processor",
+      "occurrences": 1
+    },
+    {
+      "name": "ps",
+      "occurrences": 1
+    },
+    {
+      "name": "Script",
+      "occurrences": 1
+    },
+    {
+      "name": "startTime",
+      "occurrences": 1
+    },
+    {
+      "name": "stopAt",
+      "occurrences": 1
+    },
+    {
+      "name": "stopOpt",
+      "occurrences": 1
+    },
+    {
+      "name": "The",
+      "occurrences": 1
+    },
+    {
+      "name": "Tries",
+      "occurrences": 1
+    },
+    {
+      "name": "UNIX95",
+      "occurrences": 1
+    },
+    {
+      "name": "unset",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "val",
+      "occurrences": 1
+    },
+    {
+      "name": "writeInterval",
+      "occurrences": 1
+    },
+    {
+      "name": "y",
+      "occurrences": 1
+    },
+    {
+      "name": "yes",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "getEntry",
+      "occurrences": 1
+    },
+    {
+      "name": "getKey",
+      "occurrences": 1
+    },
+    {
+      "name": "getLine",
+      "occurrences": 1
+    },
+    {
+      "name": "getNumberedLine",
+      "occurrences": 1
+    },
+    {
+      "name": "getRawEntry",
+      "occurrences": 1
+    },
+    {
+      "name": "processExists",
+      "occurrences": 1
+    },
+    {
+      "name": "restoreDict",
+      "occurrences": 1
+    },
+    {
+      "name": "setRawEntry",
+      "occurrences": 1
+    },
+    {
+      "name": "usage",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "restoreDict",
+      "occurrences": 2
+    }
+  ],
+  "variables": [
+    {
+      "name": "controlDict",
+      "occurrences": 38
+    },
+    {
+      "name": "Script",
+      "occurrences": 32
+    },
+    {
+      "name": "caseDir",
+      "occurrences": 7
+    },
+    {
+      "name": "pid",
+      "occurrences": 7
+    },
+    {
+      "name": "pidFile",
+      "occurrences": 7
+    },
+    {
+      "name": "PID",
+      "occurrences": 6
+    },
+    {
+      "name": "oldLine",
+      "occurrences": 3
+    },
+    {
+      "name": "PWD",
+      "occurrences": 3
+    },
+    {
+      "name": "clearOpt",
+      "occurrences": 2
+    },
+    {
+      "name": "iter",
+      "occurrences": 2
+    },
+    {
+      "name": "lineNo",
+      "occurrences": 2
+    },
+    {
+      "name": "oldKey",
+      "occurrences": 2
+    },
+    {
+      "name": "oldNumLine",
+      "occurrences": 2
+    },
+    {
+      "name": "oldVal",
+      "occurrences": 2
+    },
+    {
+      "name": "stopAt",
+      "occurrences": 2
+    },
+    {
+      "name": "val",
+      "occurrences": 2
+    },
+    {
+      "name": "writeInterval",
+      "occurrences": 2
+    },
+    {
+      "name": "clear",
+      "occurrences": 1
+    },
+    {
+      "name": "endTime",
+      "occurrences": 1
+    },
+    {
+      "name": "LOGNAME",
+      "occurrences": 1
+    },
+    {
+      "name": "pidFiles",
+      "occurrences": 1
+    },
+    {
+      "name": "startTime",
+      "occurrences": 1
+    },
+    {
+      "name": "stopOpt",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-e",
+      "occurrences": 9
+    },
+    {
+      "name": "-f",
+      "occurrences": 4
+    },
+    {
+      "name": "-clear",
+      "occurrences": 3
+    },
+    {
+      "name": "-ge",
+      "occurrences": 3
+    },
+    {
+      "name": "-nt",
+      "occurrences": 3
+    },
+    {
+      "name": "-o",
+      "occurrences": 3
+    },
+    {
+      "name": "-c",
+      "occurrences": 2
+    },
+    {
+      "name": "-case",
+      "occurrences": 2
+    },
+    {
+      "name": "-help",
+      "occurrences": 2
+    },
+    {
+      "name": "-n",
+      "occurrences": 2
+    },
+    {
+      "name": "-ne",
+      "occurrences": 2
+    },
+    {
+      "name": "-now",
+      "occurrences": 2
+    },
+    {
+      "name": "-r",
+      "occurrences": 2
+    },
+    {
+      "name": "-w",
+      "occurrences": 2
+    },
+    {
+      "name": "-1",
+      "occurrences": 1
+    },
+    {
+      "name": "-eq",
+      "occurrences": 1
+    },
+    {
+      "name": "-gt",
+      "occurrences": 1
+    },
+    {
+      "name": "-h",
+      "occurrences": 1
+    },
+    {
+      "name": "-s",
+      "occurrences": 1
+    },
+    {
+      "name": "-u",
+      "occurrences": 1
+    },
+    {
+      "name": "-v",
+      "occurrences": 1
+    }
+  ]
+}

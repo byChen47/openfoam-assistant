@@ -1,0 +1,307 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/foamCreateVideo",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 22
+    },
+    {
+      "name": "die",
+      "occurrences": 13
+    },
+    {
+      "name": "shift",
+      "occurrences": 8
+    },
+    {
+      "name": "command",
+      "occurrences": 3
+    },
+    {
+      "name": "exit",
+      "occurrences": 3
+    },
+    {
+      "name": "break",
+      "occurrences": 2
+    },
+    {
+      "name": "converter",
+      "occurrences": 2
+    },
+    {
+      "name": "frameRate",
+      "occurrences": 2
+    },
+    {
+      "name": "inputDir",
+      "occurrences": 2
+    },
+    {
+      "name": "inputMask",
+      "occurrences": 2
+    },
+    {
+      "name": "outputFormat",
+      "occurrences": 2
+    },
+    {
+      "name": "outputPrefix",
+      "occurrences": 2
+    },
+    {
+      "name": "prefix",
+      "occurrences": 2
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 2
+    },
+    {
+      "name": "unset",
+      "occurrences": 2
+    },
+    {
+      "name": "avconv",
+      "occurrences": 1
+    },
+    {
+      "name": "By",
+      "occurrences": 1
+    },
+    {
+      "name": "candiate",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "Creates",
+      "occurrences": 1
+    },
+    {
+      "name": "digits",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "MPEG4",
+      "occurrences": 1
+    },
+    {
+      "name": "nFiles",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "startNumber",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "Use",
+      "occurrences": 1
+    },
+    {
+      "name": "wc",
+      "occurrences": 1
+    },
+    {
+      "name": "WebM",
+      "occurrences": 1
+    },
+    {
+      "name": "With",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [],
+  "variables": [
+    {
+      "name": "converter",
+      "occurrences": 10
+    },
+    {
+      "name": "outputFormat",
+      "occurrences": 7
+    },
+    {
+      "name": "prefix",
+      "occurrences": 6
+    },
+    {
+      "name": "inputDir",
+      "occurrences": 5
+    },
+    {
+      "name": "inputMask",
+      "occurrences": 5
+    },
+    {
+      "name": "outputPrefix",
+      "occurrences": 5
+    },
+    {
+      "name": "frameRate",
+      "occurrences": 4
+    },
+    {
+      "name": "candiate",
+      "occurrences": 2
+    },
+    {
+      "name": "digits",
+      "occurrences": 2
+    },
+    {
+      "name": "nFiles",
+      "occurrences": 2
+    },
+    {
+      "name": "startNumber",
+      "occurrences": 2
+    }
+  ],
+  "options": [
+    {
+      "name": "-ge",
+      "occurrences": 7
+    },
+    {
+      "name": "-i",
+      "occurrences": 5
+    },
+    {
+      "name": "-tool",
+      "occurrences": 4
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-o",
+      "occurrences": 3
+    },
+    {
+      "name": "-v",
+      "occurrences": 3
+    },
+    {
+      "name": "-c",
+      "occurrences": 2
+    },
+    {
+      "name": "-d",
+      "occurrences": 2
+    },
+    {
+      "name": "-dir",
+      "occurrences": 2
+    },
+    {
+      "name": "-f",
+      "occurrences": 2
+    },
+    {
+      "name": "-fps",
+      "occurrences": 2
+    },
+    {
+      "name": "-framerate",
+      "occurrences": 2
+    },
+    {
+      "name": "-gt",
+      "occurrences": 2
+    },
+    {
+      "name": "-h",
+      "occurrences": 2
+    },
+    {
+      "name": "-image",
+      "occurrences": 2
+    },
+    {
+      "name": "-mask",
+      "occurrences": 2
+    },
+    {
+      "name": "-n",
+      "occurrences": 2
+    },
+    {
+      "name": "-out",
+      "occurrences": 2
+    },
+    {
+      "name": "-pix_fmt",
+      "occurrences": 2
+    },
+    {
+      "name": "-start",
+      "occurrences": 2
+    },
+    {
+      "name": "-webm",
+      "occurrences": 2
+    },
+    {
+      "name": "-b",
+      "occurrences": 1
+    },
+    {
+      "name": "-crf",
+      "occurrences": 1
+    },
+    {
+      "name": "-l",
+      "occurrences": 1
+    },
+    {
+      "name": "-mf",
+      "occurrences": 1
+    },
+    {
+      "name": "-ovc",
+      "occurrences": 1
+    },
+    {
+      "name": "-r",
+      "occurrences": 1
+    },
+    {
+      "name": "-vcodec",
+      "occurrences": 1
+    },
+    {
+      "name": "-z",
+      "occurrences": 1
+    }
+  ]
+}

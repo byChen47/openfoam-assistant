@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/surface/surfaceSubset",
+  "keywordCount": 10,
+  "keywords": [
+    "addFaceNeighbours",
+    "cosAngle",
+    "distance",
+    "edges",
+    "faces",
+    "localPoints",
+    "name",
+    "plane",
+    "surface",
+    "zone"
+  ],
+  "optionCount": 3,
+  "options": [
+    {
+      "keyword": "dict",
+      "optionType": "argument"
+    },
+    {
+      "keyword": "input",
+      "optionType": "argument"
+    },
+    {
+      "keyword": "output",
+      "optionType": "argument"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 129,
+      "keyword": "addFaceNeighbours",
+      "method": "get<bool>",
+      "receiver": "meshSubsetDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 266,
+      "keyword": "cosAngle",
+      "method": "get<scalar>",
+      "receiver": "planeDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 265,
+      "keyword": "distance",
+      "method": "get<scalar>",
+      "receiver": "planeDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 90,
+      "keyword": "edges",
+      "method": "lookup",
+      "receiver": "meshSubsetDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 95,
+      "keyword": "faces",
+      "method": "lookup",
+      "receiver": "meshSubsetDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 85,
+      "keyword": "localPoints",
+      "method": "lookup",
+      "receiver": "meshSubsetDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 218,
+      "keyword": "name",
+      "method": "get<fileName>",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 262,
+      "keyword": "plane",
+      "method": "subDict",
+      "receiver": "meshSubsetDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 216,
+      "keyword": "surface",
+      "method": "subDict",
+      "receiver": "meshSubsetDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 100,
+      "keyword": "zone",
+      "method": "lookup",
+      "receiver": "meshSubsetDict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "argument",
+      "keyword": "dict",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 64
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "argument",
+      "keyword": "input",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 65
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "argument",
+      "keyword": "output",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/surface/surfaceSubset/surfaceSubset.C",
+      "line": 66
+    }
+  ]
+}

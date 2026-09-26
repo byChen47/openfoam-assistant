@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/preProcessing/createZeroDirectory",
+  "keywordCount": 17,
+  "keywords": [
+    "application",
+    "boundaryConditions",
+    "category",
+    "compressibleFields",
+    "fluidFields",
+    "fluidModels",
+    "incompressibleFields",
+    "inGroups",
+    "multiRegion",
+    "nFaces",
+    "options",
+    "OPTIONS",
+    "patches",
+    "simulationType",
+    "solidFields",
+    "turbulenceModel",
+    "type"
+  ],
+  "optionCount": 1,
+  "options": [
+    {
+      "keyword": "templateDir",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/createZeroDirectory.C",
+      "line": 280,
+      "keyword": "application",
+      "method": "get<word>",
+      "receiver": "controlDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/caseInfo.C",
+      "line": 123,
+      "keyword": "boundaryConditions",
+      "method": "subDict",
+      "receiver": "properties_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/caseInfo.C",
+      "line": 135,
+      "keyword": "category",
+      "method": "readEntry",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/solverTemplate.C",
+      "line": 176,
+      "keyword": "compressibleFields",
+      "method": "subDict",
+      "receiver": "turbModelDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/solverTemplate.C",
+      "line": 87,
+      "keyword": "fluidFields",
+      "method": "subDict",
+      "receiver": "solverDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/solverTemplate.C",
+      "line": 163,
+      "keyword": "fluidFields",
+      "method": "subDict",
+      "receiver": "turbModelDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/solverTemplate.C",
+      "line": 91,
+      "keyword": "fluidModels",
+      "method": "subDict",
+      "receiver": "solverDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/solverTemplate.C",
+      "line": 170,
+      "keyword": "incompressibleFields",
+      "method": "subDict",
+      "receiver": "turbModelDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/boundaryInfo.C",
+      "line": 123,
+      "keyword": "inGroups",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/solverTemplate.C",
+      "line": 261,
+      "keyword": "multiRegion",
+      "method": "get<bool>",
+      "receiver": "solverDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/boundaryInfo.C",
+      "line": 77,
+      "keyword": "nFaces",
+      "method": "get<label>",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/caseInfo.C",
+      "line": 234,
+      "keyword": "options",
+      "method": "subDict",
+      "receiver": "",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/boundaryTemplates.C",
+      "line": 203,
+      "keyword": "OPTIONS",
+      "method": "lookup",
+      "receiver": "patchDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/caseInfo.C",
+      "line": 137,
+      "keyword": "patches",
+      "method": "readEntry",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/solverTemplate.C",
+      "line": 115,
+      "keyword": "simulationType",
+      "method": "get<word>",
+      "receiver": "turbPropDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/solverTemplate.C",
+      "line": 199,
+      "keyword": "solidFields",
+      "method": "subDict",
+      "receiver": "solverDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/solverTemplate.C",
+      "line": 96,
+      "keyword": "turbulenceModel",
+      "method": "readIfPresent",
+      "receiver": "fieldModels",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/boundaryInfo.C",
+      "line": 71,
+      "keyword": "type",
+      "method": "get<word>",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/boundaryInfo.C",
+      "line": 117,
+      "keyword": "type",
+      "method": "readEntry",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/caseInfo.C",
+      "line": 136,
+      "keyword": "type",
+      "method": "readEntry",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/solverTemplate.C",
+      "line": 222,
+      "keyword": "type",
+      "method": "readEntry",
+      "receiver": "dict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "templateDir",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/createZeroDirectory/createZeroDirectory.C",
+      "line": 220
+    }
+  ]
+}

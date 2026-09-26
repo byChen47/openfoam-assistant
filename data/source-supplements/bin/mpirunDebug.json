@@ -1,0 +1,595 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/mpirunDebug",
+  "shebang": "#!/bin/bash",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 54
+    },
+    {
+      "name": "proc",
+      "occurrences": 11
+    },
+    {
+      "name": "unset",
+      "occurrences": 9
+    },
+    {
+      "name": "die",
+      "occurrences": 8
+    },
+    {
+      "name": "shift",
+      "occurrences": 7
+    },
+    {
+      "name": "exec",
+      "occurrences": 6
+    },
+    {
+      "name": "method",
+      "occurrences": 6
+    },
+    {
+      "name": "rm",
+      "occurrences": 6
+    },
+    {
+      "name": "appArgs",
+      "occurrences": 4
+    },
+    {
+      "name": "cmd",
+      "occurrences": 4
+    },
+    {
+      "name": "decompDict",
+      "occurrences": 4
+    },
+    {
+      "name": "exit",
+      "occurrences": 4
+    },
+    {
+      "name": "procLog",
+      "occurrences": 4
+    },
+    {
+      "name": "read",
+      "occurrences": 4
+    },
+    {
+      "name": "tee",
+      "occurrences": 4
+    },
+    {
+      "name": "cat",
+      "occurrences": 3
+    },
+    {
+      "name": "knownOption",
+      "occurrences": 3
+    },
+    {
+      "name": "nProcs",
+      "occurrences": 3
+    },
+    {
+      "name": "sourceFoam",
+      "occurrences": 3
+    },
+    {
+      "name": "chmod",
+      "occurrences": 2
+    },
+    {
+      "name": "mkdir",
+      "occurrences": 2
+    },
+    {
+      "name": "opt_leakcheck",
+      "occurrences": 2
+    },
+    {
+      "name": "opt_nocore",
+      "occurrences": 2
+    },
+    {
+      "name": "xterm",
+      "occurrences": 2
+    },
+    {
+      "name": "Also",
+      "occurrences": 1
+    },
+    {
+      "name": "appName",
+      "occurrences": 1
+    },
+    {
+      "name": "args",
+      "occurrences": 1
+    },
+    {
+      "name": "break",
+      "occurrences": 1
+    },
+    {
+      "name": "cd",
+      "occurrences": 1
+    },
+    {
+      "name": "COMMANDS",
+      "occurrences": 1
+    },
+    {
+      "name": "Common",
+      "occurrences": 1
+    },
+    {
+      "name": "continue",
+      "occurrences": 1
+    },
+    {
+      "name": "false",
+      "occurrences": 1
+    },
+    {
+      "name": "i",
+      "occurrences": 1
+    },
+    {
+      "name": "Invoke",
+      "occurrences": 1
+    },
+    {
+      "name": "let",
+      "occurrences": 1
+    },
+    {
+      "name": "log",
+      "occurrences": 1
+    },
+    {
+      "name": "methodNumberToName",
+      "occurrences": 1
+    },
+    {
+      "name": "methodPrompt",
+      "occurrences": 1
+    },
+    {
+      "name": "MPICH",
+      "occurrences": 1
+    },
+    {
+      "name": "node",
+      "occurrences": 1
+    },
+    {
+      "name": "none",
+      "occurrences": 1
+    },
+    {
+      "name": "norm",
+      "occurrences": 1
+    },
+    {
+      "name": "optConfirm",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "optValue",
+      "occurrences": 1
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    },
+    {
+      "name": "procCmdFile",
+      "occurrences": 1
+    },
+    {
+      "name": "procs",
+      "occurrences": 1
+    },
+    {
+      "name": "procXtermCmdFile",
+      "occurrences": 1
+    },
+    {
+      "name": "PWD",
+      "occurrences": 1
+    },
+    {
+      "name": "REPORT_SETTINGS",
+      "occurrences": 1
+    },
+    {
+      "name": "Run",
+      "occurrences": 1
+    },
+    {
+      "name": "schema_file",
+      "occurrences": 1
+    },
+    {
+      "name": "spawn",
+      "occurrences": 1
+    },
+    {
+      "name": "touch",
+      "occurrences": 1
+    },
+    {
+      "name": "true",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "valgr",
+      "occurrences": 1
+    },
+    {
+      "name": "valgrind-log",
+      "occurrences": 1
+    },
+    {
+      "name": "xpos",
+      "occurrences": 1
+    },
+    {
+      "name": "ypos",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [],
+  "variables": [
+    {
+      "name": "appArgs",
+      "occurrences": 17
+    },
+    {
+      "name": "proc",
+      "occurrences": 12
+    },
+    {
+      "name": "exec",
+      "occurrences": 10
+    },
+    {
+      "name": "procLog",
+      "occurrences": 10
+    },
+    {
+      "name": "PWD",
+      "occurrences": 10
+    },
+    {
+      "name": "nProcs",
+      "occurrences": 9
+    },
+    {
+      "name": "procCmdFile",
+      "occurrences": 7
+    },
+    {
+      "name": "schema_file",
+      "occurrences": 7
+    },
+    {
+      "name": "appName",
+      "occurrences": 6
+    },
+    {
+      "name": "input",
+      "occurrences": 6
+    },
+    {
+      "name": "decompDict",
+      "occurrences": 5
+    },
+    {
+      "name": "spawn",
+      "occurrences": 5
+    },
+    {
+      "name": "cmd",
+      "occurrences": 4
+    },
+    {
+      "name": "method",
+      "occurrences": 4
+    },
+    {
+      "name": "procXtermCmdFile",
+      "occurrences": 4
+    },
+    {
+      "name": "sourceFoam",
+      "occurrences": 4
+    },
+    {
+      "name": "knownOption",
+      "occurrences": 3
+    },
+    {
+      "name": "WM_MPLIB",
+      "occurrences": 3
+    },
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 3
+    },
+    {
+      "name": "HOME",
+      "occurrences": 2
+    },
+    {
+      "name": "i",
+      "occurrences": 2
+    },
+    {
+      "name": "node",
+      "occurrences": 2
+    },
+    {
+      "name": "opt_leakcheck",
+      "occurrences": 2
+    },
+    {
+      "name": "optValue",
+      "occurrences": 2
+    },
+    {
+      "name": "WM_PROJECT",
+      "occurrences": 2
+    },
+    {
+      "name": "column",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_API",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_SETTINGS",
+      "occurrences": 1
+    },
+    {
+      "name": "methodPrompt",
+      "occurrences": 1
+    },
+    {
+      "name": "opt_nocore",
+      "occurrences": 1
+    },
+    {
+      "name": "optClean",
+      "occurrences": 1
+    },
+    {
+      "name": "optConfirm",
+      "occurrences": 1
+    },
+    {
+      "name": "procCmd",
+      "occurrences": 1
+    },
+    {
+      "name": "xpos",
+      "occurrences": 1
+    },
+    {
+      "name": "xterm",
+      "occurrences": 1
+    },
+    {
+      "name": "ypos",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-f",
+      "occurrences": 8
+    },
+    {
+      "name": "-n",
+      "occurrences": 8
+    },
+    {
+      "name": "-method",
+      "occurrences": 7
+    },
+    {
+      "name": "-spawn",
+      "occurrences": 5
+    },
+    {
+      "name": "-z",
+      "occurrences": 5
+    },
+    {
+      "name": "-e",
+      "occurrences": 4
+    },
+    {
+      "name": "-local",
+      "occurrences": 3
+    },
+    {
+      "name": "-no-core",
+      "occurrences": 3
+    },
+    {
+      "name": "-rf",
+      "occurrences": 3
+    },
+    {
+      "name": "-yes",
+      "occurrences": 3
+    },
+    {
+      "name": "--leak-check",
+      "occurrences": 2
+    },
+    {
+      "name": "--show-reachable",
+      "occurrences": 2
+    },
+    {
+      "name": "-clean",
+      "occurrences": 2
+    },
+    {
+      "name": "-command",
+      "occurrences": 2
+    },
+    {
+      "name": "-decomposeParDict",
+      "occurrences": 2
+    },
+    {
+      "name": "-help",
+      "occurrences": 2
+    },
+    {
+      "name": "-log",
+      "occurrences": 2
+    },
+    {
+      "name": "-ne",
+      "occurrences": 2
+    },
+    {
+      "name": "-normal",
+      "occurrences": 2
+    },
+    {
+      "name": "-p",
+      "occurrences": 2
+    },
+    {
+      "name": "-quick",
+      "occurrences": 2
+    },
+    {
+      "name": "-remote",
+      "occurrences": 2
+    },
+    {
+      "name": "-xlog",
+      "occurrences": 2
+    },
+    {
+      "name": "--callgrind",
+      "occurrences": 1
+    },
+    {
+      "name": "--help",
+      "occurrences": 1
+    },
+    {
+      "name": "--oversubscribe",
+      "occurrences": 1
+    },
+    {
+      "name": "-a",
+      "occurrences": 1
+    },
+    {
+      "name": "-app",
+      "occurrences": 1
+    },
+    {
+      "name": "-c",
+      "occurrences": 1
+    },
+    {
+      "name": "-decompose-dict",
+      "occurrences": 1
+    },
+    {
+      "name": "-eq",
+      "occurrences": 1
+    },
+    {
+      "name": "-font",
+      "occurrences": 1
+    },
+    {
+      "name": "-ge",
+      "occurrences": 1
+    },
+    {
+      "name": "-geometry",
+      "occurrences": 1
+    },
+    {
+      "name": "-gt",
+      "occurrences": 1
+    },
+    {
+      "name": "-lt",
+      "occurrences": 1
+    },
+    {
+      "name": "-np",
+      "occurrences": 1
+    },
+    {
+      "name": "-title",
+      "occurrences": 1
+    },
+    {
+      "name": "-v",
+      "occurrences": 1
+    },
+    {
+      "name": "-valgr",
+      "occurrences": 1
+    },
+    {
+      "name": "-valgrind",
+      "occurrences": 1
+    },
+    {
+      "name": "-x",
+      "occurrences": 1
+    },
+    {
+      "name": "-xterm",
+      "occurrences": 1
+    },
+    {
+      "name": "-xvalgr",
+      "occurrences": 1
+    },
+    {
+      "name": "-xvalgrind",
+      "occurrences": 1
+    }
+  ]
+}

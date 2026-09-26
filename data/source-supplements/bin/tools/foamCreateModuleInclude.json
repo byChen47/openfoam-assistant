@@ -1,0 +1,676 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/tools/foamCreateModuleInclude",
+  "shebang": "#!/bin/bash",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 37
+    },
+    {
+      "name": "sed",
+      "occurrences": 31
+    },
+    {
+      "name": "unset",
+      "occurrences": 30
+    },
+    {
+      "name": "unalias",
+      "occurrences": 21
+    },
+    {
+      "name": "tr",
+      "occurrences": 10
+    },
+    {
+      "name": "bin",
+      "occurrences": 8
+    },
+    {
+      "name": "format_export",
+      "occurrences": 8
+    },
+    {
+      "name": "tutorials",
+      "occurrences": 8
+    },
+    {
+      "name": "wmake",
+      "occurrences": 8
+    },
+    {
+      "name": "eval",
+      "occurrences": 7
+    },
+    {
+      "name": "rewrite_env",
+      "occurrences": 6
+    },
+    {
+      "name": "cat",
+      "occurrences": 5
+    },
+    {
+      "name": "continue",
+      "occurrences": 5
+    },
+    {
+      "name": "prepend_path",
+      "occurrences": 5
+    },
+    {
+      "name": "s",
+      "occurrences": 5
+    },
+    {
+      "name": "die",
+      "occurrences": 4
+    },
+    {
+      "name": "dirInTree",
+      "occurrences": 4
+    },
+    {
+      "name": "exit",
+      "occurrences": 4
+    },
+    {
+      "name": "file",
+      "occurrences": 4
+    },
+    {
+      "name": "foamOldDirs",
+      "occurrences": 4
+    },
+    {
+      "name": "grep",
+      "occurrences": 4
+    },
+    {
+      "name": "local",
+      "occurrences": 4
+    },
+    {
+      "name": "sort",
+      "occurrences": 4
+    },
+    {
+      "name": "env",
+      "occurrences": 3
+    },
+    {
+      "name": "envname",
+      "occurrences": 3
+    },
+    {
+      "name": "moduleOutput",
+      "occurrences": 3
+    },
+    {
+      "name": "printAlias",
+      "occurrences": 3
+    },
+    {
+      "name": "printEnv",
+      "occurrences": 3
+    },
+    {
+      "name": "rewrite_aliases",
+      "occurrences": 3
+    },
+    {
+      "name": "diff",
+      "occurrences": 2
+    },
+    {
+      "name": "dir",
+      "occurrences": 2
+    },
+    {
+      "name": "exec",
+      "occurrences": 2
+    },
+    {
+      "name": "optFlavour",
+      "occurrences": 2
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 2
+    },
+    {
+      "name": "sedFilter1",
+      "occurrences": 2
+    },
+    {
+      "name": "sedFilter2a",
+      "occurrences": 2
+    },
+    {
+      "name": "sedFilter2b",
+      "occurrences": 2
+    },
+    {
+      "name": "sedFilter3a",
+      "occurrences": 2
+    },
+    {
+      "name": "sedFilter3b",
+      "occurrences": 2
+    },
+    {
+      "name": "shift",
+      "occurrences": 2
+    },
+    {
+      "name": "subst_USER_PREFIX",
+      "occurrences": 2
+    },
+    {
+      "name": "wc",
+      "occurrences": 2
+    },
+    {
+      "name": "absDir",
+      "occurrences": 1
+    },
+    {
+      "name": "alias",
+      "occurrences": 1
+    },
+    {
+      "name": "break",
+      "occurrences": 1
+    },
+    {
+      "name": "Create",
+      "occurrences": 1
+    },
+    {
+      "name": "DIR",
+      "occurrences": 1
+    },
+    {
+      "name": "exitCode",
+      "occurrences": 1
+    },
+    {
+      "name": "foamClean",
+      "occurrences": 1
+    },
+    {
+      "name": "foamCreateModule_flavour",
+      "occurrences": 1
+    },
+    {
+      "name": "foamCreateModule_nAliases",
+      "occurrences": 1
+    },
+    {
+      "name": "foamCreateModule_withAliases",
+      "occurrences": 1
+    },
+    {
+      "name": "i",
+      "occurrences": 1
+    },
+    {
+      "name": "moduleTmpDir",
+      "occurrences": 1
+    },
+    {
+      "name": "optAliases",
+      "occurrences": 1
+    },
+    {
+      "name": "optBackend",
+      "occurrences": 1
+    },
+    {
+      "name": "optDebug",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "OPTIONS",
+      "occurrences": 1
+    },
+    {
+      "name": "optParaview",
+      "occurrences": 1
+    },
+    {
+      "name": "optPrefs",
+      "occurrences": 1
+    },
+    {
+      "name": "optReduce",
+      "occurrences": 1
+    },
+    {
+      "name": "path",
+      "occurrences": 1
+    },
+    {
+      "name": "preloads",
+      "occurrences": 1
+    },
+    {
+      "name": "projectDir",
+      "occurrences": 1
+    },
+    {
+      "name": "relDir",
+      "occurrences": 1
+    },
+    {
+      "name": "set",
+      "occurrences": 1
+    },
+    {
+      "name": "syspath",
+      "occurrences": 1
+    },
+    {
+      "name": "tmpFiles",
+      "occurrences": 1
+    },
+    {
+      "name": "trap",
+      "occurrences": 1
+    },
+    {
+      "name": "usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "format_export",
+      "occurrences": 2
+    },
+    {
+      "name": "prepend_path",
+      "occurrences": 2
+    },
+    {
+      "name": "rewrite_aliases",
+      "occurrences": 2
+    },
+    {
+      "name": "rewrite_env",
+      "occurrences": 2
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    },
+    {
+      "name": "syspath",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "foamOldDirs",
+      "occurrences": 4
+    },
+    {
+      "name": "foamClean",
+      "occurrences": 1
+    },
+    {
+      "name": "foamCreateModule_flavour",
+      "occurrences": 1
+    },
+    {
+      "name": "foamCreateModule_nAliases",
+      "occurrences": 1
+    },
+    {
+      "name": "foamCreateModule_withAliases",
+      "occurrences": 1
+    }
+  ],
+  "variables": [
+    {
+      "name": "tmpFiles",
+      "occurrences": 38
+    },
+    {
+      "name": "moduleOutput",
+      "occurrences": 27
+    },
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 18
+    },
+    {
+      "name": "dir",
+      "occurrences": 12
+    },
+    {
+      "name": "env",
+      "occurrences": 10
+    },
+    {
+      "name": "envname",
+      "occurrences": 10
+    },
+    {
+      "name": "WM_THIRD_PARTY_DIR",
+      "occurrences": 10
+    },
+    {
+      "name": "WM_OPTIONS",
+      "occurrences": 7
+    },
+    {
+      "name": "file",
+      "occurrences": 6
+    },
+    {
+      "name": "foamOldDirs",
+      "occurrences": 6
+    },
+    {
+      "name": "preloads",
+      "occurrences": 6
+    },
+    {
+      "name": "foamClean",
+      "occurrences": 5
+    },
+    {
+      "name": "optReduce",
+      "occurrences": 5
+    },
+    {
+      "name": "projectDir",
+      "occurrences": 5
+    },
+    {
+      "name": "foamCreateModule_flavour",
+      "occurrences": 4
+    },
+    {
+      "name": "moduleTmpDir",
+      "occurrences": 4
+    },
+    {
+      "name": "subst_USER_PREFIX",
+      "occurrences": 4
+    },
+    {
+      "name": "absDir",
+      "occurrences": 3
+    },
+    {
+      "name": "FOAM_EXT_LIBBIN",
+      "occurrences": 3
+    },
+    {
+      "name": "foamCreateModule_withAliases",
+      "occurrences": 3
+    },
+    {
+      "name": "optFlavour",
+      "occurrences": 3
+    },
+    {
+      "name": "optParaview",
+      "occurrences": 3
+    },
+    {
+      "name": "optPrefs",
+      "occurrences": 3
+    },
+    {
+      "name": "path",
+      "occurrences": 3
+    },
+    {
+      "name": "relDir",
+      "occurrences": 3
+    },
+    {
+      "name": "USER",
+      "occurrences": 3
+    },
+    {
+      "name": "HOME",
+      "occurrences": 2
+    },
+    {
+      "name": "i",
+      "occurrences": 2
+    },
+    {
+      "name": "optAliases",
+      "occurrences": 2
+    },
+    {
+      "name": "optDebug",
+      "occurrences": 2
+    },
+    {
+      "name": "ParaView_DIR",
+      "occurrences": 2
+    },
+    {
+      "name": "sedFilter1",
+      "occurrences": 2
+    },
+    {
+      "name": "sedFilter2a",
+      "occurrences": 2
+    },
+    {
+      "name": "sedFilter2b",
+      "occurrences": 2
+    },
+    {
+      "name": "sedFilter3a",
+      "occurrences": 2
+    },
+    {
+      "name": "sedFilter3b",
+      "occurrences": 2
+    },
+    {
+      "name": "WM_PROJECT_VERSION",
+      "occurrences": 2
+    },
+    {
+      "name": "exitCode",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_SITE_APPBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_SITE_LIBBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_USER_APPBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_USER_LIBBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "foamCreateModule_nAliases",
+      "occurrences": 1
+    },
+    {
+      "name": "LD_LIBRARY_PATH",
+      "occurrences": 1
+    },
+    {
+      "name": "MANPATH",
+      "occurrences": 1
+    },
+    {
+      "name": "optBackend",
+      "occurrences": 1
+    },
+    {
+      "name": "PATH",
+      "occurrences": 1
+    },
+    {
+      "name": "TMPDIR",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_COMPILER_TYPE",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_OSTYPE",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_PROJECT",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_PROJECT_SITE",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-e",
+      "occurrences": 70
+    },
+    {
+      "name": "-n",
+      "occurrences": 19
+    },
+    {
+      "name": "-f",
+      "occurrences": 10
+    },
+    {
+      "name": "-ne",
+      "occurrences": 6
+    },
+    {
+      "name": "-d",
+      "occurrences": 5
+    },
+    {
+      "name": "-z",
+      "occurrences": 4
+    },
+    {
+      "name": "-gt",
+      "occurrences": 3
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-tcl",
+      "occurrences": 3
+    },
+    {
+      "name": "-vxFf",
+      "occurrences": 3
+    },
+    {
+      "name": "--recursive-backend--",
+      "occurrences": 2
+    },
+    {
+      "name": "-aliases",
+      "occurrences": 2
+    },
+    {
+      "name": "-debug",
+      "occurrences": 2
+    },
+    {
+      "name": "-l",
+      "occurrences": 2
+    },
+    {
+      "name": "-output",
+      "occurrences": 2
+    },
+    {
+      "name": "-paraview",
+      "occurrences": 2
+    },
+    {
+      "name": "-prefs",
+      "occurrences": 2
+    },
+    {
+      "name": "-preload",
+      "occurrences": 2
+    },
+    {
+      "name": "-r",
+      "occurrences": 2
+    },
+    {
+      "name": "-reduce",
+      "occurrences": 2
+    },
+    {
+      "name": "-sh",
+      "occurrences": 2
+    },
+    {
+      "name": "-sh-lib",
+      "occurrences": 2
+    },
+    {
+      "name": "-tmpdir",
+      "occurrences": 2
+    },
+    {
+      "name": "-eq",
+      "occurrences": 1
+    },
+    {
+      "name": "-ge",
+      "occurrences": 1
+    },
+    {
+      "name": "-h",
+      "occurrences": 1
+    },
+    {
+      "name": "-i",
+      "occurrences": 1
+    },
+    {
+      "name": "-sh-env",
+      "occurrences": 1
+    },
+    {
+      "name": "-sh-path",
+      "occurrences": 1
+    },
+    {
+      "name": "-x",
+      "occurrences": 1
+    }
+  ]
+}

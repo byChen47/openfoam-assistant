@@ -1,0 +1,656 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/tools/foamPackRelease",
+  "shebang": "#!/bin/bash",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 157
+    },
+    {
+      "name": "tarName",
+      "occurrences": 16
+    },
+    {
+      "name": "die",
+      "occurrences": 9
+    },
+    {
+      "name": "prefixDir",
+      "occurrences": 8
+    },
+    {
+      "name": "select_modules",
+      "occurrences": 8
+    },
+    {
+      "name": "select_plugins",
+      "occurrences": 8
+    },
+    {
+      "name": "exit",
+      "occurrences": 6
+    },
+    {
+      "name": "packModule",
+      "occurrences": 5
+    },
+    {
+      "name": "compress",
+      "occurrences": 4
+    },
+    {
+      "name": "continue",
+      "occurrences": 4
+    },
+    {
+      "name": "gitbase",
+      "occurrences": 4
+    },
+    {
+      "name": "sed",
+      "occurrences": 4
+    },
+    {
+      "name": "sub_filter",
+      "occurrences": 4
+    },
+    {
+      "name": "unset",
+      "occurrences": 4
+    },
+    {
+      "name": "break",
+      "occurrences": 3
+    },
+    {
+      "name": "cleanTarName",
+      "occurrences": 3
+    },
+    {
+      "name": "git",
+      "occurrences": 3
+    },
+    {
+      "name": "outputDir",
+      "occurrences": 3
+    },
+    {
+      "name": "select_source",
+      "occurrences": 3
+    },
+    {
+      "name": "shift",
+      "occurrences": 3
+    },
+    {
+      "name": "bash",
+      "occurrences": 2
+    },
+    {
+      "name": "cd",
+      "occurrences": 2
+    },
+    {
+      "name": "IFS",
+      "occurrences": 2
+    },
+    {
+      "name": "item",
+      "occurrences": 2
+    },
+    {
+      "name": "local",
+      "occurrences": 2
+    },
+    {
+      "name": "matches",
+      "occurrences": 2
+    },
+    {
+      "name": "module",
+      "occurrences": 2
+    },
+    {
+      "name": "moduleName",
+      "occurrences": 2
+    },
+    {
+      "name": "packageApi",
+      "occurrences": 2
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 2
+    },
+    {
+      "name": "Script",
+      "occurrences": 2
+    },
+    {
+      "name": "versionSeparator",
+      "occurrences": 2
+    },
+    {
+      "name": "withPatchNum",
+      "occurrences": 2
+    },
+    {
+      "name": "api",
+      "occurrences": 1
+    },
+    {
+      "name": "awk",
+      "occurrences": 1
+    },
+    {
+      "name": "build",
+      "occurrences": 1
+    },
+    {
+      "name": "bzip",
+      "occurrences": 1
+    },
+    {
+      "name": "bzip2",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "commit",
+      "occurrences": 1
+    },
+    {
+      "name": "Eg",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "findGitDir",
+      "occurrences": 1
+    },
+    {
+      "name": "g",
+      "occurrences": 1
+    },
+    {
+      "name": "gzip",
+      "occurrences": 1
+    },
+    {
+      "name": "head",
+      "occurrences": 1
+    },
+    {
+      "name": "none",
+      "occurrences": 1
+    },
+    {
+      "name": "oldIFS",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "patch",
+      "occurrences": 1
+    },
+    {
+      "name": "pwd",
+      "occurrences": 1
+    },
+    {
+      "name": "read",
+      "occurrences": 1
+    },
+    {
+      "name": "s",
+      "occurrences": 1
+    },
+    {
+      "name": "sha1",
+      "occurrences": 1
+    },
+    {
+      "name": "true",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "validation",
+      "occurrences": 1
+    },
+    {
+      "name": "zstd",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "cleanTarName",
+      "occurrences": 1
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "cleanTarName",
+      "occurrences": 3
+    }
+  ],
+  "variables": [
+    {
+      "name": "outputDir",
+      "occurrences": 28
+    },
+    {
+      "name": "tarName",
+      "occurrences": 28
+    },
+    {
+      "name": "prefixDir",
+      "occurrences": 18
+    },
+    {
+      "name": "moduleName",
+      "occurrences": 11
+    },
+    {
+      "name": "packageApi",
+      "occurrences": 11
+    },
+    {
+      "name": "gitbase",
+      "occurrences": 10
+    },
+    {
+      "name": "head",
+      "occurrences": 10
+    },
+    {
+      "name": "parent",
+      "occurrences": 9
+    },
+    {
+      "name": "patch",
+      "occurrences": 9
+    },
+    {
+      "name": "commit",
+      "occurrences": 8
+    },
+    {
+      "name": "api",
+      "occurrences": 7
+    },
+    {
+      "name": "filter",
+      "occurrences": 7
+    },
+    {
+      "name": "manifestFile",
+      "occurrences": 7
+    },
+    {
+      "name": "module",
+      "occurrences": 7
+    },
+    {
+      "name": "select_modules",
+      "occurrences": 6
+    },
+    {
+      "name": "build",
+      "occurrences": 4
+    },
+    {
+      "name": "compress",
+      "occurrences": 4
+    },
+    {
+      "name": "newPrefix",
+      "occurrences": 4
+    },
+    {
+      "name": "PWD",
+      "occurrences": 4
+    },
+    {
+      "name": "select_plugins",
+      "occurrences": 4
+    },
+    {
+      "name": "select_source",
+      "occurrences": 4
+    },
+    {
+      "name": "sha1",
+      "occurrences": 4
+    },
+    {
+      "name": "tmpTarFile",
+      "occurrences": 4
+    },
+    {
+      "name": "buildInfo",
+      "occurrences": 3
+    },
+    {
+      "name": "item",
+      "occurrences": 3
+    },
+    {
+      "name": "manifest0",
+      "occurrences": 3
+    },
+    {
+      "name": "manifest1",
+      "occurrences": 3
+    },
+    {
+      "name": "manifest2",
+      "occurrences": 3
+    },
+    {
+      "name": "sub_filter",
+      "occurrences": 3
+    },
+    {
+      "name": "gittype",
+      "occurrences": 2
+    },
+    {
+      "name": "Script",
+      "occurrences": 2
+    },
+    {
+      "name": "versionSeparator",
+      "occurrences": 2
+    },
+    {
+      "name": "withPatchNum",
+      "occurrences": 2
+    },
+    {
+      "name": "IFS",
+      "occurrences": 1
+    },
+    {
+      "name": "matches",
+      "occurrences": 1
+    },
+    {
+      "name": "oldIFS",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-f",
+      "occurrences": 9
+    },
+    {
+      "name": "-n",
+      "occurrences": 9
+    },
+    {
+      "name": "-debian",
+      "occurrences": 8
+    },
+    {
+      "name": "--git-dir",
+      "occurrences": 5
+    },
+    {
+      "name": "-9",
+      "occurrences": 5
+    },
+    {
+      "name": "-compress",
+      "occurrences": 5
+    },
+    {
+      "name": "-d",
+      "occurrences": 4
+    },
+    {
+      "name": "-no-prefix",
+      "occurrences": 4
+    },
+    {
+      "name": "-xz",
+      "occurrences": 4
+    },
+    {
+      "name": "--format",
+      "occurrences": 3
+    },
+    {
+      "name": "-c",
+      "occurrences": 3
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-name",
+      "occurrences": 3
+    },
+    {
+      "name": "-output",
+      "occurrences": 3
+    },
+    {
+      "name": "-tgz",
+      "occurrences": 3
+    },
+    {
+      "name": "-z",
+      "occurrences": 3
+    },
+    {
+      "name": "-all",
+      "occurrences": 2
+    },
+    {
+      "name": "-all-extras",
+      "occurrences": 2
+    },
+    {
+      "name": "-gitbase",
+      "occurrences": 2
+    },
+    {
+      "name": "-modules",
+      "occurrences": 2
+    },
+    {
+      "name": "-ne",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-compress",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-extras",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-modules",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-patch",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-plugins",
+      "occurrences": 2
+    },
+    {
+      "name": "-o",
+      "occurrences": 2
+    },
+    {
+      "name": "-pkg-modules",
+      "occurrences": 2
+    },
+    {
+      "name": "-pkg-plugins",
+      "occurrences": 2
+    },
+    {
+      "name": "-plugins",
+      "occurrences": 2
+    },
+    {
+      "name": "-prefix",
+      "occurrences": 2
+    },
+    {
+      "name": "-r",
+      "occurrences": 2
+    },
+    {
+      "name": "-sep",
+      "occurrences": 2
+    },
+    {
+      "name": "-with-api",
+      "occurrences": 2
+    },
+    {
+      "name": "-with-modules",
+      "occurrences": 2
+    },
+    {
+      "name": "-with-plugins",
+      "occurrences": 2
+    },
+    {
+      "name": "-zstd",
+      "occurrences": 2
+    },
+    {
+      "name": "--append",
+      "occurrences": 1
+    },
+    {
+      "name": "--date",
+      "occurrences": 1
+    },
+    {
+      "name": "--delete",
+      "occurrences": 1
+    },
+    {
+      "name": "--group",
+      "occurrences": 1
+    },
+    {
+      "name": "--help",
+      "occurrences": 1
+    },
+    {
+      "name": "--is-inside-work-tree",
+      "occurrences": 1
+    },
+    {
+      "name": "--owner",
+      "occurrences": 1
+    },
+    {
+      "name": "--prefix",
+      "occurrences": 1
+    },
+    {
+      "name": "--rm",
+      "occurrences": 1
+    },
+    {
+      "name": "--show-toplevel",
+      "occurrences": 1
+    },
+    {
+      "name": "--transform",
+      "occurrences": 1
+    },
+    {
+      "name": "-1",
+      "occurrences": 1
+    },
+    {
+      "name": "-Af",
+      "occurrences": 1
+    },
+    {
+      "name": "-cf",
+      "occurrences": 1
+    },
+    {
+      "name": "-e",
+      "occurrences": 1
+    },
+    {
+      "name": "-eq",
+      "occurrences": 1
+    },
+    {
+      "name": "-ge",
+      "occurrences": 1
+    },
+    {
+      "name": "-gt",
+      "occurrences": 1
+    },
+    {
+      "name": "-h",
+      "occurrences": 1
+    },
+    {
+      "name": "-L",
+      "occurrences": 1
+    },
+    {
+      "name": "-T",
+      "occurrences": 1
+    },
+    {
+      "name": "-v",
+      "occurrences": 1
+    },
+    {
+      "name": "-w",
+      "occurrences": 1
+    },
+    {
+      "name": "-x",
+      "occurrences": 1
+    },
+    {
+      "name": "-zst",
+      "occurrences": 1
+    }
+  ]
+}

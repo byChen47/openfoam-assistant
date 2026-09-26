@@ -1,0 +1,153 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/mesh/manipulation/renumberMesh",
+  "keywordCount": 5,
+  "keywords": [
+    "blockCoeffs",
+    "decomposeParDict",
+    "renumber-method",
+    "requested.partition-offsets",
+    "writeMaps"
+  ],
+  "optionCount": 8,
+  "options": [
+    {
+      "keyword": "decompose",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "frontWidth",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "list-renumber",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-fields",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "write-maps",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "dict",
+      "optionType": "option"
+    },
+    {
+      "keyword": "renumber-coeffs",
+      "optionType": "option"
+    },
+    {
+      "keyword": "renumber-method",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 1259,
+      "keyword": "blockCoeffs",
+      "method": "subDict",
+      "receiver": "renumberDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 922,
+      "keyword": "decomposeParDict",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 907,
+      "keyword": "renumber-method",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 1800,
+      "keyword": "requested.partition-offsets",
+      "method": "readIfPresent",
+      "receiver": "",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 1057,
+      "keyword": "writeMaps",
+      "method": "readIfPresent",
+      "receiver": "renumberDict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "decompose",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 833
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "dict",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 825
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "frontWidth",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 827
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "list-renumber",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 851
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-fields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 845
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "renumber-coeffs",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 864
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "renumber-method",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 857
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "write-maps",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/renumberMesh/renumberMesh.C",
+      "line": 839
+    }
+  ]
+}

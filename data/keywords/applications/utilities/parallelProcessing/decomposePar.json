@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/parallelProcessing/decomposePar",
+  "keywordCount": 3,
+  "keywords": [
+    "decomposeParDict",
+    "distributed",
+    "weightField"
+  ],
+  "optionCount": 14,
+  "options": [
+    {
+      "keyword": "cellDist",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "copyUniform",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "copyZero",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "disable-edge-encoding",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "fields",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "force",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "ifRequired",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-fields",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-finite-area",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-lagrangian",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-sets",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "decomposeParDict",
+      "optionType": "option"
+    },
+    {
+      "keyword": "domains",
+      "optionType": "option"
+    },
+    {
+      "keyword": "method",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 531,
+      "keyword": "decomposeParDict",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/domainDecomposition.C",
+      "line": 147,
+      "keyword": "distributed",
+      "method": "readIfPresent",
+      "receiver": "params",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/domainDecompositionDistribute.C",
+      "line": 46,
+      "keyword": "weightField",
+      "method": "readIfPresent",
+      "receiver": "model",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/domainDecompositionDryRun.C",
+      "line": 90,
+      "keyword": "weightField",
+      "method": "readIfPresent",
+      "receiver": "model",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "cellDist",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 411
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "copyUniform",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 422
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "copyZero",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 417
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "decomposeParDict",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 358
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "disable-edge-encoding",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 403
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "domains",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 374
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "fields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 427
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "force",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 445
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "ifRequired",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 450
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "method",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 381
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-fields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 432
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-finite-area",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 389
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-lagrangian",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 396
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-sets",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C",
+      "line": 438
+    }
+  ]
+}

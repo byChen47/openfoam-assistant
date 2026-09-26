@@ -1,0 +1,27 @@
+{
+  "typeName": "oscillatingDisplacement",
+  "patchKind": "pointPatchField",
+  "sourceFiles": [
+    "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.cxx"
+  ],
+  "keywords": [
+    {
+      "keyword": "amplitude",
+      "method": "lookup",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.cxx:63"
+      ]
+    },
+    {
+      "keyword": "omega",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.cxx:64"
+      ]
+    }
+  ]
+}

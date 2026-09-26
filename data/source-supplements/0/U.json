@@ -1,0 +1,833 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "0",
+  "fileKey": "U",
+  "candidateCount": 48,
+  "candidates": [
+    {
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:23",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:21",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:21",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:23",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:23"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "alpha",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/alpha",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "outletPhaseMeanVelocity",
+        "variableHeightFlowRateInletVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.cxx:79",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/variableHeightFlowRateInletVelocity/variableHeightFlowRateInletVelocityFvPatchVectorField.cxx:58"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "axis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/axis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cylindricalInletVelocity",
+        "rotatingWallVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/cylindricalInletVelocity/cylindricalInletVelocityFvPatchVectorField.cxx:82",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingWallVelocity/rotatingWallVelocityFvPatchVectorField.cxx:60"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "fixTangentialInflow",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/fixTangentialInflow",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedNormalInletOutletVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedNormalInletOutletVelocity/fixedNormalInletOutletVelocityFvPatchVectorField.cxx:68"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "gamma",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/gamma",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "supersonicFreestream"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:73"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/L",
+      "path": "boundaryField/{patch}/L/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:119"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFile",
+      "context": "boundaryField/{patch}/L",
+      "path": "boundaryField/{patch}/L/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:87"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFormat",
+      "context": "boundaryField/{patch}/L",
+      "path": "boundaryField/{patch}/L/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:85"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "file",
+      "context": "boundaryField/{patch}/massFlowRate",
+      "path": "boundaryField/{patch}/massFlowRate/file",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "table"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Table/Table.C:59"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "values",
+      "context": "boundaryField/{patch}/massFlowRate",
+      "path": "boundaryField/{patch}/massFlowRate/values",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "table"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Table/Table.C:85"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:119"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFile",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:87"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFormat",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:85"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "myProcNo",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/myProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:113",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:131"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "neighbProcNo",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/neighbProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:114",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:132"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "normalVelocity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/normalVelocity",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedNormalInletOutletVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedNormalInletOutletVelocity/fixedNormalInletOutletVelocityFvPatchVectorField.cxx:71"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "origin",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/origin",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rotatingWallVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingWallVelocity/rotatingWallVelocityFvPatchVectorField.cxx:59"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "pInf",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/pInf",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "supersonicFreestream"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:71"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:119"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFile",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:87"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFormat",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:85"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rho",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rho",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "flowRateInletVelocity",
+        "flowRateOutletVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/flowRateInletVelocity/flowRateInletVelocityFvPatchVectorField.cxx:80",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/flowRateOutletVelocity/flowRateOutletVelocityFvPatchVectorField.cxx:74"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAngle",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "srcSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "tgtSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "TInf",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/TInf",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "supersonicFreestream"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:72"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 15,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:27",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:33",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:25",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:25",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:30"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/U",
+      "path": "boundaryField/{patch}/U/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:119"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFile",
+      "context": "boundaryField/{patch}/U",
+      "path": "boundaryField/{patch}/U/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:87"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFormat",
+      "context": "boundaryField/{patch}/U",
+      "path": "boundaryField/{patch}/U/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:85"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "UInf",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/UInf",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "supersonicFreestream"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:70"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "Umean",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Umean",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "outletPhaseMeanVelocity"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.cxx:78"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "file",
+      "context": "boundaryField/{patch}/uniformValue/timeFunction",
+      "path": "boundaryField/{patch}/uniformValue/timeFunction/file",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "table"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Table/Table.C:59"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "values",
+      "context": "boundaryField/{patch}/uniformValue/timeFunction",
+      "path": "boundaryField/{patch}/uniformValue/timeFunction/values",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "table"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Table/Table.C:85"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 11,
+      "sourceTypes": [
+        "etc",
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:28",
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:34",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:26",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:28",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:34"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/#includeEtc",
+      "kinds": [
+        "directive"
+      ],
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:37",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:42",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:42",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:48"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "atmosphere",
+      "context": "boundaryField",
+      "path": "boundaryField/atmosphere",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:31"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/inlet",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:25",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:25",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:25",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:25"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "outlet",
+      "context": "boundaryField",
+      "path": "boundaryField/outlet",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:31",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:31",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:31"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotating",
+      "context": "boundaryField",
+      "path": "boundaryField/rotating",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:23",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:37"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "wall",
+      "context": "boundaryField",
+      "path": "boundaryField/wall",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:23",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:28",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:37",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:37",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:43"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:19",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:17",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:17",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:19",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:19"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:8",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:8",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:8",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:8",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:8"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:21",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/U:19",
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/0/U:19",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:21",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:21"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "Uinlet",
+      "context": "",
+      "path": "Uinlet",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/axisymmetricJet/0/U:17",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/U:17",
+        "OpenFOAM-v2606/etc/templates/inflowOutflow/0/U:17",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/0/U:17"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

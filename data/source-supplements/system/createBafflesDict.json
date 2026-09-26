@@ -1,0 +1,1387 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "system",
+  "fileKey": "createBafflesDict",
+  "candidateCount": 85,
+  "candidates": [
+    {
+      "keyword": "baffles",
+      "context": "",
+      "path": "baffles",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:19",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:19"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "baffleFaces",
+      "context": "baffles",
+      "path": "baffles/baffleFaces",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:21",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:21"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "flipMap",
+      "context": "baffles/baffleFaces",
+      "path": "baffles/baffleFaces/flipMap",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.C:333"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "patches",
+      "context": "baffles/baffleFaces",
+      "path": "baffles/baffleFaces/patches",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:26",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:26"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "master",
+      "context": "baffles/baffleFaces/patches",
+      "path": "baffles/baffleFaces/patches/master",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:28",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:28"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "matchTolerance",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/matchTolerance",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:32",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:32"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "name",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/name",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:30",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:30"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "neighbourPatch",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:33",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:33"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAngle",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "srcSize",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "tgtSize",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "transform",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/transform",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:34",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:34"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "type",
+      "context": "baffles/baffleFaces/patches/master",
+      "path": "baffles/baffleFaces/patches/master/type",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:31",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:31"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "slave",
+      "context": "baffles/baffleFaces/patches",
+      "path": "baffles/baffleFaces/patches/slave",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:36",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:36"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "name",
+      "context": "baffles/baffleFaces/patches/slave",
+      "path": "baffles/baffleFaces/patches/slave/name",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:39",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:39"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "neighbourPatch",
+      "context": "baffles/baffleFaces/patches/slave",
+      "path": "baffles/baffleFaces/patches/slave/neighbourPatch",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:40",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:40"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "value",
+      "context": "baffles/baffleFaces/patchPairs/patchFields/U",
+      "path": "baffles/baffleFaces/patchPairs/patchFields/U/value",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "type",
+      "context": "baffles/baffleFaces",
+      "path": "baffles/baffleFaces/type",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:23",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:23"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zoneName",
+      "context": "baffles/baffleFaces",
+      "path": "baffles/baffleFaces/zoneName",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc",
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:24",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:24",
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/faceZoneSelection.C:54"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zones",
+      "context": "baffles/baffleFaces",
+      "path": "baffles/baffleFaces/zones",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledFaceZone/sampledFaceZone.C:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "surface",
+      "context": "baffles/baffleFacesThermoBaffle1D",
+      "path": "baffles/baffleFacesThermoBaffle1D/surface",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "searchableSurface"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/searchableSurfaceSelection.C:67"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "surface",
+      "context": "baffles/baffleFacesThermoBaffle3D",
+      "path": "baffles/baffleFacesThermoBaffle3D/surface",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "searchableSurface"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/searchableSurfaceSelection.C:67"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "flipMap",
+      "context": "baffles/baffles",
+      "path": "baffles/baffles/flipMap",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.C:333"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zoneName",
+      "context": "baffles/baffles",
+      "path": "baffles/baffles/zoneName",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/faceZoneSelection.C:54"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zones",
+      "context": "baffles/baffles",
+      "path": "baffles/baffles/zones",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledFaceZone/sampledFaceZone.C:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "flipMap",
+      "context": "baffles/cycLeft",
+      "path": "baffles/cycLeft/flipMap",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.C:333"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/cycLeft/patches/master",
+      "path": "baffles/cycLeft/patches/master/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/cycLeft/patches/master",
+      "path": "baffles/cycLeft/patches/master/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/cycLeft/patches/master",
+      "path": "baffles/cycLeft/patches/master/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/cycLeft/patches/slave",
+      "path": "baffles/cycLeft/patches/slave/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/cycLeft/patches/slave",
+      "path": "baffles/cycLeft/patches/slave/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/cycLeft/patches/slave",
+      "path": "baffles/cycLeft/patches/slave/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zoneName",
+      "context": "baffles/cycLeft",
+      "path": "baffles/cycLeft/zoneName",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/faceZoneSelection.C:54"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zones",
+      "context": "baffles/cycLeft",
+      "path": "baffles/cycLeft/zones",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledFaceZone/sampledFaceZone.C:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "nonOverlapPatch",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/nonOverlapPatch",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicACMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicACMI/cyclicACMIPolyPatch/cyclicACMIPolyPatch.C:668"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/cyclicCoeffs/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "length",
+      "context": "baffles/cyclicFaces/patches/master/patchFields/p_rgh",
+      "path": "baffles/cyclicFaces/patches/master/patchFields/p_rgh/length",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "porousBafflePressure"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/TurbulenceModels/turbulenceModels/derivedFvPatchFields/porousBafflePressure/porousBafflePressureFvPatchField.C:65"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patches/master",
+      "path": "baffles/cyclicFaces/patches/master/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "nonOverlapPatch",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/nonOverlapPatch",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicACMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicACMI/cyclicACMIPolyPatch/cyclicACMIPolyPatch.C:668"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patches/slave",
+      "path": "baffles/cyclicFaces/patches/slave/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patchPairs/patchFields/p/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patchPairs/patchFields/p/cyclicCoeffs/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patchPairs/patchFields/p/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patchPairs/patchFields/p/cyclicCoeffs/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patchPairs/patchFields/p/cyclicCoeffs",
+      "path": "baffles/cyclicFaces/patchPairs/patchFields/p/cyclicCoeffs/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/cyclicFaces/patchPairs",
+      "path": "baffles/cyclicFaces/patchPairs/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/cyclicFaces/patchPairs",
+      "path": "baffles/cyclicFaces/patchPairs/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/cyclicFaces/patchPairs",
+      "path": "baffles/cyclicFaces/patchPairs/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "surface",
+      "context": "baffles/cyclicFaces",
+      "path": "baffles/cyclicFaces/surface",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "searchableSurface"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/searchableSurfaceSelection.C:67"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "flipMap",
+      "context": "baffles/cycRight",
+      "path": "baffles/cycRight/flipMap",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.C:333"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/cycRight/patches/master",
+      "path": "baffles/cycRight/patches/master/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/cycRight/patches/master",
+      "path": "baffles/cycRight/patches/master/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/cycRight/patches/master",
+      "path": "baffles/cycRight/patches/master/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/cycRight/patches/slave",
+      "path": "baffles/cycRight/patches/slave/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/cycRight/patches/slave",
+      "path": "baffles/cycRight/patches/slave/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/cycRight/patches/slave",
+      "path": "baffles/cycRight/patches/slave/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclic"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zoneName",
+      "context": "baffles/cycRight",
+      "path": "baffles/cycRight/zoneName",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/faceZoneSelection.C:54"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zones",
+      "context": "baffles/cycRight",
+      "path": "baffles/cycRight/zones",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledFaceZone/sampledFaceZone.C:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "flipMap",
+      "context": "baffles/membrane",
+      "path": "baffles/membrane/flipMap",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.C:333"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zoneName",
+      "context": "baffles/membrane",
+      "path": "baffles/membrane/zoneName",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/faceZoneSelection.C:54"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zones",
+      "context": "baffles/membrane",
+      "path": "baffles/membrane/zones",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledFaceZone/sampledFaceZone.C:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "flipMap",
+      "context": "baffles/rotating",
+      "path": "baffles/rotating/flipMap",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/zones/faceZone/faceZone.C:333"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAngle",
+      "context": "baffles/rotating/patches/master",
+      "path": "baffles/rotating/patches/master/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/rotating/patches/master",
+      "path": "baffles/rotating/patches/master/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/rotating/patches/master",
+      "path": "baffles/rotating/patches/master/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/rotating/patches/master",
+      "path": "baffles/rotating/patches/master/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "srcSize",
+      "context": "baffles/rotating/patches/master",
+      "path": "baffles/rotating/patches/master/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "tgtSize",
+      "context": "baffles/rotating/patches/master",
+      "path": "baffles/rotating/patches/master/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAngle",
+      "context": "baffles/rotating/patches/slave",
+      "path": "baffles/rotating/patches/slave/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "baffles/rotating/patches/slave",
+      "path": "baffles/rotating/patches/slave/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "baffles/rotating/patches/slave",
+      "path": "baffles/rotating/patches/slave/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "baffles/rotating/patches/slave",
+      "path": "baffles/rotating/patches/slave/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "srcSize",
+      "context": "baffles/rotating/patches/slave",
+      "path": "baffles/rotating/patches/slave/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "tgtSize",
+      "context": "baffles/rotating/patches/slave",
+      "path": "baffles/rotating/patches/slave/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zoneName",
+      "context": "baffles/rotating",
+      "path": "baffles/rotating/zoneName",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/mesh/manipulation/createBaffles/faceSelection/faceZoneSelection.C:54"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zones",
+      "context": "baffles/rotating",
+      "path": "baffles/rotating/zones",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "faceZone"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sampling/sampledSurface/sampledFaceZone/sampledFaceZone.C:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:8",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:8"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "internalFacesOnly",
+      "context": "",
+      "path": "internalFacesOnly",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/system/createBafflesDict:17",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/system/createBafflesDict:17"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

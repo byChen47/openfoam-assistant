@@ -1,0 +1,1151 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "0",
+  "fileKey": "T",
+  "candidateCount": 69,
+  "candidates": [
+    {
+      "keyword": "nNonOrthCorr",
+      "context": "__thermalShell/thermalShellCoeffs",
+      "path": "__thermalShell/thermalShellCoeffs/nNonOrthCorr",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermalShell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionFaModels/thermalShell/thermalShell.C:56"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "thermo",
+      "context": "__thermalShell/thermalShellCoeffs",
+      "path": "__thermalShell/thermalShellCoeffs/thermo",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "thermalShell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionFaModels/thermalShell/thermalShell.C:133"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "boundaryField",
+      "context": "",
+      "path": "boundaryField",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/T:21",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:24"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "active",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/active",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:338"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "alphaEff",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/alphaEff",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "atmTurbulentHeatFluxTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/atmosphericModels/derivedFvPatchFields/atmTurbulentHeatFluxTemperature/atmTurbulentHeatFluxTemperatureFvPatchScalarField.C:105"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "columnCells",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/columnCells",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:166",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:328"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "Cp",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Cp",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "lumpedMassWallTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/lumpedMassWallTemperature/lumpedMassWallTemperatureFvPatchScalarField.C:82"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "file",
+      "context": "boundaryField/{patch}/enthalpyTable",
+      "path": "boundaryField/{patch}/enthalpyTable/file",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "table"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Table/Table.C:59"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "values",
+      "context": "boundaryField/{patch}/enthalpyTable",
+      "path": "boundaryField/{patch}/enthalpyTable/values",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "table"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Table/Table.C:85"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "expansionRatio",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/expansionRatio",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:326"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "extrudeModel",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/extrudeModel",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:322",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:330"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "filmDeltaDry",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/filmDeltaDry",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "filmPyrolysisRadiativeCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.C:174"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "filmDeltaWet",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/filmDeltaWet",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "filmPyrolysisRadiativeCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.C:175"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "inletValue",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/inletValue",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:35"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "internal",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/internal",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:103"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "kappaLayers",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/kappaLayers",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed",
+        "externalWallHeatFluxTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/externalWallHeatFluxTemperature/externalWallHeatFluxTemperatureFvPatchScalarField.C:121",
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:280"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "thickness",
+      "context": "boundaryField/{patch}/linearNormalCoeffs",
+      "path": "boundaryField/{patch}/linearNormalCoeffs/thickness",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "linearNormal"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/mesh/extrudeModel/linearNormal/linearNormal.C:51"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "mass",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/mass",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "lumpedMassWallTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/lumpedMassWallTemperature/lumpedMassWallTemperatureFvPatchScalarField.C:83"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:119"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFile",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:87"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFormat",
+      "context": "boundaryField/{patch}/mean",
+      "path": "boundaryField/{patch}/mean/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:85"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "mixture",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/mixture",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:341"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "myProcNo",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/myProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:113",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:131"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "neighbProcNo",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/neighbProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:114",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:132"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "nLayers",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/nLayers",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:324"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "outletPatch",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/outletPatch",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "outletMappedUniformInletHeatAddition"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/outletMappedUniformInletHeatAddition/outletMappedUniformInletHeatAdditionFvPatchField.C:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "qr",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/qr",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "filmPyrolysisRadiativeCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.C:172"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "mapMethod",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/mapMethod",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:119"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFile",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/sampleFile",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:87"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sampleFormat",
+      "context": "boundaryField/{patch}/R",
+      "path": "boundaryField/{patch}/R/sampleFormat",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "mappedFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/MappedFile/MappedFile.C:85"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "radiation",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/radiation",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:342"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "continuousPhase",
+      "context": "boundaryField/{patch}/radiation/noneCoeffs",
+      "path": "boundaryField/{patch}/radiation/noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "region",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/region",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:101",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:144",
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:334"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAngle",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:684"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:685"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "cyclic",
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.C:701"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "species",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/species",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "enthalpySorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/reactionThermo/derivedFvPatchFields/enthalpySorption/enthalpySorptionFvPatchScalarField.C:82"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "srcSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "tgtSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "thermoType",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/thermoType",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::thermalBaffle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/thermalBaffleModels/derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.C:340"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "thicknessLayers",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/thicknessLayers",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed",
+        "externalWallHeatFluxTemperature"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/externalWallHeatFluxTemperature/externalWallHeatFluxTemperatureFvPatchScalarField.C:119",
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:278"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "Tnbr",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/Tnbr",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "filmPyrolysisRadiativeCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/regionCoupling/derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.C:171"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "type",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/type",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 5,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/T:25",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/T:31",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:28",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:34",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:41"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "c0",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/c0",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/thermo/heatTransferModel/constantHeatTransfer/constantHeatTransfer.C:61"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "coeffC",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/coeffC",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/constant/constant.C:215"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "coeffE",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/coeffE",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/solvers/multiphase/interCondensatingEvaporatingFoam/temperaturePhaseChangeTwoPhaseMixtures/constant/constant.C:216"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "d",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/d",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/diameterModels/constantDiameter/constantDiameter.C:87",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/diameterModels/constantDiameter/constantDiameter.C:86"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "file",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/file",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "csvFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/CSV/CSV.C:212"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "triggers",
+      "context": "boundaryField/{patch}/uniformValue/functions<scalar>/trigger",
+      "path": "boundaryField/{patch}/uniformValue/functions<scalar>/trigger/triggers",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "functionObjectTrigger"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/FunctionObjectTrigger/FunctionObjectTrigger.C:38"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "mergeSeparators",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/mergeSeparators",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "csvFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/CSV/CSV.C:211"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "nHeaderLine",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/nHeaderLine",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "csvFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/CSV/CSV.C:207"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "refColumn",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/refColumn",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "csvFile"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/CSV/CSV.C:208"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sigma",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/sigma",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.C:86",
+        "OpenFOAM-v2606/src/transportModels/interfaceProperties/surfaceTensionModels/constant/constantSurfaceTension.C:90"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "specie",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/specie",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionModels/surfaceFilmModels/submodels/kinematic/filmThermoModel/constantFilmThermo/constantFilmThermo.C:72"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "value",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/value",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/ConstantField/ConstantField.C:103",
+        "OpenFOAM-v2606/src/meshTools/PatchFunction1/ConstantField/ConstantField.C:121",
+        "OpenFOAM-v2606/src/OpenFOAM/primitives/functions/Function1/Constant/Constant.C:78"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "velocityGroup",
+      "context": "boundaryField/{patch}/uniformValue",
+      "path": "boundaryField/{patch}/uniformValue/velocityGroup",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "constant"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/populationBalanceModel/nucleationModels/constantNucleation/constantNucleation.C:72"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "useImplicit",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/useImplicit",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "compressible::turbulentTemperatureRadCoupledMixed"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermoTools/derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.C:314"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 6,
+      "sourceTypes": [
+        "etc",
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/T:26",
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/T:32",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:29",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:36",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:42"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "#includeEtc",
+      "context": "boundaryField",
+      "path": "boundaryField/#includeEtc",
+      "kinds": [
+        "directive"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:45"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "<patchName>",
+      "context": "boundaryField",
+      "path": "boundaryField/<patchName>",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/T:23"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "inlet",
+      "context": "boundaryField",
+      "path": "boundaryField/inlet",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:26"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "outlet",
+      "context": "boundaryField",
+      "path": "boundaryField/outlet",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:32"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "wall",
+      "context": "boundaryField",
+      "path": "boundaryField/wall",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/T:29",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:39"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "dimensions",
+      "context": "",
+      "path": "dimensions",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/T:17",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:20"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/T:8",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:8"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "internalField",
+      "context": "",
+      "path": "internalField",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolume/0/T:19",
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:22"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "Tinlet",
+      "context": "",
+      "path": "Tinlet",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:17"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "Tout",
+      "context": "",
+      "path": "Tout",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/compressibleInflowOutflow/0/T:18"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

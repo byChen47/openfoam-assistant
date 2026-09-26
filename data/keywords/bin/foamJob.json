@@ -1,0 +1,388 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/foamJob",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 20
+    },
+    {
+      "name": "usage",
+      "occurrences": 10
+    },
+    {
+      "name": "logFile",
+      "occurrences": 6
+    },
+    {
+      "name": "shift",
+      "occurrences": 6
+    },
+    {
+      "name": "append",
+      "occurrences": 4
+    },
+    {
+      "name": "none",
+      "occurrences": 4
+    },
+    {
+      "name": "tee",
+      "occurrences": 4
+    },
+    {
+      "name": "break",
+      "occurrences": 3
+    },
+    {
+      "name": "exit",
+      "occurrences": 3
+    },
+    {
+      "name": "mpiopts",
+      "occurrences": 3
+    },
+    {
+      "name": "pid",
+      "occurrences": 3
+    },
+    {
+      "name": "unset",
+      "occurrences": 3
+    },
+    {
+      "name": "wait",
+      "occurrences": 3
+    },
+    {
+      "name": "APPLICATION",
+      "occurrences": 2
+    },
+    {
+      "name": "logMode",
+      "occurrences": 2
+    },
+    {
+      "name": "appName",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "cd",
+      "occurrences": 1
+    },
+    {
+      "name": "dict",
+      "occurrences": 1
+    },
+    {
+      "name": "echoArgs",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "export",
+      "occurrences": 1
+    },
+    {
+      "name": "foamExec",
+      "occurrences": 1
+    },
+    {
+      "name": "hostfile",
+      "occurrences": 1
+    },
+    {
+      "name": "mpirun",
+      "occurrences": 1
+    },
+    {
+      "name": "nProcs",
+      "occurrences": 1
+    },
+    {
+      "name": "optCheck",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "optParallel",
+      "occurrences": 1
+    },
+    {
+      "name": "optScreen",
+      "occurrences": 1
+    },
+    {
+      "name": "optWait",
+      "occurrences": 1
+    },
+    {
+      "name": "Run",
+      "occurrences": 1
+    },
+    {
+      "name": "stringifiedArgs",
+      "occurrences": 1
+    },
+    {
+      "name": "stringItem",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "wc",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "usage",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "foamExec",
+      "occurrences": 1
+    }
+  ],
+  "variables": [
+    {
+      "name": "APPLICATION",
+      "occurrences": 14
+    },
+    {
+      "name": "logFile",
+      "occurrences": 12
+    },
+    {
+      "name": "pid",
+      "occurrences": 10
+    },
+    {
+      "name": "mpiopts",
+      "occurrences": 9
+    },
+    {
+      "name": "mpirun",
+      "occurrences": 7
+    },
+    {
+      "name": "logMode",
+      "occurrences": 6
+    },
+    {
+      "name": "appName",
+      "occurrences": 5
+    },
+    {
+      "name": "dict",
+      "occurrences": 3
+    },
+    {
+      "name": "foamExec",
+      "occurrences": 3
+    },
+    {
+      "name": "nProcs",
+      "occurrences": 3
+    },
+    {
+      "name": "stringifiedArgs",
+      "occurrences": 3
+    },
+    {
+      "name": "stringItem",
+      "occurrences": 3
+    },
+    {
+      "name": "FOAM_LD_LIBRARY_PATH",
+      "occurrences": 2
+    },
+    {
+      "name": "hostfile",
+      "occurrences": 2
+    },
+    {
+      "name": "optParallel",
+      "occurrences": 2
+    },
+    {
+      "name": "optScreen",
+      "occurrences": 2
+    },
+    {
+      "name": "optWait",
+      "occurrences": 2
+    },
+    {
+      "name": "DYLD_LIBRARY_PATH",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_SETTINGS",
+      "occurrences": 1
+    },
+    {
+      "name": "optCheck",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_MPLIB",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-parallel",
+      "occurrences": 9
+    },
+    {
+      "name": "-ge",
+      "occurrences": 4
+    },
+    {
+      "name": "-a",
+      "occurrences": 3
+    },
+    {
+      "name": "-n",
+      "occurrences": 3
+    },
+    {
+      "name": "-screen",
+      "occurrences": 3
+    },
+    {
+      "name": "-v",
+      "occurrences": 3
+    },
+    {
+      "name": "-append",
+      "occurrences": 2
+    },
+    {
+      "name": "-case",
+      "occurrences": 2
+    },
+    {
+      "name": "-help",
+      "occurrences": 2
+    },
+    {
+      "name": "-log",
+      "occurrences": 2
+    },
+    {
+      "name": "-log-app",
+      "occurrences": 2
+    },
+    {
+      "name": "-name",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-check",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-log",
+      "occurrences": 2
+    },
+    {
+      "name": "-r",
+      "occurrences": 2
+    },
+    {
+      "name": "-version",
+      "occurrences": 2
+    },
+    {
+      "name": "-wait",
+      "occurrences": 2
+    },
+    {
+      "name": "-x",
+      "occurrences": 2
+    },
+    {
+      "name": "-entry",
+      "occurrences": 1
+    },
+    {
+      "name": "-eq",
+      "occurrences": 1
+    },
+    {
+      "name": "-gt",
+      "occurrences": 1
+    },
+    {
+      "name": "-h",
+      "occurrences": 1
+    },
+    {
+      "name": "-hostfile",
+      "occurrences": 1
+    },
+    {
+      "name": "-l",
+      "occurrences": 1
+    },
+    {
+      "name": "-maxdepth",
+      "occurrences": 1
+    },
+    {
+      "name": "-o",
+      "occurrences": 1
+    },
+    {
+      "name": "-p",
+      "occurrences": 1
+    },
+    {
+      "name": "-s",
+      "occurrences": 1
+    },
+    {
+      "name": "-type",
+      "occurrences": 1
+    },
+    {
+      "name": "-value",
+      "occurrences": 1
+    },
+    {
+      "name": "-w",
+      "occurrences": 1
+    },
+    {
+      "name": "-z",
+      "occurrences": 1
+    }
+  ]
+}

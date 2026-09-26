@@ -1,0 +1,719 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "0",
+  "fileKey": "pointDisplacement",
+  "candidateCount": 43,
+  "candidates": [
+    {
+      "keyword": "file",
+      "context": "__edgeSlipDisplacement",
+      "path": "__edgeSlipDisplacement/file",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "edgeSlipDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/edgeSlipDisplacement/edgeSlipDisplacementPointPatchVectorField.cxx:45",
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/edgeSlipDisplacement/edgeSlipDisplacementPointPatchVectorField.cxx:221"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "velocity",
+      "context": "__edgeSlipDisplacement",
+      "path": "__edgeSlipDisplacement/velocity",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "edgeSlipDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/edgeSlipDisplacement/edgeSlipDisplacementPointPatchVectorField.cxx:220"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "geometry",
+      "context": "__surfaceSlipDisplacement",
+      "path": "__surfaceSlipDisplacement/geometry",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceSlipDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.cxx:326"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "file",
+      "context": "__surfaceSlipDisplacement/geometry/box",
+      "path": "__surfaceSlipDisplacement/geometry/box/file",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:371",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:555"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "minQuality",
+      "context": "__surfaceSlipDisplacement/geometry/box",
+      "path": "__surfaceSlipDisplacement/geometry/box/minQuality",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:393",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:642"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "projectDirection",
+      "context": "__surfaceSlipDisplacement",
+      "path": "__surfaceSlipDisplacement/projectDirection",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceSlipDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.cxx:331"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "geometry",
+      "context": "_surfaceDisplacement",
+      "path": "_surfaceDisplacement/geometry",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceSlipDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.cxx:326"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "projectDirection",
+      "context": "_surfaceDisplacement",
+      "path": "_surfaceDisplacement/projectDirection",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "surfaceSlipDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.cxx:331"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "amplitude",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/amplitude",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "oscillatingDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.cxx:63"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "controllers",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/controllers",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "lumpedPointDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lumpedPointMotion/pointPatchFields/lumpedPointDisplacementPointPatchVectorField.C:230"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAngle",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "srcSize",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "tgtSize",
+      "context": "boundaryField/{patch}/cyclicAMICoeffs",
+      "path": "boundaryField/{patch}/cyclicAMICoeffs/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "dataWritten",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/dataWritten",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "lumpedPointDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lumpedPointMotion/pointPatchFields/lumpedPointDisplacementPointPatchVectorField.C:232"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "file",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/file",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "edgeSlipDisplacement",
+        "pointAttraction"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/edgeSlipDisplacement/edgeSlipDisplacementPointPatchVectorField.cxx:45",
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/edgeSlipDisplacement/edgeSlipDisplacementPointPatchVectorField.cxx:221",
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/pointAttractionDisplacement/pointAttractionDisplacementPointPatchVectorField.cxx:155"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "g",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/g",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sixDoFRigidBodyDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/pointPatchFields/derived/sixDoFRigidBodyDisplacement/sixDoFRigidBodyDisplacementPointPatchVectorField.C:84"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "geometry",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/geometry",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "surfaceDisplacement",
+        "surfaceSlipDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.cxx:324",
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.cxx:326"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "file",
+      "context": "boundaryField/{patch}/geometry/AcrossRiver.stl",
+      "path": "boundaryField/{patch}/geometry/AcrossRiver.stl/file",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:371",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:555"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "minQuality",
+      "context": "boundaryField/{patch}/geometry/AcrossRiver.stl",
+      "path": "boundaryField/{patch}/geometry/AcrossRiver.stl/minQuality",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:393",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:642"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "file",
+      "context": "boundaryField/{patch}/geometry/box",
+      "path": "boundaryField/{patch}/geometry/box/file",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:371",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:555"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "minQuality",
+      "context": "boundaryField/{patch}/geometry/box",
+      "path": "boundaryField/{patch}/geometry/box/minQuality",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "triSurfaceMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:393",
+        "OpenFOAM-v2606/src/meshTools/searchableSurfaces/triSurfaceMesh/triSurfaceMesh.C:642"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "initialDepth",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/initialDepth",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "waveMaker"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:173"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "myProcNo",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/myProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:113",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:131"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "n",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/n",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "waveMaker"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:171"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "neighbProcNo",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/neighbProcNo",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "processor"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/finiteArea/faMesh/faPatches/constraint/processor/processorFaPatch.C:114",
+        "OpenFOAM-v2606/src/OpenFOAM/meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.C:132"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "omega",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/omega",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "oscillatingDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.cxx:64"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "projectDirection",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/projectDirection",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "surfaceDisplacement",
+        "surfaceSlipDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.cxx:329",
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.cxx:331"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rampTime",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rampTime",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "waveMaker"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:186"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rhoInf",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rhoInf",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sixDoFRigidBodyDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/pointPatchFields/derived/sixDoFRigidBodyDisplacement/sixDoFRigidBodyDisplacementPointPatchVectorField.C:81"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAngle",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAngle",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:785"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationAxis",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationAxis",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:783"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotationCentre",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/rotationCentre",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:784"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "separationVector",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/separationVector",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:811"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "srcSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/srcSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:834"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "tgtSize",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/tgtSize",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "cyclicAMI"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/meshTools/AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.C:835"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "velocity",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/velocity",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "edgeSlipDisplacement",
+        "pointAttraction",
+        "surfaceDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/edgeSlipDisplacement/edgeSlipDisplacementPointPatchVectorField.cxx:220",
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/pointAttractionDisplacement/pointAttractionDisplacementPointPatchVectorField.cxx:154",
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.cxx:323"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "waveHeight",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/waveHeight",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "waveMaker"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:175"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "wavePeriod",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/wavePeriod",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "waveMaker"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:174"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "wavePhase",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/wavePhase",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "waveMaker"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:176"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

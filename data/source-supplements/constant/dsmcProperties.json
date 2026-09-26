@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "constant",
+  "fileKey": "dsmcProperties",
+  "candidateCount": 2,
+  "candidates": [
+    {
+      "keyword": "numberDensities",
+      "context": "FreeStreamCoeffs",
+      "path": "FreeStreamCoeffs/numberDensities",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "FreeStream"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/DSMC/submodels/InflowBoundaryModel/FreeStream/FreeStream.C:68"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "continuousPhase",
+      "context": "noneCoeffs",
+      "path": "noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

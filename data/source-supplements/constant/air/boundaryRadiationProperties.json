@@ -1,0 +1,158 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "constant",
+  "fileKey": "air/boundaryRadiationProperties",
+  "candidateCount": 9,
+  "candidates": [
+    {
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": ".*",
+      "path": ".*/wallAbsorptionEmissionModel",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "transparent"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/transparent/transparent.C:60"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "absorptivity",
+      "context": ".*/wallAbsorptionEmissionModel",
+      "path": ".*/wallAbsorptionEmissionModel/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "emissivity",
+      "context": ".*/wallAbsorptionEmissionModel",
+      "path": ".*/wallAbsorptionEmissionModel/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": "air_to_floor",
+      "path": "air_to_floor/wallAbsorptionEmissionModel",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "opaqueDiffusive"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "absorptivity",
+      "context": "air_to_floor/wallAbsorptionEmissionModel",
+      "path": "air_to_floor/wallAbsorptionEmissionModel/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "emissivity",
+      "context": "air_to_floor/wallAbsorptionEmissionModel",
+      "path": "air_to_floor/wallAbsorptionEmissionModel/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "wallAbsorptionEmissionModel",
+      "context": "air_to_solid",
+      "path": "air_to_solid/wallAbsorptionEmissionModel",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "opaqueDiffusive",
+        "opaqueReflective"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.C:60",
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/boundaryRadiationProperties/opaqueReflective/opaqueReflective.C:61"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "absorptivity",
+      "context": "air_to_solid/wallAbsorptionEmissionModel",
+      "path": "air_to_solid/wallAbsorptionEmissionModel/absorptivity",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:63"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "emissivity",
+      "context": "air_to_solid/wallAbsorptionEmissionModel",
+      "path": "air_to_solid/wallAbsorptionEmissionModel/emissivity",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "multiBandAbsorption"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/thermophysicalModels/radiation/submodels/wallAbsorptionEmissionModel/multiBandAbsorption/multiBandAbsorption.C:64"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

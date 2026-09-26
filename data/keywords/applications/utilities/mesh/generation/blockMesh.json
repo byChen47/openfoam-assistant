@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/mesh/generation/blockMesh",
+  "keywordCount": 3,
+  "keywords": [
+    "dict",
+    "mergePatchPairs",
+    "time"
+  ],
+  "optionCount": 7,
+  "options": [
+    {
+      "keyword": "merge-points",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-clean",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "sets",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "write-obj",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "write-vtk",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "dict",
+      "optionType": "option"
+    },
+    {
+      "keyword": "time",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/blockMesh/findBlockMeshDict.H",
+      "line": 27,
+      "keyword": "dict",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/blockMesh/mergePatchPairs.H",
+      "line": 25,
+      "keyword": "mergePatchPairs",
+      "method": "readIfPresent",
+      "receiver": "meshDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/blockMesh/blockMesh.C",
+      "line": 200,
+      "keyword": "time",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "dict",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/blockMesh/blockMesh.C",
+      "line": 155
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "merge-points",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/blockMesh/blockMesh.C",
+      "line": 141
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-clean",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/blockMesh/blockMesh.C",
+      "line": 148
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "sets",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/blockMesh/blockMesh.C",
+      "line": 156
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "time",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/blockMesh/blockMesh.C",
+      "line": 161
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "write-obj",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/blockMesh/blockMesh.C",
+      "line": 123
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "write-vtk",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/blockMesh/blockMesh.C",
+      "line": 131
+    }
+  ]
+}

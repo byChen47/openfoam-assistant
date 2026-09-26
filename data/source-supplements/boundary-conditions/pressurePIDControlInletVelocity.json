@@ -1,0 +1,64 @@
+{
+  "typeName": "pressurePIDControlInletVelocity",
+  "patchKind": "fvPatchField",
+  "sourceFiles": [
+    "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx",
+    "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.H"
+  ],
+  "keywords": [
+    {
+      "keyword": "D",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:143"
+      ]
+    },
+    {
+      "keyword": "deltaP",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:136"
+      ]
+    },
+    {
+      "keyword": "downstream",
+      "method": "lookup",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:135"
+      ]
+    },
+    {
+      "keyword": "I",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:142"
+      ]
+    },
+    {
+      "keyword": "P",
+      "method": "get<scalar>",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:141"
+      ]
+    },
+    {
+      "keyword": "upstream",
+      "method": "lookup",
+      "receiver": "dict",
+      "occurrences": 1,
+      "examples": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:134"
+      ]
+    }
+  ]
+}

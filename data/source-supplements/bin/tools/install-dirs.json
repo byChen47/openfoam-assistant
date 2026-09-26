@@ -1,0 +1,484 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/tools/install-dirs",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 45
+    },
+    {
+      "name": "unset",
+      "occurrences": 13
+    },
+    {
+      "name": "exit",
+      "occurrences": 6
+    },
+    {
+      "name": "doCopy",
+      "occurrences": 5
+    },
+    {
+      "name": "message",
+      "occurrences": 4
+    },
+    {
+      "name": "blockMessage",
+      "occurrences": 3
+    },
+    {
+      "name": "collateModuleFiles",
+      "occurrences": 3
+    },
+    {
+      "name": "copy_cmd",
+      "occurrences": 3
+    },
+    {
+      "name": "die",
+      "occurrences": 3
+    },
+    {
+      "name": "dirNames",
+      "occurrences": 3
+    },
+    {
+      "name": "local",
+      "occurrences": 3
+    },
+    {
+      "name": "mkdir_cmd",
+      "occurrences": 3
+    },
+    {
+      "name": "shift",
+      "occurrences": 3
+    },
+    {
+      "name": "warnOrDie",
+      "occurrences": 3
+    },
+    {
+      "name": "exec",
+      "occurrences": 2
+    },
+    {
+      "name": "i",
+      "occurrences": 2
+    },
+    {
+      "name": "install_common",
+      "occurrences": 2
+    },
+    {
+      "name": "install_devel",
+      "occurrences": 2
+    },
+    {
+      "name": "install_doc",
+      "occurrences": 2
+    },
+    {
+      "name": "install_tut",
+      "occurrences": 2
+    },
+    {
+      "name": "value",
+      "occurrences": 2
+    },
+    {
+      "name": "bundled",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "cd",
+      "occurrences": 1
+    },
+    {
+      "name": "Example",
+      "occurrences": 1
+    },
+    {
+      "name": "foam_mpi",
+      "occurrences": 1
+    },
+    {
+      "name": "general",
+      "occurrences": 1
+    },
+    {
+      "name": "getBoolOption",
+      "occurrences": 1
+    },
+    {
+      "name": "getOptionValue",
+      "occurrences": 1
+    },
+    {
+      "name": "hadError",
+      "occurrences": 1
+    },
+    {
+      "name": "input",
+      "occurrences": 1
+    },
+    {
+      "name": "nCopied",
+      "occurrences": 1
+    },
+    {
+      "name": "optCollate",
+      "occurrences": 1
+    },
+    {
+      "name": "platform",
+      "occurrences": 1
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    },
+    {
+      "name": "selections",
+      "occurrences": 1
+    },
+    {
+      "name": "Simple",
+      "occurrences": 1
+    },
+    {
+      "name": "sourceDir",
+      "occurrences": 1
+    },
+    {
+      "name": "target",
+      "occurrences": 1
+    },
+    {
+      "name": "tuning",
+      "occurrences": 1
+    },
+    {
+      "name": "umask",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "foam_mpi",
+      "occurrences": 1
+    }
+  ],
+  "variables": [
+    {
+      "name": "optDryRun",
+      "occurrences": 11
+    },
+    {
+      "name": "message",
+      "occurrences": 8
+    },
+    {
+      "name": "sourceDir",
+      "occurrences": 8
+    },
+    {
+      "name": "dirNames",
+      "occurrences": 6
+    },
+    {
+      "name": "i",
+      "occurrences": 6
+    },
+    {
+      "name": "install_doc",
+      "occurrences": 5
+    },
+    {
+      "name": "install_tut",
+      "occurrences": 5
+    },
+    {
+      "name": "prefix",
+      "occurrences": 5
+    },
+    {
+      "name": "blockMessage",
+      "occurrences": 4
+    },
+    {
+      "name": "install_common",
+      "occurrences": 4
+    },
+    {
+      "name": "install_devel",
+      "occurrences": 4
+    },
+    {
+      "name": "value",
+      "occurrences": 4
+    },
+    {
+      "name": "FOAM_MPI",
+      "occurrences": 3
+    },
+    {
+      "name": "mkdir_cmd",
+      "occurrences": 3
+    },
+    {
+      "name": "optCollate",
+      "occurrences": 3
+    },
+    {
+      "name": "optVerbose",
+      "occurrences": 3
+    },
+    {
+      "name": "subTarget",
+      "occurrences": 3
+    },
+    {
+      "name": "WM_OPTIONS",
+      "occurrences": 3
+    },
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 3
+    },
+    {
+      "name": "copy_cmd",
+      "occurrences": 2
+    },
+    {
+      "name": "install_app",
+      "occurrences": 2
+    },
+    {
+      "name": "install_src",
+      "occurrences": 2
+    },
+    {
+      "name": "install_wmake",
+      "occurrences": 2
+    },
+    {
+      "name": "subDir",
+      "occurrences": 2
+    },
+    {
+      "name": "hadError",
+      "occurrences": 1
+    },
+    {
+      "name": "nCopied",
+      "occurrences": 1
+    },
+    {
+      "name": "optCollate_doc",
+      "occurrences": 1
+    },
+    {
+      "name": "optCollate_tut",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-n",
+      "occurrences": 21
+    },
+    {
+      "name": "-help",
+      "occurrences": 4
+    },
+    {
+      "name": "-common",
+      "occurrences": 3
+    },
+    {
+      "name": "-default",
+      "occurrences": 3
+    },
+    {
+      "name": "-devel",
+      "occurrences": 3
+    },
+    {
+      "name": "-prefix",
+      "occurrences": 3
+    },
+    {
+      "name": "-source",
+      "occurrences": 3
+    },
+    {
+      "name": "-a",
+      "occurrences": 2
+    },
+    {
+      "name": "-collate",
+      "occurrences": 2
+    },
+    {
+      "name": "-collate-doc",
+      "occurrences": 2
+    },
+    {
+      "name": "-collate-tut",
+      "occurrences": 2
+    },
+    {
+      "name": "-core",
+      "occurrences": 2
+    },
+    {
+      "name": "-d",
+      "occurrences": 2
+    },
+    {
+      "name": "-doc",
+      "occurrences": 2
+    },
+    {
+      "name": "-dry-run",
+      "occurrences": 2
+    },
+    {
+      "name": "-f",
+      "occurrences": 2
+    },
+    {
+      "name": "-foam-mpi",
+      "occurrences": 2
+    },
+    {
+      "name": "-force",
+      "occurrences": 2
+    },
+    {
+      "name": "-ge",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-app",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-apps",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-src",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-wmake",
+      "occurrences": 2
+    },
+    {
+      "name": "-p",
+      "occurrences": 2
+    },
+    {
+      "name": "-platform",
+      "occurrences": 2
+    },
+    {
+      "name": "-tut",
+      "occurrences": 2
+    },
+    {
+      "name": "-v",
+      "occurrences": 2
+    },
+    {
+      "name": "-verbose",
+      "occurrences": 2
+    },
+    {
+      "name": "-all",
+      "occurrences": 1
+    },
+    {
+      "name": "-e",
+      "occurrences": 1
+    },
+    {
+      "name": "-exec-prefix",
+      "occurrences": 1
+    },
+    {
+      "name": "-gt",
+      "occurrences": 1
+    },
+    {
+      "name": "-h",
+      "occurrences": 1
+    },
+    {
+      "name": "-maxdepth",
+      "occurrences": 1
+    },
+    {
+      "name": "-mindepth",
+      "occurrences": 1
+    },
+    {
+      "name": "-name",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-collate",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-common",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-devel",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-doc",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-tut",
+      "occurrences": 1
+    },
+    {
+      "name": "-type",
+      "occurrences": 1
+    },
+    {
+      "name": "-without-",
+      "occurrences": 1
+    },
+    {
+      "name": "-z",
+      "occurrences": 1
+    }
+  ]
+}

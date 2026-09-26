@@ -1,0 +1,1339 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "system",
+  "fileKey": "decomposeParDict",
+  "candidateCount": 82,
+  "candidates": [
+    {
+      "keyword": "agglom",
+      "context": "",
+      "path": "agglom",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/randomDecomp/randomDecomp.C:105"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "coeffs",
+      "context": "",
+      "path": "coeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:109"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "n",
+      "context": "coeffs",
+      "path": "coeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:111"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zones",
+      "context": "constraints/faces",
+      "path": "constraints/faces/zones",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preserveFaceZones"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preserveFaceZones/preserveFaceZonesConstraint.C:59"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "patches",
+      "context": "constraints/patches",
+      "path": "constraints/patches/patches",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preservePatches"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preservePatches/preservePatchesConstraint.C:59"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "patches",
+      "context": "constraints/preservePatches",
+      "path": "constraints/preservePatches/patches",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preservePatches"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preservePatches/preservePatchesConstraint.C:59"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "decomposeParDict",
+      "context": "",
+      "path": "decomposeParDict",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/decomposePar.C:531"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "type",
+      "context": "decompositionConstraintCoeffs",
+      "path": "decompositionConstraintCoeffs/type",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "decompositionConstraint"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/decompositionConstraint/decompositionConstraint.C:162"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "method",
+      "context": "decompositionMethodCoeffs",
+      "path": "decompositionMethodCoeffs/method",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "decompositionMethod"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:380",
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:384"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "numberOfSubdomains",
+      "context": "decompositionMethodCoeffs",
+      "path": "decompositionMethodCoeffs/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "decompositionMethod"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:106"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "preserveFaceZones",
+      "context": "decompositionMethodCoeffs",
+      "path": "decompositionMethodCoeffs/preserveFaceZones",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "decompositionMethod"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:247"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "preservePatches",
+      "context": "decompositionMethodCoeffs",
+      "path": "decompositionMethodCoeffs/preservePatches",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "decompositionMethod"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:236"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "singleProcessorFaceSets",
+      "context": "decompositionMethodCoeffs",
+      "path": "decompositionMethodCoeffs/singleProcessorFaceSets",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "decompositionMethod"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionMethod/decompositionMethod.C:258"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "delta",
+      "context": "",
+      "path": "delta",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/geomDecomp/geomDecomp.C:72"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "distributed",
+      "context": "",
+      "path": "distributed",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/domainDecomposition.C:147"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domains",
+      "context": "",
+      "path": "domains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domainWeights",
+      "context": "",
+      "path": "domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:8"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "selection",
+      "context": "geometricCoeffs",
+      "path": "geometricCoeffs/selection",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "geometric"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/geometric/geometricConstraint.C:62"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "sourceInfo",
+      "context": "geometricCoeffs",
+      "path": "geometricCoeffs/sourceInfo",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "geometric"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/geometric/geometricConstraint.C:141"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "hierarchicalCoeffs",
+      "context": "",
+      "path": "hierarchicalCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:120"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "n",
+      "context": "hierarchicalCoeffs",
+      "path": "hierarchicalCoeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:122"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "manualCoeffs",
+      "context": "",
+      "path": "manualCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:153"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "dataFile",
+      "context": "manualCoeffs",
+      "path": "manualCoeffs/dataFile",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:155"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "method",
+      "context": "",
+      "path": "method",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:22"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "metisCoeffs",
+      "context": "",
+      "path": "metisCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:127"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "multiLevelCoeffs",
+      "context": "",
+      "path": "multiLevelCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:60",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:93"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domains",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/domains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc",
+        "multiLevel",
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:99",
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/multiLevelDecomp/multiLevelDecomp.C:69",
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domainWeights",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "level0",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/level0",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:69"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domains",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/domains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domainWeights",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "method",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/method",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:72"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "numberOfSubdomains",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:71"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "processorWeights",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "strategy",
+      "context": "multiLevelCoeffs/level0",
+      "path": "multiLevelCoeffs/level0/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "level1",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/level1",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:74"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "coeffs",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/coeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:78"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "delta",
+      "context": "multiLevelCoeffs/level1/coeffs",
+      "path": "multiLevelCoeffs/level1/coeffs/delta",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:81"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "n",
+      "context": "multiLevelCoeffs/level1/coeffs",
+      "path": "multiLevelCoeffs/level1/coeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domains",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/domains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domainWeights",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "method",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/method",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:77"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "numberOfSubdomains",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:76"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "processorWeights",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "strategy",
+      "context": "multiLevelCoeffs/level1",
+      "path": "multiLevelCoeffs/level1/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "level2",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/level2",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:84"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domains",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/domains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domainWeights",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "method",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/method",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:88"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "numberOfSubdomains",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:86"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "processorWeights",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "strategy",
+      "context": "multiLevelCoeffs/level2",
+      "path": "multiLevelCoeffs/level2/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "method",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/method",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "multiLevel"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:98",
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/multiLevelDecomp/multiLevelDecomp.C:67"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "processorWeights",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "strategy",
+      "context": "multiLevelCoeffs",
+      "path": "multiLevelCoeffs/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "n",
+      "context": "",
+      "path": "n",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/geomDecomp/geomDecomp.C:74"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "numberOfSubdomains",
+      "context": "",
+      "path": "numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:19"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "zones",
+      "context": "preserveFaceZonesCoeffs",
+      "path": "preserveFaceZonesCoeffs/zones",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preserveFaceZones"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preserveFaceZones/preserveFaceZonesConstraint.C:59"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "patches",
+      "context": "preservePatchesCoeffs",
+      "path": "preservePatchesCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "preservePatches"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/decompositionConstraints/preservePatches/preservePatchesConstraint.C:59"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "processorWeights",
+      "context": "",
+      "path": "processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "regions",
+      "context": "",
+      "path": "regions",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:34"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": ".*solid",
+      "context": "regions",
+      "path": "regions/.*solid",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:42"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "continuousPhase",
+      "context": "regions/{region}",
+      "path": "regions/{region}/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "method",
+      "context": "regions/{region}",
+      "path": "regions/{region}/method",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 4,
+      "sourceTypes": [
+        "etc",
+        "metis"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:39",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:45",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:51",
+        "OpenFOAM-v2606/src/parallel/decompose/metisDecomp/metisDecomp.C:143"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "numberOfSubdomains",
+      "context": "regions/{region}",
+      "path": "regions/{region}/numberOfSubdomains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:38",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:44",
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:50"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "options",
+      "context": "regions/{region}",
+      "path": "regions/{region}/options",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "metis"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/metisDecomp/metisDecomp.C:158"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "processorWeights",
+      "context": "regions/{region}",
+      "path": "regions/{region}/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "metis"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/metisDecomp/metisDecomp.C:173"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "heater",
+      "context": "regions",
+      "path": "regions/heater",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:48"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "water",
+      "context": "regions",
+      "path": "regions/water",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:36"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "scotchCoeffs",
+      "context": "",
+      "path": "scotchCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:140"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "simpleCoeffs",
+      "context": "",
+      "path": "simpleCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:114"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "n",
+      "context": "simpleCoeffs",
+      "path": "simpleCoeffs/n",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:116"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "strategy",
+      "context": "",
+      "path": "strategy",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "structuredCoeffs",
+      "context": "",
+      "path": "structuredCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:158"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domains",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/domains",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:362"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "domainWeights",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/domainWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:363"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "method",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/method",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:165"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "patches",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc",
+        "structured"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/caseDicts/annotated/decomposeParDict:162",
+        "OpenFOAM-v2606/src/parallel/decompose/decompositionMethods/structuredDecomp/structuredDecomp.C:59"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "processorWeights",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/processorWeights",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:338"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "strategy",
+      "context": "structuredCoeffs",
+      "path": "structuredCoeffs/strategy",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "scotch"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/parallel/decompose/scotchDecomp/scotchDecomp.C:195"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "weightField",
+      "context": "",
+      "path": "weightField",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "utility"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/domainDecompositionDistribute.C:46",
+        "OpenFOAM-v2606/applications/utilities/parallelProcessing/decomposePar/domainDecompositionDryRun.C:90"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

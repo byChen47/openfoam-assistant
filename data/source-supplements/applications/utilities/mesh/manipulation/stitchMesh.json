@@ -1,0 +1,160 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/mesh/manipulation/stitchMesh",
+  "keywordCount": 3,
+  "keywords": [
+    "master",
+    "match",
+    "slave"
+  ],
+  "optionCount": 8,
+  "options": [
+    {
+      "keyword": "master",
+      "optionType": "argument"
+    },
+    {
+      "keyword": "slave",
+      "optionType": "argument"
+    },
+    {
+      "keyword": "integral",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "intermediate",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "partial",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "perfect",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "dict",
+      "optionType": "option"
+    },
+    {
+      "keyword": "toleranceDict",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 337,
+      "keyword": "master",
+      "method": "get<word>",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 471,
+      "keyword": "master",
+      "method": "get<word>",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 321,
+      "keyword": "match",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 458,
+      "keyword": "match",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 338,
+      "keyword": "slave",
+      "method": "get<word>",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 472,
+      "keyword": "slave",
+      "method": "get<word>",
+      "receiver": "dict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "dict",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 121
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "integral",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 123
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "intermediate",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 138
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "argument",
+      "keyword": "master",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 152
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "partial",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 128
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "perfect",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 133
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "argument",
+      "keyword": "slave",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 157
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "toleranceDict",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/manipulation/stitchMesh/stitchMesh.C",
+      "line": 143
+    }
+  ]
+}

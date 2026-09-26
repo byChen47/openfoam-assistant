@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/finiteArea/makeFaMesh",
+  "keywordCount": 3,
+  "keywords": [
+    "dict",
+    "empty-patch",
+    "polyMeshPatches"
+  ],
+  "optionCount": 7,
+  "options": [
+    {
+      "keyword": "disable-edge-encoding",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-decompose",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-fields",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "write-edges-vtk",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "write-vtk",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "dict",
+      "optionType": "option"
+    },
+    {
+      "keyword": "empty-patch",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/finiteArea/makeFaMesh/findMeshDefinitionDict.H",
+      "line": 66,
+      "keyword": "dict",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/finiteArea/makeFaMesh/makeFaMesh.C",
+      "line": 168,
+      "keyword": "empty-patch",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/finiteArea/makeFaMesh/checkPatchTopology.H",
+      "line": 33,
+      "keyword": "polyMeshPatches",
+      "method": "readIfPresent",
+      "receiver": "meshDefDict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "dict",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/finiteArea/makeFaMesh/makeFaMesh.C",
+      "line": 76
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "disable-edge-encoding",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/finiteArea/makeFaMesh/makeFaMesh.C",
+      "line": 106
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "empty-patch",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/finiteArea/makeFaMesh/makeFaMesh.C",
+      "line": 69
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-decompose",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/finiteArea/makeFaMesh/makeFaMesh.C",
+      "line": 82
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-fields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/finiteArea/makeFaMesh/makeFaMesh.C",
+      "line": 88
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "write-edges-vtk",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/finiteArea/makeFaMesh/makeFaMesh.C",
+      "line": 99
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "write-vtk",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/finiteArea/makeFaMesh/makeFaMesh.C",
+      "line": 94
+    }
+  ]
+}

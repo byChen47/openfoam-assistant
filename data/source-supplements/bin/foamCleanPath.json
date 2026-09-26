@@ -1,0 +1,304 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/foamCleanPath",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 12
+    },
+    {
+      "name": "name",
+      "occurrences": 11
+    },
+    {
+      "name": "printDebug",
+      "occurrences": 9
+    },
+    {
+      "name": "die",
+      "occurrences": 4
+    },
+    {
+      "name": "shift",
+      "occurrences": 4
+    },
+    {
+      "name": "dirList",
+      "occurrences": 3
+    },
+    {
+      "name": "exit",
+      "occurrences": 3
+    },
+    {
+      "name": "IFS",
+      "occurrences": 3
+    },
+    {
+      "name": "isDir",
+      "occurrences": 3
+    },
+    {
+      "name": "unset",
+      "occurrences": 3
+    },
+    {
+      "name": "optEnvName",
+      "occurrences": 2
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 2
+    },
+    {
+      "name": "sed",
+      "occurrences": 2
+    },
+    {
+      "name": "set",
+      "occurrences": 2
+    },
+    {
+      "name": "shellFlavour",
+      "occurrences": 2
+    },
+    {
+      "name": "shellOutput",
+      "occurrences": 2
+    },
+    {
+      "name": "Accepts",
+      "occurrences": 1
+    },
+    {
+      "name": "and",
+      "occurrences": 1
+    },
+    {
+      "name": "break",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "dir",
+      "occurrences": 1
+    },
+    {
+      "name": "duplicate",
+      "occurrences": 1
+    },
+    {
+      "name": "eval",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "Exit",
+      "occurrences": 1
+    },
+    {
+      "name": "filter",
+      "occurrences": 1
+    },
+    {
+      "name": "foamCleanPath",
+      "occurrences": 1
+    },
+    {
+      "name": "oldIFS",
+      "occurrences": 1
+    },
+    {
+      "name": "optDebug",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "optStrip",
+      "occurrences": 1
+    },
+    {
+      "name": "optVerbose",
+      "occurrences": 1
+    },
+    {
+      "name": "Prints",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "isDir",
+      "occurrences": 2
+    },
+    {
+      "name": "printDebug",
+      "occurrences": 2
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "foamCleanPath",
+      "occurrences": 1
+    }
+  ],
+  "variables": [
+    {
+      "name": "dirList",
+      "occurrences": 14
+    },
+    {
+      "name": "name",
+      "occurrences": 7
+    },
+    {
+      "name": "dir",
+      "occurrences": 5
+    },
+    {
+      "name": "filter",
+      "occurrences": 5
+    },
+    {
+      "name": "shellOutput",
+      "occurrences": 5
+    },
+    {
+      "name": "optEnvName",
+      "occurrences": 2
+    },
+    {
+      "name": "optVerbose",
+      "occurrences": 2
+    },
+    {
+      "name": "duplicate",
+      "occurrences": 1
+    },
+    {
+      "name": "IFS",
+      "occurrences": 1
+    },
+    {
+      "name": "oldIFS",
+      "occurrences": 1
+    },
+    {
+      "name": "optDebug",
+      "occurrences": 1
+    },
+    {
+      "name": "optStrip",
+      "occurrences": 1
+    },
+    {
+      "name": "shellFlavour",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-n",
+      "occurrences": 13
+    },
+    {
+      "name": "-env",
+      "occurrences": 5
+    },
+    {
+      "name": "-ge",
+      "occurrences": 3
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-s",
+      "occurrences": 3
+    },
+    {
+      "name": "-sh",
+      "occurrences": 3
+    },
+    {
+      "name": "-csh",
+      "occurrences": 2
+    },
+    {
+      "name": "-csh-env",
+      "occurrences": 2
+    },
+    {
+      "name": "-csh-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-sh-env",
+      "occurrences": 2
+    },
+    {
+      "name": "-sh-lib",
+      "occurrences": 2
+    },
+    {
+      "name": "-sh-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-strip",
+      "occurrences": 2
+    },
+    {
+      "name": "-csh-lib",
+      "occurrences": 1
+    },
+    {
+      "name": "-d",
+      "occurrences": 1
+    },
+    {
+      "name": "-debug",
+      "occurrences": 1
+    },
+    {
+      "name": "-e",
+      "occurrences": 1
+    },
+    {
+      "name": "-gt",
+      "occurrences": 1
+    },
+    {
+      "name": "-ne",
+      "occurrences": 1
+    },
+    {
+      "name": "-verbose",
+      "occurrences": 1
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "solvers/heatTransfer/chtMultiRegionFoam/fluid",
+  "keywordCount": 3,
+  "keywords": [
+    "frozenFlow",
+    "inertSpecie",
+    "PIMPLE"
+  ],
+  "optionCount": 0,
+  "options": [],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/solvers/heatTransfer/chtMultiRegionFoam/fluid/createFluidFields.H",
+      "line": 264,
+      "keyword": "frozenFlow",
+      "method": "readIfPresent",
+      "receiver": "pimpleDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/solvers/heatTransfer/chtMultiRegionFoam/fluid/readFluidMultiRegionPIMPLEControls.H",
+      "line": 12,
+      "keyword": "frozenFlow",
+      "method": "readIfPresent",
+      "receiver": "pimple",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/solvers/heatTransfer/chtMultiRegionFoam/fluid/setRegionFluidFields.H",
+      "line": 12,
+      "keyword": "inertSpecie",
+      "method": "get<word>",
+      "receiver": "thermo",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/solvers/heatTransfer/chtMultiRegionFoam/fluid/createFluidFields.H",
+      "line": 263,
+      "keyword": "PIMPLE",
+      "method": "subDict",
+      "receiver": "",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/solvers/heatTransfer/chtMultiRegionFoam/fluid/readFluidMultiRegionPIMPLEControls.H",
+      "line": 1,
+      "keyword": "PIMPLE",
+      "method": "subDict",
+      "receiver": "",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": []
+}

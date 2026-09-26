@@ -1,0 +1,339 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/foamUpgradeFiniteArea",
+  "shebang": "#!/bin/bash",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 18
+    },
+    {
+      "name": "exit",
+      "occurrences": 6
+    },
+    {
+      "name": "performMove",
+      "occurrences": 5
+    },
+    {
+      "name": "link_cmd",
+      "occurrences": 4
+    },
+    {
+      "name": "local",
+      "occurrences": 4
+    },
+    {
+      "name": "move_cmd",
+      "occurrences": 4
+    },
+    {
+      "name": "next",
+      "occurrences": 4
+    },
+    {
+      "name": "shift",
+      "occurrences": 4
+    },
+    {
+      "name": "cd",
+      "occurrences": 3
+    },
+    {
+      "name": "copy_cmd",
+      "occurrences": 3
+    },
+    {
+      "name": "mkdir_cmd",
+      "occurrences": 3
+    },
+    {
+      "name": "performLinkBack",
+      "occurrences": 3
+    },
+    {
+      "name": "read",
+      "occurrences": 3
+    },
+    {
+      "name": "caseDir",
+      "occurrences": 2
+    },
+    {
+      "name": "currDir",
+      "occurrences": 2
+    },
+    {
+      "name": "die",
+      "occurrences": 2
+    },
+    {
+      "name": "file",
+      "occurrences": 2
+    },
+    {
+      "name": "find",
+      "occurrences": 2
+    },
+    {
+      "name": "isAreaFieldClass",
+      "occurrences": 2
+    },
+    {
+      "name": "sub",
+      "occurrences": 2
+    },
+    {
+      "name": "AWK_CONTENT",
+      "occurrences": 1
+    },
+    {
+      "name": "BEGIN",
+      "occurrences": 1
+    },
+    {
+      "name": "break",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "class",
+      "occurrences": 1
+    },
+    {
+      "name": "className",
+      "occurrences": 1
+    },
+    {
+      "name": "continue",
+      "occurrences": 1
+    },
+    {
+      "name": "edge",
+      "occurrences": 1
+    },
+    {
+      "name": "Equivalent",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "getFoamFile_class",
+      "occurrences": 1
+    },
+    {
+      "name": "grep",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "print",
+      "occurrences": 1
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    },
+    {
+      "name": "regionDir",
+      "occurrences": 1
+    },
+    {
+      "name": "Relocate",
+      "occurrences": 1
+    },
+    {
+      "name": "return",
+      "occurrences": 1
+    },
+    {
+      "name": "timeDir",
+      "occurrences": 1
+    },
+    {
+      "name": "umask",
+      "occurrences": 1
+    },
+    {
+      "name": "unset",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [],
+  "variables": [
+    {
+      "name": "file",
+      "occurrences": 22
+    },
+    {
+      "name": "regionDir",
+      "occurrences": 12
+    },
+    {
+      "name": "optDryRun",
+      "occurrences": 11
+    },
+    {
+      "name": "optVerbose",
+      "occurrences": 4
+    },
+    {
+      "name": "timeDir",
+      "occurrences": 4
+    },
+    {
+      "name": "caseDir",
+      "occurrences": 3
+    },
+    {
+      "name": "currDir",
+      "occurrences": 2
+    },
+    {
+      "name": "optLink",
+      "occurrences": 2
+    },
+    {
+      "name": "class",
+      "occurrences": 1
+    },
+    {
+      "name": "className",
+      "occurrences": 1
+    },
+    {
+      "name": "getClass_awk",
+      "occurrences": 1
+    },
+    {
+      "name": "link_cmd",
+      "occurrences": 1
+    },
+    {
+      "name": "mkdir_cmd",
+      "occurrences": 1
+    },
+    {
+      "name": "move_cmd",
+      "occurrences": 1
+    },
+    {
+      "name": "optGit",
+      "occurrences": 1
+    },
+    {
+      "name": "optMeshDef",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-d",
+      "occurrences": 6
+    },
+    {
+      "name": "-n",
+      "occurrences": 6
+    },
+    {
+      "name": "-f",
+      "occurrences": 4
+    },
+    {
+      "name": "-v",
+      "occurrences": 4
+    },
+    {
+      "name": "-case",
+      "occurrences": 3
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-a",
+      "occurrences": 2
+    },
+    {
+      "name": "-dry-run",
+      "occurrences": 2
+    },
+    {
+      "name": "-force",
+      "occurrences": 2
+    },
+    {
+      "name": "-ge",
+      "occurrences": 2
+    },
+    {
+      "name": "-maxdepth",
+      "occurrences": 2
+    },
+    {
+      "name": "-p",
+      "occurrences": 2
+    },
+    {
+      "name": "-sf",
+      "occurrences": 2
+    },
+    {
+      "name": "-type",
+      "occurrences": 2
+    },
+    {
+      "name": "-verbose",
+      "occurrences": 2
+    },
+    {
+      "name": "-git",
+      "occurrences": 1
+    },
+    {
+      "name": "-gt",
+      "occurrences": 1
+    },
+    {
+      "name": "-link-back",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-mesh",
+      "occurrences": 1
+    },
+    {
+      "name": "-q",
+      "occurrences": 1
+    },
+    {
+      "name": "-s",
+      "occurrences": 1
+    }
+  ]
+}

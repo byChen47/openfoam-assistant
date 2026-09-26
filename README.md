@@ -51,7 +51,7 @@ OpenFOAM Dict IntelliSense 是一个 Visual Studio Code 扩展，用于在编写
 安装构建好的 VSIX：
 
 ```powershell
-code --install-extension openfoam-dict-intellisense-1.1.7.vsix --force
+code --install-extension openfoam-dict-intellisense-1.1.8.vsix --force
 ```
 
 也可以直接在 VS Code 的扩展面板中选择：
@@ -241,11 +241,21 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - 每个源码补充条目记录 `sourceTypes` 和 `sourceLocations`，便于审查
 - 扩展不编译 OpenFOAM、不执行求解器，也不替代 OpenFOAM 自身的输入校验
 
+### 1.1.8 索引覆盖
+
+- `0` 文件：347 个文件级索引
+- `constant` 文件：198 个文件级索引
+- `system` 文件：537 个文件级索引
+- 脚本：`Allrun`、`Allclean`
+- 边界条件：148 个独立定义，其中 38 个带额外 dictionary 关键词
+- `applications`：247 个应用/工具组，532 个 dictionary 关键词，297 个命令行选项或参数
+- `bin`：64 个 Shell 脚本，包含命令、函数、变量和选项
+- VS Code 最低版本：1.111
 ### 开发与构建
 
 运行环境：
 
-- VS Code 1.90 或更高版本
+- VS Code 1.111 或更高版本
 - Node.js 20 或更高版本
 
 运行测试：
@@ -269,7 +279,7 @@ powershell -ExecutionPolicy Bypass -File tools\build-vsix.ps1
 输出：
 
 ```text
-openfoam-dict-intellisense-1.1.7.vsix
+openfoam-dict-intellisense-1.1.8.vsix
 ```
 
 ---
@@ -317,7 +327,7 @@ Notes:
 Install the packaged VSIX:
 
 ```powershell
-code --install-extension openfoam-dict-intellisense-1.1.7.vsix --force
+code --install-extension openfoam-dict-intellisense-1.1.8.vsix --force
 ```
 
 Or use the VS Code UI:
@@ -507,11 +517,21 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - Each source-derived entry records `sourceTypes` and `sourceLocations` for auditing.
 - The extension does not compile OpenFOAM, run solvers, or replace OpenFOAM input validation.
 
+### 1.1.8 Index Coverage
+
+- `0` files: 347 file-level indexes
+- `constant` files: 198 file-level indexes
+- `system` files: 537 file-level indexes
+- Scripts: `Allrun`, `Allclean`
+- Boundary conditions: 148 independent definitions, including 38 with additional dictionary keywords
+- `applications`: 247 application/tool groups, 532 dictionary keywords, and 297 command-line options or arguments
+- `bin`: 64 shell scripts with commands, functions, variables, and options
+- Minimum VS Code version: 1.111
 ### Development and Build
 
 Requirements:
 
-- VS Code 1.90 or later
+- VS Code 1.111 or later
 - Node.js 20 or later
 
 Run tests:
@@ -535,5 +555,10 @@ powershell -ExecutionPolicy Bypass -File tools\build-vsix.ps1
 Output:
 
 ```text
-openfoam-dict-intellisense-1.1.7.vsix
+openfoam-dict-intellisense-1.1.8.vsix
 ```
+## License / 许可证
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
+
+本项目采用 MIT License，详见 [LICENSE](LICENSE)。

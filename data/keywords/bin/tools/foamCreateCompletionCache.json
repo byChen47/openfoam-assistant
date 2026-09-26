@@ -1,0 +1,311 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/tools/foamCreateCompletionCache",
+  "shebang": "#!/bin/bash",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 14
+    },
+    {
+      "name": "die",
+      "occurrences": 7
+    },
+    {
+      "name": "shift",
+      "occurrences": 5
+    },
+    {
+      "name": "local",
+      "occurrences": 4
+    },
+    {
+      "name": "cat",
+      "occurrences": 3
+    },
+    {
+      "name": "exec",
+      "occurrences": 3
+    },
+    {
+      "name": "exit",
+      "occurrences": 3
+    },
+    {
+      "name": "extractOptions",
+      "occurrences": 3
+    },
+    {
+      "name": "searchDirs",
+      "occurrences": 3
+    },
+    {
+      "name": "usage",
+      "occurrences": 3
+    },
+    {
+      "name": "appName",
+      "occurrences": 2
+    },
+    {
+      "name": "Default",
+      "occurrences": 2
+    },
+    {
+      "name": "optHeader",
+      "occurrences": 2
+    },
+    {
+      "name": "p",
+      "occurrences": 2
+    },
+    {
+      "name": "_of_complete_cache_",
+      "occurrences": 1
+    },
+    {
+      "name": "break",
+      "occurrences": 1
+    },
+    {
+      "name": "choices",
+      "occurrences": 1
+    },
+    {
+      "name": "command",
+      "occurrences": 1
+    },
+    {
+      "name": "Create",
+      "occurrences": 1
+    },
+    {
+      "name": "d",
+      "occurrences": 1
+    },
+    {
+      "name": "declare",
+      "occurrences": 1
+    },
+    {
+      "name": "defaultOutputFile",
+      "occurrences": 1
+    },
+    {
+      "name": "FOOTER",
+      "occurrences": 1
+    },
+    {
+      "name": "HEADER",
+      "occurrences": 1
+    },
+    {
+      "name": "item",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "outputFile",
+      "occurrences": 1
+    },
+    {
+      "name": "return",
+      "occurrences": 1
+    },
+    {
+      "name": "s",
+      "occurrences": 1
+    },
+    {
+      "name": "sed",
+      "occurrences": 1
+    },
+    {
+      "name": "set",
+      "occurrences": 1
+    },
+    {
+      "name": "sort",
+      "occurrences": 1
+    },
+    {
+      "name": "The",
+      "occurrences": 1
+    },
+    {
+      "name": "unset",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "Uses",
+      "occurrences": 1
+    },
+    {
+      "name": "Write",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "usage",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [],
+  "variables": [
+    {
+      "name": "outputFile",
+      "occurrences": 10
+    },
+    {
+      "name": "appName",
+      "occurrences": 6
+    },
+    {
+      "name": "item",
+      "occurrences": 6
+    },
+    {
+      "name": "searchDirs",
+      "occurrences": 4
+    },
+    {
+      "name": "helpText",
+      "occurrences": 3
+    },
+    {
+      "name": "defaultOutputFile",
+      "occurrences": 2
+    },
+    {
+      "name": "FOAM_APPBIN",
+      "occurrences": 2
+    },
+    {
+      "name": "FOAM_USER_APPBIN",
+      "occurrences": 2
+    },
+    {
+      "name": "optHeader",
+      "occurrences": 2
+    },
+    {
+      "name": "argOpts",
+      "occurrences": 1
+    },
+    {
+      "name": "boolOpts",
+      "occurrences": 1
+    },
+    {
+      "name": "choices",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-e",
+      "occurrences": 11
+    },
+    {
+      "name": "-ge",
+      "occurrences": 4
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-d",
+      "occurrences": 2
+    },
+    {
+      "name": "-dir",
+      "occurrences": 2
+    },
+    {
+      "name": "-f",
+      "occurrences": 2
+    },
+    {
+      "name": "-gt",
+      "occurrences": 2
+    },
+    {
+      "name": "-h",
+      "occurrences": 2
+    },
+    {
+      "name": "-o",
+      "occurrences": 2
+    },
+    {
+      "name": "-output",
+      "occurrences": 2
+    },
+    {
+      "name": "-user",
+      "occurrences": 2
+    },
+    {
+      "name": "-w",
+      "occurrences": 2
+    },
+    {
+      "name": "-executable",
+      "occurrences": 1
+    },
+    {
+      "name": "-gA",
+      "occurrences": 1
+    },
+    {
+      "name": "-help-full",
+      "occurrences": 1
+    },
+    {
+      "name": "-maxdepth",
+      "occurrences": 1
+    },
+    {
+      "name": "-n",
+      "occurrences": 1
+    },
+    {
+      "name": "-ne",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-head",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-header",
+      "occurrences": 1
+    },
+    {
+      "name": "-type",
+      "occurrences": 1
+    },
+    {
+      "name": "-v",
+      "occurrences": 1
+    }
+  ]
+}

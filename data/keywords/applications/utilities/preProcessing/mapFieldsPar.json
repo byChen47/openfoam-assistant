@@ -1,0 +1,206 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/preProcessing/mapFieldsPar",
+  "keywordCount": 7,
+  "keywords": [
+    "cuttingPatches",
+    "mapMethod",
+    "patchMap",
+    "patchMapMethod",
+    "procMapMethod",
+    "sourceRegion",
+    "targetRegion"
+  ],
+  "optionCount": 11,
+  "options": [
+    {
+      "keyword": "sourceCase",
+      "optionType": "argument"
+    },
+    {
+      "keyword": "consistent",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-lagrangian",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "subtract",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "fields",
+      "optionType": "option"
+    },
+    {
+      "keyword": "mapMethod",
+      "optionType": "option"
+    },
+    {
+      "keyword": "patchMapMethod",
+      "optionType": "option"
+    },
+    {
+      "keyword": "procMapMethod",
+      "optionType": "option"
+    },
+    {
+      "keyword": "sourceRegion",
+      "optionType": "option"
+    },
+    {
+      "keyword": "sourceTime",
+      "optionType": "option"
+    },
+    {
+      "keyword": "targetRegion",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 321,
+      "keyword": "cuttingPatches",
+      "method": "readEntry",
+      "receiver": "mapFieldsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 247,
+      "keyword": "mapMethod",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 320,
+      "keyword": "patchMap",
+      "method": "readEntry",
+      "receiver": "mapFieldsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 275,
+      "keyword": "patchMapMethod",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 268,
+      "keyword": "procMapMethod",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 225,
+      "keyword": "sourceRegion",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 233,
+      "keyword": "targetRegion",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "consistent",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 169
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "fields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 198
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "mapMethod",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 174
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-lagrangian",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 206
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "patchMapMethod",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 181
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "procMapMethod",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 187
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "argument",
+      "keyword": "sourceCase",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 149
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "sourceRegion",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 157
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "sourceTime",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 151
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "subtract",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 193
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "targetRegion",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/mapFieldsPar/mapFieldsPar.C",
+      "line": 163
+    }
+  ]
+}

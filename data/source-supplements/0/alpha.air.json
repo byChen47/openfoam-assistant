@@ -1,0 +1,44 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "0",
+  "fileKey": "alpha.air",
+  "candidateCount": 2,
+  "candidates": [
+    {
+      "keyword": "thetaProperties",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/thetaProperties",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 3,
+      "sourceTypes": [
+        "alphaContactAngle",
+        "multiphaseEuler::alphaContactAngle"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/multiphaseEuler/multiphaseSystem/derivedFvPatchFields/alphaContactAngle/alphaContactAngleFvPatchScalarField.C:111",
+        "OpenFOAM-v2606/applications/solvers/multiphase/compressibleMultiphaseInterFoam/multiphaseMixtureThermo/alphaContactAngle/alphaContactAngleFvPatchScalarField.C:108",
+        "OpenFOAM-v2606/applications/solvers/multiphase/multiphaseInterFoam/multiphaseMixture/alphaContactAngle/alphaContactAngleFvPatchScalarField.C:108"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "value",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/value",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

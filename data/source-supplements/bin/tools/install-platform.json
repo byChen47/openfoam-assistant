@@ -1,0 +1,384 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/tools/install-platform",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 35
+    },
+    {
+      "name": "unset",
+      "occurrences": 7
+    },
+    {
+      "name": "warnOrDie",
+      "occurrences": 6
+    },
+    {
+      "name": "exit",
+      "occurrences": 4
+    },
+    {
+      "name": "input",
+      "occurrences": 4
+    },
+    {
+      "name": "copy_cmd",
+      "occurrences": 3
+    },
+    {
+      "name": "die",
+      "occurrences": 3
+    },
+    {
+      "name": "i",
+      "occurrences": 3
+    },
+    {
+      "name": "message",
+      "occurrences": 3
+    },
+    {
+      "name": "mkdir_cmd",
+      "occurrences": 3
+    },
+    {
+      "name": "shift",
+      "occurrences": 3
+    },
+    {
+      "name": "value",
+      "occurrences": 2
+    },
+    {
+      "name": "bindir",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "Example",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "exec_prefix",
+      "occurrences": 1
+    },
+    {
+      "name": "foam_mpi",
+      "occurrences": 1
+    },
+    {
+      "name": "general",
+      "occurrences": 1
+    },
+    {
+      "name": "getBoolOption",
+      "occurrences": 1
+    },
+    {
+      "name": "getOptionValue",
+      "occurrences": 1
+    },
+    {
+      "name": "hadError",
+      "occurrences": 1
+    },
+    {
+      "name": "install_mpi",
+      "occurrences": 1
+    },
+    {
+      "name": "libdir",
+      "occurrences": 1
+    },
+    {
+      "name": "libdir_mpi",
+      "occurrences": 1
+    },
+    {
+      "name": "local",
+      "occurrences": 1
+    },
+    {
+      "name": "platform",
+      "occurrences": 1
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    },
+    {
+      "name": "Simple",
+      "occurrences": 1
+    },
+    {
+      "name": "sourceDir",
+      "occurrences": 1
+    },
+    {
+      "name": "sourcePlatform",
+      "occurrences": 1
+    },
+    {
+      "name": "target",
+      "occurrences": 1
+    },
+    {
+      "name": "tuning",
+      "occurrences": 1
+    },
+    {
+      "name": "umask",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "foam_mpi",
+      "occurrences": 1
+    }
+  ],
+  "variables": [
+    {
+      "name": "libdir",
+      "occurrences": 10
+    },
+    {
+      "name": "i",
+      "occurrences": 9
+    },
+    {
+      "name": "bindir",
+      "occurrences": 7
+    },
+    {
+      "name": "libdir_mpi",
+      "occurrences": 7
+    },
+    {
+      "name": "optDryRun",
+      "occurrences": 7
+    },
+    {
+      "name": "foam_mpi",
+      "occurrences": 6
+    },
+    {
+      "name": "input",
+      "occurrences": 6
+    },
+    {
+      "name": "message",
+      "occurrences": 6
+    },
+    {
+      "name": "exec_prefix",
+      "occurrences": 5
+    },
+    {
+      "name": "platform",
+      "occurrences": 5
+    },
+    {
+      "name": "install_mpi",
+      "occurrences": 4
+    },
+    {
+      "name": "mkdir_cmd",
+      "occurrences": 4
+    },
+    {
+      "name": "sourceDir",
+      "occurrences": 4
+    },
+    {
+      "name": "sourcePlatform",
+      "occurrences": 4
+    },
+    {
+      "name": "value",
+      "occurrences": 4
+    },
+    {
+      "name": "copy_cmd",
+      "occurrences": 3
+    },
+    {
+      "name": "FOAM_MPI",
+      "occurrences": 3
+    },
+    {
+      "name": "optVerbose",
+      "occurrences": 3
+    },
+    {
+      "name": "prefix",
+      "occurrences": 3
+    },
+    {
+      "name": "WM_OPTIONS",
+      "occurrences": 3
+    },
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 3
+    },
+    {
+      "name": "hadError",
+      "occurrences": 1
+    },
+    {
+      "name": "install_bin",
+      "occurrences": 1
+    },
+    {
+      "name": "install_lib",
+      "occurrences": 1
+    },
+    {
+      "name": "optMkdir_mpi",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-n",
+      "occurrences": 20
+    },
+    {
+      "name": "-bindir",
+      "occurrences": 3
+    },
+    {
+      "name": "-e",
+      "occurrences": 3
+    },
+    {
+      "name": "-exec-prefix",
+      "occurrences": 3
+    },
+    {
+      "name": "-foam-mpi",
+      "occurrences": 3
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-libdir",
+      "occurrences": 3
+    },
+    {
+      "name": "-mpi-libdir",
+      "occurrences": 3
+    },
+    {
+      "name": "-platform",
+      "occurrences": 3
+    },
+    {
+      "name": "-prefix",
+      "occurrences": 3
+    },
+    {
+      "name": "-source",
+      "occurrences": 3
+    },
+    {
+      "name": "-v",
+      "occurrences": 3
+    },
+    {
+      "name": "-a",
+      "occurrences": 2
+    },
+    {
+      "name": "-d",
+      "occurrences": 2
+    },
+    {
+      "name": "-dry-run",
+      "occurrences": 2
+    },
+    {
+      "name": "-f",
+      "occurrences": 2
+    },
+    {
+      "name": "-force",
+      "occurrences": 2
+    },
+    {
+      "name": "-ge",
+      "occurrences": 2
+    },
+    {
+      "name": "-mpi-mkdir",
+      "occurrences": 2
+    },
+    {
+      "name": "-mpi-only",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-bin",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-lib",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-mpi",
+      "occurrences": 2
+    },
+    {
+      "name": "-p",
+      "occurrences": 2
+    },
+    {
+      "name": "-verbose",
+      "occurrences": 2
+    },
+    {
+      "name": "-z",
+      "occurrences": 2
+    },
+    {
+      "name": "-gt",
+      "occurrences": 1
+    },
+    {
+      "name": "-h",
+      "occurrences": 1
+    },
+    {
+      "name": "-without-",
+      "occurrences": 1
+    }
+  ]
+}

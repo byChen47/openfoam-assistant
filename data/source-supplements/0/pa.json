@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "0",
+  "fileKey": "pa",
+  "candidateCount": 2,
+  "candidates": [
+    {
+      "keyword": "nNonOrthCorr",
+      "context": "__vibrationShell/KirchhoffShellCoeffs",
+      "path": "__vibrationShell/KirchhoffShellCoeffs/nNonOrthCorr",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "KirchhoffShell"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/regionFaModels/KirchhoffShell/KirchhoffShell.C:48"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "solverName",
+      "context": "boundaryField/{patch}",
+      "path": "boundaryField/{patch}/solverName",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "adjointFarFieldPressure",
+        "adjointOutletPressure"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/adjointBoundaryConditions/adjointFarFieldPressure/adjointFarFieldPressureFvPatchScalarField.C:74",
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/adjointBoundaryConditions/adjointOutletPressure/adjointOutletPressureFvPatchScalarField.C:75"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

@@ -1,0 +1,544 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/foamCheckJobs",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 33
+    },
+    {
+      "name": "sed",
+      "occurrences": 10
+    },
+    {
+      "name": "rm",
+      "occurrences": 7
+    },
+    {
+      "name": "awk",
+      "occurrences": 4
+    },
+    {
+      "name": "f",
+      "occurrences": 4
+    },
+    {
+      "name": "machine",
+      "occurrences": 4
+    },
+    {
+      "name": "releaseLock",
+      "occurrences": 4
+    },
+    {
+      "name": "state",
+      "occurrences": 4
+    },
+    {
+      "name": "exit",
+      "occurrences": 3
+    },
+    {
+      "name": "jobs",
+      "occurrences": 3
+    },
+    {
+      "name": "machinePid",
+      "occurrences": 3
+    },
+    {
+      "name": "notEmpty",
+      "occurrences": 3
+    },
+    {
+      "name": "pid",
+      "occurrences": 3
+    },
+    {
+      "name": "cat",
+      "occurrences": 2
+    },
+    {
+      "name": "cnt",
+      "occurrences": 2
+    },
+    {
+      "name": "ECHO",
+      "occurrences": 2
+    },
+    {
+      "name": "getRawEntry",
+      "occurrences": 2
+    },
+    {
+      "name": "grep",
+      "occurrences": 2
+    },
+    {
+      "name": "machFile",
+      "occurrences": 2
+    },
+    {
+      "name": "OLDFILES",
+      "occurrences": 2
+    },
+    {
+      "name": "read",
+      "occurrences": 2
+    },
+    {
+      "name": "releaseAll",
+      "occurrences": 2
+    },
+    {
+      "name": "return",
+      "occurrences": 2
+    },
+    {
+      "name": "STATEFILE",
+      "occurrences": 2
+    },
+    {
+      "name": "usage",
+      "occurrences": 2
+    },
+    {
+      "name": "break",
+      "occurrences": 1
+    },
+    {
+      "name": "date",
+      "occurrences": 1
+    },
+    {
+      "name": "dateNow",
+      "occurrences": 1
+    },
+    {
+      "name": "day1",
+      "occurrences": 1
+    },
+    {
+      "name": "day2",
+      "occurrences": 1
+    },
+    {
+      "name": "dayDiff",
+      "occurrences": 1
+    },
+    {
+      "name": "DEFSTATEFILE",
+      "occurrences": 1
+    },
+    {
+      "name": "end",
+      "occurrences": 1
+    },
+    {
+      "name": "entry",
+      "occurrences": 1
+    },
+    {
+      "name": "expr",
+      "occurrences": 1
+    },
+    {
+      "name": "fgrep",
+      "occurrences": 1
+    },
+    {
+      "name": "file.",
+      "occurrences": 1
+    },
+    {
+      "name": "FILES",
+      "occurrences": 1
+    },
+    {
+      "name": "foamProcessInfo",
+      "occurrences": 1
+    },
+    {
+      "name": "getAllJobs",
+      "occurrences": 1
+    },
+    {
+      "name": "getEntry",
+      "occurrences": 1
+    },
+    {
+      "name": "information",
+      "occurrences": 1
+    },
+    {
+      "name": "line",
+      "occurrences": 1
+    },
+    {
+      "name": "lock",
+      "occurrences": 1
+    },
+    {
+      "name": "MACHDIR",
+      "occurrences": 1
+    },
+    {
+      "name": "mkdir",
+      "occurrences": 1
+    },
+    {
+      "name": "mv",
+      "occurrences": 1
+    },
+    {
+      "name": "NDAYSLIMIT",
+      "occurrences": 1
+    },
+    {
+      "name": "nDaysOld",
+      "occurrences": 1
+    },
+    {
+      "name": "nOldFiles",
+      "occurrences": 1
+    },
+    {
+      "name": "Note",
+      "occurrences": 1
+    },
+    {
+      "name": "nYears",
+      "occurrences": 1
+    },
+    {
+      "name": "RSH",
+      "occurrences": 1
+    },
+    {
+      "name": "RUNJOBS",
+      "occurrences": 1
+    },
+    {
+      "name": "Script",
+      "occurrences": 1
+    },
+    {
+      "name": "slaveJobs",
+      "occurrences": 1
+    },
+    {
+      "name": "sz",
+      "occurrences": 1
+    },
+    {
+      "name": "the",
+      "occurrences": 1
+    },
+    {
+      "name": "The",
+      "occurrences": 1
+    },
+    {
+      "name": "their",
+      "occurrences": 1
+    },
+    {
+      "name": "This",
+      "occurrences": 1
+    },
+    {
+      "name": "tmp1",
+      "occurrences": 1
+    },
+    {
+      "name": "tmp2",
+      "occurrences": 1
+    },
+    {
+      "name": "TMPFILE",
+      "occurrences": 1
+    },
+    {
+      "name": "touch",
+      "occurrences": 1
+    },
+    {
+      "name": "true",
+      "occurrences": 1
+    },
+    {
+      "name": "Usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "wc",
+      "occurrences": 1
+    },
+    {
+      "name": "year1",
+      "occurrences": 1
+    },
+    {
+      "name": "year2",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "dayDiff",
+      "occurrences": 1
+    },
+    {
+      "name": "getAllJobs",
+      "occurrences": 1
+    },
+    {
+      "name": "getEntry",
+      "occurrences": 1
+    },
+    {
+      "name": "getRawEntry",
+      "occurrences": 1
+    },
+    {
+      "name": "notEmpty",
+      "occurrences": 1
+    },
+    {
+      "name": "releaseLock",
+      "occurrences": 1
+    },
+    {
+      "name": "usage",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "foamProcessInfo",
+      "occurrences": 1
+    }
+  ],
+  "variables": [
+    {
+      "name": "FOAM_JOB_DIR",
+      "occurrences": 13
+    },
+    {
+      "name": "machinePid",
+      "occurrences": 13
+    },
+    {
+      "name": "machFile",
+      "occurrences": 11
+    },
+    {
+      "name": "f",
+      "occurrences": 10
+    },
+    {
+      "name": "machine",
+      "occurrences": 10
+    },
+    {
+      "name": "TMPFILE",
+      "occurrences": 7
+    },
+    {
+      "name": "STATEFILE",
+      "occurrences": 6
+    },
+    {
+      "name": "Script",
+      "occurrences": 5
+    },
+    {
+      "name": "MACHDIR",
+      "occurrences": 4
+    },
+    {
+      "name": "answ",
+      "occurrences": 3
+    },
+    {
+      "name": "HOME",
+      "occurrences": 3
+    },
+    {
+      "name": "jobs",
+      "occurrences": 3
+    },
+    {
+      "name": "NDAYSLIMIT",
+      "occurrences": 3
+    },
+    {
+      "name": "OLDFILES",
+      "occurrences": 3
+    },
+    {
+      "name": "RSH",
+      "occurrences": 3
+    },
+    {
+      "name": "state",
+      "occurrences": 3
+    },
+    {
+      "name": "cnt",
+      "occurrences": 2
+    },
+    {
+      "name": "end",
+      "occurrences": 2
+    },
+    {
+      "name": "entry",
+      "occurrences": 2
+    },
+    {
+      "name": "nOldFiles",
+      "occurrences": 2
+    },
+    {
+      "name": "RUNJOBS",
+      "occurrences": 2
+    },
+    {
+      "name": "dateNow",
+      "occurrences": 1
+    },
+    {
+      "name": "day1",
+      "occurrences": 1
+    },
+    {
+      "name": "day2",
+      "occurrences": 1
+    },
+    {
+      "name": "DEFSTATEFILE",
+      "occurrences": 1
+    },
+    {
+      "name": "ECHO",
+      "occurrences": 1
+    },
+    {
+      "name": "line",
+      "occurrences": 1
+    },
+    {
+      "name": "nDaysOld",
+      "occurrences": 1
+    },
+    {
+      "name": "nYears",
+      "occurrences": 1
+    },
+    {
+      "name": "pid",
+      "occurrences": 1
+    },
+    {
+      "name": "releaseAll",
+      "occurrences": 1
+    },
+    {
+      "name": "slaveJobs",
+      "occurrences": 1
+    },
+    {
+      "name": "sz",
+      "occurrences": 1
+    },
+    {
+      "name": "tmp1",
+      "occurrences": 1
+    },
+    {
+      "name": "tmp2",
+      "occurrences": 1
+    },
+    {
+      "name": "year1",
+      "occurrences": 1
+    },
+    {
+      "name": "year2",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-e",
+      "occurrences": 15
+    },
+    {
+      "name": "-f",
+      "occurrences": 7
+    },
+    {
+      "name": "-d",
+      "occurrences": 6
+    },
+    {
+      "name": "-ne",
+      "occurrences": 4
+    },
+    {
+      "name": "-gt",
+      "occurrences": 3
+    },
+    {
+      "name": "-o",
+      "occurrences": 3
+    },
+    {
+      "name": "-s",
+      "occurrences": 3
+    },
+    {
+      "name": "-r",
+      "occurrences": 2
+    },
+    {
+      "name": "-eq",
+      "occurrences": 1
+    },
+    {
+      "name": "-help",
+      "occurrences": 1
+    },
+    {
+      "name": "-mtime",
+      "occurrences": 1
+    },
+    {
+      "name": "-n",
+      "occurrences": 1
+    },
+    {
+      "name": "-p",
+      "occurrences": 1
+    },
+    {
+      "name": "-print",
+      "occurrences": 1
+    },
+    {
+      "name": "-v",
+      "occurrences": 1
+    },
+    {
+      "name": "-w",
+      "occurrences": 1
+    }
+  ]
+}

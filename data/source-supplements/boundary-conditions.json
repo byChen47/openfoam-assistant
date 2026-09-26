@@ -1,0 +1,2281 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "conditionCount": 148,
+  "conditions": [
+    {
+      "typeName": "acousticWaveTransmissive",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/acousticWaveTransmissive/acousticWaveTransmissiveFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "activeBaffleVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activeBaffleVelocity/activeBaffleVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activeBaffleVelocity/activeBaffleVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "cyclicPatch",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activeBaffleVelocity/activeBaffleVelocityFvPatchVectorField.cxx:93"
+          ]
+        },
+        {
+          "keyword": "maxOpenFractionDelta",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activeBaffleVelocity/activeBaffleVelocityFvPatchVectorField.cxx:108"
+          ]
+        },
+        {
+          "keyword": "openFraction",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activeBaffleVelocity/activeBaffleVelocityFvPatchVectorField.cxx:106"
+          ]
+        },
+        {
+          "keyword": "openingTime",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activeBaffleVelocity/activeBaffleVelocityFvPatchVectorField.cxx:107"
+          ]
+        },
+        {
+          "keyword": "orientation",
+          "method": "get<label>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activeBaffleVelocity/activeBaffleVelocityFvPatchVectorField.cxx:95"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "activePressureForceBaffleVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "cyclicPatch",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:99"
+          ]
+        },
+        {
+          "keyword": "forceBased",
+          "method": "get<bool>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:109"
+          ]
+        },
+        {
+          "keyword": "maxOpenFractionDelta",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:106"
+          ]
+        },
+        {
+          "keyword": "minThresholdValue",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:108"
+          ]
+        },
+        {
+          "keyword": "openFraction",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:104"
+          ]
+        },
+        {
+          "keyword": "opening",
+          "method": "get<bool>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:111"
+          ]
+        },
+        {
+          "keyword": "openingTime",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:105"
+          ]
+        },
+        {
+          "keyword": "p",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/activePressureForceBaffleVelocity/activePressureForceBaffleVelocityFvPatchVectorField.cxx:126"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "advective",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/advective/advectiveFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "angularOscillatingDisplacement",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingDisplacement/angularOscillatingDisplacementPointPatchVectorField.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "amplitude",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingDisplacement/angularOscillatingDisplacementPointPatchVectorField.cxx:70"
+          ]
+        },
+        {
+          "keyword": "angle0",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingDisplacement/angularOscillatingDisplacementPointPatchVectorField.cxx:69"
+          ]
+        },
+        {
+          "keyword": "axis",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingDisplacement/angularOscillatingDisplacementPointPatchVectorField.cxx:67"
+          ]
+        },
+        {
+          "keyword": "omega",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingDisplacement/angularOscillatingDisplacementPointPatchVectorField.cxx:71"
+          ]
+        },
+        {
+          "keyword": "origin",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingDisplacement/angularOscillatingDisplacementPointPatchVectorField.cxx:68"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "angularOscillatingVelocity",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingVelocity/angularOscillatingVelocityPointPatchVectorField.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "amplitude",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingVelocity/angularOscillatingVelocityPointPatchVectorField.cxx:70"
+          ]
+        },
+        {
+          "keyword": "angle0",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingVelocity/angularOscillatingVelocityPointPatchVectorField.cxx:69"
+          ]
+        },
+        {
+          "keyword": "axis",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingVelocity/angularOscillatingVelocityPointPatchVectorField.cxx:67"
+          ]
+        },
+        {
+          "keyword": "omega",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingVelocity/angularOscillatingVelocityPointPatchVectorField.cxx:71"
+          ]
+        },
+        {
+          "keyword": "origin",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/angularOscillatingVelocity/angularOscillatingVelocityPointPatchVectorField.cxx:68"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "calculated",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/calculated/calculatedFvPatchField.H",
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/basic/calculated/calculatedPointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "calculatedProcessor",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/constraint/calculatedProcessor/calculatedProcessorFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "codedFixedValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/codedFixedValue/codedFixedValueFvPatchField.H",
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/derived/codedFixedValue/codedFixedValuePointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "codedMixed",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/codedMixed/codedMixedFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "cylindricalInletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/cylindricalInletVelocity/cylindricalInletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/cylindricalInletVelocity/cylindricalInletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "axis",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/cylindricalInletVelocity/cylindricalInletVelocityFvPatchVectorField.cxx:82"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "directionMixed",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "eddy",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddy.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddy.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "eddyI",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddyI.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "eddyIO",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddyIO.cxx"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "edgeSlipDisplacement",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/edgeSlipDisplacement/edgeSlipDisplacementPointPatchVectorField.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "file",
+          "method": "get<fileName>",
+          "receiver": "dict",
+          "occurrences": 2,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/edgeSlipDisplacement/edgeSlipDisplacementPointPatchVectorField.cxx:45",
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/edgeSlipDisplacement/edgeSlipDisplacementPointPatchVectorField.cxx:221"
+          ]
+        },
+        {
+          "keyword": "velocity",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/edgeSlipDisplacement/edgeSlipDisplacementPointPatchVectorField.cxx:220"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "electrostaticDeposition",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/electrostaticDeposition/electrostaticDepositionFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/electrostaticDeposition/electrostaticDepositionFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "exprFixedValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/expressions/fields/fvPatchFields/exprFixedValueFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "exprMixed",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/expressions/fields/fvPatchFields/exprMixedFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "exprValue",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/expressions/fields/pointPatchFields/exprValuePointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "extrapolatedCalculated",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fan",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fan/fanFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fanPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fanPressure/fanPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fanPressure/fanPressureFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedFluxExtrapolatedPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedFluxExtrapolatedPressure/fixedFluxExtrapolatedPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedFluxExtrapolatedPressure/fixedFluxExtrapolatedPressureFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedFluxPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedFluxPressure/fixedFluxPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedFluxPressure/fixedFluxPressureFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedGradient",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedInternalValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedInternalValueFvPatchField/fixedInternalValueFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedJump",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedJumpAMI",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedJumpAMI/fixedJumpAMIFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedMean",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedMean/fixedMeanFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedMeanOutletInlet",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedMeanOutletInlet/fixedMeanOutletInletFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedNormalInletOutletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedNormalInletOutletVelocity/fixedNormalInletOutletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedNormalInletOutletVelocity/fixedNormalInletOutletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "fixTangentialInflow",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedNormalInletOutletVelocity/fixedNormalInletOutletVelocityFvPatchVectorField.cxx:68"
+          ]
+        },
+        {
+          "keyword": "normalVelocity",
+          "method": "subDict",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedNormalInletOutletVelocity/fixedNormalInletOutletVelocityFvPatchVectorField.cxx:71"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "fixedNormalSlip",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedNormalSlip/fixedNormalSlipFvPatchField.H",
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/derived/fixedNormalSlip/fixedNormalSlipPointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedPressureCompressibleDensity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedPressureCompressibleDensity/fixedPressureCompressibleDensityFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedPressureCompressibleDensity/fixedPressureCompressibleDensityFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedProfile",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fixedProfile/fixedProfileFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fixedValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H",
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "flowRateInletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/flowRateInletVelocity/flowRateInletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/flowRateInletVelocity/flowRateInletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "rho",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/flowRateInletVelocity/flowRateInletVelocityFvPatchVectorField.cxx:80"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "flowRateOutletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/flowRateOutletVelocity/flowRateOutletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/flowRateOutletVelocity/flowRateOutletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "rho",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/flowRateOutletVelocity/flowRateOutletVelocityFvPatchVectorField.cxx:74"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "fluxCorrectedVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fluxCorrectedVelocity/fluxCorrectedVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/fluxCorrectedVelocity/fluxCorrectedVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "freestream",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/freestream/freestreamFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "freestreamPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/freestreamPressure/freestreamPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/freestreamPressure/freestreamPressureFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "freestreamVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/freestreamVelocity/freestreamVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/freestreamVelocity/freestreamVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fvPatchField",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fvPatchFieldBase",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldBase.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "patchType",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldBase.cxx:108"
+          ]
+        },
+        {
+          "keyword": "useImplicit",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldBase.cxx:109"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "fvPatchFieldDoc",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/doc/fvPatchFieldDoc.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fvPatchFieldMacros",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMacros.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fvPatchFieldMapper",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fvPatchFields",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "fvPatchFieldsFwd",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/fvPatchField/fvPatchFieldsFwd.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "inletOutlet",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "inletOutletTotalTemperature",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/inletOutletTotalTemperature/inletOutletTotalTemperatureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/inletOutletTotalTemperature/inletOutletTotalTemperatureFvPatchScalarField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "gamma",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/inletOutletTotalTemperature/inletOutletTotalTemperatureFvPatchScalarField.cxx:84"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "IntegralScaleBox",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDigitalFilterInlet/IntegralScaleBox/IntegralScaleBox.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "interfaceCompression",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/interfaceCompression/interfaceCompressionFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/interfaceCompression/interfaceCompressionFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "interstitialInletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/interstitialInletVelocity/interstitialInletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/interstitialInletVelocity/interstitialInletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "jumpCyclic",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/constraint/jumpCyclic/jumpCyclicFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "jumpCyclicAMI",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/constraint/jumpCyclicAMI/jumpCyclicAMIFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "lumpedPointDisplacement",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/lumpedPointMotion/pointPatchFields/lumpedPointDisplacementPointPatchVectorField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "controllers",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/lumpedPointMotion/pointPatchFields/lumpedPointDisplacementPointPatchVectorField.C:230"
+          ]
+        },
+        {
+          "keyword": "dataWritten",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/lumpedPointMotion/pointPatchFields/lumpedPointDisplacementPointPatchVectorField.C:232"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "makeSampledPatchFunction1s",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedField/Sampled/makeSampledPatchFunction1s.cxx"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "mapped",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedFixedValue/mappedFixedValueFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "mappedField",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedField/mappedFieldFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "mappedFixedInternalValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedFixedInternalValue/mappedFixedInternalValueFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "mappedFixedPushedInternalValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedFixedPushedInternalValue/mappedFixedPushedInternalValueFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "mappedFlowRate",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedFlowRate/mappedFlowRateFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedFlowRate/mappedFlowRateFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "mappedMixed",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedMixed/mappedMixedFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "mappedMixedField",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedField/mappedMixedFieldFvPatchField/mappedMixedFieldFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "mappedPatchFieldBase",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedField/mappedPatchFieldBase.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "mappedVelocityFlux",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedVelocityFluxFixedValue/mappedVelocityFluxFixedValueFvPatchField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedVelocityFluxFixedValue/mappedVelocityFluxFixedValueFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "matchedFlowRateOutletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/matchedFlowRateOutletVelocity/matchedFlowRateOutletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/matchedFlowRateOutletVelocity/matchedFlowRateOutletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "inletPatch",
+          "method": "get<word>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/matchedFlowRateOutletVelocity/matchedFlowRateOutletVelocityFvPatchVectorField.cxx:59"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "mixed",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "movingWallVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/movingWallVelocity/movingWallVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/movingWallVelocity/movingWallVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "noSlip",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/noSlip/noSlipFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/noSlip/noSlipFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "oscillatingDisplacement",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "amplitude",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.cxx:63"
+          ]
+        },
+        {
+          "keyword": "omega",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.cxx:64"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "oscillatingVelocity",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingVelocity/oscillatingVelocityPointPatchVectorField.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "amplitude",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingVelocity/oscillatingVelocityPointPatchVectorField.cxx:64"
+          ]
+        },
+        {
+          "keyword": "omega",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/oscillatingVelocity/oscillatingVelocityPointPatchVectorField.cxx:65"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "outletInlet",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletInlet/outletInletFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "outletMappedUniformInlet",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletMappedUniformInlet/outletMappedUniformInletFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "outletPhaseMeanVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "alpha",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.cxx:79"
+          ]
+        },
+        {
+          "keyword": "Umean",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/outletPhaseMeanVelocity/outletPhaseMeanVelocityFvPatchVectorField.cxx:78"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "partialSlip",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/partialSlip/partialSlipFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "permeableAlphaPressureInletOutletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePermeableAlphaInletOutletVelocity/pressurePermeableAlphaInletOutletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePermeableAlphaInletOutletVelocity/pressurePermeableAlphaInletOutletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "phaseHydrostaticPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/phaseHydrostaticPressure/phaseHydrostaticPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/phaseHydrostaticPressure/phaseHydrostaticPressureFvPatchScalarField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "pRefPoint",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/phaseHydrostaticPressure/phaseHydrostaticPressureFvPatchScalarField.cxx:69"
+          ]
+        },
+        {
+          "keyword": "pRefValue",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/phaseHydrostaticPressure/phaseHydrostaticPressureFvPatchScalarField.cxx:68"
+          ]
+        },
+        {
+          "keyword": "rho",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/phaseHydrostaticPressure/phaseHydrostaticPressureFvPatchScalarField.cxx:67"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "plenumPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "gamma",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx:72"
+          ]
+        },
+        {
+          "keyword": "inletAreaRatio",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx:83"
+          ]
+        },
+        {
+          "keyword": "inletDischargeCoefficient",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx:84"
+          ]
+        },
+        {
+          "keyword": "plenumDensity",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx:77"
+          ]
+        },
+        {
+          "keyword": "plenumTemperature",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx:79"
+          ]
+        },
+        {
+          "keyword": "plenumVolume",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx:76"
+          ]
+        },
+        {
+          "keyword": "R",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx:73"
+          ]
+        },
+        {
+          "keyword": "rho",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx:90"
+          ]
+        },
+        {
+          "keyword": "supplyMassFlowRate",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx:74"
+          ]
+        },
+        {
+          "keyword": "supplyTotalTemperature",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/plenumPressure/plenumPressureFvPatchScalarField.cxx:75"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "pointAttraction",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/pointAttractionDisplacement/pointAttractionDisplacementPointPatchVectorField.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "file",
+          "method": "get<fileName>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/pointAttractionDisplacement/pointAttractionDisplacementPointPatchVectorField.cxx:155"
+          ]
+        },
+        {
+          "keyword": "velocity",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/pointAttractionDisplacement/pointAttractionDisplacementPointPatchVectorField.cxx:154"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "pointConstraint",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.cxx",
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pointConstraintI",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraintI.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pointPatchField",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pointPatchFieldBase",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldBase.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "patchType",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldBase.cxx:102"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "pointPatchFieldFunctions",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldFunctions.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pointPatchFieldMacros",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMacros.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pointPatchFieldMapper",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pointPatchFieldMapperPatchRef",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldMapperPatchRef.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pointPatchFields",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.cxx",
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFields.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pointPatchFieldsFwd",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/pointPatchField/pointPatchFieldsFwd.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pressureDirectedInletOutletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureDirectedInletOutletVelocity/pressureDirectedInletOutletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureDirectedInletOutletVelocity/pressureDirectedInletOutletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pressureDirectedInletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureDirectedInletVelocity/pressureDirectedInletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureDirectedInletVelocity/pressureDirectedInletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pressureInletOutletParSlipVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureInletOutletParSlipVelocity/pressureInletOutletParSlipVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureInletOutletParSlipVelocity/pressureInletOutletParSlipVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pressureInletOutletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureInletOutletVelocity/pressureInletOutletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureInletOutletVelocity/pressureInletOutletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pressureInletUniformVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureInletUniformVelocity/pressureInletUniformVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureInletUniformVelocity/pressureInletUniformVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pressureInletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureInletVelocity/pressureInletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureInletVelocity/pressureInletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pressureNormalInletOutletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureNormalInletOutletVelocity/pressureNormalInletOutletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressureNormalInletOutletVelocity/pressureNormalInletOutletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "pressurePIDControlInletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "D",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:143"
+          ]
+        },
+        {
+          "keyword": "deltaP",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:136"
+          ]
+        },
+        {
+          "keyword": "downstream",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:135"
+          ]
+        },
+        {
+          "keyword": "I",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:142"
+          ]
+        },
+        {
+          "keyword": "P",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:141"
+          ]
+        },
+        {
+          "keyword": "upstream",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.cxx:134"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "prghPermeableAlphaTotalPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/prghPermeableAlphaTotalPressure/prghPermeableAlphaTotalPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/prghPermeableAlphaTotalPressure/prghPermeableAlphaTotalPressureFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "prghPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/prghPressure/prghPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/prghPressure/prghPressureFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "prghTotalHydrostaticPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/prghTotalHydrostaticPressure/prghTotalHydrostaticPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/prghTotalHydrostaticPressure/prghTotalHydrostaticPressureFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "prghTotalPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/prghTotalPressure/prghTotalPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/prghTotalPressure/prghTotalPressureFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "rotatingPressureInletOutletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingPressureInletOutletVelocity/rotatingPressureInletOutletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingPressureInletOutletVelocity/rotatingPressureInletOutletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "rotatingTotalPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingTotalPressure/rotatingTotalPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingTotalPressure/rotatingTotalPressureFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "rotatingWallVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingWallVelocity/rotatingWallVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingWallVelocity/rotatingWallVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "axis",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingWallVelocity/rotatingWallVelocityFvPatchVectorField.cxx:60"
+          ]
+        },
+        {
+          "keyword": "origin",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/rotatingWallVelocity/rotatingWallVelocityFvPatchVectorField.cxx:59"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "sampled",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/mappedField/Sampled/Sampled.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "scaledFixedValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/scaledFixedValue/scaledFixedValueFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "sixDoFRigidBodyDisplacement",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/pointPatchFields/derived/sixDoFRigidBodyDisplacement/sixDoFRigidBodyDisplacementPointPatchVectorField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "g",
+          "method": "readIfPresent",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/pointPatchFields/derived/sixDoFRigidBodyDisplacement/sixDoFRigidBodyDisplacementPointPatchVectorField.C:84"
+          ]
+        },
+        {
+          "keyword": "rhoInf",
+          "method": "readEntry",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/pointPatchFields/derived/sixDoFRigidBodyDisplacement/sixDoFRigidBodyDisplacementPointPatchVectorField.C:81"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "sliced",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/sliced/slicedFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "slip",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/slip/slipFvPatchField.H",
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/derived/slip/slipPointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "supersonicFreestream",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "gamma",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:73"
+          ]
+        },
+        {
+          "keyword": "pInf",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:71"
+          ]
+        },
+        {
+          "keyword": "TInf",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:72"
+          ]
+        },
+        {
+          "keyword": "UInf",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/supersonicFreestream/supersonicFreestreamFvPatchVectorField.cxx:70"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "surfaceDisplacement",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "geometry",
+          "method": "subDict",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.cxx:324"
+          ]
+        },
+        {
+          "keyword": "projectDirection",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.cxx:329"
+          ]
+        },
+        {
+          "keyword": "velocity",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.cxx:323"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "surfaceNormalFixedValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/surfaceNormalFixedValue/surfaceNormalFixedValueFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/surfaceNormalFixedValue/surfaceNormalFixedValueFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "surfaceSlipDisplacement",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "geometry",
+          "method": "subDict",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.cxx:326"
+          ]
+        },
+        {
+          "keyword": "projectDirection",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.cxx:331"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "swirlFanVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/swirlFanVelocity/swirlFanVelocityFvPatchField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/swirlFanVelocity/swirlFanVelocityFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "swirlFlowRateInletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/swirlFlowRateInletVelocity/swirlFlowRateInletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/swirlFlowRateInletVelocity/swirlFlowRateInletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "swirlInletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/swirlInletVelocity/swirlInletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/swirlInletVelocity/swirlInletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "axis",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/swirlInletVelocity/swirlInletVelocityFvPatchVectorField.cxx:78"
+          ]
+        },
+        {
+          "keyword": "origin",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/swirlInletVelocity/swirlInletVelocityFvPatchVectorField.cxx:77"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "syringePressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "ams",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx:66"
+          ]
+        },
+        {
+          "keyword": "Ap",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx:57"
+          ]
+        },
+        {
+          "keyword": "psi",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx:65"
+          ]
+        },
+        {
+          "keyword": "psI",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx:64"
+          ]
+        },
+        {
+          "keyword": "Sp",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx:58"
+          ]
+        },
+        {
+          "keyword": "tae",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx:61"
+          ]
+        },
+        {
+          "keyword": "tas",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx:60"
+          ]
+        },
+        {
+          "keyword": "tde",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx:63"
+          ]
+        },
+        {
+          "keyword": "tds",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx:62"
+          ]
+        },
+        {
+          "keyword": "VsI",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/syringePressure/syringePressureFvPatchScalarField.cxx:59"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "timeVaryingMappedFixedValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValueFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "timeVaryingUniformFixedValue",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/derived/timeVaryingUniformFixedValue/timeVaryingUniformFixedValuePointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "totalPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "gamma",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.cxx:66"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "totalTemperature",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/totalTemperature/totalTemperatureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/totalTemperature/totalTemperatureFvPatchScalarField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "gamma",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/totalTemperature/totalTemperatureFvPatchScalarField.cxx:80"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "transform",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/transform/transformFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "translatingWallVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/translatingWallVelocity/translatingWallVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/translatingWallVelocity/translatingWallVelocityFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "turbulentDFSEMInlet",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDFSEMInlet/turbulentDFSEMInletFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDFSEMInlet/turbulentDFSEMInletFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "turbulentDigitalFilterInlet",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentDigitalFilterInlet/turbulentDigitalFilterInletFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "turbulentInlet",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentInlet/turbulentInletFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "turbulentIntensityKineticEnergyInlet",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentIntensityKineticEnergyInlet/turbulentIntensityKineticEnergyInletFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentIntensityKineticEnergyInlet/turbulentIntensityKineticEnergyInletFvPatchScalarField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "intensity",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/turbulentIntensityKineticEnergyInlet/turbulentIntensityKineticEnergyInletFvPatchScalarField.cxx:76"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "uniformDensityHydrostaticPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformDensityHydrostaticPressure/uniformDensityHydrostaticPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformDensityHydrostaticPressure/uniformDensityHydrostaticPressureFvPatchScalarField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "pRefPoint",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformDensityHydrostaticPressure/uniformDensityHydrostaticPressureFvPatchScalarField.cxx:62"
+          ]
+        },
+        {
+          "keyword": "pRefValue",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformDensityHydrostaticPressure/uniformDensityHydrostaticPressureFvPatchScalarField.cxx:61"
+          ]
+        },
+        {
+          "keyword": "rho",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformDensityHydrostaticPressure/uniformDensityHydrostaticPressureFvPatchScalarField.cxx:60"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "uniformFixedGradient",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformFixedGradient/uniformFixedGradientFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "uniformFixedValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformFixedValue/uniformFixedValueFvPatchField.H",
+        "OpenFOAM-v2606/src/meshTools/fields/pointPatchFields/uniformFixedValue/uniformFixedValuePointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "uniformInletOutlet",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformInletOutlet/uniformInletOutletFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "uniformInterpolatedDisplacement",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/uniformInterpolatedDisplacement/uniformInterpolatedDisplacementPointPatchVectorField.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "field",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/uniformInterpolatedDisplacement/uniformInterpolatedDisplacementPointPatchVectorField.cxx:65"
+          ]
+        },
+        {
+          "keyword": "interpolationScheme",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/uniformInterpolatedDisplacement/uniformInterpolatedDisplacementPointPatchVectorField.cxx:66"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "uniformJump",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformJump/uniformJumpFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "uniformJumpAMI",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformJumpAMI/uniformJumpAMIFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "uniformMixed",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformMixed/uniformMixedFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "uniformNormalFixedValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformNormalFixedValue/uniformNormalFixedValueFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformNormalFixedValue/uniformNormalFixedValueFvPatchVectorField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "uniformTotalPressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformTotalPressure/uniformTotalPressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformTotalPressure/uniformTotalPressureFvPatchScalarField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "gamma",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/uniformTotalPressure/uniformTotalPressureFvPatchScalarField.cxx:67"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "value",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/basic/value/valuePointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "variableHeightFlowRate",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/variableHeightFlowRate/variableHeightFlowRateFvPatchField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/variableHeightFlowRate/variableHeightFlowRateFvPatchField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "lowerBound",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/variableHeightFlowRate/variableHeightFlowRateFvPatchField.cxx:81"
+          ]
+        },
+        {
+          "keyword": "upperBound",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/variableHeightFlowRate/variableHeightFlowRateFvPatchField.cxx:82"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "variableHeightFlowRateInletVelocity",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/variableHeightFlowRateInletVelocity/variableHeightFlowRateInletVelocityFvPatchVectorField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/variableHeightFlowRateInletVelocity/variableHeightFlowRateInletVelocityFvPatchVectorField.H"
+      ],
+      "keywords": [
+        {
+          "keyword": "alpha",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/variableHeightFlowRateInletVelocity/variableHeightFlowRateInletVelocityFvPatchVectorField.cxx:58"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "waveDisplacement",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/waveDisplacement/waveDisplacementPointPatchVectorField.cxx"
+      ],
+      "keywords": [
+        {
+          "keyword": "amplitude",
+          "method": "lookup",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/waveDisplacement/waveDisplacementPointPatchVectorField.cxx:60"
+          ]
+        },
+        {
+          "keyword": "omega",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/fvMotionSolver/pointPatchFields/derived/waveDisplacement/waveDisplacementPointPatchVectorField.cxx:61"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "waveMaker",
+      "patchKind": "pointPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C"
+      ],
+      "keywords": [
+        {
+          "keyword": "initialDepth",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:173"
+          ]
+        },
+        {
+          "keyword": "n",
+          "method": "get<vector>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:171"
+          ]
+        },
+        {
+          "keyword": "rampTime",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:186"
+          ]
+        },
+        {
+          "keyword": "waveHeight",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:175"
+          ]
+        },
+        {
+          "keyword": "wavePeriod",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:174"
+          ]
+        },
+        {
+          "keyword": "wavePhase",
+          "method": "get<scalar>",
+          "receiver": "dict",
+          "occurrences": 1,
+          "examples": [
+            "OpenFOAM-v2606/src/waveModels/derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.C:176"
+          ]
+        }
+      ]
+    },
+    {
+      "typeName": "waveSurfacePressure",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/waveSurfacePressure/waveSurfacePressureFvPatchScalarField.cxx",
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/waveSurfacePressure/waveSurfacePressureFvPatchScalarField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "waveTransmissive",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/derived/waveTransmissive/waveTransmissiveFvPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "zeroGradient",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H",
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/basic/zeroGradient/zeroGradientPointPatchField.H"
+      ],
+      "keywords": []
+    },
+    {
+      "typeName": "zeroValue",
+      "patchKind": "fvPatchField",
+      "sourceFiles": [
+        "OpenFOAM-v2606/src/finiteVolume/fields/fvPatchFields/basic/zeroValue/zeroValueFvPatchField.H",
+        "OpenFOAM-v2606/src/OpenFOAM/fields/pointPatchFields/basic/zeroValue/zeroValuePointPatchField.H"
+      ],
+      "keywords": []
+    }
+  ]
+}

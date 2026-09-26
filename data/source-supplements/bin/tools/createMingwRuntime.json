@@ -1,0 +1,628 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/tools/createMingwRuntime",
+  "shebang": "#!/bin/bash",
+  "commands": [
+    {
+      "name": "echo",
+      "occurrences": 55
+    },
+    {
+      "name": "rsync",
+      "occurrences": 9
+    },
+    {
+      "name": "tarName",
+      "occurrences": 8
+    },
+    {
+      "name": "archiveCommand",
+      "occurrences": 6
+    },
+    {
+      "name": "archiveSuffix",
+      "occurrences": 6
+    },
+    {
+      "name": "other",
+      "occurrences": 6
+    },
+    {
+      "name": "die",
+      "occurrences": 5
+    },
+    {
+      "name": "exit",
+      "occurrences": 5
+    },
+    {
+      "name": "compress",
+      "occurrences": 4
+    },
+    {
+      "name": "prefixDir",
+      "occurrences": 4
+    },
+    {
+      "name": "unset",
+      "occurrences": 4
+    },
+    {
+      "name": "cp",
+      "occurrences": 3
+    },
+    {
+      "name": "mkdir",
+      "occurrences": 3
+    },
+    {
+      "name": "outputDir",
+      "occurrences": 3
+    },
+    {
+      "name": "shift",
+      "occurrences": 3
+    },
+    {
+      "name": "break",
+      "occurrences": 2
+    },
+    {
+      "name": "cd",
+      "occurrences": 2
+    },
+    {
+      "name": "cleanTarName",
+      "occurrences": 2
+    },
+    {
+      "name": "continue",
+      "occurrences": 2
+    },
+    {
+      "name": "expectedBuildPlatform",
+      "occurrences": 2
+    },
+    {
+      "name": "miscFiles",
+      "occurrences": 2
+    },
+    {
+      "name": "name",
+      "occurrences": 2
+    },
+    {
+      "name": "newName",
+      "occurrences": 2
+    },
+    {
+      "name": "packageApi",
+      "occurrences": 2
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 2
+    },
+    {
+      "name": "sed",
+      "occurrences": 2
+    },
+    {
+      "name": "targetPlatform",
+      "occurrences": 2
+    },
+    {
+      "name": "versionSeparator",
+      "occurrences": 2
+    },
+    {
+      "name": "withPatchNum",
+      "occurrences": 2
+    },
+    {
+      "name": "api",
+      "occurrences": 1
+    },
+    {
+      "name": "binDir",
+      "occurrences": 1
+    },
+    {
+      "name": "buildPlatform",
+      "occurrences": 1
+    },
+    {
+      "name": "bz2",
+      "occurrences": 1
+    },
+    {
+      "name": "bzip",
+      "occurrences": 1
+    },
+    {
+      "name": "bzip2",
+      "occurrences": 1
+    },
+    {
+      "name": "cat",
+      "occurrences": 1
+    },
+    {
+      "name": "compOptions",
+      "occurrences": 1
+    },
+    {
+      "name": "configEtcDir",
+      "occurrences": 1
+    },
+    {
+      "name": "ending",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "file",
+      "occurrences": 1
+    },
+    {
+      "name": "finalOutput",
+      "occurrences": 1
+    },
+    {
+      "name": "fullpath",
+      "occurrences": 1
+    },
+    {
+      "name": "git",
+      "occurrences": 1
+    },
+    {
+      "name": "gzip",
+      "occurrences": 1
+    },
+    {
+      "name": "libDir",
+      "occurrences": 1
+    },
+    {
+      "name": "no",
+      "occurrences": 1
+    },
+    {
+      "name": "none",
+      "occurrences": 1
+    },
+    {
+      "name": "options",
+      "occurrences": 1
+    },
+    {
+      "name": "Pack",
+      "occurrences": 1
+    },
+    {
+      "name": "patch",
+      "occurrences": 1
+    },
+    {
+      "name": "pwd",
+      "occurrences": 1
+    },
+    {
+      "name": "rm",
+      "occurrences": 1
+    },
+    {
+      "name": "root",
+      "occurrences": 1
+    },
+    {
+      "name": "tar",
+      "occurrences": 1
+    },
+    {
+      "name": "time",
+      "occurrences": 1
+    },
+    {
+      "name": "tmpDir",
+      "occurrences": 1
+    },
+    {
+      "name": "tmpTarget",
+      "occurrences": 1
+    },
+    {
+      "name": "tr",
+      "occurrences": 1
+    },
+    {
+      "name": "trap",
+      "occurrences": 1
+    },
+    {
+      "name": "umask",
+      "occurrences": 1
+    },
+    {
+      "name": "usage",
+      "occurrences": 1
+    },
+    {
+      "name": "USAGE",
+      "occurrences": 1
+    },
+    {
+      "name": "userBinDir",
+      "occurrences": 1
+    },
+    {
+      "name": "wc",
+      "occurrences": 1
+    },
+    {
+      "name": "withTestBin",
+      "occurrences": 1
+    },
+    {
+      "name": "withTutorials",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "cleanTarName",
+      "occurrences": 1
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [
+    {
+      "name": "cleanTarName",
+      "occurrences": 2
+    }
+  ],
+  "variables": [
+    {
+      "name": "other",
+      "occurrences": 14
+    },
+    {
+      "name": "tarName",
+      "occurrences": 11
+    },
+    {
+      "name": "tmpTarget",
+      "occurrences": 11
+    },
+    {
+      "name": "binDir",
+      "occurrences": 10
+    },
+    {
+      "name": "name",
+      "occurrences": 10
+    },
+    {
+      "name": "prefixDir",
+      "occurrences": 8
+    },
+    {
+      "name": "buildPlatform",
+      "occurrences": 6
+    },
+    {
+      "name": "compOptions",
+      "occurrences": 6
+    },
+    {
+      "name": "FOAM_MPI",
+      "occurrences": 6
+    },
+    {
+      "name": "targetPlatform",
+      "occurrences": 6
+    },
+    {
+      "name": "configEtcDir",
+      "occurrences": 5
+    },
+    {
+      "name": "outputDir",
+      "occurrences": 5
+    },
+    {
+      "name": "tmpDir",
+      "occurrences": 5
+    },
+    {
+      "name": "finalOutput",
+      "occurrences": 4
+    },
+    {
+      "name": "fullpath",
+      "occurrences": 4
+    },
+    {
+      "name": "newName",
+      "occurrences": 4
+    },
+    {
+      "name": "packageApi",
+      "occurrences": 4
+    },
+    {
+      "name": "root",
+      "occurrences": 4
+    },
+    {
+      "name": "WM_PROJECT_DIR",
+      "occurrences": 4
+    },
+    {
+      "name": "FOAM_CONFIG_ETC",
+      "occurrences": 3
+    },
+    {
+      "name": "patch",
+      "occurrences": 3
+    },
+    {
+      "name": "WM_COMPILER",
+      "occurrences": 3
+    },
+    {
+      "name": "api",
+      "occurrences": 2
+    },
+    {
+      "name": "compress",
+      "occurrences": 2
+    },
+    {
+      "name": "ending",
+      "occurrences": 2
+    },
+    {
+      "name": "expectedBuildPlatform",
+      "occurrences": 2
+    },
+    {
+      "name": "file",
+      "occurrences": 2
+    },
+    {
+      "name": "FOAM_USER_APPBIN",
+      "occurrences": 2
+    },
+    {
+      "name": "miscFiles",
+      "occurrences": 2
+    },
+    {
+      "name": "userBinDir",
+      "occurrences": 2
+    },
+    {
+      "name": "versionSeparator",
+      "occurrences": 2
+    },
+    {
+      "name": "archiveCommand",
+      "occurrences": 1
+    },
+    {
+      "name": "archiveSuffix",
+      "occurrences": 1
+    },
+    {
+      "name": "FFTW_ARCH_PATH",
+      "occurrences": 1
+    },
+    {
+      "name": "FOAM_EXT_LIBBIN",
+      "occurrences": 1
+    },
+    {
+      "name": "withLibs",
+      "occurrences": 1
+    },
+    {
+      "name": "withPatchNum",
+      "occurrences": 1
+    },
+    {
+      "name": "withTestBin",
+      "occurrences": 1
+    },
+    {
+      "name": "withTutorials",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_ARCH",
+      "occurrences": 1
+    },
+    {
+      "name": "WM_OPTIONS",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-d",
+      "occurrences": 10
+    },
+    {
+      "name": "-a",
+      "occurrences": 9
+    },
+    {
+      "name": "-f",
+      "occurrences": 6
+    },
+    {
+      "name": "-p",
+      "occurrences": 6
+    },
+    {
+      "name": "-compress",
+      "occurrences": 5
+    },
+    {
+      "name": "-n",
+      "occurrences": 4
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-name",
+      "occurrences": 3
+    },
+    {
+      "name": "-czf",
+      "occurrences": 2
+    },
+    {
+      "name": "-e",
+      "occurrences": 2
+    },
+    {
+      "name": "-ge",
+      "occurrences": 2
+    },
+    {
+      "name": "-gt",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-compress",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-patch",
+      "occurrences": 2
+    },
+    {
+      "name": "-no-prefix",
+      "occurrences": 2
+    },
+    {
+      "name": "-output",
+      "occurrences": 2
+    },
+    {
+      "name": "-prefix",
+      "occurrences": 2
+    },
+    {
+      "name": "-sep",
+      "occurrences": 2
+    },
+    {
+      "name": "-tgz",
+      "occurrences": 2
+    },
+    {
+      "name": "-with-api",
+      "occurrences": 2
+    },
+    {
+      "name": "-with-testbin",
+      "occurrences": 2
+    },
+    {
+      "name": "-xz",
+      "occurrences": 2
+    },
+    {
+      "name": "-z",
+      "occurrences": 2
+    },
+    {
+      "name": "-zip",
+      "occurrences": 2
+    },
+    {
+      "name": "--exclude",
+      "occurrences": 1
+    },
+    {
+      "name": "--format",
+      "occurrences": 1
+    },
+    {
+      "name": "--tmpdir",
+      "occurrences": 1
+    },
+    {
+      "name": "-cf",
+      "occurrences": 1
+    },
+    {
+      "name": "-cjf",
+      "occurrences": 1
+    },
+    {
+      "name": "-cJf",
+      "occurrences": 1
+    },
+    {
+      "name": "-h",
+      "occurrences": 1
+    },
+    {
+      "name": "-i",
+      "occurrences": 1
+    },
+    {
+      "name": "-l",
+      "occurrences": 1
+    },
+    {
+      "name": "-L",
+      "occurrences": 1
+    },
+    {
+      "name": "-n10",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-tutor",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-tutorials",
+      "occurrences": 1
+    },
+    {
+      "name": "-r",
+      "occurrences": 1
+    },
+    {
+      "name": "-show-api",
+      "occurrences": 1
+    },
+    {
+      "name": "-show-patch",
+      "occurrences": 1
+    },
+    {
+      "name": "-w",
+      "occurrences": 1
+    },
+    {
+      "name": "-xf",
+      "occurrences": 1
+    }
+  ]
+}

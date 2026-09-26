@@ -1,0 +1,383 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/preProcessing/PDR/pdrFields",
+  "keywordCount": 37,
+  "keywords": [
+    "blockageNoCT",
+    "blockedCellPoros",
+    "blockedFacePar",
+    "blockedFacesWallFn",
+    "Cb_r",
+    "Cb_s",
+    "Cd_r",
+    "Cd_s",
+    "congRegionMaxBetav",
+    "debug.level",
+    "def_grating_slat_w",
+    "deluge",
+    "empty_lobs_fac",
+    "gridPointTol",
+    "ground",
+    "ignoreGratings",
+    "legacyMeshSpec",
+    "legacyObsSpec",
+    "maxCR",
+    "min_overlap_area",
+    "min_overlap_vol",
+    "min_width",
+    "newFields",
+    "nFacesToBlockC",
+    "noIntersectN",
+    "nPairsToBlockC",
+    "obs_expand",
+    "obsFileDir",
+    "obsFileNames",
+    "outer",
+    "outerCombFac",
+    "overlaps",
+    "scale",
+    "two_d",
+    "UPatchBc",
+    "yCyclic",
+    "ySymmetry"
+  ],
+  "optionCount": 0,
+  "options": [],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 84,
+      "keyword": "blockageNoCT",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 80,
+      "keyword": "blockedCellPoros",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 81,
+      "keyword": "blockedFacePar",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 52,
+      "keyword": "blockedFacesWallFn",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 64,
+      "keyword": "Cb_r",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 65,
+      "keyword": "Cb_s",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 67,
+      "keyword": "Cd_r",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 68,
+      "keyword": "Cd_s",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 70,
+      "keyword": "congRegionMaxBetav",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 57,
+      "keyword": "debug.level",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 79,
+      "keyword": "def_grating_slat_w",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 47,
+      "keyword": "deluge",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 75,
+      "keyword": "empty_lobs_fac",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 62,
+      "keyword": "gridPointTol",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 97,
+      "keyword": "ground",
+      "method": "readIfPresent",
+      "receiver": "d",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 53,
+      "keyword": "ignoreGratings",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 41,
+      "keyword": "legacyMeshSpec",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 42,
+      "keyword": "legacyObsSpec",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 82,
+      "keyword": "maxCR",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 73,
+      "keyword": "min_overlap_area",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 72,
+      "keyword": "min_overlap_vol",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 74,
+      "keyword": "min_width",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 49,
+      "keyword": "newFields",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 58,
+      "keyword": "nFacesToBlockC",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 50,
+      "keyword": "noIntersectN",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 59,
+      "keyword": "nPairsToBlockC",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 77,
+      "keyword": "obs_expand",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 113,
+      "keyword": "obsFileDir",
+      "method": "readEntry",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 114,
+      "keyword": "obsFileNames",
+      "method": "readEntry",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 98,
+      "keyword": "outer",
+      "method": "readIfPresent",
+      "receiver": "d",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 76,
+      "keyword": "outerCombFac",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 60,
+      "keyword": "overlaps",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 85,
+      "keyword": "scale",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 44,
+      "keyword": "two_d",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 102,
+      "keyword": "UPatchBc",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 45,
+      "keyword": "yCyclic",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/preProcessing/PDR/pdrFields/PDRparams.C",
+      "line": 46,
+      "keyword": "ySymmetry",
+      "method": "readIfPresent",
+      "receiver": "dict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": []
+}

@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "constant",
+  "fileKey": "kinematicCloudProperties.TEMPLATE",
+  "candidateCount": 3,
+  "candidates": [
+    {
+      "keyword": "sizeDistribution",
+      "context": "subModels/injectionModels/model1",
+      "path": "subModels/injectionModels/model1/sizeDistribution",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "manualInjection"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/intermediate/submodels/Kinematic/InjectionModel/ManualInjection/ManualInjection.C:67"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "value",
+      "context": "subModels/injectionModels/model1/sizeDistribution",
+      "path": "subModels/injectionModels/model1/sizeDistribution/value",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "fixedValue"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/lagrangian/distributionModels/fixedValue/fixedValue.C:52"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "continuousPhase",
+      "context": "subModels/noneCoeffs",
+      "path": "subModels/noneCoeffs/continuousPhase",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "none"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/phaseSystemModels/reactingEuler/multiphaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58",
+        "OpenFOAM-v2606/src/phaseSystemModels/twoPhaseEuler/twoPhaseSystem/BlendedInterfacialModel/blendingMethods/noBlending/noBlending.C:58"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}

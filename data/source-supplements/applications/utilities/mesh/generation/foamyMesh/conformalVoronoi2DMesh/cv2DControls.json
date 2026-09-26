@@ -1,0 +1,163 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls",
+  "keywordCount": 15,
+  "keywords": [
+    "insertSurfaceNearestPointPairs",
+    "insertSurfaceNearPointPairs",
+    "maxBoundaryConformingIter",
+    "maxNotchLenCoeff",
+    "maxQuadAngle",
+    "minCellSize",
+    "minEdgeLenCoeff",
+    "minNearPointDistCoeff",
+    "mirrorPoints",
+    "motionControl",
+    "nearWallAlignedDist",
+    "pointPairDistanceCoeff",
+    "randomiseInitialGrid",
+    "randomPerturbation",
+    "surfaceConformation"
+  ],
+  "optionCount": 0,
+  "options": [],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 55,
+      "keyword": "insertSurfaceNearestPointPairs",
+      "method": "get<Switch>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 69,
+      "keyword": "insertSurfaceNearPointPairs",
+      "method": "get<Switch>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 96,
+      "keyword": "maxBoundaryConformingIter",
+      "method": "get<label>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 114,
+      "keyword": "maxNotchLenCoeff",
+      "method": "get<scalar>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 45,
+      "keyword": "maxQuadAngle",
+      "method": "get<scalar>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 42,
+      "keyword": "minCellSize",
+      "method": "get<scalar>",
+      "receiver": "motionControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 108,
+      "keyword": "minEdgeLenCoeff",
+      "method": "get<scalar>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 120,
+      "keyword": "minNearPointDistCoeff",
+      "method": "get<scalar>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 62,
+      "keyword": "mirrorPoints",
+      "method": "get<Switch>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 39,
+      "keyword": "motionControl",
+      "method": "subDict",
+      "receiver": "controlDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 49,
+      "keyword": "nearWallAlignedDist",
+      "method": "get<scalar>",
+      "receiver": "motionControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 126,
+      "keyword": "pointPairDistanceCoeff",
+      "method": "get<scalar>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 87,
+      "keyword": "randomiseInitialGrid",
+      "method": "get<Switch>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 91,
+      "keyword": "randomPerturbation",
+      "method": "get<scalar>",
+      "receiver": "conformationControl_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoi2DMesh/cv2DControls/cv2DControls.C",
+      "line": 40,
+      "keyword": "surfaceConformation",
+      "method": "subDict",
+      "receiver": "controlDict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": []
+}

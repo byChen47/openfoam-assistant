@@ -1,0 +1,372 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls",
+  "keywordCount": 35,
+  "keywords": [
+    "acceptanceAngle",
+    "alignmentAcceptanceAngle",
+    "cellCentreDistCoeff",
+    "circulateEdges",
+    "conformationControls",
+    "defaultCellSize",
+    "edgeAiming",
+    "edgeSearchDistCoeff",
+    "faceAreaRatioCoeff",
+    "featureEdgeExclusionDistanceCoeff",
+    "featurePointControls",
+    "featurePointExclusionDistanceCoeff",
+    "guardFeaturePoints",
+    "iterationToInitialHitRatioLimit",
+    "maxIterations",
+    "maxLoadUnbalance",
+    "maxQuadAngle",
+    "maxSurfaceProtrusionCoeff",
+    "minimumCellSizeCoeff",
+    "mixedFeaturePointPPDistanceCoeff",
+    "motionControl",
+    "pointInsertionCriteria",
+    "pointPairDistanceCoeff",
+    "pointRemovalCriteria",
+    "polyMeshFiltering",
+    "snapFeaturePoints",
+    "specialiseFeaturePoints",
+    "surfaceConformation",
+    "surfaceConformationRebuildFrequency",
+    "surfacePtExclusionDistanceCoeff",
+    "surfacePtReplaceDistCoeff",
+    "surfaceSearchDistanceCoeff",
+    "writeBackgroundMeshDecomposition",
+    "writeCellShapeControlMesh",
+    "writeTetDualMesh"
+  ],
+  "optionCount": 0,
+  "options": [],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 173,
+      "keyword": "acceptanceAngle",
+      "method": "get<scalar>",
+      "receiver": "insertionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 154,
+      "keyword": "alignmentAcceptanceAngle",
+      "method": "get<scalar>",
+      "receiver": "motionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 166,
+      "keyword": "cellCentreDistCoeff",
+      "method": "get<scalar>",
+      "receiver": "insertionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 184,
+      "keyword": "cellCentreDistCoeff",
+      "method": "get<scalar>",
+      "receiver": "removalDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 96,
+      "keyword": "circulateEdges",
+      "method": "get<Switch>",
+      "receiver": "featurePointControlsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 102,
+      "keyword": "conformationControls",
+      "method": "subDict",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 129,
+      "keyword": "defaultCellSize",
+      "method": "get<scalar>",
+      "receiver": "motionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 87,
+      "keyword": "edgeAiming",
+      "method": "get<Switch>",
+      "receiver": "featurePointControlsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 110,
+      "keyword": "edgeSearchDistCoeff",
+      "method": "get<scalar>",
+      "receiver": "conformationControlsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 169,
+      "keyword": "faceAreaRatioCoeff",
+      "method": "get<scalar>",
+      "receiver": "insertionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 58,
+      "keyword": "featureEdgeExclusionDistanceCoeff",
+      "method": "get<scalar>",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 77,
+      "keyword": "featurePointControls",
+      "method": "subDict",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 55,
+      "keyword": "featurePointExclusionDistanceCoeff",
+      "method": "get<scalar>",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 84,
+      "keyword": "guardFeaturePoints",
+      "method": "get<Switch>",
+      "receiver": "featurePointControlsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 122,
+      "keyword": "iterationToInitialHitRatioLimit",
+      "method": "get<scalar>",
+      "receiver": "conformationControlsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 119,
+      "keyword": "maxIterations",
+      "method": "get<label>",
+      "receiver": "conformationControlsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 145,
+      "keyword": "maxLoadUnbalance",
+      "method": "get<scalar>",
+      "receiver": "motionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 66,
+      "keyword": "maxQuadAngle",
+      "method": "get<scalar>",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 64,
+      "keyword": "maxSurfaceProtrusionCoeff",
+      "method": "get<scalar>",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 132,
+      "keyword": "minimumCellSizeCoeff",
+      "method": "get<scalar>",
+      "receiver": "motionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 52,
+      "keyword": "mixedFeaturePointPPDistanceCoeff",
+      "method": "get<scalar>",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 127,
+      "keyword": "motionControl",
+      "method": "subDict",
+      "receiver": "foamyHexMeshDict_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 162,
+      "keyword": "pointInsertionCriteria",
+      "method": "subDict",
+      "receiver": "motionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 49,
+      "keyword": "pointPairDistanceCoeff",
+      "method": "get<scalar>",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 180,
+      "keyword": "pointRemovalCriteria",
+      "method": "subDict",
+      "receiver": "motionDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 190,
+      "keyword": "polyMeshFiltering",
+      "method": "subDict",
+      "receiver": "foamyHexMeshDict_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 92,
+      "keyword": "snapFeaturePoints",
+      "method": "get<Switch>",
+      "receiver": "featurePointControlsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 81,
+      "keyword": "specialiseFeaturePoints",
+      "method": "get<Switch>",
+      "receiver": "featurePointControlsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 45,
+      "keyword": "surfaceConformation",
+      "method": "subDict",
+      "receiver": "foamyHexMeshDict_",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 71,
+      "keyword": "surfaceConformationRebuildFrequency",
+      "method": "get<label>",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 106,
+      "keyword": "surfacePtExclusionDistanceCoeff",
+      "method": "get<scalar>",
+      "receiver": "conformationControlsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 115,
+      "keyword": "surfacePtReplaceDistCoeff",
+      "method": "get<scalar>",
+      "receiver": "conformationControlsDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 61,
+      "keyword": "surfaceSearchDistanceCoeff",
+      "method": "get<scalar>",
+      "receiver": "surfDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 213,
+      "keyword": "writeBackgroundMeshDecomposition",
+      "method": "get<Switch>",
+      "receiver": "filteringDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 208,
+      "keyword": "writeCellShapeControlMesh",
+      "method": "get<Switch>",
+      "receiver": "filteringDict",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/mesh/generation/foamyMesh/conformalVoronoiMesh/cvControls/cvControls.C",
+      "line": 205,
+      "keyword": "writeTetDualMesh",
+      "method": "get<Switch>",
+      "receiver": "filteringDict",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": []
+}

@@ -1,0 +1,891 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/bin",
+  "file": "OpenFOAM-v2606/bin/tools/foamConfigurePaths",
+  "shebang": "#!/bin/sh",
+  "commands": [
+    {
+      "name": "replaceEtc",
+      "occurrences": 80
+    },
+    {
+      "name": "shift",
+      "occurrences": 67
+    },
+    {
+      "name": "adjusted",
+      "occurrences": 61
+    },
+    {
+      "name": "local",
+      "occurrences": 42
+    },
+    {
+      "name": "getOptionValue",
+      "occurrences": 41
+    },
+    {
+      "name": "echo",
+      "occurrences": 28
+    },
+    {
+      "name": "cfgName",
+      "occurrences": 26
+    },
+    {
+      "name": "optValue",
+      "occurrences": 24
+    },
+    {
+      "name": "replaceEtcCsh",
+      "occurrences": 24
+    },
+    {
+      "name": "etc",
+      "occurrences": 18
+    },
+    {
+      "name": "return",
+      "occurrences": 16
+    },
+    {
+      "name": "_foamEtc",
+      "occurrences": 14
+    },
+    {
+      "name": "replaceBrewEtc",
+      "occurrences": 13
+    },
+    {
+      "name": "brewName",
+      "occurrences": 12
+    },
+    {
+      "name": "sed",
+      "occurrences": 11
+    },
+    {
+      "name": "exit",
+      "occurrences": 10
+    },
+    {
+      "name": "replaceBrewEtcCsh",
+      "occurrences": 9
+    },
+    {
+      "name": "file",
+      "occurrences": 8
+    },
+    {
+      "name": "die",
+      "occurrences": 7
+    },
+    {
+      "name": "removeEtcConfigMarker",
+      "occurrences": 7
+    },
+    {
+      "name": "cat",
+      "occurrences": 6
+    },
+    {
+      "name": "_inlineSed",
+      "occurrences": 5
+    },
+    {
+      "name": "projectDir",
+      "occurrences": 5
+    },
+    {
+      "name": "removeEtcConfigMarkerCsh",
+      "occurrences": 5
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 4
+    },
+    {
+      "name": "_matches",
+      "occurrences": 3
+    },
+    {
+      "name": "Components",
+      "occurrences": 3
+    },
+    {
+      "name": "grep",
+      "occurrences": 3
+    },
+    {
+      "name": "localFile",
+      "occurrences": 3
+    },
+    {
+      "name": "nOptArgs",
+      "occurrences": 3
+    },
+    {
+      "name": "replace",
+      "occurrences": 3
+    },
+    {
+      "name": "replaceCsh",
+      "occurrences": 3
+    },
+    {
+      "name": "unset",
+      "occurrences": 3
+    },
+    {
+      "name": "break",
+      "occurrences": 2
+    },
+    {
+      "name": "cmd",
+      "occurrences": 2
+    },
+    {
+      "name": "expected",
+      "occurrences": 2
+    },
+    {
+      "name": "key",
+      "occurrences": 2
+    },
+    {
+      "name": "removeBashMagic",
+      "occurrences": 2
+    },
+    {
+      "name": "removeConfigMarker",
+      "occurrences": 2
+    },
+    {
+      "name": "removeConfigMarkerCsh",
+      "occurrences": 2
+    },
+    {
+      "name": "removeCshMagic",
+      "occurrences": 2
+    },
+    {
+      "name": "val",
+      "occurrences": 2
+    },
+    {
+      "name": "var",
+      "occurrences": 2
+    },
+    {
+      "name": "Adjusts",
+      "occurrences": 1
+    },
+    {
+      "name": "Basic",
+      "occurrences": 1
+    },
+    {
+      "name": "Compiler",
+      "occurrences": 1
+    },
+    {
+      "name": "CONFIG_CSH",
+      "occurrences": 1
+    },
+    {
+      "name": "CONFIG_SH",
+      "occurrences": 1
+    },
+    {
+      "name": "Equivalent",
+      "occurrences": 1
+    },
+    {
+      "name": "exec",
+      "occurrences": 1
+    },
+    {
+      "name": "export",
+      "occurrences": 1
+    },
+    {
+      "name": "gmp-",
+      "occurrences": 1
+    },
+    {
+      "name": "gmp-system",
+      "occurrences": 1
+    },
+    {
+      "name": "gmp-VERSION",
+      "occurrences": 1
+    },
+    {
+      "name": "Graphics",
+      "occurrences": 1
+    },
+    {
+      "name": "HELP_COMPAT",
+      "occurrences": 1
+    },
+    {
+      "name": "HELP_FULL",
+      "occurrences": 1
+    },
+    {
+      "name": "HELP_HEAD",
+      "occurrences": 1
+    },
+    {
+      "name": "HELP_TAIL_COMMON",
+      "occurrences": 1
+    },
+    {
+      "name": "mpc-",
+      "occurrences": 1
+    },
+    {
+      "name": "mpc-system",
+      "occurrences": 1
+    },
+    {
+      "name": "mpc-VERSION",
+      "occurrences": 1
+    },
+    {
+      "name": "mpfr-",
+      "occurrences": 1
+    },
+    {
+      "name": "mpfr-system",
+      "occurrences": 1
+    },
+    {
+      "name": "mpfr-VERSION",
+      "occurrences": 1
+    },
+    {
+      "name": "MPI",
+      "occurrences": 1
+    },
+    {
+      "name": "Obsolete",
+      "occurrences": 1
+    },
+    {
+      "name": "OpenFOAM.",
+      "occurrences": 1
+    },
+    {
+      "name": "Options",
+      "occurrences": 1
+    },
+    {
+      "name": "regexp",
+      "occurrences": 1
+    },
+    {
+      "name": "result",
+      "occurrences": 1
+    },
+    {
+      "name": "set",
+      "occurrences": 1
+    },
+    {
+      "name": "Sets",
+      "occurrences": 1
+    },
+    {
+      "name": "test",
+      "occurrences": 1
+    },
+    {
+      "name": "usage",
+      "occurrences": 1
+    }
+  ],
+  "functions": [
+    {
+      "name": "_foamEtc",
+      "occurrences": 1
+    },
+    {
+      "name": "printHelp",
+      "occurrences": 1
+    }
+  ],
+  "helpers": [],
+  "variables": [
+    {
+      "name": "optValue",
+      "occurrences": 152
+    },
+    {
+      "name": "cfgName",
+      "occurrences": 53
+    },
+    {
+      "name": "file",
+      "occurrences": 45
+    },
+    {
+      "name": "adjusted",
+      "occurrences": 42
+    },
+    {
+      "name": "nOptArgs",
+      "occurrences": 40
+    },
+    {
+      "name": "brewName",
+      "occurrences": 32
+    },
+    {
+      "name": "optional",
+      "occurrences": 24
+    },
+    {
+      "name": "expected",
+      "occurrences": 6
+    },
+    {
+      "name": "key",
+      "occurrences": 6
+    },
+    {
+      "name": "projectDir",
+      "occurrences": 6
+    },
+    {
+      "name": "localFile",
+      "occurrences": 4
+    },
+    {
+      "name": "val",
+      "occurrences": 4
+    },
+    {
+      "name": "var",
+      "occurrences": 4
+    },
+    {
+      "name": "cmd",
+      "occurrences": 3
+    },
+    {
+      "name": "msg",
+      "occurrences": 3
+    },
+    {
+      "name": "regexp",
+      "occurrences": 3
+    },
+    {
+      "name": "pkg",
+      "occurrences": 2
+    },
+    {
+      "name": "FOAM_CONFIG_ETC",
+      "occurrences": 1
+    },
+    {
+      "name": "input",
+      "occurrences": 1
+    },
+    {
+      "name": "optHomebrew",
+      "occurrences": 1
+    },
+    {
+      "name": "replacement",
+      "occurrences": 1
+    },
+    {
+      "name": "result",
+      "occurrences": 1
+    }
+  ],
+  "options": [
+    {
+      "name": "-n",
+      "occurrences": 57
+    },
+    {
+      "name": "-q",
+      "occurrences": 16
+    },
+    {
+      "name": "-f",
+      "occurrences": 15
+    },
+    {
+      "name": "-e",
+      "occurrences": 8
+    },
+    {
+      "name": "-optional",
+      "occurrences": 8
+    },
+    {
+      "name": "-ge",
+      "occurrences": 5
+    },
+    {
+      "name": "-i",
+      "occurrences": 5
+    },
+    {
+      "name": "-hdf5",
+      "occurrences": 4
+    },
+    {
+      "name": "-scotch",
+      "occurrences": 4
+    },
+    {
+      "name": "--prefix",
+      "occurrences": 3
+    },
+    {
+      "name": "-adios",
+      "occurrences": 3
+    },
+    {
+      "name": "-adios2-brew",
+      "occurrences": 3
+    },
+    {
+      "name": "-boost",
+      "occurrences": 3
+    },
+    {
+      "name": "-cgal",
+      "occurrences": 3
+    },
+    {
+      "name": "-cmake",
+      "occurrences": 3
+    },
+    {
+      "name": "-fftw",
+      "occurrences": 3
+    },
+    {
+      "name": "-hdf5-brew",
+      "occurrences": 3
+    },
+    {
+      "name": "-hdf5-path",
+      "occurrences": 3
+    },
+    {
+      "name": "-help",
+      "occurrences": 3
+    },
+    {
+      "name": "-kahip",
+      "occurrences": 3
+    },
+    {
+      "name": "-llvm",
+      "occurrences": 3
+    },
+    {
+      "name": "-mesa",
+      "occurrences": 3
+    },
+    {
+      "name": "-metis",
+      "occurrences": 3
+    },
+    {
+      "name": "-ne",
+      "occurrences": 3
+    },
+    {
+      "name": "-openmpi",
+      "occurrences": 3
+    },
+    {
+      "name": "-paraview",
+      "occurrences": 3
+    },
+    {
+      "name": "-paraview-path",
+      "occurrences": 3
+    },
+    {
+      "name": "-petsc",
+      "occurrences": 3
+    },
+    {
+      "name": "-scotch-path",
+      "occurrences": 3
+    },
+    {
+      "name": "-sys-openmpi",
+      "occurrences": 3
+    },
+    {
+      "name": "-third",
+      "occurrences": 3
+    },
+    {
+      "name": "-version",
+      "occurrences": 3
+    },
+    {
+      "name": "-vtk",
+      "occurrences": 3
+    },
+    {
+      "name": "--archOption",
+      "occurrences": 2
+    },
+    {
+      "name": "--paraviewInstall",
+      "occurrences": 2
+    },
+    {
+      "name": "--paraviewVersion",
+      "occurrences": 2
+    },
+    {
+      "name": "--projectVersion",
+      "occurrences": 2
+    },
+    {
+      "name": "--scotchArchPath",
+      "occurrences": 2
+    },
+    {
+      "name": "--scotchVersion",
+      "occurrences": 2
+    },
+    {
+      "name": "-adios-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-adios2",
+      "occurrences": 2
+    },
+    {
+      "name": "-adios2-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-archOption",
+      "occurrences": 2
+    },
+    {
+      "name": "-boost-brew",
+      "occurrences": 2
+    },
+    {
+      "name": "-boost-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-cgal-brew",
+      "occurrences": 2
+    },
+    {
+      "name": "-cgal-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-clang",
+      "occurrences": 2
+    },
+    {
+      "name": "-cmake-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-DP",
+      "occurrences": 2
+    },
+    {
+      "name": "-fftw-brew",
+      "occurrences": 2
+    },
+    {
+      "name": "-fftw-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-float32",
+      "occurrences": 2
+    },
+    {
+      "name": "-float64",
+      "occurrences": 2
+    },
+    {
+      "name": "-foamInstall",
+      "occurrences": 2
+    },
+    {
+      "name": "-foamVersion",
+      "occurrences": 2
+    },
+    {
+      "name": "-gcc",
+      "occurrences": 2
+    },
+    {
+      "name": "-gmp-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-h",
+      "occurrences": 2
+    },
+    {
+      "name": "-int64",
+      "occurrences": 2
+    },
+    {
+      "name": "-kahip-brew",
+      "occurrences": 2
+    },
+    {
+      "name": "-kahip-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-llvm-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-mesa-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-metis-brew",
+      "occurrences": 2
+    },
+    {
+      "name": "-metis-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-mpfr-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-mpi",
+      "occurrences": 2
+    },
+    {
+      "name": "-openmpi-system",
+      "occurrences": 2
+    },
+    {
+      "name": "-openmpi-third",
+      "occurrences": 2
+    },
+    {
+      "name": "-paraview-qt",
+      "occurrences": 2
+    },
+    {
+      "name": "-paraviewInstall",
+      "occurrences": 2
+    },
+    {
+      "name": "-paraviewVersion",
+      "occurrences": 2
+    },
+    {
+      "name": "-petsc-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-project-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-projectName",
+      "occurrences": 2
+    },
+    {
+      "name": "-readline-brew",
+      "occurrences": 2
+    },
+    {
+      "name": "-readline-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-scotch-brew",
+      "occurrences": 2
+    },
+    {
+      "name": "-scotchArchPath",
+      "occurrences": 2
+    },
+    {
+      "name": "-scotchVersion",
+      "occurrences": 2
+    },
+    {
+      "name": "-SP",
+      "occurrences": 2
+    },
+    {
+      "name": "-SPDP",
+      "occurrences": 2
+    },
+    {
+      "name": "-system",
+      "occurrences": 2
+    },
+    {
+      "name": "-system-compiler",
+      "occurrences": 2
+    },
+    {
+      "name": "-third-compiler",
+      "occurrences": 2
+    },
+    {
+      "name": "-ThirdParty",
+      "occurrences": 2
+    },
+    {
+      "name": "-vtk-path",
+      "occurrences": 2
+    },
+    {
+      "name": "-with-homebrew",
+      "occurrences": 2
+    },
+    {
+      "name": "--foamInstall",
+      "occurrences": 1
+    },
+    {
+      "name": "--help",
+      "occurrences": 1
+    },
+    {
+      "name": "--help-c",
+      "occurrences": 1
+    },
+    {
+      "name": "--help-f",
+      "occurrences": 1
+    },
+    {
+      "name": "--projectName",
+      "occurrences": 1
+    },
+    {
+      "name": "-adios-brew",
+      "occurrences": 1
+    },
+    {
+      "name": "-compat",
+      "occurrences": 1
+    },
+    {
+      "name": "-d",
+      "occurrences": 1
+    },
+    {
+      "name": "-debug-list",
+      "occurrences": 1
+    },
+    {
+      "name": "-dp",
+      "occurrences": 1
+    },
+    {
+      "name": "-etc",
+      "occurrences": 1
+    },
+    {
+      "name": "-full",
+      "occurrences": 1
+    },
+    {
+      "name": "-gmp-brew",
+      "occurrences": 1
+    },
+    {
+      "name": "-gt",
+      "occurrences": 1
+    },
+    {
+      "name": "-hdf",
+      "occurrences": 1
+    },
+    {
+      "name": "-hdf-path",
+      "occurrences": 1
+    },
+    {
+      "name": "-help-c",
+      "occurrences": 1
+    },
+    {
+      "name": "-help-compat",
+      "occurrences": 1
+    },
+    {
+      "name": "-help-f",
+      "occurrences": 1
+    },
+    {
+      "name": "-help-full",
+      "occurrences": 1
+    },
+    {
+      "name": "-int32",
+      "occurrences": 1
+    },
+    {
+      "name": "-L",
+      "occurrences": 1
+    },
+    {
+      "name": "-mode",
+      "occurrences": 1
+    },
+    {
+      "name": "-mpfr-brew",
+      "occurrences": 1
+    },
+    {
+      "name": "-no-sigfpe",
+      "occurrences": 1
+    },
+    {
+      "name": "-petsc-brew",
+      "occurrences": 1
+    },
+    {
+      "name": "-sigfpe",
+      "occurrences": 1
+    },
+    {
+      "name": "-sp",
+      "occurrences": 1
+    },
+    {
+      "name": "-spdp",
+      "occurrences": 1
+    },
+    {
+      "name": "-x",
+      "occurrences": 1
+    },
+    {
+      "name": "-z",
+      "occurrences": 1
+    }
+  ]
+}

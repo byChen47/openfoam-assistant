@@ -1,0 +1,296 @@
+{
+  "generatedAt": "2026-09-26T02:27:08.738Z",
+  "sourceRoot": "OpenFOAM-v2606/applications",
+  "group": "utilities/postProcessing/dataConversion/foamToEnsight",
+  "keywordCount": 3,
+  "keywords": [
+    "base-name",
+    "index",
+    "name"
+  ],
+  "optionCount": 22,
+  "options": [
+    {
+      "keyword": "ascii",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "nearCellValue",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-boundary",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-cellZones",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-fields",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-finite-area",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-internal",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-lagrangian",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-mesh",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-overwrite",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "no-point-data",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "nodeValues",
+      "optionType": "boolOption"
+    },
+    {
+      "keyword": "base-name",
+      "optionType": "option"
+    },
+    {
+      "keyword": "cellZones",
+      "optionType": "option"
+    },
+    {
+      "keyword": "exclude-fields",
+      "optionType": "option"
+    },
+    {
+      "keyword": "exclude-patches",
+      "optionType": "option"
+    },
+    {
+      "keyword": "faceZones",
+      "optionType": "option"
+    },
+    {
+      "keyword": "fields",
+      "optionType": "option"
+    },
+    {
+      "keyword": "index",
+      "optionType": "option"
+    },
+    {
+      "keyword": "name",
+      "optionType": "option"
+    },
+    {
+      "keyword": "patches",
+      "optionType": "option"
+    },
+    {
+      "keyword": "width",
+      "optionType": "option"
+    }
+  ],
+  "records": [
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 482,
+      "keyword": "base-name",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 362,
+      "keyword": "index",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/getTimeIndex.H",
+      "line": 53,
+      "keyword": "index",
+      "method": "readEntry",
+      "receiver": "timeObject",
+      "typeNames": []
+    },
+    {
+      "recordType": "dictionary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 467,
+      "keyword": "name",
+      "method": "readIfPresent",
+      "receiver": "args",
+      "typeNames": []
+    }
+  ],
+  "commandLineRecords": [
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "ascii",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 178
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "base-name",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 198
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "cellZones",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 326
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "exclude-fields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 313
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "exclude-patches",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 289
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "faceZones",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 299
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "fields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 306
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "index",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 183
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "name",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 191
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "nearCellValue",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 215
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-boundary",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 227
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-cellZones",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 239
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-fields",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 320
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-finite-area",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 270
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-internal",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 234
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-lagrangian",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 244
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-mesh",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 256
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-overwrite",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 204
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "no-point-data",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 251
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "boolOption",
+      "keyword": "nodeValues",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 221
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "patches",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 282
+    },
+    {
+      "recordType": "commandLine",
+      "optionType": "option",
+      "keyword": "width",
+      "sourceFile": "OpenFOAM-v2606/applications/utilities/postProcessing/dataConversion/foamToEnsight/foamToEnsight.cxx",
+      "line": 209
+    }
+  ]
+}

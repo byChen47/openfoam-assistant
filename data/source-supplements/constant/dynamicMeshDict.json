@@ -1,0 +1,908 @@
+{
+  "generatedAt": "2026-09-26T02:23:01.792Z",
+  "source": "OpenFOAM-v2606/src",
+  "category": "constant",
+  "fileKey": "dynamicMeshDict",
+  "candidateCount": 55,
+  "candidates": [
+    {
+      "keyword": "joints",
+      "context": "bodies/hull/joint",
+      "path": "bodies/hull/joint/joints",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "composite"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyDynamics/joints/composite/compositeJoint.C:72"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "type",
+      "context": "bodies/hull",
+      "path": "bodies/hull/type",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBody"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyDynamics/bodies/rigidBody/rigidBody.C:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "displacementLaplacianCoeffs",
+      "context": "displacementLaplacianCoeffs",
+      "path": "displacementLaplacianCoeffs/displacementLaplacianCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "displacementLaplacian"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/displacementMethod/displacementMethoddisplacementLaplacian/displacementMethoddisplacementLaplacian.C:101"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "boundaryField",
+      "context": "displacementLayeredMotionCoeffs",
+      "path": "displacementLayeredMotionCoeffs/boundaryField",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "displacementLayeredMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/layeredSolver/displacementLayeredMotionMotionSolver.C:302"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "interpolationScheme",
+      "context": "displacementLayeredMotionCoeffs",
+      "path": "displacementLayeredMotionCoeffs/interpolationScheme",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "displacementLayeredMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/layeredSolver/displacementLayeredMotionMotionSolver.C:463"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "patch",
+      "context": "displacementLayeredMotionCoeffs",
+      "path": "displacementLayeredMotionCoeffs/patch",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "displacementLayeredMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/layeredSolver/displacementLayeredMotionMotionSolver.C:273"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "regions",
+      "context": "displacementLayeredMotionCoeffs",
+      "path": "displacementLayeredMotionCoeffs/regions",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "displacementLayeredMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/layeredSolver/displacementLayeredMotionMotionSolver.C:558"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "type",
+      "context": "displacementLayeredMotionCoeffs",
+      "path": "displacementLayeredMotionCoeffs/type",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "displacementLayeredMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/layeredSolver/displacementLayeredMotionMotionSolver.C:241"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "meshQuality",
+      "context": "displacementPointSmoothingCoeffs",
+      "path": "displacementPointSmoothingCoeffs/meshQuality",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "displacementPointSmoothing"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/pointSmoothing/displacementPointSmoothingMotionSolver.C:289",
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/pointSmoothing/displacementPointSmoothingMotionSolver.C:322"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "relaxationFactors",
+      "context": "displacementPointSmoothingCoeffs",
+      "path": "displacementPointSmoothingCoeffs/relaxationFactors",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "displacementPointSmoothing"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/pointSmoothing/displacementPointSmoothingMotionSolver.C:287",
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/pointSmoothing/displacementPointSmoothingMotionSolver.C:320"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "dynamicFvMesh",
+      "context": "",
+      "path": "dynamicFvMesh",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/dynamicMeshDict:17",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/constant/dynamicMeshDict:17"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "cellZone",
+      "context": "dynamicMultiMotionSolverFvMeshCoeffs",
+      "path": "dynamicMultiMotionSolverFvMeshCoeffs/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "dynamicMultiMotionSolverFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFvMesh/dynamicMultiMotionSolverFvMesh/dynamicMultiMotionSolverFvMesh.C:107"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "dumpLevel",
+      "context": "dynamicRefineFvMeshCoeffs",
+      "path": "dynamicRefineFvMeshCoeffs/dumpLevel",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "dynamicRefineFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFvMesh/dynamicRefineFvMesh/dynamicRefineFvMesh.C:193"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "field",
+      "context": "dynamicRefineFvMeshCoeffs",
+      "path": "dynamicRefineFvMeshCoeffs/field",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "dynamicRefineFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFvMesh/dynamicRefineFvMesh/dynamicRefineFvMesh.C:1342"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "lowerRefineLevel",
+      "context": "dynamicRefineFvMeshCoeffs",
+      "path": "dynamicRefineFvMeshCoeffs/lowerRefineLevel",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "dynamicRefineFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFvMesh/dynamicRefineFvMesh/dynamicRefineFvMesh.C:1347"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "maxCells",
+      "context": "dynamicRefineFvMeshCoeffs",
+      "path": "dynamicRefineFvMeshCoeffs/maxCells",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "dynamicRefineFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFvMesh/dynamicRefineFvMesh/dynamicRefineFvMesh.C:1320"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "maxRefinement",
+      "context": "dynamicRefineFvMeshCoeffs",
+      "path": "dynamicRefineFvMeshCoeffs/maxRefinement",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "dynamicRefineFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFvMesh/dynamicRefineFvMesh/dynamicRefineFvMesh.C:1331"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "nBufferLayers",
+      "context": "dynamicRefineFvMeshCoeffs",
+      "path": "dynamicRefineFvMeshCoeffs/nBufferLayers",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "dynamicRefineFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFvMesh/dynamicRefineFvMesh/dynamicRefineFvMesh.C:1355"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "refineInterval",
+      "context": "dynamicRefineFvMeshCoeffs",
+      "path": "dynamicRefineFvMeshCoeffs/refineInterval",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "dynamicRefineFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFvMesh/dynamicRefineFvMesh/dynamicRefineFvMesh.C:1295"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "upperRefineLevel",
+      "context": "dynamicRefineFvMeshCoeffs",
+      "path": "dynamicRefineFvMeshCoeffs/upperRefineLevel",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "dynamicRefineFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFvMesh/dynamicRefineFvMesh/dynamicRefineFvMesh.C:1349"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "FoamFile",
+      "context": "",
+      "path": "FoamFile",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/dynamicMeshDict:8",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/constant/dynamicMeshDict:8"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "nonReflectingFreeSurfacePatches",
+      "context": "interfaceTrackingFvMeshCoeffs",
+      "path": "interfaceTrackingFvMeshCoeffs/nonReflectingFreeSurfacePatches",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "interfaceTrackingFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/interfaceTrackingFvMesh.C:124"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "surfactantProperties",
+      "context": "interfaceTrackingFvMeshCoeffs",
+      "path": "interfaceTrackingFvMeshCoeffs/surfactantProperties",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "interfaceTrackingFvMesh"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicFaMesh/interfaceTrackingFvMesh/interfaceTrackingFvMesh.C:571"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "laplacianMotionSolverCoeffs",
+      "context": "laplacianMotionSolverCoeffs",
+      "path": "laplacianMotionSolverCoeffs/laplacianMotionSolverCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "laplacianMotionSolver"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/displacementMethod/displacementMethodlaplacianMotionSolver/displacementMethodlaplacianMotionSolver.C:71"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "solvers",
+      "context": "multiDisplacementCoeffs",
+      "path": "multiDisplacementCoeffs/solvers",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "multiDisplacement"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/multiDisplacement/multiDisplacementMotionSolver.C:70",
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/multiDisplacement/multiDisplacementMotionSolver.C:134"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "coeff",
+      "context": "restraints/rotationDamper",
+      "path": "restraints/rotationDamper/coeff",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "sphericalAngularDamper"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyDynamics/restraints/sphericalAngularDamper/sphericalAngularDamper.C:102",
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/restraints/sphericalAngularDamper/sphericalAngularDamper.C:101"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "coeff",
+      "context": "restraints/translationDamper",
+      "path": "restraints/translationDamper/coeff",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "linearDamper"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyDynamics/restraints/linearDamper/linearDamper.C:102",
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotion/restraints/linearDamper/linearDamper.C:99"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "bodies",
+      "context": "rigidBodyMotionCoeffs",
+      "path": "rigidBodyMotionCoeffs/bodies",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.C:138"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "innerDistance",
+      "context": "rigidBodyMotionCoeffs",
+      "path": "rigidBodyMotionCoeffs/innerDistance",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.C:67"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "outerDistance",
+      "context": "rigidBodyMotionCoeffs",
+      "path": "rigidBodyMotionCoeffs/outerDistance",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.C:68"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "patches",
+      "context": "rigidBodyMotionCoeffs",
+      "path": "rigidBodyMotionCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.C:65"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rhoInf",
+      "context": "rigidBodyMotionCoeffs",
+      "path": "rigidBodyMotionCoeffs/rhoInf",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.C:135"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "g",
+      "context": "sixDoFRigidBodyMotionCoeffs",
+      "path": "sixDoFRigidBodyMotionCoeffs/g",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sixDoFRigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotionSolver/sixDoFRigidBodyMotionSolver.C:219"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rhoInf",
+      "context": "sixDoFRigidBodyMotionCoeffs",
+      "path": "sixDoFRigidBodyMotionCoeffs/rhoInf",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sixDoFRigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotionSolver/sixDoFRigidBodyMotionSolver.C:114"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "solidBodyCoeffs",
+      "context": "",
+      "path": "solidBodyCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/dynamicMeshDict:21",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/constant/dynamicMeshDict:21"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "cellZone",
+      "context": "solidBodyCoeffs",
+      "path": "solidBodyCoeffs/cellZone",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/dynamicMeshDict:23",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/constant/dynamicMeshDict:23"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rotatingMotionCoeffs",
+      "context": "solidBodyCoeffs",
+      "path": "solidBodyCoeffs/rotatingMotionCoeffs",
+      "kinds": [
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/dynamicMeshDict:26",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/constant/dynamicMeshDict:26"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "#include",
+      "context": "solidBodyCoeffs/rotatingMotionCoeffs",
+      "path": "solidBodyCoeffs/rotatingMotionCoeffs/#include",
+      "kinds": [
+        "directive"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/dynamicMeshDict:28",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/constant/dynamicMeshDict:28"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "solidBodyMotionFunction",
+      "context": "solidBodyCoeffs",
+      "path": "solidBodyCoeffs/solidBodyMotionFunction",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/dynamicMeshDict:25",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/constant/dynamicMeshDict:25"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "solver",
+      "context": "",
+      "path": "solver",
+      "kinds": [
+        "entry",
+        "subdict"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "etc"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/etc/templates/closedVolumeRotating/constant/dynamicMeshDict:19",
+        "OpenFOAM-v2606/etc/templates/inflowOutflowRotating/constant/dynamicMeshDict:19"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "joints",
+      "context": "solvers/{solver}/bodies/hull/joint",
+      "path": "solvers/{solver}/bodies/hull/joint/joints",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "composite"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyDynamics/joints/composite/compositeJoint.C:72"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "type",
+      "context": "solvers/{solver}/bodies/hull",
+      "path": "solvers/{solver}/bodies/hull/type",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBody"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyDynamics/bodies/rigidBody/rigidBody.C:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "type",
+      "context": "solvers/{solver}/bodies/propeller",
+      "path": "solvers/{solver}/bodies/propeller/type",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBody"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyDynamics/bodies/rigidBody/rigidBody.C:80"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "displacementLaplacianCoeffs",
+      "context": "solvers/{solver}/displacementLaplacianCoeffs",
+      "path": "solvers/{solver}/displacementLaplacianCoeffs/displacementLaplacianCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "displacementLaplacian"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/displacementMethod/displacementMethoddisplacementLaplacian/displacementMethoddisplacementLaplacian.C:101"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "meshQuality",
+      "context": "solvers/{solver}/displacementPointSmoothingCoeffs",
+      "path": "solvers/{solver}/displacementPointSmoothingCoeffs/meshQuality",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "displacementPointSmoothing"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/pointSmoothing/displacementPointSmoothingMotionSolver.C:289",
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/pointSmoothing/displacementPointSmoothingMotionSolver.C:322"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "relaxationFactors",
+      "context": "solvers/{solver}/displacementPointSmoothingCoeffs",
+      "path": "solvers/{solver}/displacementPointSmoothingCoeffs/relaxationFactors",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 2,
+      "sourceTypes": [
+        "displacementPointSmoothing"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/pointSmoothing/displacementPointSmoothingMotionSolver.C:287",
+        "OpenFOAM-v2606/src/dynamicMesh/motionSolvers/displacement/pointSmoothing/displacementPointSmoothingMotionSolver.C:320"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "location",
+      "context": "solvers/{solver}/restraints/force",
+      "path": "solvers/{solver}/restraints/force/location",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "externalForce"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyDynamics/restraints/externalForce/externalForce.C:110"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "bodies",
+      "context": "solvers/{solver}/rigidBodyMotionCoeffs",
+      "path": "solvers/{solver}/rigidBodyMotionCoeffs/bodies",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.C:138"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "innerDistance",
+      "context": "solvers/{solver}/rigidBodyMotionCoeffs",
+      "path": "solvers/{solver}/rigidBodyMotionCoeffs/innerDistance",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.C:67"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "outerDistance",
+      "context": "solvers/{solver}/rigidBodyMotionCoeffs",
+      "path": "solvers/{solver}/rigidBodyMotionCoeffs/outerDistance",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.C:68"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "patches",
+      "context": "solvers/{solver}/rigidBodyMotionCoeffs",
+      "path": "solvers/{solver}/rigidBodyMotionCoeffs/patches",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.C:65"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rhoInf",
+      "context": "solvers/{solver}/rigidBodyMotionCoeffs",
+      "path": "solvers/{solver}/rigidBodyMotionCoeffs/rhoInf",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "rigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/rigidBodyMeshMotion/rigidBodyMeshMotion/rigidBodyMeshMotion.C:135"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "g",
+      "context": "solvers/{solver}/sixDoFRigidBodyMotionCoeffs",
+      "path": "solvers/{solver}/sixDoFRigidBodyMotionCoeffs/g",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sixDoFRigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotionSolver/sixDoFRigidBodyMotionSolver.C:219"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "rhoInf",
+      "context": "solvers/{solver}/sixDoFRigidBodyMotionCoeffs",
+      "path": "solvers/{solver}/sixDoFRigidBodyMotionCoeffs/rhoInf",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "sixDoFRigidBodyMotion"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/sixDoFRigidBodyMotion/sixDoFRigidBodyMotionSolver/sixDoFRigidBodyMotionSolver.C:114"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    },
+    {
+      "keyword": "velocityLaplacianCoeffs",
+      "context": "velocityLaplacianCoeffs",
+      "path": "velocityLaplacianCoeffs/velocityLaplacianCoeffs",
+      "kinds": [
+        "entry"
+      ],
+      "sourceOccurrences": 1,
+      "sourceTypes": [
+        "velocityLaplacian"
+      ],
+      "sourceLocations": [
+        "OpenFOAM-v2606/src/optimisation/adjointOptimisation/adjoint/displacementMethod/displacementMethodvelocityLaplacian/displacementMethodvelocityLaplacian.C:96"
+      ],
+      "reviewStatus": "already-merged-pending-review"
+    }
+  ]
+}
