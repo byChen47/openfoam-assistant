@@ -34,6 +34,7 @@ OpenFOAM Dict IntelliSense 是一个 Visual Studio Code 扩展，用于在编写
 - 为关键词和值提供 Hover 说明
 - 为 `Allrun`、`Allclean` 提示命令、OpenFOAM 函数、工具和环境变量
 - 自动把已识别的字典文件设置为 `OpenFOAM Dictionary` 语言模式
+- 识别带附加后缀的算例文件，例如 `controlDict.1`、`fvSchemes.2`、`U.x`、`p.y`，并回退到对应基础文件的索引
 - 为 `OpenFOAM Dictionary` 语言模式提供语法高亮：注释、`#` 指令、`#{...}#` 代码流、字符串、变量、量纲、数值、布尔值和键名
 - 提示内容保持 OpenFOAM 原始大小写；关键词和值匹配默认不区分大小写
 
@@ -110,7 +111,7 @@ writePrecision
 div
 ```
 
-会提示当前文件中与 `div` 相关的关键词。
+会提示具体的散度项（例如 `div(phi,U)`、`div(rhoPhi,U)`、`div(phirb,alpha)`、`div(rhoPhi,omega)`）以及索引中已有的其他 `div(...)` 项；继续输入空格和格式片段可进一步过滤对应的值。
 
 #### 3. 值补全
 
@@ -242,17 +243,17 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 | 配置项 | 默认值 | 说明 |
 | --- | --- | --- |
 | `openfoamIntellisense.enabled` | `true` | 启用或禁用补全 |
-| `openfoamIntellisense.maxItems` | `200` | 单次返回的最大补全数量 |
+| `openfoamIntellisense.maxItems` | `500` | 单次返回的最大补全数量 |
 | `openfoamIntellisense.fixLanguageMode` | `true` | 自动修正已识别文件的语言模式 |
 
 ### 数据来源与限制
 
 - 索引以 `OpenFOAM-v2606/tutorials/` 为教学案例基础
 - 同时扫描 `OpenFOAM-v2606/src/` 和 `OpenFOAM-v2606/applications/` 中的 dictionary 读取调用
-- 数值格式、边界条件、线性求解器、预条件器、湍流/传输模型、函数对象类型和 `fvSchemes` 注册类型由 `data/keyword-supplements/` 中的独立 JSON 维护
+- 数值格式、边界条件、线性求解器、预条件器、湍流/传输模型、函数对象类型、`fvSchemes` 注册类型和 `topoSet` 类型/参数由 `data/keyword-supplements/` 中的独立 JSON 维护
 - 注册名解析会先把 `TypeName("...")` 与 `make*`/`addToRunTimeSelectionTable` 宏中的 C++ 类名关联，再按真实运行时名称写入索引，避免把 `smoothDelta`、`anisotropicFilter` 等类名误当作 OpenFOAM 设置值
 - 当前源码补充映射了 4,704 条调用、623 个关键词，覆盖 423 个目标文件
-- 独立关键词目录包含 19 组、662 个类型；其中 `fvSchemes/surfaceInterpolation.json` 收录 79 个面插值格式，包含 `limitedLinearV`、`limitedLinear`、`vanLeer`、`MUSCLV`、`linearUpwindV` 等；`LES/LESdelta.json` 与 `LES/LESfilter.json` 分别维护 LES 尺度与过滤模型
+- 独立关键词目录包含 24 个生成组、989 个生成类型，另含 6 个手工散度键（共 995 个运行时补充记录）；其中 `fvSchemes/surfaceInterpolation.json` 收录 79 个面插值格式，包含 `limitedLinearV`、`limitedLinear`、`vanLeer`、`MUSCLV`、`linearUpwindV` 等；`LES/LESdelta.json` 与 `LES/LESfilter.json` 分别维护 LES 尺度与过滤模型
 - 每个源码补充条目记录 `sourceTypes` 和 `sourceLocations`，便于审查
 - 扩展不编译 OpenFOAM、不执行求解器，也不替代 OpenFOAM 自身的输入校验
 
@@ -267,6 +268,7 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - `fvSolution`：求解器、预条件器和光滑器候选均已从源码合并
 - `applications`：248 个应用/工具组，533 个 dictionary 关键词，297 个命令行选项或参数
 - `bin`：64 个 Shell 脚本，包含命令、函数、变量和选项
+- `topoSet`：6 个集合类型、11 个动作、65 个来源类型和 63 个常用参数
 - `OpenFOAM Dictionary` 语言模式：新增语法高亮（注释、`#` 指令、`#{...}#` 代码流、字符串、变量、量纲、数值、布尔值、键名）
 - VS Code 最低版本：1.111
 
@@ -309,13 +311,15 @@ npm.cmd run extract:keywords
 
 如果都找不到，脚本会给出明确报错而不是中途失败。语料路径不会写入生成结果，生成结果中的来源路径始终相对于项目根目录。
 
-完整数据管线（顺序不可调换，后一步依赖前一步的输出；第一步会整体重建 `data/keywords/`，因此必须执行全部六步，或直接运行 `npm.cmd run extract:keywords`）：
+完整数据管线（顺序不可调换，后一步依赖前一步的输出；第一步会整体重建 `data/keywords/`，因此必须执行全部八步，或直接运行 `npm.cmd run extract:keywords`）：
 
 ```powershell
 node tools\extract-openfoam-keywords.mjs
 node tools\build-source-review.mjs
 node tools\build-app-bin-review.mjs
 node tools\build-keyword-supplements.mjs
+node tools\build-divscheme-keys.mjs
+node tools\build-toposet-supplements.mjs
 node tools\merge-source-supplements.mjs
 node tools\merge-keyword-supplements.mjs
 ```
@@ -358,7 +362,10 @@ Typical use cases:
 - Provides hover documentation for keywords and values
 - Suggests commands, OpenFOAM functions, utilities, and environment variables in `Allrun` and `Allclean`
 - Automatically applies the `OpenFOAM Dictionary` language mode to recognized dictionary files
+- Recognizes case files with trailing suffixes, such as `controlDict.1`, `fvSchemes.2`, `U.x`, and `p.y`, and falls back to the corresponding base-file index
 - Highlights the `OpenFOAM Dictionary` language mode: comments, `#` directives, `#{...}#` code streams, strings, variables, dimensions, numbers, booleans, and entry keys
+- Matching supports case-insensitive prefixes, substrings, initials, spaces, and dictionary punctuation; related candidates are aggregated within the same `fvSchemes` block
+- Completion metadata includes original, normalized, and compact search text so VS Code client-side filtering does not hide valid results
 - Preserves keyword and value case
 
 ### Supported Files
@@ -434,7 +441,7 @@ In `system/fvSchemes`, type:
 div
 ```
 
-The extension suggests matching keywords from that file.
+The extension suggests concrete entries such as `div(phi,U)`, `div(rhoPhi,U)`, `div(phirb,alpha)`, and `div(rhoPhi,omega)`, together with the other observed `div(...)` entries. Continue with a scheme fragment to filter the corresponding values.
 
 #### 3. Value Completion
 
@@ -566,7 +573,7 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 | Setting | Default | Description |
 | --- | --- | --- |
 | `openfoamIntellisense.enabled` | `true` | Enable or disable completion |
-| `openfoamIntellisense.maxItems` | `200` | Maximum number of completion items |
+| `openfoamIntellisense.maxItems` | `500` | Maximum number of completion items |
 | `openfoamIntellisense.fixLanguageMode` | `true` | Automatically correct recognized file language modes |
 
 ### Data Source and Limitations
@@ -576,11 +583,12 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - Source keywords are mapped to concrete `0`, `constant`, and `system` files by runtime type and source path.
 - The current source supplement maps 4,704 calls and 623 keywords across 423 target files; the `etc` supplement adds 4,702 calls and 1,811 keywords across 87 target files.
 - Numerical schemes, boundary conditions, linear solvers, preconditioners, turbulence/transport models, and function-object types are maintained in independent JSON files under `data/keyword-supplements/`.
-- The independent keyword directory contains 19 groups and 662 types; `fvSchemes/surfaceInterpolation.json` alone contains 79 surface-interpolation schemes, including `limitedLinearV`, `limitedLinear`, `vanLeer`, `MUSCLV`, and `linearUpwindV`. `LES/LESdelta.json` and `LES/LESfilter.json` separately maintain the LES delta and filter models. Runtime registration names are resolved through the `TypeName("...")` associated with the class passed to `make*` and `addToRunTimeSelectionTable` macros, so implementation class names such as `smoothDelta` and `anisotropicFilter` are not exposed as setting values.
+- The independent keyword directory now contains 24 generated groups and 989 generated types, plus 6 durable manual divergence keys (995 runtime supplement records); `fvSchemes/surfaceInterpolation.json` alone contains 79 surface-interpolation schemes, including `limitedLinearV`, `limitedLinear`, `vanLeer`, `MUSCLV`, and `linearUpwindV`. `LES/LESdelta.json` and `LES/LESfilter.json` separately maintain the LES delta and filter models. Runtime registration names are resolved through the `TypeName("...")` associated with the class passed to `make*` and `addToRunTimeSelectionTable` macros, so implementation class names such as `smoothDelta` and `anisotropicFilter` are not exposed as setting values.
+- Concrete `divSchemes` keys are maintained separately in `data/keyword-supplements/fvSchemes/divSchemesKeys.json`. The source scan finds 182 keys and the manual catalog preserves 6 additional keys (188 total), including `div(rhoPhi,omega)`.
 - Each source-derived entry records `sourceTypes` and `sourceLocations` for auditing.
 - Keyword and value matching is case-insensitive, supports prefix, substring, and compact-initial fragments (for example, `wc` -> `writeControl`), and falls back to broader contexts when the current dictionary context has no exact match.
 - Shell variable completion supports both `$NAME` and `${NAME}` forms.
-- Known limitation: completion is only enabled for files recognized under `0`, `0.orig`, `0.org`, `constant`, or `system`; `.C` files remain C++ source files.
+- Known limitation: completion is only enabled for files recognized under `0`, `0.orig`, `0.org`, `constant`, or `system`, including renamed files with trailing suffixes such as `.1`, `.2`, `.x`, and `.y`; `.C` files remain C++ source files.
 - The extension does not compile OpenFOAM, run solvers, or replace OpenFOAM input validation.
 
 ### 1.1.9 Index Coverage
@@ -591,12 +599,15 @@ OpenFOAM: Set Current File Language to OpenFOAM Dictionary
 - Scripts: `Allrun`, `Allclean`
 - Boundary conditions: 253 source/application definitions, including 90 with additional dictionary keywords; `boundaryField/{patch}/type` candidates are merged from source-derived supplements.
 - Numerical schemes: 79 surface-interpolation, 8 time, 9 gradient, 8 snGrad, 2 laplacian, 2 convection, and 2 second-order time derivative schemes.
+- Concrete divergence keys: 188 separately maintained records; after merging with the existing dictionary index, typing `div` can expose 214 concrete `div(...)` candidates.
 
 ### Divergence Scheme Audit
 
 According to the OpenFOAM-v2606 runtime registration macros, the surface-interpolation index now also includes `interfaceCompression`, `DEShybrid`, `Phi`, `blended`, and the Fit schemes (`biLinearFit`, `linearFit`, `quadraticFit`, `quadraticLinearFit`, `linearPureUpwindFit`, `quadraticLinearPureUpwindFit`, `cubicUpwindFit`, `quadraticLinearUpwindFit`, and `quadraticUpwindFit`).
 
 The names `skewLinear` and `cubicCorrected` are not registered in OpenFOAM-v2606; the corresponding registered names are `skewCorrected` and `cubic`. `noInterfaceCompression` was not found in the current source tree and is therefore not added to the runtime index. `bounded` is not a surface-interpolation scheme; it is a `divSchemes` value prefix, for example `bounded Gauss linearUpwind grad(U)`.
+
+The concrete `div(...)` keys come from every shipped dictionary location scanned by the generator (`applications`, `etc`, `etc-mingw`, `modules`, `plugins`, and `tutorials`), not only the main tutorial tree. At runtime, each concrete key can reuse the complete candidate set from its `divSchemes` block; values observed directly for the selected key are ranked first, while shared values are labeled as shared candidates. For example, `div(rhoPhi,omega) linear` returns the broad `linear` family rather than being limited to one tutorial value.
 - `fvSolution`: solver, preconditioner, and smoother candidates are merged from source-derived supplements.
 - `applications`: 248 application/tool groups, 533 dictionary keywords, and 297 command-line options or arguments.
 - `bin`: 64 shell scripts with commands, functions, variables, and options
@@ -630,13 +641,15 @@ The `OpenFOAM-v2606` source tree is the extraction corpus. It is large and there
 
 If none is found, the scripts fail with an explicit message instead of failing halfway. The corpus location is never written into the generated output; recorded source paths stay relative to the project root.
 
-Full data pipeline (the order matters, each step consumes the previous output; the first step rebuilds `data/keywords/` from scratch, so always run all six steps or use `npm.cmd run extract:keywords` above):
+Full data pipeline (the order matters, each step consumes the previous output; the first step rebuilds `data/keywords/` from scratch, so always run all eight steps or use `npm.cmd run extract:keywords` above):
 
 ```powershell
 node tools\extract-openfoam-keywords.mjs
 node tools\build-source-review.mjs
 node tools\build-app-bin-review.mjs
 node tools\build-keyword-supplements.mjs
+node tools\build-divscheme-keys.mjs
+node tools\build-toposet-supplements.mjs
 node tools\merge-source-supplements.mjs
 node tools\merge-keyword-supplements.mjs
 ```

@@ -3,6 +3,8 @@
 const DYNAMIC_CONTAINERS = new Map(Object.entries(require('./dynamic-containers.json')));
 
 const ZERO_DIR_RE = /^0(?:\.(?:orig|org))?$/;
+const BACKUP_SUFFIX_RE = /\.(?:[0-9]+|orig|org|x|y|bak|old)$/i;
+const SCHEME_CONTEXT_RE = /^(?:convectionSchemes|d2dt2Schemes|ddtSchemes|divSchemes|gradSchemes|interpolationSchemes|laplacianSchemes|snGradSchemes)(?:\/|$)/;
 
 function toPosix(value) {
   return value.split('\\').join('/');
@@ -12,8 +14,11 @@ function classifyRelativePath(relativePath) {
   const parts = toPosix(relativePath).split('/').filter(Boolean);
   const fileName = parts.at(-1);
 
-  if (fileName === 'Allrun' || fileName === 'Allclean') {
-    return { category: 'scripts', fileKey: fileName };
+  for (const scriptName of ['Allrun', 'Allclean']) {
+    const suffix = fileName.slice(scriptName.length);
+    if (fileName === scriptName || (suffix.startsWith('.') && BACKUP_SUFFIX_RE.test(suffix))) {
+      return { category: 'scripts', fileKey: scriptName };
+    }
   }
 
   const zeroIndex = parts.findIndex((part) => ZERO_DIR_RE.test(part));
@@ -43,6 +48,32 @@ function classifyRelativePath(relativePath) {
   return null;
 }
 
+function getFileKeyCandidates(fileKey) {
+  const normalized = toPosix(fileKey).replace(/^\/+|\/+$/g, '');
+  if (!normalized) return [];
+
+  const segments = normalized.split('/').filter(Boolean);
+  const baseName = segments.pop() || '';
+  const baseNames = [];
+  let current = baseName;
+  while (BACKUP_SUFFIX_RE.test(current)) {
+    current = current.slice(0, current.lastIndexOf('.'));
+    if (!current || current === '.') break;
+    if (!baseNames.includes(current)) baseNames.push(current);
+  }
+
+  const candidates = [];
+  const add = (value) => {
+    if (value && !candidates.includes(value)) candidates.push(value);
+  };
+
+  add(normalized);
+  for (const name of baseNames) add([...segments, name].join('/'));
+  if (segments.length === 0) {
+    for (const name of [baseName, ...baseNames]) add(name);
+  }
+  return candidates;
+}
 function normalizeContextSegments(segments) {
   const normalized = [...segments];
 
@@ -66,6 +97,7 @@ function normalizeContextString(context) {
 function getContextPath(textBeforeCursor) {
   const stack = [];
   let token = '';
+  let pendingListKey = null;
   let index = 0;
 
   while (index < textBeforeCursor.length) {
@@ -126,10 +158,28 @@ function getContextPath(textBeforeCursor) {
       continue;
     }
 
+    // OpenFOAM list-of-dictionaries syntax, for example:
+    // actions ( { name c0; type cellSet; } );
+    // The dictionary inside the list has no textual key, so retain the list
+    // key and expose it as a dynamic action/item context.
+    if (char === '(') {
+      const key = token.trim().replace(/^"(.*)"$/, '$1');
+      if (key && !key.startsWith('#') && !key.startsWith('$')) {
+        pendingListKey = key;
+      }
+      token = '';
+      index += 1;
+      continue;
+    }
+
     if (char === '{') {
       const key = token.trim().replace(/^"(.*)"$/, '$1');
       if (key && !key.startsWith('#') && !key.startsWith('$')) {
         stack.push(key);
+      }
+      else if (pendingListKey) {
+        const placeholder = DYNAMIC_CONTAINERS.get(pendingListKey) || 'item';
+        stack.push(pendingListKey + '/{' + placeholder + '}');
       }
       token = '';
       index += 1;
@@ -138,6 +188,13 @@ function getContextPath(textBeforeCursor) {
 
     if (char === '}') {
       stack.pop();
+      token = '';
+      index += 1;
+      continue;
+    }
+
+    if (char === ')') {
+      pendingListKey = null;
       token = '';
       index += 1;
       continue;
@@ -160,7 +217,6 @@ function getContextPath(textBeforeCursor) {
 
   return normalizeContextSegments(stack).join('/');
 }
-
 function isInsideBlockComment(textBeforeCursor) {
   const DOUBLE_QUOTE = String.fromCharCode(34);
   const SINGLE_QUOTE = String.fromCharCode(39);
@@ -232,17 +288,20 @@ function getCompletionContext(linePrefix) {
   const valueMatch = linePrefix.match(/^\s*([^\s{};]+)\s+([^;{}]*)$/);
 
   if (valueMatch) {
+    const rawPrefix = valueMatch[2];
     return {
       type: 'value',
       keyword: valueMatch[1],
-      prefix: valueMatch[2].trimEnd(),
+      prefix: rawPrefix.trimEnd(),
+      prefixStart: linePrefix.length - rawPrefix.length,
     };
   }
 
-  const keywordMatch = linePrefix.match(/([^\s{}();]*)$/);
+  const keywordMatch = linePrefix.match(/([^\s{};]*)$/);
   return {
     type: 'keyword',
     prefix: keywordMatch ? keywordMatch[1] : '',
+    prefixStart: keywordMatch ? keywordMatch.index : linePrefix.length,
   };
 }
 
@@ -322,6 +381,10 @@ function normalizeSearchQuery(value) {
     .toLowerCase();
 }
 
+function compactSearchQuery(value) {
+  return normalizeSearchQuery(value).replace(/[\s_./:()[\]{},+]+/g, '');
+}
+
 function getSearchMatchScore(text, prefix) {
   const source = normalizeSearchQuery(text);
   const query = normalizeSearchQuery(prefix);
@@ -338,15 +401,39 @@ function getSearchMatchScore(text, prefix) {
     return 2;
   }
 
+  // Also compare compact forms so spaces, underscores and dictionary
+  // punctuation do not hide valid completions. Examples: "linear upwind"
+  // matches "linearUpwind", and "div phi U" matches "div(phi,U)".
+  const compactSource = compactSearchQuery(text);
+  const compactQuery = compactSearchQuery(prefix);
+  if (compactQuery && (compactSource === compactQuery
+    || compactSource.startsWith(compactQuery)
+    || compactSource.includes(compactQuery))) {
+    return 3;
+  }
+
   // Allow compact initials and other in-order fragments, for example
   // "wc" -> "writeControl" and "fv" -> "fixedValue".
   let queryIndex = 0;
-  for (let sourceIndex = 0; sourceIndex < source.length && queryIndex < query.length; sourceIndex += 1) {
-    if (source[sourceIndex] === query[queryIndex]) {
+  for (let sourceIndex = 0; sourceIndex < compactSource.length && queryIndex < compactQuery.length; sourceIndex += 1) {
+    if (compactSource[sourceIndex] === compactQuery[queryIndex]) {
       queryIndex += 1;
     }
   }
-  return queryIndex === query.length ? 3 : -1;
+  return compactQuery && queryIndex === compactQuery.length ? 3 : -1;
+}
+
+function getCompletionFilterText(prefix, label) {
+  const variants = [
+    prefix,
+    normalizeSearchQuery(prefix),
+    compactSearchQuery(prefix),
+    label,
+    normalizeSearchQuery(label),
+    compactSearchQuery(label),
+  ];
+  return [...new Set(variants.filter((value) => value !== null && value !== undefined && value !== ''))]
+    .join(' ');
 }
 
 function filterByPrefix(items, prefix, getText) {
@@ -356,23 +443,65 @@ function filterByPrefix(items, prefix, getText) {
   return items.filter((item) => getSearchMatchScore(getText(item), prefix) >= 0);
 }
 
+function contextSegmentMatches(left, right) {
+  return left === right
+    || (/^\{[^}]+\}$/.test(left) && !/^\{[^}]+\}$/.test(right))
+    || (/^\{[^}]+\}$/.test(right) && !/^\{[^}]+\}$/.test(left));
+}
+
+function commonContextSegmentCount(left, right) {
+  const leftSegments = left.split('/').filter(Boolean);
+  const rightSegments = right.split('/').filter(Boolean);
+  const length = Math.min(leftSegments.length, rightSegments.length);
+  let index = 0;
+  while (index < length && contextSegmentMatches(leftSegments[index], rightSegments[index])) {
+    index += 1;
+  }
+  return index;
+}
+
+function contextStartsWith(prefix, value) {
+  const prefixSegments = prefix.split('/').filter(Boolean);
+  const valueSegments = value.split('/').filter(Boolean);
+  if (prefixSegments.length === 0 || prefixSegments.length > valueSegments.length) {
+    return false;
+  }
+  for (let index = 0; index < prefixSegments.length; index += 1) {
+    if (!contextSegmentMatches(prefixSegments[index], valueSegments[index])) {
+      return false;
+    }
+  }
+  return true;
+}
+
 function getContextMatchScore(entryContext, normalizedContext) {
   const normalizedEntryContext = normalizeContextString(entryContext);
+  const entrySegments = normalizedEntryContext.split('/').filter(Boolean);
+  const currentSegments = normalizedContext.split('/').filter(Boolean);
 
-  if (normalizedEntryContext === normalizedContext) {
+  if (entrySegments.length === currentSegments.length
+    && contextStartsWith(normalizedEntryContext, normalizedContext)
+    && contextStartsWith(normalizedContext, normalizedEntryContext)) {
     return 0;
   }
-  if (normalizedContext && normalizedEntryContext
-    && normalizedContext.startsWith(`${normalizedEntryContext}/`)) {
+  if (contextStartsWith(normalizedEntryContext, normalizedContext)) {
     return 1;
   }
-  if (!normalizedEntryContext) {
+  if (entrySegments.length === 0) {
     return 2;
   }
-  if (normalizedContext && normalizedEntryContext.startsWith(`${normalizedContext}/`)) {
+  if (contextStartsWith(normalizedContext, normalizedEntryContext)) {
     return 3;
   }
-  return 4;
+
+  // Keep sibling contexts available but rank them below exact, ancestor and
+  // descendant matches. This avoids excluding useful values from the same
+  // dictionary block while still putting the current block first.
+  const commonSegments = commonContextSegmentCount(normalizedEntryContext, normalizedContext);
+  if (commonSegments > 0 && commonSegments === Math.min(entrySegments.length, currentSegments.length)) {
+    return 4;
+  }
+  return commonSegments > 0 ? 5 : 6;
 }
 
 function getKeywordCandidates(entries, contextPath, prefix = '', limit = 200) {
@@ -415,6 +544,25 @@ function escapeKeywordPatternCharacter(char) {
   return char.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+function matchingParenIndex(pattern, openIndex) {
+  let depth = 0;
+  for (let index = openIndex; index < pattern.length; index += 1) {
+    if (pattern[index] === '(') depth += 1;
+    else if (pattern[index] === ')' && --depth === 0) return index;
+  }
+  return -1;
+}
+
+function hasTopLevelAlternative(value) {
+  let depth = 0;
+  for (const char of value) {
+    if (char === '(') depth += 1;
+    else if (char === ')') depth -= 1;
+    else if (char === '|' && depth === 0) return true;
+  }
+  return false;
+}
+
 function keywordPatternRegExp(pattern) {
   let source = '^';
   const groupStack = [];
@@ -432,8 +580,9 @@ function keywordPatternRegExp(pattern) {
       source += '.*';
     }
     else if (char === '(') {
-      const close = pattern.indexOf(')', index + 1);
-      const isAlternativeGroup = close >= 0 && pattern.slice(index + 1, close).includes('|');
+      const close = matchingParenIndex(pattern, index);
+      const isAlternativeGroup = close >= 0
+        && hasTopLevelAlternative(pattern.slice(index + 1, close));
       groupStack.push(isAlternativeGroup);
       source += isAlternativeGroup ? '(' : '\\(';
     }
@@ -467,35 +616,18 @@ function isKeywordEntryMatch(pattern, keyword) {
   }
 }
 
-function getValueCandidates(entries, contextPath, keyword, prefix = '', limit = 200) {
-  const normalizedContext = normalizeContextString(contextPath);
-  const exactEntries = (entries || []).filter((entry) => entry && entry.keyword === keyword);
-  const patternEntries = (entries || []).filter(
-    (entry) => entry && entry.keyword !== keyword && isKeywordEntryMatch(entry.keyword, keyword),
-  );
+function schemeContextRoot(context) {
+  const normalized = normalizeContextString(context);
+  const match = normalized.match(SCHEME_CONTEXT_RE);
+  return match ? match[0].replace(/\/$/, '') : null;
+}
 
-  let matchedEntries = [...exactEntries, ...patternEntries];
-
-  // Keep the existing behavior where a user may press Space before accepting
-  // a partial keyword completion, but only when that partial resolves uniquely.
-  if (matchedEntries.length === 0) {
-    const matchingKeywords = new Set();
-    for (const entry of entries || []) {
-      if (entry && getSearchMatchScore(entry.keyword, keyword) >= 0) {
-        matchingKeywords.add(entry.keyword);
-      }
-    }
-    if (matchingKeywords.size !== 1) {
-      return [];
-    }
-    const resolvedKeyword = [...matchingKeywords][0];
-    matchedEntries = (entries || []).filter((entry) => entry && entry.keyword === resolvedKeyword);
-  }
-
+function collectValueCandidates(matchedEntries, normalizedContext, prefix, limit, directEntries = null) {
   const values = new Map();
 
   for (const entry of matchedEntries) {
     const contextScore = getContextMatchScore(entry.context, normalizedContext);
+    const isDirect = !directEntries || directEntries.has(entry);
     for (const value of entry.values || []) {
       const matchScore = getSearchMatchScore(value.value, prefix);
       if (matchScore < 0) {
@@ -509,6 +641,7 @@ function getValueCandidates(entries, contextPath, keyword, prefix = '', limit = 
           occurrences: 0,
           contextScore: Infinity,
           matchScore: Infinity,
+          shared: !isDirect,
         };
         values.set(value.value, candidate);
       }
@@ -516,18 +649,83 @@ function getValueCandidates(entries, contextPath, keyword, prefix = '', limit = 
       candidate.occurrences += value.occurrences || 0;
       candidate.contextScore = Math.min(candidate.contextScore, contextScore);
       candidate.matchScore = Math.min(candidate.matchScore, matchScore);
+      candidate.shared = candidate.shared && !isDirect;
     }
   }
 
   return [...values.values()]
-    .sort((a, b) => a.contextScore - b.contextScore
+    .sort((a, b) => Number(a.shared) - Number(b.shared)
+      || a.contextScore - b.contextScore
       || a.matchScore - b.matchScore
       || b.occurrences - a.occurrences
       || a.value.localeCompare(b.value, 'en'))
     .slice(0, limit)
-    .map(({ value, occurrences }) => ({ value, occurrences }));
+    .map(({ value, occurrences, shared }) => (
+      shared ? { value, occurrences, shared: true } : { value, occurrences }
+    ));
 }
 
+function getValueCandidates(entries, contextPath, keyword, prefix = '', limit = 200) {
+  const normalizedContext = normalizeContextString(contextPath);
+  const exactEntries = (entries || []).filter((entry) => entry && entry.keyword === keyword);
+  const patternEntries = (entries || []).filter(
+    (entry) => entry && entry.keyword !== keyword && isKeywordEntryMatch(entry.keyword, keyword),
+  );
+
+  let matchedEntries = [...exactEntries, ...patternEntries];
+
+  // Exact and wildcard entries are preferred. In scheme blocks, an unknown
+  // concrete key such as div(rhoPhi,omega) must still receive the complete set
+  // of observed schemes instead of returning early before the fallback.
+  const schemeRoot = schemeContextRoot(normalizedContext);
+  if (matchedEntries.length === 0 && !schemeRoot) {
+    // Keep the existing behavior where a user may press Space before accepting
+    // a partial keyword completion, but only when that partial resolves uniquely.
+    const matchingKeywords = new Set();
+    for (const entry of entries || []) {
+      if (entry && getSearchMatchScore(entry.keyword, keyword) >= 0) {
+        matchingKeywords.add(entry.keyword);
+      }
+    }
+    if (matchingKeywords.size !== 1) {
+      return [];
+    }
+    const resolvedKeyword = [...matchingKeywords][0];
+    matchedEntries = (entries || []).filter((entry) => entry && entry.keyword === resolvedKeyword);
+  }
+
+  // Scheme values are reusable inside the same fvSchemes block. A concrete key
+  // such as div(phi,U) may only appear in a few tutorials, while its default
+  // and sibling keys contain the complete set of observed interpolation
+  // schemes. Include those entries so partial input such as "linear" exposes
+  // all relevant values instead of only the one or two observed for that key.
+  if (schemeRoot) {
+    const directEntries = new Set(matchedEntries);
+    const matchedEntrySet = new Set(directEntries);
+    for (const entry of entries || []) {
+      if (entry && schemeContextRoot(entry.context) === schemeRoot && !matchedEntrySet.has(entry)) {
+        matchedEntrySet.add(entry);
+        matchedEntries.push(entry);
+      }
+    }
+    return collectValueCandidates(matchedEntries, normalizedContext, prefix, limit, directEntries);
+  }
+
+  return collectValueCandidates(matchedEntries, normalizedContext, prefix, limit);
+}
+
+function getSchemeValueCandidates(entries, contextPath, prefix = '', limit = 200) {
+  const normalizedContext = normalizeContextString(contextPath);
+  const schemeRoot = schemeContextRoot(normalizedContext);
+  if (!schemeRoot || normalizeSearchQuery(prefix).length < 2) {
+    return [];
+  }
+
+  const matchedEntries = (entries || []).filter(
+    (entry) => entry && schemeContextRoot(entry.context) === schemeRoot,
+  );
+  return collectValueCandidates(matchedEntries, normalizedContext, prefix, limit, new Set());
+}
 
 function getScriptCandidates(scriptData, linePrefix, prefix = '', limit = 200) {
   const variableMatch = linePrefix.match(/\$\{?[A-Za-z_][A-Za-z0-9_]*$/);
@@ -613,11 +811,15 @@ function formatIndexStats(stats) {
 
 module.exports = {
   classifyRelativePath,
+  compactSearchQuery,
   findHoverEntries,
   formatIndexStats,
   getCompletionContext,
+  getCompletionFilterText,
   getContextPath,
+  getFileKeyCandidates,
   getKeywordCandidates,
+  getSchemeValueCandidates,
   getSearchMatchScore,
   getScriptCandidates,
   getValueCandidates,

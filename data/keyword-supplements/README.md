@@ -1,4 +1,4 @@
-﻿# OpenFOAM keyword supplements
+# OpenFOAM keyword supplements
 
 本目录保存从 OpenFOAM 源码提取的、与算例设置直接相关的运行类型候选。所有名称保持 OpenFOAM 源码中的原始大小写。
 
@@ -16,6 +16,7 @@ the OpenFOAM source tree.
 | `fvSchemes/ddtSchemes.json` | 时间导数格式 |
 | `fvSchemes/gradSchemes.json` | 梯度格式 |
 | `fvSchemes/divSchemes.json` | 散度格式框架 |
+| `fvSchemes/divSchemesKeys.json` | 具体 `div(...)` 键，例如 `div(phi,U)`、`div(rhoPhi,U)`、`div(phirb,alpha)` |
 | `fvSchemes/laplacianSchemes.json` | 拉普拉斯格式 |
 | `fvSchemes/snGradSchemes.json` | 法向梯度格式 |
 | `fvSolution/solvers.json` | 线性方程求解器 |
@@ -29,6 +30,10 @@ the OpenFOAM source tree.
 | `constant/turbulenceModels/LES/LESdelta.json` | LES 尺度模型 |
 | `constant/turbulenceModels/LES/LESfilter.json` | LES 过滤模型 |
 | `system/functionObjects.json` | 函数对象类型 |
+| `system/topoSet/setTypes.json` | `topoSetDict` 集合类型 |
+| `system/topoSet/actions.json` | `action` 动作值 |
+| `system/topoSet/sources.json` | `source` 来源类型 |
+| `system/topoSet/parameters.json` | 常用 `topoSet` 参数关键词 |
 
 ## 手工维护 / Manual maintenance
 
@@ -40,12 +45,16 @@ Each JSON file contains generated `items`. Put durable manual additions in the
 `manualItems` array of the same file. Regenerating the data pipeline replaces
 `items` but preserves `manualItems`; both are merged into the runtime indexes.
 
-The supplements are generated from OpenFOAM runtime registration macros. The parser resolves the C++ class passed to `make*` and `addToRunTimeSelectionTable` through the class-level `TypeName("...")`, so the JSON files contain runtime names rather than implementation class names. OpenFOAM-v2606 uses `skewCorrected` and `cubic`, not `skewLinear` or `cubicCorrected`; `noInterfaceCompression` is not registered. `interfaceCompression`, `DEShybrid`, `Phi`, `blended`, and the Fit schemes are included for source-backed completion.
+`fvSchemes/divSchemesKeys.json` is generated from concrete dictionary keys in `fvSchemes` and `faSchemes` files under `applications`, `etc`, `etc-mingw`, `modules`, `plugins`, and `tutorials`. Keys missing from a source snapshot but required for normal case setup are kept in `manualItems` and preserved on regeneration.
+
+The other supplements are generated from OpenFOAM runtime registration macros. The parser resolves the C++ class passed to `make*` and `addToRunTimeSelectionTable` through the class-level `TypeName("...")`, so the JSON files contain runtime names rather than implementation class names. OpenFOAM-v2606 uses `skewCorrected` and `cubic`, not `skewLinear` or `cubicCorrected`; `noInterfaceCompression` is not registered. `interfaceCompression`, `DEShybrid`, `Phi`, `blended`, and the Fit schemes are included for source-backed completion.
 
 ## 重建 / Regeneration
 
 ```powershell
 node tools\build-keyword-supplements.mjs
+node tools\build-divscheme-keys.mjs
+node tools\build-toposet-supplements.mjs
 node tools\merge-keyword-supplements.mjs
 node --test tests\openfoam.test.js
 ```

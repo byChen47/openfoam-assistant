@@ -4,10 +4,14 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const {
   classifyRelativePath,
+  compactSearchQuery,
   formatIndexStats,
   getCompletionContext,
+  getCompletionFilterText,
   getContextPath,
+  getFileKeyCandidates,
   getKeywordCandidates,
+  getSchemeValueCandidates,
   getSearchMatchScore,
   getScriptCandidates,
   getValueCandidates,
@@ -32,6 +36,10 @@ test('classifies OpenFOAM case paths while preserving file case', () => {
     category: 'scripts',
     fileKey: 'Allrun',
   });
+  assert.deepEqual(classifyRelativePath('case/Allrun.1'), {
+    category: 'scripts',
+    fileKey: 'Allrun',
+  });
 });
 
 test('builds normalized contextual paths', () => {
@@ -44,6 +52,15 @@ test('builds normalized contextual paths', () => {
   ].join('\n');
 
   assert.equal(getContextPath(text), 'boundaryField/{patch}');
+
+  const actionsText = [
+    'actions',
+    '(',
+    '    {',
+    '        name c0;',
+    '        type ',
+  ].join('\n');
+  assert.equal(getContextPath(actionsText), 'actions/{action}');
 });
 
 test('suggests contextual keywords and observed values', () => {
@@ -127,29 +144,66 @@ test('matches partial text inside OpenFOAM identifiers', () => {
   assert.equal(getSearchMatchScore('application', 'xyz'), -1);
 });
 
+test('matches compact forms across spaces and dictionary punctuation', () => {
+  assert.equal(compactSearchQuery('div(phi,U)'), 'divphiu');
+  assert.equal(compactSearchQuery('Gauss linearUpwindV'), 'gausslinearupwindv');
+  assert.equal(getSearchMatchScore('linearUpwindV', 'linear upwind'), 3);
+  assert.equal(getSearchMatchScore('div(phi,U)', 'div phi U'), 3);
+});
+
+test('builds client filter text with normalized and compact variants', () => {
+  const filterText = getCompletionFilterText('Gauss linear', 'Gauss limitedLinearV 1');
+  assert.ok(filterText.includes('Gauss linear'));
+  assert.ok(filterText.includes('gauss linear'));
+  assert.ok(filterText.includes('gausslinear'));
+  assert.ok(filterText.includes('Gauss limitedLinearV 1'));
+  assert.ok(filterText.includes('gausslimitedlinearv1'));
+});
+
 test('parses multi-token value prefixes', () => {
   assert.deepEqual(
     getCompletionContext('        default Gauss linear'),
-    { type: 'value', keyword: 'default', prefix: 'Gauss linear' },
+    { type: 'value', keyword: 'default', prefix: 'Gauss linear', prefixStart: 16 },
   );
   assert.deepEqual(
     getCompletionContext('        default '),
-    { type: 'value', keyword: 'default', prefix: '' },
+    { type: 'value', keyword: 'default', prefix: '', prefixStart: 16 },
   );
   assert.deepEqual(
     getCompletionContext('        divSchemes'),
-    { type: 'keyword', prefix: 'divSchemes' },
+    { type: 'keyword', prefix: 'divSchemes', prefixStart: 8 },
+  );
+  assert.deepEqual(
+    getCompletionContext('        div('),
+    { type: 'keyword', prefix: 'div(', prefixStart: 8 },
+  );
+  assert.deepEqual(
+    getCompletionContext('        div(phi,U'),
+    { type: 'keyword', prefix: 'div(phi,U', prefixStart: 8 },
+  );
+  assert.deepEqual(
+    getCompletionContext('        div(phi,U)'),
+    { type: 'keyword', prefix: 'div(phi,U)', prefixStart: 8 },
+  );
+  assert.deepEqual(
+    getCompletionContext('        default Gauss '),
+    { type: 'value', keyword: 'default', prefix: 'Gauss', prefixStart: 16 },
   );
 });
 
 test('parses value context for parenthesized dictionary keys', () => {
   assert.deepEqual(
     getCompletionContext('        div(phi,U) Gauss limitedLinearV'),
-    { type: 'value', keyword: 'div(phi,U)', prefix: 'Gauss limitedLinearV' },
+    {
+      type: 'value',
+      keyword: 'div(phi,U)',
+      prefix: 'Gauss limitedLinearV',
+      prefixStart: 19,
+    },
   );
   assert.deepEqual(
     getCompletionContext('        laplacian(nu,U) '),
-    { type: 'value', keyword: 'laplacian(nu,U)', prefix: '' },
+    { type: 'value', keyword: 'laplacian(nu,U)', prefix: '', prefixStart: 24 },
   );
 });
 
@@ -175,6 +229,75 @@ test('matches generated wildcard keyword patterns for value completion', () => {
     getValueCandidates(entries, 'divSchemes', 'div(phi,k)', 'upwind'),
     [{ value: 'Gauss upwind', occurrences: 2 }],
   );
+});
+
+test('broadens scheme values across the same fvSchemes block', () => {
+  const entries = [
+    {
+      keyword: 'div(phi,U)',
+      context: 'divSchemes',
+      values: [{ value: 'Gauss limitedLinearV 1', occurrences: 1 }],
+    },
+    {
+      keyword: 'default',
+      context: 'divSchemes',
+      values: [
+        { value: 'Gauss linear', occurrences: 20 },
+        { value: 'Gauss linearUpwind grad(U)', occurrences: 10 },
+        { value: 'bounded Gauss linearUpwindV grad(U)', occurrences: 1 },
+      ],
+    },
+    {
+      keyword: 'default',
+      context: 'gradSchemes',
+      values: [{ value: 'cellLimited Gauss linear 1', occurrences: 5 }],
+    },
+  ];
+
+  const values = getValueCandidates(entries, 'divSchemes', 'div(phi,U)', 'Gauss linear', 500);
+  assert.ok(values.length >= 4);
+  assert.ok(values.some((item) => item.value === 'Gauss linear'));
+  assert.ok(values.some((item) => item.value === 'Gauss linearUpwind grad(U)'));
+  assert.ok(values.some((item) => item.value === 'bounded Gauss linearUpwindV grad(U)'));
+  assert.ok(!values.some((item) => item.value === 'cellLimited Gauss linear 1'));
+
+  const direct = getSchemeValueCandidates(entries, 'divSchemes', 'linear', 500);
+  assert.ok(direct.length >= 3);
+  assert.ok(direct.some((item) => item.value === 'Gauss linearUpwind grad(U)'));
+  assert.ok(!direct.some((item) => item.value === 'cellLimited Gauss linear 1'));
+});
+
+test('returns broad linear completions from the generated fvSchemes index', () => {
+  const fs = require('node:fs');
+  const path = require('node:path');
+  const projectRoot = path.resolve(__dirname, '..');
+  const fvSchemes = JSON.parse(
+    fs.readFileSync(path.join(projectRoot, 'data', 'keywords', 'system', 'fvSchemes.json'), 'utf8'),
+  );
+
+  const values = getValueCandidates(
+    fvSchemes.entries || [],
+    'divSchemes',
+    'div(phi,U)',
+    'Gauss linear',
+    500,
+  );
+  assert.ok(values.length >= 30, 'expected at least 30 scheme values, got ' + values.length);
+  assert.ok(values.some((item) => item.value === 'Gauss linearUpwindV'));
+  assert.ok(values.some((item) => item.value === 'Gauss limitedLinearV 1'));
+
+  const compact = getValueCandidates(
+    fvSchemes.entries || [],
+    'divSchemes',
+    'div(phi,U)',
+    'Gauss lin up',
+    500,
+  );
+  assert.ok(compact.length >= 10, 'expected compact input to match at least 10 values');
+
+  const direct = getSchemeValueCandidates(fvSchemes.entries || [], 'divSchemes', 'linear', 500);
+  assert.ok(direct.length >= 30, 'expected at least 30 direct scheme values, got ' + direct.length);
+  assert.ok(direct.some((item) => item.value === 'Gauss linearUpwindV'));
 });
 
 test('offers values after a unique partial or case-insensitive keyword', () => {
@@ -244,6 +367,45 @@ test('loads the generated index for a concrete OpenFOAM case file', () => {
   assert.equal(info.category, 'system');
   assert.equal(info.fileKey, 'controlDict');
   assert.ok(info.data.entries.some((entry) => entry.keyword === 'application'));
+});
+test('recognizes OpenFOAM files with trailing suffixes', () => {
+  const path = require('node:path');
+  const { KeywordStore } = require('../src/keyword-store');
+  const projectRoot = path.resolve(__dirname, '..');
+  const store = new KeywordStore(projectRoot);
+
+  assert.deepEqual(getFileKeyCandidates('air/U.air.1'), [
+    'air/U.air.1',
+    'air/U.air',
+  ]);
+  assert.deepEqual(getFileKeyCandidates('air/U.air'), ['air/U.air']);
+
+  for (const [relativePath, category, fileKey] of [
+    ['case/system/controlDict.1', 'system', 'controlDict'],
+    ['case/system/controlDict.2', 'system', 'controlDict'],
+    ['case/system/controlDict.x', 'system', 'controlDict'],
+    ['case/system/controlDict.y', 'system', 'controlDict'],
+    ['case/system/fvSchemes.1', 'system', 'fvSchemes'],
+    ['case/constant/transportProperties.x', 'constant', 'transportProperties'],
+    ['case/0/U.x', '0', 'U'],
+    ['case/0/p.y', '0', 'p'],
+    ['case/0/air/U.x', '0', 'air/U'],
+    ['case/Allclean.2', 'scripts', 'Allclean'],
+  ]) {
+    const info = store.lookup(projectRoot, path.join(projectRoot, ...relativePath.split('/')));
+    assert.ok(info, `expected lookup to recognize ${relativePath}`);
+    assert.equal(info.category, category);
+    assert.equal(info.fileKey, fileKey);
+  }
+
+  assert.equal(
+    store.lookup(projectRoot, path.join(projectRoot, 'case', 'system', 'notAControlDict.1')),
+    null,
+  );
+  assert.equal(
+    store.lookup(projectRoot, path.join(projectRoot, 'case', '0', 'unindexedRegion', 'U.x')),
+    null,
+  );
 });
 test('contributes and binds the OpenFOAM dictionary language', () => {
   const path = require('node:path');
@@ -336,9 +498,42 @@ test('keeps source-derived keyword supplements in independent files', () => {
   assert.ok(!lesDelta.items.some((item) => item.name === 'smoothDelta'));
   assert.ok(!lesFilter.items.some((item) => item.name === 'anisotropicFilter'));
 
+  const divKeys = read('fvSchemes/divSchemesKeys.json');
   const manifest = JSON.parse(fs.readFileSync(path.join(root, 'manifest.json'), 'utf8'));
-  assert.equal(manifest.groupCount, 19);
-  assert.equal(manifest.itemCount, 662);
+  assert.equal(manifest.groupCount, manifest.groups.length);
+  assert.equal(
+    manifest.itemCount,
+    manifest.groups.reduce((sum, group) => sum + group.itemCount, 0),
+  );
+  const divGroup = manifest.groups.find((group) => group.group === 'fvSchemes/divSchemesKeys');
+  assert.ok(divGroup, 'missing concrete divSchemes key supplement in the manifest');
+  assert.equal(divGroup.itemCount, divKeys.items.length);
+  assert.equal(divGroup.manualItemCount, divKeys.manualItems.length);
+
+  const topoSetActions = read('system/topoSet/actions.json');
+  const topoSetSources = read('system/topoSet/sources.json');
+  const topoSetParameters = read('system/topoSet/parameters.json');
+  assert.ok(topoSetActions.items.some((item) => item.name === 'new'));
+  assert.ok(topoSetActions.items.some((item) => item.name === 'subset'));
+  assert.ok(topoSetSources.items.some((item) => item.name === 'boxToCell'));
+  assert.ok(topoSetParameters.items.some((item) => item.name === 'box'));
+  const absoluteLocations = topoSetParameters.items
+    .flatMap((item) => item.sourceLocations || [])
+    .filter((location) => /^[A-Za-z]:[\\/]|^\//.test(location));
+  assert.deepEqual(absoluteLocations, []);
+  for (const group of [
+    'system/topoSet/actions',
+    'system/topoSet/parameters',
+    'system/topoSet/setTypes',
+    'system/topoSet/sources',
+  ]) {
+    assert.ok(manifest.groups.some((item) => item.group === group), `missing ${group}`);
+  }
+
+  const packageJson = JSON.parse(
+    fs.readFileSync(path.join(__dirname, '..', 'package.json'), 'utf8'),
+  );
+  assert.match(packageJson.scripts['extract:keywords'], /build-toposet-supplements\.mjs/);
 });
 
 test('covers source-registered divergence interpolation schemes', () => {
@@ -371,6 +566,78 @@ test('covers source-registered divergence interpolation schemes', () => {
   for (const name of ['skewLinear', 'cubicCorrected', 'noInterfaceCompression']) {
     assert.ok(!names.has(name), `unexpected non-registered scheme name: ${name}`);
   }
+});
+
+test('indexes concrete divSchemes keys and exposes them from div completion', () => {
+  const path = require('node:path');
+  const fs = require('node:fs');
+  const root = path.resolve(__dirname, '..');
+  const supplement = JSON.parse(
+    fs.readFileSync(
+      path.join(root, 'data', 'keyword-supplements', 'fvSchemes', 'divSchemesKeys.json'),
+      'utf8',
+    ),
+  );
+  const expectedKeys = [...supplement.items, ...supplement.manualItems].map((item) => item.name);
+  for (const key of [
+    'div(phi,U)',
+    'div(rhoPhi,U)',
+    'div(phirb,alpha)',
+    'div(rhoPhi,omega)',
+  ]) {
+    assert.ok(expectedKeys.includes(key), `missing concrete divergence key: ${key}`);
+  }
+
+  const fvSchemes = JSON.parse(
+    fs.readFileSync(path.join(root, 'data', 'keywords', 'system', 'fvSchemes.json'), 'utf8'),
+  );
+  const entries = fvSchemes.entries || [];
+  for (const key of ['div(phi,U)', 'div(rhoPhi,U)', 'div(phirb,alpha)', 'div(rhoPhi,omega)']) {
+    const entry = entries.find((item) => item.keyword === key && item.context === 'divSchemes');
+    assert.ok(entry, `missing runtime index entry for ${key}`);
+  }
+  const defaultEntry = entries.find(
+    (item) => item.keyword === 'default' && item.context === 'divSchemes',
+  );
+  assert.ok(defaultEntry);
+  assert.ok(defaultEntry.values.length >= 80, 'too few shared divSchemes values');
+  const manualEntry = entries.find(
+    (item) => item.keyword === 'div(rhoPhi,omega)' && item.context === 'divSchemes',
+  );
+  assert.equal(manualEntry.values.length, 0);
+  assert.equal(manualEntry.sourceOccurrences, 0);
+
+  const candidates = getKeywordCandidates(entries, 'divSchemes', 'div', 500);
+  const concrete = candidates.filter((item) => item.keyword.startsWith('div('));
+  assert.ok(concrete.length >= expectedKeys.length, `expected at least ${expectedKeys.length} concrete div completions, got ${concrete.length}`);
+  for (const key of expectedKeys) {
+    assert.ok(concrete.some((item) => item.keyword === key), `div completion missing ${key}`);
+  }
+
+  const values = getValueCandidates(entries, 'divSchemes', 'div(rhoPhi,omega)', 'linear', 500);
+  assert.ok(values.length >= 20, `expected broad linear values, got ${values.length}`);
+  assert.ok(values.some((item) => item.value === 'Gauss linear'));
+  assert.ok(values.some((item) => item.value === 'Gauss limitedLinear 1'));
+  assert.ok(values.every((item) => item.shared));
+});
+
+test('merges TopoSet supplements into contextual runtime entries', () => {
+  const path = require('node:path');
+  const fs = require('node:fs');
+  const root = path.resolve(__dirname, '..');
+  const topoSet = JSON.parse(
+    fs.readFileSync(path.join(root, 'data', 'keywords', 'system', 'topoSetDict.json'), 'utf8'),
+  );
+  const entries = topoSet.entries || [];
+  const byPath = new Map(entries.map((entry) => [entry.path, entry]));
+
+  assert.deepEqual(
+    byPath.get('actions/{action}/type').values.map((item) => item.value).sort(),
+    ['cellSet', 'cellZoneSet', 'faceSet', 'faceZoneSet', 'pointSet', 'pointZoneSet'],
+  );
+  assert.ok(byPath.get('actions/{action}/action').values.some((item) => item.value === 'new'));
+  assert.ok(byPath.get('actions/{action}/source').values.some((item) => item.value === 'boxToCell'));
+  assert.ok(byPath.has('actions/{action}/box'));
 });
 
 test('merges source supplements into the runtime keyword indexes', () => {

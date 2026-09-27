@@ -124,6 +124,105 @@ function mergeFile(relativePath, points, supplementData) {
   write(filePath, file);
 }
 
+function mergeDivSchemeKeys() {
+  const supplementFile = path.join(supplementRoot, 'fvSchemes', 'divSchemesKeys.json');
+  if (!fs.existsSync(supplementFile)) return { itemCount: 0, generatedItemCount: 0, manualItemCount: 0 };
+
+  const document = read(supplementFile);
+  const filePath = path.join(indexRoot, 'system', 'fvSchemes.json');
+  const file = read(filePath);
+  const items = [
+    ...(Array.isArray(document.items) ? document.items : []),
+    ...(Array.isArray(document.manualItems) ? document.manualItems : []),
+  ];
+  let manualItemCount = 0;
+
+  for (const item of items) {
+    if (!item || typeof item.name !== 'string' || !item.name.startsWith('div(')) continue;
+    const sourceFiles = Array.isArray(item.sourceFiles) ? item.sourceFiles : [];
+    const entry = addEntry(file, 'divSchemes/' + item.name, [], {
+      group: document.group || 'fvSchemes/divSchemesKeys',
+      locations: item.sourceLocations || item.sourceFiles || [],
+    });
+    entry.occurrences = Math.max(entry.occurrences || 0, item.occurrences || 0);
+    entry.fileCount = Math.max(entry.fileCount || 0, sourceFiles.length);
+    entry.sourceOccurrences = Math.max(entry.sourceOccurrences || 0, item.occurrences || 0);
+    if (item.manual) {
+      entry.manual = true;
+      entry.sourceTypes = sortedUnique([...(entry.sourceTypes || []), 'manual']);
+      manualItemCount += 1;
+    }
+    for (const location of item.sourceLocations || item.sourceFiles || []) {
+      if (entry.examples.length < 5 && !entry.examples.includes(location)) entry.examples.push(location);
+    }
+  }
+
+  file.entryKeySupplement = {
+    directory: 'data/keyword-supplements/fvSchemes/divSchemesKeys.json',
+    itemCount: items.length,
+    generatedItemCount: Array.isArray(document.items) ? document.items.length : 0,
+    manualItemCount,
+  };
+  write(filePath, file);
+  return {
+    itemCount: items.length,
+    generatedItemCount: Array.isArray(document.items) ? document.items.length : 0,
+    manualItemCount,
+  };
+}
+
+function mergeTopoSetSupplements(supplementData) {
+  const names = (group) => supplementData.namesByGroup.get(group) || [];
+  const locations = (group) => supplementData.locationsByGroup.get(group) || [];
+  const filePath = path.join(indexRoot, 'system', 'topoSetDict.json');
+  const file = read(filePath);
+
+  for (const point of [
+    {
+      group: 'system/topoSet/setTypes',
+      path: 'actions/{action}/type',
+      values: names('system/topoSet/setTypes'),
+    },
+    {
+      group: 'system/topoSet/actions',
+      path: 'actions/{action}/action',
+      values: names('system/topoSet/actions'),
+    },
+    {
+      group: 'system/topoSet/sources',
+      path: 'actions/{action}/source',
+      values: names('system/topoSet/sources'),
+    },
+  ]) {
+    if (point.values.length === 0) continue;
+    addEntry(file, point.path, point.values, {
+      group: point.group,
+      locations: locations(point.group),
+    });
+  }
+
+  const parameterGroup = 'system/topoSet/parameters';
+  const parameterNames = names(parameterGroup);
+  for (const name of parameterNames) {
+    addEntry(file, `actions/{action}/${name}`, [], {
+      group: parameterGroup,
+      locations: locations(parameterGroup),
+    });
+  }
+
+  file.supplemental = {
+    directory: 'data/keyword-supplements',
+    casePolicy: 'preserve-source-case',
+  };
+  write(filePath, file);
+  return {
+    setTypeCount: names('system/topoSet/setTypes').length,
+    actionCount: names('system/topoSet/actions').length,
+    sourceCount: names('system/topoSet/sources').length,
+    parameterCount: parameterNames.length,
+  };
+}
+
 function mergeZeroBoundaryFields(supplementData) {
   const manifest = read(path.join(indexRoot, 'manifest.json'));
   const category = manifest.categories && manifest.categories['0'];
@@ -248,6 +347,8 @@ function main() {
     { group: 'system/functionObjects', path: 'functions/{function}/type', values: functionObjects },
   ], supplementData);
 
+  const mergedDivSchemeKeys = mergeDivSchemeKeys();
+  const mergedTopoSet = mergeTopoSetSupplements(supplementData);
   const mergedZeroFiles = mergeZeroBoundaryFields(supplementData);
 
   const manifest = read(path.join(indexRoot, 'manifest.json'));
@@ -260,10 +361,17 @@ function main() {
     itemCount: supplementData.files.reduce((sum, file) => sum + file.names.length, 0),
     zeroBoundaryFieldFileCount: mergedZeroFiles.fv,
     zeroPointBoundaryFieldFileCount: mergedZeroFiles.point,
+    divSchemeKeys: {
+      file: 'data/keyword-supplements/fvSchemes/divSchemesKeys.json',
+      itemCount: mergedDivSchemeKeys.itemCount,
+      generatedItemCount: mergedDivSchemeKeys.generatedItemCount,
+      manualItemCount: mergedDivSchemeKeys.manualItemCount,
+    },
+    topoSet: mergedTopoSet,
   };
   write(path.join(indexRoot, 'manifest.json'), manifest);
 
-  process.stdout.write(`${JSON.stringify({ groupCount: supplementData.files.length, zeroBoundaryFieldFileCount: mergedZeroFiles.fv, zeroPointBoundaryFieldFileCount: mergedZeroFiles.point })}\n`);
+  process.stdout.write(`${JSON.stringify({ groupCount: supplementData.files.length, zeroBoundaryFieldFileCount: mergedZeroFiles.fv, zeroPointBoundaryFieldFileCount: mergedZeroFiles.point, topoSet: mergedTopoSet })}\n`);
 }
 
 main();

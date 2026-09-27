@@ -50,9 +50,9 @@
         },
         "openfoamIntellisense.maxItems": {
           "type": "number",
-          "default": 200,
+          "default": 500,
           "minimum": 20,
-          "maximum": 1000,
+          "maximum": 2000,
           "description": "Maximum number of completion items returned at once."
         },
         "openfoamIntellisense.fixLanguageMode": {
@@ -82,12 +82,14 @@
     ]
   },
   "scripts": {
-    "extract:keywords": "node tools/extract-openfoam-keywords.mjs && node tools/build-source-review.mjs && node tools/build-app-bin-review.mjs && node tools/build-keyword-supplements.mjs && node tools/merge-source-supplements.mjs && node tools/merge-keyword-supplements.mjs",
+    "extract:keywords": "node tools/extract-openfoam-keywords.mjs && node tools/build-source-review.mjs && node tools/build-app-bin-review.mjs && node tools/build-keyword-supplements.mjs && node tools/build-divscheme-keys.mjs && node tools/build-toposet-supplements.mjs && node tools/merge-source-supplements.mjs && node tools/merge-keyword-supplements.mjs",
     "test": "node --test tests/openfoam.test.js",
     "package:vsix": "vsce package --no-dependencies",
-    "review:supplements": "node tools/build-source-review.mjs && node tools/build-app-bin-review.mjs && node tools/build-keyword-supplements.mjs",
+    "review:supplements": "node tools/build-source-review.mjs && node tools/build-app-bin-review.mjs && node tools/build-keyword-supplements.mjs && node tools/build-divscheme-keys.mjs && node tools/build-toposet-supplements.mjs",
     "merge:supplements": "node tools/merge-source-supplements.mjs && node tools/merge-keyword-supplements.mjs",
     "build:keyword-supplements": "node tools/build-keyword-supplements.mjs",
+    "build:divscheme-keys": "node tools/build-divscheme-keys.mjs",
+    "build:toposet-supplements": "node tools/build-toposet-supplements.mjs",
     "merge:keyword-supplements": "node tools/merge-keyword-supplements.mjs"
   },
   "repository": {

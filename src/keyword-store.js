@@ -2,7 +2,7 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
-const { classifyRelativePath, toPosix } = require('./openfoam');
+const { classifyRelativePath, getFileKeyCandidates, toPosix } = require('./openfoam');
 
 class KeywordStore {
   constructor(extensionPath) {
@@ -55,11 +55,23 @@ class KeywordStore {
       return null;
     }
 
-    let fileInfo = categoryFiles.get(classification.fileKey);
+    const candidateKeys = getFileKeyCandidates(classification.fileKey);
+    let fileInfo = null;
+    for (const candidateKey of candidateKeys) {
+      fileInfo = categoryFiles.get(candidateKey);
+      if (fileInfo) break;
+    }
+
+    // Keep basename fallback for flat files only. Nested files already probe
+    // their established region path and must not silently fall back to an
+    // unrelated top-level field with the same basename.
     if (!fileInfo && !classification.fileKey.includes('/')) {
-      fileInfo = [...categoryFiles.values()].find(
-        (item) => item.fileKey.split('/').at(-1) === classification.fileKey,
-      );
+      for (const candidateKey of candidateKeys.filter((key) => !key.includes('/'))) {
+        fileInfo = [...categoryFiles.values()].find(
+          (item) => item.fileKey.split('/').at(-1) === candidateKey,
+        );
+        if (fileInfo) break;
+      }
     }
 
     if (!fileInfo) {

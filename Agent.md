@@ -34,7 +34,7 @@ VS Code 扩展 `openfoam-dict-intellisense`（发布者 `boyaoChen`），为 Ope
 
 ```powershell
 node --test tests\openfoam.test.js   # 跑测试（npm test 等价）
-npm.cmd run extract:keywords          # 重建全部关键词数据（6 步管线）
+npm.cmd run extract:keywords          # 重建全部关键词数据（8 步管线）
 npm.cmd run review:supplements        # 只重建 data/source-supplements 和独立类型补充
 npm.cmd run merge:supplements         # 只把审查产物和独立类型补充合并回 data/keywords
 powershell -ExecutionPolicy Bypass -File tools\build-vsix.ps1   # 测试 + 图标 + 打包
@@ -52,18 +52,20 @@ powershell -ExecutionPolicy Bypass -File tools\build-vsix.ps1   # 测试 + 图�
 
 ## 5. 数据管线
 
-六步顺序固定，后一步依赖前一步的输出：
+八步顺序固定，后一步依赖前一步的输出：
 
 ```powershell
 node tools\extract-openfoam-keywords.mjs   # 1. 教程 + etc + 源码 -> data/keywords
 node tools\build-source-review.mjs         # 2. 源码审查 -> data/source-supplements + REVIEW.md
 node tools\build-app-bin-review.mjs        # 3. applications/bin 审查 + 追加 REVIEW.md 章节
 node tools\build-keyword-supplements.mjs   # 4. 源码运行类型 -> data/keyword-supplements
-node tools\merge-source-supplements.mjs    # 5. source/etc 审查结果合并回 data/keywords
-node tools\merge-keyword-supplements.mjs   # 6. 独立类型补充合并回正式索引
+node tools\build-divscheme-keys.mjs        # 5. 具体 div(...) 键 -> data/keyword-supplements
+node tools\build-toposet-supplements.mjs   # 6. topoSet 类型/动作/来源/参数 -> data/keyword-supplements
+node tools\merge-source-supplements.mjs    # 7. source/etc 审查结果合并回 data/keywords
+node tools\merge-keyword-supplements.mjs   # 8. 独立类型补充合并回正式索引
 ```
 
-`npm.cmd run extract:keywords` 就是这六步。**不要只跑第 1 步**：`extract` 会 `rm -rf data/keywords` 后重建，只跑它会丢掉 `applications/`、`bin/`、`boundary-conditions/`、`manifest.auxiliary` 和源码类型补充，测试会立刻失败。
+`npm.cmd run extract:keywords` 就是这八步。**不要只跑第 1 步**：`extract` 会 `rm -rf data/keywords` 后重建，只跑它会丢掉 `applications/`、`bin/`、`boundary-conditions/`、`manifest.auxiliary` 和源码类型补充，测试会立刻失败。
 
 各脚本职责：
 
@@ -73,8 +75,10 @@ node tools\merge-keyword-supplements.mjs   # 6. 独立类型补充合并回正�
 | `build-source-review.mjs` | `src/`、`applications/` + 已生成的索引 | `data/source-supplements/**`、聚合 `boundary-conditions.json`、逐类型 `boundary-conditions/*.json`、`coverage.json`、`unmapped.json`、`REVIEW.md` 上半部分 |
 | `build-app-bin-review.mjs` | `applications/`、`bin/` | `data/source-supplements/{applications,bin}/**`、`REVIEW.md` 的 Applications/Bin 章节（整体重写，勿手工编辑） |
 | `build-keyword-supplements.mjs` | `src/` | `data/keyword-supplements/**`：面插值、时间/梯度/散度/拉普拉斯/法向梯度格式、求解器、预条件器、光滑器、边界条件、湍流/传输模型、函数对象类型；`manualItems` 会保留 |
+| `build-divscheme-keys.mjs` | `applications/`、`etc/`、`etc-mingw/`、`modules/`、`plugins/`、`tutorials/` | `data/keyword-supplements/fvSchemes/divSchemesKeys.json`，并更新补充 manifest |
+| `build-toposet-supplements.mjs` | `src/meshTools/topoSet` 及相关源码 | `data/keyword-supplements/system/topoSet/**`，并更新补充 manifest |
 | `merge-source-supplements.mjs` | source/etc 审查产物 | 合并进 `data/keywords/**`，写入 `manifest.auxiliary` |
-| `merge-keyword-supplements.mjs` | `data/keyword-supplements/**` | 合并类型候选到 `system/fvSchemes`、`system/fvSolution`、`0/**`、`constant/**`、`system/controlDict` |
+| `merge-keyword-supplements.mjs` | `data/keyword-supplements/**` | 合并类型候选到 `system/fvSchemes`、`system/fvSolution`、`system/topoSetDict`、`0/**`、`constant/**`、`system/controlDict` |
 | `openfoam-source-scanner.mjs` | — | 公共库：C++ 调用抽取、`TypeName` 抽取 |
 
 注意事项：
@@ -139,7 +143,7 @@ node tools\merge-keyword-supplements.mjs   # 6. 独立类型补充合并回正�
 ## 10. 改动检查清单
 
 - [ ] `node --test tests\openfoam.test.js` 全绿
-- [ ] 改了提取/审查逻辑 → 跑完 6 步管线，数据与代码一致
+- [ ] 改了提取/审查逻辑 → 跑完 8 步管线，数据与代码一致
 - [ ] README 的统计数字、版本号、命令与实际一致
 - [ ] 新增运行时文件已加入 `.vscodeignore` 白名单（即没有被误排除）
 - [ ] 新增的 untracked 文件已 `git add`

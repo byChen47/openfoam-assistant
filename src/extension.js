@@ -6,13 +6,14 @@ const { KeywordStore } = require('./keyword-store');
 const {
   findHoverEntries,
   formatIndexStats,
+  getCompletionFilterText,
   getCompletionContext,
   getContextPath,
   getKeywordCandidates,
+  getSchemeValueCandidates,
   getScriptCandidates,
   getValueCandidates,
   isInsideBlockComment,
-  normalizeSearchQuery,
 } = require('./openfoam');
 
 const DOCUMENT_SELECTOR = { scheme: 'file' };
@@ -35,7 +36,7 @@ function isEnabled() {
 }
 
 function getLimit() {
-  return vscode.workspace.getConfiguration(CONFIG_SECTION).get('maxItems', 200);
+  return vscode.workspace.getConfiguration(CONFIG_SECTION).get('maxItems', 500);
 }
 
 function getDocumentInfo(document) {
@@ -113,20 +114,23 @@ function textBeforePosition(document, position) {
   return text.slice(0, document.offsetAt(position));
 }
 
-function applyCompletionMetadata(completion, position, prefix, label) {
+function applyCompletionMetadata(completion, position, prefix, label, prefixStart) {
   if (!prefix) {
     return;
   }
 
+  const startCharacter = Number.isInteger(prefixStart)
+    ? prefixStart
+    : position.character - prefix.length;
   completion.range = new vscode.Range(
-    new vscode.Position(position.line, Math.max(0, position.character - prefix.length)),
+    new vscode.Position(position.line, Math.max(0, startCharacter)),
     position,
   );
 
-  // VS Code filters provider results again on the client. Prefix the filter
-  // text with the typed fragment so substring/fuzzy results are not discarded.
-  const normalizedPrefix = normalizeSearchQuery(prefix) || prefix;
-  completion.filterText = `${prefix} ${normalizedPrefix} ${label}`;
+  // VS Code filters provider results again on the client. Provide the typed
+  // fragment, normalized form and compact form so spaces or punctuation in
+  // OpenFOAM identifiers do not hide otherwise valid completions.
+  completion.filterText = getCompletionFilterText(prefix, label);
 }
 
 function isCommentLine(linePrefix, textBeforeCursor) {
@@ -177,27 +181,27 @@ function createDocumentation(item) {
   return markdown;
 }
 
-function createKeywordItem(item, position, prefix) {
+function createKeywordItem(item, position, prefix, prefixStart) {
   const completion = new vscode.CompletionItem(item.keyword, keywordKind(item));
   completion.detail = item.paths[0] || item.keyword;
   completion.documentation = createDocumentation(item);
   completion.sortText = `${String(1000000 - Math.min(item.occurrences, 999999)).padStart(6, '0')}:${item.keyword}`;
-  applyCompletionMetadata(completion, position, prefix, item.keyword);
+  applyCompletionMetadata(completion, position, prefix, item.keyword, prefixStart);
   return completion;
 }
 
-function createValueItem(keyword, item, position, prefix) {
+function createValueItem(keyword, item, position, prefix, prefixStart) {
   const completion = new vscode.CompletionItem(item.value, vscode.CompletionItemKind.EnumMember);
-  completion.detail = `${keyword} 的候选值`;
+  completion.detail = item.shared ? `${keyword} 的共享候选值` : `${keyword} 的候选值`;
   completion.documentation = new vscode.MarkdownString(
-    `观测到 **${item.occurrences}** 次。\n\n关键词：\`${keyword}\`\n\n值：\`${item.value}\``,
+    `${item.shared ? '同一索引块的共享候选值。\n\n' : ''}观测到 **${item.occurrences}** 次。\n\n关键词：\`${keyword}\`\n\n值：\`${item.value}\``,
   );
   completion.sortText = `${String(1000000 - Math.min(item.occurrences, 999999)).padStart(6, '0')}:${item.value}`;
-  applyCompletionMetadata(completion, position, prefix, item.value);
+  applyCompletionMetadata(completion, position, prefix, item.value, prefixStart);
   return completion;
 }
 
-function createScriptItem(item, position, prefix) {
+function createScriptItem(item, position, prefix, prefixStart) {
   const kind = item.kind === 'variable'
     ? vscode.CompletionItemKind.Variable
     : item.kind === 'helper'
@@ -211,7 +215,7 @@ function createScriptItem(item, position, prefix) {
   completion.detail = `OpenFOAM ${item.kind}`;
   completion.documentation = new vscode.MarkdownString(`观测到 **${item.occurrences}** 次。`);
   completion.sortText = `${String(1000000 - Math.min(item.occurrences, 999999)).padStart(6, '0')}:${item.label}`;
-  applyCompletionMetadata(completion, position, prefix, item.label);
+  applyCompletionMetadata(completion, position, prefix, item.label, prefixStart);
   return completion;
 }
 
@@ -234,7 +238,7 @@ function provideCompletionItems(document, position) {
       const context = getCompletionContext(linePrefix);
       const prefix = context.prefix;
       const candidates = getScriptCandidates(info.data, linePrefix, prefix, limit);
-      return candidates.map((item) => createScriptItem(item, position, prefix));
+      return candidates.map((item) => createScriptItem(item, position, prefix, context.prefixStart));
     }
 
     const contextPath = getContextPath(beforeCursor);
@@ -248,11 +252,39 @@ function provideCompletionItems(document, position) {
         context.prefix,
         limit,
       );
-      return values.map((item) => createValueItem(context.keyword, item, position, context.prefix));
+      return values.map((item) => createValueItem(
+        context.keyword,
+        item,
+        position,
+        context.prefix,
+        context.prefixStart,
+      ));
     }
 
     const keywords = getKeywordCandidates(info.data.entries || [], contextPath, context.prefix, limit);
-    return keywords.map((item) => createKeywordItem(item, position, context.prefix));
+    if (keywords.length === 0) {
+      const schemeValues = getSchemeValueCandidates(
+        info.data.entries || [],
+        contextPath,
+        context.prefix,
+        limit,
+      );
+      if (schemeValues.length > 0) {
+        return schemeValues.map((item) => createValueItem(
+          'scheme',
+          item,
+          position,
+          context.prefix,
+          context.prefixStart,
+        ));
+      }
+    }
+    return keywords.map((item) => createKeywordItem(
+      item,
+      position,
+      context.prefix,
+      context.prefixStart,
+    ));
   }
   catch (error) {
     console.warn('Unable to provide OpenFOAM completions.', error);
